@@ -1,3 +1,72 @@
+name: Add book (YAML)
+
+on:
+  workflow_dispatch:
+    inputs:
+      status:
+        description: "Buchstatus"
+        required: true
+        type: choice
+        default: finished
+        options:
+          - want to read
+          - started
+          - finished
+          - abandoned
+          - summary
+      title:
+        description: "Titel (leer = nur ISBN/URL speichern)"
+        required: false
+        type: string
+      authors:
+        description: "Autoren, kommasepariert"
+        required: false
+        type: string
+      isbn:
+        description: "ISBN (nur Ziffern/X, ohne Bindestriche)"
+        required: false
+        type: string
+      source:
+        description: "Quelle/URL (optional)"
+        required: false
+        type: string
+      date:
+        description: "YYYY-MM-DD (leer = heute)"
+        required: false
+        type: string
+      rating:
+        description: "Bewertung (0–5, optional)"
+        required: false
+        type: string
+      tags:
+        description: "Tags, kommasepariert (optional)"
+        required: false
+        type: string
+      notes:
+        description: "Notizen (optional)"
+        required: false
+        type: string
+      enrich_openlibrary:
+        description: "Per ISBN via OpenLibrary anreichern (Titel/Autor), falls leer"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  append-book:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
+
       - name: Append YAML entry
         env:
           STATUS: ${{ inputs.status }}
@@ -12,7 +81,7 @@
           ENRICH: ${{ inputs.enrich_openlibrary }}
         run: |
           python - <<'PY'
-import os, sys, re, json, pathlib, datetime, requests, yaml
+import os, sys, re, pathlib, datetime, requests, yaml
 
 p = pathlib.Path("_data/read.yml")
 p.parent.mkdir(parents=True, exist_ok=True)
@@ -32,11 +101,9 @@ def parse_rating(s):
     s = (s or "").strip()
     if not s:
         return None
-    # akzeptiere "4,5" oder "4.5"
     s = s.replace(",", ".")
     try:
         val = float(s)
-        # optional clamp 0..5
         if val < 0: val = 0.0
         if val > 5: val = 5.0
         return val
@@ -47,7 +114,8 @@ def parse_rating(s):
 data = []
 if p.exists() and p.read_text().strip():
     data = yaml.safe_load(p.read_text()) or []
-    if not isinstance(data, list): data = []
+    if not isinstance(data, list):
+        data = []
 
 entry = {
     "typ": "buch",
@@ -73,12 +141,16 @@ def is_duplicate(e):
 def enrich_with_openlibrary(e):
     try:
         if not e.get("isbn"): return
-        if (os.getenv("ENRICH") or "").lower() not in ("true","1","yes","y"): return
+        if (os.getenv("ENRICH") or "").lower() not in ("true","1","yes","y"):
+            return
         r = requests.get(f"https://openlibrary.org/isbn/{e['isbn']}.json", timeout=10)
         if r.status_code != 200:
-            print(f"OL info not found: {r.status_code}", file=sys.stderr); return
+            print(f"OL info not found: {r.status_code}", file=sys.stderr)
+            return
         meta = r.json()
-        if not e["titel"] and meta.get("title"): e["titel"] = meta["title"]
+        if not e["titel"] and meta.get("title"):
+            e["titel"] = meta["title"]
+        # Autoren nachladen
         authors = []
         for a in meta.get("authors", []):
             key = a.get("key")
@@ -92,9 +164,8 @@ def enrich_with_openlibrary(e):
     except Exception as ex:
         print("OpenLibrary Enrichment skipped:", ex, file=sys.stderr)
 
-enrich_with_openlibrary(entry)
-
-entry = {k:v for k,v in entry.items() if v not in (None, [], "")}
+# Leere Felder entfernen
+entry = {k: v for k, v in entry.items() if v not in (None, [], "")}
 
 if is_duplicate(entry):
     print("Duplicate detected, nothing appended.")
@@ -104,3 +175,11 @@ else:
 
 print("OK")
 PY
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _data/read.yml
+          git commit -m "Add book to read.yml" || echo "Nothing to commit"
+          git push || true
