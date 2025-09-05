@@ -143,30 +143,74 @@ jobs:
                       return True
               return False
 
-          def enrich_with_openlibrary(e):
-              try:
-                  if not e.get("isbn"): return
-                  if (os.getenv("ENRICH") or "").lower() not in ("true","1","yes","y"):
-                      return
-                  r = requests.get(f"https://openlibrary.org/isbn/{e['isbn']}.json", timeout=10)
-                  if r.status_code != 200:
-                      print(f"OpenLibrary info not found: HTTP {r.status_code}", file=sys.stderr)
-                      return
-                  meta = r.json()
-                  if not e["titel"] and meta.get("title"):
-                      e["titel"] = meta["title"]
-                  authors = []
-                  for a in meta.get("authors", []):
-                      key = a.get("key")
-                      if not key: continue
-                      ar = requests.get(f"https://openlibrary.org{key}.json", timeout=10)
-                      if ar.status_code == 200:
-                          nm = ar.json().get("name")
-                          if nm: authors.append(nm)
-                  if not e["autor"] and authors:
-                      e["autor"] = authors
-              except Exception as ex:
-                  print("OpenLibrary enrichment skipped:", ex, file=sys.stderr)
+         def enrich_with_openlibrary(e):
+    """
+    Ergänzt titel/autor/cover via OpenLibrary. Probiert 2 Endpunkte.
+    - /isbn/{isbn}.json  (Bibliographische Basisdaten)
+    - /api/books?bibkeys=ISBN:{isbn}&format=json&jscmd=data  (reichere Daten, inkl. Autorenobjekte, Cover)
+    """
+    iso = (os.getenv("ENRICH") or "").strip().lower()
+    if iso not in ("true","1","yes","y"):
+        print("Enrichment disabled via ENRICH env")
+        return
+    isbn = e.get("isbn")
+    if not isbn:
+        print("Enrichment skipped: no ISBN")
+        return
+
+    # 1) Basisdaten
+    try:
+        r = requests.get(f"https://openlibrary.org/isbn/{isbn}.json", timeout=12)
+        if r.status_code == 200:
+            meta = r.json()
+            if not e.get("titel") and meta.get("title"):
+                e["titel"] = meta["title"]
+            # Autoren via /authors/<key>.json nachziehen
+            authors_keys = [a.get("key") for a in meta.get("authors", []) if a.get("key")]
+            authors = []
+            for key in authors_keys:
+                ar = requests.get(f"https://openlibrary.org{key}.json", timeout=10)
+                if ar.status_code == 200:
+                    nm = ar.json().get("name")
+                    if nm: authors.append(nm)
+            if (not e.get("autor")) and authors:
+                e["autor"] = authors
+        else:
+            print(f"/isbn/<isbn>.json returned {r.status_code}")
+    except Exception as ex:
+        print("Warn: first OL endpoint failed:", ex)
+
+    # 2) Reichere Daten inkl. Cover
+    try:
+        r2 = requests.get(
+            f"https://openlibrary.org/api/books",
+            params={"bibkeys": f"ISBN:{isbn}", "format":"json", "jscmd":"data"},
+            timeout=12,
+            headers={"User-Agent":"Mozilla/5.0"}
+        )
+        if r2.status_code == 200:
+            data = r2.json() or {}
+            bk = data.get(f"ISBN:{isbn}")
+            if bk:
+                if not e.get("titel") and bk.get("title"):
+                    e["titel"] = bk["title"]
+                if not e.get("autor"):
+                    names = [a.get("name") for a in bk.get("authors", []) if a.get("name")]
+                    if names:
+                        e["autor"] = names
+                # optional: Cover-URL mitschreiben
+                cover = bk.get("cover", {})
+                cover_url = cover.get("large") or cover.get("medium") or cover.get("small")
+                if cover_url and not e.get("cover"):
+                    e["cover"] = cover_url
+        else:
+            print(f"/api/books returned {r2.status_code}")
+    except Exception as ex:
+        print("Warn: second OL endpoint failed:", ex)
+
+# --- Aufruf direkt NACH der entry-Erstellung ---
+enrich_with_openlibrary(entry)
+
 
           entry = {k: v for k, v in entry.items() if v not in (None, [], "")}
 
