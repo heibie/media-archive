@@ -1,4 +1,4 @@
-name: Add book (YAML)
+name: add-book-yaml
 
 on:
   workflow_dispatch:
@@ -7,23 +7,23 @@ on:
         description: "Buchstatus"
         required: true
         type: choice
-        default: finished
+        default: "finished"
         options:
-          - want to read
-          - started
-          - finished
-          - abandoned
-          - summary
+          - "want to read"
+          - "started"
+          - "finished"
+          - "abandoned"
+          - "summary"
       title:
-        description: "Titel (leer = nur ISBN/URL speichern)"
+        description: "Titel (optional)"
         required: false
         type: string
       authors:
-        description: "Autoren, kommasepariert"
+        description: "Autoren, kommasepariert (optional)"
         required: false
         type: string
       isbn:
-        description: "ISBN (nur Ziffern/X, ohne Bindestriche)"
+        description: "ISBN (Ziffern/X, ohne Bindestriche, optional)"
         required: false
         type: string
       source:
@@ -35,7 +35,7 @@ on:
         required: false
         type: string
       rating:
-        description: "Bewertung (0–5, optional)"
+        description: "Bewertung 0-5 (optional)"
         required: false
         type: string
       tags:
@@ -47,7 +47,7 @@ on:
         required: false
         type: string
       enrich_openlibrary:
-        description: "Per ISBN via OpenLibrary anreichern (Titel/Autor), falls leer"
+        description: "OpenLibrary anreichern, wenn ISBN vorhanden"
         required: false
         type: boolean
         default: true
@@ -56,18 +56,24 @@ permissions:
   contents: write
 
 jobs:
-  append-book:
+  append:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ensure Python deps
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
       - name: Append YAML entry
+        shell: bash
         env:
           STATUS: ${{ inputs.status }}
           TITLE: ${{ inputs.title }}
@@ -108,7 +114,7 @@ def parse_rating(s):
         if val > 5: val = 5.0
         return val
     except Exception:
-        print(f"Warn: rating '{s}' nicht lesbar – wird ignoriert.", file=sys.stderr)
+        print(f"Warn: rating '{s}' nicht lesbar; wird ignoriert.", file=sys.stderr)
         return None
 
 data = []
@@ -145,12 +151,11 @@ def enrich_with_openlibrary(e):
             return
         r = requests.get(f"https://openlibrary.org/isbn/{e['isbn']}.json", timeout=10)
         if r.status_code != 200:
-            print(f"OL info not found: {r.status_code}", file=sys.stderr)
+            print(f"OpenLibrary info not found: HTTP {r.status_code}", file=sys.stderr)
             return
         meta = r.json()
         if not e["titel"] and meta.get("title"):
             e["titel"] = meta["title"]
-        # Autoren nachladen
         authors = []
         for a in meta.get("authors", []):
             key = a.get("key")
@@ -162,9 +167,8 @@ def enrich_with_openlibrary(e):
         if not e["autor"] and authors:
             e["autor"] = authors
     except Exception as ex:
-        print("OpenLibrary Enrichment skipped:", ex, file=sys.stderr)
+        print("OpenLibrary enrichment skipped:", ex, file=sys.stderr)
 
-# Leere Felder entfernen
 entry = {k: v for k, v in entry.items() if v not in (None, [], "")}
 
 if is_duplicate(entry):
