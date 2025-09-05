@@ -72,21 +72,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      - name: Append YAML entry
-        env:
-          STATUS: ${{ inputs.status }}
-          TITLE: ${{ inputs.title }}
-          AUTHORS: ${{ inputs.authors }}
-          ISBN: ${{ inputs.isbn }}
-          SOURCE: ${{ inputs.source }}
-          DATE: ${{ inputs.date }}
-          RATING: ${{ inputs.rating }}
-          TAGS: ${{ inputs.tags }}
-          NOTES: ${{ inputs.notes }}
-          ENRICH: ${{ inputs.enrich_openlibrary }}
-        run: |
-          python - <<'PY'
-               - name: Append YAML entry
+           - name: Append YAML entry
         env:
           STATUS: ${{ inputs.status }}
           TITLE: ${{ inputs.title }}
@@ -234,7 +220,6 @@ jobs:
           print("OK")
           PY
 
-          PY
 
       - name: Commit changes
         run: |
