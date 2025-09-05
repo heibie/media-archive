@@ -72,105 +72,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      # Statt Here-Doc schreiben wir die Datei Zeile für Zeile –
-      # so gibt es garantiert keine YAML/Here-Doc-Edgecases.
-      - name: Write script file
-        run: |
-          mkdir -p .github/scripts
-          printf "%s\n" \
-"import os, sys, re, pathlib, datetime, requests, yaml" \
-"" \
-"p = pathlib.Path(\"_data/read.yml\")" \
-"p.parent.mkdir(parents=True, exist_ok=True)" \
-"" \
-"def today():" \
-"    return datetime.date.today().isoformat()" \
-"" \
-"def parse_list(s):" \
-"    return [x.strip() for x in s.split(\",\") if x.strip()] if s else []" \
-"" \
-"def clean_isbn(s):" \
-"    if not s: return None" \
-"    s = re.sub(r\"[^0-9Xx]\", \"\", s)" \
-"    return s.upper() if s else None" \
-"" \
-"def parse_rating(s):" \
-"    s = (s or \"\").strip()" \
-"    if not s:" \
-"        return None" \
-"    s = s.replace(\",\", \".\")" \
-"    try:" \
-"        val = float(s)" \
-"        if val < 0: val = 0.0" \
-"        if val > 5: val = 5.0" \
-"        return val" \
-"    except Exception:" \
-"        print(f\"Warn: rating '{s}' nicht lesbar; wird ignoriert.\", file=sys.stderr)" \
-"        return None" \
-"" \
-"data = []" \
-"if p.exists() and p.read_text().strip():" \
-"    data = yaml.safe_load(p.read_text()) or []" \
-"    if not isinstance(data, list):" \
-"        data = []" \
-"" \
-"entry = {" \
-"    \"typ\": \"buch\"," \
-"    \"status\": (os.getenv(\"STATUS\") or \"finished\")," \
-"    \"titel\": (os.getenv(\"TITLE\") or \"\").strip() or None," \
-"    \"autor\": parse_list(os.getenv(\"AUTHORS\"))," \
-"    \"isbn\": clean_isbn(os.getenv(\"ISBN\"))," \
-"    \"quelle\": (os.getenv(\"SOURCE\") or \"\").strip() or None," \
-"    \"fertig_am\": (os.getenv(\"DATE\") or \"\").strip() or today()," \
-"    \"bewertung\": parse_rating(os.getenv(\"RATING\"))," \
-"    \"tags\": parse_list(os.getenv(\"TAGS\"))," \
-"    \"notizen\": (os.getenv(\"NOTES\") or \"\").strip() or None," \
-"}" \
-"" \
-"def is_duplicate(e):" \
-"    for d in data:" \
-"        if e.get(\"isbn\") and d.get(\"isbn\") == e[\"isbn\"]:" \
-"            return True" \
-"        if e.get(\"quelle\") and d.get(\"quelle\") == e[\"quelle\"]:" \
-"            return True" \
-"    return False" \
-"" \
-"def enrich_with_openlibrary(e):" \
-"    try:" \
-"        if not e.get(\"isbn\"): return" \
-"        if (os.getenv(\"ENRICH\") or \"\").lower() not in (\"true\",\"1\",\"yes\",\"y\'): return" \
-"        r = requests.get(f\"https://openlibrary.org/isbn/{e['isbn']}.json\", timeout=10)" \
-"        if r.status_code != 200:" \
-"            print(f\"OpenLibrary info not found: HTTP {r.status_code}\", file=sys.stderr)" \
-"            return" \
-"        meta = r.json()" \
-"        if not e[\"titel\"] and meta.get(\"title\"):" \
-"            e[\"titel\"] = meta[\"title\"]" \
-"        authors = []" \
-"        for a in meta.get(\"authors\", []):" \
-"            key = a.get(\"key\")" \
-"            if not key: continue" \
-"            ar = requests.get(f\"https://openlibrary.org{key}.json\", timeout=10)" \
-"            if ar.status_code == 200:" \
-"                nm = ar.json().get(\"name\")" \
-"                if nm: authors.append(nm)" \
-"        if not e[\"autor\"] and authors:" \
-"            e[\"autor\"] = authors" \
-"    except Exception as ex:" \
-"        print(\"OpenLibrary enrichment skipped:\", ex, file=sys.stderr)" \
-"" \
-"entry = {k: v for k, v in entry.items() if v not in (None, [], \"\")}" \
-"" \
-"if is_duplicate(entry):" \
-"    print(\"Duplicate detected, nothing appended.\")" \
-"else:" \
-"    data.append(entry)" \
-"    p.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))" \
-"" \
-"print(\"OK\")" \
-> .github/scripts/append_book.py
-
       - name: Append YAML entry
+        shell: bash
         env:
           STATUS: ${{ inputs.status }}
           TITLE: ${{ inputs.title }}
@@ -182,7 +85,100 @@ jobs:
           TAGS: ${{ inputs.tags }}
           NOTES: ${{ inputs.notes }}
           ENRICH: ${{ inputs.enrich_openlibrary }}
-        run: python .github/scripts/append_book.py
+        run: |
+          python - <<'PY'
+import os, sys, re, pathlib, datetime, requests, yaml
+
+p = pathlib.Path("_data/read.yml")
+p.parent.mkdir(parents=True, exist_ok=True)
+
+def today():
+    return datetime.date.today().isoformat()
+
+def parse_list(s):
+    return [x.strip() for x in s.split(",") if x.strip()] if s else []
+
+def clean_isbn(s):
+    if not s: return None
+    s = re.sub(r"[^0-9Xx]", "", s)
+    return s.upper() if s else None
+
+def parse_rating(s):
+    s = (s or "").strip()
+    if not s:
+        return None
+    s = s.replace(",", ".")
+    try:
+        val = float(s)
+        if val < 0: val = 0.0
+        if val > 5: val = 5.0
+        return val
+    except Exception:
+        print(f"Warn: rating '{s}' nicht lesbar; wird ignoriert.", file=sys.stderr)
+        return None
+
+data = []
+if p.exists() and p.read_text().strip():
+    data = yaml.safe_load(p.read_text()) or []
+    if not isinstance(data, list):
+        data = []
+
+entry = {
+    "typ": "buch",
+    "status": (os.getenv("STATUS") or "finished"),
+    "titel": (os.getenv("TITLE") or "").strip() or None,
+    "autor": parse_list(os.getenv("AUTHORS")),
+    "isbn": clean_isbn(os.getenv("ISBN")),
+    "quelle": (os.getenv("SOURCE") or "").strip() or None,
+    "fertig_am": (os.getenv("DATE") or "").strip() or today(),
+    "bewertung": parse_rating(os.getenv("RATING")),
+    "tags": parse_list(os.getenv("TAGS")),
+    "notizen": (os.getenv("NOTES") or "").strip() or None,
+}
+
+def is_duplicate(e):
+    for d in data:
+        if e.get("isbn") and d.get("isbn") == e["isbn"]:
+            return True
+        if e.get("quelle") and d.get("quelle") == e["quelle"]:
+            return True
+    return False
+
+def enrich_with_openlibrary(e):
+    try:
+        if not e.get("isbn"): return
+        if (os.getenv("ENRICH") or "").lower() not in ("true","1","yes","y"):
+            return
+        r = requests.get(f"https://openlibrary.org/isbn/{e['isbn']}.json", timeout=10)
+        if r.status_code != 200:
+            print(f"OpenLibrary info not found: HTTP {r.status_code}", file=sys.stderr)
+            return
+        meta = r.json()
+        if not e["titel"] and meta.get("title"):
+            e["titel"] = meta["title"]
+        authors = []
+        for a in meta.get("authors", []):
+            key = a.get("key")
+            if not key: continue
+            ar = requests.get(f"https://openlibrary.org{key}.json", timeout=10)
+            if ar.status_code == 200:
+                nm = ar.json().get("name")
+                if nm: authors.append(nm)
+        if not e["autor"] and authors:
+            e["autor"] = authors
+    except Exception as ex:
+        print("OpenLibrary enrichment skipped:", ex, file=sys.stderr)
+
+entry = {k: v for k, v in entry.items() if v not in (None, [], "")}
+
+if is_duplicate(entry):
+    print("Duplicate detected, nothing appended.")
+else:
+    data.append(entry)
+    p.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+
+print("OK")
+PY
 
       - name: Commit changes
         run: |
