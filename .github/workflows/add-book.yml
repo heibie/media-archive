@@ -72,7 +72,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-           - name: Append YAML entry
+      - name: Append YAML entry
         env:
           STATUS: ${{ inputs.status }}
           TITLE: ${{ inputs.title }}
@@ -187,8 +187,8 @@ jobs:
                       headers={"User-Agent":"Mozilla/5.0"}
                   )
                   if r2.status_code == 200:
-                      data = r2.json() or {}
-                      bk = data.get(f"ISBN:{isbn}")
+                      d2 = r2.json() or {}
+                      bk = d2.get(f"ISBN:{isbn}")
                       if bk:
                           if not e.get("titel") and bk.get("title"):
                               e["titel"] = bk["title"]
@@ -205,7 +205,7 @@ jobs:
               except Exception as ex:
                   print("Warn: second OL endpoint failed:", ex)
 
-          # --- Aufruf hier ---
+          # --- Enrichment ausführen ---
           enrich_with_openlibrary(entry)
 
           # Leere Felder entfernen
@@ -219,7 +219,6 @@ jobs:
 
           print("OK")
           PY
-
 
       - name: Commit changes
         run: |
