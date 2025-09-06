@@ -10,7 +10,9 @@
   seiten: 292
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/58573566
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626530145i/58573566.jpg
+  cover: https://buch.isbn.de/gross/9783499004902.jpg
+  verlag: ROWOHLT Taschenbuch Autor Miguel Robitzky erschienen am 20.07.2021 Rubrik
+    Kunst
 - typ: buch
   status: started
   titel: 'Verraten (Sonderdezernat Q, #10)'
@@ -24,7 +26,9 @@
   seiten: 608
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/200523171
-  cover: http://books.google.com/books/content?id=VqPeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423442572.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 21.03.2024
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
   titel: 'The Stranger Times: Was, wenn die seltsamsten News die wirklich wahren wären'
@@ -51,7 +55,9 @@
   seiten: 360
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/150065135
-  cover: http://books.google.com/books/content?id=RGW9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780262048682.jpg
+  verlag: 'The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen
+    am 06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978- '
 - typ: buch
   status: want to read
   titel: Die Jahre des Maulwurfs
@@ -64,6 +70,8 @@
   seiten: 464
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62805529
+  cover: https://buch.isbn.de/gross/9783328601814.jpg
+  verlag: Penguin Autor Kerstin Brune erschienen am 24.08.2022 Rubrik Belletristik
 - typ: buch
   status: finished
   titel: 'City on Fire (Danny Ryan, #1)'
@@ -74,7 +82,9 @@
   seiten: 384
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/57558287
-  cover: http://books.google.com/books/content?id=gGQ8zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780062851192.jpg
+  verlag: HarperCollins US Autor Don Winslow ISBN-10 0-06-285119-5 ISBN-13 978- 0-
+    06- 285119- 2 Lieferstatus verfügbar Preis 29,0
 - typ: buch
   status: finished
   titel: 'Das Humboldt-Tier: Ein Marsupilami-Abenteuer'
@@ -85,7 +95,9 @@
   seiten: 72
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62311652
-  cover: http://books.google.com/books/content?id=Ead5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783551781680.jpg
+  verlag: Carlsen Autor Flix erschienen am 02.08.2022 Rubrik Graphic Novels, Comics,
+    Cartoons ISBN-10 3-551-78168-0 ISBN-13 978- 3
 - typ: buch
   status: want to read
   titel: Unsterblich sind nur die anderen
@@ -98,6 +110,9 @@
   seiten: 265
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62709987
+  cover: https://buch.isbn.de/gross/9783518472767.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 26.09.2022 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-47276-3 ISBN-13 '
 - typ: buch
   status: want to read
   titel: Die Diplomatin
@@ -110,6 +125,8 @@
   seiten: 256
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/60226175
+  cover: https://buch.isbn.de/gross/9783546100052.jpg
+  verlag: Claassen Autor Lucy Fricke erschienen am 10.03.2022 Rubrik Belletristik
 - typ: buch
   status: finished
   titel: Die Anomalie
@@ -120,6 +137,8 @@
   seiten: 352
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/58515679
+  cover: https://buch.isbn.de/gross/9783498002589.jpg
+  verlag: Rowohlt Autor Herv
 - typ: buch
   status: want to read
   titel: 'Meine geniale Freundin (L''amica geniale #1)'
@@ -133,6 +152,9 @@
   seiten: 423
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/30324161
+  cover: https://buch.isbn.de/gross/9783518425534.jpg
+  verlag: Suhrkamp Autor Elena Ferrante erschienen am 29.08.2016 Rubrik Moderne und
+    zeitgenössische Belletristik ISBN-10 3-518-425
 - typ: buch
   status: finished
   titel: 'Natrium Chlorid (Carl-Mørck-Reihe #9)'
@@ -154,6 +176,8 @@
   seiten: 164
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29421599
+  cover: https://buch.isbn.de/gross/9783954610617.jpg
+  verlag: Lektora GmbH Autor Claudio Ghin erschienen am 23.02.2016 Rubrik Belletristik
 - typ: buch
   status: finished
   titel: 'Asterix und der Greif (Asterix, #39)'
@@ -166,6 +190,9 @@
   seiten: 48
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/59362955
+  cover: https://buch.isbn.de/gross/9783770424399.jpg
+  verlag: Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
+    am 21.10.2021 Rubrik Europäische Comics ISBN-
 - typ: buch
   status: finished
   titel: Ausgebrannt
@@ -176,6 +203,8 @@
   seiten: 750
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/1435541
+  cover: https://buch.isbn.de/gross/9783785722749.jpg
+  verlag: Lübbe Autor Andreas Eschbach erschienen am 20.02.2007 Rubrik Thriller
 - typ: buch
   status: want to read
   titel: Die Überlebenden
@@ -189,6 +218,9 @@
   seiten: 304
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57808479
+  cover: https://buch.isbn.de/gross/9783423282932.jpg
+  verlag: dtv Verlagsgesellschaft Autor Alex Schulman erschienen am 20.08.2021 Rubrik
+    Belletristik
 - typ: buch
   status: finished
   titel: 'Digitale Balance: Mit smarter Handynutzung leichter leben – Die 30-Tage-Challenge
@@ -257,7 +289,9 @@
   seiten: 207
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57331741
-  cover: http://books.google.com/books/content?id=qToDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518768082.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.03.2021 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-76808-5 ISBN-13 '
 - typ: buch
   status: finished
   titel: 'Low, Vol. 5: Light Brings Light'
@@ -347,6 +381,9 @@
   seiten: 225
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/54242115
+  cover: https://buch.isbn.de/gross/9783407866332.jpg
+  verlag: Beltz GmbH, Julius Autor Patricia Cammarata ISBN-10 3-407-86633-X ISBN-13
+    978- 3- 407- 86633- 2 Lieferstatus verfügbar P
 - typ: buch
   status: finished
   titel: 'Ascender, Vol. 2: The Dead Sea'
@@ -386,6 +423,9 @@
   seiten: 257
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/53945207
+  cover: https://buch.isbn.de/gross/9783407866271.jpg
+  verlag: Beltz GmbH, Julius Autor Nils Pickert ISBN-10 3-407-86627-5 ISBN-13 978-
+    3- 407- 86627- 1 Lieferstatus verfügbar Preis 1
 - typ: buch
   status: finished
   titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien'
@@ -598,6 +638,9 @@
   seiten: 176
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45316256
+  cover: https://buch.isbn.de/gross/9783959811811.jpg
+  verlag: Cross Cult Entertainment Autor Rick Remender erschienen am 26.02.2019 Rubrik
+    Comics und Graphic Novels im amerikanischen
 - typ: buch
   status: finished
   titel: 'Lucky Luke sattelt um: Hommage 3'
@@ -1830,6 +1873,9 @@
   seiten: 136
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29864641
+  cover: https://buch.isbn.de/gross/9783736718678.jpg
+  verlag: Panini Verlags GmbH Autor King, Stephen, David, Peter erschienen am 23.03.2016
+    ISBN-10 3-7367-1867-5 ISBN-13 978- 3- 736
 - typ: buch
   status: finished
   titel: 'Die Schlacht von Tull (Der Dunkle Turm, #8)'
