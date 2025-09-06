@@ -1,12 +1,15 @@
 - typ: buch
   status: finished
-  titel: 'The Stranger Times: Was, wenn die seltsamsten News die wirklich wahren wären'
+  titel: Mein Leben unter Ludwig II. Memoiren eines Leibreitpferdes
   autor:
-  - C.K. McDonnell
+  - Miguel Robitzky
+  - Hubert Fußnote
+  isbn: '9783499004902'
   fertig_am: '2024-08-22'
   bewertung: 4.0
+  seiten: 292
   erscheinungsjahr: 2021
-  quelle: https://www.goodreads.com/book/show/60129159
+  quelle: https://www.goodreads.com/book/show/58573566
 - typ: buch
   status: started
   titel: 'Verraten (Sonderdezernat Q, #10)'
@@ -23,16 +26,17 @@
   cover: http://books.google.com/books/content?id=VqPeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
   status: finished
-  titel: Mein Leben unter Ludwig II. Memoiren eines Leibreitpferdes
+  titel: 'The Stranger Times: Was, wenn die seltsamsten News die wirklich wahren wären'
   autor:
-  - Miguel Robitzky
-  - Hubert Fußnote
-  isbn: '9783499004902'
+  - C.K. McDonnell
   fertig_am: '2024-08-22'
   bewertung: 4.0
-  seiten: 292
   erscheinungsjahr: 2021
-  quelle: https://www.goodreads.com/book/show/58573566
+  quelle: https://www.goodreads.com/book/show/60129159
+  isbn: '9783751709460'
+  cover: http://books.google.com/books/content?id=78UqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  seiten: 485
+  sprache: de
 - typ: buch
   status: want to read
   titel: 'A Darwinian Survival Guide: Hope for the Twenty-First Century'
@@ -151,16 +155,6 @@
   quelle: https://www.goodreads.com/book/show/29421599
 - typ: buch
   status: finished
-  titel: Ausgebrannt
-  autor:
-  - Andreas Eschbach
-  isbn: '9783785722749'
-  fertig_am: '2021-10-24'
-  seiten: 750
-  erscheinungsjahr: 2007
-  quelle: https://www.goodreads.com/book/show/1435541
-- typ: buch
-  status: finished
   titel: 'Asterix und der Greif (Asterix, #39)'
   autor:
   - Jean-Yves Ferri
@@ -171,6 +165,16 @@
   seiten: 48
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/59362955
+- typ: buch
+  status: finished
+  titel: Ausgebrannt
+  autor:
+  - Andreas Eschbach
+  isbn: '9783785722749'
+  fertig_am: '2021-10-24'
+  seiten: 750
+  erscheinungsjahr: 2007
+  quelle: https://www.goodreads.com/book/show/1435541
 - typ: buch
   status: want to read
   titel: Die Überlebenden
@@ -185,18 +189,6 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57808479
 - typ: buch
-  status: want to read
-  titel: Female Choice - Vom Anfang und Ende der männlichen Zivilisation
-  autor:
-  - Meike Stoverock
-  isbn: '9783608504804'
-  hinzugefuegt_am: '2021-08-29'
-  tags:
-  - to-read
-  seiten: 320
-  erscheinungsjahr: 2021
-  quelle: https://www.goodreads.com/book/show/55848520
-- typ: buch
   status: finished
   titel: 'Digitale Balance: Mit smarter Handynutzung leichter leben – Die 30-Tage-Challenge
     - Digital Detox (German Edition)'
@@ -208,6 +200,18 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57616715
   cover: http://books.google.com/books/content?id=pmAGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+- typ: buch
+  status: want to read
+  titel: Female Choice - Vom Anfang und Ende der männlichen Zivilisation
+  autor:
+  - Meike Stoverock
+  isbn: '9783608504804'
+  hinzugefuegt_am: '2021-08-29'
+  tags:
+  - to-read
+  seiten: 320
+  erscheinungsjahr: 2021
+  quelle: https://www.goodreads.com/book/show/55848520
 - typ: buch
   status: finished
   titel: 'The Late Show (Renée Ballard, #1; Harry Bosch Universe, #30)'
@@ -241,6 +245,19 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57932182
 - typ: buch
+  status: want to read
+  titel: 'River Clyde (Chas Riley, #10)'
+  autor:
+  - Simone Buchholz
+  isbn: '9783518768082'
+  hinzugefuegt_am: '2021-05-02'
+  tags:
+  - to-read
+  seiten: 207
+  erscheinungsjahr: 2021
+  quelle: https://www.goodreads.com/book/show/57331741
+  cover: http://books.google.com/books/content?id=qToDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+- typ: buch
   status: finished
   titel: 'Low, Vol. 5: Light Brings Light'
   autor:
@@ -256,31 +273,6 @@
   cover: http://books.google.com/books/content?id=TF6IzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: want to read
-  titel: 'River Clyde (Chas Riley, #10)'
-  autor:
-  - Simone Buchholz
-  isbn: '9783518768082'
-  hinzugefuegt_am: '2021-05-02'
-  tags:
-  - to-read
-  seiten: 207
-  erscheinungsjahr: 2021
-  quelle: https://www.goodreads.com/book/show/57331741
-  cover: http://books.google.com/books/content?id=qToDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Opfer 2117 (Sonderdezernat Q, #8)'
-  autor:
-  - Jussi Adler-Olsen
-  - Hannes Thiess
-  isbn: '9783423282109'
-  fertig_am: '2021-05-01'
-  bewertung: 4.0
-  seiten: 592
-  erscheinungsjahr: 2019
-  quelle: https://www.goodreads.com/book/show/46036906
-- typ: buch
-  status: want to read
   titel: '2034: A Novel of the Next World War'
   autor:
   - Elliot Ackerman
@@ -293,6 +285,18 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/54211065
   cover: http://books.google.com/books/content?id=AuUbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Opfer 2117 (Sonderdezernat Q, #8)'
+  autor:
+  - Jussi Adler-Olsen
+  - Hannes Thiess
+  isbn: '9783423282109'
+  fertig_am: '2021-05-01'
+  bewertung: 4.0
+  seiten: 592
+  erscheinungsjahr: 2019
+  quelle: https://www.goodreads.com/book/show/46036906
 - typ: buch
   status: finished
   titel: 'Selfies (Afdeling Q, #7)'
@@ -314,6 +318,9 @@
   seiten: 304
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18270472
+  isbn: '9783426418321'
+  cover: http://books.google.com/books/content?id=PqltAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: de
 - typ: buch
   status: finished
   titel: 'Die 1%-Methode – Minimale Veränderung, maximale Wirkung: Mit kleinen Gewohnheiten
@@ -326,6 +333,31 @@
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/53924368
   cover: https://covers.openlibrary.org/b/isbn/9783442178582-L.jpg?default=false
+- typ: buch
+  status: finished
+  titel: 'Raus aus der Mental Load-Falle: Wie gerechte Arbeitsteilung in der Familie
+    gelingt'
+  autor:
+  - Patricia Cammarata
+  - Teresa Holtmann
+  isbn: '9783407866332'
+  fertig_am: '2020-08-05'
+  bewertung: 5.0
+  seiten: 225
+  erscheinungsjahr: 2020
+  quelle: https://www.goodreads.com/book/show/54242115
+- typ: buch
+  status: finished
+  titel: 'Ascender, Vol. 2: The Dead Sea'
+  autor:
+  - Jeff Lemire
+  - Dustin Nguyen
+  isbn: '9781534315938'
+  fertig_am: '2020-08-05'
+  seiten: 128
+  erscheinungsjahr: 2020
+  quelle: https://www.goodreads.com/book/show/48933298
+  cover: http://books.google.com/books/content?id=3ts8ywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: Berserker Unbound, Vol. 1
@@ -342,31 +374,6 @@
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/51283855
   cover: http://books.google.com/books/content?id=yozODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Ascender, Vol. 2: The Dead Sea'
-  autor:
-  - Jeff Lemire
-  - Dustin Nguyen
-  isbn: '9781534315938'
-  fertig_am: '2020-08-05'
-  seiten: 128
-  erscheinungsjahr: 2020
-  quelle: https://www.goodreads.com/book/show/48933298
-  cover: http://books.google.com/books/content?id=3ts8ywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Raus aus der Mental Load-Falle: Wie gerechte Arbeitsteilung in der Familie
-    gelingt'
-  autor:
-  - Patricia Cammarata
-  - Teresa Holtmann
-  isbn: '9783407866332'
-  fertig_am: '2020-08-05'
-  bewertung: 5.0
-  seiten: 225
-  erscheinungsjahr: 2020
-  quelle: https://www.goodreads.com/book/show/54242115
 - typ: buch
   status: finished
   titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien
@@ -391,6 +398,18 @@
   quelle: https://www.goodreads.com/book/show/50088445
 - typ: buch
   status: want to read
+  titel: Aus und davon
+  autor:
+  - Anna Katharina Hahn
+  isbn: '9783518429198'
+  hinzugefuegt_am: '2020-07-02'
+  tags:
+  - to-read
+  seiten: 300
+  erscheinungsjahr: 2020
+  quelle: https://www.goodreads.com/book/show/50807206
+- typ: buch
+  status: want to read
   titel: Am Schwarzen Berg
   autor:
   - Anna Katharina Hahn
@@ -402,18 +421,6 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13552998
   cover: http://books.google.com/books/content?id=pLu3pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: want to read
-  titel: Aus und davon
-  autor:
-  - Anna Katharina Hahn
-  isbn: '9783518429198'
-  hinzugefuegt_am: '2020-07-02'
-  tags:
-  - to-read
-  seiten: 300
-  erscheinungsjahr: 2020
-  quelle: https://www.goodreads.com/book/show/50807206
 - typ: buch
   status: want to read
   titel: Serpentinen
@@ -461,6 +468,9 @@
   seiten: 144
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/32758901
+  isbn: '9781250389824'
+  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
   titel: 'Tausend Zeilen Lüge: Das System Relotius und der deutsche Journalismus'
@@ -499,16 +509,6 @@
   cover: http://books.google.com/books/content?id=nlXerQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Cassandra Darke
-  autor:
-  - Posy Simmonds
-  isbn: '9780224089104'
-  fertig_am: '2019-11-08'
-  seiten: 136
-  erscheinungsjahr: 1999
-  quelle: https://www.goodreads.com/book/show/38331583
-- typ: buch
-  status: finished
   titel: West, West Texas
   autor:
   - Tillie Walden
@@ -520,15 +520,14 @@
   quelle: https://www.goodreads.com/book/show/52484715
 - typ: buch
   status: finished
-  titel: 'Hotel Cartagena (Chas Riley, #9)'
+  titel: Cassandra Darke
   autor:
-  - Simone Buchholz
-  isbn: '9783518470039'
-  fertig_am: '2019-11-05'
-  bewertung: 4.0
-  seiten: 228
-  erscheinungsjahr: 2019
-  quelle: https://www.goodreads.com/book/show/49690261
+  - Posy Simmonds
+  isbn: '9780224089104'
+  fertig_am: '2019-11-08'
+  seiten: 136
+  erscheinungsjahr: 1999
+  quelle: https://www.goodreads.com/book/show/38331583
 - typ: buch
   status: finished
   titel: Star Wars - Thrawn
@@ -540,6 +539,17 @@
   seiten: 148
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/52292472
+- typ: buch
+  status: finished
+  titel: 'Hotel Cartagena (Chas Riley, #9)'
+  autor:
+  - Simone Buchholz
+  isbn: '9783518470039'
+  fertig_am: '2019-11-05'
+  bewertung: 4.0
+  seiten: 228
+  erscheinungsjahr: 2019
+  quelle: https://www.goodreads.com/book/show/49690261
 - typ: buch
   status: want to read
   titel: Thees Uhlmann über Die Toten Hosen
@@ -578,16 +588,6 @@
   cover: http://books.google.com/books/content?id=OR0-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Lucky Luke sattelt um: Hommage 3'
-  autor:
-  - Mawil
-  isbn: '9783770440603'
-  fertig_am: '2019-07-23'
-  seiten: 64
-  erscheinungsjahr: 2019
-  quelle: https://www.goodreads.com/book/show/45453551
-- typ: buch
-  status: finished
   titel: 'Deadly Class 1: Akademie der tödlichen Künste (Deadly Class, #1)'
   autor:
   - Rick Remender
@@ -597,6 +597,16 @@
   seiten: 176
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45316256
+- typ: buch
+  status: finished
+  titel: 'Lucky Luke sattelt um: Hommage 3'
+  autor:
+  - Mawil
+  isbn: '9783770440603'
+  fertig_am: '2019-07-23'
+  seiten: 64
+  erscheinungsjahr: 2019
+  quelle: https://www.goodreads.com/book/show/45453551
 - typ: buch
   status: finished
   titel: 'Mexikoring (Chas Riley, #8)'
@@ -632,6 +642,16 @@
   quelle: https://www.goodreads.com/book/show/45312772
 - typ: buch
   status: finished
+  titel: Stell dir vor, du wachst auf
+  autor:
+  - Michael Curse Kurth
+  isbn: '9783499633669'
+  fertig_am: '2019-05-01'
+  seiten: 224
+  erscheinungsjahr: 2018
+  quelle: https://www.goodreads.com/book/show/38226163
+- typ: buch
+  status: finished
   titel: 'Black Hammer, Vol. 3: Age of Doom, Part I'
   autor:
   - Jeff Lemire
@@ -647,16 +667,6 @@
   cover: http://books.google.com/books/content?id=6ZGADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
   status: finished
-  titel: Stell dir vor, du wachst auf
-  autor:
-  - Michael Curse Kurth
-  isbn: '9783499633669'
-  fertig_am: '2019-05-01'
-  seiten: 224
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/38226163
-- typ: buch
-  status: finished
   titel: Sherlock Frankenstein and the Legion of Evil
   autor:
   - Jeff Lemire
@@ -668,28 +678,17 @@
   quelle: https://www.goodreads.com/book/show/36281089
   cover: http://books.google.com/books/content?id=3oBXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
-  status: finished
-  titel: 'Black Hammer, Bd. 1: Vergessene Helden'
+  status: want to read
+  titel: '1793 (Bellman noir, #1)'
   autor:
-  - Jeff Lemire
-  fertig_am: '2019-04-22'
-  seiten: 183
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/44148143
-- typ: buch
-  status: finished
-  titel: 'Black Hammer, Vol. 2: The Event'
-  autor:
-  - Jeff Lemire
-  - Dean Ormston
-  - Dave Stewart
-  - David Rubín
-  isbn: '9781506701981'
-  fertig_am: '2019-04-22'
-  seiten: 152
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/34954925
-  cover: http://books.google.com/books/content?id=U5RBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  - Niklas Natt och Dag
+  isbn: '9789137150253'
+  hinzugefuegt_am: '2019-04-22'
+  tags:
+  - to-read
+  seiten: 446
+  erscheinungsjahr: 2017
+  quelle: https://www.goodreads.com/book/show/36241510
 - typ: buch
   status: want to read
   titel: Die Kinder der Zeit
@@ -705,17 +704,30 @@
   quelle: https://www.goodreads.com/book/show/38487598
   cover: http://books.google.com/books/content?id=us2sDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
-  status: want to read
-  titel: '1793 (Bellman noir, #1)'
+  status: finished
+  titel: 'Black Hammer, Vol. 2: The Event'
   autor:
-  - Niklas Natt och Dag
-  isbn: '9789137150253'
-  hinzugefuegt_am: '2019-04-22'
-  tags:
-  - to-read
-  seiten: 446
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/36241510
+  - Jeff Lemire
+  - Dean Ormston
+  - Dave Stewart
+  - David Rubín
+  isbn: '9781506701981'
+  fertig_am: '2019-04-22'
+  seiten: 152
+  erscheinungsjahr: 2018
+  quelle: https://www.goodreads.com/book/show/34954925
+  cover: http://books.google.com/books/content?id=U5RBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Black Hammer, Bd. 1: Vergessene Helden'
+  autor:
+  - Jeff Lemire
+  fertig_am: '2019-04-22'
+  seiten: 183
+  erscheinungsjahr: 2018
+  quelle: https://www.goodreads.com/book/show/44148143
+  isbn: '9783962190811'
+  sprache: de
 - typ: buch
   status: finished
   titel: Apollo
@@ -826,15 +838,17 @@
   quelle: https://www.goodreads.com/book/show/41592654
 - typ: buch
   status: finished
-  titel: 'Das Licht von Borneo (Spirou und Fantasio Spezial, #23)'
+  titel: Das Versteckte Kind
   autor:
-  - Frank Pé
-  - Zidrou
+  - Loïc Dauvillier
   fertig_am: '2019-02-08'
   bewertung: 4.0
-  seiten: 104
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/35701381
+  seiten: 80
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/29973775
+  isbn: '9783862017744'
+  cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  sprache: de
 - typ: buch
   status: finished
   titel: 'Mystery of the Map (Poptropica, #1)'
@@ -850,14 +864,18 @@
   cover: http://books.google.com/books/content?id=GXk9jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Das Versteckte Kind
+  titel: 'Das Licht von Borneo (Spirou und Fantasio Spezial, #23)'
   autor:
-  - Loïc Dauvillier
+  - Frank Pé
+  - Zidrou
   fertig_am: '2019-02-08'
   bewertung: 4.0
-  seiten: 80
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/29973775
+  seiten: 104
+  erscheinungsjahr: 2017
+  quelle: https://www.goodreads.com/book/show/35701381
+  isbn: '9783551776235'
+  cover: http://books.google.com/books/content?id=1Xw5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  sprache: de
 - typ: buch
   status: finished
   titel: 'Verheißung (Sonderdezernat Q, #6)'
@@ -872,6 +890,18 @@
   cover: http://books.google.com/books/content?id=7fcVogEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
+  titel: Pirouetten
+  autor:
+  - Tillie Walden
+  - Sven Scheer
+  isbn: '9783956401619'
+  fertig_am: '2018-11-27'
+  bewertung: 4.0
+  seiten: 400
+  erscheinungsjahr: 2018
+  quelle: https://www.goodreads.com/book/show/41710511
+- typ: buch
+  status: finished
   titel: Der Ursprung der Welt
   autor:
   - Liv Strömquist
@@ -884,16 +914,16 @@
   quelle: https://www.goodreads.com/book/show/34523308
 - typ: buch
   status: finished
-  titel: Pirouetten
+  titel: Das Washington Dekret
   autor:
-  - Tillie Walden
-  - Sven Scheer
-  isbn: '9783956401619'
-  fertig_am: '2018-11-27'
+  - Jussi Adler-Olsen
+  isbn: '9783423215732'
+  fertig_am: '2018-11-08'
   bewertung: 4.0
-  seiten: 400
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/41710511
+  seiten: 645
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/36117765
+  cover: http://books.google.com/books/content?id=qrV5oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: want to read
   titel: Manhattan
@@ -907,18 +937,6 @@
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18081090
   cover: http://books.google.com/books/content?id=fIqfkgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: Das Washington Dekret
-  autor:
-  - Jussi Adler-Olsen
-  isbn: '9783423215732'
-  fertig_am: '2018-11-08'
-  bewertung: 4.0
-  seiten: 645
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/36117765
-  cover: http://books.google.com/books/content?id=qrV5oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: Jane
@@ -943,14 +961,15 @@
   quelle: https://www.goodreads.com/book/show/41012235
 - typ: buch
   status: finished
-  titel: 'Madame Moneypenny: Wie Frauen ihre Finanzen selbst in die Hand nehmen können'
+  titel: 'Tyler Cross, Vol. 3: Miami'
   autor:
-  - Natascha Wegelin
-  isbn: '9783499633744'
+  - Fabien Nury
+  - Brüno
+  isbn: '9782205077032'
   fertig_am: '2018-09-09'
-  seiten: 240
+  seiten: 90
   erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/41587184
+  quelle: https://www.goodreads.com/book/show/39598106
 - typ: buch
   status: finished
   titel: 'Lady Mechanika Vol. 2: The Tablet of Destinies'
@@ -964,17 +983,19 @@
   seiten: 160
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29151467
+  isbn: '9781534321731'
+  cover: http://books.google.com/books/content?id=c2I9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
-  titel: 'Tyler Cross, Vol. 3: Miami'
+  titel: 'Madame Moneypenny: Wie Frauen ihre Finanzen selbst in die Hand nehmen können'
   autor:
-  - Fabien Nury
-  - Brüno
-  isbn: '9782205077032'
+  - Natascha Wegelin
+  isbn: '9783499633744'
   fertig_am: '2018-09-09'
-  seiten: 90
+  seiten: 240
   erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/39598106
+  quelle: https://www.goodreads.com/book/show/41587184
 - typ: buch
   status: finished
   titel: 'Schattenspringer²: Per Anhalter durch die Pubertät'
@@ -999,36 +1020,14 @@
   cover: http://books.google.com/books/content?id=pm2nngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'La jeunesse de Catamount (Catamount, #1)'
+  titel: Lovecraft
   autor:
-  - Benjamin Blasco-Martinez
-  - Albert Bonneau
-  isbn: '9782366400656'
+  - Alberto Breccia
+  isbn: '9783945034828'
   fertig_am: '2018-07-15'
-  seiten: 60
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/28586528
-- typ: buch
-  status: finished
-  titel: 'Le train des maudits (Catamount, #2)'
-  autor:
-  - Benjamin Blasco-Martinez
-  - Albert Bonneau
-  isbn: '9791095670216'
-  fertig_am: '2018-07-15'
-  seiten: 64
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/34661094
-- typ: buch
-  status: finished
-  titel: Die Tage der Amsel
-  autor:
-  - Manuele Fior
-  isbn: '9783945034811'
-  fertig_am: '2018-07-15'
-  seiten: 104
+  seiten: 126
   erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/40647841
+  quelle: https://www.goodreads.com/book/show/40499569
 - typ: buch
   status: finished
   titel: 'Descender, Vol. 5: Rise of the Robots'
@@ -1043,14 +1042,36 @@
   cover: http://books.google.com/books/content?id=dnD7twEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Lovecraft
+  titel: Die Tage der Amsel
   autor:
-  - Alberto Breccia
-  isbn: '9783945034828'
+  - Manuele Fior
+  isbn: '9783945034811'
   fertig_am: '2018-07-15'
-  seiten: 126
+  seiten: 104
   erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/40499569
+  quelle: https://www.goodreads.com/book/show/40647841
+- typ: buch
+  status: finished
+  titel: 'Le train des maudits (Catamount, #2)'
+  autor:
+  - Benjamin Blasco-Martinez
+  - Albert Bonneau
+  isbn: '9791095670216'
+  fertig_am: '2018-07-15'
+  seiten: 64
+  erscheinungsjahr: 2017
+  quelle: https://www.goodreads.com/book/show/34661094
+- typ: buch
+  status: finished
+  titel: 'La jeunesse de Catamount (Catamount, #1)'
+  autor:
+  - Benjamin Blasco-Martinez
+  - Albert Bonneau
+  isbn: '9782366400656'
+  fertig_am: '2018-07-15'
+  seiten: 60
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/28586528
 - typ: buch
   status: finished
   titel: 'Wolverine: Old Man Logan'
@@ -1104,17 +1125,9 @@
   seiten: 24
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28561732
-- typ: buch
-  status: finished
-  titel: 'Star Wars: Prinzessin Leia'
-  autor:
-  - Mark Waid
-  isbn: '9783957982353'
-  fertig_am: '2018-06-10'
-  seiten: 128
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/27507872
-  cover: http://books.google.com/books/content?id=rfqDrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  isbn: '9781302458201'
+  cover: http://books.google.com/books/content?id=NMWVBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
   titel: Der Ursprung der Liebe
@@ -1127,6 +1140,17 @@
   seiten: 136
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39300293
+- typ: buch
+  status: finished
+  titel: 'Star Wars: Prinzessin Leia'
+  autor:
+  - Mark Waid
+  isbn: '9783957982353'
+  fertig_am: '2018-06-10'
+  seiten: 128
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/27507872
+  cover: http://books.google.com/books/content?id=rfqDrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Star Wars Sonderband 86: Auf die Harte Tour: Bd. 86: Auf die harte Tour
@@ -1252,30 +1276,6 @@
   cover: http://books.google.com/books/content?id=6JbuAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: want to read
-  titel: Der goldene Handschuh
-  autor:
-  - Heinz Strunk
-  isbn: '9783498064365'
-  hinzugefuegt_am: '2017-12-13'
-  tags:
-  - to-read
-  seiten: 255
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/28694154
-  cover: http://books.google.com/books/content?id=CMuRrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: want to read
-  titel: Mitarbeiter des Monats
-  autor:
-  - Fil Tägert
-  hinzugefuegt_am: '2017-12-13'
-  tags:
-  - to-read
-  seiten: 304
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/31679844
-- typ: buch
-  status: want to read
   titel: Rosalie
   autor:
   - Berni Mayer
@@ -1287,6 +1287,33 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/33125667
   cover: http://books.google.com/books/content?id=iBMPDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+- typ: buch
+  status: want to read
+  titel: Mitarbeiter des Monats
+  autor:
+  - Fil Tägert
+  hinzugefuegt_am: '2017-12-13'
+  tags:
+  - to-read
+  seiten: 304
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/31679844
+  isbn: '9783644000193'
+  cover: http://books.google.com/books/content?id=EakdDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: de
+- typ: buch
+  status: want to read
+  titel: Der goldene Handschuh
+  autor:
+  - Heinz Strunk
+  isbn: '9783498064365'
+  hinzugefuegt_am: '2017-12-13'
+  tags:
+  - to-read
+  seiten: 255
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/28694154
+  cover: http://books.google.com/books/content?id=CMuRrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Verachtung (Sonderdezernat Q, #4)'
@@ -1365,56 +1392,28 @@
   quelle: https://www.goodreads.com/book/show/34623876
 - typ: buch
   status: finished
-  titel: Symmetry, Vol. 2
+  titel: 'Symmetry #4'
   autor:
   - Matt Hawkins
   - Raffaele Ienco
-  isbn: '9781632159090'
   fertig_am: '2017-09-05'
-  seiten: 128
+  seiten: 32
   erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/30896676
-  cover: http://books.google.com/books/content?id=Kdi5DAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  quelle: https://www.goodreads.com/book/show/29537927
+  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
-  titel: 'Symmetry #5'
+  titel: 'Symmetry #3'
   autor:
   - Matt Hawkins
   - Raffaele Ienco
   fertig_am: '2017-09-05'
-  seiten: 31
+  seiten: 30
   erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/29638964
-- typ: buch
-  status: finished
-  titel: 'Symmetry #6'
-  autor:
-  - Matt Hawkins
-  - Raffaele Ienco
-  fertig_am: '2017-09-05'
-  seiten: 29
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/31565803
-- typ: buch
-  status: finished
-  titel: 'Symmetry #7'
-  autor:
-  - Matt Hawkins
-  - Raffaele Ienco
-  fertig_am: '2017-09-05'
-  seiten: 27
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/32192405
-- typ: buch
-  status: finished
-  titel: 'Symmetry #8'
-  autor:
-  - Matt Hawkins
-  - Raffaele Ienco
-  fertig_am: '2017-09-05'
-  seiten: 31
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/33147149
+  quelle: https://www.goodreads.com/book/show/29220022
+  cover: http://books.google.com/books/content?id=LdiFCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
   titel: Symmetry Volume 1
@@ -1429,24 +1428,101 @@
   cover: http://books.google.com/books/content?id=RfUhjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Symmetry #3'
+  titel: 'Symmetry #8'
   autor:
   - Matt Hawkins
   - Raffaele Ienco
   fertig_am: '2017-09-05'
-  seiten: 30
+  seiten: 31
   erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/29220022
+  quelle: https://www.goodreads.com/book/show/33147149
+  cover: http://books.google.com/books/content?id=YFAzDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
-  titel: 'Symmetry #4'
+  titel: 'Symmetry #7'
   autor:
   - Matt Hawkins
   - Raffaele Ienco
   fertig_am: '2017-09-05'
-  seiten: 32
+  seiten: 27
   erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/29537927
+  quelle: https://www.goodreads.com/book/show/32192405
+  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
+- typ: buch
+  status: finished
+  titel: 'Symmetry #6'
+  autor:
+  - Matt Hawkins
+  - Raffaele Ienco
+  fertig_am: '2017-09-05'
+  seiten: 29
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/31565803
+  cover: http://books.google.com/books/content?id=I82_DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
+- typ: buch
+  status: finished
+  titel: 'Symmetry #5'
+  autor:
+  - Matt Hawkins
+  - Raffaele Ienco
+  fertig_am: '2017-09-05'
+  seiten: 31
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/29638964
+  cover: http://books.google.com/books/content?id=EFR8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: en
+- typ: buch
+  status: finished
+  titel: Symmetry, Vol. 2
+  autor:
+  - Matt Hawkins
+  - Raffaele Ienco
+  isbn: '9781632159090'
+  fertig_am: '2017-09-05'
+  seiten: 128
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/30896676
+  cover: http://books.google.com/books/content?id=Kdi5DAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Erlösung (Sonderdezernat Q, #3)'
+  autor:
+  - Jussi Adler-Olsen
+  - Hannes Thiess
+  isbn: '9783423248525'
+  fertig_am: '2017-08-13'
+  bewertung: 4.0
+  seiten: 592
+  erscheinungsjahr: 2011
+  quelle: https://www.goodreads.com/book/show/10243438
+  cover: http://books.google.com/books/content?id=KX60ZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Schwarz sind die Sterne (Ralph Azham, #3)'
+  autor:
+  - Lewis Trondheim
+  isbn: '9783943143508'
+  fertig_am: '2017-08-13'
+  bewertung: 5.0
+  seiten: 52
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/22446973
+  cover: http://books.google.com/books/content?id=8DnIkwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Das Land der blauen Dämonen (Ralph Azham, #5)'
+  autor:
+  - Lewis Trondheim
+  isbn: '9783956400285'
+  fertig_am: '2017-08-13'
+  bewertung: 5.0
+  seiten: 48
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/24421077
+  cover: http://books.google.com/books/content?id=BRngrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Superman: Lois and Clark'
@@ -1469,41 +1545,16 @@
   cover: http://books.google.com/books/content?id=QXmPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Das Land der blauen Dämonen (Ralph Azham, #5)'
+  titel: 'Alles hat einmal ein Ende (Ralph Azham, #7)'
   autor:
   - Lewis Trondheim
-  isbn: '9783956400285'
-  fertig_am: '2017-08-13'
-  bewertung: 5.0
+  - Brigitte Findakly
+  isbn: '9783956400490'
+  fertig_am: '2017-07-05'
   seiten: 48
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/24421077
-  cover: http://books.google.com/books/content?id=BRngrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Schwarz sind die Sterne (Ralph Azham, #3)'
-  autor:
-  - Lewis Trondheim
-  isbn: '9783943143508'
-  fertig_am: '2017-08-13'
-  bewertung: 5.0
-  seiten: 52
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/22446973
-  cover: http://books.google.com/books/content?id=8DnIkwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Erlösung (Sonderdezernat Q, #3)'
-  autor:
-  - Jussi Adler-Olsen
-  - Hannes Thiess
-  isbn: '9783423248525'
-  fertig_am: '2017-08-13'
-  bewertung: 4.0
-  seiten: 592
-  erscheinungsjahr: 2011
-  quelle: https://www.goodreads.com/book/show/10243438
-  cover: http://books.google.com/books/content?id=KX60ZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/28898036
+  cover: http://books.google.com/books/content?id=7rdrrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Der Feind meines Feindes (Ralph Azham, #6)'
@@ -1515,18 +1566,6 @@
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26215620
   cover: http://books.google.com/books/content?id=chrorQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Alles hat einmal ein Ende (Ralph Azham, #7)'
-  autor:
-  - Lewis Trondheim
-  - Brigitte Findakly
-  isbn: '9783956400490'
-  fertig_am: '2017-07-05'
-  seiten: 48
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/28898036
-  cover: http://books.google.com/books/content?id=7rdrrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Ein vergrabener Stein bleibt dumm (Ralph Azham, #4)'
@@ -1563,6 +1602,17 @@
   quelle: https://www.goodreads.com/book/show/32681412
 - typ: buch
   status: finished
+  titel: Lautlose Nacht
+  autor:
+  - Rosamund Lupton
+  isbn: '9783423261210'
+  fertig_am: '2017-06-18'
+  bewertung: 4.0
+  seiten: 378
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/34959472
+- typ: buch
+  status: finished
   titel: 'Der Revolvermann (Der Dunkle Turm, #1)'
   autor:
   - Peter David
@@ -1578,17 +1628,6 @@
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/16590050
   cover: http://books.google.com/books/content?id=GULLPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: Lautlose Nacht
-  autor:
-  - Rosamund Lupton
-  isbn: '9783423261210'
-  fertig_am: '2017-06-18'
-  bewertung: 4.0
-  seiten: 378
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/34959472
 - typ: buch
   status: finished
   titel: 'Est-ce qu''on ment aux gens qu''on aime? (Ralph Azham, #1)'
@@ -1695,6 +1734,62 @@
   bewertung: 4.0
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/4944834
+  isbn: '9783827417350'
+  sprache: de
+- typ: buch
+  status: finished
+  titel: 'Khalil (L''or et le sang, #4)'
+  autor:
+  - Fabien Bedouel
+  fertig_am: '2016-12-11'
+  bewertung: 4.0
+  seiten: 74
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/25595869
+  isbn: '9782331013072'
+  cover: http://books.google.com/books/content?id=hs-lBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: fr
+- typ: buch
+  status: finished
+  titel: Les princes du Djebel(L'or et le sang,#3)
+  autor:
+  - Fabien Bedouel
+  - Merwan
+  - Maurin Defrance
+  - Fabien Nury
+  isbn: '9782344004425'
+  fertig_am: '2016-12-11'
+  bewertung: 4.0
+  seiten: 54
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/25733094
+- typ: buch
+  status: finished
+  titel: 'L''appel du large (L''or et le sang, #1)'
+  autor:
+  - Fabien Bedouel
+  - Merwan
+  - Maurin Defrance
+  - Fabien Nury
+  isbn: '9782344004401'
+  fertig_am: '2016-12-11'
+  bewertung: 4.0
+  seiten: 54
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/25727013
+- typ: buch
+  status: finished
+  titel: 'Inch''allah (L''or et le sang, #2)'
+  autor:
+  - Fabien Bedouel
+  - Merwan
+  - Maurin Defrance
+  - Fabien Nury
+  isbn: '9782344004418'
+  fertig_am: '2016-12-11'
+  seiten: 54
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/25728923
 - typ: buch
   status: finished
   titel: 'Der dunkle Turm: Die Herrin der Schatten (Der dunkle Turm Graphic Novel,
@@ -1713,57 +1808,6 @@
   quelle: https://www.goodreads.com/book/show/32180269
 - typ: buch
   status: finished
-  titel: 'Inch''allah (L''or et le sang, #2)'
-  autor:
-  - Fabien Bedouel
-  - Merwan
-  - Maurin Defrance
-  - Fabien Nury
-  isbn: '9782344004418'
-  fertig_am: '2016-12-11'
-  seiten: 54
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/25728923
-- typ: buch
-  status: finished
-  titel: 'L''appel du large (L''or et le sang, #1)'
-  autor:
-  - Fabien Bedouel
-  - Merwan
-  - Maurin Defrance
-  - Fabien Nury
-  isbn: '9782344004401'
-  fertig_am: '2016-12-11'
-  bewertung: 4.0
-  seiten: 54
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/25727013
-- typ: buch
-  status: finished
-  titel: Les princes du Djebel(L'or et le sang,#3)
-  autor:
-  - Fabien Bedouel
-  - Merwan
-  - Maurin Defrance
-  - Fabien Nury
-  isbn: '9782344004425'
-  fertig_am: '2016-12-11'
-  bewertung: 4.0
-  seiten: 54
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/25733094
-- typ: buch
-  status: finished
-  titel: 'Khalil (L''or et le sang, #4)'
-  autor:
-  - Fabien Bedouel
-  fertig_am: '2016-12-11'
-  bewertung: 4.0
-  seiten: 74
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/25595869
-- typ: buch
-  status: finished
   titel: Die unendliche Geschichte
   autor:
   - Michael Ende
@@ -1776,18 +1820,15 @@
   cover: http://books.google.com/books/content?id=_7IKAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Der dunkle Turm: Der Gefangene (Der dunkle Turm Graphic Novel, #12)'
+  titel: 'Stephen Kings Der dunkle Turm, Band 13 - Drei - Das Kartenhaus: Bd. 13:
+    Drei - Das Kartenhaus (German Edition)'
   autor:
   - Robin Furth
-  - Peter David
-  - Piotr Kowalski
-  - Nick Filardi
-  isbn: '9783957982094'
+  isbn: '9783736718678'
   fertig_am: '2016-09-19'
-  seiten: 128
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/26829778
-  cover: http://books.google.com/books/content?id=Cn2BrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 136
+  erscheinungsjahr: 2016
+  quelle: https://www.goodreads.com/book/show/29864641
 - typ: buch
   status: finished
   titel: 'Die Schlacht von Tull (Der Dunkle Turm, #8)'
@@ -1806,15 +1847,18 @@
   cover: http://books.google.com/books/content?id=OY_ckQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Stephen Kings Der dunkle Turm, Band 13 - Drei - Das Kartenhaus: Bd. 13:
-    Drei - Das Kartenhaus (German Edition)'
+  titel: 'Der dunkle Turm: Der Gefangene (Der dunkle Turm Graphic Novel, #12)'
   autor:
   - Robin Furth
-  isbn: '9783736718678'
+  - Peter David
+  - Piotr Kowalski
+  - Nick Filardi
+  isbn: '9783957982094'
   fertig_am: '2016-09-19'
-  seiten: 136
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/29864641
+  seiten: 128
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/26829778
+  cover: http://books.google.com/books/content?id=Cn2BrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Das Blut der Feiglinge, Band 1 - Yamas Rache: Bd. 1: Yamas Rache (German
@@ -1841,16 +1885,16 @@
   cover: http://books.google.com/books/content?id=7EaGHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Voller Löcher! (Die Schule der magischen Tiere, #2)'
+  titel: 'Eine Woche voller Samstage (Sams, #1)'
   autor:
-  - Margit Auer
-  isbn: '9783551652720'
+  - Paul Maar
+  isbn: '9783789119521'
   fertig_am: '2016-08-01'
   bewertung: 4.0
-  seiten: 224
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/18240718
-  cover: http://books.google.com/books/content?id=ZNd3AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 160
+  erscheinungsjahr: 1999
+  quelle: https://www.goodreads.com/book/show/2092839
+  cover: http://books.google.com/books/content?id=ZPOFgxGf92MC&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Bitte freimachen: Eine Anleitung zur Emanzipation'
@@ -1865,50 +1909,50 @@
   cover: http://books.google.com/books/content?id=cGbXrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Eine Woche voller Samstage (Sams, #1)'
-  autor:
-  - Paul Maar
-  isbn: '9783789119521'
-  fertig_am: '2016-08-01'
-  bewertung: 4.0
-  seiten: 160
-  erscheinungsjahr: 1999
-  quelle: https://www.goodreads.com/book/show/2092839
-  cover: http://books.google.com/books/content?id=ZPOFgxGf92MC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Die Schule der magischen Tiere (Die Schule der magischen Tiere, #1)'
+  titel: 'Voller Löcher! (Die Schule der magischen Tiere, #2)'
   autor:
   - Margit Auer
-  isbn: '9783551652713'
-  fertig_am: '2016-07-11'
-  seiten: 208
+  isbn: '9783551652720'
+  fertig_am: '2016-08-01'
+  bewertung: 4.0
+  seiten: 224
   erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/18240710
-  cover: http://books.google.com/books/content?id=Psd6AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  quelle: https://www.goodreads.com/book/show/18240718
+  cover: http://books.google.com/books/content?id=ZNd3AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Hubert
+  titel: Fils du Soleil
   autor:
-  - Ben Gijsemans
-  isbn: '9789077549872'
+  - Fabien Nury
+  - Eric Henninot
+  isbn: '9782205070477'
   fertig_am: '2016-07-11'
-  seiten: 88
+  seiten: 80
   erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/23451698
+  quelle: https://www.goodreads.com/book/show/24025450
 - typ: buch
   status: finished
-  titel: 'Descender, Vol. 1: Tin Stars'
+  titel: 'Le réseau Aquila 1/2 ( Silas Corey #1)'
   autor:
-  - Jeff Lemire
-  - Dustin Nguyen
-  - Steve Wands
-  isbn: '9781632154262'
+  - Fabien Nury
+  - Pierre Alary
+  isbn: '9782723483926'
   fertig_am: '2016-07-11'
-  seiten: 160
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/25546167
-  cover: http://books.google.com/books/content?id=igCIrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 64
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/17346014
+- typ: buch
+  status: finished
+  titel: Tyler Cross, Vol. 1 Black Rock
+  autor:
+  - Fabien Nury
+  - Brüno
+  - Laurence Croix
+  isbn: '9782205070064'
+  fertig_am: '2016-07-11'
+  seiten: 92
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/18589249
 - typ: buch
   status: finished
   titel: 'Le perroquet des Batignolles - Tome 1 : L''énigmatique Monsieur Schmutz'
@@ -1925,38 +1969,38 @@
   quelle: https://www.goodreads.com/book/show/12034713
 - typ: buch
   status: finished
-  titel: Tyler Cross, Vol. 1 Black Rock
+  titel: 'Descender, Vol. 1: Tin Stars'
   autor:
-  - Fabien Nury
-  - Brüno
-  - Laurence Croix
-  isbn: '9782205070064'
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Steve Wands
+  isbn: '9781632154262'
   fertig_am: '2016-07-11'
-  seiten: 92
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/18589249
+  seiten: 160
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/25546167
+  cover: http://books.google.com/books/content?id=igCIrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Le réseau Aquila 1/2 ( Silas Corey #1)'
+  titel: Hubert
   autor:
-  - Fabien Nury
-  - Pierre Alary
-  isbn: '9782723483926'
+  - Ben Gijsemans
+  isbn: '9789077549872'
   fertig_am: '2016-07-11'
-  seiten: 64
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/17346014
-- typ: buch
-  status: finished
-  titel: Fils du Soleil
-  autor:
-  - Fabien Nury
-  - Eric Henninot
-  isbn: '9782205070477'
-  fertig_am: '2016-07-11'
-  seiten: 80
+  seiten: 88
   erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/24025450
+  quelle: https://www.goodreads.com/book/show/23451698
+- typ: buch
+  status: finished
+  titel: 'Die Schule der magischen Tiere (Die Schule der magischen Tiere, #1)'
+  autor:
+  - Margit Auer
+  isbn: '9783551652713'
+  fertig_am: '2016-07-11'
+  seiten: 208
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/18240710
+  cover: http://books.google.com/books/content?id=Psd6AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: Großvater und die Schmuggler
@@ -1970,16 +2014,26 @@
   cover: http://books.google.com/books/content?id=hHuJZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Venustransit
+  titel: Terra Australis
   autor:
-  - Hamed Eshrat
-  isbn: '9783945034330'
+  - Laurent-Frédéric Bollée
+  - Philippe Nicloux
+  isbn: '9782723472579'
+  fertig_am: '2016-03-21'
+  seiten: 512
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/18813472
+- typ: buch
+  status: finished
+  titel: Fugazi Music Club
+  autor:
+  - Marcin Podolec
+  isbn: '9788360915851'
   fertig_am: '2016-03-21'
   bewertung: 3.0
-  seiten: 256
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/28288923
-  cover: http://books.google.com/books/content?id=OuTlsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 240
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/18630625
 - typ: buch
   status: finished
   titel: Auerhaus
@@ -1994,26 +2048,16 @@
   cover: http://books.google.com/books/content?id=5IGPjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Fugazi Music Club
+  titel: Venustransit
   autor:
-  - Marcin Podolec
-  isbn: '9788360915851'
+  - Hamed Eshrat
+  isbn: '9783945034330'
   fertig_am: '2016-03-21'
   bewertung: 3.0
-  seiten: 240
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/18630625
-- typ: buch
-  status: finished
-  titel: Terra Australis
-  autor:
-  - Laurent-Frédéric Bollée
-  - Philippe Nicloux
-  isbn: '9782723472579'
-  fertig_am: '2016-03-21'
-  seiten: 512
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/18813472
+  seiten: 256
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/28288923
+  cover: http://books.google.com/books/content?id=OuTlsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Die 13½ Leben des Käpt''n Blaubär (Zamonien, #1)'
@@ -2025,6 +2069,29 @@
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/62034
   cover: http://books.google.com/books/content?id=f33jAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: Der kleine Ritter Trenk und fast das ganze Leben im Mittelalter
+  autor:
+  - Kirsten Boie
+  isbn: '9783789185304'
+  fertig_am: '2016-01-16'
+  seiten: 267
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/16125797
+  cover: http://books.google.com/books/content?id=_6_TuQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'The Cartel (Power of the Dog, #2)'
+  autor:
+  - Don Winslow
+  isbn: '9781101874998'
+  fertig_am: '2016-01-16'
+  bewertung: 5.0
+  seiten: 616
+  erscheinungsjahr: 2015
+  quelle: https://www.goodreads.com/book/show/23602561
+  cover: http://books.google.com/books/content?id=x5CLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Low, Vol. 1: The Delirium of Hope'
@@ -2040,51 +2107,27 @@
   quelle: https://www.goodreads.com/book/show/23200006
 - typ: buch
   status: finished
-  titel: 'The Cartel (Power of the Dog, #2)'
+  titel: 'Drifter #1'
   autor:
-  - Don Winslow
-  isbn: '9781101874998'
-  fertig_am: '2016-01-16'
-  bewertung: 5.0
-  seiten: 616
+  - Ivan Brandon
+  - Nic Klein
+  fertig_am: '2015-12-19'
+  seiten: 31
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/23551532
+  sprache: fr
+- typ: buch
+  status: finished
+  titel: 'Centaurus, tome 1: Terre Promise'
+  autor:
+  - Rodolphe
+  - Luiz Eduardo de Oliveira (Leo)
+  - Zoran Janjetov
+  isbn: '9782756040295'
+  fertig_am: '2015-12-19'
+  seiten: 48
   erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/23602561
-  cover: http://books.google.com/books/content?id=x5CLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: Der kleine Ritter Trenk und fast das ganze Leben im Mittelalter
-  autor:
-  - Kirsten Boie
-  isbn: '9783789185304'
-  fertig_am: '2016-01-16'
-  seiten: 267
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/16125797
-  cover: http://books.google.com/books/content?id=_6_TuQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: Qui a tué le président?
-  autor:
-  - Fred Duval
-  - Jean-Pierre Pécau
-  - Colin Wilson
-  isbn: '9782756018676'
-  fertig_am: '2015-12-19'
-  seiten: 56
-  erscheinungsjahr: 2011
-  quelle: https://www.goodreads.com/book/show/11698310
-- typ: buch
-  status: finished
-  titel: Le Gang Kennedy
-  autor:
-  - Fred Duval
-  - Jean-Pierre Pécau
-  - Colin  Wilson
-  isbn: '9782756029122'
-  fertig_am: '2015-12-19'
-  seiten: 65
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/16038883
+  quelle: https://www.goodreads.com/book/show/25490999
 - typ: buch
   status: finished
   titel: 'Day Men Vol. 1: Lux in Tenebris'
@@ -2102,26 +2145,28 @@
   cover: http://books.google.com/books/content?id=8Ek1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Centaurus, tome 1: Terre Promise'
+  titel: Le Gang Kennedy
   autor:
-  - Rodolphe
-  - Luiz Eduardo de Oliveira (Leo)
-  - Zoran Janjetov
-  isbn: '9782756040295'
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Colin  Wilson
+  isbn: '9782756029122'
   fertig_am: '2015-12-19'
-  seiten: 48
-  erscheinungsjahr: 2015
-  quelle: https://www.goodreads.com/book/show/25490999
+  seiten: 65
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/16038883
 - typ: buch
   status: finished
-  titel: 'Drifter #1'
+  titel: Qui a tué le président?
   autor:
-  - Ivan Brandon
-  - Nic Klein
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Colin Wilson
+  isbn: '9782756018676'
   fertig_am: '2015-12-19'
-  seiten: 31
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/23551532
+  seiten: 56
+  erscheinungsjahr: 2011
+  quelle: https://www.goodreads.com/book/show/11698310
 - typ: buch
   status: finished
   titel: Der kleine Ritter Trenk
@@ -2136,6 +2181,18 @@
   cover: http://books.google.com/books/content?id=o8K5swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
+  titel: Millie in der Villa Kunterbunt (German Edition)
+  autor:
+  - Dagmar Chidolue
+  - Gitte Spee
+  isbn: '9783862721597'
+  fertig_am: '2015-11-25'
+  seiten: 171
+  erscheinungsjahr: 2014
+  quelle: https://www.goodreads.com/book/show/23970624
+  cover: http://books.google.com/books/content?id=stEuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+- typ: buch
+  status: finished
   titel: Das fliegende Klassenzimmer
   autor:
   - Erich Kästner
@@ -2148,16 +2205,17 @@
   cover: http://books.google.com/books/content?id=sFdOpki1-cIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Millie in der Villa Kunterbunt (German Edition)
+  titel: Die Konferenz der Tiere
   autor:
-  - Dagmar Chidolue
-  - Gitte Spee
-  isbn: '9783862721597'
-  fertig_am: '2015-11-25'
-  seiten: 171
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/23970624
-  cover: http://books.google.com/books/content?id=stEuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  - Erich Kästner
+  - Walter Trier
+  fertig_am: '2015-10-15'
+  seiten: 112
+  erscheinungsjahr: 1980
+  quelle: https://www.goodreads.com/book/show/1491573
+  isbn: '9783791530031'
+  cover: http://books.google.com/books/content?id=l4KJPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  sprache: de
 - typ: buch
   status: finished
   titel: Das doppelte Lottchen
@@ -2171,16 +2229,6 @@
   cover: http://books.google.com/books/content?id=iuVEH2hoN-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Die Konferenz der Tiere
-  autor:
-  - Erich Kästner
-  - Walter Trier
-  fertig_am: '2015-10-15'
-  seiten: 112
-  erscheinungsjahr: 1980
-  quelle: https://www.goodreads.com/book/show/1491573
-- typ: buch
-  status: finished
   titel: The Hobbit
   autor:
   - J.R.R. Tolkien
@@ -2190,6 +2238,9 @@
   seiten: 322
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13512170
+  isbn: '9783608106459'
+  cover: http://books.google.com/books/content?id=Z8tHY0IjjQYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  sprache: de
 - typ: buch
   status: finished
   titel: Emil und die drei Zwillinge
@@ -2313,17 +2364,17 @@
   cover: http://books.google.com/books/content?id=bnHhOwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Chew, Vol. 3: Just Desserts'
+  titel: 'Chew, Vol. 5: Major League'
   autor:
   - John Layman
   - Rob Guillory
-  isbn: '9781607063353'
+  isbn: '9781607065234'
   fertig_am: '2015-03-03'
   bewertung: 4.0
-  seiten: 128
-  erscheinungsjahr: 2010
-  quelle: https://www.goodreads.com/book/show/9256590
-  cover: http://books.google.com/books/content?id=yn22cQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 120
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/13556942
+  cover: http://books.google.com/books/content?id=_rlFuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 4: Flambé'
@@ -2338,17 +2389,17 @@
   cover: http://books.google.com/books/content?id=1lo2KQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Chew, Vol. 5: Major League'
+  titel: 'Chew, Vol. 3: Just Desserts'
   autor:
   - John Layman
   - Rob Guillory
-  isbn: '9781607065234'
+  isbn: '9781607063353'
   fertig_am: '2015-03-03'
   bewertung: 4.0
-  seiten: 120
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/13556942
-  cover: http://books.google.com/books/content?id=_rlFuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 128
+  erscheinungsjahr: 2010
+  quelle: https://www.goodreads.com/book/show/9256590
+  cover: http://books.google.com/books/content?id=yn22cQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 2: International Flavor'
@@ -2388,19 +2439,6 @@
   cover: http://books.google.com/books/content?id=IGaPbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Der kleine Nick ist wieder da!
-  autor:
-  - René Goscinny
-  - Jean-Jacques Sempé
-  isbn: '9783257011210'
-  fertig_am: '2015-01-25'
-  bewertung: 4.0
-  seiten: 400
-  erscheinungsjahr: 2006
-  quelle: https://www.goodreads.com/book/show/24259557
-  cover: http://books.google.com/books/content?id=9t_4PQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
   titel: 'Locke & Key, Vol. 6: Alpha & Omega'
   autor:
   - Joe Hill
@@ -2412,6 +2450,19 @@
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/16164271
   cover: http://books.google.com/books/content?id=C2mQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: Der kleine Nick ist wieder da!
+  autor:
+  - René Goscinny
+  - Jean-Jacques Sempé
+  isbn: '9783257011210'
+  fertig_am: '2015-01-25'
+  bewertung: 4.0
+  seiten: 400
+  erscheinungsjahr: 2006
+  quelle: https://www.goodreads.com/book/show/24259557
+  cover: http://books.google.com/books/content?id=9t_4PQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 5: Clockworks'
@@ -2448,6 +2499,7 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/6120349
+  sprache: en
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 3: Crown of Shadows'
@@ -2488,58 +2540,185 @@
   cover: http://books.google.com/books/content?id=Tm-dpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Watchmen
-  autor:
-  - Alan             Moore
-  - Dave Gibbons
-  - John    Higgins
-  isbn: '9780930289232'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 416
-  erscheinungsjahr: 2005
-  quelle: https://www.goodreads.com/book/show/472331
-  cover: http://books.google.com/books/content?id=VjPuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: The Complete Maus
-  autor:
-  - Art Spiegelman
-  isbn: '9780141014081'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 296
-  erscheinungsjahr: 2003
-  quelle: https://www.goodreads.com/book/show/15195
-  cover: http://books.google.com/books/content?id=rBj-nQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: V for Vendetta
-  autor:
-  - Alan             Moore
-  - David   Lloyd
-  - Steve Whitaker
-  - Siobhan Dodds
-  isbn: '9781401207922'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 296
-  erscheinungsjahr: 2005
-  quelle: https://www.goodreads.com/book/show/5805
-  cover: http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Y: The Last Man, Vol. 1: Unmanned'
+  titel: Saga, Volume 1
   autor:
   - Brian K. Vaughan
-  - Pia Guerra
-  isbn: '9781563899805'
+  - Fiona Staples
+  isbn: '9781607066019'
   fertig_am: '2014-04-21'
   bewertung: 5.0
-  seiten: 130
-  erscheinungsjahr: 2003
-  quelle: https://www.goodreads.com/book/show/156534
-  cover: http://books.google.com/books/content?id=TS1H-B5_IxIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 160
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/15704307
+- typ: buch
+  status: finished
+  titel: 'Batman: The Dark Knight Returns'
+  autor:
+  - Frank Miller
+  - Klaus Janson
+  - Lynn Varley
+  isbn: '9781563893414'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 197
+  erscheinungsjahr: 2012
+  quelle: https://www.goodreads.com/book/show/59960
+- typ: buch
+  status: finished
+  titel: 'DMZ, Vol. 1: On the Ground'
+  autor:
+  - Brian Wood
+  - Riccardo Burchielli
+  - Brian Azzarello
+  isbn: '9781401210625'
+  fertig_am: '2014-04-21'
+  bewertung: 4.0
+  seiten: 126
+  erscheinungsjahr: 2006
+  quelle: https://www.goodreads.com/book/show/158683
+  cover: http://books.google.com/books/content?id=buwPtQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: The Ultimates
+  autor:
+  - Mark Millar
+  - Bryan Hitch
+  isbn: '9780785110828'
+  fertig_am: '2014-04-21'
+  bewertung: 3.0
+  seiten: 376
+  erscheinungsjahr: 2006
+  quelle: https://www.goodreads.com/book/show/160852
+  cover: http://books.google.com/books/content?id=P2yFAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: Fullmetal Alchemist, Vol. 1
+  autor:
+  - Hiromu Arakawa
+  isbn: '9781591169208'
+  fertig_am: '2014-04-21'
+  bewertung: 3.0
+  seiten: 192
+  erscheinungsjahr: 2005
+  quelle: https://www.goodreads.com/book/show/870
+- typ: buch
+  status: finished
+  titel: '100 Bullets, Vol. 1: First Shot, Last Call'
+  autor:
+  - Brian Azzarello
+  isbn: '9781563896453'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 128
+  erscheinungsjahr: 2000
+  quelle: https://www.goodreads.com/book/show/94510
+  cover: http://books.google.com/books/content?id=xnkqAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: Akira, Vol. 1
+  autor:
+  - Katsuhiro Otomo
+  - Satoshi Kon
+  isbn: '9781569714980'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 361
+  erscheinungsjahr: 2000
+  quelle: https://www.goodreads.com/book/show/93371
+  cover: http://books.google.com/books/content?id=q5DzZCcbQKEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: '300'
+  autor:
+  - Frank Miller
+  - Lynn Varley
+  isbn: '9781569714027'
+  fertig_am: '2014-04-21'
+  bewertung: 4.0
+  seiten: 88
+  erscheinungsjahr: 1999
+  quelle: https://www.goodreads.com/book/show/59952
+- typ: buch
+  status: finished
+  titel: From Hell
+  autor:
+  - Alan             Moore
+  - Eddie Campbell
+  - Pete Mullins
+  isbn: '9780861661411'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 576
+  erscheinungsjahr: 2007
+  quelle: https://www.goodreads.com/book/show/23529
+  cover: http://books.google.com/books/content?id=Op3iQAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Transmetropolitan, Vol. 1: Back on the Street'
+  autor:
+  - Warren Ellis
+  - Darick Robertson
+  - Darick Robertston
+  - Rodney Ramos
+  - Garth Ennis
+  - Nathan Eyring
+  - Patrick Stewart
+  isbn: '9781563894459'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 72
+  erscheinungsjahr: 1998
+  quelle: https://www.goodreads.com/book/show/22416
+  cover: http://books.google.com/books/content?id=sOUYcqnArLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Preacher, Volume 1: Gone to Texas'
+  autor:
+  - Garth Ennis
+  - Steve Dillon
+  isbn: '9781563892615'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 336
+  erscheinungsjahr: 1996
+  quelle: https://www.goodreads.com/book/show/95431
+  cover: http://books.google.com/books/content?id=pAqAI8YM_bEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Sin City Volume 1: The Hard Goodbye'
+  autor:
+  - Frank Miller
+  isbn: '9781593072933'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 208
+  erscheinungsjahr: 2010
+  quelle: https://www.goodreads.com/book/show/392297
+- typ: buch
+  status: finished
+  titel: 'The Walking Dead, Vol. 1: Days Gone Bye'
+  autor:
+  - Robert Kirkman
+  - Tony Moore
+  isbn: '9781582406725'
+  fertig_am: '2014-04-21'
+  bewertung: 3.0
+  seiten: 144
+  erscheinungsjahr: 2013
+  quelle: https://www.goodreads.com/book/show/138398
+- typ: buch
+  status: finished
+  titel: 'Bone: The Complete Edition'
+  autor:
+  - Jeff Smith
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 1332
+  erscheinungsjahr: 2004
+  quelle: https://www.goodreads.com/book/show/92143
+  isbn: '9781888963274'
+  cover: http://books.google.com/books/content?id=d5ydKQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  sprache: en
 - typ: buch
   status: finished
   titel: 'Fables, Vol. 1: Legends in Exile'
@@ -2569,182 +2748,58 @@
   cover: http://books.google.com/books/content?id=v59bAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: 'Bone: The Complete Edition'
-  autor:
-  - Jeff Smith
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 1332
-  erscheinungsjahr: 2004
-  quelle: https://www.goodreads.com/book/show/92143
-- typ: buch
-  status: finished
-  titel: 'The Walking Dead, Vol. 1: Days Gone Bye'
-  autor:
-  - Robert Kirkman
-  - Tony Moore
-  isbn: '9781582406725'
-  fertig_am: '2014-04-21'
-  bewertung: 3.0
-  seiten: 144
-  erscheinungsjahr: 2013
-  quelle: https://www.goodreads.com/book/show/138398
-- typ: buch
-  status: finished
-  titel: 'Sin City Volume 1: The Hard Goodbye'
-  autor:
-  - Frank Miller
-  isbn: '9781593072933'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 208
-  erscheinungsjahr: 2010
-  quelle: https://www.goodreads.com/book/show/392297
-- typ: buch
-  status: finished
-  titel: 'Preacher, Volume 1: Gone to Texas'
-  autor:
-  - Garth Ennis
-  - Steve Dillon
-  isbn: '9781563892615'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 336
-  erscheinungsjahr: 1996
-  quelle: https://www.goodreads.com/book/show/95431
-  cover: http://books.google.com/books/content?id=pAqAI8YM_bEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Transmetropolitan, Vol. 1: Back on the Street'
-  autor:
-  - Warren Ellis
-  - Darick Robertson
-  - Darick Robertston
-  - Rodney Ramos
-  - Garth Ennis
-  - Nathan Eyring
-  - Patrick Stewart
-  isbn: '9781563894459'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 72
-  erscheinungsjahr: 1998
-  quelle: https://www.goodreads.com/book/show/22416
-  cover: http://books.google.com/books/content?id=sOUYcqnArLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: From Hell
-  autor:
-  - Alan             Moore
-  - Eddie Campbell
-  - Pete Mullins
-  isbn: '9780861661411'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 576
-  erscheinungsjahr: 2007
-  quelle: https://www.goodreads.com/book/show/23529
-  cover: http://books.google.com/books/content?id=Op3iQAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: '300'
-  autor:
-  - Frank Miller
-  - Lynn Varley
-  isbn: '9781569714027'
-  fertig_am: '2014-04-21'
-  bewertung: 4.0
-  seiten: 88
-  erscheinungsjahr: 1999
-  quelle: https://www.goodreads.com/book/show/59952
-- typ: buch
-  status: finished
-  titel: Akira, Vol. 1
-  autor:
-  - Katsuhiro Otomo
-  - Satoshi Kon
-  isbn: '9781569714980'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 361
-  erscheinungsjahr: 2000
-  quelle: https://www.goodreads.com/book/show/93371
-  cover: http://books.google.com/books/content?id=q5DzZCcbQKEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: '100 Bullets, Vol. 1: First Shot, Last Call'
-  autor:
-  - Brian Azzarello
-  isbn: '9781563896453'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 128
-  erscheinungsjahr: 2000
-  quelle: https://www.goodreads.com/book/show/94510
-  cover: http://books.google.com/books/content?id=xnkqAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: Fullmetal Alchemist, Vol. 1
-  autor:
-  - Hiromu Arakawa
-  isbn: '9781591169208'
-  fertig_am: '2014-04-21'
-  bewertung: 3.0
-  seiten: 192
-  erscheinungsjahr: 2005
-  quelle: https://www.goodreads.com/book/show/870
-- typ: buch
-  status: finished
-  titel: The Ultimates
-  autor:
-  - Mark Millar
-  - Bryan Hitch
-  isbn: '9780785110828'
-  fertig_am: '2014-04-21'
-  bewertung: 3.0
-  seiten: 376
-  erscheinungsjahr: 2006
-  quelle: https://www.goodreads.com/book/show/160852
-  cover: http://books.google.com/books/content?id=P2yFAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'DMZ, Vol. 1: On the Ground'
-  autor:
-  - Brian Wood
-  - Riccardo Burchielli
-  - Brian Azzarello
-  isbn: '9781401210625'
-  fertig_am: '2014-04-21'
-  bewertung: 4.0
-  seiten: 126
-  erscheinungsjahr: 2006
-  quelle: https://www.goodreads.com/book/show/158683
-  cover: http://books.google.com/books/content?id=buwPtQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Batman: The Dark Knight Returns'
-  autor:
-  - Frank Miller
-  - Klaus Janson
-  - Lynn Varley
-  isbn: '9781563893414'
-  fertig_am: '2014-04-21'
-  bewertung: 5.0
-  seiten: 197
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/59960
-- typ: buch
-  status: finished
-  titel: Saga, Volume 1
+  titel: 'Y: The Last Man, Vol. 1: Unmanned'
   autor:
   - Brian K. Vaughan
-  - Fiona Staples
-  isbn: '9781607066019'
+  - Pia Guerra
+  isbn: '9781563899805'
   fertig_am: '2014-04-21'
   bewertung: 5.0
-  seiten: 160
-  erscheinungsjahr: 2012
-  quelle: https://www.goodreads.com/book/show/15704307
+  seiten: 130
+  erscheinungsjahr: 2003
+  quelle: https://www.goodreads.com/book/show/156534
+  cover: http://books.google.com/books/content?id=TS1H-B5_IxIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: V for Vendetta
+  autor:
+  - Alan             Moore
+  - David   Lloyd
+  - Steve Whitaker
+  - Siobhan Dodds
+  isbn: '9781401207922'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 296
+  erscheinungsjahr: 2005
+  quelle: https://www.goodreads.com/book/show/5805
+  cover: http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: The Complete Maus
+  autor:
+  - Art Spiegelman
+  isbn: '9780141014081'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 296
+  erscheinungsjahr: 2003
+  quelle: https://www.goodreads.com/book/show/15195
+  cover: http://books.google.com/books/content?id=rBj-nQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: Watchmen
+  autor:
+  - Alan             Moore
+  - Dave Gibbons
+  - John    Higgins
+  isbn: '9780930289232'
+  fertig_am: '2014-04-21'
+  bewertung: 5.0
+  seiten: 416
+  erscheinungsjahr: 2005
+  quelle: https://www.goodreads.com/book/show/472331
+  cover: http://books.google.com/books/content?id=VjPuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Savages (Savages #2)'
@@ -2796,64 +2851,16 @@
   cover: http://books.google.com/books/content?id=Su-HpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: DARKNET
+  titel: Dorfpunks
   autor:
-  - Daniel Suarez
-  isbn: '9783499252440'
+  - Rocko Schamoni
+  isbn: '9783499241161'
   fertig_am: '2013-01-03'
   bewertung: 5.0
-  seiten: 480
-  erscheinungsjahr: 2011
-  quelle: https://www.goodreads.com/book/show/10238767
-  cover: http://books.google.com/books/content?id=E9qKZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Daemon (Daemon, #1)'
-  autor:
-  - Daniel Suarez
-  isbn: '9780525951117'
-  fertig_am: '2013-01-03'
-  bewertung: 5.0
-  seiten: 432
-  erscheinungsjahr: 2009
-  quelle: https://www.goodreads.com/book/show/4699575
-  cover: http://books.google.com/books/content?id=VpBpVt4cHmMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Studio sex (Annika Bengtzon, #1)'
-  autor:
-  - Liza Marklund
-  - Kari Bolstad
-  isbn: '9788203209932'
-  fertig_am: '2013-01-03'
-  bewertung: 5.0
-  seiten: 419
-  erscheinungsjahr: 2006
-  quelle: https://www.goodreads.com/book/show/2041412
-- typ: buch
-  status: finished
-  titel: 'Red Wolf (Annika Bengtzon, #5)'
-  autor:
-  - Liza Marklund
-  isbn: '9781451602067'
-  fertig_am: '2013-01-03'
-  bewertung: 5.0
-  seiten: 400
-  erscheinungsjahr: 2011
-  quelle: https://www.goodreads.com/book/show/8598435
-  cover: http://books.google.com/books/content?id=m0f-zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- typ: buch
-  status: finished
-  titel: 'Paradies (Annika Bengtzon, #2)'
-  autor:
-  - Liza Marklund
-  isbn: '9783499231049'
-  fertig_am: '2013-01-03'
-  bewertung: 5.0
-  seiten: 480
-  erscheinungsjahr: 2003
-  quelle: https://www.goodreads.com/book/show/1600607
-  cover: http://books.google.com/books/content?id=QvZjPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 204
+  erscheinungsjahr: 2005
+  quelle: https://www.goodreads.com/book/show/1603221
+  cover: http://books.google.com/books/content?id=XNVDSwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
   titel: Fleisch ist mein Gemüse
@@ -2868,13 +2875,61 @@
   cover: http://books.google.com/books/content?id=Ja0hAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - typ: buch
   status: finished
-  titel: Dorfpunks
+  titel: 'Paradies (Annika Bengtzon, #2)'
   autor:
-  - Rocko Schamoni
-  isbn: '9783499241161'
+  - Liza Marklund
+  isbn: '9783499231049'
   fertig_am: '2013-01-03'
   bewertung: 5.0
-  seiten: 204
-  erscheinungsjahr: 2005
-  quelle: https://www.goodreads.com/book/show/1603221
-  cover: http://books.google.com/books/content?id=XNVDSwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  seiten: 480
+  erscheinungsjahr: 2003
+  quelle: https://www.goodreads.com/book/show/1600607
+  cover: http://books.google.com/books/content?id=QvZjPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Red Wolf (Annika Bengtzon, #5)'
+  autor:
+  - Liza Marklund
+  isbn: '9781451602067'
+  fertig_am: '2013-01-03'
+  bewertung: 5.0
+  seiten: 400
+  erscheinungsjahr: 2011
+  quelle: https://www.goodreads.com/book/show/8598435
+  cover: http://books.google.com/books/content?id=m0f-zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: 'Studio sex (Annika Bengtzon, #1)'
+  autor:
+  - Liza Marklund
+  - Kari Bolstad
+  isbn: '9788203209932'
+  fertig_am: '2013-01-03'
+  bewertung: 5.0
+  seiten: 419
+  erscheinungsjahr: 2006
+  quelle: https://www.goodreads.com/book/show/2041412
+- typ: buch
+  status: finished
+  titel: 'Daemon (Daemon, #1)'
+  autor:
+  - Daniel Suarez
+  isbn: '9780525951117'
+  fertig_am: '2013-01-03'
+  bewertung: 5.0
+  seiten: 432
+  erscheinungsjahr: 2009
+  quelle: https://www.goodreads.com/book/show/4699575
+  cover: http://books.google.com/books/content?id=VpBpVt4cHmMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+- typ: buch
+  status: finished
+  titel: DARKNET
+  autor:
+  - Daniel Suarez
+  isbn: '9783499252440'
+  fertig_am: '2013-01-03'
+  bewertung: 5.0
+  seiten: 480
+  erscheinungsjahr: 2011
+  quelle: https://www.goodreads.com/book/show/10238767
+  cover: http://books.google.com/books/content?id=E9qKZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
