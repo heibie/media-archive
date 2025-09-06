@@ -2100,24 +2100,6 @@
     ISBN-13 978- 1- 5343- 1593- 8 Lieferstatu
 - typ: buch
   status: finished
-  titel: Berserker Unbound, Vol. 1
-  autor:
-  - Jeff Lemire
-  - Mike Deodato
-  - Mike Deodato Jr.
-  - Frank Martin
-  - Steve Wands
-  isbn: '9781506713373'
-  fertig_am: '2020-08-05'
-  bewertung: 3.0
-  seiten: 136
-  erscheinungsjahr: 2020
-  quelle: https://www.goodreads.com/book/show/51283855
-  cover: https://buch.isbn.de/gross/9781506713373.jpg
-  verlag: Dark Horse Books Autor Jeff Lemire ISBN-10 1-5067-1337-8 ISBN-13 978- 1-
-    5067- 1337- 3 Lieferstatus verfügbar Preis 24,5
-- typ: buch
-  status: finished
   titel: Berserker Unbound
   autor:
   - Jeff Lemire
@@ -2138,20 +2120,6 @@
   - rezension
   ekz_id: '5669929'
   quelle: https://medienwelten.ekz.de/product?id=pim:5caebd50352df30001b3743a
-- typ: buch
-  status: finished
-  titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien
-    (German Edition)'
-  autor:
-  - Nils Pickert
-  isbn: '9783407866271'
-  fertig_am: '2020-07-21'
-  seiten: 257
-  erscheinungsjahr: 2020
-  quelle: https://www.goodreads.com/book/show/53945207
-  cover: https://buch.isbn.de/gross/9783407866271.jpg
-  verlag: Beltz GmbH, Julius Autor Nils Pickert ISBN-10 3-407-86627-5 ISBN-13 978-
-    3- 407- 86627- 1 Lieferstatus verfügbar Preis 1
 - typ: buch
   status: finished
   titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien'
