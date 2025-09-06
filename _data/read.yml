@@ -2549,16 +2549,6 @@
   verlag: Reprodukt Autor Tillie Walden erschienen am 07.08.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
-  titel: Cassandra Darke
-  autor:
-  - Posy Simmonds
-  isbn: '9780224089104'
-  fertig_am: '2019-11-08'
-  seiten: 136
-  erscheinungsjahr: 1999
-  quelle: https://www.goodreads.com/book/show/38331583
-- typ: buch
-  status: finished
   titel: Star Wars - Thrawn
   autor:
   - Jody Houser
@@ -4007,19 +3997,6 @@
   quelle: https://medienwelten.ekz.de/product?id=pim:5a7281349866154c5c0fc5a8
 - typ: buch
   status: finished
-  titel: Lovecraft
-  autor:
-  - Alberto Breccia
-  isbn: '9783945034828'
-  fertig_am: '2018-07-15'
-  seiten: 126
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/40499569
-  cover: https://buch.isbn.de/gross/9783945034828.jpg
-  verlag: avant-verlag GmbH Autor Alberto Breccia erschienen am 17.04.2018 Rubrik
-    Europäische Graphic Novels ISBN-10 3-945034-82-5
-- typ: buch
-  status: finished
   titel: 'Descender, Vol. 5: Rise of the Robots'
   autor:
   - Jeff Lemire
@@ -4032,19 +4009,6 @@
   cover: https://buch.isbn.de/gross/9781534303454.jpg
   verlag: Image Comics Autor Lemire, Jeff erschienen am 16.01.2018 ISBN-10 1-5343-0345-6
     ISBN-13 978- 1- 5343- 0345- 4 Lieferstatu
-- typ: buch
-  status: finished
-  titel: Die Tage der Amsel
-  autor:
-  - Manuele Fior
-  isbn: '9783945034811'
-  fertig_am: '2018-07-15'
-  seiten: 104
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/40647841
-  cover: https://buch.isbn.de/gross/9783945034811.jpg
-  verlag: avant-verlag GmbH Autor Manuele Fior erschienen am 22.05.2018 Rubrik Europäische
-    Graphic Novels ISBN-10 3-945034-81-7 IS
 - typ: buch
   status: finished
   titel: 'Le train des maudits (Catamount, #2)'
@@ -5371,20 +5335,6 @@
   cover: https://buch.isbn.de/gross/9783423212625.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.02.2011
     Rubrik Moderne und zeitgenössische Belletristik
-- typ: buch
-  status: finished
-  titel: Patience
-  autor:
-  - Daniel Clowes
-  isbn: '9781606999059'
-  fertig_am: '2017-04-02'
-  bewertung: 4.0
-  seiten: 180
-  erscheinungsjahr: 2016
-  quelle: https://www.goodreads.com/book/show/25652706
-  cover: https://buch.isbn.de/gross/9781606999059.jpg
-  verlag: Fantagraphics Books Autor Clowes, Daniel erschienen am 15.03.2016 ISBN-10
-    1-60699-905-2 ISBN-13 978- 1- 60699- 905- 9 Li
 - typ: buch
   status: finished
   titel: Patience
