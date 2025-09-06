@@ -1,9 +1,5 @@
 - typ: buch
   status: finished
-  isbn: '9783311700852'
-  fertig_am: '2025-09-05'
-- typ: buch
-  status: finished
   titel: Per Anhalter Durch Die Galaxis
   autor:
   - Douglas Adams
