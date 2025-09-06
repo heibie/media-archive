@@ -1,5 +1,182 @@
 - typ: buch
   status: finished
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  fertig_am: '2025-08-30'
+  tags:
+  - rezension
+  ekz_id: '1035397'
+  quelle: https://medienwelten.ekz.de/product?id=pim:676e74cb6dfd902d70810f64
+  titel: Something is killing the children Teil 8
+  isbn: '9783987213472'
+  erscheinungsjahr: 2025
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987213472.jpg
+- typ: buch
+  status: finished
+  titel: Alticcio
+  autor:
+  - Éric Henninot
+  - Werther Dell'Edera
+  - James IV Tynion
+  fertig_am: '2025-08-02'
+  tags:
+  - rezension
+  ekz_id: '1035353'
+  quelle: https://medienwelten.ekz.de/product?id=pim:676e74cb6dfd902d70810fac
+  isbn: '9783962194260'
+  erscheinungsjahr: 2025
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194260.jpg
+- typ: buch
+  status: finished
+  autor:
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Werther Dell'Edera
+  - Éric Henninot
+  fertig_am: '2025-06-18'
+  tags:
+  - rezension
+  ekz_id: '1038390'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6744fcc72498806063da5977
+  titel: Das Haus am Meer Band 1
+  isbn: '9783741642548'
+  erscheinungsjahr: 2025
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741642548.jpg
+- typ: buch
+  status: finished
+  titel: Der süßeste Bruder der Welt - und andere Irrtümer
+  autor:
+  - Elin Lindell
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Éric Henninot
+  - Álvaro Martínez Bueno
+  isbn: '9783954703135'
+  erscheinungsjahr: 2025
+  verlag: Klett Kinderbuch
+  cover: https://cover.ekz.de/9783954703135.jpg
+  fertig_am: '2025-03-15'
+  tags:
+  - rezension
+  ekz_id: '1021543'
+  quelle: https://medienwelten.ekz.de/product?id=pim:67195f48b646844158d44d2e
+- typ: buch
+  status: finished
+  titel: Der Scheinpakt
+  autor:
+  - Victor Dixen
+  - Maria Francesca Perifano
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Éric Henninot
+  - Álvaro Martínez Bueno
+  - Elin Lindell
+  isbn: '9783967922981'
+  erscheinungsjahr: 2025
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967922981.jpg
+  fertig_am: '2025-02-26'
+  tags:
+  - rezension
+  ekz_id: '1014466'
+  quelle: https://medienwelten.ekz.de/product?id=pim:66848165b9cb7774b05e6fe8
+- typ: buch
+  status: finished
+  titel: Drama ohne Ende
+  autor:
+  - Bryan Lee O'Malley
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Éric Henninot
+  - Álvaro Martínez Bueno
+  - Elin Lindell
+  - Victor Dixen
+  - Maria Francesca Perifano
+  isbn: '9783741640469'
+  erscheinungsjahr: 2024
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741640469.jpg
+  fertig_am: '2024-11-26'
+  tags:
+  - rezension
+  ekz_id: '1011641'
+  quelle: https://medienwelten.ekz.de/product?id=pim:66270db94e0f8027843d1855
+- typ: buch
+  status: finished
+  titel: Napalm Lullaby Band 1
+  autor:
+  - Rick Remender
+  - Bengal
+  - Éric Henninot
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Elin Lindell
+  - Victor Dixen
+  - Maria Francesca Perifano
+  - Bryan Lee O'Malley
+  isbn: '9783987214462'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987214462.jpg
+  fertig_am: '2024-11-21'
+  tags:
+  - rezension
+  ekz_id: '1014441'
+  quelle: https://medienwelten.ekz.de/product?id=pim:66848167b9cb7774b05e7143
+- typ: buch
+  status: finished
+  titel: Mein Leben als Mutantin
+  autor:
+  - Sabir Pirzada
+  - Iman Vellani
+  - Carlos Gomez
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Elin Lindell
+  - Victor Dixen
+  - Maria Francesca Perifano
+  - Bryan Lee O'Malley
+  - Rick Remender
+  - Bengal
+  isbn: '9783741638619'
+  erscheinungsjahr: 2024
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741638619.jpg
+  fertig_am: '2024-11-16'
+  tags:
+  - rezension
+  ekz_id: '1007084'
+  quelle: https://medienwelten.ekz.de/product?id=pim:66270db94e0f8027843d18a3
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 7
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Elin Lindell
+  - Victor Dixen
+  - Maria Francesca Perifano
+  - Bryan Lee O'Malley
+  - Rick Remender
+  - Bengal
+  - Sabir Pirzada
+  - Iman Vellani
+  - Carlos Gomez
+  isbn: '9783987213465'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987213465.jpg
+  fertig_am: '2024-09-10'
+  tags:
+  - rezension
+  ekz_id: '2119324'
+  quelle: https://medienwelten.ekz.de/product?id=pim:65820c4d9fa73b2048093e25
+- typ: buch
+  status: finished
   titel: Mein Leben unter Ludwig II. Memoiren eines Leibreitpferdes
   autor:
   - Miguel Robitzky
@@ -43,6 +220,97 @@
   seiten: 485
   sprache: de
 - typ: buch
+  status: finished
+  titel: Die Rückkehr des Schlächters
+  autor:
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Victor Dixen
+  - Maria Francesca Perifano
+  - Bryan Lee O'Malley
+  - Rick Remender
+  - Bengal
+  - Sabir Pirzada
+  - Iman Vellani
+  - Carlos Gomez
+  - Werther Dell'Edera
+  isbn: '9783987213441'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987213441.jpg
+  fertig_am: '2024-07-24'
+  tags:
+  - rezension
+  ekz_id: '2119473'
+  quelle: https://medienwelten.ekz.de/product?id=pim:65820c4d9fa73b2048093e39
+- typ: buch
+  status: finished
+  titel: Fahrradmod
+  autor:
+  - Tobias Dahmen
+  - Sabir Pirzada
+  - Iman Vellani
+  - Carlos Gomez
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Gaet's
+  - Julien Monier
+  - Jordi Lafebre
+  isbn: '9783551803085'
+  erscheinungsjahr: 2024
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551803085.jpg
+  fertig_am: '2024-07-02'
+  tags:
+  - rezension
+  ekz_id: '2188415'
+  quelle: https://medienwelten.ekz.de/product?id=pim:65a8adc12d64c97ab7d9be8a
+- typ: buch
+  status: finished
+  titel: Ich bin ihr Schweigen
+  autor:
+  - Jordi Lafebre
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Gaet's
+  - Julien Monier
+  - Tobias Dahmen
+  isbn: '9783987213939'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987213939.jpg
+  fertig_am: '2024-06-17'
+  tags:
+  - rezension
+  ekz_id: '2117600'
+  quelle: https://medienwelten.ekz.de/product?id=pim:65820c4c9fa73b2048093d39
+- typ: buch
+  status: finished
+  titel: Eugène
+  autor:
+  - Gaet's
+  - Julien Monier
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Jordi Lafebre
+  - Tobias Dahmen
+  isbn: '9783967923469'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923469.jpg
+  fertig_am: '2024-06-13'
+  tags:
+  - rezension
+  ekz_id: '2119450'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6586005f9fa73b204877c764
+- typ: buch
   status: want to read
   titel: 'A Darwinian Survival Guide: Hope for the Twenty-First Century'
   autor:
@@ -59,6 +327,593 @@
   verlag: 'The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen
     am 06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978- '
 - typ: buch
+  status: finished
+  titel: In den Fängen des Wolfes
+  autor:
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Gaet's
+  - Julien Monier
+  - Jordi Lafebre
+  - Tobias Dahmen
+  isbn: '9783987210501'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987210501.jpg
+  fertig_am: '2024-04-28'
+  tags:
+  - rezension
+  ekz_id: '1965046'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb15b824cd57dd023e9cb
+- typ: buch
+  status: finished
+  titel: Der Dieb mit den hundert Gesichtern
+  autor:
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Gess
+  - James IV Tynion
+  - Tate Brombal
+  - Antonio Fuso
+  - Gaet's
+  - Julien Monier
+  - Jordi Lafebre
+  - Tobias Dahmen
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  isbn: '9783962194017'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194017.jpg
+  fertig_am: '2024-03-31'
+  tags:
+  - rezension
+  ekz_id: '1973805'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb15b824cd57dd023e9bc
+- typ: buch
+  status: finished
+  titel: Beim Leben meiner Tochter
+  autor:
+  - Didier Cassegrain
+  - Fred Duval
+  - Gaet's
+  - Julien Monier
+  - Jordi Lafebre
+  - Tobias Dahmen
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Jean-Pierre Pécau
+  - Gess
+  isbn: '9783987212192'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987212192.jpg
+  fertig_am: '2024-03-09'
+  tags:
+  - rezension
+  ekz_id: '1972393'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb164824cd57dd023eb19
+- typ: buch
+  status: finished
+  titel: Scharlachrot
+  autor:
+  - James IV Tynion
+  - Sam Johns
+  - Letizia Cadonici
+  - Jordi Lafebre
+  - Tobias Dahmen
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Gess
+  - Didier Cassegrain
+  isbn: '9783987210549'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987210549.jpg
+  fertig_am: '2024-03-02'
+  tags:
+  - rezension
+  ekz_id: '1973698'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb164824cd57dd023eaeb
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 6
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tobias Dahmen
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Gess
+  - Didier Cassegrain
+  - Sam Johns
+  - Letizia Cadonici
+  isbn: '9783967923155'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923155.jpg
+  fertig_am: '2024-02-24'
+  tags:
+  - rezension
+  ekz_id: '1973849'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb15b824cd57dd023e9d2
+- typ: buch
+  status: finished
+  titel: Fanette
+  autor:
+  - Gaet's
+  - Julien Monier
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Gess
+  - Didier Cassegrain
+  - James IV Tynion
+  - Sam Johns
+  - Letizia Cadonici
+  - Werther Dell'Edera
+  isbn: '9783967923452'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923452.jpg
+  fertig_am: '2023-12-29'
+  tags:
+  - rezension
+  ekz_id: '1973620'
+  quelle: https://medienwelten.ekz.de/product?id=pim:647fb164824cd57dd023eac0
+- typ: buch
+  status: finished
+  titel: Das Traumbestiarium des Mr. Providence
+  autor:
+  - Daria Schmitt
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Gess
+  - Didier Cassegrain
+  - James IV Tynion
+  - Sam Johns
+  - Letizia Cadonici
+  - Werther Dell'Edera
+  - Gaet's
+  - Julien Monier
+  isbn: '9783987211409'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987211409.jpg
+  fertig_am: '2023-11-08'
+  tags:
+  - rezension
+  ekz_id: '1821858'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63a22a6d479d081644095541
+- typ: buch
+  status: finished
+  titel: Beatrice
+  autor:
+  - Joris Mertens
+  - Didier Cassegrain
+  - Fred Duval
+  - James IV Tynion
+  - Sam Johns
+  - Letizia Cadonici
+  - Werther Dell'Edera
+  - Gaet's
+  - Julien Monier
+  - Daria Schmitt
+  isbn: '9783987211430'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987211430.jpg
+  fertig_am: '2023-09-30'
+  tags:
+  - rezension
+  ekz_id: '1822750'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63a22a6d479d08164409557b
+- typ: buch
+  status: finished
+  titel: Das Monster aus dem Ministerium für Grausamkeit
+  autor:
+  - Joe Benitez
+  - M. M. Chen
+  - James IV Tynion
+  - Sam Johns
+  - Letizia Cadonici
+  - Werther Dell'Edera
+  - Gaet's
+  - Julien Monier
+  - Daria Schmitt
+  - Joris Mertens
+  isbn: '9783962195298'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962195298.jpg
+  fertig_am: '2023-09-09'
+  tags:
+  - rezension
+  ekz_id: '1928434'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63ebfe9db0204b0644e4b2d3
+- typ: buch
+  status: finished
+  titel: Albert
+  autor:
+  - Gaet's
+  - Julien Monier
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Daria Schmitt
+  - Joris Mertens
+  - Joe Benitez
+  - M. M. Chen
+  isbn: '9783967923445'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923445.jpg
+  fertig_am: '2023-08-30'
+  tags:
+  - rezension
+  ekz_id: '1823029'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63a22a6d479d081644095566
+- typ: buch
+  status: finished
+  titel: Der Ausreißer
+  autor:
+  - Zidrou
+  - Jordi Lafebre
+  - Gaet's
+  - Julien Monier
+  - Daria Schmitt
+  - Joris Mertens
+  - Joe Benitez
+  - M. M. Chen
+  isbn: '9783899087147'
+  erscheinungsjahr: 2023
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899087147.jpg
+  fertig_am: '2023-07-08'
+  tags:
+  - rezension
+  ekz_id: '1900341'
+  quelle: https://medienwelten.ekz.de/product?id=pim:64307d8ccc9e232853e8f90b
+- typ: buch
+  status: finished
+  titel: Ahmed
+  autor:
+  - Gaet's
+  - Julien Monier
+  - Daria Schmitt
+  - Joris Mertens
+  - Joe Benitez
+  - M. M. Chen
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783967923438'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923438.jpg
+  fertig_am: '2023-07-08'
+  tags:
+  - rezension
+  ekz_id: '1823030'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63a22a6d479d081644095593
+- typ: buch
+  status: finished
+  titel: Die Zuflucht des Kriegers
+  autor:
+  - Zidrou
+  - Jordi Lafebre
+  - Joris Mertens
+  - Joe Benitez
+  - M. M. Chen
+  - Gaet's
+  - Julien Monier
+  isbn: '9783899087123'
+  erscheinungsjahr: 2023
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899087123.jpg
+  fertig_am: '2023-07-01'
+  tags:
+  - rezension
+  ekz_id: '1900353'
+  quelle: https://medienwelten.ekz.de/product?id=pim:64307ec1cc9e232853e8fad5
+- typ: buch
+  status: finished
+  titel: Das große Los
+  autor:
+  - Joris Mertens
+  - Joe Benitez
+  - M. M. Chen
+  - Gaet's
+  - Julien Monier
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783987211423'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987211423.jpg
+  fertig_am: '2023-06-10'
+  tags:
+  - rezension
+  ekz_id: '1822749'
+  quelle: https://medienwelten.ekz.de/product?id=pim:63a22a6d479d081644095568
+- typ: buch
+  status: finished
+  titel: Das Haus am See Band 2
+  autor:
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Gaet's
+  - Julien Monier
+  - Zidrou
+  - Jordi Lafebre
+  - Joris Mertens
+  isbn: '9783741629785'
+  erscheinungsjahr: 2023
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741629785.jpg
+  fertig_am: '2023-05-28'
+  tags:
+  - rezension
+  ekz_id: '1729238'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6295eb2d7982005a6de50450
+- typ: buch
+  status: finished
+  titel: Der geflügelte Husar
+  autor:
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Zidrou
+  - Jordi Lafebre
+  - Gaet's
+  - Julien Monier
+  - Joris Mertens
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  isbn: '9783987210495'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987210495.jpg
+  fertig_am: '2023-04-23'
+  tags:
+  - rezension
+  ekz_id: '1640379'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6296bf647982005a6d290608
+- typ: buch
+  status: finished
+  titel: Die Spielregel
+  autor:
+  - Victor Dixen
+  - Eduardo Francisco
+  - Gaet's
+  - Julien Monier
+  - Zidrou
+  - Jordi Lafebre
+  - Joris Mertens
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  isbn: '9783967922974'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967922974.jpg
+  fertig_am: '2023-04-16'
+  tags:
+  - rezension
+  ekz_id: '1641271'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6296bf647982005a6d2905e9
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 5
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Zidrou
+  - Jordi Lafebre
+  - Joris Mertens
+  - Álvaro Martínez Bueno
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Victor Dixen
+  - Eduardo Francisco
+  isbn: '9783967923148'
+  erscheinungsjahr: 2023
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923148.jpg
+  fertig_am: '2023-04-02'
+  tags:
+  - rezension
+  ekz_id: '1641111'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6296bf647982005a6d29061a
+- typ: buch
+  status: finished
+  titel: Das Mal der Schlächter
+  autor:
+  - James IV Tynion
+  - Tate Brombal
+  - Chris Shehan
+  - Joris Mertens
+  - Álvaro Martínez Bueno
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Victor Dixen
+  - Eduardo Francisco
+  - Werther Dell'Edera
+  isbn: '9783987210532'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783987210532.jpg
+  fertig_am: '2023-03-15'
+  tags:
+  - rezension
+  ekz_id: '1640738'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6296bf647982005a6d290712
+- typ: buch
+  status: finished
+  titel: Der Ring des Nibelungen
+  autor:
+  - P. Craig Russell
+  - Patrick Mason
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Victor Dixen
+  - Eduardo Francisco
+  - Werther Dell'Edera
+  - Tate Brombal
+  - Chris Shehan
+  isbn: '9783966589437'
+  erscheinungsjahr: 2023
+  verlag: Cross Cult Entertainment
+  cover: https://cover.ekz.de/9783966589437.jpg
+  fertig_am: '2023-03-05'
+  tags:
+  - rezension
+  ekz_id: '1652415'
+  quelle: https://medienwelten.ekz.de/product?id=pim:624ca826c157382e47e5d899
+- typ: buch
+  status: finished
+  titel: Nationalfeiertag
+  autor:
+  - Bastien Vivès
+  - Martin Quenehen
+  - Vincent Brugeas
+  - Ronan Toulhoat
+  - Yoann Guillo
+  - Victor Dixen
+  - Eduardo Francisco
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Chris Shehan
+  - P. Craig Russell
+  - Patrick Mason
+  isbn: '9783965821163'
+  erscheinungsjahr: 2023
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965821163.jpg
+  fertig_am: '2023-02-19'
+  tags:
+  - rezension
+  ekz_id: '1652300'
+  quelle: https://medienwelten.ekz.de/product?id=pim:62aa429be064d507f7a3f680
+- typ: buch
+  status: finished
+  titel: Das letzte Wort
+  autor:
+  - Vincent Perriot
+  - Victor Dixen
+  - Eduardo Francisco
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Chris Shehan
+  - P. Craig Russell
+  - Patrick Mason
+  - Bastien Vivès
+  - Martin Quenehen
+  isbn: '9783551734426'
+  erscheinungsjahr: 2022
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551734426.jpg
+  fertig_am: '2023-02-12'
+  tags:
+  - rezension
+  ekz_id: '1767387'
+  quelle: https://medienwelten.ekz.de/product?id=pim:617c5bae5d9e4c4b48af9cbc
+- typ: buch
+  status: finished
+  titel: The Spider King
+  autor:
+  - Josh Vann
+  - Simone D’Armini
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Tate Brombal
+  - Chris Shehan
+  - P. Craig Russell
+  - Patrick Mason
+  - Bastien Vivès
+  - Martin Quenehen
+  - Vincent Perriot
+  isbn: '9783966588379'
+  erscheinungsjahr: 2022
+  verlag: Cross Cult Entertainment
+  cover: https://cover.ekz.de/9783966588379.jpg
+  fertig_am: '2023-02-12'
+  tags:
+  - rezension
+  ekz_id: '1526537'
+  quelle: https://medienwelten.ekz.de/product?id=pim:617222bdcb5d2b2d714ddbaf
+- typ: buch
+  status: finished
+  titel: Maurice
+  autor:
+  - Gaet's
+  - Julien Monier
+  - James IV Tynion
+  - Tate Brombal
+  - Chris Shehan
+  - P. Craig Russell
+  - Patrick Mason
+  - Bastien Vivès
+  - Martin Quenehen
+  - Vincent Perriot
+  - Josh Vann
+  - Simone D’Armini
+  isbn: '9783967923421'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923421.jpg
+  fertig_am: '2023-02-05'
+  tags:
+  - rezension
+  ekz_id: '1640898'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6296bf647982005a6d290758
+- typ: buch
+  status: finished
+  titel: Hard Rescue
+  autor:
+  - Harry Bozino
+  - Roberto Dakar Meli
+  - P. Craig Russell
+  - Patrick Mason
+  - Bastien Vivès
+  - Martin Quenehen
+  - Vincent Perriot
+  - Josh Vann
+  - Simone D’Armini
+  - Gaet's
+  - Julien Monier
+  isbn: '9783967920437'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967920437.jpg
+  fertig_am: '2023-01-05'
+  tags:
+  - rezension
+  ekz_id: '1526030'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fd4f
+- typ: buch
   status: want to read
   titel: Die Jahre des Maulwurfs
   autor:
@@ -74,6 +929,119 @@
   verlag: Penguin Autor Kerstin Brune erschienen am 24.08.2022 Rubrik Belletristik
 - typ: buch
   status: finished
+  titel: Sternensaat
+  autor:
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Bastien Vivès
+  - Martin Quenehen
+  - Vincent Perriot
+  - Josh Vann
+  - Simone D’Armini
+  - Gaet's
+  - Julien Monier
+  - Harry Bozino
+  - Roberto Dakar Meli
+  isbn: '9783962193775'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193775.jpg
+  fertig_am: '2022-12-05'
+  tags:
+  - rezension
+  ekz_id: '1528713'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fda5
+- typ: buch
+  status: finished
+  titel: Derrick
+  autor:
+  - Gaet's
+  - Julien Monier
+  - Vincent Perriot
+  - Josh Vann
+  - Simone D’Armini
+  - Harry Bozino
+  - Roberto Dakar Meli
+  - Jeff Lemire
+  - Dustin Nguyen
+  isbn: '9783967923414'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923414.jpg
+  fertig_am: '2022-11-24'
+  tags:
+  - rezension
+  ekz_id: '1525668'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fda7
+- typ: buch
+  status: finished
+  titel: Bug Buch 3
+  autor:
+  - Enki Bilal
+  - Josh Vann
+  - Simone D’Armini
+  - Gaet's
+  - Julien Monier
+  - Harry Bozino
+  - Roberto Dakar Meli
+  - Jeff Lemire
+  - Dustin Nguyen
+  isbn: '9783551721297'
+  erscheinungsjahr: 2022
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551721297.jpg
+  fertig_am: '2022-11-19'
+  tags:
+  - rezension
+  ekz_id: '1285473'
+  quelle: https://medienwelten.ekz.de/product?id=pim:607df73d44f33555abc360b6
+- typ: buch
+  status: finished
+  titel: Ein seltsamer Tag
+  autor:
+  - Olaf Brill
+  - Michael Vogt
+  - Gaet's
+  - Julien Monier
+  - Harry Bozino
+  - Roberto Dakar Meli
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Enki Bilal
+  isbn: '9783741630934'
+  erscheinungsjahr: 2022
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741630934.jpg
+  fertig_am: '2022-11-09'
+  tags:
+  - rezension
+  ekz_id: '1601503'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6295f7077982005a6de6a060
+- typ: buch
+  status: finished
+  titel: Jim Hawkins
+  autor:
+  - Sébastien Vastra
+  - Harry Bozino
+  - Roberto Dakar Meli
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Gaet's
+  - Julien Monier
+  - Enki Bilal
+  - Olaf Brill
+  - Michael Vogt
+  isbn: '9783967923674'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923674.jpg
+  fertig_am: '2022-10-25'
+  tags:
+  - rezension
+  ekz_id: '1525968'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fd63
+- typ: buch
+  status: finished
   titel: 'City on Fire (Danny Ryan, #1)'
   autor:
   - Don Winslow
@@ -85,6 +1053,52 @@
   cover: https://buch.isbn.de/gross/9780062851192.jpg
   verlag: HarperCollins US Autor Don Winslow ISBN-10 0-06-285119-5 ISBN-13 978- 0-
     06- 285119- 2 Lieferstatus verfügbar Preis 29,0
+- typ: buch
+  status: finished
+  titel: In NY
+  autor:
+  - Andreas Gefe
+  - Julian Voloj
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Gaet's
+  - Julien Monier
+  - Enki Bilal
+  - Olaf Brill
+  - Michael Vogt
+  - Sébastien Vastra
+  isbn: '9783037312391'
+  erscheinungsjahr: 2022
+  verlag: Edition Moderne
+  cover: https://cover.ekz.de/9783037312391.jpg
+  fertig_am: '2022-10-16'
+  tags:
+  - rezension
+  ekz_id: '1626874'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6295f7077982005a6de698c7
+- typ: buch
+  status: finished
+  titel: Der Flug der Entbehrlichen
+  autor:
+  - Victor Dixen
+  - Eduardo Francisco
+  - Gaet's
+  - Julien Monier
+  - Enki Bilal
+  - Olaf Brill
+  - Michael Vogt
+  - Sébastien Vastra
+  - Andreas Gefe
+  - Julian Voloj
+  isbn: '9783967922967'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967922967.jpg
+  fertig_am: '2022-10-16'
+  tags:
+  - rezension
+  ekz_id: '1525749'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248924a10575e5c10fcd6
 - typ: buch
   status: finished
   titel: 'Das Humboldt-Tier: Ein Marsupilami-Abenteuer'
@@ -140,6 +1154,121 @@
   cover: https://buch.isbn.de/gross/9783498002589.jpg
   verlag: Rowohlt Autor Herv
 - typ: buch
+  status: finished
+  titel: Simon & Louise
+  autor:
+  - Max de Radiguès
+  - Enki Bilal
+  - Olaf Brill
+  - Michael Vogt
+  - Sébastien Vastra
+  - Andreas Gefe
+  - Julian Voloj
+  - Victor Dixen
+  - Eduardo Francisco
+  isbn: '9783956403347'
+  erscheinungsjahr: 2022
+  verlag: Reprodukt
+  cover: https://cover.ekz.de/9783956403347.jpg
+  fertig_am: '2022-06-16'
+  tags:
+  - rezension
+  ekz_id: '1625960'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6295f4287982005a6de598f9
+- typ: buch
+  status: finished
+  titel: Der Aufstand
+  autor:
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  - Olaf Brill
+  - Michael Vogt
+  - Sébastien Vastra
+  - Andreas Gefe
+  - Julian Voloj
+  - Victor Dixen
+  - Eduardo Francisco
+  - Max de Radiguès
+  isbn: '9783741630927'
+  erscheinungsjahr: 2022
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741630927.jpg
+  fertig_am: '2022-05-29'
+  tags:
+  - rezension
+  ekz_id: '1601558'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6294b9865dedf932248a1f95
+- typ: buch
+  status: finished
+  titel: Das Leuchten im Grenzland
+  autor:
+  - Pirmin Beeler
+  - Sébastien Vastra
+  - Andreas Gefe
+  - Julian Voloj
+  - Victor Dixen
+  - Eduardo Francisco
+  - Max de Radiguès
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  isbn: '9783037312308'
+  erscheinungsjahr: 2022
+  verlag: Edition Moderne
+  cover: https://cover.ekz.de/9783037312308.jpg
+  fertig_am: '2022-04-15'
+  tags:
+  - rezension
+  ekz_id: '1563368'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61be53884a10575e5cc6c271
+- typ: buch
+  status: finished
+  titel: Goldfinger
+  autor:
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  - Andreas Gefe
+  - Julian Voloj
+  - Victor Dixen
+  - Eduardo Francisco
+  - Max de Radiguès
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  - Pirmin Beeler
+  isbn: '9783967922356'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967922356.jpg
+  fertig_am: '2022-04-10'
+  tags:
+  - rezension
+  ekz_id: '1378658'
+  quelle: https://medienwelten.ekz.de/product?id=pim:60a575ec4629c472ed1f92f5
+- typ: buch
+  status: finished
+  titel: Roter Schnee
+  autor:
+  - Franck Biancarelli
+  - Lewis Trondheim
+  - Victor Dixen
+  - Eduardo Francisco
+  - Max de Radiguès
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  - Pirmin Beeler
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  isbn: '9783965821040'
+  erscheinungsjahr: 2022
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965821040.jpg
+  fertig_am: '2022-04-10'
+  tags:
+  - rezension
+  ekz_id: '1525287'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61bac2a44a10575e5c9ba070
+- typ: buch
   status: want to read
   titel: 'Meine geniale Freundin (L''amica geniale #1)'
   autor:
@@ -157,6 +1286,203 @@
     zeitgenössische Belletristik ISBN-10 3-518-425
 - typ: buch
   status: finished
+  titel: Hit the road
+  autor:
+  - Dobbs
+  - Afif Khaled
+  - Max de Radiguès
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  - Pirmin Beeler
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  - Franck Biancarelli
+  - Lewis Trondheim
+  isbn: '9783967921472'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967921472.jpg
+  fertig_am: '2022-03-06'
+  tags:
+  - rezension
+  ekz_id: '1323777'
+  quelle: https://medienwelten.ekz.de/product?id=pim:60a575ec4629c472ed1f92f0
+- typ: buch
+  status: finished
+  titel: Shooting Ramirez 2. Akt
+  autor:
+  - Nicolas Petrimaux
+  - Joseph Michael Straczynski
+  - C. P. Smith
+  - Pirmin Beeler
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  - Franck Biancarelli
+  - Lewis Trondheim
+  - Dobbs
+  - Afif Khaled
+  isbn: '9783965820166'
+  erscheinungsjahr: 2021
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965820166.jpg
+  fertig_am: '2022-02-06'
+  tags:
+  - rezension
+  ekz_id: '1485755'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fe266d74fc8ca5039aca620
+- typ: buch
+  status: finished
+  titel: Die Lache von Lapsane
+  autor:
+  - Éric Henninot
+  - Pirmin Beeler
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  - Franck Biancarelli
+  - Lewis Trondheim
+  - Dobbs
+  - Afif Khaled
+  - Nicolas Petrimaux
+  isbn: '9783962194901'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194901.jpg
+  fertig_am: '2022-01-18'
+  tags:
+  - rezension
+  ekz_id: '1526641'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fd55
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 4
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Greg Pak
+  - Eric Gapstur
+  - Robert Carey
+  - Franck Biancarelli
+  - Lewis Trondheim
+  - Dobbs
+  - Afif Khaled
+  - Nicolas Petrimaux
+  - Éric Henninot
+  isbn: '9783967923131'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967923131.jpg
+  fertig_am: '2022-01-18'
+  tags:
+  - rezension
+  ekz_id: '1526178'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fd72
+- typ: buch
+  status: finished
+  titel: Go West young man
+  autor:
+  - Franck Biancarelli
+  - Lewis Trondheim
+  - Dobbs
+  - Afif Khaled
+  - Nicolas Petrimaux
+  - Éric Henninot
+  - Werther Dell'Edera
+  - James IV Tynion
+  isbn: '9783967922776'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967922776.jpg
+  fertig_am: '2022-01-18'
+  tags:
+  - rezension
+  ekz_id: '1526007'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61c248954a10575e5c10fd4d
+- typ: buch
+  status: finished
+  titel: Gun crazy 2
+  autor:
+  - Steve D
+  - Jef
+  - Dobbs
+  - Afif Khaled
+  - Nicolas Petrimaux
+  - Éric Henninot
+  - Werther Dell'Edera
+  - James IV Tynion
+  isbn: '9783965820951'
+  erscheinungsjahr: 2022
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965820951.jpg
+  fertig_am: '2022-01-18'
+  tags:
+  - rezension
+  ekz_id: '1525254'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61bac2a44a10575e5c9ba01a
+- typ: buch
+  status: finished
+  titel: Falsche Fährten
+  autor:
+  - Bruno Duhamel
+  - Nicolas Petrimaux
+  - Éric Henninot
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Steve D
+  - Jef
+  isbn: '9783964450692'
+  erscheinungsjahr: 2022
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783964450692.jpg
+  fertig_am: '2022-01-11'
+  tags:
+  - rezension
+  ekz_id: '1518415'
+  quelle: https://medienwelten.ekz.de/product?id=pim:61abde4d4a10575e5c8b888f
+- typ: buch
+  status: finished
+  titel: Auf zu neuen Abenteuern
+  autor:
+  - Julien Neel
+  - Éric Henninot
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Steve D
+  - Jef
+  - Bruno Duhamel
+  isbn: '9783948057480'
+  erscheinungsjahr: 2022
+  verlag: Finix Comics e.V.
+  cover: https://cover.ekz.de/9783948057480.jpg
+  fertig_am: '2022-01-07'
+  tags:
+  - rezension
+  ekz_id: '1455336'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6118bcb6ca106f06af454edf
+- typ: buch
+  status: finished
+  titel: Das Haus am See Band 1
+  autor:
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Werther Dell'Edera
+  - Steve D
+  - Jef
+  - Bruno Duhamel
+  - Julien Neel
+  isbn: '9783741627774'
+  erscheinungsjahr: 2022
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741627774.jpg
+  fertig_am: '2022-01-06'
+  tags:
+  - rezension
+  ekz_id: '1510225'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6198188f5d9e4c4b4873360d
+- typ: buch
+  status: finished
   titel: 'Natrium Chlorid (Carl-Mørck-Reihe #9)'
   autor:
   - Jussi Adler-Olsen
@@ -164,6 +1490,49 @@
   seiten: 529
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/59949840
+- typ: buch
+  status: finished
+  titel: Origins
+  autor:
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  - Steve D
+  - Jef
+  - Bruno Duhamel
+  - Julien Neel
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  isbn: '9783966585378'
+  erscheinungsjahr: 2021
+  verlag: Cross Cult Entertainment
+  cover: https://cover.ekz.de/9783966585378.jpg
+  fertig_am: '2021-12-20'
+  tags:
+  - rezension
+  ekz_id: '1323409'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6070ba2f44f33555ab06bdf1
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 3
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Steve D
+  - Jef
+  - Bruno Duhamel
+  - Julien Neel
+  - Álvaro Martínez Bueno
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  isbn: '9783962195595'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962195595.jpg
+  fertig_am: '2021-12-20'
+  tags:
+  - rezension
+  ekz_id: '1306041'
+  quelle: https://medienwelten.ekz.de/product?id=pim:60a575ec4629c472ed1f9263
 - typ: buch
   status: want to read
   titel: Auf einem Auge Herbst
@@ -178,6 +1547,50 @@
   quelle: https://www.goodreads.com/book/show/29421599
   cover: https://buch.isbn.de/gross/9783954610617.jpg
   verlag: Lektora GmbH Autor Claudio Ghin erschienen am 23.02.2016 Rubrik Belletristik
+- typ: buch
+  status: finished
+  titel: Gun crazy 1
+  autor:
+  - Steve D
+  - Jef
+  - Bruno Duhamel
+  - Julien Neel
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  - Werther Dell'Edera
+  isbn: '9783965820777'
+  erscheinungsjahr: 2021
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965820777.jpg
+  fertig_am: '2021-12-12'
+  tags:
+  - rezension
+  ekz_id: '1332538'
+  quelle: https://medienwelten.ekz.de/product?id=pim:60ac1bae4629c472edd8fefc
+- typ: buch
+  status: finished
+  titel: Celestia
+  autor:
+  - Manuele Fior
+  - Julien Neel
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  - Werther Dell'Edera
+  - Steve D
+  - Jef
+  isbn: '9783964450579'
+  erscheinungsjahr: 2021
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783964450579.jpg
+  fertig_am: '2021-12-04'
+  tags:
+  - rezension
+  ekz_id: '1338727'
+  quelle: https://medienwelten.ekz.de/product?id=pim:6096f5584629c472ed6d70dc
 - typ: buch
   status: finished
   titel: 'Asterix und der Greif (Asterix, #39)'
@@ -223,6 +1636,28 @@
     Belletristik
 - typ: buch
   status: finished
+  titel: Five years
+  autor:
+  - Terry Moore
+  - James IV Tynion
+  - Álvaro Martínez Bueno
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  - Werther Dell'Edera
+  - Steve D
+  - Jef
+  - Manuele Fior
+  isbn: '9783965820661'
+  erscheinungsjahr: 2021
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783965820661.jpg
+  fertig_am: '2021-09-19'
+  tags:
+  - rezension
+  ekz_id: '1365608'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fe266d74fc8ca5039aca626
+- typ: buch
+  status: finished
   titel: 'Digitale Balance: Mit smarter Handynutzung leichter leben – Die 30-Tage-Challenge
     - Digital Detox (German Edition)'
   autor:
@@ -252,6 +1687,30 @@
     und feministische Theorie ISBN-10 3-608-50480-X '
 - typ: buch
   status: finished
+  titel: Oddjob
+  autor:
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  - Clay McLeod Chapman
+  - Jakub Rebelka
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Steve D
+  - Jef
+  - Manuele Fior
+  - Terry Moore
+  isbn: '9783962193522'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193522.jpg
+  fertig_am: '2021-08-23'
+  tags:
+  - rezension
+  ekz_id: '1190633'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fdfc2ba3cd2b6383201a384
+- typ: buch
+  status: finished
   titel: 'The Late Show (Renée Ballard, #1; Harry Bosch Universe, #30)'
   autor:
   - Michael    Connelly
@@ -265,6 +1724,75 @@
     ISBN-10 0-316-22598-3 ISBN-13 978- 0- 316- 22
 - typ: buch
   status: finished
+  titel: Im Auge des Zyklons
+  autor:
+  - Bruce Mutard
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Steve D
+  - Jef
+  - Manuele Fior
+  - Terry Moore
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  isbn: '9783964450517'
+  erscheinungsjahr: 2021
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783964450517.jpg
+  fertig_am: '2021-07-31'
+  tags:
+  - rezension
+  ekz_id: '1190517'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fbece1c3cd2b638324716e9
+- typ: buch
+  status: finished
+  titel: Eine neue Ordnung
+  autor:
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  - Steve D
+  - Jef
+  - Manuele Fior
+  - Terry Moore
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  - Bruce Mutard
+  isbn: '9783741622274'
+  erscheinungsjahr: 2021
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741622274.jpg
+  fertig_am: '2021-06-21'
+  tags:
+  - rezension
+  ekz_id: '1190377'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fab080f3cd2b63832f06209
+- typ: buch
+  status: finished
+  titel: Something is killing the children Teil 2
+  autor:
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Manuele Fior
+  - Terry Moore
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  - Bruce Mutard
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  isbn: '9783962195588'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962195588.jpg
+  fertig_am: '2021-06-17'
+  tags:
+  - rezension
+  ekz_id: '1188040'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5fdfc2ba3cd2b6383201a368
+- typ: buch
+  status: finished
   titel: Neujahr
   autor:
   - Juli Zeh
@@ -275,6 +1803,31 @@
   quelle: https://www.goodreads.com/book/show/40094855
   cover: https://buch.isbn.de/gross/9783630875729.jpg
   verlag: Luchterhand Autor Juli Zeh erschienen am 10.09.2018 Rubrik Belletristik
+- typ: buch
+  status: finished
+  titel: Die Erlösung von Catamount
+  autor:
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  - Terry Moore
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  - Bruce Mutard
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  - Werther Dell'Edera
+  - James IV Tynion
+  isbn: '9783967921878'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783967921878.jpg
+  fertig_am: '2021-05-31'
+  tags:
+  - rezension
+  ekz_id: '1305991'
+  quelle: https://medienwelten.ekz.de/product?id=pim:60a575ec4629c472ed1f92e1
 - typ: buch
   status: finished
   titel: '#Einfach autofrei leben: Nachhaltig mobil: Die besten Alternativen - Mit
@@ -362,6 +1915,132 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/31557100
 - typ: buch
+  status: finished
+  titel: Der digitale Magier
+  autor:
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Greg Pak
+  - Marc Laming
+  - Stephen Mooney
+  - Bruce Mutard
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  isbn: '9783962193768'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193768.jpg
+  fertig_am: '2021-03-28'
+  tags:
+  - rezension
+  ekz_id: '1049331'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5f062e95352df30001789a09
+- typ: buch
+  status: finished
+  titel: Das grazile Geschwader
+  autor:
+  - Éric Henninot
+  - Bruce Mutard
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  - Dustin Nguyen
+  - Jeff Lemire
+  isbn: '9783962194895'
+  erscheinungsjahr: 2020
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194895.jpg
+  fertig_am: '2020-12-31'
+  tags:
+  - rezension
+  ekz_id: '1049238'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5f062e96352df30001789ac3
+- typ: buch
+  status: finished
+  titel: Mutationen Episode 2
+  autor:
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Joseph Michael Straczynski
+  - Mike Deodato
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Éric Henninot
+  isbn: '9783962194048'
+  erscheinungsjahr: 2020
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194048.jpg
+  fertig_am: '2020-12-20'
+  tags:
+  - rezension
+  ekz_id: '1102078'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5f062e96352df30001789a46
+- typ: buch
+  status: finished
+  titel: Mam'zelle Esterel
+  autor:
+  - Zidrou
+  - Jordi Lafebre
+  - Werther Dell'Edera
+  - James IV Tynion
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Éric Henninot
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  isbn: '9783899087109'
+  erscheinungsjahr: 2020
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899087109.jpg
+  fertig_am: '2020-12-01'
+  tags:
+  - rezension
+  ekz_id: '1089563'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5f666bf390dafa32665881fb
+- typ: buch
+  status: finished
+  titel: Mutationen Episode 1
+  autor:
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Gaet's
+  - Albert Bonneau
+  - Benjamin Blasco-Martinez
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Éric Henninot
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783962194031'
+  erscheinungsjahr: 2020
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962194031.jpg
+  fertig_am: '2020-09-26'
+  tags:
+  - rezension
+  ekz_id: '5881602'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5dfd8c59352df300018aa849
+- typ: buch
   status: want to read
   titel: 'Vier Fäuste für ein blaues Auge: Wie der Wilde Westen nach Deutschland kam'
   autor:
@@ -439,6 +2118,28 @@
     5067- 1337- 3 Lieferstatus verfügbar Preis 24,5
 - typ: buch
   status: finished
+  titel: Berserker Unbound
+  autor:
+  - Jeff Lemire
+  - Mike Deodato
+  - Dustin Nguyen
+  - Éric Henninot
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783962193737'
+  erscheinungsjahr: 2020
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193737.jpg
+  fertig_am: '2020-08-05'
+  tags:
+  - rezension
+  ekz_id: '5669929'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5caebd50352df30001b3743a
+- typ: buch
+  status: finished
   titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien
     (German Edition)'
   autor:
@@ -496,6 +2197,51 @@
   verlag: Suhrkamp Autor Anna Katharina Hahn erschienen am 12.03.2012 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-51
 - typ: buch
+  status: finished
+  titel: Bug Buch 2
+  autor:
+  - Enki Bilal
+  - Éric Henninot
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Zidrou
+  - Jordi Lafebre
+  - Jeff Lemire
+  - Mike Deodato
+  isbn: '9783551721280'
+  erscheinungsjahr: 2019
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551721280.jpg
+  fertig_am: '2020-02-15'
+  tags:
+  - rezension
+  ekz_id: '5869091'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cb53fdb352df30001bdf4f8
+- typ: buch
+  status: finished
+  titel: La belle dame sans merci
+  autor:
+  - Martin Montiel
+  - Joe Benitez
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Zidrou
+  - Jordi Lafebre
+  - Jeff Lemire
+  - Mike Deodato
+  - Enki Bilal
+  isbn: '9783962191146'
+  erscheinungsjahr: 2022
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191146.jpg
+  fertig_am: '2020-02-09'
+  tags:
+  - rezension
+  ekz_id: '5747877'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ce4bed6352df3000120c525
+- typ: buch
   status: want to read
   titel: Serpentinen
   autor:
@@ -510,6 +2256,127 @@
   cover: https://buch.isbn.de/gross/9783546100038.jpg
   verlag: 'Claassen Autor Bov Bjerg erschienen am 28.01.2020 Rubrik Moderne und zeitgenössische
     Belletristik ISBN-10 3-546-10003-4 '
+- typ: buch
+  status: finished
+  titel: Der Führer
+  autor:
+  - Rodolphe
+  - Christophe Dubois
+  - Zidrou
+  - Jordi Lafebre
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Jeff Lemire
+  - Mike Deodato
+  - Enki Bilal
+  - Martin Montiel
+  - Joe Benitez
+  isbn: '9783962192938'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962192938.jpg
+  fertig_am: '2020-01-28'
+  tags:
+  - rezension
+  ekz_id: '5747888'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ce4bed6352df3000120c4de
+- typ: buch
+  status: finished
+  titel: Die Rache der Raben
+  autor:
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  - Léo
+  - Corine Jamar
+  - Fred Simon
+  - Jeff Lemire
+  - Mike Deodato
+  - Enki Bilal
+  - Martin Montiel
+  - Joe Benitez
+  - Rodolphe
+  - Christophe Dubois
+  isbn: '9783962191207'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191207.jpg
+  fertig_am: '2020-01-22'
+  tags:
+  - rezension
+  ekz_id: '5803346'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ce4bed6352df3000120c588
+- typ: buch
+  status: finished
+  titel: Die verwunschene Galaxie
+  autor:
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Mike Deodato
+  - Enki Bilal
+  - Martin Montiel
+  - Joe Benitez
+  - Rodolphe
+  - Christophe Dubois
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  isbn: '9783962193744'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193744.jpg
+  fertig_am: '2020-01-12'
+  tags:
+  - rezension
+  ekz_id: '5669930'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5caebd50352df30001b375d6
+- typ: buch
+  status: finished
+  titel: Schwarze Seerosen
+  autor:
+  - Didier Cassegrain
+  - Fred Duval
+  - Enki Bilal
+  - Martin Montiel
+  - Joe Benitez
+  - Rodolphe
+  - Christophe Dubois
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  - Dustin Nguyen
+  - Jeff Lemire
+  isbn: '9783962193720'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193720.jpg
+  fertig_am: '2020-01-08'
+  tags:
+  - rezension
+  ekz_id: '5705830'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ce4bed6352df3000120c517
+- typ: buch
+  status: finished
+  titel: Der Verbannte
+  autor:
+  - Erik Kriek
+  - Martin Montiel
+  - Joe Benitez
+  - Rodolphe
+  - Christophe Dubois
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Didier Cassegrain
+  - Fred Duval
+  isbn: '9783964450180'
+  erscheinungsjahr: 2019
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783964450180.jpg
+  fertig_am: '2020-01-04'
+  tags:
+  - rezension
+  ekz_id: '5684305'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cd64249352df30001f50512
 - typ: buch
   status: want to read
   titel: 'Perry Rhodan: Das größte Abenteuer'
@@ -526,6 +2393,31 @@
   verlag: FISCHER Tor Autor Andreas Eschbach erschienen am 27.02.2019 Rubrik Klassische
     Science-Fiction-Literatur ISBN-10 3-596-70
 - typ: buch
+  status: finished
+  titel: Vader - dunkle Visionen
+  autor:
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  - Rodolphe
+  - Christophe Dubois
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Didier Cassegrain
+  - Fred Duval
+  - Erik Kriek
+  isbn: '9783741614156'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741614156.jpg
+  fertig_am: '2019-12-15'
+  tags:
+  - rezension
+  ekz_id: '5805613'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cc27115352df30001e00c74
+- typ: buch
   status: want to read
   titel: Das Flimmern der Wahrheit über der Wüste
   autor:
@@ -540,6 +2432,52 @@
   cover: https://buch.isbn.de/gross/9783462051070.jpg
   verlag: Kiepenheuer & Witsch Autor Philipp Schwenke erschienen am 07.09.2018 Rubrik
     Moderne und zeitgenössische Belletristik ISB
+- typ: buch
+  status: finished
+  titel: Morluns Rückkehr
+  autor:
+  - Benjamin Blasco- Martinez
+  - Gaëts
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Didier Cassegrain
+  - Fred Duval
+  - Erik Kriek
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  isbn: '9783741612992'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741612992.jpg
+  fertig_am: '2019-12-14'
+  tags:
+  - rezension
+  ekz_id: '5830376'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cc27115352df30001e00da0
+- typ: buch
+  status: finished
+  titel: M.O.R.I.A.R.T.Y.
+  autor:
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Didier Cassegrain
+  - Erik Kriek
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  isbn: '9783962192983'
+  erscheinungsjahr: 2024
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962192983.jpg
+  fertig_am: '2019-12-01'
+  tags:
+  - rezension
+  ekz_id: '5599665'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c357565352df30001d0e1ae
 - typ: buch
   status: want to read
   titel: 'All Systems Red (The Murderbot Diaries, #1)'
@@ -648,6 +2586,98 @@
   verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 29.09.2019 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-47003-5 ISBN-13 '
 - typ: buch
+  status: finished
+  titel: Cassandra Darke
+  autor:
+  - Posy Simmonds
+  - Didier Cassegrain
+  - Fred Duval
+  - Erik Kriek
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  isbn: '9783956401961'
+  erscheinungsjahr: 2019
+  verlag: Reprodukt
+  cover: https://cover.ekz.de/9783956401961.jpg
+  fertig_am: '2019-11-04'
+  tags:
+  - rezension
+  ekz_id: '5699378'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cd4e9e1352df30001f152fa
+- typ: buch
+  status: finished
+  titel: Thrawn
+  autor:
+  - Jody Houser
+  - Luke Ross
+  - Erik Kriek
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  - Posy Simmonds
+  isbn: '9783741614095'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741614095.jpg
+  fertig_am: '2019-11-03'
+  tags:
+  - rezension
+  ekz_id: '5799013'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cc27115352df30001e00d53
+- typ: buch
+  status: finished
+  titel: Han Solo - Kadett des Imperiums
+  autor:
+  - Robbie Thompson
+  - Leonard Kirk
+  - Dennis Hallum
+  - Arif Prianto
+  - Jordan Boyd
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  - Posy Simmonds
+  - Jody Houser
+  - Luke Ross
+  isbn: '9783741614132'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741614132.jpg
+  fertig_am: '2019-10-24'
+  tags:
+  - rezension
+  ekz_id: '5733588'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cc27115352df30001e00d83
+- typ: buch
+  status: finished
+  titel: Furchtlose Vampirkiller
+  autor:
+  - David Baldeon
+  - Gail Simone
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  - Posy Simmonds
+  - Jody Houser
+  - Luke Ross
+  - Robbie Thompson
+  - Leonard Kirk
+  isbn: '9783741613333'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741613333.jpg
+  fertig_am: '2019-10-22'
+  tags:
+  - rezension
+  ekz_id: '5782502'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5cc27115352df30001e00e2b
+- typ: buch
   status: want to read
   titel: Thees Uhlmann über Die Toten Hosen
   autor:
@@ -678,6 +2708,103 @@
     und zeitgenössische Belletristik ISBN-10 3-8
 - typ: buch
   status: finished
+  titel: Der Fremde
+  autor:
+  - Rodolphe
+  - Christophe Dubois
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Stevan Subic
+  - Posy Simmonds
+  - Jody Houser
+  - Luke Ross
+  - Robbie Thompson
+  - Leonard Kirk
+  - David Baldeon
+  - Gail Simone
+  isbn: '9783962192921'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962192921.jpg
+  fertig_am: '2019-09-01'
+  tags:
+  - rezension
+  ekz_id: '5599468'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c357565352df30001d0e196
+- typ: buch
+  status: finished
+  titel: Der Pfad der neuen Pioniere
+  autor:
+  - Didier Tarquin
+  - Lyse Tarquin
+  - Posy Simmonds
+  - Jody Houser
+  - Luke Ross
+  - Robbie Thompson
+  - Leonard Kirk
+  - David Baldeon
+  - Gail Simone
+  - Rodolphe
+  - Christophe Dubois
+  isbn: '9783962193065'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193065.jpg
+  fertig_am: '2019-08-29'
+  tags:
+  - rezension
+  ekz_id: '5599435'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c357566352df30001d0e264
+- typ: buch
+  status: finished
+  titel: Shooting Ramirez 1. Akt
+  autor:
+  - Nicolas Petrimaux
+  - Jody Houser
+  - Luke Ross
+  - Robbie Thompson
+  - Leonard Kirk
+  - David Baldeon
+  - Gail Simone
+  - Rodolphe
+  - Christophe Dubois
+  - Didier Tarquin
+  - Lyse Tarquin
+  isbn: '9783946337942'
+  erscheinungsjahr: 2019
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783946337942.jpg
+  fertig_am: '2019-08-25'
+  tags:
+  - rezension
+  ekz_id: '5599746'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c1dda6f352df300015763e5
+- typ: buch
+  status: finished
+  titel: Die lebende Tote
+  autor:
+  - Olivier Vatine
+  - Alberto Varanda
+  - Robbie Thompson
+  - Leonard Kirk
+  - David Baldeon
+  - Gail Simone
+  - Rodolphe
+  - Christophe Dubois
+  - Didier Tarquin
+  - Lyse Tarquin
+  - Nicolas Petrimaux
+  isbn: '9783962193126'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962193126.jpg
+  fertig_am: '2019-08-23'
+  tags:
+  - rezension
+  ekz_id: '5599491'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c357564352df30001d0e0cb
+- typ: buch
+  status: finished
   titel: 'Schwarzes Watt  (Theo Krumme, #4)'
   autor:
   - Hendrik Berg
@@ -690,6 +2817,31 @@
   cover: https://buch.isbn.de/gross/9783641220907.jpg
   verlag: Goldmann Autor Hendrik Berg erschienen am 19.03.2018 Rubrik Moderne und
     zeitgenössische Belletristik ISBN-10 3-641-22090
+- typ: buch
+  status: finished
+  titel: Die Schlacht um das Labyrinth
+  autor:
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  - David Baldeon
+  - Gail Simone
+  - Rodolphe
+  - Christophe Dubois
+  - Didier Tarquin
+  - Lyse Tarquin
+  - Nicolas Petrimaux
+  - Olivier Vatine
+  - Alberto Varanda
+  isbn: '9783551775641'
+  erscheinungsjahr: 2019
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551775641.jpg
+  fertig_am: '2019-08-03'
+  tags:
+  - rezension
+  ekz_id: '5731149'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf771fc352df30001717250
 - typ: buch
   status: finished
   titel: 'Deadly Class 1: Akademie der tödlichen Künste (Deadly Class, #1)'
@@ -719,6 +2871,29 @@
     Comics ISBN-10 3-7704-4060-9 ISBN-13 978
 - typ: buch
   status: finished
+  titel: Heimkehr
+  autor:
+  - Rodolphe
+  - Christophe Dubois
+  - Didier Tarquin
+  - Lyse Tarquin
+  - Nicolas Petrimaux
+  - Olivier Vatine
+  - Alberto Varanda
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  isbn: '9783741611674'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741611674.jpg
+  fertig_am: '2019-07-19'
+  tags:
+  - rezension
+  ekz_id: '5716856'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf8d60e352df3000175e512
+- typ: buch
+  status: finished
   titel: 'Mexikoring (Chas Riley, #8)'
   autor:
   - Simone Buchholz
@@ -731,6 +2906,29 @@
   cover: https://buch.isbn.de/gross/9783518468944.jpg
   verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 10.09.2018 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-46894-4 ISBN-13 '
+- typ: buch
+  status: finished
+  titel: Die Bucht am Meer
+  autor:
+  - Zidrou
+  - Jordi Lafebre
+  - Didier Tarquin
+  - Lyse Tarquin
+  - Nicolas Petrimaux
+  - Olivier Vatine
+  - Alberto Varanda
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  isbn: '9783899086355'
+  erscheinungsjahr: 2019
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899086355.jpg
+  fertig_am: '2019-07-09'
+  tags:
+  - rezension
+  ekz_id: '5669882'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c678baf352df30001c4a0c1
 - typ: buch
   status: finished
   titel: Sigrid Ødegårds Reise nach Amerika (German Edition)
@@ -747,6 +2945,50 @@
     und zeitgenössische Belletristik ISBN-10 3-
 - typ: buch
   status: finished
+  titel: Vampire knight memories 3
+  autor:
+  - Matsuri Hino
+  - Nicolas Petrimaux
+  - Olivier Vatine
+  - Alberto Varanda
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783551738691'
+  erscheinungsjahr: 2019
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551738691.jpg
+  fertig_am: '2019-06-26'
+  tags:
+  - rezension
+  ekz_id: '5697921'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf771f9352df30001716bfe
+- typ: buch
+  status: finished
+  titel: Calypso
+  autor:
+  - Cosey
+  - Olivier Vatine
+  - Alberto Varanda
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  - Zidrou
+  - Jordi Lafebre
+  - Matsuri Hino
+  isbn: '9783899086935'
+  erscheinungsjahr: 2019
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899086935.jpg
+  fertig_am: '2019-06-26'
+  tags:
+  - rezension
+  ekz_id: '5669871'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5c678baf352df30001c4a0b8
+- typ: buch
+  status: finished
   titel: I'm every woman
   autor:
   - Liv Strömquist
@@ -758,6 +3000,91 @@
   cover: https://buch.isbn.de/gross/9783964450012.jpg
   verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2019 Rubrik Europäische
     Graphic Novels ISBN-10 3-96445-001-4 I
+- typ: buch
+  status: finished
+  titel: Negalyod
+  autor:
+  - Vincent Perriot
+  - Robert Venditti
+  - Orpheus Collar
+  - Antoine Dodé
+  - Zidrou
+  - Jordi Lafebre
+  - Matsuri Hino
+  - Cosey
+  isbn: '9783551734334'
+  erscheinungsjahr: 2019
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551734334.jpg
+  fertig_am: '2019-06-10'
+  tags:
+  - rezension
+  ekz_id: '5677971'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5af19c1b9866155a98e0d812
+- typ: buch
+  status: finished
+  titel: Getriggert
+  autor:
+  - Garth Ennis
+  - Russ Braun
+  - Zidrou
+  - Jordi Lafebre
+  - Matsuri Hino
+  - Cosey
+  - Vincent Perriot
+  isbn: '9783741612329'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741612329.jpg
+  fertig_am: '2019-05-15'
+  tags:
+  - rezension
+  ekz_id: '5670880'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf8d60e352df3000175e55a
+- typ: buch
+  status: finished
+  titel: Glückstreffer und Pechsträhnen
+  autor:
+  - Gail Simone
+  - David Baldeon
+  - Zidrou
+  - Jordi Lafebre
+  - Matsuri Hino
+  - Cosey
+  - Vincent Perriot
+  - Garth Ennis
+  - Russ Braun
+  isbn: '9783741611872'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741611872.jpg
+  fertig_am: '2019-05-12'
+  tags:
+  - rezension
+  ekz_id: '5652263'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf8d60e352df3000175e55c
+- typ: buch
+  status: finished
+  titel: Der Uhrwerk-Assassine
+  autor:
+  - Martin Montiel
+  - Joe Benitez
+  - Matsuri Hino
+  - Cosey
+  - Vincent Perriot
+  - Garth Ennis
+  - Russ Braun
+  - Gail Simone
+  - David Baldeon
+  isbn: '9783962191139'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191139.jpg
+  fertig_am: '2019-05-12'
+  tags:
+  - rezension
+  ekz_id: '5423791'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b1a17d89866155c69607ed1
 - typ: buch
   status: finished
   titel: Stell dir vor, du wachst auf
@@ -859,6 +3186,30 @@
   sprache: de
 - typ: buch
   status: finished
+  titel: Apollo 11
+  autor:
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  - Cosey
+  - Vincent Perriot
+  - Garth Ennis
+  - Russ Braun
+  - Gail Simone
+  - David Baldeon
+  - Martin Montiel
+  - Joe Benitez
+  isbn: '9783957282859'
+  erscheinungsjahr: 2019
+  verlag: Knesebeck
+  cover: https://cover.ekz.de/9783957282859.jpg
+  fertig_am: '2019-04-20'
+  tags:
+  - rezension
+  ekz_id: '5607402'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bc7497b352df30001e14890
+- typ: buch
+  status: finished
   titel: Apollo
   autor:
   - Matt Fitch
@@ -873,6 +3224,31 @@
   cover: https://buch.isbn.de/gross/9781910593509.jpg
   verlag: Abrams & Chronicle Books Autor Chris Baker, Matt Fitch, Mike Collins ISBN-10
     1-910593-50-8 ISBN-13 978- 1- 910593- 50- 9
+- typ: buch
+  status: finished
+  titel: Der letzte Tag
+  autor:
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Vincent Perriot
+  - Garth Ennis
+  - Russ Braun
+  - Gail Simone
+  - David Baldeon
+  - Martin Montiel
+  - Joe Benitez
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  isbn: '9783958394940'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958394940.jpg
+  fertig_am: '2019-04-15'
+  tags:
+  - rezension
+  ekz_id: '5423595'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b1a17d89866155c69607f2a
 - typ: buch
   status: finished
   titel: 'Beton Rouge (Chas Riley, #7)'
@@ -902,6 +3278,83 @@
   cover: https://buch.isbn.de/gross/9783959817134.jpg
   verlag: Cross Cult Entertainment Autoren Cristin Wendt , Ronja Büscher erschienen
     am 25.03.2019 Rubrik Graphic Novel
+- typ: buch
+  status: finished
+  titel: Loading
+  autor:
+  - Cristin Wendt
+  - Ronja Büscher
+  - Garth Ennis
+  - Russ Braun
+  - Gail Simone
+  - David Baldeon
+  - Martin Montiel
+  - Joe Benitez
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  - Olivier Visonneau
+  - Jesús Alonso
+  isbn: '9783959817103'
+  erscheinungsjahr: 2019
+  verlag: Cross Cult Entertainment
+  cover: https://cover.ekz.de/9783959817103.jpg
+  fertig_am: '2019-04-11'
+  tags:
+  - rezension
+  ekz_id: '5529648'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bb6565c57645400014674a4
+- typ: buch
+  status: finished
+  titel: Schimmelreiter
+  autor:
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  - Gail Simone
+  - David Baldeon
+  - Martin Montiel
+  - Joe Benitez
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Cristin Wendt
+  - Ronja Büscher
+  isbn: '9783945400470'
+  erscheinungsjahr: 2024
+  verlag: Edition Faust
+  cover: https://cover.ekz.de/9783945400470.jpg
+  fertig_am: '2019-04-02'
+  tags:
+  - rezension
+  ekz_id: '5149793'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7330929866152a83c5d86e
+- typ: buch
+  status: finished
+  titel: DEPT. H - unter Druck
+  autor:
+  - Matt Kindt
+  - Martin Montiel
+  - Joe Benitez
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Cristin Wendt
+  - Ronja Büscher
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  isbn: '9783356022247'
+  erscheinungsjahr: 2019
+  verlag: Hinstorff
+  cover: https://cover.ekz.de/9783356022247.jpg
+  fertig_am: '2019-04-02'
+  tags:
+  - rezension
+  ekz_id: '5632349'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5be50d5b352df300013d091d
 - typ: buch
   status: finished
   titel: Girlsplaining
@@ -959,6 +3412,52 @@
   quelle: https://www.goodreads.com/book/show/13115626
 - typ: buch
   status: finished
+  titel: Im Netz der Nostalgie
+  autor:
+  - Matt Fitch
+  - Chris Baker
+  - Mike Collins
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Cristin Wendt
+  - Ronja Büscher
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  - Matt Kindt
+  isbn: '9783741611100'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741611100.jpg
+  fertig_am: '2019-03-06'
+  tags:
+  - rezension
+  ekz_id: '5620847'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf8d60c352df3000175e123
+- typ: buch
+  status: finished
+  titel: Der Adler und die Kobra
+  autor:
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Cristin Wendt
+  - Ronja Büscher
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  - Matt Kindt
+  isbn: '9783741610059'
+  erscheinungsjahr: 2019
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741610059.jpg
+  fertig_am: '2019-02-26'
+  tags:
+  - rezension
+  ekz_id: '5618981'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ae6faa0986615784fbbafa6
+- typ: buch
+  status: finished
   titel: 'Blaue Nacht (Chas Riley, #6)'
   autor:
   - Simone Buchholz
@@ -982,6 +3481,29 @@
   seiten: 302
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/41592654
+- typ: buch
+  status: finished
+  titel: Der Maschinenkrieg
+  autor:
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Cristin Wendt
+  - Ronja Büscher
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  - Matt Kindt
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  isbn: '9783962191160'
+  erscheinungsjahr: 2019
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191160.jpg
+  fertig_am: '2019-02-14'
+  tags:
+  - rezension
+  ekz_id: '5423757'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b1a17d89866155c69607f11
 - typ: buch
   status: finished
   titel: Das Versteckte Kind
@@ -1040,6 +3562,162 @@
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
+  titel: Stadt der drei Heiligen
+  autor:
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  - Dacia Palmerino
+  - Andrea Grosso Ciponte
+  - Matt Kindt
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Dustin Nguyen
+  - Jeff Lemire
+  isbn: '9783946337744'
+  erscheinungsjahr: 2018
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783946337744.jpg
+  fertig_am: '2018-12-28'
+  tags:
+  - rezension
+  ekz_id: '5423505'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b0629cf98661559c41d4cbe
+- typ: buch
+  status: finished
+  titel: Motor girl
+  autor:
+  - Terry Moore
+  - Matt Kindt
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  isbn: '9783946337737'
+  erscheinungsjahr: 2018
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783946337737.jpg
+  fertig_am: '2018-12-27'
+  tags:
+  - rezension
+  ekz_id: '5423491'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b0629ce98661559c41d4c62
+- typ: buch
+  status: finished
+  titel: Das Ritual
+  autor:
+  - Nicolas Mahler
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  - Terry Moore
+  isbn: '9783956401657'
+  erscheinungsjahr: 2018
+  verlag: Reprodukt
+  cover: https://cover.ekz.de/9783956401657.jpg
+  fertig_am: '2018-12-27'
+  tags:
+  - rezension
+  ekz_id: '5562258'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5af5032098661559c4f3c718
+- typ: buch
+  status: finished
+  titel: Äußere Aspekte der inneren Einstellung
+  autor:
+  - Greg Tocchini
+  - Rick Remender
+  - Damien
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  - Terry Moore
+  - Nicolas Mahler
+  isbn: '9783958394841'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958394841.jpg
+  fertig_am: '2018-12-23'
+  tags:
+  - rezension
+  ekz_id: '5407419'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5b19f5319866155c695cacc8
+- typ: buch
+  status: finished
+  titel: Bastard
+  autor:
+  - Max de Radiguès
+  - Dustin Nguyen
+  - Jeff Lemire
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  - Terry Moore
+  - Nicolas Mahler
+  - Greg Tocchini
+  - Rick Remender
+  isbn: '9783956401688'
+  erscheinungsjahr: 2018
+  verlag: Reprodukt
+  cover: https://cover.ekz.de/9783956401688.jpg
+  fertig_am: '2018-12-15'
+  tags:
+  - rezension
+  ekz_id: '5439447'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5af5031a98661559c4f3c327
+- typ: buch
+  status: finished
+  titel: The Beatles - yellow submarine
+  autor:
+  - Bill Morrison
+  - Stefano Nardella
+  - Vincenzo Bizzarri
+  - Terry Moore
+  - Nicolas Mahler
+  - Greg Tocchini
+  - Rick Remender
+  - Max de Radiguès
+  isbn: '9783741609893'
+  erscheinungsjahr: 2018
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741609893.jpg
+  fertig_am: '2018-12-09'
+  tags:
+  - rezension
+  ekz_id: '5531503'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ae6faa1986615784fbbb045
+- typ: buch
+  status: finished
+  titel: Die verlorenen Jungen von West Abbey
+  autor:
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Terry Moore
+  - Nicolas Mahler
+  - Greg Tocchini
+  - Rick Remender
+  - Max de Radiguès
+  - Bill Morrison
+  isbn: '9783962191122'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191122.jpg
+  fertig_am: '2018-12-05'
+  tags:
+  - rezension
+  ekz_id: '5276769'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5d9c5656352df30001b0bf09
+- typ: buch
+  status: finished
   titel: Pirouetten
   autor:
   - Tillie Walden
@@ -1068,6 +3746,28 @@
   cover: https://buch.isbn.de/gross/9783945034569.jpg
   verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2017 Rubrik Europäische
     Graphic Novels ISBN-10 3-945034-56-6 I
+- typ: buch
+  status: finished
+  titel: Der Umfall
+  autor:
+  - Mikael Ross
+  - Nicolas Mahler
+  - Greg Tocchini
+  - Rick Remender
+  - Max de Radiguès
+  - Bill Morrison
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  isbn: '9783945034941'
+  erscheinungsjahr: 2018
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783945034941.jpg
+  fertig_am: '2018-11-23'
+  tags:
+  - rezension
+  ekz_id: '5440329'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5aebee219866155a98cbbea8
 - typ: buch
   status: finished
   titel: Das Washington Dekret
@@ -1111,6 +3811,29 @@
   cover: https://buch.isbn.de/gross/9781608869817.jpg
   verlag: Boom Entertainment Autor McKenna, Aline erschienen am 26.09.2017 ISBN-10
     1-60886-981-4 ISBN-13 978- 1- 60886- 981- 7 Lie
+- typ: buch
+  status: finished
+  titel: Jane
+  autor:
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  - Greg Tocchini
+  - Rick Remender
+  - Max de Radiguès
+  - Bill Morrison
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Mikael Ross
+  isbn: '9783741609909'
+  erscheinungsjahr: 2018
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741609909.jpg
+  fertig_am: '2018-11-02'
+  tags:
+  - rezension
+  ekz_id: '5501326'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ae6faa1986615784fbbb006
 - typ: buch
   status: finished
   titel: 'Spirou in Berlin (Spirou und Fantasio Spezial, #27)'
@@ -1169,6 +3892,49 @@
     Feminismus und feministische Theorie ISBN-10 '
 - typ: buch
   status: finished
+  titel: Die Schicksalstafel
+  autor:
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Max de Radiguès
+  - Bill Morrison
+  - Mikael Ross
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  isbn: '9783962191115'
+  erscheinungsjahr: 2021
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191115.jpg
+  fertig_am: '2018-09-09'
+  tags:
+  - rezension
+  ekz_id: '5276699'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5bf6218a352df300016c1855
+- typ: buch
+  status: finished
+  titel: Miami
+  autor:
+  - Fabien Nury
+  - Brüno
+  - Bill Morrison
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Mikael Ross
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  isbn: '9783551712301'
+  erscheinungsjahr: 2018
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551712301.jpg
+  fertig_am: '2018-09-05'
+  tags:
+  - rezension
+  ekz_id: '5478880'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7390cf9866152a83db79c8
+- typ: buch
+  status: finished
   titel: 'Schattenspringer²: Per Anhalter durch die Pubertät'
   autor:
   - Daniela Schreiter
@@ -1194,6 +3960,51 @@
   cover: https://buch.isbn.de/gross/9783862019502.jpg
   verlag: Panini Verlags GmbH Autor Daniela Schreiter erschienen am 17.03.2014 Rubrik
     Autobiografien
+- typ: buch
+  status: finished
+  titel: Bug Buch 1
+  autor:
+  - Enki Bilal
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Mikael Ross
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  - Fabien Nury
+  - Brüno
+  isbn: '9783551721273'
+  erscheinungsjahr: 2018
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551721273.jpg
+  fertig_am: '2018-07-20'
+  tags:
+  - rezension
+  ekz_id: '5424037'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a731dbb9866152a83c15a83
+- typ: buch
+  status: finished
+  titel: Die Tage der Amsel
+  autor:
+  - Manuele Fior
+  - Mikael Ross
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Fabien Nury
+  - Brüno
+  - Enki Bilal
+  isbn: '9783945034811'
+  erscheinungsjahr: 2018
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783945034811.jpg
+  fertig_am: '2018-07-16'
+  tags:
+  - rezension
+  ekz_id: '5276469'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7281349866154c5c0fc5a8
 - typ: buch
   status: finished
   titel: Lovecraft
@@ -1264,6 +4075,73 @@
     ISBN-10 2-36640-065-9 ISBN-13 978- 2- 36
 - typ: buch
   status: finished
+  titel: Lovecraft
+  autor:
+  - Alberto Breccia
+  - Norberto Buscaglia
+  - Aline Brosh MacKenna
+  - Ramón Pérez
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Fabien Nury
+  - Brüno
+  - Enki Bilal
+  - Manuele Fior
+  isbn: '9783945034828'
+  erscheinungsjahr: 2018
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783945034828.jpg
+  fertig_am: '2018-07-11'
+  tags:
+  - rezension
+  ekz_id: '5319461'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7281349866154c5c0fc5aa
+- typ: buch
+  status: finished
+  titel: Die Jugend von Catamount
+  autor:
+  - Benjamin Blasco-Martinez
+  - Joe Benitez
+  - Martin Montiel
+  - M. M. Chen
+  - Fabien Nury
+  - Brüno
+  - Enki Bilal
+  - Manuele Fior
+  - Alberto Breccia
+  - Norberto Buscaglia
+  isbn: '9783962191184'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191184.jpg
+  fertig_am: '2018-07-09'
+  tags:
+  - rezension
+  ekz_id: '5276573'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a736b629866152a83d45e13
+- typ: buch
+  status: finished
+  titel: Der Zug der Verdammten
+  autor:
+  - Benjamin Blasco-Martinez
+  - Fabien Nury
+  - Brüno
+  - Enki Bilal
+  - Manuele Fior
+  - Alberto Breccia
+  - Norberto Buscaglia
+  isbn: '9783962191191'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191191.jpg
+  fertig_am: '2018-07-09'
+  tags:
+  - rezension
+  ekz_id: '5276506'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a732d049866152a83c4fc4f
+- typ: buch
+  status: finished
   titel: 'Wolverine: Old Man Logan'
   autor:
   - Mark Millar
@@ -1293,6 +4171,47 @@
   cover: https://buch.isbn.de/gross/9783440154717.jpg
   verlag: Kosmos Autoren Ivar Leon Menger , John Beckmann erschienen am 07.09.2017
     Rubrik Kinder
+- typ: buch
+  status: finished
+  titel: Aufstand der Roboter
+  autor:
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Enki Bilal
+  - Manuele Fior
+  - Alberto Breccia
+  - Norberto Buscaglia
+  - Benjamin Blasco-Martinez
+  isbn: '9783962191153'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962191153.jpg
+  fertig_am: '2018-07-01'
+  tags:
+  - rezension
+  ekz_id: '5276481'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7358fc9866152a83cfd383
+- typ: buch
+  status: finished
+  titel: Ruinen
+  autor:
+  - Nic Klein
+  - Ivan Brandon
+  - Manuele Fior
+  - Alberto Breccia
+  - Norberto Buscaglia
+  - Benjamin Blasco-Martinez
+  - Jeff Lemire
+  - Dustin Nguyen
+  isbn: '9783959817929'
+  erscheinungsjahr: 2018
+  verlag: Cross Cult
+  cover: https://cover.ekz.de/9783959817929.jpg
+  fertig_am: '2018-06-28'
+  tags:
+  - rezension
+  ekz_id: '5288398'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7312d29866152a83bebbd4
 - typ: buch
   status: finished
   titel: 'Rogue One: A Star Wars Story'
@@ -1369,6 +4288,96 @@
     ISBN-13 978- 3- 7367- 0679- 8 Lieferstatus Liefe
 - typ: buch
   status: finished
+  titel: Nach der Apokalypse
+  autor:
+  - Laurent Queyssi
+  - Juzhen
+  - Alberto Breccia
+  - Norberto Buscaglia
+  - Benjamin Blasco-Martinez
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Nic Klein
+  - Ivan Brandon
+  isbn: '9783962190279'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783962190279.jpg
+  fertig_am: '2018-05-28'
+  tags:
+  - rezension
+  ekz_id: '5342062'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a742ede9866152a83e87b8d
+- typ: buch
+  status: finished
+  titel: Brutal nature Band 1
+  autor:
+  - Luciano Saracino
+  - Ariel Olivetti
+  - Benjamin Blasco-Martinez
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Nic Klein
+  - Ivan Brandon
+  - Laurent Queyssi
+  - Juzhen
+  isbn: '9783741606670'
+  erscheinungsjahr: 2018
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741606670.jpg
+  fertig_am: '2018-05-28'
+  tags:
+  - rezension
+  ekz_id: '5371811'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a727e9d9866154c5c0d13aa
+- typ: buch
+  status: finished
+  titel: An Bord der Helio-Arx
+  autor:
+  - Joe Benitez
+  - Benjamin Blasco-Martinez
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Nic Klein
+  - Ivan Brandon
+  - Laurent Queyssi
+  - Juzhen
+  - Luciano Saracino
+  - Ariel Olivetti
+  isbn: '9783958395213'
+  erscheinungsjahr: 2018
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958395213.jpg
+  fertig_am: '2018-05-28'
+  tags:
+  - rezension
+  ekz_id: '5332527'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5ab4f4c098661522c56cfc21
+- typ: buch
+  status: finished
+  titel: Vampire knight memories 2
+  autor:
+  - Matsuri Hino
+  - Jeff Lemire
+  - Dustin Nguyen
+  - Nic Klein
+  - Ivan Brandon
+  - Laurent Queyssi
+  - Juzhen
+  - Luciano Saracino
+  - Ariel Olivetti
+  - Joe Benitez
+  isbn: '9783551738684'
+  erscheinungsjahr: 2018
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551738684.jpg
+  fertig_am: '2018-05-10'
+  tags:
+  - rezension
+  ekz_id: '5362427'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a73b06a9866152a83dd1f38
+- typ: buch
+  status: finished
   titel: 'Little Brother (Little Brother, #1)'
   autor:
   - Cory Doctorow
@@ -1381,6 +4390,69 @@
   cover: https://buch.isbn.de/gross/9780765319852.jpg
   verlag: Tor Books Autor Cory Doctorow Sprache Englisch ISBN-10 0-7653-1985-3 ISBN-13
     978- 0- 7653- 1985- 2 Lieferstatus verfügba
+- typ: buch
+  status: finished
+  titel: Hutta
+  autor:
+  - Jan Vismann
+  - Nic Klein
+  - Ivan Brandon
+  - Laurent Queyssi
+  - Juzhen
+  - Luciano Saracino
+  - Ariel Olivetti
+  - Joe Benitez
+  - Matsuri Hino
+  isbn: '9783946642343'
+  erscheinungsjahr: 2018
+  verlag: Jaja Verlag
+  cover: https://cover.ekz.de/9783946642343.jpg
+  fertig_am: '2018-04-16'
+  tags:
+  - rezension
+  ekz_id: '5301296'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7403039866152a83e2847b
+- typ: buch
+  status: finished
+  titel: Maertens
+  autor:
+  - Maximilian Hillerzeder
+  - Laurent Queyssi
+  - Juzhen
+  - Luciano Saracino
+  - Ariel Olivetti
+  - Joe Benitez
+  - Matsuri Hino
+  - Jan Vismann
+  isbn: '9783946642336'
+  erscheinungsjahr: 2018
+  verlag: Jaja Verlag
+  cover: https://cover.ekz.de/9783946642336.jpg
+  fertig_am: '2018-04-16'
+  tags:
+  - rezension
+  ekz_id: '5295896'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a741fd79866152a83e5f3ac
+- typ: buch
+  status: finished
+  titel: Eine Ermittlung in der Hölle
+  autor:
+  - Jean-Yves Delitte
+  - Luciano Saracino
+  - Ariel Olivetti
+  - Joe Benitez
+  - Matsuri Hino
+  - Jan Vismann
+  - Maximilian Hillerzeder
+  isbn: '9783741606700'
+  erscheinungsjahr: 2018
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741606700.jpg
+  fertig_am: '2018-04-07'
+  tags:
+  - rezension
+  ekz_id: '5345473'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a727e9d9866154c5c0d141a
 - typ: buch
   status: finished
   titel: 'While Drowning in the Desert (Neal Carey, #5)'
@@ -1453,6 +4525,25 @@
   verlag: St Martin
 - typ: buch
   status: finished
+  titel: Hier und dort
+  autor:
+  - Baru
+  - Joe Benitez
+  - Matsuri Hino
+  - Jan Vismann
+  - Maximilian Hillerzeder
+  - Jean-Yves Delitte
+  isbn: '9783935229203'
+  erscheinungsjahr: 2017
+  verlag: Edition 52
+  cover: https://cover.ekz.de/9783935229203.jpg
+  fertig_am: '2018-02-09'
+  tags:
+  - rezension
+  ekz_id: '5244616'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7267329866154c5cf4e9ab
+- typ: buch
+  status: finished
   titel: Bios
   autor:
   - Daniel Suarez
@@ -1468,6 +4559,49 @@
     Moderne und zeitgenössische Belletristik ISBN-10
 - typ: buch
   status: finished
+  titel: Die Republik der Sklaven
+  autor:
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Matsuri Hino
+  - Jan Vismann
+  - Maximilian Hillerzeder
+  - Jean-Yves Delitte
+  - Baru
+  isbn: '9783741604621'
+  erscheinungsjahr: 2017
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741604621.jpg
+  fertig_am: '2018-01-24'
+  tags:
+  - rezension
+  ekz_id: '5285449'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72611d9866154c5cebcfe3
+- typ: buch
+  status: finished
+  titel: Eternauta 1969
+  autor:
+  - Alberto Breccia
+  - Héctor Oesterheld
+  - Jan Vismann
+  - Maximilian Hillerzeder
+  - Jean-Yves Delitte
+  - Baru
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  isbn: '9783945034699'
+  erscheinungsjahr: 2017
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783945034699.jpg
+  fertig_am: '2018-01-15'
+  tags:
+  - rezension
+  ekz_id: '5189576'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f7e39866152a83b7cf7a
+- typ: buch
+  status: finished
   titel: Der Pfau
   autor:
   - Isabel Bogdan
@@ -1480,6 +4614,29 @@
   cover: https://buch.isbn.de/gross/9783458362975.jpg
   verlag: Insel Verlag Autor Isabel Bogdan erschienen am 11.09.2017 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-458-
+- typ: buch
+  status: finished
+  titel: Ab in den Süden!
+  autor:
+  - Zidrou
+  - Jordi Lafebre
+  - Maximilian Hillerzeder
+  - Jean-Yves Delitte
+  - Baru
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Alberto Breccia
+  - Héctor Oesterheld
+  isbn: '9783899086331'
+  erscheinungsjahr: 2017
+  verlag: Salleck Publications
+  cover: https://cover.ekz.de/9783899086331.jpg
+  fertig_am: '2018-01-11'
+  tags:
+  - rezension
+  ekz_id: '5208858'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a752d1698661526b938176c
 - typ: buch
   status: finished
   titel: 'Erwartung (Sonderdezernat Q, #5)'
@@ -1556,6 +4713,78 @@
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
+  titel: Die Verschwörung
+  autor:
+  - Jean-Yves Delitte
+  - Baru
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Alberto Breccia
+  - Héctor Oesterheld
+  - Zidrou
+  - Jordi Lafebre
+  isbn: '9783741604577'
+  erscheinungsjahr: 2017
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741604577.jpg
+  fertig_am: '2017-12-03'
+  tags:
+  - rezension
+  ekz_id: '5223118'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f9219866152a83b86c63
+- typ: buch
+  status: finished
+  titel: Drei - der Seefahrer
+  autor:
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  - Baru
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Alberto Breccia
+  - Héctor Oesterheld
+  - Zidrou
+  - Jordi Lafebre
+  - Jean-Yves Delitte
+  isbn: '9783741603204'
+  erscheinungsjahr: 2017
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741603204.jpg
+  fertig_am: '2017-11-25'
+  tags:
+  - rezension
+  ekz_id: '5216751'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f8f39866152a83b85552
+- typ: buch
+  status: finished
+  titel: Hurray Hurray le Quiche!
+  autor:
+  - Johannes Lott
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Alberto Breccia
+  - Héctor Oesterheld
+  - Zidrou
+  - Jordi Lafebre
+  - Jean-Yves Delitte
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  isbn: '9783946642237'
+  erscheinungsjahr: 2017
+  verlag: Jaja Verlag
+  cover: https://cover.ekz.de/9783946642237.jpg
+  fertig_am: '2017-11-19'
+  tags:
+  - rezension
+  ekz_id: '5189657'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f80c9866152a83b7de2c
+- typ: buch
+  status: finished
   titel: 'Asterix in Italien (Asterix, #37)'
   autor:
   - Jean-Yves Ferri
@@ -1569,6 +4798,29 @@
   cover: https://buch.isbn.de/gross/9783770440375.jpg
   verlag: 'Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
     am 19.10.2017 Rubrik Graphic Novels, Comics, '
+- typ: buch
+  status: finished
+  titel: Auf der Suche nach der verlorenen Zeit
+  autor:
+  - Nicolas Mahler
+  - Alberto Breccia
+  - Héctor Oesterheld
+  - Zidrou
+  - Jordi Lafebre
+  - Jean-Yves Delitte
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  - Johannes Lott
+  isbn: '9783518468081'
+  erscheinungsjahr: 2017
+  verlag: Suhrkamp
+  cover: https://cover.ekz.de/9783518468081.jpg
+  fertig_am: '2017-11-06'
+  tags:
+  - rezension
+  ekz_id: '5130762'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f7639866152a83b7a938
 - typ: buch
   status: want to read
   titel: 'QualityLand (QualityLand, #1)'
@@ -1628,6 +4880,50 @@
   cover: https://buch.isbn.de/gross/9783426281680.jpg
   verlag: Droemer Autor Don Winslow erschienen am 20.06.2017 Rubrik Moderne und zeitgenössische
     Belletristik ISBN-10 3-426-28168-6
+- typ: buch
+  status: finished
+  titel: Das Geheimnis der mechanischen Leiche
+  autor:
+  - Joe Benitez
+  - Zidrou
+  - Jordi Lafebre
+  - Jean-Yves Delitte
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  - Johannes Lott
+  - Nicolas Mahler
+  isbn: '9783958395206'
+  erscheinungsjahr: 2017
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958395206.jpg
+  fertig_am: '2017-09-06'
+  tags:
+  - rezension
+  ekz_id: '5171596'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5d9c5656352df30001b0bf08
+- typ: buch
+  status: finished
+  titel: Symmetry
+  autor:
+  - Matt Hawkins
+  - Raffaele Ienco
+  - Jean-Yves Delitte
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  - Johannes Lott
+  - Nicolas Mahler
+  - Joe Benitez
+  isbn: '9783741603020'
+  erscheinungsjahr: 2017
+  verlag: Panini
+  cover: https://cover.ekz.de/9783741603020.jpg
+  fertig_am: '2017-09-06'
+  tags:
+  - rezension
+  ekz_id: '5172120'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f89a9866152a83b82918
 - typ: buch
   status: finished
   titel: 'Symmetry #4'
@@ -1795,6 +5091,50 @@
     ISBN-13 978- 1- 4012- 6249- 5 Lieferstatus L
 - typ: buch
   status: finished
+  titel: Lichterloh
+  autor:
+  - Ivan Brandon
+  - Nic Klein
+  - Peter David
+  - Juanan Ramírez
+  - Cory Hamscher
+  - Johannes Lott
+  - Nicolas Mahler
+  - Joe Benitez
+  - Matt Hawkins
+  - Raffaele Ienco
+  isbn: '9783959810371'
+  erscheinungsjahr: 2017
+  verlag: Cross Cult
+  cover: https://cover.ekz.de/9783959810371.jpg
+  fertig_am: '2017-08-07'
+  tags:
+  - rezension
+  ekz_id: '4797826'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7242a99866154c5cc25003
+- typ: buch
+  status: finished
+  titel: Das Baumhaus
+  autor:
+  - Julien Neel
+  - Johannes Lott
+  - Nicolas Mahler
+  - Joe Benitez
+  - Matt Hawkins
+  - Raffaele Ienco
+  - Ivan Brandon
+  - Nic Klein
+  isbn: '9783842025707'
+  erscheinungsjahr: 2017
+  verlag: POPCOM
+  cover: https://cover.ekz.de/9783842025707.jpg
+  fertig_am: '2017-07-12'
+  tags:
+  - rezension
+  ekz_id: '4970282'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f6639866152a83b72435
+- typ: buch
+  status: finished
   titel: 'Alles hat einmal ein Ende (Ralph Azham, #7)'
   autor:
   - Lewis Trondheim
@@ -1909,6 +5249,28 @@
     ISBN-13 978- 2- 8001- 4992- 9 Lieferstatus '
 - typ: buch
   status: finished
+  titel: Der erste Tote
+  autor:
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Nicolas Mahler
+  - Joe Benitez
+  - Matt Hawkins
+  - Raffaele Ienco
+  - Ivan Brandon
+  - Nic Klein
+  - Julien Neel
+  isbn: '9783958394933'
+  erscheinungsjahr: 2017
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958394933.jpg
+  fertig_am: '2017-06-07'
+  tags:
+  - rezension
+  ekz_id: '5076972'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f68e9866152a83b73947
+- typ: buch
+  status: finished
   titel: 'Schändung (Sonderdezernat Q, #2)'
   autor:
   - Jussi Adler-Olsen
@@ -1924,6 +5286,29 @@
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
+  titel: Drei - bittere Medizin
+  autor:
+  - Peter David
+  - Jonathan Marks
+  - Joe Benitez
+  - Matt Hawkins
+  - Raffaele Ienco
+  - Ivan Brandon
+  - Nic Klein
+  - Julien Neel
+  - Olivier Visonneau
+  - Jesús Alonso
+  isbn: '9783741602801'
+  erscheinungsjahr: 2017
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741602801.jpg
+  fertig_am: '2017-05-31'
+  tags:
+  - rezension
+  ekz_id: '5063575'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f7419866152a83b79d47
+- typ: buch
+  status: finished
   titel: 'Kain (Die Söhne von El Topo, #1)'
   autor:
   - Alejandro Jodorowsky
@@ -1935,6 +5320,30 @@
   cover: https://buch.isbn.de/gross/9783736731783.jpg
   verlag: Panini Autor Jodorowski, Alejandro erschienen am 27.02.2017 ISBN-10 3-7367-3178-7
     ISBN-13 978- 3- 7367- 3178- 3 Lieferst
+- typ: buch
+  status: finished
+  titel: Kain
+  autor:
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  - Matt Hawkins
+  - Raffaele Ienco
+  - Ivan Brandon
+  - Nic Klein
+  - Julien Neel
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Peter David
+  - Jonathan Marks
+  isbn: '9783741600296'
+  erscheinungsjahr: 2017
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783741600296.jpg
+  fertig_am: '2017-04-30'
+  tags:
+  - rezension
+  ekz_id: '5053717'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f6f49866152a83b7769e
 - typ: buch
   status: finished
   titel: The Terrible and Wonderful Reasons Why I Run Long Distances (Volume 5) (The
@@ -1978,6 +5387,127 @@
     1-60699-905-2 ISBN-13 978- 1- 60699- 905- 9 Li
 - typ: buch
   status: finished
+  titel: Patience
+  autor:
+  - Daniel Clowes
+  - Ivan Brandon
+  - Nic Klein
+  - Julien Neel
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Peter David
+  - Jonathan Marks
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  isbn: '9783956401190'
+  erscheinungsjahr: 2017
+  verlag: Reprodukt
+  cover: https://cover.ekz.de/9783956401190.jpg
+  fertig_am: '2017-04-02'
+  tags:
+  - rezension
+  ekz_id: '4948468'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f6099866152a83b6fffe
+- typ: buch
+  status: finished
+  titel: Als die Titanic nicht sank
+  autor:
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Julien Neel
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Peter David
+  - Jonathan Marks
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  - Daniel Clowes
+  isbn: '9783957988157'
+  erscheinungsjahr: 2016
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783957988157.jpg
+  fertig_am: '2017-03-15'
+  tags:
+  - rezension
+  ekz_id: '5009178'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f3619866152a83b5c35a
+- typ: buch
+  status: finished
+  titel: Ufer des sterbenden Lichts
+  autor:
+  - Rick Remender
+  - Greg Tocchini
+  - Olivier Visonneau
+  - Jesús Alonso
+  - Peter David
+  - Jonathan Marks
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  - Daniel Clowes
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  isbn: '9783958394834'
+  erscheinungsjahr: 2017
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958394834.jpg
+  fertig_am: '2017-03-15'
+  tags:
+  - rezension
+  ekz_id: '5015358'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f40c9866152a83b612ff
+- typ: buch
+  status: finished
+  titel: Operation Nibelungen
+  autor:
+  - Didier Convard
+  - Peter David
+  - Jonathan Marks
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  - Daniel Clowes
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Rick Remender
+  - Greg Tocchini
+  isbn: '9783551728623'
+  erscheinungsjahr: 2016
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551728623.jpg
+  fertig_am: '2017-03-07'
+  tags:
+  - rezension
+  ekz_id: '4995989'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7313509866152a83beda66
+- typ: buch
+  status: finished
+  titel: Der Entenreigen
+  autor:
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  - Alejandro Jodorowsky
+  - José Ladrönn
+  - Daniel Clowes
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Rick Remender
+  - Greg Tocchini
+  - Didier Convard
+  isbn: '9783551726940'
+  erscheinungsjahr: 2016
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551726940.jpg
+  fertig_am: '2017-03-07'
+  tags:
+  - rezension
+  ekz_id: '5007685'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f2a09866152a83b58d63
+- typ: buch
+  status: finished
   titel: Das Alphabethaus
   autor:
   - Jussi Adler-Olsen
@@ -2008,6 +5538,30 @@
     978- 0- 451- 46944- 1 Lieferstatus verfügbar P
 - typ: buch
   status: finished
+  titel: Der Schlächter
+  autor:
+  - Jean-Yves Delitte
+  - Daniel Clowes
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Rick Remender
+  - Greg Tocchini
+  - Didier Convard
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  isbn: '9783957988164'
+  erscheinungsjahr: 2016
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783957988164.jpg
+  fertig_am: '2017-01-05'
+  tags:
+  - rezension
+  ekz_id: '4936862'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f3609866152a83b5c327
+- typ: buch
+  status: finished
   titel: Darwin-Kinder/Darwin-Virus
   autor:
   - Greg Bear
@@ -2017,6 +5571,53 @@
   quelle: https://www.goodreads.com/book/show/4944834
   isbn: '9783827417350'
   sprache: de
+- typ: buch
+  status: finished
+  titel: El Cid
+  autor:
+  - Antonio Hernández Palacios
+  - Fred Duval
+  - Jean-Pierre Pécau
+  - Damien
+  - Rick Remender
+  - Greg Tocchini
+  - Didier Convard
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  - Jean-Yves Delitte
+  isbn: '9783945034460'
+  erscheinungsjahr: 2016
+  verlag: avant-verlag GmbH
+  cover: https://cover.ekz.de/9783945034460.jpg
+  fertig_am: '2016-12-28'
+  tags:
+  - rezension
+  ekz_id: '4752665'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f3519866152a83b5bf5a
+- typ: buch
+  status: finished
+  titel: Der Fluch des Titanen
+  autor:
+  - Robert Venditti
+  - Attila Futaki
+  - Rick Remender
+  - Greg Tocchini
+  - Didier Convard
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  - Jean-Yves Delitte
+  - Antonio Hernández Palacios
+  isbn: '9783551775634'
+  erscheinungsjahr: 2016
+  verlag: Carlsen
+  cover: https://cover.ekz.de/9783551775634.jpg
+  fertig_am: '2016-12-14'
+  tags:
+  - rezension
+  ekz_id: '4916615'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f0d39866152a83b4ba5c
 - typ: buch
   status: finished
   titel: 'Khalil (L''or et le sang, #4)'
@@ -2098,6 +5699,31 @@
     am 19.09.2016 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
+  titel: DieFürsten vom Djebel
+  autor:
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  - Didier Convard
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  - Jean-Yves Delitte
+  - Antonio Hernández Palacios
+  - Robert Venditti
+  - Attila Futaki
+  isbn: '9783946337096'
+  erscheinungsjahr: 2016
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783946337096.jpg
+  fertig_am: '2016-12-11'
+  tags:
+  - rezension
+  ekz_id: '4910459'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f47a9866152a83b6564e
+- typ: buch
+  status: finished
   titel: Die unendliche Geschichte
   autor:
   - Michael Ende
@@ -2110,6 +5736,31 @@
   cover: https://buch.isbn.de/gross/9783522128001.jpg
   verlag: zweifarbig gedruckt, mit schönen, reich verzierte Initialen. Bastian versteckt
     sich mit dem Buch auf dem Speicher seiner
+- typ: buch
+  status: finished
+  titel: Flausen und eine Nacht
+  autor:
+  - Ulf Salzmann
+  - Michel Boujut
+  - Jacques Tardi
+  - Stanislas Barthélémy
+  - Jean-Yves Delitte
+  - Antonio Hernández Palacios
+  - Robert Venditti
+  - Attila Futaki
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  isbn: '9783934167797'
+  erscheinungsjahr: 2016
+  verlag: Schwarzer Turm
+  cover: https://cover.ekz.de/9783934167797.jpg
+  fertig_am: '2016-11-14'
+  tags:
+  - rezension
+  ekz_id: '4773066'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a73493e9866152a83cbea04
 - typ: buch
   status: finished
   titel: 'Stephen Kings Der dunkle Turm, Band 13 - Drei - Das Kartenhaus: Bd. 13:
@@ -2160,6 +5811,30 @@
     am 21.09.2015 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
+  titel: Shame, Tochter des Bösen
+  autor:
+  - Lovern Kindzierski
+  - John Bolton
+  - Jean-Yves Delitte
+  - Antonio Hernández Palacios
+  - Robert Venditti
+  - Attila Futaki
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  - Ulf Salzmann
+  isbn: '9783958392175'
+  erscheinungsjahr: 2016
+  verlag: Splitter-Verlag
+  cover: https://cover.ekz.de/9783958392175.jpg
+  fertig_am: '2016-09-08'
+  tags:
+  - rezension
+  ekz_id: '4441191'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a7365929866152a83d2f511
+- typ: buch
+  status: finished
   titel: 'Das Blut der Feiglinge, Band 1 - Yamas Rache: Bd. 1: Yamas Rache (German
     Edition)'
   autor:
@@ -2170,6 +5845,53 @@
   seiten: 48
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29749604
+- typ: buch
+  status: finished
+  titel: Yamas Rache
+  autor:
+  - Jean-Yves Delitte
+  - Antonio Hernández Palacios
+  - Robert Venditti
+  - Attila Futaki
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  - Ulf Salzmann
+  - Lovern Kindzierski
+  - John Bolton
+  isbn: '9783957986931'
+  erscheinungsjahr: 2016
+  verlag: Panini Verlags GmbH
+  cover: https://cover.ekz.de/9783957986931.jpg
+  fertig_am: '2016-09-04'
+  tags:
+  - rezension
+  ekz_id: '4851235'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72f0a49866152a83b4ad66
+- typ: buch
+  status: finished
+  titel: Lockruf Tanger
+  autor:
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  - Robert Venditti
+  - Attila Futaki
+  - Ulf Salzmann
+  - Lovern Kindzierski
+  - John Bolton
+  - Jean-Yves Delitte
+  isbn: '9783943808889'
+  erscheinungsjahr: 2016
+  verlag: Schreiber & Leser
+  cover: https://cover.ekz.de/9783943808889.jpg
+  fertig_am: '2016-08-30'
+  tags:
+  - rezension
+  ekz_id: '4426045'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a72edd59866152a83b3681f
 - typ: buch
   status: finished
   titel: 'The Trail to Buddha''s Mirror (Neal Carey, #2)'
@@ -2325,6 +6047,29 @@
   quelle: https://www.goodreads.com/book/show/18240710
   cover: https://buch.isbn.de/gross/9783551652713.jpg
   verlag: Carlsen Autor Margit Auer erschienen am 25.04.2013 Rubrik Kinder
+- typ: buch
+  status: finished
+  titel: Aldnoah.Zero 4
+  autor:
+  - Pinakes
+  - Olympus Knights
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  - Ulf Salzmann
+  - Lovern Kindzierski
+  - John Bolton
+  - Jean-Yves Delitte
+  isbn: '9782889211487'
+  erscheinungsjahr: 2016
+  verlag: KAZÉ Manga
+  cover: https://cover.ekz.de/9782889211487.jpg
+  fertig_am: '2016-05-31'
+  tags:
+  - rezension
+  ekz_id: '4748303'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a733e439866152a83c930f8
 - typ: buch
   status: finished
   titel: Großvater und die Schmuggler
@@ -2556,6 +6301,29 @@
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1935 Rubrik Kinder
 - typ: buch
   status: finished
+  titel: Aldnoah.Zero 3
+  autor:
+  - Pinakes
+  - Olympus Knights
+  - Ulf Salzmann
+  - Lovern Kindzierski
+  - John Bolton
+  - Jean-Yves Delitte
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  isbn: '9782889211470'
+  erscheinungsjahr: 2015
+  verlag: KAZÉ Manga
+  cover: https://cover.ekz.de/9782889211470.jpg
+  fertig_am: '2015-11-24'
+  tags:
+  - rezension
+  ekz_id: '4557623'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a731e099866152a83c169ba
+- typ: buch
+  status: finished
   titel: Die Konferenz der Tiere
   autor:
   - Erich Kästner
@@ -2581,6 +6349,28 @@
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1949 Rubrik Kinder
 - typ: buch
   status: finished
+  titel: Aldnoah.Zero 2
+  autor:
+  - Pinakes
+  - Olympus Knights
+  - Lovern Kindzierski
+  - John Bolton
+  - Jean-Yves Delitte
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  isbn: '9782889211463'
+  erscheinungsjahr: 2015
+  verlag: KAZÉ Manga
+  cover: https://cover.ekz.de/9782889211463.jpg
+  fertig_am: '2015-10-07'
+  tags:
+  - rezension
+  ekz_id: '4523743'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a733ec89866152a83c951a4
+- typ: buch
+  status: finished
   titel: The Hobbit
   autor:
   - J.R.R. Tolkien
@@ -2593,6 +6383,26 @@
   isbn: '9783608106459'
   cover: http://books.google.com/books/content?id=Z8tHY0IjjQYC&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: de
+- typ: buch
+  status: finished
+  titel: Aldnoah.Zero 1
+  autor:
+  - Pinakes
+  - Olympus Knights
+  - Jean-Yves Delitte
+  - Maurin Defrance
+  - Fabien Nury
+  - Fabien Bedouel
+  - Merwan
+  isbn: '9782889211456'
+  erscheinungsjahr: 2015
+  verlag: KAZÉ Manga
+  cover: https://cover.ekz.de/9782889211456.jpg
+  fertig_am: '2015-08-08'
+  tags:
+  - rezension
+  ekz_id: '4450529'
+  quelle: https://medienwelten.ekz.de/product?id=pim:5a735be19866152a83d08beb
 - typ: buch
   status: finished
   titel: Emil und die drei Zwillinge
