@@ -10,3 +10,11 @@
   isbn: '3453146972'
   fertig_am: '2025-09-05'
   cover: https://covers.openlibrary.org/b/id/12709846-L.jpg
+- typ: buch
+  status: want to read
+  titel: Der Circle
+  autor:
+  - Dave Eggers
+  isbn: '9783462048544'
+  fertig_am: '2025-09-06'
+  cover: https://covers.openlibrary.org/b/id/8739234-L.jpg
