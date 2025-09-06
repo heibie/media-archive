@@ -39,7 +39,7 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/60129159
   isbn: '9783751709460'
-  cover: http://books.google.com/books/content?id=78UqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=78UqEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   seiten: 485
   sprache: de
 - typ: buch
@@ -232,7 +232,9 @@
   seiten: 209
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57616715
-  cover: http://books.google.com/books/content?id=pmAGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783641273347.jpg
+  verlag: Heyne Autor Christoph Koch erschienen am 08.03.2021 Rubrik Krankheit und
+    Sucht
 - typ: buch
   status: want to read
   titel: Female Choice - Vom Anfang und Ende der männlichen Zivilisation
@@ -245,6 +247,9 @@
   seiten: 320
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/55848520
+  cover: https://buch.isbn.de/gross/9783608504804.jpg
+  verlag: 'Tropen Autor Meike Stoverock erschienen am 13.02.2021 Rubrik Feminismus
+    und feministische Theorie ISBN-10 3-608-50480-X '
 - typ: buch
   status: finished
   titel: 'The Late Show (Renée Ballard, #1; Harry Bosch Universe, #30)'
@@ -255,7 +260,9 @@
   seiten: 405
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34091380
-  cover: http://books.google.com/books/content?id=dKM9MQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780316225984.jpg
+  verlag: Little, Brown and Company Autor Connelly, Michael erschienen am 18.07.2017
+    ISBN-10 0-316-22598-3 ISBN-13 978- 0- 316- 22
 - typ: buch
   status: finished
   titel: Neujahr
@@ -266,6 +273,8 @@
   seiten: 192
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/40094855
+  cover: https://buch.isbn.de/gross/9783630875729.jpg
+  verlag: Luchterhand Autor Juli Zeh erschienen am 10.09.2018 Rubrik Belletristik
 - typ: buch
   status: finished
   titel: '#Einfach autofrei leben: Nachhaltig mobil: Die besten Alternativen - Mit
@@ -277,6 +286,9 @@
   seiten: 176
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57932182
+  cover: https://buch.isbn.de/gross/9783517099613.jpg
+  verlag: Südwest Autor Heiko Bielinski erschienen am 29.03.2021 Rubrik Umweltschutz
+    ISBN-10 3-517-09961-9 ISBN-13 978- 3- 517- 09
 - typ: buch
   status: want to read
   titel: 'River Clyde (Chas Riley, #10)'
@@ -305,7 +317,9 @@
   seiten: 184
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/53236904
-  cover: http://books.google.com/books/content?id=TF6IzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781534305045.jpg
+  verlag: Image Comics Autor Remender, Rick erschienen am 16.03.2021 ISBN-10 1-5343-0504-1
+    ISBN-13 978- 1- 5343- 0504- 5 Liefersta
 - typ: buch
   status: want to read
   titel: '2034: A Novel of the Next World War'
@@ -319,7 +333,9 @@
   seiten: 320
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/54211065
-  cover: http://books.google.com/books/content?id=AuUbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781984881250.jpg
+  verlag: Penguin Press Autor Elliot Ackerman erschienen am 09.03.2021 ISBN-10 1-9848-8125-6
+    ISBN-13 978- 1- 9848- 8125- 0 Liefers
 - typ: buch
   status: finished
   titel: 'Opfer 2117 (Sonderdezernat Q, #8)'
@@ -332,6 +348,9 @@
   seiten: 592
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/46036906
+  cover: https://buch.isbn.de/gross/9783423282109.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 10.10.2019
+    Rubrik Belletristik
 - typ: buch
   status: finished
   titel: 'Selfies (Afdeling Q, #7)'
@@ -354,7 +373,7 @@
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18270472
   isbn: '9783426418321'
-  cover: http://books.google.com/books/content?id=PqltAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=PqltAgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: de
 - typ: buch
   status: finished
@@ -367,7 +386,9 @@
   seiten: 368
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/53924368
-  cover: https://covers.openlibrary.org/b/isbn/9783442178582-L.jpg?default=false
+  cover: https://buch.isbn.de/gross/9783442178582.jpg
+  verlag: Goldmann Autor James Clear erschienen am 27.04.2020 Rubrik Selbsthilfe und
+    Persönlichkeitsentwicklung ISBN-10 3-442-1785
 - typ: buch
   status: finished
   titel: 'Raus aus der Mental Load-Falle: Wie gerechte Arbeitsteilung in der Familie
@@ -395,7 +416,9 @@
   seiten: 128
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/48933298
-  cover: http://books.google.com/books/content?id=3ts8ywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781534315938.jpg
+  verlag: Image Comics Autor Lemire, Jeff erschienen am 30.06.2020 ISBN-10 1-5343-1593-4
+    ISBN-13 978- 1- 5343- 1593- 8 Lieferstatu
 - typ: buch
   status: finished
   titel: Berserker Unbound, Vol. 1
@@ -411,7 +434,9 @@
   seiten: 136
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/51283855
-  cover: http://books.google.com/books/content?id=yozODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781506713373.jpg
+  verlag: Dark Horse Books Autor Jeff Lemire ISBN-10 1-5067-1337-8 ISBN-13 978- 1-
+    5067- 1337- 3 Lieferstatus verfügbar Preis 24,5
 - typ: buch
   status: finished
   titel: 'Prinzessinnenjungs: Wie wir unsere Söhne aus der Geschlechterfalle befreien
@@ -437,6 +462,9 @@
   seiten: 254
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50088445
+  cover: https://buch.isbn.de/gross/9783407865878.jpg
+  verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Nils Pickert erschienen am 11.03.2020
+    Rubrik Ratgeber
 - typ: buch
   status: want to read
   titel: Aus und davon
@@ -449,6 +477,9 @@
   seiten: 300
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50807206
+  cover: https://buch.isbn.de/gross/9783518429198.jpg
+  verlag: Suhrkamp Autor Anna Katharina Hahn erschienen am 18.05.2020 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-51
 - typ: buch
   status: want to read
   titel: Am Schwarzen Berg
@@ -461,7 +492,9 @@
   seiten: 240
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13552998
-  cover: http://books.google.com/books/content?id=pLu3pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518422823.jpg
+  verlag: Suhrkamp Autor Anna Katharina Hahn erschienen am 12.03.2012 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-51
 - typ: buch
   status: want to read
   titel: Serpentinen
@@ -474,6 +507,9 @@
   seiten: 266
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50461247
+  cover: https://buch.isbn.de/gross/9783546100038.jpg
+  verlag: 'Claassen Autor Bov Bjerg erschienen am 28.01.2020 Rubrik Moderne und zeitgenössische
+    Belletristik ISBN-10 3-546-10003-4 '
 - typ: buch
   status: want to read
   titel: 'Perry Rhodan: Das größte Abenteuer'
@@ -486,6 +522,9 @@
   seiten: 848
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/42444127
+  cover: https://buch.isbn.de/gross/9783596701452.jpg
+  verlag: FISCHER Tor Autor Andreas Eschbach erschienen am 27.02.2019 Rubrik Klassische
+    Science-Fiction-Literatur ISBN-10 3-596-70
 - typ: buch
   status: want to read
   titel: Das Flimmern der Wahrheit über der Wüste
@@ -498,6 +537,9 @@
   seiten: 608
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41584274
+  cover: https://buch.isbn.de/gross/9783462051070.jpg
+  verlag: Kiepenheuer & Witsch Autor Philipp Schwenke erschienen am 07.09.2018 Rubrik
+    Moderne und zeitgenössische Belletristik ISB
 - typ: buch
   status: want to read
   titel: 'All Systems Red (The Murderbot Diaries, #1)'
@@ -510,7 +552,7 @@
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/32758901
   isbn: '9781250389824'
-  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -523,6 +565,8 @@
   seiten: 288
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/53042301
+  cover: https://buch.isbn.de/gross/9783737100861.jpg
+  verlag: sollten ihm ein Denkmal setzen. Juan Moreno ist ein Held
 - typ: buch
   status: finished
   titel: Laufen
@@ -534,6 +578,9 @@
   seiten: 208
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/46137990
+  cover: https://buch.isbn.de/gross/9783462053494.jpg
+  verlag: Kiepenheuer & Witsch Autor Isabel Bogdan erschienen am 12.09.2019 Rubrik
+    Moderne und zeitgenössische Belletristik ISBN-1
 - typ: buch
   status: finished
   titel: 'Der Araber von morgen: Eine Kindheit im Nahen Osten [1978-1984] (Der Araber
@@ -547,7 +594,8 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25228042
-  cover: http://books.google.com/books/content?id=nlXerQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783813506662.jpg
+  verlag: Knaus Autor Riad Sattouf erschienen am 16.02.2015 Rubrik Islam
 - typ: buch
   status: finished
   titel: West, West Texas
@@ -559,6 +607,8 @@
   seiten: 320
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/52484715
+  cover: https://buch.isbn.de/gross/9783956401954.jpg
+  verlag: Reprodukt Autor Tillie Walden erschienen am 07.08.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
   titel: Cassandra Darke
@@ -580,6 +630,9 @@
   seiten: 148
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/52292472
+  cover: https://buch.isbn.de/gross/9783736748552.jpg
+  verlag: Panini Autor Houser, Jody erschienen am 24.09.2019 ISBN-10 3-7367-4855-8
+    ISBN-13 978- 3- 7367- 4855- 2 Lieferstatus Lief
 - typ: buch
   status: finished
   titel: 'Hotel Cartagena (Chas Riley, #9)'
@@ -591,6 +644,9 @@
   seiten: 228
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/49690261
+  cover: https://buch.isbn.de/gross/9783518470039.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 29.09.2019 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-47003-5 ISBN-13 '
 - typ: buch
   status: want to read
   titel: Thees Uhlmann über Die Toten Hosen
@@ -603,6 +659,9 @@
   seiten: 192
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/50829849
+  cover: https://buch.isbn.de/gross/9783462053692.jpg
+  verlag: Kiepenheuer & Witsch Autor Thees Uhlmann erschienen am 10.10.2019 Rubrik
+    Unterhaltungsmusik, Popmusik ISBN-10 3-462-0536
 - typ: buch
   status: finished
   titel: 'Ein gemachter Mann: Die lichtscheuen Studienjahre des Robert Bley'
@@ -614,7 +673,9 @@
   seiten: 432
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45437737
-  cover: http://books.google.com/books/content?id=3mh5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783832184469.jpg
+  verlag: DuMont Buchverlag Autor Berni Mayer erschienen am 18.03.2019 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-8
 - typ: buch
   status: finished
   titel: 'Schwarzes Watt  (Theo Krumme, #4)'
@@ -626,7 +687,9 @@
   seiten: 369
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39317731
-  cover: http://books.google.com/books/content?id=OR0-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783641220907.jpg
+  verlag: Goldmann Autor Hendrik Berg erschienen am 19.03.2018 Rubrik Moderne und
+    zeitgenössische Belletristik ISBN-10 3-641-22090
 - typ: buch
   status: finished
   titel: 'Deadly Class 1: Akademie der tödlichen Künste (Deadly Class, #1)'
@@ -651,6 +714,9 @@
   seiten: 64
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45453551
+  cover: https://buch.isbn.de/gross/9783770440603.jpg
+  verlag: Egmont Comic Collection Autor Mawil erschienen am 02.05.2019 Rubrik Europäische
+    Comics ISBN-10 3-7704-4060-9 ISBN-13 978
 - typ: buch
   status: finished
   titel: 'Mexikoring (Chas Riley, #8)'
@@ -662,6 +728,9 @@
   seiten: 250
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41807370
+  cover: https://buch.isbn.de/gross/9783518468944.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 10.09.2018 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46894-4 ISBN-13 '
 - typ: buch
   status: finished
   titel: Sigrid Ødegårds Reise nach Amerika (German Edition)
@@ -673,7 +742,9 @@
   seiten: 408
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/43181885
-  cover: http://books.google.com/books/content?id=DxM_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783644403734.jpg
+  verlag: ROWOHLT E-Book Autor Derek B. Miller erschienen am 21.08.2018 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-
 - typ: buch
   status: finished
   titel: I'm every woman
@@ -684,6 +755,9 @@
   seiten: 112
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45312772
+  cover: https://buch.isbn.de/gross/9783964450012.jpg
+  verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2019 Rubrik Europäische
+    Graphic Novels ISBN-10 3-96445-001-4 I
 - typ: buch
   status: finished
   titel: Stell dir vor, du wachst auf
@@ -694,6 +768,9 @@
   seiten: 224
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/38226163
+  cover: https://buch.isbn.de/gross/9783499633669.jpg
+  verlag: ROWOHLT Taschenbuch Autor Michael Curse Kurth erschienen am 24.01.2018 Rubrik
+    Positive Psychologie ISBN-10 3-499-63366-3
 - typ: buch
   status: finished
   titel: 'Black Hammer, Vol. 3: Age of Doom, Part I'
@@ -708,7 +785,9 @@
   seiten: 136
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/40004209
-  cover: http://books.google.com/books/content?id=6ZGADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781506703893.jpg
+  verlag: Dark Horse Books Autor Lemire, Jeff erschienen am 15.01.2019 ISBN-10 1-5067-0389-5
+    ISBN-13 978- 1- 5067- 0389- 3 Liefers
 - typ: buch
   status: finished
   titel: Sherlock Frankenstein and the Legion of Evil
@@ -720,7 +799,9 @@
   seiten: 152
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/36281089
-  cover: http://books.google.com/books/content?id=3oBXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781506705262.jpg
+  verlag: Dark Horse Books Autor Jeff Lemire erschienen am 22.05.2018 ISBN-10 1-5067-0526-X
+    ISBN-13 978- 1- 5067- 0526- 2 Lieferst
 - typ: buch
   status: want to read
   titel: '1793 (Bellman noir, #1)'
@@ -746,7 +827,9 @@
   seiten: 672
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/38487598
-  cover: http://books.google.com/books/content?id=us2sDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783641216856.jpg
+  verlag: Heyne Autor Adrian Tchaikovsky erschienen am 12.02.2018 Rubrik Science-Fiction
+    ISBN-10 3-641-21685-0 ISBN-13 978- 3- 641
 - typ: buch
   status: finished
   titel: 'Black Hammer, Vol. 2: The Event'
@@ -760,7 +843,9 @@
   seiten: 152
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/34954925
-  cover: http://books.google.com/books/content?id=U5RBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781506701981.jpg
+  verlag: Dark Horse Books Autor Lemire, Jeff erschienen am 02.01.2018 ISBN-10 1-5067-0198-1
+    ISBN-13 978- 1- 5067- 0198- 1 Liefers
 - typ: buch
   status: finished
   titel: 'Black Hammer, Bd. 1: Vergessene Helden'
@@ -785,7 +870,9 @@
   seiten: 160
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/35888364
-  cover: http://books.google.com/books/content?id=jXEsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781910593509.jpg
+  verlag: Abrams & Chronicle Books Autor Chris Baker, Matt Fitch, Mike Collins ISBN-10
+    1-910593-50-8 ISBN-13 978- 1- 910593- 50- 9
 - typ: buch
   status: finished
   titel: 'Beton Rouge (Chas Riley, #7)'
@@ -797,6 +884,9 @@
   seiten: 227
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/35916581
+  cover: https://buch.isbn.de/gross/9783518467855.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.08.2017 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46785-9 ISBN-13 '
 - typ: buch
   status: finished
   titel: 'Message 1: Loading (German Edition)'
@@ -809,6 +899,9 @@
   seiten: 80
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/44590184
+  cover: https://buch.isbn.de/gross/9783959817134.jpg
+  verlag: Cross Cult Entertainment Autoren Cristin Wendt , Ronja Büscher erschienen
+    am 25.03.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
   titel: Girlsplaining
@@ -819,6 +912,9 @@
   seiten: 160
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41710487
+  cover: https://buch.isbn.de/gross/9783956401602.jpg
+  verlag: Reprodukt Autor Katja Klengel erschienen am 12.09.2018 Rubrik Graphic Novels
+    und Comics
 - typ: buch
   status: finished
   titel: 'Sophie Scholl:  Die Comic-Biografie'
@@ -830,7 +926,9 @@
   seiten: 56
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28281766
-  cover: http://books.google.com/books/content?id=RS5grgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783868738070.jpg
+  verlag: Knesebeck Autor Heiner Lünstedt erschienen am 17.09.2015 Rubrik Holocaust
+    ISBN-10 3-86873-807-X ISBN-13 978- 3- 86873- 8
 - typ: buch
   status: finished
   titel: 'Das Tagebuch der Anne Frank: Graphic Diary'
@@ -846,7 +944,9 @@
   seiten: 160
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36413255
-  cover: http://books.google.com/books/content?id=0QO0tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783103972535.jpg
+  verlag: S. FISCHER Autoren Anne Frank , David Polonsky , Ari Folman erschienen am
+    05.10.2017 Rubrik Tagebücher, Briefe, Notizbüc
 - typ: buch
   status: finished
   titel: 'Schwedenbitter (Chas Riley, #3)'
@@ -868,7 +968,9 @@
   seiten: 235
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29629580
-  cover: http://books.google.com/books/content?id=qNkejwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518466629.jpg
+  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.03.2016 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46662-3 ISBN-13 '
 - typ: buch
   status: want to read
   titel: 'Pullern im Stehn: Die Geschichte meiner Jugend (German Edition)'
@@ -891,7 +993,7 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/29973775
   isbn: '9783862017744'
-  cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: de
 - typ: buch
   status: finished
@@ -905,7 +1007,9 @@
   seiten: 112
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/27168916
-  cover: http://books.google.com/books/content?id=GXk9jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781419720673.jpg
+  verlag: ABRAMS Autor Chabert, Jack erschienen am 01.03.2016 ISBN-10 1-4197-2067-8
+    ISBN-13 978- 1- 4197- 2067- 3 Lieferstatus Lie
 - typ: buch
   status: finished
   titel: 'Das Licht von Borneo (Spirou und Fantasio Spezial, #23)'
@@ -918,7 +1022,7 @@
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/35701381
   isbn: '9783551776235'
-  cover: http://books.google.com/books/content?id=1Xw5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=1Xw5DwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: de
 - typ: buch
   status: finished
@@ -931,7 +1035,9 @@
   seiten: 608
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23710614
-  cover: http://books.google.com/books/content?id=7fcVogEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423280488.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.04.2015
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
   titel: Pirouetten
@@ -944,6 +1050,9 @@
   seiten: 400
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41710511
+  cover: https://buch.isbn.de/gross/9783956401619.jpg
+  verlag: Reprodukt Autor Tillie Walden erschienen am 12.09.2018 Rubrik Graphic Novels
+    und Comics
 - typ: buch
   status: finished
   titel: Der Ursprung der Welt
@@ -956,6 +1065,9 @@
   seiten: 140
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34523308
+  cover: https://buch.isbn.de/gross/9783945034569.jpg
+  verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2017 Rubrik Europäische
+    Graphic Novels ISBN-10 3-945034-56-6 I
 - typ: buch
   status: finished
   titel: Das Washington Dekret
@@ -967,7 +1079,9 @@
   seiten: 645
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/36117765
-  cover: http://books.google.com/books/content?id=qrV5oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423215732.jpg
+  verlag: dtv Verlagsgesellschaft erschienen am 01.02.2015 Rubrik Kriminalromane und
+    Mystery
 - typ: buch
   status: want to read
   titel: Manhattan
@@ -980,7 +1094,9 @@
   seiten: 404
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18081090
-  cover: http://books.google.com/books/content?id=fIqfkgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518464403.jpg
+  verlag: Suhrkamp Autor Don Winslow erschienen am 17.06.2013 Rubrik Kriminalromane
+    und Mystery
 - typ: buch
   status: finished
   titel: Jane
@@ -992,7 +1108,9 @@
   seiten: 224
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34397547
-  cover: http://books.google.com/books/content?id=oEo1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781608869817.jpg
+  verlag: Boom Entertainment Autor McKenna, Aline erschienen am 26.09.2017 ISBN-10
+    1-60886-981-4 ISBN-13 978- 1- 60886- 981- 7 Lie
 - typ: buch
   status: finished
   titel: 'Spirou in Berlin (Spirou und Fantasio Spezial, #27)'
@@ -1003,6 +1121,9 @@
   seiten: 60
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41012235
+  cover: https://buch.isbn.de/gross/9783551721150.jpg
+  verlag: Carlsen Autor Flix erschienen am 31.07.2018 Rubrik Graphic Novels, Comics,
+    Cartoons ISBN-10 3-551-72115-7 ISBN-13 978- 3
 - typ: buch
   status: finished
   titel: 'Tyler Cross, Vol. 3: Miami'
@@ -1014,6 +1135,9 @@
   seiten: 90
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39598106
+  cover: https://buch.isbn.de/gross/9782205077032.jpg
+  verlag: DARGAUD erschienen am 23.03.2018 ISBN-10 2-205-07703-1 ISBN-13 978- 2- 205-
+    07703- 2 Lieferstatus Lieferant anfragen Pre
 - typ: buch
   status: finished
   titel: 'Lady Mechanika Vol. 2: The Tablet of Destinies'
@@ -1028,7 +1152,7 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29151467
   isbn: '9781534321731'
-  cover: http://books.google.com/books/content?id=c2I9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=c2I9EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1040,6 +1164,9 @@
   seiten: 240
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41587184
+  cover: https://buch.isbn.de/gross/9783499633744.jpg
+  verlag: 'ROWOHLT Taschenbuch Autor Natascha Wegelin erschienen am 21.08.2018 Rubrik
+    Feminismus und feministische Theorie ISBN-10 '
 - typ: buch
   status: finished
   titel: 'Schattenspringer²: Per Anhalter durch die Pubertät'
@@ -1051,6 +1178,9 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26055143
+  cover: https://buch.isbn.de/gross/9783736707573.jpg
+  verlag: 'Panini Verlags GmbH Autor Schreiter, Daniela erschienen am 22.07.2015 ISBN-10
+    3-7367-0757-6 ISBN-13 978- 3- 7367- 0757- '
 - typ: buch
   status: finished
   titel: 'Schattenspringer: Wie es ist, anders zu sein'
@@ -1061,7 +1191,9 @@
   seiten: 160
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/21936799
-  cover: http://books.google.com/books/content?id=pm2nngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783862019502.jpg
+  verlag: Panini Verlags GmbH Autor Daniela Schreiter erschienen am 17.03.2014 Rubrik
+    Autobiografien
 - typ: buch
   status: finished
   titel: Lovecraft
@@ -1072,6 +1204,9 @@
   seiten: 126
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/40499569
+  cover: https://buch.isbn.de/gross/9783945034828.jpg
+  verlag: avant-verlag GmbH Autor Alberto Breccia erschienen am 17.04.2018 Rubrik
+    Europäische Graphic Novels ISBN-10 3-945034-82-5
 - typ: buch
   status: finished
   titel: 'Descender, Vol. 5: Rise of the Robots'
@@ -1083,7 +1218,9 @@
   seiten: 122
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/35681250
-  cover: http://books.google.com/books/content?id=dnD7twEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781534303454.jpg
+  verlag: Image Comics Autor Lemire, Jeff erschienen am 16.01.2018 ISBN-10 1-5343-0345-6
+    ISBN-13 978- 1- 5343- 0345- 4 Lieferstatu
 - typ: buch
   status: finished
   titel: Die Tage der Amsel
@@ -1094,6 +1231,9 @@
   seiten: 104
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/40647841
+  cover: https://buch.isbn.de/gross/9783945034811.jpg
+  verlag: avant-verlag GmbH Autor Manuele Fior erschienen am 22.05.2018 Rubrik Europäische
+    Graphic Novels ISBN-10 3-945034-81-7 IS
 - typ: buch
   status: finished
   titel: 'Le train des maudits (Catamount, #2)'
@@ -1105,6 +1245,9 @@
   seiten: 64
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34661094
+  cover: https://buch.isbn.de/gross/9791095670216.jpg
+  verlag: PETIT A PETIT Autor Blasco-Martinez, Benjamin, Bonneau, Albert erschienen
+    am 20.01.2017 EAN 9791095670216 ISBN 979-10-95
 - typ: buch
   status: finished
   titel: 'La jeunesse de Catamount (Catamount, #1)'
@@ -1116,6 +1259,9 @@
   seiten: 60
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28586528
+  cover: https://buch.isbn.de/gross/9782366400656.jpg
+  verlag: Kwari Autor Blasco-Martinez, Benjamin, Bonneau, Albert erschienen am 10.04.2015
+    ISBN-10 2-36640-065-9 ISBN-13 978- 2- 36
 - typ: buch
   status: finished
   titel: 'Wolverine: Old Man Logan'
@@ -1128,7 +1274,9 @@
   seiten: 208
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/6238080
-  cover: http://books.google.com/books/content?id=JdpSPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780785131595.jpg
+  verlag: Marvel Autor Millar, Mark erschienen am 11.11.2009 ISBN-10 0-7851-3159-0
+    ISBN-13 978- 0- 7851- 3159- 5 Lieferstatus Lief
 - typ: buch
   status: finished
   titel: Das Dorf der Teufel (Die drei ???)
@@ -1142,7 +1290,9 @@
   seiten: 128
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/35058166
-  cover: http://books.google.com/books/content?id=OUN0swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783440154717.jpg
+  verlag: Kosmos Autoren Ivar Leon Menger , John Beckmann erschienen am 07.09.2017
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: 'Rogue One: A Star Wars Story'
@@ -1158,6 +1308,9 @@
   seiten: 160
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/40504720
+  cover: https://buch.isbn.de/gross/9783741603129.jpg
+  verlag: Panini Verlags GmbH Autoren Jody Houser , Emilio Laiso , Oscar Bazaldu ,
+    Paolo Villanelli erschienen am 04.12.2017 Rubri
 - typ: buch
   status: finished
   titel: 'Star Wars: Purge - The Hidden Blade (2010) (Star Wars: Purge (2006-2013))'
@@ -1170,7 +1323,7 @@
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28561732
   isbn: '9781302458201'
-  cover: http://books.google.com/books/content?id=NMWVBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=NMWVBQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1184,6 +1337,9 @@
   seiten: 136
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39300293
+  cover: https://buch.isbn.de/gross/9783945034897.jpg
+  verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im Februar 2018 Rubrik
+    Europäische Graphic Novels ISBN-10 3-945034-89-
 - typ: buch
   status: finished
   titel: 'Star Wars: Prinzessin Leia'
@@ -1194,7 +1350,9 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/27507872
-  cover: http://books.google.com/books/content?id=rfqDrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783957982353.jpg
+  verlag: 'Panini Verlags GmbH Autoren Corinna Bechko , Gabriel Hardman erschienen
+    am 12.10.2015 Rubrik Europäische Comics ISBN-10 '
 - typ: buch
   status: finished
   titel: 'Star Wars Sonderband 86: Auf die Harte Tour: Bd. 86: Auf die harte Tour
@@ -1206,6 +1364,9 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28234355
+  cover: https://buch.isbn.de/gross/9783736706798.jpg
+  verlag: Panini Autor Kindt, Matt erschienen am 17.06.2015 ISBN-10 3-7367-0679-0
+    ISBN-13 978- 3- 7367- 0679- 8 Lieferstatus Liefe
 - typ: buch
   status: finished
   titel: 'Little Brother (Little Brother, #1)'
@@ -1217,7 +1378,9 @@
   seiten: 382
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/954674
-  cover: http://books.google.com/books/content?id=x1Q9TxhYA3sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780765319852.jpg
+  verlag: Tor Books Autor Cory Doctorow Sprache Englisch ISBN-10 0-7653-1985-3 ISBN-13
+    978- 0- 7653- 1985- 2 Lieferstatus verfügba
 - typ: buch
   status: finished
   titel: 'While Drowning in the Desert (Neal Carey, #5)'
@@ -1229,7 +1392,7 @@
   seiten: 224
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/243368
-  cover: http://books.google.com/books/content?id=ingAsP_WguMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=ingAsP_WguMC&printsec=frontcover&img=1&zoom=3&source=gbs_api
 - typ: buch
   status: finished
   titel: 'A Long Walk Up the Water Slide (Neal Carey #4)'
@@ -1241,7 +1404,8 @@
   seiten: 277
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/243375
-  cover: http://books.google.com/books/content?id=gJJrJys-ANoC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780312966171.jpg
+  verlag: St Martin
 - typ: buch
   status: finished
   titel: Der Heckenritter
@@ -1256,6 +1420,9 @@
   seiten: 144
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/3428766
+  cover: https://buch.isbn.de/gross/9783866074828.jpg
+  verlag: Panini Autor George R Martin erschienen am 15.08.2007 Rubrik Graphic Novels
+    und Comics
 - typ: buch
   status: finished
   titel: 'Die drei ??? und der dreiäugige Totenkopf: Graphic Novel'
@@ -1268,6 +1435,9 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26346832
+  cover: https://buch.isbn.de/gross/9783440141236.jpg
+  verlag: Kosmos Autoren Ivar Leon Menger , John Beckmann erschienen am 08.09.2015
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: 'Way Down on the High Lonely (Neal Carey, #3)'
@@ -1279,7 +1449,8 @@
   seiten: 288
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/212027
-  cover: http://books.google.com/books/content?id=63pbsL3LqV8C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780312964221.jpg
+  verlag: St Martin
 - typ: buch
   status: finished
   titel: Bios
@@ -1292,7 +1463,9 @@
   seiten: 544
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36613030
-  cover: http://books.google.com/books/content?id=bYITtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783499291333.jpg
+  verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 17.11.2017 Rubrik
+    Moderne und zeitgenössische Belletristik ISBN-10
 - typ: buch
   status: finished
   titel: Der Pfau
@@ -1304,7 +1477,9 @@
   seiten: 248
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36406463
-  cover: http://books.google.com/books/content?id=5ZM4tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783458362975.jpg
+  verlag: Insel Verlag Autor Isabel Bogdan erschienen am 11.09.2017 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-458-
 - typ: buch
   status: finished
   titel: 'Erwartung (Sonderdezernat Q, #5)'
@@ -1317,7 +1492,9 @@
   seiten: 576
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/17937674
-  cover: http://books.google.com/books/content?id=6JbuAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423280204.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.10.2013
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: want to read
   titel: Rosalie
@@ -1330,7 +1507,9 @@
   seiten: 289
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/33125667
-  cover: http://books.google.com/books/content?id=iBMPDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783832189327.jpg
+  verlag: DuMont Buchverlag Autor Berni Mayer erschienen am 17.11.2016 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3-8
 - typ: buch
   status: want to read
   titel: Mitarbeiter des Monats
@@ -1343,7 +1522,7 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/31679844
   isbn: '9783644000193'
-  cover: http://books.google.com/books/content?id=EakdDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=EakdDAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: de
 - typ: buch
   status: want to read
@@ -1357,7 +1536,9 @@
   seiten: 255
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28694154
-  cover: http://books.google.com/books/content?id=CMuRrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783498064365.jpg
+  verlag: Rowohlt Autor Heinz Strunk erschienen am 26.02.2016 Rubrik Moderne und zeitgenössische
+    Belletristik ISBN-10 3-498-06436-
 - typ: buch
   status: finished
   titel: 'Verachtung (Sonderdezernat Q, #4)'
@@ -1370,7 +1551,9 @@
   seiten: 544
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15848175
-  cover: http://books.google.com/books/content?id=HzGfpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423280020.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.09.2012
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
   titel: 'Asterix in Italien (Asterix, #37)'
@@ -1383,7 +1566,9 @@
   seiten: 48
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34858639
-  cover: http://books.google.com/books/content?id=O4eYswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783770440375.jpg
+  verlag: 'Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
+    am 19.10.2017 Rubrik Graphic Novels, Comics, '
 - typ: buch
   status: want to read
   titel: 'QualityLand (QualityLand, #1)'
@@ -1396,7 +1581,9 @@
   seiten: 384
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/36216607
-  cover: http://books.google.com/books/content?id=Hw44tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783550050237.jpg
+  verlag: Ullstein Buchverlage Autor Marc-Uwe Kling erschienen am 22.09.2017 Rubrik
+    Moderne und zeitgenössische Belletristik ISBN-
 - typ: buch
   status: finished
   titel: Germany
@@ -1409,7 +1596,9 @@
   seiten: 378
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29422631
-  cover: http://books.google.com/books/content?id=_EBprgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783426304303.jpg
+  verlag: Droemer Taschenbuch Autor Don Winslow erschienen am 01.03.2016 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3
 - typ: buch
   status: finished
   titel: Missing New York
@@ -1421,7 +1610,9 @@
   seiten: 395
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23273239
-  cover: http://books.google.com/books/content?id=Was2oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783426304280.jpg
+  verlag: Droemer Taschenbuch Autor Don Winslow erschienen am 01.10.2014 Rubrik Moderne
+    und zeitgenössische Belletristik ISBN-10 3
 - typ: buch
   status: finished
   titel: Corruption
@@ -1434,6 +1625,9 @@
   seiten: 544
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34623876
+  cover: https://buch.isbn.de/gross/9783426281680.jpg
+  verlag: Droemer Autor Don Winslow erschienen am 20.06.2017 Rubrik Moderne und zeitgenössische
+    Belletristik ISBN-10 3-426-28168-6
 - typ: buch
   status: finished
   titel: 'Symmetry #4'
@@ -1444,7 +1638,7 @@
   seiten: 32
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29537927
-  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1456,7 +1650,7 @@
   seiten: 30
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29220022
-  cover: http://books.google.com/books/content?id=LdiFCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=LdiFCwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1469,7 +1663,9 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28762815
-  cover: http://books.google.com/books/content?id=RfUhjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781632156990.jpg
+  verlag: Image Comics Autor Hawkins, Matt erschienen am 31.05.2016 ISBN-10 1-63215-699-7
+    ISBN-13 978- 1- 63215- 699- 0 Lieferstat
 - typ: buch
   status: finished
   titel: 'Symmetry #8'
@@ -1480,7 +1676,7 @@
   seiten: 31
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/33147149
-  cover: http://books.google.com/books/content?id=YFAzDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=YFAzDQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1492,7 +1688,7 @@
   seiten: 27
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/32192405
-  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=qgB1CwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1504,7 +1700,7 @@
   seiten: 29
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/31565803
-  cover: http://books.google.com/books/content?id=I82_DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=I82_DAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1516,7 +1712,7 @@
   seiten: 31
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29638964
-  cover: http://books.google.com/books/content?id=EFR8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=EFR8DAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -1529,7 +1725,9 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/30896676
-  cover: http://books.google.com/books/content?id=Kdi5DAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781632159090.jpg
+  verlag: Image Comics Autor Matt Hawkins ISBN-10 1-63215-909-0 ISBN-13 978- 1- 63215-
+    909- 0 Lieferstatus verfügbar Preis 17,00
 - typ: buch
   status: finished
   titel: 'Erlösung (Sonderdezernat Q, #3)'
@@ -1542,7 +1740,9 @@
   seiten: 592
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10243438
-  cover: http://books.google.com/books/content?id=KX60ZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423248525.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.07.2011
+    Rubrik Kriminalromane und Mystery
 - typ: buch
   status: finished
   titel: 'Schwarz sind die Sterne (Ralph Azham, #3)'
@@ -1554,7 +1754,9 @@
   seiten: 52
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/22446973
-  cover: http://books.google.com/books/content?id=8DnIkwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783943143508.jpg
+  verlag: Reprodukt Autor Lewis Trondheim erschienen im August 2013 Rubrik Europäische
+    Comics ISBN-10 3-943143-50-3 ISBN-13 978- 3
 - typ: buch
   status: finished
   titel: 'Das Land der blauen Dämonen (Ralph Azham, #5)'
@@ -1566,7 +1768,9 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/24421077
-  cover: http://books.google.com/books/content?id=BRngrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783956400285.jpg
+  verlag: Reprodukt Autor Lewis Trondheim erschienen im Mai 2015 Rubrik Europäische
+    Comics ISBN-10 3-95640-028-3 ISBN-13 978- 3- 9
 - typ: buch
   status: finished
   titel: 'Superman: Lois and Clark'
@@ -1586,7 +1790,9 @@
   seiten: 208
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28109895
-  cover: http://books.google.com/books/content?id=QXmPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781401262495.jpg
+  verlag: DC Comics Autor Jurgens, Dan erschienen am 06.09.2016 ISBN-10 1-4012-6249-X
+    ISBN-13 978- 1- 4012- 6249- 5 Lieferstatus L
 - typ: buch
   status: finished
   titel: 'Alles hat einmal ein Ende (Ralph Azham, #7)'
@@ -1598,7 +1804,9 @@
   seiten: 48
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28898036
-  cover: http://books.google.com/books/content?id=7rdrrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783956400490.jpg
+  verlag: 'Reprodukt Autor Lewis Trondheim erschienen im Januar 2016 Rubrik Graphic
+    Novels, Comics, Cartoons ISBN-10 3-95640-049-6 '
 - typ: buch
   status: finished
   titel: 'Der Feind meines Feindes (Ralph Azham, #6)'
@@ -1609,7 +1817,9 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26215620
-  cover: http://books.google.com/books/content?id=chrorQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783956400292.jpg
+  verlag: Reprodukt Autor Lewis Trondheim erschienen im August 2015 Rubrik Europäische
+    Comics ISBN-10 3-95640-029-1 ISBN-13 978- 3
 - typ: buch
   status: finished
   titel: 'Ein vergrabener Stein bleibt dumm (Ralph Azham, #4)'
@@ -1620,7 +1830,9 @@
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/24421024
-  cover: http://books.google.com/books/content?id=ww11nAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783943143843.jpg
+  verlag: Reprodukt Autor Lewis Trondheim erschienen am 02.01.2014 Rubrik Europäische
+    Comics ISBN-10 3-943143-84-8 ISBN-13 978- 3-
 - typ: buch
   status: finished
   titel: 'Und am Anfang wartet der Tod (Ralph Azham, #2)'
@@ -1632,6 +1844,9 @@
   seiten: 48
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/17302034
+  cover: https://buch.isbn.de/gross/9783943143201.jpg
+  verlag: Reprodukt Autor Lewis Trondheim erschienen im Mai 2012 Rubrik Europäische
+    Comics ISBN-10 3-943143-20-1 ISBN-13 978- 3- 9
 - typ: buch
   status: finished
   titel: 'Wenn''s ein Junge wird, nennen wir ihn Judith: Aus den Gründerjahren des
@@ -1644,6 +1859,8 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/32681412
+  cover: https://buch.isbn.de/gross/9783937088211.jpg
+  verlag: Seitenstra
 - typ: buch
   status: finished
   titel: Lautlose Nacht
@@ -1655,6 +1872,8 @@
   seiten: 378
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/34959472
+  cover: https://buch.isbn.de/gross/9783423261210.jpg
+  verlag: dtv Verlagsgesellschaft erschienen am 11.11.2016 Rubrik Thriller
 - typ: buch
   status: finished
   titel: 'Der Revolvermann (Der Dunkle Turm, #1)'
@@ -1671,7 +1890,9 @@
   seiten: 240
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/16590050
-  cover: http://books.google.com/books/content?id=GULLPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783940864215.jpg
+  verlag: Splitter-Verlag Autoren Stephen King , Robin Furth , Peter David erschienen
+    am 01.01.2009 Rubrik Europäische Comics ISBN
 - typ: buch
   status: finished
   titel: 'Est-ce qu''on ment aux gens qu''on aime? (Ralph Azham, #1)'
@@ -1683,6 +1904,9 @@
   seiten: 48
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10929584
+  cover: https://buch.isbn.de/gross/9782800149929.jpg
+  verlag: 'DUPUIS Autor Trondheim, Lewis erschienen am 10.03.2011 ISBN-10 2-8001-4992-2
+    ISBN-13 978- 2- 8001- 4992- 9 Lieferstatus '
 - typ: buch
   status: finished
   titel: 'Schändung (Sonderdezernat Q, #2)'
@@ -1695,7 +1919,9 @@
   seiten: 459
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/7772557
-  cover: http://books.google.com/books/content?id=gb7aQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423247870.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.09.2010
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
   titel: 'Kain (Die Söhne von El Topo, #1)'
@@ -1706,6 +1932,9 @@
   seiten: 64
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34937054
+  cover: https://buch.isbn.de/gross/9783736731783.jpg
+  verlag: Panini Autor Jodorowski, Alejandro erschienen am 27.02.2017 ISBN-10 3-7367-3178-7
+    ISBN-13 978- 3- 7367- 3178- 3 Lieferst
 - typ: buch
   status: finished
   titel: The Terrible and Wonderful Reasons Why I Run Long Distances (Volume 5) (The
@@ -1730,7 +1959,9 @@
   seiten: 432
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/8908116
-  cover: http://books.google.com/books/content?id=ygUlSQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423212625.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.02.2011
+    Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
   status: finished
   titel: Patience
@@ -1742,7 +1973,9 @@
   seiten: 180
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/25652706
-  cover: http://books.google.com/books/content?id=sgLtsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781606999059.jpg
+  verlag: Fantagraphics Books Autor Clowes, Daniel erschienen am 15.03.2016 ISBN-10
+    1-60699-905-2 ISBN-13 978- 1- 60699- 905- 9 Li
 - typ: buch
   status: finished
   titel: Das Alphabethaus
@@ -1756,7 +1989,9 @@
   seiten: 588
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/11774457
-  cover: http://books.google.com/books/content?id=knGypwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783423248945.jpg
+  verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.02.2012
+    Rubrik Belletristik
 - typ: buch
   status: finished
   titel: Influx
@@ -1768,7 +2003,9 @@
   seiten: 528
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/22668803
-  cover: http://books.google.com/books/content?id=1GUBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780451469441.jpg
+  verlag: Signet Autor Daniel Suarez Sprache Englisch ISBN-10 0-451-46944-5 ISBN-13
+    978- 0- 451- 46944- 1 Lieferstatus verfügbar P
 - typ: buch
   status: finished
   titel: Darwin-Kinder/Darwin-Virus
@@ -1791,7 +2028,7 @@
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25595869
   isbn: '9782331013072'
-  cover: http://books.google.com/books/content?id=hs-lBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=hs-lBAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: fr
 - typ: buch
   status: finished
@@ -1821,6 +2058,9 @@
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25727013
+  cover: https://buch.isbn.de/gross/9782344004401.jpg
+  verlag: GLENAT erschienen am 01.10.2014 ISBN-10 2-344-00440-8 ISBN-13 978- 2- 344-
+    00440- 1 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
   titel: 'Inch''allah (L''or et le sang, #2)'
@@ -1834,6 +2074,9 @@
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25728923
+  cover: https://buch.isbn.de/gross/9782344004418.jpg
+  verlag: GLENAT erschienen am 01.10.2014 ISBN-10 2-344-00441-6 ISBN-13 978- 2- 344-
+    00441- 8 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
   titel: 'Der dunkle Turm: Die Herrin der Schatten (Der dunkle Turm Graphic Novel,
@@ -1850,6 +2093,9 @@
   seiten: 136
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/32180269
+  cover: https://buch.isbn.de/gross/9783957989291.jpg
+  verlag: Panini Verlags GmbH Autoren Stephen King , Peter David , Robin Furth erschienen
+    am 19.09.2016 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
   titel: Die unendliche Geschichte
@@ -1861,7 +2107,9 @@
   seiten: 428
   erscheinungsjahr: 1979
   quelle: https://www.goodreads.com/book/show/96290
-  cover: http://books.google.com/books/content?id=_7IKAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783522128001.jpg
+  verlag: zweifarbig gedruckt, mit schönen, reich verzierte Initialen. Bastian versteckt
+    sich mit dem Buch auf dem Speicher seiner
 - typ: buch
   status: finished
   titel: 'Stephen Kings Der dunkle Turm, Band 13 - Drei - Das Kartenhaus: Bd. 13:
@@ -1891,7 +2139,9 @@
   seiten: 136
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/16177134
-  cover: http://books.google.com/books/content?id=OY_ckQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783862015306.jpg
+  verlag: Panini Verlags GmbH Autoren Stephen King , Robin Furth , Peter David erschienen
+    am 11.03.2013 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
   titel: 'Der dunkle Turm: Der Gefangene (Der dunkle Turm Graphic Novel, #12)'
@@ -1905,7 +2155,9 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26829778
-  cover: http://books.google.com/books/content?id=Cn2BrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783957982094.jpg
+  verlag: Panini Verlags GmbH Autoren Stephen King , Peter David , Robin Furth erschienen
+    am 21.09.2015 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
   titel: 'Das Blut der Feiglinge, Band 1 - Yamas Rache: Bd. 1: Yamas Rache (German
@@ -1929,7 +2181,9 @@
   seiten: 384
   erscheinungsjahr: 1997
   quelle: https://www.goodreads.com/book/show/67059
-  cover: http://books.google.com/books/content?id=7EaGHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780312963095.jpg
+  verlag: St Martins Pr Autor Winslow, Don erschienen am 01.07.1997 ISBN-10 0-312-96309-2
+    ISBN-13 978- 0- 312- 96309- 5 Lieferstat
 - typ: buch
   status: finished
   titel: 'Eine Woche voller Samstage (Sams, #1)'
@@ -1941,7 +2195,9 @@
   seiten: 160
   erscheinungsjahr: 1999
   quelle: https://www.goodreads.com/book/show/2092839
-  cover: http://books.google.com/books/content?id=ZPOFgxGf92MC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783789119521.jpg
+  verlag: Verlag Friedrich Oetinger GmbH Autor Paul Maar erschienen am 01.02.1973
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: 'Bitte freimachen: Eine Anleitung zur Emanzipation'
@@ -1953,7 +2209,9 @@
   seiten: 224
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25570494
-  cover: http://books.google.com/books/content?id=cGbXrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783849303693.jpg
+  verlag: Metrolit Verlag Autor Katrin Rönicke erschienen am 17.07.2015 Rubrik Sexualität,
+    Partnerschaft und Gesellschaft, allgeme
 - typ: buch
   status: finished
   titel: 'Voller Löcher! (Die Schule der magischen Tiere, #2)'
@@ -1965,7 +2223,8 @@
   seiten: 224
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18240718
-  cover: http://books.google.com/books/content?id=ZNd3AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783551652720.jpg
+  verlag: Carlsen Autor Margit Auer erschienen am 25.04.2013 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Fils du Soleil
@@ -1977,6 +2236,9 @@
   seiten: 80
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/24025450
+  cover: https://buch.isbn.de/gross/9782205070477.jpg
+  verlag: 'DARGAUD Autor Nury, Fabien, Henninot, Eric erschienen am 23.10.2014 ISBN-10
+    2-205-07047-9 ISBN-13 978- 2- 205- 07047- 7 '
 - typ: buch
   status: finished
   titel: 'Le réseau Aquila 1/2 ( Silas Corey #1)'
@@ -1988,6 +2250,9 @@
   seiten: 64
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/17346014
+  cover: https://buch.isbn.de/gross/9782723483926.jpg
+  verlag: GLENAT erschienen am 16.01.2013 ISBN-10 2-7234-8392-4 ISBN-13 978- 2- 7234-
+    8392- 6 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
   titel: Tyler Cross, Vol. 1 Black Rock
@@ -2000,6 +2265,9 @@
   seiten: 92
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18589249
+  cover: https://buch.isbn.de/gross/9782205070064.jpg
+  verlag: DARGAUD erschienen am 23.08.2013 ISBN-10 2-205-07006-1 ISBN-13 978- 2- 205-
+    07006- 4 Lieferstatus Lieferant anfragen Pre
 - typ: buch
   status: finished
   titel: 'Le perroquet des Batignolles - Tome 1 : L''énigmatique Monsieur Schmutz'
@@ -2014,6 +2282,9 @@
   seiten: 56
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/12034713
+  cover: https://buch.isbn.de/gross/9782205063608.jpg
+  verlag: DARGAUD Autor Tardi, Jacques, Boujut, Michel, Stanislas erschienen am 16.06.2011
+    ISBN-10 2-205-06360-X ISBN-13 978- 2- 2
 - typ: buch
   status: finished
   titel: 'Descender, Vol. 1: Tin Stars'
@@ -2026,7 +2297,9 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25546167
-  cover: http://books.google.com/books/content?id=igCIrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781632154262.jpg
+  verlag: Image Comics Autor Lemire, Jeff erschienen am 22.09.2015 ISBN-10 1-63215-426-9
+    ISBN-13 978- 1- 63215- 426- 2 Lieferstatu
 - typ: buch
   status: finished
   titel: Hubert
@@ -2037,6 +2310,9 @@
   seiten: 88
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23451698
+  cover: https://buch.isbn.de/gross/9789077549872.jpg
+  verlag: Oogachtend Autor Gijsemans, Ben erschienen am 04.04.2016 ISBN-10 90-77549-87-0
+    ISBN-13 978- 90- 77549- 87- 2 Lieferstatu
 - typ: buch
   status: finished
   titel: 'Die Schule der magischen Tiere (Die Schule der magischen Tiere, #1)'
@@ -2047,7 +2323,8 @@
   seiten: 208
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18240710
-  cover: http://books.google.com/books/content?id=Psd6AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783551652713.jpg
+  verlag: Carlsen Autor Margit Auer erschienen am 25.04.2013 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Großvater und die Schmuggler
@@ -2058,7 +2335,8 @@
   seiten: 158
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/13541267
-  cover: http://books.google.com/books/content?id=hHuJZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783446236592.jpg
+  verlag: Hanser, Carl Autor Per Olov Enquist erschienen am 07.02.2011 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Terra Australis
@@ -2070,6 +2348,9 @@
   seiten: 512
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18813472
+  cover: https://buch.isbn.de/gross/9782723472579.jpg
+  verlag: GLENAT erschienen am 13.03.2013 ISBN-10 2-7234-7257-4 ISBN-13 978- 2- 7234-
+    7257- 9 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
   titel: Fugazi Music Club
@@ -2092,7 +2373,8 @@
   seiten: 240
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25366292
-  cover: http://books.google.com/books/content?id=5IGPjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783351050238.jpg
+  verlag: Blumenbar Autor Bov Bjerg erschienen am 17.07.2015 Rubrik Belletristik
 - typ: buch
   status: finished
   titel: Venustransit
@@ -2104,7 +2386,9 @@
   seiten: 256
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28288923
-  cover: http://books.google.com/books/content?id=OuTlsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783945034330.jpg
+  verlag: avant-verlag GmbH Herausgeber Johann Ulrich Autor Hamed Eshrat erschienen
+    im November 2015 Rubrik Europäische Comics ISB
 - typ: buch
   status: finished
   titel: 'Die 13½ Leben des Käpt''n Blaubär (Zamonien, #1)'
@@ -2115,7 +2399,9 @@
   seiten: 703
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/62034
-  cover: http://books.google.com/books/content?id=f33jAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783442453818.jpg
+  verlag: Goldmann Autor Walter Moers erschienen am 01.12.2002 Rubrik Moderne und
+    zeitgenössische Belletristik ISBN-10 3-442-45381
 - typ: buch
   status: finished
   titel: Der kleine Ritter Trenk und fast das ganze Leben im Mittelalter
@@ -2126,7 +2412,9 @@
   seiten: 267
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/16125797
-  cover: http://books.google.com/books/content?id=_6_TuQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783789185304.jpg
+  verlag: Verlag Friedrich Oetinger GmbH Autor Kirsten Boie erschienen am 01.08.2012
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: 'The Cartel (Power of the Dog, #2)'
@@ -2138,7 +2426,7 @@
   seiten: 616
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23602561
-  cover: http://books.google.com/books/content?id=x5CLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781101874998.jpg
 - typ: buch
   status: finished
   titel: 'Low, Vol. 1: The Delirium of Hope'
@@ -2152,6 +2440,9 @@
   seiten: 144
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23200006
+  cover: https://buch.isbn.de/gross/9781632151940.jpg
+  verlag: Image Comics Autor Rick Remender Sprache Englisch ISBN-10 1-63215-194-4
+    ISBN-13 978- 1- 63215- 194- 0 Lieferstatus verfü
 - typ: buch
   status: finished
   titel: 'Drifter #1'
@@ -2175,6 +2466,9 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25490999
+  cover: https://buch.isbn.de/gross/9782756040295.jpg
+  verlag: DELCOURT erschienen am 04.03.2015 ISBN-10 2-7560-4029-0 ISBN-13 978- 2-
+    7560- 4029- 5 Lieferstatus Lieferant anfragen Pr
 - typ: buch
   status: finished
   titel: 'Day Men Vol. 1: Lux in Tenebris'
@@ -2189,7 +2483,9 @@
   seiten: 112
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/18775048
-  cover: http://books.google.com/books/content?id=8Ek1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781608863938.jpg
+  verlag: 'Boom Entertainment Autor Gagnon, Matt, Nelson, Michael Alan erschienen
+    am 18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978- '
 - typ: buch
   status: finished
   titel: Le Gang Kennedy
@@ -2202,6 +2498,8 @@
   seiten: 65
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/16038883
+  cover: https://buch.isbn.de/gross/9782756029122.jpg
+  verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
   titel: Qui a tué le président?
@@ -2214,6 +2512,8 @@
   seiten: 56
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11698310
+  cover: https://buch.isbn.de/gross/9782756018676.jpg
+  verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
   titel: Der kleine Ritter Trenk
@@ -2225,7 +2525,9 @@
   seiten: 275
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/6913100
-  cover: http://books.google.com/books/content?id=o8K5swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783789131639.jpg
+  verlag: Verlag Friedrich Oetinger GmbH Autor Kirsten Boie erschienen am 01.08.2006
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: Millie in der Villa Kunterbunt (German Edition)
@@ -2237,7 +2539,8 @@
   seiten: 171
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23970624
-  cover: http://books.google.com/books/content?id=stEuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783862721597.jpg
+  verlag: Dressler Autor Dagmar Chidolue erschienen am 28.01.2014 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Das fliegende Klassenzimmer
@@ -2249,7 +2552,8 @@
   seiten: 176
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/1132597
-  cover: http://books.google.com/books/content?id=sFdOpki1-cIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783791530154.jpg
+  verlag: Dressler Autor Erich Kästner erschienen am 01.02.1935 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Die Konferenz der Tiere
@@ -2261,7 +2565,7 @@
   erscheinungsjahr: 1980
   quelle: https://www.goodreads.com/book/show/1491573
   isbn: '9783791530031'
-  cover: http://books.google.com/books/content?id=l4KJPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=l4KJPwAACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: de
 - typ: buch
   status: finished
@@ -2273,7 +2577,8 @@
   seiten: 176
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/887010
-  cover: http://books.google.com/books/content?id=iuVEH2hoN-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783791530116.jpg
+  verlag: Dressler Autor Erich Kästner erschienen am 01.02.1949 Rubrik Kinder
 - typ: buch
   status: finished
   titel: The Hobbit
@@ -2286,7 +2591,7 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13512170
   isbn: '9783608106459'
-  cover: http://books.google.com/books/content?id=Z8tHY0IjjQYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  cover: http://books.google.com/books/content?id=Z8tHY0IjjQYC&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: de
 - typ: buch
   status: finished
@@ -2300,7 +2605,8 @@
   seiten: 175
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/63471
-  cover: http://books.google.com/books/content?id=r9QeAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783791530130.jpg
+  verlag: Dressler Autor Erich Kästner erschienen am 01.02.1934 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Revival
@@ -2313,7 +2619,9 @@
   seiten: 512
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/24167689
-  cover: http://books.google.com/books/content?id=xxJRvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783453269637.jpg
+  verlag: Heyne Autor Stephen King erschienen am 02.03.2015 Rubrik Zeitgenössische
+    Horrorliteratur ISBN-10 3-453-26963-2 ISBN-13 9
 - typ: buch
   status: finished
   titel: Emil und die Detektive
@@ -2325,7 +2633,8 @@
   seiten: 175
   erscheinungsjahr: 1973
   quelle: https://www.goodreads.com/book/show/63465
-  cover: http://books.google.com/books/content?id=E14sAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783791530123.jpg
+  verlag: Dressler Autor Erich Kästner erschienen am 01.02.1929 Rubrik Kinder
 - typ: buch
   status: finished
   titel: Vergeltung
@@ -2337,7 +2646,8 @@
   seiten: 491
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/20423752
-  cover: http://books.google.com/books/content?id=EWPRngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518465004.jpg
+  verlag: Suhrkamp Autor Don Winslow erschienen am 20.01.2014 Rubrik Politthriller
 - typ: buch
   status: finished
   titel: 'Törtel und Nummer 3 (Törtel, #3)'
@@ -2349,7 +2659,9 @@
   seiten: 192
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/22823023
-  cover: http://books.google.com/books/content?id=jJzPwAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783407743909.jpg
+  verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 28.01.2013
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: London Undercover - Neal Careys erster Fall
@@ -2361,7 +2673,9 @@
   seiten: 370
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23548019
-  cover: http://books.google.com/books/content?id=pwp4oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783518465806.jpg
+  verlag: Suhrkamp Autor Don Winslow erschienen am 08.02.2015 Rubrik Kriminalromane
+    und Mystery
 - typ: buch
   status: finished
   titel: 'Törtel und der Wolf (Törtel, # 2)'
@@ -2373,7 +2687,9 @@
   seiten: 192
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/22822948
-  cover: http://books.google.com/books/content?id=Mi9OtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783407743251.jpg
+  verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 07.03.2012
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: Törtel, die Schildkröte aus dem McGrün
@@ -2385,6 +2701,9 @@
   seiten: 182
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/8441837
+  cover: https://buch.isbn.de/gross/9783407799630.jpg
+  verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 25.11.2010
+    Rubrik Kinder
 - typ: buch
   status: finished
   titel: Der Boxer - Die wahre Geschichte des Hertzko Haft
@@ -2396,7 +2715,8 @@
   seiten: 176
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15833281
-  cover: http://books.google.com/books/content?id=8rOxpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783551786975.jpg
+  verlag: Carlsen Autor Reinhard Kleist erschienen am 29.05.2012 Rubrik Biografien
 - typ: buch
   status: finished
   titel: Doktor Proktors Zeitbadewanne
@@ -2408,7 +2728,8 @@
   seiten: 0
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/7453161
-  cover: http://books.google.com/books/content?id=bnHhOwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783401063300.jpg
+  verlag: Arena Autor Jo Nesb
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 5: Major League'
@@ -2421,7 +2742,9 @@
   seiten: 120
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13556942
-  cover: http://books.google.com/books/content?id=_rlFuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781607065234.jpg
+  verlag: Image Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-523-1 ISBN-13
+    978- 1- 60706- 523- 4 Lieferstatus verfügb
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 4: Flambé'
@@ -2433,7 +2756,9 @@
   seiten: 120
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11325591
-  cover: http://books.google.com/books/content?id=1lo2KQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781607063988.jpg
+  verlag: Image Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-398-0 ISBN-13
+    978- 1- 60706- 398- 8 Lieferstatus verfügb
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 3: Just Desserts'
@@ -2446,7 +2771,9 @@
   seiten: 128
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/9256590
-  cover: http://books.google.com/books/content?id=yn22cQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781607063353.jpg
+  verlag: Diamond Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-335-2
+    ISBN-13 978- 1- 60706- 335- 3 Lieferstatus verfü
 - typ: buch
   status: finished
   titel: 'Chew, Vol. 2: International Flavor'
@@ -2459,7 +2786,9 @@
   seiten: 128
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/7870457
-  cover: http://books.google.com/books/content?id=DTkLRAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781607062608.jpg
+  verlag: Diamond Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-260-7
+    ISBN-13 978- 1- 60706- 260- 8 Lieferstatus verfü
 - typ: buch
   status: finished
   titel: 'Chew, Bulle mit Biss: Leichenschmaus (Vol. 1)'
@@ -2471,7 +2800,9 @@
   seiten: 148
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/23533161
-  cover: http://books.google.com/books/content?id=HinAXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783942649186.jpg
+  verlag: Cross Cult Entertainment Autor John Layman erschienen im Dezember 2010 Rubrik
+    Europäische Comics ISBN-10 3-942649-18-7 I
 - typ: buch
   status: finished
   titel: Doktor Proktors Pupspulver
@@ -2483,7 +2814,8 @@
   seiten: 230
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/6610336
-  cover: http://books.google.com/books/content?id=IGaPbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783401063041.jpg
+  verlag: Arena Autor Jo Nesb
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 6: Alpha & Omega'
@@ -2496,7 +2828,7 @@
   seiten: 192
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/16164271
-  cover: http://books.google.com/books/content?id=C2mQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781613778531.jpg
 - typ: buch
   status: finished
   titel: Der kleine Nick ist wieder da!
@@ -2509,7 +2841,8 @@
   seiten: 400
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/24259557
-  cover: http://books.google.com/books/content?id=9t_4PQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783257011210.jpg
+  verlag: Diogenes Autoren Ren
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 5: Clockworks'
@@ -2522,7 +2855,9 @@
   seiten: 160
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/13490570
-  cover: http://books.google.com/books/content?id=gWiQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781613772270.jpg
+  verlag: 'IDW Autor Hill, Joe erschienen am 11.07.2012 ISBN-10 1-61377-227-0 ISBN-13
+    978- 1- 61377- 227- 0 Lieferstatus Lieferant '
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 4: Keys to the Kingdom'
@@ -2535,7 +2870,7 @@
   seiten: 152
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/9674335
-  cover: http://books.google.com/books/content?id=Bk6QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=Bk6QEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 2: Head Games'
@@ -2572,7 +2907,9 @@
   seiten: 168
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/3217221
-  cover: http://books.google.com/books/content?id=xE2QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781600102370.jpg
+  verlag: Idea and Design Works Llc Autor Joe Hill erschienen am 24.09.2008 Sprache
+    Englisch ISBN-10 1-60010-237-9 ISBN-13 978- 1-
 - typ: buch
   status: finished
   titel: Blackout. Morgen ist es zu spät
@@ -2584,7 +2921,9 @@
   seiten: 800
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13113378
-  cover: http://books.google.com/books/content?id=Tm-dpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783764504458.jpg
+  verlag: 'Blanvalet Autor Marc Elsberg erschienen am 19.03.2012 Rubrik Technothriller
+    ISBN-10 3-7645-0445-5 ISBN-13 978- 3- 7645- '
 - typ: buch
   status: finished
   titel: Saga, Volume 1
@@ -2597,6 +2936,9 @@
   seiten: 160
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15704307
+  cover: https://buch.isbn.de/gross/9781607066019.jpg
+  verlag: Diamond Comic Autor Brian K. Vaughan, Fiona Staples ISBN-10 1-60706-601-7
+    ISBN-13 978- 1- 60706- 601- 9 Lieferstatus ver
 - typ: buch
   status: finished
   titel: 'Batman: The Dark Knight Returns'
@@ -2610,6 +2952,9 @@
   seiten: 197
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/59960
+  cover: https://buch.isbn.de/gross/9781563893414.jpg
+  verlag: Dc Comics Autor Miller, Frank, Janson, Klaus, Varley, Lynn, Costanza, John,
+    Kane, Bob erschienen am 01.11.2002 ISBN-10 1
 - typ: buch
   status: finished
   titel: 'DMZ, Vol. 1: On the Ground'
@@ -2623,7 +2968,9 @@
   seiten: 126
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/158683
-  cover: http://books.google.com/books/content?id=buwPtQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781401210625.jpg
+  verlag: DC Comics Autor Wood, Brian erschienen am 01.06.2006 ISBN-10 1-4012-1062-7
+    ISBN-13 978- 1- 4012- 1062- 5 Lieferstatus Li
 - typ: buch
   status: finished
   titel: The Ultimates
@@ -2636,7 +2983,9 @@
   seiten: 376
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/160852
-  cover: http://books.google.com/books/content?id=P2yFAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780785110828.jpg
+  verlag: Marvel erschienen am 24.05.2006 ISBN-10 0-7851-1082-8 ISBN-13 978- 0- 7851-
+    1082- 8 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
   titel: Fullmetal Alchemist, Vol. 1
@@ -2648,6 +2997,9 @@
   seiten: 192
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/870
+  cover: https://buch.isbn.de/gross/9781591169208.jpg
+  verlag: 'Viz LLC Autor Arakawa, Hiromu erschienen am 03.05.2005 ISBN-10 1-59116-920-8
+    ISBN-13 978- 1- 59116- 920- 8 Lieferstatus '
 - typ: buch
   status: finished
   titel: '100 Bullets, Vol. 1: First Shot, Last Call'
@@ -2659,7 +3011,9 @@
   seiten: 128
   erscheinungsjahr: 2000
   quelle: https://www.goodreads.com/book/show/94510
-  cover: http://books.google.com/books/content?id=xnkqAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781563896453.jpg
+  verlag: Vertigo Autor Azzarello, Brian erschienen am 14.08.2012 ISBN-10 1-56389-645-1
+    ISBN-13 978- 1- 56389- 645- 3 Lieferstatus
 - typ: buch
   status: finished
   titel: Akira, Vol. 1
@@ -2672,7 +3026,9 @@
   seiten: 361
   erscheinungsjahr: 2000
   quelle: https://www.goodreads.com/book/show/93371
-  cover: http://books.google.com/books/content?id=q5DzZCcbQKEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781569714980.jpg
+  verlag: Dark Horse Comics Autor Otomo, Katsuhiro erschienen am 13.12.2000 ISBN-10
+    1-56971-498-3 ISBN-13 978- 1- 56971- 498- 0 Li
 - typ: buch
   status: finished
   titel: '300'
@@ -2685,6 +3041,9 @@
   seiten: 88
   erscheinungsjahr: 1999
   quelle: https://www.goodreads.com/book/show/59952
+  cover: https://buch.isbn.de/gross/9781569714027.jpg
+  verlag: Dark Horse Books Autor Frank Miller Sprache Englisch ISBN-10 1-56971-402-9
+    ISBN-13 978- 1- 56971- 402- 7 Lieferstatus ve
 - typ: buch
   status: finished
   titel: From Hell
@@ -2698,7 +3057,9 @@
   seiten: 576
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/23529
-  cover: http://books.google.com/books/content?id=Op3iQAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780861661411.jpg
+  verlag: Knockabout Comics Autor Alan Moore, Eddie Campbell ISBN-10 0-86166-141-9
+    ISBN-13 978- 0- 86166- 141- 1 Lieferstatus verf
 - typ: buch
   status: finished
   titel: 'Transmetropolitan, Vol. 1: Back on the Street'
@@ -2716,7 +3077,9 @@
   seiten: 72
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/22416
-  cover: http://books.google.com/books/content?id=sOUYcqnArLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781563894459.jpg
+  verlag: Dc Comics Autor Warren, Ellis, Ellis, Warren, Robertson, Darick erschienen
+    am 01.02.1998 ISBN-10 1-56389-445-9 ISBN-13 9
 - typ: buch
   status: finished
   titel: 'Preacher, Volume 1: Gone to Texas'
@@ -2729,7 +3092,9 @@
   seiten: 336
   erscheinungsjahr: 1996
   quelle: https://www.goodreads.com/book/show/95431
-  cover: http://books.google.com/books/content?id=pAqAI8YM_bEC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781563892615.jpg
+  verlag: Vertigo Autor Garth Ennis Sprache Englisch ISBN-10 1-56389-261-8 ISBN-13
+    978- 1- 56389- 261- 5 Lieferstatus verfügbar Pr
 - typ: buch
   status: finished
   titel: 'Sin City Volume 1: The Hard Goodbye'
@@ -2741,6 +3106,7 @@
   seiten: 208
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/392297
+  cover: https://buch.isbn.de/gross/9781593072933.jpg
 - typ: buch
   status: finished
   titel: 'The Walking Dead, Vol. 1: Days Gone Bye'
@@ -2753,6 +3119,9 @@
   seiten: 144
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/138398
+  cover: https://buch.isbn.de/gross/9781582406725.jpg
+  verlag: Image Comics Autor Robert Kirkman Sprache Englisch ISBN-10 1-58240-672-3
+    ISBN-13 978- 1- 58240- 672- 5 Lieferstatus verf
 - typ: buch
   status: finished
   titel: 'Bone: The Complete Edition'
@@ -2764,7 +3133,7 @@
   erscheinungsjahr: 2004
   quelle: https://www.goodreads.com/book/show/92143
   isbn: '9781888963274'
-  cover: http://books.google.com/books/content?id=d5ydKQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=d5ydKQEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -2792,7 +3161,9 @@
   seiten: 128
   erscheinungsjahr: 2002
   quelle: https://www.goodreads.com/book/show/21326
-  cover: http://books.google.com/books/content?id=v59bAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781563899423.jpg
+  verlag: Vertigo Autor Bill Willingham ISBN-10 1-56389-942-6 ISBN-13 978- 1- 56389-
+    942- 3 Lieferstatus verfügbar Preis 5,00
 - typ: buch
   status: finished
   titel: 'Y: The Last Man, Vol. 1: Unmanned'
@@ -2805,7 +3176,9 @@
   seiten: 130
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/156534
-  cover: http://books.google.com/books/content?id=TS1H-B5_IxIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781563899805.jpg
+  verlag: DC Comics Autor Vaughan, Brian K., Guerra, Pia, Marzan, Jose erschienen
+    am 01.12.2002 ISBN-10 1-56389-980-9 ISBN-13 978-
 - typ: buch
   status: finished
   titel: V for Vendetta
@@ -2820,7 +3193,9 @@
   seiten: 296
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/5805
-  cover: http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781401207922.jpg
+  verlag: DC Comics Autor Moore, Alan, Lloyd, David erschienen am 01.11.2005 ISBN-10
+    1-4012-0792-8 ISBN-13 978- 1- 4012- 0792- 2 L
 - typ: buch
   status: finished
   titel: The Complete Maus
@@ -2832,7 +3207,9 @@
   seiten: 296
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/15195
-  cover: http://books.google.com/books/content?id=rBj-nQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780141014081.jpg
+  verlag: Penguin Books UK Autor Art Spiegelman ISBN-10 0-14-101408-3 ISBN-13 978-
+    0- 14- 101408- 1 Lieferstatus verfügbar Preis 2
 - typ: buch
   status: finished
   titel: Watchmen
@@ -2846,7 +3223,9 @@
   seiten: 416
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/472331
-  cover: http://books.google.com/books/content?id=VjPuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780930289232.jpg
+  verlag: 'DC Comics Autor Moore, Alan, Gibbons, Dave erschienen am 01.04.1995 ISBN-10
+    0-930289-23-4 ISBN-13 978- 0- 930289- 23- 2 '
 - typ: buch
   status: finished
   titel: 'Savages (Savages #2)'
@@ -2858,7 +3237,7 @@
   seiten: 302
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/8008928
-  cover: http://books.google.com/books/content?id=ugClngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: http://books.google.com/books/content?id=ugClngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
 - typ: buch
   status: finished
   titel: Headhunters
@@ -2871,7 +3250,8 @@
   seiten: 265
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11777020
-  cover: http://books.google.com/books/content?id=4FX3TYUVE3sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780307948687.jpg
+  verlag: Vintage Crime
 - typ: buch
   status: finished
   titel: Kill Decision
@@ -2883,7 +3263,9 @@
   seiten: 400
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13542606
-  cover: http://books.google.com/books/content?id=1crNygAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780525952619.jpg
+  verlag: Penguin US Autor Suarez, Daniel erschienen am 19.07.2012 ISBN-10 0-525-95261-6
+    ISBN-13 978- 0- 525- 95261- 9 Lieferstatu
 - typ: buch
   status: finished
   titel: 'Der Regler (Der Regler, #1)'
@@ -2895,7 +3277,8 @@
   seiten: 336
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11131632
-  cover: http://books.google.com/books/content?id=Su-HpwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783502110668.jpg
+  verlag: FISCHER Scherz Autor Max Landorff erschienen am 18.07.2011 Rubrik Thriller
 - typ: buch
   status: finished
   titel: Dorfpunks
@@ -2907,7 +3290,9 @@
   seiten: 204
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/1603221
-  cover: http://books.google.com/books/content?id=XNVDSwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783499241161.jpg
+  verlag: ROWOHLT Taschenbuch Autor Rocko Schamoni erschienen am 01.11.2005 Rubrik
+    Moderne und zeitgenössische Belletristik ISBN-1
 - typ: buch
   status: finished
   titel: Fleisch ist mein Gemüse
@@ -2919,7 +3304,8 @@
   seiten: 256
   erscheinungsjahr: 2004
   quelle: https://www.goodreads.com/book/show/1325901
-  cover: http://books.google.com/books/content?id=Ja0hAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783499237119.jpg
+  verlag: ROWOHLT Taschenbuch Autor Heinz Strunk erschienen am 01.10.2004 Rubrik Autobiografien
 - typ: buch
   status: finished
   titel: 'Paradies (Annika Bengtzon, #2)'
@@ -2931,7 +3317,9 @@
   seiten: 480
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/1600607
-  cover: http://books.google.com/books/content?id=QvZjPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783499231049.jpg
+  verlag: ROWOHLT Taschenbuch Autor Liza Marklund erschienen am 02.06.2003 Rubrik
+    Thriller
 - typ: buch
   status: finished
   titel: 'Red Wolf (Annika Bengtzon, #5)'
@@ -2943,7 +3331,9 @@
   seiten: 400
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/8598435
-  cover: http://books.google.com/books/content?id=m0f-zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9781451602067.jpg
+  verlag: Atria Books Autor Marklund, Liza erschienen am 15.02.2011 ISBN-10 1-4516-0206-5
+    ISBN-13 978- 1- 4516- 0206- 7 Lieferstat
 - typ: buch
   status: finished
   titel: 'Studio sex (Annika Bengtzon, #1)'
@@ -2967,7 +3357,9 @@
   seiten: 432
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/4699575
-  cover: http://books.google.com/books/content?id=VpBpVt4cHmMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9780525951117.jpg
+  verlag: E P Dutton Autor Suarez, Daniel erschienen am 08.01.2009 ISBN-10 0-525-95111-3
+    ISBN-13 978- 0- 525- 95111- 7 Lieferstatu
 - typ: buch
   status: finished
   titel: DARKNET
@@ -2979,4 +3371,6 @@
   seiten: 480
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10238767
-  cover: http://books.google.com/books/content?id=E9qKZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  cover: https://buch.isbn.de/gross/9783499252440.jpg
+  verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 02.05.2011 Rubrik
+    Moderne und zeitgenössische Belletristik ISBN-10
