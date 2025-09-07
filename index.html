@@ -4,15 +4,32 @@ title: Bücher
 ---
 
 <style>
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
-.card{border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;background:#fff}
+:root{
+  --gap:16px;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --chip:#eef2ff;
+}
+.controls{margin:10px 0 20px 0; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.controls .group{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+.controls label{font-size:14px; color:var(--muted)}
+.controls input[type="search"], .controls select{
+  padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px;
+}
+.controls .toggle{display:flex; gap:6px; align-items:center; font-size:14px; color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--gap)}
+.card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff; display:flex; flex-direction:column}
 .card img{width:100%;height:320px;object-fit:cover;background:#f3f4f6}
 .card .body{padding:12px}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:#eef2ff}
-.muted{color:#6b7280;font-size:14px}
-h2{font-size:16px;margin:8px 0 4px 0}
-.controls{margin:10px 0 20px 0}
+.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip)}
+.muted{color:var(--muted);font-size:14px}
+h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
+.meta{display:flex; gap:6px; flex-wrap:wrap}
+.meta .dot::before{content:"•"; margin:0 6px; color:var(--muted)}
+.pager{display:flex; gap:8px; justify-content:center; margin:20px 0 0}
+.pager button{padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer}
+.pager button[disabled]{opacity:.5; cursor:not-allowed}
 </style>
 
 <h1>📚 Gelesene Bücher</h1>
@@ -21,32 +38,102 @@ h2{font-size:16px;margin:8px 0 4px 0}
   <small>Quelle: <code>_data/read.yml</code> • neueste zuerst</small>
 </div>
 
-<div class="grid">
-{% comment %}
-  Wir holen alle Einträge aus site.data.read.
-  Falls du nur fertig gelesene Bücher willst, filtere auf status == "finished".
-{% endcomment %}
 {% assign books_all = site.data.read | default: empty %}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
+{%- comment -%}
+  Sammle Tag- und Jahreslisten für die Filter
+{%- endcomment -%}
+{% assign all_tags = "" | split: "" %}
+{% assign all_years = "" | split: "" %}
+{% for b in books %}
+  {% if b.tags %}
+    {% assign all_tags = all_tags | concat: b.tags %}
+  {% endif %}
+  {% if b.fertig_am %}
+    {% assign y = b.fertig_am | date: "%Y" %}
+    {% assign all_years = all_years | push: y %}
+  {% endif %}
+{% endfor %}
+{% assign tags_unique = all_tags | uniq | sort %}
+{% assign years_unique = all_years | uniq | sort | reverse %}
+
+<div class="controls">
+  <div class="group">
+    <label for="q">Suche:</label>
+    <input id="q" type="search" placeholder="Titel oder Autor…">
+  </div>
+  <div class="group">
+    <label for="tag">Tag:</label>
+    <select id="tag">
+      <option value="">(alle)</option>
+      {% for t in tags_unique %}
+        <option value="{{ t | escape }}">{{ t }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="group">
+    <label for="year">Jahr:</label>
+    <select id="year">
+      <option value="">(alle)</option>
+      {% for y in years_unique %}
+        <option value="{{ y }}">{{ y }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="group">
+    <label for="sort">Sortierung:</label>
+    <select id="sort">
+      <option value="newest">Neueste zuerst</option>
+      <option value="oldest">Älteste zuerst</option>
+      <option value="rating_desc">Bewertung ↓</option>
+      <option value="rating_asc">Bewertung ↑</option>
+      <option value="title_asc">Titel A–Z</option>
+      <option value="title_desc">Titel Z–A</option>
+    </select>
+  </div>
+  <label class="toggle">
+    <input id="hide-nocover" type="checkbox"> ohne Cover ausblenden
+  </label>
+</div>
+
+<div id="grid" class="grid">
 {% for b in books %}
   {%- assign cover = b.cover -%}
-  {%- if cover == nil and b.isbn -%}
+  {%- if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn -%}
     {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: b.isbn | append: "-L.jpg" -%}
   {%- endif -%}
-  <article class="card">
-    <img src="{{ cover | default: '/assets/placeholder.png' | relative_url }}" alt="Cover">
+  {%- assign authors_text = "" -%}
+  {%- if b.autor -%}
+    {%- if b.autor.size -%}{% assign authors_text = b.autor | join: ", " %}{%- else -%}{% assign authors_text = b.autor %}{%- endif -%}
+  {%- endif -%}
+  {%- assign year = "" -%}
+  {%- if b.fertig_am -%}{% assign year = b.fertig_am | date: "%Y" %}{%- endif -%}
+  {%- assign rating = b.bewertung | default: 0 -%}
+  <article
+    class="card"
+    data-title="{{ b.titel | default: 'Ohne Titel' | downcase | escape }}"
+    data-author="{{ authors_text | downcase | escape }}"
+    data-tags="{% if b.tags %}{{ b.tags | join: '|' | downcase | escape }}{% endif %}"
+    data-year="{{ year }}"
+    data-rating="{{ rating }}"
+  >
+    <img
+      loading="lazy"
+      src="{{ cover | default: '/assets/placeholder.png' | relative_url }}"
+      alt="Cover"
+      onerror="this.onerror=null; this.dataset.error=1; this.src='{{ '/assets/placeholder.png' | relative_url }}'; this.closest('.card').dataset.nocover='1'; if(document.getElementById('hide-nocover')?.checked){ this.closest('.card').style.display='none'; }"
+    >
     <div class="body">
-      <h2>{{ b.titel | default: "Ohne Titel" }}</h2>
-      {% if b.autor %}
-        <div class="muted">
-          {% if b.autor.size %}{{ b.autor | join: ", " }}{% else %}{{ b.autor }}{% endif %}
-        </div>
+      <h2 title="{{ b.titel | escape }}">{{ b.titel | default: "Ohne Titel" }}</h2>
+      {% if authors_text != "" %}
+        <div class="muted">{{ authors_text }}</div>
       {% endif %}
-      <div class="muted">
-        {% if b.fertig_am %}{{ b.fertig_am }}{% endif %}
-        {% if b.bewertung %} • ⭐ {{ b.bewertung }}{% endif %}
+      <div class="muted meta">
+        {% if b.fertig_am %}<span>{{ b.fertig_am }}</span>{% endif %}
+        {% if b.bewertung %}<span class="dot">⭐ {{ b.bewertung }}</span>{% endif %}
+        {% if b.isbn %}<span class="dot">ISBN {{ b.isbn }}</span>{% endif %}
       </div>
       {% if b.tags %}
         <div class="badges">
@@ -60,3 +147,117 @@ h2{font-size:16px;margin:8px 0 4px 0}
   </article>
 {% endfor %}
 </div>
+
+<div class="pager" id="pager" hidden>
+  <button id="prev" disabled>Zurück</button>
+  <span id="pageinfo" class="muted"></span>
+  <button id="next">Weiter</button>
+</div>
+
+<script>
+(function(){
+  const q = document.getElementById('q');
+  const selTag = document.getElementById('tag');
+  const selYear = document.getElementById('year');
+  const selSort = document.getElementById('sort');
+  const hideNoCover = document.getElementById('hide-nocover');
+  const grid = document.getElementById('grid');
+  const cards = Array.from(grid.querySelectorAll('.card'));
+  const pager = document.getElementById('pager');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  const pageinfo = document.getElementById('pageinfo');
+
+  let page = 1;
+  const perPage = 48;
+
+  function normalize(s){ return (s||"").toLowerCase(); }
+
+  function applySort(list){
+    const mode = selSort.value;
+    return list.sort((a,b)=>{
+      if(mode === 'newest' || mode === 'oldest'){
+        const da = new Date(a.querySelector('.meta span')?.textContent || 0).getTime() || 0;
+        const db = new Date(b.querySelector('.meta span')?.textContent || 0).getTime() || 0;
+        return mode==='newest' ? (db-da) : (da-db);
+      }
+      if(mode === 'rating_desc' || mode === 'rating_asc'){
+        const ra = parseFloat(a.dataset.rating||0);
+        const rb = parseFloat(b.dataset.rating||0);
+        return mode==='rating_desc' ? (rb-ra) : (ra-rb);
+      }
+      if(mode === 'title_asc' || mode === 'title_desc'){
+        const ta = a.dataset.title || '';
+        const tb = b.dataset.title || '';
+        return mode==='title_asc' ? ta.localeCompare(tb) : tb.localeCompare(ta);
+      }
+      return 0;
+    });
+  }
+
+  function filter(){
+    const term = normalize(q.value);
+    const tag = normalize(selTag.value);
+    const year = selYear.value;
+    const noCover = hideNoCover.checked;
+
+    // Filter
+    let visible = cards.filter(card=>{
+      if(noCover && card.dataset.nocover === '1') return false;
+
+      const t = card.dataset.title;
+      const a = card.dataset.author;
+      if(term && !(t.includes(term) || a.includes(term))) return false;
+
+      if(tag){
+        const tags = (card.dataset.tags || '');
+        if(!tags.split('|').includes(tag)) return false;
+      }
+
+      if(year && card.dataset.year !== year) return false;
+
+      return true;
+    });
+
+    // Sort
+    visible = applySort(visible);
+
+    // Paginieren
+    const total = visible.length;
+    const pages = Math.max(1, Math.ceil(total / perPage));
+    if(page > pages) page = pages;
+
+    // Alles erstmal verstecken
+    cards.forEach(c=>c.style.display='none');
+
+    // Seite zeigen
+    const start = (page-1)*perPage;
+    const end = start + perPage;
+    visible.slice(start, end).forEach(c=>c.style.display='flex');
+
+    // Pager
+    if(total > perPage){
+      pager.hidden = false;
+      prev.disabled = (page<=1);
+      next.disabled = (page>=pages);
+      pageinfo.textContent = `Seite ${page} / ${pages} • ${total} Treffer`;
+    } else {
+      pager.hidden = true;
+    }
+  }
+
+  // Events
+  [q, selTag, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
+  prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
+  next.addEventListener('click', ()=>{ page++; filter(); });
+
+  // Beim Laden: markiere fehlende Cover sofort (falls Platzhalter initial gesetzt wurde)
+  grid.querySelectorAll('img').forEach(img=>{
+    if(img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1'){
+      img.closest('.card').dataset.nocover='1';
+    }
+  });
+
+  filter();
+})();
+</script>
