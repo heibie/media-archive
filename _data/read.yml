@@ -1,12 +1,5 @@
 - typ: buch
   status: currently reading
-  titel: Tief eingeschneit
-  autor:
-  - Louise Penny
-  isbn: '3311120086'
-  cover: https://buch.isbn.de/gross/9783311120087.jpg
-- typ: buch
-  status: currently reading
   progress: 220
   seiten: 432
   titel: Der tägliche Stoiker
