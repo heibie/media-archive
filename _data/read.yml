@@ -2454,7 +2454,7 @@
   titel: 'All Systems Red (The Murderbot Diaries, #1)'
   autor:
   - Martha Wells
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631585309i/32758901.jpg
+  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   hinzugefuegt_am: '2019-11-26'
   tags:
   - to-read
@@ -2462,7 +2462,6 @@
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/32758901
   isbn: '9781250389824'
-  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: en
 - typ: buch
   status: finished
@@ -5495,15 +5494,13 @@
   titel: 'Khalil (Marokkanischer Frühling, #4)'
   autor:
   - Fabien Bedouel
-  isbn: '9782344004432'
-  cover: https://m.media-amazon.com/images/I/51sgytXPAYL._SL500_.jpg
+  isbn: '9782331013072'
+  cover: http://books.google.com/books/content?id=hs-lBAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 74
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25595869
-  isbn: '9782331013072'
-  cover: http://books.google.com/books/content?id=hs-lBAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api
   sprache: fr
 - typ: buch
   status: finished
@@ -5514,13 +5511,12 @@
   - Maurin Defrance
   - Fabien Nury
   isbn: '9783943808889'
-  cover: https://cover.ekz.de/9783943808889.jpg
+  cover: https://buch.isbn.de/gross/9782344004401.jpg
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25727013
-  cover: https://buch.isbn.de/gross/9782344004401.jpg
   verlag: GLENAT erschienen am 01.10.2014 ISBN-10 2-344-00440-8 ISBN-13 978- 2- 344-
     00440- 1 Lieferstatus Lieferant anfragen Prei
 - typ: buch
@@ -5532,12 +5528,11 @@
   - Maurin Defrance
   - Fabien Nury
   isbn: '9782344004418'
-  cover: https://m.media-amazon.com/images/I/51PhQ802BGL._SL500_.jpg
+  cover: https://buch.isbn.de/gross/9782344004418.jpg
   fertig_am: '2016-12-11'
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/25728923
-  cover: https://buch.isbn.de/gross/9782344004418.jpg
   verlag: GLENAT erschienen am 01.10.2014 ISBN-10 2-344-00441-6 ISBN-13 978- 2- 344-
     00441- 8 Lieferstatus Lieferant anfragen Prei
 - typ: buch
@@ -5831,12 +5826,11 @@
   - Fabien Nury
   - Pierre Alary
   isbn: '9783958392571'
-  cover: https://cover.ekz.de/9783958392571.jpg
+  cover: https://buch.isbn.de/gross/9782723483926.jpg
   fertig_am: '2016-07-11'
   seiten: 64
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/17346014
-  cover: https://buch.isbn.de/gross/9782723483926.jpg
   verlag: GLENAT erschienen am 16.01.2013 ISBN-10 2-7234-8392-4 ISBN-13 978- 2- 7234-
     8392- 6 Lieferstatus Lieferant anfragen Prei
 - typ: buch
@@ -5892,12 +5886,11 @@
   autor:
   - Ben Gijsemans
   isbn: '9783941787810'
-  cover: https://cover.ekz.de/9783941787810.jpg
+  cover: https://buch.isbn.de/gross/9789077549872.jpg
   fertig_am: '2016-07-11'
   seiten: 88
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23451698
-  cover: https://buch.isbn.de/gross/9789077549872.jpg
   verlag: Oogachtend Autor Gijsemans, Ben erschienen am 04.04.2016 ISBN-10 90-77549-87-0
     ISBN-13 978- 90- 77549- 87- 2 Lieferstatu
 - typ: buch
@@ -5954,12 +5947,11 @@
   - Laurent-Frédéric Bollée
   - Philippe Nicloux
   isbn: '9783958392298'
-  cover: https://cover.ekz.de/9783958392298.jpg
+  cover: https://buch.isbn.de/gross/9782723472579.jpg
   fertig_am: '2016-03-21'
   seiten: 512
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18813472
-  cover: https://buch.isbn.de/gross/9782723472579.jpg
   verlag: GLENAT erschienen am 13.03.2013 ISBN-10 2-7234-7257-4 ISBN-13 978- 2- 7234-
     7257- 9 Lieferstatus Lieferant anfragen Prei
 - typ: buch
@@ -6102,7 +6094,7 @@
     am 18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978- '
 - typ: buch
   status: finished
-  titel: Die Kennedy-Gang (Tag X #2)
+  titel: Die Kennedy-Gang (Tag X
   autor:
   - Fred Duval
   - Jean-Pierre Pécau
@@ -6116,7 +6108,7 @@
   verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
-  titel: Wer ermordete den Präsidenten? (Tag X #1)
+  titel: Wer ermordete den Präsidenten? (Tag X
   autor:
   - Fred Duval
   - Jean-Pierre Pécau
@@ -7057,3 +7049,12 @@
   cover: https://buch.isbn.de/gross/9783499252440.jpg
   verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 02.05.2011 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-10
+- typ: buch
+  status: finished
+  titel: Der tägliche Stoiker
+  autor:
+  - Ryan Holiday
+  - Stephen Hanselman
+  isbn: '9783959720458'
+  fertig_am: '2025-09-07'
+  cover: https://covers.openlibrary.org/b/id/12567971-L.jpg
