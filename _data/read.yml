@@ -5507,9 +5507,11 @@
   quelle: https://medienwelten.ekz.de/product?id=pim:5a72f0d39866152a83b4ba5c
 - typ: buch
   status: finished
-  titel: 'Khalil (L''or et le sang, #4)'
+  titel: 'Khalil (Marokkanischer Frühling, #4)'
   autor:
   - Fabien Bedouel
+  isbn: '9782344004432'
+  cover: https://m.media-amazon.com/images/I/51sgytXPAYL._SL500_.jpg
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 74
@@ -5647,7 +5649,7 @@
   seiten: 136
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29864641
-  cover: https://buch.isbn.de/gross/9783736718678.jpg
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1460236665i/29864641.jpg
   verlag: Panini Verlags GmbH Autor King, Stephen, David, Peter erschienen am 23.03.2016
     ISBN-10 3-7367-1867-5 ISBN-13 978- 3- 736
 - typ: buch
@@ -5839,11 +5841,12 @@
     2-205-07047-9 ISBN-13 978- 2- 205- 07047- 7 '
 - typ: buch
   status: finished
-  titel: 'Le réseau Aquila 1/2 ( Silas Corey #1)'
+  titel: 'Der Aquila-Ring ( Silas Corey #1)'
   autor:
   - Fabien Nury
   - Pierre Alary
-  isbn: '9782723483926'
+  isbn: '9783958392571'
+  cover: https://cover.ekz.de/9783958392571.jpg
   fertig_am: '2016-07-11'
   seiten: 64
   erscheinungsjahr: 2013
@@ -5903,7 +5906,8 @@
   titel: Hubert
   autor:
   - Ben Gijsemans
-  isbn: '9789077549872'
+  isbn: '9783941787810'
+  cover: https://cover.ekz.de/9783941787810.jpg
   fertig_am: '2016-07-11'
   seiten: 88
   erscheinungsjahr: 2014
@@ -5964,7 +5968,8 @@
   autor:
   - Laurent-Frédéric Bollée
   - Philippe Nicloux
-  isbn: '9782723472579'
+  isbn: '9783958392298'
+  cover: https://cover.ekz.de/9783958392298.jpg
   fertig_am: '2016-03-21'
   seiten: 512
   erscheinungsjahr: 2013
@@ -6080,12 +6085,13 @@
   sprache: fr
 - typ: buch
   status: finished
-  titel: 'Centaurus, tome 1: Terre Promise'
+  titel: 'Gelobtes Land (Centaurus #1)'
   autor:
   - Rodolphe
   - Luiz Eduardo de Oliveira (Leo)
   - Zoran Janjetov
-  isbn: '9782756040295'
+  isbn: '9783958391871'
+  cover: https://cover.ekz.de/9783958391871.jpg
   fertig_am: '2015-12-19'
   seiten: 48
   erscheinungsjahr: 2015
@@ -6126,17 +6132,17 @@
   verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
-  titel: Qui a tué le président?
+  titel: Tag X 1.: Wer ermordete den Präsidenten?
   autor:
   - Fred Duval
   - Jean-Pierre Pécau
   - Colin Wilson
-  isbn: '9782756018676'
+  isbn: '9783957984500'
   fertig_am: '2015-12-19'
   seiten: 56
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11698310
-  cover: https://buch.isbn.de/gross/9782756018676.jpg
+  cover: https://cover.ekz.de/9783957984500.jpg
   verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
