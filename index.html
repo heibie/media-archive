@@ -9,6 +9,8 @@ title: Bücher
   --muted:#6b7280;
   --border:#e5e7eb;
   --chip:#eef2ff;
+  --bar:#e5e7eb;
+  --bar-fill:#6366f1;
 }
 .controls{margin:10px 0 20px 0; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
 .controls .group{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
@@ -25,8 +27,11 @@ title: Bücher
 .badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip)}
 .muted{color:var(--muted);font-size:14px}
 h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
-.meta{display:flex; gap:6px; flex-wrap:wrap}
+.meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
 .meta .dot::before{content:"•"; margin:0 6px; color:var(--muted)}
+.progress{margin-top:8px}
+.progress .track{width:100%; height:10px; background:var(--bar); border-radius:999px; overflow:hidden}
+.progress .fill{height:100%; background:var(--bar-fill); width:0%}
 .pager{display:flex; gap:8px; justify-content:center; margin:20px 0 0}
 .pager button{padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer}
 .pager button[disabled]{opacity:.5; cursor:not-allowed}
@@ -43,20 +48,19 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
 {%- comment -%}
-  Sammle Tag- und Jahreslisten für die Filter
+  Sammle Status- und Jahreslisten für die Filter
 {%- endcomment -%}
-{% assign all_tags = "" | split: "" %}
+{% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
-  {% if b.tags %}
-    {% assign all_tags = all_tags | concat: b.tags %}
-  {% endif %}
-  {% if b.fertig_am %}
-    {% assign y = b.fertig_am | date: "%Y" %}
+  {% if b.status %}{% assign all_status = all_status | push: b.status %}{% endif %}
+  {% assign year_source = b.fertig_am | default: b.datum | default: b.hinzugefuegt_am | default: b.start_am %}
+  {% if year_source %}
+    {% assign y = year_source | date: "%Y" %}
     {% assign all_years = all_years | push: y %}
   {% endif %}
 {% endfor %}
-{% assign tags_unique = all_tags | uniq | sort %}
+{% assign status_unique = all_status | uniq | sort %}
 {% assign years_unique = all_years | uniq | sort | reverse %}
 
 <div class="controls">
@@ -65,11 +69,18 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     <input id="q" type="search" placeholder="Titel oder Autor…">
   </div>
   <div class="group">
-    <label for="tag">Tag:</label>
-    <select id="tag">
+    <label for="status">Status:</label>
+    <select id="status">
       <option value="">(alle)</option>
-      {% for t in tags_unique %}
-        <option value="{{ t | escape }}">{{ t }}</option>
+      {%- comment -%} Falls bestimmte Schreibweisen gewünscht sind, hier statisch setzen:
+      <option value="finished">finished</option>
+      <option value="currently reading">currently reading</option>
+      <option value="to read">to read</option>
+      {%- endcomment -%}
+      {% for s in status_unique %}
+        {% if s %}
+          <option value="{{ s | escape }}">{{ s }}</option>
+        {% endif %}
       {% endfor %}
     </select>
   </div>
@@ -104,20 +115,66 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {%- if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn -%}
     {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: b.isbn | append: "-L.jpg" -%}
   {%- endif -%}
+
   {%- assign authors_text = "" -%}
   {%- if b.autor -%}
     {%- if b.autor.size -%}{% assign authors_text = b.autor | join: ", " %}{%- else -%}{% assign authors_text = b.autor %}{%- endif -%}
   {%- endif -%}
+
+  {%- assign status = b.status | default: "" -%}
+
+  {%- assign pages = b.seiten | default: b.Seiten | default: "" -%}
+  {%- assign progress = b.progress | default: "" -%}
+
+  {%- comment -%}
+    Wähle ein Datumsfeld (Fallback-Reihenfolge):
+    - finished  → fertig_am
+    - currently reading → start_am / datum
+    - to read → hinzugefuegt_am / datum
+    - generisch: datum
+  {%- endcomment -%}
+  {%- assign date_source = "" -%}
+  {%- if status == "finished" and b.fertig_am -%}
+    {% assign date_source = b.fertig_am %}
+  {%- elsif status == "currently reading" and b.start_am -%}
+    {% assign date_source = b.start_am %}
+  {%- elsif status == "to read" and b.hinzugefuegt_am -%}
+    {% assign date_source = b.hinzugefuegt_am %}
+  {%- endif -%}
+  {%- assign date_source = date_source | default: b.datum | default: b.fertig_am | default: b.start_am | default: b.hinzugefuegt_am -%}
   {%- assign year = "" -%}
-  {%- if b.fertig_am -%}{% assign year = b.fertig_am | date: "%Y" %}{%- endif -%}
+  {%- if date_source -%}{% assign year = date_source | date: "%Y" %}{%- endif -%}
+
+  {%- comment -%} Label-Text je Status {%- endcomment -%}
+  {%- assign date_label = "" -%}
+  {%- if status == "finished" -%}
+    {% assign date_label = "beendet" %}
+  {%- elsif status == "to read" -%}
+    {% assign date_label = "hinzugefügt" %}
+  {%- elsif status == "currently reading" -%}
+    {% assign date_label = "gestartet" %}
+  {%- endif -%}
+
   {%- assign rating = b.bewertung | default: 0 -%}
+
+  {%- comment -%}
+    Prozent für Fortschrittsbalken nur bei "currently reading".
+    Wenn Seiten/Progress fehlen oder 0 sind, zeigen wir keinen Balken.
+  {%- endcomment -%}
+  {%- assign pct = "" -%}
+  {%- if status == "currently reading" and pages and pages != 0 and progress and progress != 0 -%}
+    {%- assign pct = progress | times: 100.0 | divided_by: pages | round -%}
+  {%- endif -%}
+
   <article
     class="card"
     data-title="{{ b.titel | default: 'Ohne Titel' | downcase | escape }}"
     data-author="{{ authors_text | downcase | escape }}"
-    data-tags="{% if b.tags %}{{ b.tags | join: '|' | downcase | escape }}{% endif %}"
+    data-status="{{ status | downcase | escape }}"
+    data-tags=""  {# legacy attr freigelassen #}
     data-year="{{ year }}"
     data-rating="{{ rating }}"
+    data-date="{{ date_source }}"
   >
     <img
       loading="lazy"
@@ -131,10 +188,25 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
         <div class="muted">{{ authors_text }}</div>
       {% endif %}
       <div class="muted meta">
-        {% if b.fertig_am %}<span>{{ b.fertig_am }}</span>{% endif %}
+        {% if date_source %}
+          <span>
+            {% if date_label != "" %}{{ date_label }}{% else %}Datum{% endif %} {{ date_source }}
+          </span>
+        {% endif %}
         {% if b.bewertung %}<span class="dot">⭐ {{ b.bewertung }}</span>{% endif %}
         {% if b.isbn %}<span class="dot">ISBN {{ b.isbn }}</span>{% endif %}
+        {% if status %}<span class="dot">{{ status }}</span>{% endif %}
       </div>
+
+      {% if pct != "" and pct > 0 and pct <= 100 %}
+        <div class="progress" aria-label="Lesefortschritt">
+          <div class="track">
+            <div class="fill" style="width: {{ pct }}%"></div>
+          </div>
+          <div class="muted" style="margin-top:4px">{{ progress }}/{{ pages }} Seiten ({{ pct }}%)</div>
+        </div>
+      {% endif %}
+
       {% if b.tags %}
         <div class="badges">
           {% for t in b.tags %}<span class="badge">#{{ t }}</span>{% endfor %}
@@ -157,7 +229,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 <script>
 (function(){
   const q = document.getElementById('q');
-  const selTag = document.getElementById('tag');
+  const selStatus = document.getElementById('status');
   const selYear = document.getElementById('year');
   const selSort = document.getElementById('sort');
   const hideNoCover = document.getElementById('hide-nocover');
@@ -173,12 +245,19 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 
   function normalize(s){ return (s||"").toLowerCase(); }
 
+  function parseDateISO(s){
+    if(!s) return 0;
+    // Versuche, ISO/Datum robust zu parsen
+    const t = Date.parse(s);
+    return isNaN(t) ? 0 : t;
+  }
+
   function applySort(list){
     const mode = selSort.value;
     return list.sort((a,b)=>{
       if(mode === 'newest' || mode === 'oldest'){
-        const da = new Date(a.querySelector('.meta span')?.textContent || 0).getTime() || 0;
-        const db = new Date(b.querySelector('.meta span')?.textContent || 0).getTime() || 0;
+        const da = parseDateISO(a.dataset.date);
+        const db = parseDateISO(b.dataset.date);
         return mode==='newest' ? (db-da) : (da-db);
       }
       if(mode === 'rating_desc' || mode === 'rating_asc'){
@@ -196,12 +275,11 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   }
 
   function filter(){
-    const term = normalize(q.value);
-    const tag = normalize(selTag.value);
+    const term = normalize(document.getElementById('q')?.value || "");
+    const status = normalize(selStatus.value);
     const year = selYear.value;
     const noCover = hideNoCover.checked;
 
-    // Filter
     let visible = cards.filter(card=>{
       if(noCover && card.dataset.nocover === '1') return false;
 
@@ -209,9 +287,9 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       const a = card.dataset.author;
       if(term && !(t.includes(term) || a.includes(term))) return false;
 
-      if(tag){
-        const tags = (card.dataset.tags || '');
-        if(!tags.split('|').includes(tag)) return false;
+      if(status){
+        const s = (card.dataset.status || '');
+        if(s !== status) return false;
       }
 
       if(year && card.dataset.year !== year) return false;
@@ -219,23 +297,18 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       return true;
     });
 
-    // Sort
     visible = applySort(visible);
 
-    // Paginieren
     const total = visible.length;
     const pages = Math.max(1, Math.ceil(total / perPage));
     if(page > pages) page = pages;
 
-    // Alles erstmal verstecken
     cards.forEach(c=>c.style.display='none');
 
-    // Seite zeigen
     const start = (page-1)*perPage;
     const end = start + perPage;
     visible.slice(start, end).forEach(c=>c.style.display='flex');
 
-    // Pager
     if(total > perPage){
       pager.hidden = false;
       prev.disabled = (page<=1);
@@ -246,12 +319,11 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     }
   }
 
-  // Events
-  [q, selTag, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
+  [q, selStatus, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
   prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
   next.addEventListener('click', ()=>{ page++; filter(); });
 
-  // Beim Laden: markiere fehlende Cover sofort (falls Platzhalter initial gesetzt wurde)
+  // beim Laden No-Cover markieren
   grid.querySelectorAll('img').forEach(img=>{
     if(img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1'){
       img.closest('.card').dataset.nocover='1';
