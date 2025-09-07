@@ -115,12 +115,6 @@ jobs:
                       raise ValueError("read.yml ist kein Listenformat.")
                   return data
 
-          # ---------- Quoted YAML Dumper (Safe) ----------
-          class _QuotedDumper(yaml.SafeDumper): pass
-          def _str_representer(dumper, data):
-              return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
-          _QuotedDumper.add_representer(str, _str_representer)
-
           def save_yaml(path, data):
               def sanitize_obj(obj):
                   if isinstance(obj, dict): return {k: sanitize_obj(v) for k,v in obj.items()}
@@ -128,15 +122,14 @@ jobs:
                   if isinstance(obj, str):  return sanitize_str(obj)
                   return obj
               safe_data = sanitize_obj(data)
-              # WICHTIG: yaml.dump (nicht safe_dump), damit eigener Dumper greift
+              # Standard-Safe-Dump: keine erzwungenen Anführungszeichen
               with open(path, "w", encoding="utf-8") as f:
-                  yaml.dump(
+                  yaml.safe_dump(
                       safe_data,
                       f,
                       allow_unicode=True,
                       sort_keys=False,
                       default_flow_style=False,
-                      Dumper=_QuotedDumper,
                   )
               # Validate
               with open(path, "r", encoding="utf-8") as f2:
@@ -149,7 +142,6 @@ jobs:
 
           # ----------------- Pages parsing -----------------
           def extract_pages(text: str):
-              """Zieht eine plausible Seitenzahl aus einem Text."""
               if not text: return None
               text = str(text)
               m = re.search(r'\b(\d{1,4})\s*(?:Seiten|S\.?)\b', text, re.I)
@@ -163,7 +155,6 @@ jobs:
               return None
 
           def parse_pages_any(value):
-              """Akzeptiert int/str (z.B. '300 S.' / 'xii, 300 p.') und liefert int."""
               if value is None: return None
               if isinstance(value, int): return value if value > 0 else None
               return extract_pages(str(value).replace('p.', 'Seiten'))
