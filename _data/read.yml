@@ -3143,6 +3143,7 @@
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/44148143
   isbn: '9783962190811'
+  cover: https://cover.ekz.de/9783962190811.jpg
   sprache: de
 - typ: buch
   status: finished
@@ -3365,6 +3366,8 @@
   titel: 'Schwedenbitter (Chas Riley, #3)'
   autor:
   - Simone Buchholz
+  isbn: 9783518474990
+  cover: https://cover.ekz.de/9783518474990.jpg
   fertig_am: '2019-03-17'
   bewertung: 4.0
   seiten: 225
@@ -3435,6 +3438,8 @@
   titel: 'Pullern im Stehn: Die Geschichte meiner Jugend (German Edition)'
   autor:
   - Fil
+  isbn: 9783499233364
+  cover: https://cover.ekz.de/9783499233364.jpg
   hinzugefuegt_am: '2019-02-19'
   tags:
   - to-read
@@ -5285,6 +5290,7 @@
   autor:
   - Matthew Inman
   isbn: '9781449467272'
+  cover: https://s3.amazonaws.com/theoatmeal-img/books/running.png
   fertig_am: '2017-04-29'
   bewertung: 3.0
   seiten: 148
@@ -5489,7 +5495,8 @@
   bewertung: 4.0
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/4944834
-  isbn: '9783827417350'
+  isbn: '9783827414847'
+  cover: https://cover.ekz.de/9783827414847.jpg
   sprache: de
 - typ: buch
   status: finished
@@ -5553,13 +5560,14 @@
   sprache: fr
 - typ: buch
   status: finished
-  titel: Les princes du Djebel(L'or et le sang,#3)
+  titel: DieFürsten vom Djebel
   autor:
   - Fabien Bedouel
   - Merwan
   - Maurin Defrance
   - Fabien Nury
-  isbn: '9782344004425'
+  isbn: '9783946337096'
+  cover: https://cover.ekz.de/9783946337096.jpg
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 54
@@ -5759,7 +5767,8 @@
     Edition)'
   autor:
   - Jean-Yves Delitte
-  isbn: '9783736718944'
+  isbn: '9783957986931'
+  cover: https://cover.ekz.de/9783957986931.jpg
   fertig_am: '2016-09-04'
   bewertung: 4.0
   seiten: 48
@@ -6021,7 +6030,8 @@
   titel: Fugazi Music Club
   autor:
   - Marcin Podolec
-  isbn: '9788360915851'
+  isbn: '9783770455201'
+  cover: https://buch.isbn.de/cover/9783770455201.jpg
   fertig_am: '2016-03-21'
   bewertung: 3.0
   seiten: 240
@@ -6110,10 +6120,12 @@
     ISBN-13 978- 1- 63215- 194- 0 Lieferstatus verfü
 - typ: buch
   status: finished
-  titel: 'Drifter #1'
+  titel: 'Drifter #1 - Crash'
   autor:
   - Ivan Brandon
   - Nic Klein
+  isbn: '9783864256783'
+  cover: https://cover.ekz.de/9783864256783.jpg
   fertig_am: '2015-12-19'
   seiten: 31
   erscheinungsjahr: 2014
@@ -6606,6 +6618,8 @@
   titel: 'Locke & Key, Vol. 2: Head Games'
   autor:
   - Joe Hill
+  isbn: '9783741605390'
+  cover: https://cover.ekz.de/9783741605390.jpg
   fertig_am: '2015-01-04'
   bewertung: 4.0
   seiten: 160
@@ -6620,6 +6634,7 @@
   - Gabriel Rodríguez
   - Brian K. Vaughan
   isbn: '9781600106958'
+  cover: https://cover.ekz.de/9783741608124.jpg
   fertig_am: '2015-01-02'
   seiten: 152
   erscheinungsjahr: 2013
@@ -7066,11 +7081,12 @@
     ISBN-13 978- 1- 4516- 0206- 7 Lieferstat
 - typ: buch
   status: finished
-  titel: 'Studio sex (Annika Bengtzon, #1)'
+  titel: 'Studio 6 (Annika Bengtzon, #1)'
   autor:
   - Liza Marklund
   - Kari Bolstad
-  isbn: '9788203209932'
+  isbn: '9783499228759'
+  cover: https://cover.ekz.de/9783499228759.jpg
   fertig_am: '2013-01-03'
   bewertung: 5.0
   seiten: 419
