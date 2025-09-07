@@ -2454,6 +2454,7 @@
   titel: 'All Systems Red (The Murderbot Diaries, #1)'
   autor:
   - Martha Wells
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631585309i/32758901.jpg
   hinzugefuegt_am: '2019-11-26'
   tags:
   - to-read
@@ -3135,7 +3136,7 @@
   sprache: de
 - typ: buch
   status: finished
-  titel: Apollo 11
+  titel: Apollo
   autor:
   - Matt Fitch
   - Chris Baker
@@ -3157,22 +3158,6 @@
   - rezension
   ekz_id: '5607402'
   quelle: https://medienwelten.ekz.de/product?id=pim:5bc7497b352df30001e14890
-- typ: buch
-  status: finished
-  titel: Apollo
-  autor:
-  - Matt Fitch
-  - Chris Baker
-  - Mike  Collins
-  isbn: '9781910593509'
-  fertig_am: '2019-04-19'
-  bewertung: 3.0
-  seiten: 160
-  erscheinungsjahr: 2018
-  quelle: https://www.goodreads.com/book/show/35888364
-  cover: https://cover.ekz.de/9781910593509.jpg
-  verlag: Abrams & Chronicle Books Autor Chris Baker, Matt Fitch, Mike Collins ISBN-10
-    1-910593-50-8 ISBN-13 978- 1- 910593- 50- 9
 - typ: buch
   status: finished
   titel: Der letzte Tag
@@ -3453,7 +3438,7 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/29973775
   isbn: '9783862017744'
-  cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
+  cover: https://cover.ekz.de/9783862017744.jpg
   sprache: de
 - typ: buch
   status: finished
@@ -6096,7 +6081,6 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25490999
-  cover: https://buch.isbn.de/gross/9782756040295.jpg
   verlag: DELCOURT erschienen am 04.03.2015 ISBN-10 2-7560-4029-0 ISBN-13 978- 2-
     7560- 4029- 5 Lieferstatus Lieferant anfragen Pr
 - typ: buch
@@ -6118,17 +6102,17 @@
     am 18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978- '
 - typ: buch
   status: finished
-  titel: Le Gang Kennedy
+  titel: Die Kennedy-Gang (Tag X #2)
   autor:
   - Fred Duval
   - Jean-Pierre Pécau
   - Colin  Wilson
-  isbn: '9782756029122'
+  isbn: '9783957984548'
   fertig_am: '2015-12-19'
   seiten: 65
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/16038883
-  cover: https://covers.openlibrary.org/b/isbn/9782756029122-L.jpg?default=false
+  cover: https://cover.ekz.de/9783957984548.jpg
   verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
@@ -6218,7 +6202,7 @@
   erscheinungsjahr: 1980
   quelle: https://www.goodreads.com/book/show/1491573
   isbn: '9783791530031'
-  cover: http://books.google.com/books/content?id=l4KJPwAACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1368262252i/1491573.jpg
   sprache: de
 - typ: buch
   status: finished
@@ -6555,7 +6539,7 @@
     978- 1- 61377- 227- 0 Lieferstatus Lieferant '
 - typ: buch
   status: finished
-  titel: 'Locke & Key, Vol. 4: Keys to the Kingdom'
+  titel: 'Locke & Key, Vol. 4: Schlüssel zum Königreich'
   autor:
   - Joe Hill
   - Gabriel Rodríguez
@@ -6565,7 +6549,7 @@
   seiten: 152
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/9674335
-  cover: http://books.google.com/books/content?id=Bk6QEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
+  cover: https://cover.ekz.de/9783862010608.jpg
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 2: Head Games'
@@ -6831,7 +6815,7 @@
   erscheinungsjahr: 2004
   quelle: https://www.goodreads.com/book/show/92143
   isbn: '9781888963274'
-  cover: http://books.google.com/books/content?id=d5ydKQEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1614067887i/92143.jpg
   sprache: en
 - typ: buch
   status: finished
@@ -6935,7 +6919,7 @@
   seiten: 302
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/8008928
-  cover: http://books.google.com/books/content?id=ugClngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
+  cover: https://cover.ekz.de/9780099556305.jpg
 - typ: buch
   status: finished
   titel: Headhunters
