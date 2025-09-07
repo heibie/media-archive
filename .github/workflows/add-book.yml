@@ -1,229 +1,191 @@
-name: add-book-yaml
+name: Add Book
 
 on:
   workflow_dispatch:
     inputs:
-      status:
-        description: "Buchstatus"
-        required: true
-        type: choice
-        default: "finished"
-        options:
-          - "want to read"
-          - "started"
-          - "finished"
-          - "abandoned"
-          - "summary"
       title:
-        description: "Titel (optional)"
-        required: false
+        description: "Buchtitel"
+        required: true
         type: string
       authors:
-        description: "Autoren, kommasepariert (optional)"
+        description: "Autor:innen (kommagetrennt)"
         required: false
         type: string
       isbn:
-        description: "ISBN (Ziffern/X, ohne Bindestriche, optional)"
+        description: "ISBN (10 oder 13)"
         required: false
         type: string
       source:
-        description: "Quelle/URL (optional)"
-        required: false
-        type: string
-      date:
-        description: "YYYY-MM-DD (leer = heute)"
+        description: "Quelle/Link (optional)"
         required: false
         type: string
       rating:
-        description: "Bewertung 0-5 (optional)"
+        description: "Bewertung (z.B. 4 oder 4,5)"
         required: false
         type: string
       tags:
-        description: "Tags, kommasepariert (optional)"
+        description: "Tags (kommagetrennt, optional)"
         required: false
         type: string
       notes:
         description: "Notizen (optional)"
         required: false
         type: string
-      enrich_openlibrary:
-        description: "OpenLibrary anreichern, wenn ISBN vorhanden"
+      status:
+        description: "Lese-Status"
         required: false
-        type: boolean
-        default: true
-
-permissions:
-  contents: write
+        default: "finished"
+        type: choice
+        options:
+          - "currently reading"
+          - "reading"
+          - "finished"
+          - "want to read"
 
 jobs:
-  append:
+  add-book:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: '3.12'
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml requests
+          pip install pyyaml
 
-      - name: Append YAML entry
+      - name: Add book to _data/read.yml
         env:
-          STATUS: ${{ inputs.status }}
           TITLE: ${{ inputs.title }}
           AUTHORS: ${{ inputs.authors }}
           ISBN: ${{ inputs.isbn }}
           SOURCE: ${{ inputs.source }}
-          DATE: ${{ inputs.date }}
           RATING: ${{ inputs.rating }}
           TAGS: ${{ inputs.tags }}
           NOTES: ${{ inputs.notes }}
-          ENRICH: ${{ inputs.enrich_openlibrary }}
+          STATUS: ${{ inputs.status }}
         run: |
           python - <<'PY'
-          import os, sys, re, pathlib, datetime, requests, yaml
+          import os, sys, re, json, urllib.request, urllib.error
+          from datetime import date
+          import yaml
+          
+          FILE_PATH = "_data/read.yml"
 
-          p = pathlib.Path("_data/read.yml")
-          p.parent.mkdir(parents=True, exist_ok=True)
-
-          def today():
-              return datetime.date.today().isoformat()
-
-          def parse_list(s):
-              return [x.strip() for x in s.split(",") if x.strip()] if s else []
+          def parse_list(val):
+              if not val:
+                  return None
+              # Split by comma/semicolon, strip whitespace, drop empties
+              items = [x.strip() for x in re.split(r"[;,]", val) if x.strip()]
+              return items or None
 
           def clean_isbn(s):
-              if not s: return None
-              s = re.sub(r"[^0-9Xx]", "", s)
-              return s.upper() if s else None
-
-          def parse_rating(s):
-              s = (s or "").strip()
               if not s:
                   return None
-              s = s.replace(",", ".")
+              s = re.sub(r"[^0-9Xx]", "", s)
+              s = s.upper()
+              return s or None
+
+          def parse_rating(s):
+              if not s:
+                  return None
+              s = s.strip().replace(",", ".")
               try:
-                  val = float(s)
-                  if val < 0: val = 0.0
-                  if val > 5: val = 5.0
-                  return val
-              except Exception:
-                  print(f"Warn: rating '{s}' nicht lesbar; wird ignoriert.", file=sys.stderr)
+                  f = float(s)
+                  return f
+              except ValueError:
                   return None
 
-          data = []
-          if p.exists() and p.read_text().strip():
-              data = yaml.safe_load(p.read_text()) or []
-              if not isinstance(data, list):
-                  data = []
+          def norm(s):
+              return re.sub(r"\s+", " ", (s or "").strip().lower())
 
+          def load_yaml(path):
+              if not os.path.exists(path):
+                  return []
+              with open(path, "r", encoding="utf-8") as f:
+                  data = yaml.safe_load(f) or []
+                  if not isinstance(data, list):
+                      raise ValueError("read.yml ist kein Listenformat.")
+                  return data
+
+          def save_yaml(path, data):
+              with open(path, "w", encoding="utf-8") as f:
+                  yaml.dump(
+                      data,
+                      f,
+                      allow_unicode=True,
+                      sort_keys=False,
+                      default_flow_style=False
+                  )
+
+          def openlibrary_cover(isbn):
+              # OpenLibrary direkte Cover-URL (wird nicht 404 geprüft, ist aber ok)
+              return f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg"
+
+          # Eingaben
           entry = {
               "typ": "buch",
-              "status": (os.getenv("STATUS") or "finished"),
+              "status": (os.getenv("STATUS") or "finished").strip(),
               "titel": (os.getenv("TITLE") or "").strip() or None,
               "autor": parse_list(os.getenv("AUTHORS")),
               "isbn": clean_isbn(os.getenv("ISBN")),
               "quelle": (os.getenv("SOURCE") or "").strip() or None,
-              "fertig_am": (os.getenv("DATE") or "").strip() or today(),
               "bewertung": parse_rating(os.getenv("RATING")),
               "tags": parse_list(os.getenv("TAGS")),
               "notizen": (os.getenv("NOTES") or "").strip() or None,
           }
 
+          # Leere Felder entfernen
+          entry = {k: v for k, v in entry.items() if v not in (None, "", [])}
+
+          # Simple ISBN-Längenwarnung (nicht blockierend)
+          if entry.get("isbn") and len(entry["isbn"]) not in (10, 13):
+              print(f"Warn: ISBN '{entry['isbn']}' hat unübliche Länge.", file=sys.stderr)
+
+          data = load_yaml(FILE_PATH)
+
+          # Duplikat-Check: ISBN, Quelle, Fallback Titel+Autor
           def is_duplicate(e):
               for d in data:
                   if e.get("isbn") and d.get("isbn") == e["isbn"]:
                       return True
                   if e.get("quelle") and d.get("quelle") == e["quelle"]:
                       return True
+                  if not e.get("isbn"):
+                      if norm(d.get("titel")) == norm(e.get("titel")):
+                          a_e = ", ".join(e.get("autor") or [])
+                          a_d = ", ".join(d.get("autor") or [])
+                          if norm(a_e) == norm(a_d) and a_e:
+                              return True
               return False
 
-          def enrich_with_openlibrary(e):
-              """
-              Ergänzt titel/autor/cover via OpenLibrary. Probiert 2 Endpunkte.
-              """
-              iso = (os.getenv("ENRICH") or "").strip().lower()
-              if iso not in ("true","1","yes","y"):
-                  print("Enrichment disabled via ENRICH env")
-                  return
-              isbn = e.get("isbn")
-              if not isbn:
-                  print("Enrichment skipped: no ISBN")
-                  return
-
-              # 1) Basisdaten
-              try:
-                  r = requests.get(f"https://openlibrary.org/isbn/{isbn}.json", timeout=12)
-                  if r.status_code == 200:
-                      meta = r.json()
-                      if not e.get("titel") and meta.get("title"):
-                          e["titel"] = meta["title"]
-                      # Autoren via /authors/<key>.json nachziehen
-                      authors_keys = [a.get("key") for a in meta.get("authors", []) if a.get("key")]
-                      authors = []
-                      for key in authors_keys:
-                          ar = requests.get(f"https://openlibrary.org{key}.json", timeout=10)
-                          if ar.status_code == 200:
-                              nm = ar.json().get("name")
-                              if nm: authors.append(nm)
-                      if (not e.get("autor")) and authors:
-                          e["autor"] = authors
-                  else:
-                      print(f"/isbn/<isbn>.json returned {r.status_code}")
-              except Exception as ex:
-                  print("Warn: first OL endpoint failed:", ex)
-
-              # 2) Reichere Daten inkl. Cover
-              try:
-                  r2 = requests.get(
-                      "https://openlibrary.org/api/books",
-                      params={"bibkeys": f"ISBN:{isbn}", "format":"json", "jscmd":"data"},
-                      timeout=12,
-                      headers={"User-Agent":"Mozilla/5.0"}
-                  )
-                  if r2.status_code == 200:
-                      d2 = r2.json() or {}
-                      bk = d2.get(f"ISBN:{isbn}")
-                      if bk:
-                          if not e.get("titel") and bk.get("title"):
-                              e["titel"] = bk["title"]
-                          if not e.get("autor"):
-                              names = [a.get("name") for a in bk.get("authors", []) if a.get("name")]
-                              if names:
-                                  e["autor"] = names
-                          cover = bk.get("cover", {})
-                          cover_url = cover.get("large") or cover.get("medium") or cover.get("small")
-                          if cover_url and not e.get("cover"):
-                              e["cover"] = cover_url
-                  else:
-                      print(f"/api/books returned {r2.status_code}")
-              except Exception as ex:
-                  print("Warn: second OL endpoint failed:", ex)
-
-          # --- Enrichment ausführen ---
-          enrich_with_openlibrary(entry)
-
-          # Leere Felder entfernen
-          entry = {k: v for k, v in entry.items() if v not in (None, [], "")}
-
           if is_duplicate(entry):
-              print("Duplicate detected, nothing appended.")
-          else:
-              data.append(entry)
-              p.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+              print("Eintrag wirkt wie ein Duplikat – wird nicht ergänzt.")
+              sys.exit(0)
 
-          print("OK")
+          # Einfaches Cover-Enrichment über OpenLibrary (nur wenn ISBN vorhanden und kein Cover gesetzt)
+          if entry.get("isbn") and "cover" not in entry:
+              entry["cover"] = openlibrary_cover(entry["isbn"])
+
+          # NEU: Am ANFANG einfügen (neueste oben)
+          data.insert(0, entry)
+
+          save_yaml(FILE_PATH, data)
+          print("Eintrag hinzugefügt (am Anfang von read.yml).")
           PY
 
-      - name: Commit changes
+      - name: Commit & Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # rebase-pull für robustes Pushen
+          git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
           git add _data/read.yml
           git commit -m "Add book to read.yml" || echo "Nothing to commit"
           git push || true
