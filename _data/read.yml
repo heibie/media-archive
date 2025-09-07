@@ -202,7 +202,7 @@
   verlag: ROWOHLT Taschenbuch Autor Miguel Robitzky erschienen am 20.07.2021 Rubrik
     Kunst
 - typ: buch
-  status: started
+  status: not finished
   titel: 'Verraten (Sonderdezernat Q, #10)'
   autor:
   - Jussi Adler-Olsen
@@ -210,7 +210,6 @@
   isbn: '9783423442572'
   hinzugefuegt_am: '2024-08-22'
   tags:
-  - currently-reading
   seiten: 608
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/200523171
