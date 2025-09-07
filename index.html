@@ -14,7 +14,7 @@ title: Bücher
 .controls input[type="search"], .controls select{padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px}
 .controls .toggle{display:flex; gap:6px; align-items:center; font-size:14px; color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--gap)}
-.card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff; display:flex; flex-direction:column}
+.card{position:relative; border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff; display:flex; flex-direction:column}
 .card img{width:100%;height:320px;object-fit:cover;background:#f3f4f6}
 .card .body{padding:12px}
 .muted{color:var(--muted);font-size:14px}
@@ -27,6 +27,12 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 .pager{display:flex; gap:8px; justify-content:center; margin:20px 0 0}
 .pager button{padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer}
 .pager button[disabled]{opacity:.5; cursor:not-allowed}
+
+/* Optische Markierung für laufende Einträge */
+.badge{position:absolute; top:8px; left:8px; padding:4px 8px; border-radius:999px; font-size:12px; border:1px solid var(--border); background:var(--chip)}
+.badge-running{border-color:var(--bar-fill); background:rgba(99,102,241,.10)}
+.card[data-pin="1"]{border-color:var(--bar-fill); box-shadow:0 0 0 2px rgba(99,102,241,.15)}
+.card[data-pin="1"]::before{content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:var(--bar-fill)}
 </style>
 
 <h1>📚 Gelesene Bücher</h1>
@@ -106,10 +112,12 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {% endif %}
 
   {%- comment -%} Robust normalisierte Werte {%- endcomment -%}
-  {% assign status = b.status | downcase | strip | default: "" %}
+  {% assign status_raw = b.status | default: "" %}
+  {% assign status = status_raw | downcase | strip %}
   {% assign pages_num = b.seiten | default: b.Seiten | default: 0 | plus: 0 %}
   {% assign progress_num = b.progress | default: 0 | plus: 0 %}
   {% assign rating_num = b.bewertung | replace: ",","." | default: 0 | plus: 0 %}
+  {% if status == "to read" %}{% assign status = "want to read" %}{% endif %}
 
   {%- comment -%} Datumsableitung je Status + Fallbacks {%- endcomment -%}
   {% assign date_label = "" %}
@@ -129,11 +137,17 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 
   {% assign year = "" %}{% if date_value %}{% assign year = date_value | date: "%Y" %}{% endif %}
 
-  {%- comment -%} Rating sortierbar; Fortschritt in % nur bei gültigen Zahlen {%- endcomment -%}
+  {%- comment -%} Fortschritt in % nur bei gültigen Zahlen {%- endcomment -%}
   {% assign rating_for_sort = rating_num %}
   {% assign pct = "" %}
   {% if status == "currently reading" and pages_num > 0 and progress_num > 0 %}
     {% assign pct = progress_num | times: 100.0 | divided_by: pages_num | round %}
+  {% endif %}
+
+  {%- comment -%} PIN-FLAG: „currently reading“ ohne fertig_am immer nach oben {%- endcomment -%}
+  {% assign is_pin = 0 %}
+  {% if status == "currently reading" and (b.fertig_am == nil or b.fertig_am == "") %}
+    {% assign is_pin = 1 %}
   {% endif %}
 
   <article
@@ -144,7 +158,11 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     data-year="{{ year }}"
     data-rating="{{ rating_for_sort }}"
     data-date="{{ date_value }}"
+    data-pin="{{ is_pin }}"
   >
+    {% if status == "currently reading" %}
+      <span class="badge badge-running" title="Aktuell in Arbeit">📖 läuft</span>
+    {% endif %}
     <img
       loading="lazy"
       src="{{ cover | default: '/assets/placeholder.png' | relative_url }}"
@@ -222,6 +240,11 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   function applySort(list){
     const mode = selSort.value;
     return list.sort((a,b)=>{
+      // PIN: „currently reading“ ohne fertig_am immer zuerst
+      const pa = Number(a.dataset.pin || 0);
+      const pb = Number(b.dataset.pin || 0);
+      if (pa !== pb) return pb - pa;
+
       if(mode==='newest'||mode==='oldest'){
         const da=parseDateISO(a.dataset.date), db=parseDateISO(b.dataset.date);
         return mode==='newest' ? (db-da) : (da-db);
