@@ -1716,7 +1716,8 @@
   titel: 'The Late Show (Renée Ballard, #1; Harry Bosch Universe, #30)'
   autor:
   - Michael    Connelly
-  isbn: '9780316225984'
+  isbn: '9783311155072'
+  cover: https://cover.ekz.de/9783311155072.jpg
   fertig_am: '2021-08-12'
   seiten: 405
   erscheinungsjahr: 2017
@@ -1866,7 +1867,8 @@
   - Rick Remender
   - Greg Tocchini
   - Dave McCaig
-  isbn: '9781534305045'
+  isbn: '9783958394858'
+  cover: https://cover.ekz.de/9783958394858.jpg
   fertig_am: '2021-05-02'
   bewertung: 3.0
   seiten: 184
@@ -1911,7 +1913,8 @@
   titel: 'Selfies (Afdeling Q, #7)'
   autor:
   - Jussi Adler-Olsen
-  isbn: '9788740035971'
+  isbn: '9783423217712'
+  cover: https://cover.ekz.de/9783423217712.jpg
   fertig_am: '2021-04-06'
   seiten: 505
   erscheinungsjahr: 2016
@@ -2092,7 +2095,8 @@
   autor:
   - Jeff Lemire
   - Dustin Nguyen
-  isbn: '9781534315938'
+  isbn: '9783962193751'
+  cover: https://cover.ekz.de/9783962193751.jpg
   fertig_am: '2020-08-05'
   seiten: 128
   erscheinungsjahr: 2020
@@ -2523,6 +2527,7 @@
   autor:
   - Jody Houser
   isbn: '9783736748552'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570184213l/52292472.jpg
   fertig_am: '2019-11-05'
   bewertung: 4.0
   seiten: 148
@@ -3067,6 +3072,7 @@
   - Dave Stewart
   - Todd Klein
   isbn: '9781506703893'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1531158115i/40004209.jpg
   fertig_am: '2019-05-01'
   bewertung: 4.0
   seiten: 136
@@ -3082,6 +3088,7 @@
   - Jeff Lemire
   - David Rubín
   isbn: '9781506705262'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547709717i/36281089.jpg
   fertig_am: '2019-04-25'
   seiten: 152
   erscheinungsjahr: 2018
@@ -3126,6 +3133,7 @@
   - Dave Stewart
   - David Rubín
   isbn: '9781506701981'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1539824654i/34954925.jpg
   fertig_am: '2019-04-22'
   seiten: 152
   erscheinungsjahr: 2018
@@ -3161,6 +3169,7 @@
   - Martin Montiel
   - Joe Benitez
   isbn: '9783957282859'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1501551794i/35888364.jpg
   erscheinungsjahr: 2019
   verlag: Knesebeck
   cover: https://cover.ekz.de/9783957282859.jpg
@@ -3224,21 +3233,6 @@
   cover: https://buch.isbn.de/gross/9783518467855.jpg
   verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.08.2017 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-46785-9 ISBN-13 '
-- typ: buch
-  status: finished
-  titel: 'Message 1: Loading (German Edition)'
-  autor:
-  - Cristin Wendt
-  - Ronja Büscher
-  isbn: '9783959817134'
-  fertig_am: '2019-04-11'
-  bewertung: 4.0
-  seiten: 80
-  erscheinungsjahr: 2019
-  quelle: https://www.goodreads.com/book/show/44590184
-  cover: https://buch.isbn.de/gross/9783959817134.jpg
-  verlag: Cross Cult Entertainment Autoren Cristin Wendt , Ronja Büscher erschienen
-    am 25.03.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
   titel: Loading
@@ -3480,6 +3474,7 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/29973775
   isbn: '9783862017744'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1478548058i/29973775.jpg
   cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: de
 - typ: buch
@@ -3490,6 +3485,7 @@
   - Kory Merritt
   - Jeff Kinney
   isbn: '9781419720673'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1452203232i/27168916.jpg
   fertig_am: '2019-02-08'
   seiten: 112
   erscheinungsjahr: 2016
@@ -3768,7 +3764,8 @@
   autor:
   - Aline Brosh McKenna
   - Ramón Pérez
-  isbn: '9781608869817'
+  isbn: '9783741609909'
+  cover: https://cover.ekz.de/9783741609909.jpg
   fertig_am: '2018-11-02'
   seiten: 224
   erscheinungsjahr: 2017
@@ -3818,7 +3815,8 @@
   autor:
   - Fabien Nury
   - Brüno
-  isbn: '9782205077032'
+  isbn: '9783551712301'
+  cover: https://cover.ekz.de/9783551712301.jpg
   fertig_am: '2018-09-09'
   seiten: 90
   erscheinungsjahr: 2018
@@ -3903,7 +3901,8 @@
   titel: 'Schattenspringer²: Per Anhalter durch die Pubertät'
   autor:
   - Daniela Schreiter
-  isbn: '9783736707573'
+  isbn: '9783862019502'
+  cover: https://cover.ekz.de/9783862019502.jpg
   fertig_am: '2018-07-30'
   bewertung: 4.0
   seiten: 160
@@ -3976,7 +3975,8 @@
   autor:
   - Jeff Lemire
   - Dustin Nguyen
-  isbn: '9781534303454'
+  isbn: '9783962191153'
+  cover: https://cover.ekz.de/9783962191153.jpg
   fertig_am: '2018-07-15'
   seiten: 122
   erscheinungsjahr: 2018
@@ -3986,11 +3986,12 @@
     ISBN-13 978- 1- 5343- 0345- 4 Lieferstatu
 - typ: buch
   status: finished
-  titel: 'Le train des maudits (Catamount, #2)'
+  titel: 'Der Zug der Verdammten (Catamount #2'
   autor:
   - Benjamin Blasco-Martinez
   - Albert Bonneau
-  isbn: '9791095670216'
+  isbn: '9783962191191'
+  cover: https://cover.ekz.de/9783962191184.jpg
   fertig_am: '2018-07-15'
   seiten: 64
   erscheinungsjahr: 2017
@@ -4000,11 +4001,12 @@
     am 20.01.2017 EAN 9791095670216 ISBN 979-10-95
 - typ: buch
   status: finished
-  titel: 'La jeunesse de Catamount (Catamount, #1)'
+  titel: 'Die Jugend von Catamount (Catamount, #1)'
   autor:
   - Benjamin Blasco-Martinez
   - Albert Bonneau
-  isbn: '9782366400656'
+  isbn: '9783962191184'
+  cover: https://cover.ekz.de/9783962191184.jpg
   fertig_am: '2018-07-15'
   seiten: 60
   erscheinungsjahr: 2015
@@ -4085,7 +4087,8 @@
   autor:
   - Mark Millar
   - Steve McNiven
-  isbn: '9780785131595'
+  isbn: '9783866074620'
+  cover: https://cover.ekz.de/9783866074620.jpg
   fertig_am: '2018-07-04'
   bewertung: 4.0
   seiten: 208
@@ -4217,7 +4220,8 @@
     (German Edition)'
   autor:
   - Matt Kindt
-  isbn: '9783736706798'
+  isbn: '9783957982339'
+  cover: https://cover.ekz.de/9783957982339.jpg
   fertig_am: '2018-06-04'
   seiten: 128
   erscheinungsjahr: 2015
@@ -4321,6 +4325,7 @@
   autor:
   - Cory Doctorow
   isbn: '9780765319852'
+  cover: https://cover.ekz.de/9783499257827.jpg
   fertig_am: '2018-04-22'
   bewertung: 4.0
   seiten: 382
@@ -4410,6 +4415,7 @@
   autor:
   - Don Winslow
   isbn: '9780312966171'
+  cover: https://cover.ekz.de/9783518465837.jpg
   fertig_am: '2018-03-23'
   bewertung: 4.0
   seiten: 277
@@ -4455,6 +4461,7 @@
   autor:
   - Don Winslow
   isbn: '9780312964221'
+  cover: https://cover.ekz.de/9783518465820.jpg
   fertig_am: '2018-02-22'
   bewertung: 4.0
   seiten: 288
@@ -4855,6 +4862,7 @@
   - Nicolas Mahler
   - Joe Benitez
   isbn: '9783741603020'
+  cover: https://cover.ekz.de/9783741603020.jpg
   erscheinungsjahr: 2017
   verlag: Panini
   cover: https://cover.ekz.de/9783741603020.jpg
@@ -5020,6 +5028,7 @@
   - Jay Leisten
   - Art Thibert
   isbn: '9781401262495'
+  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1476758215i/28109895.jpg
   fertig_am: '2017-08-13'
   bewertung: 3.0
   seiten: 208
@@ -5174,11 +5183,12 @@
     am 01.01.2009 Rubrik Europäische Comics ISBN
 - typ: buch
   status: finished
-  titel: 'Est-ce qu''on ment aux gens qu''on aime? (Ralph Azham, #1)'
+  titel: 'Belügt man jene, die man liebt? (Ralph Azham, #1)'
   autor:
   - Lewis Trondheim
   - Brigitte Findakly
-  isbn: '9782800149929'
+  isbn: '9783941099982'
+  cover: https://cover.ekz.de/9783941099982.jpg
   fertig_am: '2017-06-17'
   seiten: 48
   erscheinungsjahr: 2011
@@ -5249,19 +5259,6 @@
 - typ: buch
   status: finished
   titel: 'Kain (Die Söhne von El Topo, #1)'
-  autor:
-  - Alejandro Jodorowsky
-  isbn: '9783736731783'
-  fertig_am: '2017-04-30'
-  seiten: 64
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/34937054
-  cover: https://buch.isbn.de/gross/9783736731783.jpg
-  verlag: Panini Autor Jodorowski, Alejandro erschienen am 27.02.2017 ISBN-10 3-7367-3178-7
-    ISBN-13 978- 3- 7367- 3178- 3 Lieferst
-- typ: buch
-  status: finished
-  titel: Kain
   autor:
   - Alejandro Jodorowsky
   - José Ladrönn
