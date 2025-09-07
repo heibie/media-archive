@@ -323,7 +323,7 @@
   seiten: 360
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/150065135
-  cover: https://buch.isbn.de/gross/9780262048682.jpg
+  cover: https://cover.ekz.de/9780262048682.jpg
   verlag: 'The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen
     am 06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978- '
 - typ: buch
@@ -1722,7 +1722,6 @@
   seiten: 405
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34091380
-  cover: https://buch.isbn.de/gross/9780316225984.jpg
   verlag: Little, Brown and Company Autor Connelly, Michael erschienen am 18.07.2017
     ISBN-10 0-316-22598-3 ISBN-13 978- 0- 316- 22
 - typ: buch
@@ -1874,7 +1873,6 @@
   seiten: 184
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/53236904
-  cover: https://buch.isbn.de/gross/9781534305045.jpg
   verlag: Image Comics Autor Remender, Rick erschienen am 16.03.2021 ISBN-10 1-5343-0504-1
     ISBN-13 978- 1- 5343- 0504- 5 Liefersta
 - typ: buch
@@ -1890,7 +1888,7 @@
   seiten: 320
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/54211065
-  cover: https://buch.isbn.de/gross/9781984881250.jpg
+  cover: https://cover.ekz.de/9781984881250.jpg
   verlag: Penguin Press Autor Elliot Ackerman erschienen am 09.03.2021 ISBN-10 1-9848-8125-6
     ISBN-13 978- 1- 9848- 8125- 0 Liefers
 - typ: buch
@@ -2101,7 +2099,6 @@
   seiten: 128
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/48933298
-  cover: https://buch.isbn.de/gross/9781534315938.jpg
   verlag: Image Comics Autor Lemire, Jeff erschienen am 30.06.2020 ISBN-10 1-5343-1593-4
     ISBN-13 978- 1- 5343- 1593- 8 Lieferstatu
 - typ: buch
@@ -2527,13 +2524,12 @@
   autor:
   - Jody Houser
   isbn: '9783736748552'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570184213l/52292472.jpg
+  cover: https://buch.isbn.de/gross/9783736748552.jpg
   fertig_am: '2019-11-05'
   bewertung: 4.0
   seiten: 148
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/52292472
-  cover: https://buch.isbn.de/gross/9783736748552.jpg
   verlag: Panini Autor Houser, Jody erschienen am 24.09.2019 ISBN-10 3-7367-4855-8
     ISBN-13 978- 3- 7367- 4855- 2 Lieferstatus Lief
 - typ: buch
@@ -3072,13 +3068,12 @@
   - Dave Stewart
   - Todd Klein
   isbn: '9781506703893'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1531158115i/40004209.jpg
+  cover: https://cover.ekz.de/9781506703893.jpg
   fertig_am: '2019-05-01'
   bewertung: 4.0
   seiten: 136
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/40004209
-  cover: https://buch.isbn.de/gross/9781506703893.jpg
   verlag: Dark Horse Books Autor Lemire, Jeff erschienen am 15.01.2019 ISBN-10 1-5067-0389-5
     ISBN-13 978- 1- 5067- 0389- 3 Liefers
 - typ: buch
@@ -3088,12 +3083,11 @@
   - Jeff Lemire
   - David Rubín
   isbn: '9781506705262'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547709717i/36281089.jpg
+  cover: https://cover.ekz.de/9781506705262.jpg
   fertig_am: '2019-04-25'
   seiten: 152
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/36281089
-  cover: https://buch.isbn.de/gross/9781506705262.jpg
   verlag: Dark Horse Books Autor Jeff Lemire erschienen am 22.05.2018 ISBN-10 1-5067-0526-X
     ISBN-13 978- 1- 5067- 0526- 2 Lieferst
 - typ: buch
@@ -3133,12 +3127,11 @@
   - Dave Stewart
   - David Rubín
   isbn: '9781506701981'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1539824654i/34954925.jpg
+  cover: https://cover.ekz.de/9781506701981.jpg
   fertig_am: '2019-04-22'
   seiten: 152
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/34954925
-  cover: https://buch.isbn.de/gross/9781506701981.jpg
   verlag: Dark Horse Books Autor Lemire, Jeff erschienen am 02.01.2018 ISBN-10 1-5067-0198-1
     ISBN-13 978- 1- 5067- 0198- 1 Liefers
 - typ: buch
@@ -3169,10 +3162,9 @@
   - Martin Montiel
   - Joe Benitez
   isbn: '9783957282859'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1501551794i/35888364.jpg
+  cover: https://cover.ekz.de/9783957282859.jpg
   erscheinungsjahr: 2019
   verlag: Knesebeck
-  cover: https://cover.ekz.de/9783957282859.jpg
   fertig_am: '2019-04-20'
   tags:
   - rezension
@@ -3191,7 +3183,7 @@
   seiten: 160
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/35888364
-  cover: https://buch.isbn.de/gross/9781910593509.jpg
+  cover: https://cover.ekz.de/9781910593509.jpg
   verlag: Abrams & Chronicle Books Autor Chris Baker, Matt Fitch, Mike Collins ISBN-10
     1-910593-50-8 ISBN-13 978- 1- 910593- 50- 9
 - typ: buch
@@ -3474,7 +3466,6 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/29973775
   isbn: '9783862017744'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1478548058i/29973775.jpg
   cover: http://books.google.com/books/content?id=RtsxngEACAAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
   sprache: de
 - typ: buch
@@ -3485,12 +3476,11 @@
   - Kory Merritt
   - Jeff Kinney
   isbn: '9781419720673'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1452203232i/27168916.jpg
+  cover: https://cover.ekz.de/9781419720673.jpg
   fertig_am: '2019-02-08'
   seiten: 112
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/27168916
-  cover: https://buch.isbn.de/gross/9781419720673.jpg
   verlag: ABRAMS Autor Chabert, Jack erschienen am 01.03.2016 ISBN-10 1-4197-2067-8
     ISBN-13 978- 1- 4197- 2067- 3 Lieferstatus Lie
 - typ: buch
@@ -3770,7 +3760,6 @@
   seiten: 224
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34397547
-  cover: https://buch.isbn.de/gross/9781608869817.jpg
   verlag: Boom Entertainment Autor McKenna, Aline erschienen am 26.09.2017 ISBN-10
     1-60886-981-4 ISBN-13 978- 1- 60886- 981- 7 Lie
 - typ: buch
@@ -3821,7 +3810,6 @@
   seiten: 90
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39598106
-  cover: https://buch.isbn.de/gross/9782205077032.jpg
   verlag: DARGAUD erschienen am 23.03.2018 ISBN-10 2-205-07703-1 ISBN-13 978- 2- 205-
     07703- 2 Lieferstatus Lieferant anfragen Pre
 - typ: buch
@@ -3908,7 +3896,6 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26055143
-  cover: https://buch.isbn.de/gross/9783736707573.jpg
   verlag: 'Panini Verlags GmbH Autor Schreiter, Daniela erschienen am 22.07.2015 ISBN-10
     3-7367-0757-6 ISBN-13 978- 3- 7367- 0757- '
 - typ: buch
@@ -3981,7 +3968,6 @@
   seiten: 122
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/35681250
-  cover: https://buch.isbn.de/gross/9781534303454.jpg
   verlag: Image Comics Autor Lemire, Jeff erschienen am 16.01.2018 ISBN-10 1-5343-0345-6
     ISBN-13 978- 1- 5343- 0345- 4 Lieferstatu
 - typ: buch
@@ -3991,12 +3977,11 @@
   - Benjamin Blasco-Martinez
   - Albert Bonneau
   isbn: '9783962191191'
-  cover: https://cover.ekz.de/9783962191184.jpg
+  cover: https://cover.ekz.de/9783962191191.jpg
   fertig_am: '2018-07-15'
   seiten: 64
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34661094
-  cover: https://buch.isbn.de/gross/9791095670216.jpg
   verlag: PETIT A PETIT Autor Blasco-Martinez, Benjamin, Bonneau, Albert erschienen
     am 20.01.2017 EAN 9791095670216 ISBN 979-10-95
 - typ: buch
@@ -4011,7 +3996,6 @@
   seiten: 60
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28586528
-  cover: https://buch.isbn.de/gross/9782366400656.jpg
   verlag: Kwari Autor Blasco-Martinez, Benjamin, Bonneau, Albert erschienen am 10.04.2015
     ISBN-10 2-36640-065-9 ISBN-13 978- 2- 36
 - typ: buch
@@ -4094,7 +4078,6 @@
   seiten: 208
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/6238080
-  cover: https://buch.isbn.de/gross/9780785131595.jpg
   verlag: Marvel Autor Millar, Mark erschienen am 11.11.2009 ISBN-10 0-7851-3159-0
     ISBN-13 978- 0- 7851- 3159- 5 Lieferstatus Lief
 - typ: buch
@@ -4226,7 +4209,6 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28234355
-  cover: https://buch.isbn.de/gross/9783736706798.jpg
   verlag: Panini Autor Kindt, Matt erschienen am 17.06.2015 ISBN-10 3-7367-0679-0
     ISBN-13 978- 3- 7367- 0679- 8 Lieferstatus Liefe
 - typ: buch
@@ -4325,13 +4307,12 @@
   autor:
   - Cory Doctorow
   isbn: '9780765319852'
-  cover: https://cover.ekz.de/9783499257827.jpg
+  cover: https://cover.ekz.de/9780765319852.jpg
   fertig_am: '2018-04-22'
   bewertung: 4.0
   seiten: 382
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/954674
-  cover: https://buch.isbn.de/gross/9780765319852.jpg
   verlag: Tor Books Autor Cory Doctorow Sprache Englisch ISBN-10 0-7653-1985-3 ISBN-13
     978- 0- 7653- 1985- 2 Lieferstatus verfügba
 - typ: buch
@@ -4415,13 +4396,12 @@
   autor:
   - Don Winslow
   isbn: '9780312966171'
-  cover: https://cover.ekz.de/9783518465837.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9780312966171-L.jpg?default=false
   fertig_am: '2018-03-23'
   bewertung: 4.0
   seiten: 277
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/243375
-  cover: https://buch.isbn.de/gross/9780312966171.jpg
   verlag: St Martin
 - typ: buch
   status: finished
@@ -4461,13 +4441,12 @@
   autor:
   - Don Winslow
   isbn: '9780312964221'
-  cover: https://cover.ekz.de/9783518465820.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9780312964221-L.jpg?default=false
   fertig_am: '2018-02-22'
   bewertung: 4.0
   seiten: 288
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/212027
-  cover: https://buch.isbn.de/gross/9780312964221.jpg
   verlag: St Martin
 - typ: buch
   status: finished
@@ -4865,7 +4844,6 @@
   cover: https://cover.ekz.de/9783741603020.jpg
   erscheinungsjahr: 2017
   verlag: Panini
-  cover: https://cover.ekz.de/9783741603020.jpg
   fertig_am: '2017-09-06'
   tags:
   - rezension
@@ -4906,7 +4884,7 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28762815
-  cover: https://buch.isbn.de/gross/9781632156990.jpg
+  cover: https://cover.ekz.de/9781632156990.jpg
   verlag: Image Comics Autor Hawkins, Matt erschienen am 31.05.2016 ISBN-10 1-63215-699-7
     ISBN-13 978- 1- 63215- 699- 0 Lieferstat
 - typ: buch
@@ -5028,13 +5006,12 @@
   - Jay Leisten
   - Art Thibert
   isbn: '9781401262495'
-  cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1476758215i/28109895.jpg
+  cover: https://cover.ekz.de/9781401262495.jpg
   fertig_am: '2017-08-13'
   bewertung: 3.0
   seiten: 208
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28109895
-  cover: https://buch.isbn.de/gross/9781401262495.jpg
   verlag: DC Comics Autor Jurgens, Dan erschienen am 06.09.2016 ISBN-10 1-4012-6249-X
     ISBN-13 978- 1- 4012- 6249- 5 Lieferstatus L
 - typ: buch
@@ -5883,7 +5860,7 @@
   seiten: 80
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/24025450
-  cover: https://buch.isbn.de/gross/9782205070477.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9782205070477-L.jpg?default=false
   verlag: 'DARGAUD Autor Nury, Fabien, Henninot, Eric erschienen am 23.10.2014 ISBN-10
     2-205-07047-9 ISBN-13 978- 2- 205- 07047- 7 '
 - typ: buch
@@ -5912,7 +5889,7 @@
   seiten: 92
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18589249
-  cover: https://buch.isbn.de/gross/9782205070064.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9782205070064-L.jpg?default=false
   verlag: DARGAUD erschienen am 23.08.2013 ISBN-10 2-205-07006-1 ISBN-13 978- 2- 205-
     07006- 4 Lieferstatus Lieferant anfragen Pre
 - typ: buch
@@ -5929,7 +5906,7 @@
   seiten: 56
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/12034713
-  cover: https://buch.isbn.de/gross/9782205063608.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9782205063608-L.jpg?default=false
   verlag: DARGAUD Autor Tardi, Jacques, Boujut, Michel, Stanislas erschienen am 16.06.2011
     ISBN-10 2-205-06360-X ISBN-13 978- 2- 2
 - typ: buch
@@ -5944,7 +5921,7 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25546167
-  cover: https://buch.isbn.de/gross/9781632154262.jpg
+  cover: https://cover.ekz.de/9781632154262.jpg
   verlag: Image Comics Autor Lemire, Jeff erschienen am 22.09.2015 ISBN-10 1-63215-426-9
     ISBN-13 978- 1- 63215- 426- 2 Lieferstatu
 - typ: buch
@@ -6097,7 +6074,7 @@
   seiten: 616
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23602561
-  cover: https://buch.isbn.de/gross/9781101874998.jpg
+  cover: https://cover.ekz.de/9781101874998.jpg
 - typ: buch
   status: finished
   titel: 'Low, Vol. 1: The Delirium of Hope'
@@ -6111,7 +6088,7 @@
   seiten: 144
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23200006
-  cover: https://buch.isbn.de/gross/9781632151940.jpg
+  cover: https://cover.ekz.de/9781632151940.jpg
   verlag: Image Comics Autor Rick Remender Sprache Englisch ISBN-10 1-63215-194-4
     ISBN-13 978- 1- 63215- 194- 0 Lieferstatus verfü
 - typ: buch
@@ -6156,7 +6133,7 @@
   seiten: 112
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/18775048
-  cover: https://buch.isbn.de/gross/9781608863938.jpg
+  cover: https://cover.ekz.de/9781608863938.jpg
   verlag: 'Boom Entertainment Autor Gagnon, Matt, Nelson, Michael Alan erschienen
     am 18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978- '
 - typ: buch
@@ -6171,7 +6148,7 @@
   seiten: 65
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/16038883
-  cover: https://buch.isbn.de/gross/9782756029122.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9782756029122-L.jpg?default=false
   verlag: DELCOURT Autor Duval, Fred, P
 - typ: buch
   status: finished
@@ -6480,7 +6457,7 @@
   seiten: 120
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13556942
-  cover: https://buch.isbn.de/gross/9781607065234.jpg
+  cover: https://cover.ekz.de/9781607065234.jpg
   verlag: Image Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-523-1 ISBN-13
     978- 1- 60706- 523- 4 Lieferstatus verfügb
 - typ: buch
@@ -6494,7 +6471,7 @@
   seiten: 120
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11325591
-  cover: https://buch.isbn.de/gross/9781607063988.jpg
+  cover: https://cover.ekz.de/9781607063988.jpg
   verlag: Image Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-398-0 ISBN-13
     978- 1- 60706- 398- 8 Lieferstatus verfügb
 - typ: buch
@@ -6509,7 +6486,7 @@
   seiten: 128
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/9256590
-  cover: https://buch.isbn.de/gross/9781607063353.jpg
+  cover: https://cover.ekz.de/9781607063353.jpg
   verlag: Diamond Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-335-2
     ISBN-13 978- 1- 60706- 335- 3 Lieferstatus verfü
 - typ: buch
@@ -6524,7 +6501,7 @@
   seiten: 128
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/7870457
-  cover: https://buch.isbn.de/gross/9781607062608.jpg
+  cover: https://cover.ekz.de/9781607062608.jpg
   verlag: Diamond Comics Autor John Layman Sprache Englisch ISBN-10 1-60706-260-7
     ISBN-13 978- 1- 60706- 260- 8 Lieferstatus verfü
 - typ: buch
@@ -6566,7 +6543,7 @@
   seiten: 192
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/16164271
-  cover: https://buch.isbn.de/gross/9781613778531.jpg
+  cover: https://cover.ekz.de/9781613778531.jpg
 - typ: buch
   status: finished
   titel: Der kleine Nick ist wieder da!
@@ -6593,7 +6570,7 @@
   seiten: 160
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/13490570
-  cover: https://buch.isbn.de/gross/9781613772270.jpg
+  cover: https://cover.ekz.de/9781613772270.jpg
   verlag: 'IDW Autor Hill, Joe erschienen am 11.07.2012 ISBN-10 1-61377-227-0 ISBN-13
     978- 1- 61377- 227- 0 Lieferstatus Lieferant '
 - typ: buch
@@ -6648,7 +6625,7 @@
   seiten: 168
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/3217221
-  cover: https://buch.isbn.de/gross/9781600102370.jpg
+  cover: https://cover.ekz.de/9781600102370.jpg
   verlag: Idea and Design Works Llc Autor Joe Hill erschienen am 24.09.2008 Sprache
     Englisch ISBN-10 1-60010-237-9 ISBN-13 978- 1-
 - typ: buch
@@ -6693,7 +6670,7 @@
   seiten: 197
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/59960
-  cover: https://buch.isbn.de/gross/9781563893414.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781563893414-L.jpg?default=false
   verlag: Dc Comics Autor Miller, Frank, Janson, Klaus, Varley, Lynn, Costanza, John,
     Kane, Bob erschienen am 01.11.2002 ISBN-10 1
 - typ: buch
@@ -6709,7 +6686,7 @@
   seiten: 126
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/158683
-  cover: https://buch.isbn.de/gross/9781401210625.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781401210625-L.jpg?default=false
   verlag: DC Comics Autor Wood, Brian erschienen am 01.06.2006 ISBN-10 1-4012-1062-7
     ISBN-13 978- 1- 4012- 1062- 5 Lieferstatus Li
 - typ: buch
@@ -6724,7 +6701,7 @@
   seiten: 376
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/160852
-  cover: https://buch.isbn.de/gross/9780785110828.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9780785110828-L.jpg?default=false
   verlag: Marvel erschienen am 24.05.2006 ISBN-10 0-7851-1082-8 ISBN-13 978- 0- 7851-
     1082- 8 Lieferstatus Lieferant anfragen Prei
 - typ: buch
@@ -6738,7 +6715,7 @@
   seiten: 192
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/870
-  cover: https://buch.isbn.de/gross/9781591169208.jpg
+  cover: https://cover.ekz.de/9781591169208.jpg
   verlag: 'Viz LLC Autor Arakawa, Hiromu erschienen am 03.05.2005 ISBN-10 1-59116-920-8
     ISBN-13 978- 1- 59116- 920- 8 Lieferstatus '
 - typ: buch
@@ -6752,7 +6729,7 @@
   seiten: 128
   erscheinungsjahr: 2000
   quelle: https://www.goodreads.com/book/show/94510
-  cover: https://buch.isbn.de/gross/9781563896453.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781563896453-L.jpg?default=false
   verlag: Vertigo Autor Azzarello, Brian erschienen am 14.08.2012 ISBN-10 1-56389-645-1
     ISBN-13 978- 1- 56389- 645- 3 Lieferstatus
 - typ: buch
@@ -6767,7 +6744,7 @@
   seiten: 361
   erscheinungsjahr: 2000
   quelle: https://www.goodreads.com/book/show/93371
-  cover: https://buch.isbn.de/gross/9781569714980.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781569714980-L.jpg?default=false
   verlag: Dark Horse Comics Autor Otomo, Katsuhiro erschienen am 13.12.2000 ISBN-10
     1-56971-498-3 ISBN-13 978- 1- 56971- 498- 0 Li
 - typ: buch
@@ -6782,7 +6759,7 @@
   seiten: 88
   erscheinungsjahr: 1999
   quelle: https://www.goodreads.com/book/show/59952
-  cover: https://buch.isbn.de/gross/9781569714027.jpg
+  cover: https://cover.ekz.de/9781569714027.jpg
   verlag: Dark Horse Books Autor Frank Miller Sprache Englisch ISBN-10 1-56971-402-9
     ISBN-13 978- 1- 56971- 402- 7 Lieferstatus ve
 - typ: buch
@@ -6833,7 +6810,7 @@
   seiten: 336
   erscheinungsjahr: 1996
   quelle: https://www.goodreads.com/book/show/95431
-  cover: https://buch.isbn.de/gross/9781563892615.jpg
+  cover: https://cover.ekz.de/9781563892615.jpg
   verlag: Vertigo Autor Garth Ennis Sprache Englisch ISBN-10 1-56389-261-8 ISBN-13
     978- 1- 56389- 261- 5 Lieferstatus verfügbar Pr
 - typ: buch
@@ -6847,7 +6824,7 @@
   seiten: 208
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/392297
-  cover: https://buch.isbn.de/gross/9781593072933.jpg
+  cover: https://cover.ekz.de/9781593072933.jpg
 - typ: buch
   status: finished
   titel: 'The Walking Dead, Vol. 1: Days Gone Bye'
@@ -6860,7 +6837,7 @@
   seiten: 144
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/138398
-  cover: https://buch.isbn.de/gross/9781582406725.jpg
+  cover: https://cover.ekz.de/9781582406725.jpg
   verlag: Image Comics Autor Robert Kirkman Sprache Englisch ISBN-10 1-58240-672-3
     ISBN-13 978- 1- 58240- 672- 5 Lieferstatus verf
 - typ: buch
@@ -6902,7 +6879,7 @@
   seiten: 128
   erscheinungsjahr: 2002
   quelle: https://www.goodreads.com/book/show/21326
-  cover: https://buch.isbn.de/gross/9781563899423.jpg
+  cover: https://cover.ekz.de/9781563899423.jpg
   verlag: Vertigo Autor Bill Willingham ISBN-10 1-56389-942-6 ISBN-13 978- 1- 56389-
     942- 3 Lieferstatus verfügbar Preis 5,00
 - typ: buch
@@ -6934,7 +6911,7 @@
   seiten: 296
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/5805
-  cover: https://buch.isbn.de/gross/9781401207922.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781401207922-L.jpg?default=false
   verlag: DC Comics Autor Moore, Alan, Lloyd, David erschienen am 01.11.2005 ISBN-10
     1-4012-0792-8 ISBN-13 978- 1- 4012- 0792- 2 L
 - typ: buch
@@ -6991,7 +6968,7 @@
   seiten: 265
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11777020
-  cover: https://buch.isbn.de/gross/9780307948687.jpg
+  cover: https://cover.ekz.de/9780307948687.jpg
   verlag: Vintage Crime
 - typ: buch
   status: finished
@@ -7004,7 +6981,7 @@
   seiten: 400
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13542606
-  cover: https://buch.isbn.de/gross/9780525952619.jpg
+  cover: https://cover.ekz.de/9780525952619.jpg
   verlag: Penguin US Autor Suarez, Daniel erschienen am 19.07.2012 ISBN-10 0-525-95261-6
     ISBN-13 978- 0- 525- 95261- 9 Lieferstatu
 - typ: buch
@@ -7072,7 +7049,7 @@
   seiten: 400
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/8598435
-  cover: https://buch.isbn.de/gross/9781451602067.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9781451602067-L.jpg?default=false
   verlag: Atria Books Autor Marklund, Liza erschienen am 15.02.2011 ISBN-10 1-4516-0206-5
     ISBN-13 978- 1- 4516- 0206- 7 Lieferstat
 - typ: buch
@@ -7099,7 +7076,7 @@
   seiten: 432
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/4699575
-  cover: https://buch.isbn.de/gross/9780525951117.jpg
+  cover: https://covers.openlibrary.org/b/isbn/9780525951117-L.jpg?default=false
   verlag: E P Dutton Autor Suarez, Daniel erschienen am 08.01.2009 ISBN-10 0-525-95111-3
     ISBN-13 978- 0- 525- 95111- 7 Lieferstatu
 - typ: buch
