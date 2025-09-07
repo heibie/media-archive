@@ -9,7 +9,6 @@
   erscheinungsjahr: '2019'
   seiten: 395
   fertig_am: '2025-04-28'
-  eingetragen_am: '2025-09-07'
 - typ: buch
   status: currently reading
   progress: 220
@@ -19,7 +18,6 @@
   - Ryan Holiday
   - Stephen Hanselman
   isbn: '9783959720458'
-  eingetragen_am: '2025-09-07'
   cover: https://covers.openlibrary.org/b/id/12567971-L.jpg
 - typ: buch
   status: finished
