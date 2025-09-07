@@ -47,7 +47,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
-{%- comment -%} Status- und Jahreslisten aufbauen (ohne 'push', mit 'concat') {%- endcomment -%}
+{% comment %} Status- und Jahreslisten aufbauen (ohne 'push', mit 'concat') {% endcomment %}
 {% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
@@ -106,47 +106,47 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 
 <div id="grid" class="grid">
 {% for b in books %}
-  {%- assign cover = b.cover -%}
-  {%- assign isbn_str = b.isbn | append: '' -%} {# cast ISBN zu String #}
-  {%- if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn -%}
-    {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" -%}
-  {%- endif -%}
+  {% assign cover = b.cover %}
+  {% assign isbn_str = b.isbn | append: '' %} {%- comment -%} cast ISBN zu String {%- endcomment -%}
+  {% if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn %}
+    {% assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" %}
+  {% endif %}
 
-  {%- assign authors_text = "" -%}
-  {%- if b.autor -%}
-    {%- if b.autor.size -%}{% assign authors_text = b.autor | join: ", " %}{%- else -%}{% assign authors_text = b.autor %}{%- endif -%}
-  {%- endif -%}
+  {% assign authors_text = "" %}
+  {% if b.autor %}
+    {% if b.autor.size %}{% assign authors_text = b.autor | join: ", " %}{% else %}{% assign authors_text = b.autor %}{% endif %}
+  {% endif %}
 
-  {%- assign status = b.status | default: "" -%}
-  {%- assign pages = b.seiten | default: b.Seiten | default: "" -%}
-  {%- assign progress = b.progress | default: "" -%}
+  {% assign status = b.status | default: "" %}
+  {% assign pages = b.seiten | default: b.Seiten | default: "" %}
+  {% assign progress = b.progress | default: "" %}
 
-  {%- assign date_source = "" -%}
-  {%- if status == "finished" and b.fertig_am -%}
+  {% assign date_source = "" %}
+  {% if status == "finished" and b.fertig_am %}
     {% assign date_source = b.fertig_am %}
-  {%- elsif status == "currently reading" and b.start_am -%}
+  {% elsif status == "currently reading" and b.start_am %}
     {% assign date_source = b.start_am %}
-  {%- elsif status == "to read" and b.hinzugefuegt_am -%}
+  {% elsif status == "to read" and b.hinzugefuegt_am %}
     {% assign date_source = b.hinzugefuegt_am %}
-  {%- endif -%}
-  {%- assign date_source = date_source | default: b.datum | default: b.fertig_am | default: b.start_am | default: b.hinzugefuegt_am -%}
-  {%- assign year = "" -%}
-  {%- if date_source -%}{% assign year = date_source | date: "%Y" %}{%- endif -%}
+  {% endif %}
+  {% assign date_source = date_source | default: b.datum | default: b.fertig_am | default: b.start_am | default: b.hinzugefuegt_am %}
+  {% assign year = "" %}
+  {% if date_source %}{% assign year = date_source | date: "%Y" %}{% endif %}
 
-  {%- assign date_label = "" -%}
-  {%- if status == "finished" -%}
+  {% assign date_label = "" %}
+  {% if status == "finished" %}
     {% assign date_label = "beendet" %}
-  {%- elsif status == "to read" -%}
+  {% elsif status == "to read" %}
     {% assign date_label = "hinzugefügt" %}
-  {%- elsif status == "currently reading" -%}
+  {% elsif status == "currently reading" %}
     {% assign date_label = "gestartet" %}
-  {%- endif -%}
+  {% endif %}
 
-  {%- assign rating = b.bewertung | default: 0 -%}
-  {%- assign pct = "" -%}
-  {%- if status == "currently reading" and pages and pages != 0 and progress and progress != 0 -%}
-    {%- assign pct = progress | times: 100.0 | divided_by: pages | round -%}
-  {%- endif -%}
+  {% assign rating = b.bewertung | default: 0 %}
+  {% assign pct = "" %}
+  {% if status == "currently reading" and pages and pages != 0 and progress and progress != 0 %}
+    {% assign pct = progress | times: 100.0 | divided_by: pages | round %}
+  {% endif %}
 
   <article
     class="card"
