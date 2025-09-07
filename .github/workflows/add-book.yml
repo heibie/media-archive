@@ -115,7 +115,7 @@ jobs:
                       raise ValueError("read.yml ist kein Listenformat.")
                   return data
 
-          # Quoted YAML Dumper
+          # ---------- Quoted YAML Dumper (Safe) ----------
           class _QuotedDumper(yaml.SafeDumper): pass
           def _str_representer(dumper, data):
               return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
@@ -128,9 +128,16 @@ jobs:
                   if isinstance(obj, str):  return sanitize_str(obj)
                   return obj
               safe_data = sanitize_obj(data)
+              # WICHTIG: yaml.dump (nicht safe_dump), damit eigener Dumper greift
               with open(path, "w", encoding="utf-8") as f:
-                  yaml.safe_dump(safe_data, f, allow_unicode=True, sort_keys=False,
-                                 default_flow_style=False, explicit_start=True, Dumper=_QuotedDumper)
+                  yaml.dump(
+                      safe_data,
+                      f,
+                      allow_unicode=True,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      Dumper=_QuotedDumper,
+                  )
               # Validate
               with open(path, "r", encoding="utf-8") as f2:
                   yaml.safe_load(f2)
@@ -145,14 +152,11 @@ jobs:
               """Zieht eine plausible Seitenzahl aus einem Text."""
               if not text: return None
               text = str(text)
-              # 1) Bevorzugt „123 Seiten“ / „123 S.“
               m = re.search(r'\b(\d{1,4})\s*(?:Seiten|S\.?)\b', text, re.I)
               if m:
                   n = int(m.group(1))
                   if 1 <= n <= 4000: return n
-              # 2) Fallback: letzte plausible Zahl, aber keine Jahreszahlen
               cand = [int(x) for x in re.findall(r'\b(\d{1,4})\b', text)]
-              # Jahreszahlen ausschließen
               cand = [c for c in cand if not (1400 <= c <= 2099)]
               cand = [c for c in cand if 1 <= c <= 4000]
               if cand: return max(cand)
@@ -161,9 +165,7 @@ jobs:
           def parse_pages_any(value):
               """Akzeptiert int/str (z.B. '300 S.' / 'xii, 300 p.') und liefert int."""
               if value is None: return None
-              if isinstance(value, int):
-                  return value if value > 0 else None
-              # strings inkl. EN 'p.'
+              if isinstance(value, int): return value if value > 0 else None
               return extract_pages(str(value).replace('p.', 'Seiten'))
 
           # ----------------- ISBN utils -----------------
@@ -245,13 +247,11 @@ jobs:
                       n = parse_pages_any(num_pages)
                       if n: entry["seiten"] = n
 
-              # Fallback: details
               if not entry.get("seiten"):
                   det = fetch_openlibrary_details(isbn)
                   n = parse_pages_any(det.get("number_of_pages")) or parse_pages_any(det.get("pagination"))
                   if n: entry["seiten"] = n
 
-              # Fallback: edition JSON
               if not entry.get("seiten"):
                   ed = fetch_openlibrary_isbn_json(isbn)
                   n = parse_pages_any(ed.get("number_of_pages")) or parse_pages_any(ed.get("pagination"))
@@ -297,7 +297,6 @@ jobs:
                           if isinstance(date_pub, str):
                               m = re.search(r"(\d{4})", date_pub)
                               if m: out["erscheinungsjahr"] = m.group(1)
-                          # numberOfPages kann int oder str sein
                           pages = obj.get("numberOfPages")
                           n = parse_pages_any(pages)
                           if n: out["seiten"] = n
@@ -305,11 +304,9 @@ jobs:
               return {}
 
           def find_pages_in_isbn_de_soup(soup):
-              # gezielt nach Labels suchen
               for label in ["Seiten", "Seitenzahl", "Umfang", "Kollation"]:
                   el = soup.find(string=re.compile(rf'\b{label}\b', re.I))
                   if el:
-                      # nimm den nächsten Geschwister/Text
                       candidate = el.parent.get_text(" ", strip=True) if hasattr(el, "parent") else str(el)
                       n = extract_pages(candidate)
                       if n: return n
@@ -317,7 +314,6 @@ jobs:
                       if sib:
                           n = extract_pages(str(sib))
                           if n: return n
-              # genereller Fallback
               text = soup.get_text(" ", strip=True)
               return extract_pages(text)
 
@@ -332,7 +328,6 @@ jobs:
                   soup = BeautifulSoup(html, "lxml")
                   meta = parse_json_ld_book(soup)
 
-                  # OG-Fallbacks
                   og_title = soup.find("meta", property="og:title")
                   if og_title and not meta.get("titel"):
                       t = og_title.get("content")
@@ -343,18 +338,15 @@ jobs:
                       img = og_image.get("content")
                       if img: meta["cover"] = sanitize_str(img.strip())
 
-                  # Seiten via HTML-Text, wenn noch nicht vorhanden
                   if not meta.get("seiten"):
                       n = find_pages_in_isbn_de_soup(soup)
                       if n: meta["seiten"] = n
 
-                  # Dummy-Cover aussortieren
                   if "cover" in meta:
                       lower = (meta["cover"] or "").lower()
                       if ("nopic.png" in lower) or ("placeholder.png" in lower):
                           meta.pop("cover", None)
 
-                  # Übernehmen nur, wenn im entry leer
                   for k, v in meta.items():
                       if v in (None, "", []): continue
                       if k not in entry or not entry.get(k):
@@ -402,7 +394,7 @@ jobs:
           # Leere Felder entfernen
           entry = {k: v for k, v in entry.items() if v not in (None, "", [])}
 
-          # Seitenzahl am Ende nochmals absichern (falls als String reingekommen ist)
+          # Seitenzahl final normalisieren
           if "seiten" in entry:
               n = parse_pages_any(entry["seiten"])
               if n: entry["seiten"] = n
