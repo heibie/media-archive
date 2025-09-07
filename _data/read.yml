@@ -19,7 +19,7 @@
   - Ryan Holiday
   - Stephen Hanselman
   isbn: '9783959720458'
-  fertig_am: '2025-09-07'
+  hinzugefuegt_am: '2025-09-07'
   cover: https://covers.openlibrary.org/b/id/12567971-L.jpg
 - typ: buch
   status: finished
@@ -220,7 +220,7 @@
   - Jussi Adler-Olsen
   - Hannes Thiess
   isbn: '9783423442572'
-  hinzugefuegt_am: '2024-08-22'
+  : '2024-08-22'
   tags: null
   seiten: 608
   erscheinungsjahr: 2024
@@ -339,7 +339,7 @@
   - Daniel R. Brooks
   - Salvatore J. Agosta
   isbn: '9780262048682'
-  hinzugefuegt_am: '2024-06-09'
+  : '2024-06-09'
   tags:
   - to-read
   seiten: 360
