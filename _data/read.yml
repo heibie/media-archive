@@ -1,4 +1,15 @@
 - typ: buch
+  status: currently reading
+  progress: 26
+  seiten: 432
+  titel: Der tägliche Stoiker
+  autor:
+  - Ryan Holiday
+  - Stephen Hanselman
+  isbn: '9783959720458'
+  fertig_am: '2025-09-07'
+  cover: https://covers.openlibrary.org/b/id/12567971-L.jpg
+- typ: buch
   status: finished
   autor:
   - Werther Dell'Edera
@@ -7049,12 +7060,3 @@
   cover: https://buch.isbn.de/gross/9783499252440.jpg
   verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 02.05.2011 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-10
-- typ: buch
-  status: finished
-  titel: Der tägliche Stoiker
-  autor:
-  - Ryan Holiday
-  - Stephen Hanselman
-  isbn: '9783959720458'
-  fertig_am: '2025-09-07'
-  cover: https://covers.openlibrary.org/b/id/12567971-L.jpg
