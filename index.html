@@ -5,26 +5,18 @@ title: Bücher
 
 <style>
 :root{
-  --gap:16px;
-  --muted:#6b7280;
-  --border:#e5e7eb;
-  --chip:#eef2ff;
-  --bar:#e5e7eb;
-  --bar-fill:#6366f1;
+  --gap:16px; --muted:#6b7280; --border:#e5e7eb; --chip:#eef2ff;
+  --bar:#e5e7eb; --bar-fill:#6366f1;
 }
 .controls{margin:10px 0 20px 0; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
 .controls .group{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
 .controls label{font-size:14px; color:var(--muted)}
-.controls input[type="search"], .controls select{
-  padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px;
-}
+.controls input[type="search"], .controls select{padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px}
 .controls .toggle{display:flex; gap:6px; align-items:center; font-size:14px; color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--gap)}
 .card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff; display:flex; flex-direction:column}
 .card img{width:100%;height:320px;object-fit:cover;background:#f3f4f6}
 .card .body{padding:12px}
-.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip)}
 .muted{color:var(--muted);font-size:14px}
 h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 .meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
@@ -47,7 +39,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
-{% comment %} Status- und Jahreslisten aufbauen (ohne 'push', mit 'concat') {% endcomment %}
+{% comment %} Filterlisten bauen (Liquid-kompatibel) {% endcomment %}
 {% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
@@ -74,18 +66,14 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     <label for="status">Status:</label>
     <select id="status">
       <option value="">(alle)</option>
-      {% for s in status_unique %}
-        {% if s %}<option value="{{ s | escape }}">{{ s }}</option>{% endif %}
-      {% endfor %}
+      {% for s in status_unique %}{% if s %}<option value="{{ s | escape }}">{{ s }}</option>{% endif %}{% endfor %}
     </select>
   </div>
   <div class="group">
     <label for="year">Jahr:</label>
     <select id="year">
       <option value="">(alle)</option>
-      {% for y in years_unique %}
-        <option value="{{ y }}">{{ y }}</option>
-      {% endfor %}
+      {% for y in years_unique %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
     </select>
   </div>
   <div class="group">
@@ -107,7 +95,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 <div id="grid" class="grid">
 {% for b in books %}
   {% assign cover = b.cover %}
-  {% assign isbn_str = b.isbn | append: '' %} {%- comment -%} cast ISBN zu String {%- endcomment -%}
+  {% assign isbn_str = b.isbn | append: '' %}
   {% if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn %}
     {% assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" %}
   {% endif %}
@@ -130,8 +118,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     {% assign date_source = b.hinzugefuegt_am %}
   {% endif %}
   {% assign date_source = date_source | default: b.datum | default: b.fertig_am | default: b.start_am | default: b.hinzugefuegt_am %}
-  {% assign year = "" %}
-  {% if date_source %}{% assign year = date_source | date: "%Y" %}{% endif %}
+  {% assign year = "" %}{% if date_source %}{% assign year = date_source | date: "%Y" %}{% endif %}
 
   {% assign date_label = "" %}
   {% if status == "finished" %}
@@ -142,7 +129,8 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     {% assign date_label = "gestartet" %}
   {% endif %}
 
-  {% assign rating = b.bewertung | default: 0 %}
+  {% assign rating_for_sort = b.bewertung | default: 0 %}
+  {% assign rating_text = b.bewertung | append: '' %} {# leer wenn kein Rating #}
   {% assign pct = "" %}
   {% if status == "currently reading" and pages and pages != 0 and progress and progress != 0 %}
     {% assign pct = progress | times: 100.0 | divided_by: pages | round %}
@@ -154,7 +142,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     data-author="{{ authors_text | downcase | escape }}"
     data-status="{{ status | downcase | escape }}"
     data-year="{{ year }}"
-    data-rating="{{ rating }}"
+    data-rating="{{ rating_for_sort }}"
     data-date="{{ date_source }}"
   >
     <img
@@ -172,31 +160,28 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       <div class="muted meta">
         {% if date_source %}
           <span>
-            {% if date_label != "" %}{{ date_label }}{% else %}Datum{% endif %} 
+            {% if date_label != "" %}{{ date_label }} am{% else %}am{% endif %}
             <span class="date" data-date="{{ date_source | escape }}"></span>
           </span>
         {% endif %}
-        {% if rating %}<span class="dot">⭐ {{ rating }}</span>{% endif %}
-        {% if b.isbn %}
-          <span>ISBN <a href="https://www.isbn.de/search?s={{ isbn_str | uri_escape }}" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
+
+        {% if rating_text != "" %}
+          <span class="dot">⭐ {{ rating_text }}</span><br>
         {% endif %}
+
+        {% if b.isbn %}
+          <span>ISBN <a href="https://www.isbn.de/buch/{{ isbn_str | uri_escape }}/" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
+        {% endif %}
+
         {% if status %}
-          <span>Status {{ status }}</span>
+          <span>Status: {{ status }}</span>
         {% endif %}
       </div>
 
       {% if pct != "" and pct > 0 and pct <= 100 %}
         <div class="progress" aria-label="Lesefortschritt">
-          <div class="track">
-            <div class="fill" style="width: {{ pct }}%"></div>
-          </div>
+          <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
           <div class="muted" style="margin-top:4px">{{ progress }}/{{ pages }} Seiten ({{ pct }}%)</div>
-        </div>
-      {% endif %}
-
-      {% if b.tags %}
-        <div class="badges">
-          {% for t in b.tags %}<span class="badge">#{{ t }}</span>{% endfor %}
         </div>
       {% endif %}
     </div>
@@ -229,32 +214,24 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 
   function normalize(s){ return (s||"").toLowerCase(); }
   function parseDateISO(s){ const t = Date.parse(s||""); return isNaN(t) ? 0 : t; }
-
-  // deutsches Datum rendern
   function formatGermanDate(iso){
-    try{
-      const d = new Date(iso);
-      if(isNaN(+d)) return iso || "";
-      return d.toLocaleDateString('de-DE', { day:'numeric', month:'long', year:'numeric' });
-    }catch(e){ return iso || ""; }
+    try{ const d = new Date(iso); if(isNaN(+d)) return iso||""; return d.toLocaleDateString('de-DE',{day:'numeric',month:'long',year:'numeric'}); }
+    catch(e){ return iso||""; }
   }
 
   function applySort(list){
     const mode = selSort.value;
     return list.sort((a,b)=>{
-      if(mode === 'newest' || mode === 'oldest'){
-        const da = parseDateISO(a.dataset.date);
-        const db = parseDateISO(b.dataset.date);
+      if(mode==='newest'||mode==='oldest'){
+        const da=parseDateISO(a.dataset.date), db=parseDateISO(b.dataset.date);
         return mode==='newest' ? (db-da) : (da-db);
       }
-      if(mode === 'rating_desc' || mode === 'rating_asc'){
-        const ra = parseFloat(a.dataset.rating||0);
-        const rb = parseFloat(b.dataset.rating||0);
+      if(mode==='rating_desc'||mode==='rating_asc'){
+        const ra=parseFloat(a.dataset.rating||0), rb=parseFloat(b.dataset.rating||0);
         return mode==='rating_desc' ? (rb-ra) : (ra-rb);
       }
-      if(mode === 'title_asc' || mode === 'title_desc'){
-        const ta = a.dataset.title || '';
-        const tb = b.dataset.title || '';
+      if(mode==='title_asc'||mode==='title_desc'){
+        const ta=a.dataset.title||'', tb=b.dataset.title||'';
         return mode==='title_asc' ? ta.localeCompare(tb) : tb.localeCompare(ta);
       }
       return 0;
@@ -262,65 +239,44 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   }
 
   function filter(){
-    const term = normalize(q?.value || "");
+    const term = normalize(q?.value||"");
     const status = normalize(selStatus.value);
     const year = selYear.value;
     const noCover = hideNoCover.checked;
 
     let visible = cards.filter(card=>{
-      if(noCover && card.dataset.nocover === '1') return false;
-
-      const t = card.dataset.title;
-      const a = card.dataset.author;
-      if(term && !(t.includes(term) || a.includes(term))) return false;
-
-      if(status){
-        const s = (card.dataset.status || '');
-        if(s !== status) return false;
-      }
-
-      if(year && card.dataset.year !== year) return false;
-
+      if(noCover && card.dataset.nocover==='1') return false;
+      const t=card.dataset.title, a=card.dataset.author;
+      if(term && !(t.includes(term)||a.includes(term))) return false;
+      if(status){ const s=(card.dataset.status||''); if(s!==status) return false; }
+      if(year && card.dataset.year!==year) return false;
       return true;
     });
 
     visible = applySort(visible);
 
-    const total = visible.length;
-    const pages = Math.max(1, Math.ceil(total / perPage));
-    if(page > pages) page = pages;
+    const total = visible.length, pages = Math.max(1, Math.ceil(total/perPage));
+    if(page>pages) page=pages;
 
     cards.forEach(c=>c.style.display='none');
+    const start=(page-1)*perPage, end=start+perPage;
+    visible.slice(start,end).forEach(c=>c.style.display='flex');
 
-    const start = (page-1)*perPage;
-    const end = start + perPage;
-    visible.slice(start, end).forEach(c=>c.style.display='flex');
-
-    if(total > perPage){
-      pager.hidden = false;
-      prev.disabled = (page<=1);
-      next.disabled = (page>=pages);
-      pageinfo.textContent = `Seite ${page} / ${pages} • ${total} Treffer`;
-    } else {
-      pager.hidden = true;
-    }
+    if(total>perPage){
+      pager.hidden=false; prev.disabled=(page<=1); next.disabled=(page>=pages);
+      pageinfo.textContent=`Seite ${page} / ${pages} • ${total} Treffer`;
+    }else{ pager.hidden=true; }
   }
 
   [q, selStatus, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
   prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
   next.addEventListener('click', ()=>{ page++; filter(); });
 
-  // No-Cover markieren + deutsches Datum einsetzen
+  // Markierungen & deutsches Datum einsetzen
   cards.forEach(card=>{
-    const img = card.querySelector('img');
-    if(img && (img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1')){
-      card.dataset.nocover='1';
-    }
-    const ds = card.dataset.date;
-    const dateSpan = card.querySelector('.date');
-    if(dateSpan && ds){
-      dateSpan.textContent = formatGermanDate(ds);
-    }
+    const img=card.querySelector('img');
+    if(img && (img.currentSrc.includes('/assets/placeholder.png')||img.dataset.error==='1')) card.dataset.nocover='1';
+    const ds=card.dataset.date, dateSpan=card.querySelector('.date'); if(dateSpan&&ds){ dateSpan.textContent=formatGermanDate(ds); }
   });
 
   filter();
