@@ -78,6 +78,9 @@ jobs:
 
           FILE_PATH = "_data/read.yml"
 
+          def today_iso():
+              return date.today().isoformat()
+
           # ----------------- Helpers -----------------
           def parse_list(val):
               if not val:
@@ -125,13 +128,11 @@ jobs:
           def http_get(url, timeout=20):
               req = urllib.request.Request(
                   url,
-                  headers={
-                      "User-Agent": "Mozilla/5.0 (compatible; HeikoAddBookBot/1.0; +https://github.com/)"
-                  },
+                  headers={"User-Agent": "Mozilla/5.0 (compatible; HeikoAddBookBot/1.0)"},
               )
               with urllib.request.urlopen(req, timeout=timeout) as resp:
                   return resp.read(), resp.geturl()
-          
+
           # ----------------- ISBN utils -----------------
           def isbn10_to13(isbn10):
               base = "978" + isbn10[:-1]
@@ -148,7 +149,7 @@ jobs:
                   return isbn
               if len(isbn) == 10:
                   return isbn10_to13(isbn)
-              return isbn  # lassen, ggf. Warnung
+              return isbn
 
           # ----------------- OpenLibrary -----------------
           def fetch_openlibrary_data(isbn):
@@ -190,7 +191,6 @@ jobs:
                   if "cover" not in entry:
                       entry["cover"] = f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg"
 
-              # optionale Felder
               if not entry.get("verlag"):
                   publishers = data.get("publishers") or []
                   pubs = [p.get("name", "").strip() if isinstance(p, dict) else str(p).strip() for p in publishers]
@@ -199,7 +199,6 @@ jobs:
                       entry["verlag"] = pubs[0]
 
               if not entry.get("erscheinungsjahr"):
-                  # OpenLibrary hat publish_date oft als String (z.B. "2007")
                   pub_date = (data.get("publish_date") or "").strip()
                   m = re.search(r"(\d{4})", pub_date)
                   if m:
@@ -214,24 +213,21 @@ jobs:
 
           # ----------------- isbn.de -----------------
           def parse_json_ld_book(soup):
-              """Suche nach JSON-LD vom Typ 'Book' und parse die wichtigsten Felder."""
               for tag in soup.find_all("script", {"type": "application/ld+json"}):
                   try:
                       data = json.loads(tag.string or tag.get_text() or "")
                   except Exception:
                       continue
-                  # kann Liste oder Objekt sein
                   candidates = data if isinstance(data, list) else [data]
                   for obj in candidates:
                       if not isinstance(obj, dict):
                           continue
-                      t = obj.get("@type") or obj.get("@type".lower())
+                      t = obj.get("@type")
                       if (isinstance(t, list) and "Book" in t) or t == "Book":
                           out = {}
                           name = obj.get("name") or obj.get("headline") or ""
                           if isinstance(name, str) and name.strip():
                               out["titel"] = name.strip()
-                          # author kann String, Dict oder Liste sein
                           authors = obj.get("author")
                           names = []
                           if isinstance(authors, list):
@@ -248,33 +244,27 @@ jobs:
                               names.append(authors.strip())
                           if names:
                               out["autor"] = names
-
                           image = obj.get("image")
                           if isinstance(image, str) and image.strip():
                               out["cover"] = image.strip()
-
                           publisher = obj.get("publisher")
                           if isinstance(publisher, dict):
                               n = publisher.get("name")
                               if n: out["verlag"] = n.strip()
                           elif isinstance(publisher, str) and publisher.strip():
                               out["verlag"] = publisher.strip()
-
-                          date_pub = obj.get("datePublished") or obj.get("datepublished")
+                          date_pub = obj.get("datePublished")
                           if isinstance(date_pub, str):
                               m = re.search(r"(\d{4})", date_pub)
                               if m:
                                   out["erscheinungsjahr"] = m.group(1)
-
                           pages = obj.get("numberOfPages")
                           if isinstance(pages, int) and pages > 0:
                               out["seiten"] = pages
-
                           return out
               return {}
 
           def enrich_from_isbn_de(entry):
-              """Zieht Daten von isbn.de (HTML/JSON-LD/OG tags). Überschreibt NICHT bereits gesetzte Felder."""
               raw_isbn = entry.get("isbn")
               if not raw_isbn:
                   return entry
@@ -284,11 +274,8 @@ jobs:
                   body, final_url = http_get(url, timeout=20)
                   html = body.decode("utf-8", errors="ignore")
                   soup = BeautifulSoup(html, "lxml")
-
-                  # JSON-LD bevorzugt
                   meta = parse_json_ld_book(soup)
 
-                  # Fallback: OpenGraph
                   og_title = soup.find("meta", property="og:title")
                   if og_title and not meta.get("titel"):
                       t = og_title.get("content")
@@ -299,16 +286,11 @@ jobs:
                       img = og_image.get("content")
                       if img: meta["cover"] = img.strip()
 
-                  # Weitere simple Heuristiken (falls nötig, minimal invasiv):
-                  # - Autoren stehen oft im Titel o. separaten Bereichen; hier belassen wir es bei JSON-LD.
-
-                  # dummy/placeholder-Bilder ausfiltern
                   if "cover" in meta:
                       lower = meta["cover"].lower()
                       if ("nopic.png" in lower) or ("placeholder.png" in lower):
                           meta.pop("cover", None)
 
-                  # nur leere Felder füllen
                   for k, v in meta.items():
                       if v in (None, "", []):
                           continue
@@ -341,21 +323,25 @@ jobs:
               print("Fehler: ISBN ist erforderlich.", file=sys.stderr)
               sys.exit(1)
 
-          # Warnung, wenn Länge ungewohnt
           if len(entry["isbn"]) not in (10, 13):
               print(f"Warn: ISBN '{entry['isbn']}' hat unübliche Länge.", file=sys.stderr)
 
-          # 1) isbn.de anreichern (preferiert)
+          # 1) isbn.de
           entry = enrich_from_isbn_de(entry)
-          # 2) OpenLibrary als Fallback für noch leere Felder
+          # 2) OpenLibrary
           entry = enrich_from_openlibrary(entry)
+
+          # Immer: aktuelles Eintragsdatum
+          entry["eingetragen_am"] = today_iso()
+          # Optional: Fertigstellungsdatum bei finished
+          if entry.get("status") == "finished" and not entry.get("fertig_am"):
+              entry["fertig_am"] = entry["eingetragen_am"]
 
           # Leere Felder entfernen
           entry = {k: v for k, v in entry.items() if v not in (None, "", [])}
 
           data = load_yaml(FILE_PATH)
 
-          # Duplikat-Check
           def is_duplicate(e):
               for d in data:
                   if e.get("isbn") and d.get("isbn") == e["isbn"]:
@@ -374,9 +360,7 @@ jobs:
               print("Eintrag wirkt wie ein Duplikat – wird nicht ergänzt.")
               sys.exit(0)
 
-          # Neueste Einträge nach oben
           data.insert(0, entry)
-
           save_yaml(FILE_PATH, data)
           print("Eintrag hinzugefügt (am Anfang von read.yml).")
           PY
