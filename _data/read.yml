@@ -1,4 +1,13 @@
 - typ: buch
+  status: want to read
+  titel: Baustellen der Nation
+  autor:
+  - Philip Banse
+  isbn: '9783550202414'
+  cover: https://buch.isbn.de/gross/9783550202414.jpg
+  seiten: 384
+  eingetragen_am: '2025-09-07'
+- typ: buch
   status: currently reading
   progress: 78
   seiten: 448
@@ -356,8 +365,8 @@
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/150065135
   cover: https://cover.ekz.de/9780262048682.jpg
-  verlag: 'The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen
-    am 06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978- '
+  verlag: The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen am
+    06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978-
 - typ: buch
   status: finished
   titel: In den Fängen des Wolfes
@@ -1157,8 +1166,8 @@
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62709987
   cover: https://buch.isbn.de/gross/9783518472767.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 26.09.2022 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-47276-3 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 26.09.2022 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-47276-3 ISBN-13
 - typ: buch
   status: want to read
   titel: Die Diplomatin
@@ -1717,8 +1726,8 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/55848520
   cover: https://buch.isbn.de/gross/9783608504804.jpg
-  verlag: 'Tropen Autor Meike Stoverock erschienen am 13.02.2021 Rubrik Feminismus
-    und feministische Theorie ISBN-10 3-608-50480-X '
+  verlag: Tropen Autor Meike Stoverock erschienen am 13.02.2021 Rubrik Feminismus
+    und feministische Theorie ISBN-10 3-608-50480-X
 - typ: buch
   status: finished
   titel: Oddjob
@@ -1889,8 +1898,8 @@
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57331741
   cover: https://buch.isbn.de/gross/9783518768082.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.03.2021 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-76808-5 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.03.2021 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-76808-5 ISBN-13
 - typ: buch
   status: finished
   titel: 'Low, Vol. 5: Light Brings Light'
@@ -2257,8 +2266,8 @@
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50461247
   cover: https://buch.isbn.de/gross/9783546100038.jpg
-  verlag: 'Claassen Autor Bov Bjerg erschienen am 28.01.2020 Rubrik Moderne und zeitgenössische
-    Belletristik ISBN-10 3-546-10003-4 '
+  verlag: Claassen Autor Bov Bjerg erschienen am 28.01.2020 Rubrik Moderne und zeitgenössische
+    Belletristik ISBN-10 3-546-10003-4
 - typ: buch
   status: finished
   titel: Der Führer
@@ -2562,8 +2571,8 @@
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/49690261
   cover: https://buch.isbn.de/gross/9783518470039.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 29.09.2019 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-47003-5 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 29.09.2019 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-47003-5 ISBN-13
 - typ: buch
   status: finished
   titel: Cassandra Darke
@@ -2883,8 +2892,8 @@
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41807370
   cover: https://buch.isbn.de/gross/9783518468944.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 10.09.2018 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-46894-4 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 10.09.2018 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46894-4 ISBN-13
 - typ: buch
   status: finished
   titel: Die Bucht am Meer
@@ -3226,8 +3235,8 @@
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/35916581
   cover: https://buch.isbn.de/gross/9783518467855.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.08.2017 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-46785-9 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.08.2017 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46785-9 ISBN-13
 - typ: buch
   status: finished
   titel: Loading
@@ -3420,8 +3429,8 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29629580
   cover: https://buch.isbn.de/gross/9783518466629.jpg
-  verlag: 'Suhrkamp Autor Simone Buchholz erschienen am 07.03.2016 Rubrik Kriminalromane
-    und Mystery ISBN-10 3-518-46662-3 ISBN-13 '
+  verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.03.2016 Rubrik Kriminalromane
+    und Mystery ISBN-10 3-518-46662-3 ISBN-13
 - typ: buch
   status: want to read
   titel: 'Pullern im Stehn: Die Geschichte meiner Jugend (German Edition)'
@@ -3842,8 +3851,8 @@
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41587184
   cover: https://buch.isbn.de/gross/9783499633744.jpg
-  verlag: 'ROWOHLT Taschenbuch Autor Natascha Wegelin erschienen am 21.08.2018 Rubrik
-    Feminismus und feministische Theorie ISBN-10 '
+  verlag: ROWOHLT Taschenbuch Autor Natascha Wegelin erschienen am 21.08.2018 Rubrik
+    Feminismus und feministische Theorie ISBN-10
 - typ: buch
   status: finished
   titel: Die Schicksalstafel
@@ -3899,8 +3908,8 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26055143
-  verlag: 'Panini Verlags GmbH Autor Schreiter, Daniela erschienen am 22.07.2015 ISBN-10
-    3-7367-0757-6 ISBN-13 978- 3- 7367- 0757- '
+  verlag: Panini Verlags GmbH Autor Schreiter, Daniela erschienen am 22.07.2015 ISBN-10
+    3-7367-0757-6 ISBN-13 978- 3- 7367- 0757-
 - typ: buch
   status: finished
   titel: 'Schattenspringer: Wie es ist, anders zu sein'
@@ -4198,8 +4207,8 @@
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/27507872
   cover: https://buch.isbn.de/gross/9783957982353.jpg
-  verlag: 'Panini Verlags GmbH Autoren Corinna Bechko , Gabriel Hardman erschienen
-    am 12.10.2015 Rubrik Europäische Comics ISBN-10 '
+  verlag: Panini Verlags GmbH Autoren Corinna Bechko , Gabriel Hardman erschienen
+    am 12.10.2015 Rubrik Europäische Comics ISBN-10
 - typ: buch
   status: finished
   titel: 'Star Wars Sonderband 86: Auf die Harte Tour: Bd. 86: Auf die harte Tour
@@ -4724,8 +4733,8 @@
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34858639
   cover: https://buch.isbn.de/gross/9783770440375.jpg
-  verlag: 'Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
-    am 19.10.2017 Rubrik Graphic Novels, Comics, '
+  verlag: Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
+    am 19.10.2017 Rubrik Graphic Novels, Comics,
 - typ: buch
   status: finished
   titel: Auf der Suche nach der verlorenen Zeit
@@ -5073,8 +5082,8 @@
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28898036
   cover: https://buch.isbn.de/gross/9783956400490.jpg
-  verlag: 'Reprodukt Autor Lewis Trondheim erschienen im Januar 2016 Rubrik Graphic
-    Novels, Comics, Cartoons ISBN-10 3-95640-049-6 '
+  verlag: Reprodukt Autor Lewis Trondheim erschienen im Januar 2016 Rubrik Graphic
+    Novels, Comics, Cartoons ISBN-10 3-95640-049-6
 - typ: buch
   status: finished
   titel: 'Der Feind meines Feindes (Ralph Azham, #6)'
@@ -5173,8 +5182,8 @@
   seiten: 48
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10929584
-  verlag: 'DUPUIS Autor Trondheim, Lewis erschienen am 10.03.2011 ISBN-10 2-8001-4992-2
-    ISBN-13 978- 2- 8001- 4992- 9 Lieferstatus '
+  verlag: DUPUIS Autor Trondheim, Lewis erschienen am 10.03.2011 ISBN-10 2-8001-4992-2
+    ISBN-13 978- 2- 8001- 4992- 9 Lieferstatus
 - typ: buch
   status: finished
   titel: Der erste Tote
@@ -5849,8 +5858,8 @@
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/24025450
   cover: https://covers.openlibrary.org/b/isbn/9782205070477-L.jpg?default=false
-  verlag: 'DARGAUD Autor Nury, Fabien, Henninot, Eric erschienen am 23.10.2014 ISBN-10
-    2-205-07047-9 ISBN-13 978- 2- 205- 07047- 7 '
+  verlag: DARGAUD Autor Nury, Fabien, Henninot, Eric erschienen am 23.10.2014 ISBN-10
+    2-205-07047-9 ISBN-13 978- 2- 205- 07047- 7
 - typ: buch
   status: finished
   titel: 'Der Aquila-Ring ( Silas Corey #1)'
@@ -6122,8 +6131,8 @@
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/18775048
   cover: https://cover.ekz.de/9781608863938.jpg
-  verlag: 'Boom Entertainment Autor Gagnon, Matt, Nelson, Michael Alan erschienen
-    am 18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978- '
+  verlag: Boom Entertainment Autor Gagnon, Matt, Nelson, Michael Alan erschienen am
+    18.11.2014 ISBN-10 1-60886-393-X ISBN-13 978-
 - typ: buch
   status: finished
   titel: Die Kennedy-Gang (Tag X
@@ -6559,8 +6568,8 @@
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/13490570
   cover: https://cover.ekz.de/9781613772270.jpg
-  verlag: 'IDW Autor Hill, Joe erschienen am 11.07.2012 ISBN-10 1-61377-227-0 ISBN-13
-    978- 1- 61377- 227- 0 Lieferstatus Lieferant '
+  verlag: IDW Autor Hill, Joe erschienen am 11.07.2012 ISBN-10 1-61377-227-0 ISBN-13
+    978- 1- 61377- 227- 0 Lieferstatus Lieferant
 - typ: buch
   status: finished
   titel: 'Locke & Key, Vol. 4: Schlüssel zum Königreich'
@@ -6628,8 +6637,8 @@
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13113378
   cover: https://buch.isbn.de/gross/9783764504458.jpg
-  verlag: 'Blanvalet Autor Marc Elsberg erschienen am 19.03.2012 Rubrik Technothriller
-    ISBN-10 3-7645-0445-5 ISBN-13 978- 3- 7645- '
+  verlag: Blanvalet Autor Marc Elsberg erschienen am 19.03.2012 Rubrik Technothriller
+    ISBN-10 3-7645-0445-5 ISBN-13 978- 3- 7645-
 - typ: buch
   status: finished
   titel: Saga, Volume 1
@@ -6704,8 +6713,8 @@
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/870
   cover: https://cover.ekz.de/9781591169208.jpg
-  verlag: 'Viz LLC Autor Arakawa, Hiromu erschienen am 03.05.2005 ISBN-10 1-59116-920-8
-    ISBN-13 978- 1- 59116- 920- 8 Lieferstatus '
+  verlag: Viz LLC Autor Arakawa, Hiromu erschienen am 03.05.2005 ISBN-10 1-59116-920-8
+    ISBN-13 978- 1- 59116- 920- 8 Lieferstatus
 - typ: buch
   status: finished
   titel: '100 Bullets, Vol. 1: First Shot, Last Call'
@@ -6930,8 +6939,8 @@
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/472331
   cover: https://buch.isbn.de/gross/9780930289232.jpg
-  verlag: 'DC Comics Autor Moore, Alan, Gibbons, Dave erschienen am 01.04.1995 ISBN-10
-    0-930289-23-4 ISBN-13 978- 0- 930289- 23- 2 '
+  verlag: DC Comics Autor Moore, Alan, Gibbons, Dave erschienen am 01.04.1995 ISBN-10
+    0-930289-23-4 ISBN-13 978- 0- 930289- 23- 2
 - typ: buch
   status: finished
   titel: 'Savages (Savages #2)'
