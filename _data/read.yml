@@ -1,4 +1,12 @@
 - typ: buch
+  status: currently reading
+  titel: Tief eingeschneit
+  autor:
+  - Louise Penny
+  isbn: '9783311120087'
+  cover: https://buch.isbn.de/gross/9783311120087.jpg
+  eingetragen_am: '2025-09-07'
+- typ: buch
   status: finished
   titel: Das Dorf in den roten Wäldern
   autor:
