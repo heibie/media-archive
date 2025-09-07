@@ -1,5 +1,5 @@
 - typ: buch
-  status: currently reading
+  status: finished
   titel: Das Dorf in den roten Wäldern
   autor:
   - Louise Penny
@@ -8,6 +8,7 @@
   verlag: Kampa Verlag
   erscheinungsjahr: '2019'
   seiten: 395
+  fertig_am: '2025-04-28'
   eingetragen_am: '2025-09-07'
 - typ: buch
   status: currently reading
