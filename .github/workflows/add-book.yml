@@ -78,77 +78,105 @@ jobs:
 
           FILE_PATH = "_data/read.yml"
 
+          # ----------------- Helpers -----------------
           def today_iso():
               return date.today().isoformat()
 
-          # ----------------- Helpers -----------------
+          def sanitize_str(s):
+              if s is None: return None
+              s = s.replace("\x00","").replace("\t","  ").replace("\r\n","\n").replace("\r","\n")
+              s = "\n".join(line.rstrip() for line in s.split("\n"))
+              return s
+
           def parse_list(val):
-              if not val:
-                  return None
-              items = [x.strip() for x in re.split(r"[;,]", val) if x.strip()]
-              return items or None
+              if not val: return None
+              items = [sanitize_str(x.strip()) for x in re.split(r"[;,]", val) if x.strip()]
+              return [i for i in items if i] or None
 
           def clean_isbn(s):
-              if not s:
-                  return None
+              if not s: return None
               s = re.sub(r"[^0-9Xx]", "", s).upper()
               return s or None
 
           def parse_rating(s):
-              if not s:
-                  return None
-              s = s.strip().replace(",", ".")
-              try:
-                  return float(s)
-              except ValueError:
-                  return None
+              if not s: return None
+              s = sanitize_str(s).strip().replace(",", ".")
+              try: return float(s)
+              except ValueError: return None
 
           def norm(s):
               return re.sub(r"\s+", " ", (s or "").strip().lower())
 
           def load_yaml(path):
-              if not os.path.exists(path):
-                  return []
+              if not os.path.exists(path): return []
               with open(path, "r", encoding="utf-8") as f:
                   data = yaml.safe_load(f) or []
                   if not isinstance(data, list):
                       raise ValueError("read.yml ist kein Listenformat.")
                   return data
 
+          # Quoted YAML Dumper
+          class _QuotedDumper(yaml.SafeDumper): pass
+          def _str_representer(dumper, data):
+              return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+          _QuotedDumper.add_representer(str, _str_representer)
+
           def save_yaml(path, data):
+              def sanitize_obj(obj):
+                  if isinstance(obj, dict): return {k: sanitize_obj(v) for k,v in obj.items()}
+                  if isinstance(obj, list): return [sanitize_obj(v) for v in obj]
+                  if isinstance(obj, str):  return sanitize_str(obj)
+                  return obj
+              safe_data = sanitize_obj(data)
               with open(path, "w", encoding="utf-8") as f:
-                  yaml.dump(
-                      data,
-                      f,
-                      allow_unicode=True,
-                      sort_keys=False,
-                      default_flow_style=False
-                  )
+                  yaml.safe_dump(safe_data, f, allow_unicode=True, sort_keys=False,
+                                 default_flow_style=False, explicit_start=True, Dumper=_QuotedDumper)
+              # Validate
+              with open(path, "r", encoding="utf-8") as f2:
+                  yaml.safe_load(f2)
 
           def http_get(url, timeout=20):
-              req = urllib.request.Request(
-                  url,
-                  headers={"User-Agent": "Mozilla/5.0 (compatible; HeikoAddBookBot/1.0)"},
-              )
+              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; HeikoAddBookBot/1.1)"})
               with urllib.request.urlopen(req, timeout=timeout) as resp:
                   return resp.read(), resp.geturl()
+
+          # ----------------- Pages parsing -----------------
+          def extract_pages(text: str):
+              """Zieht eine plausible Seitenzahl aus einem Text."""
+              if not text: return None
+              text = str(text)
+              # 1) Bevorzugt „123 Seiten“ / „123 S.“
+              m = re.search(r'\b(\d{1,4})\s*(?:Seiten|S\.?)\b', text, re.I)
+              if m:
+                  n = int(m.group(1))
+                  if 1 <= n <= 4000: return n
+              # 2) Fallback: letzte plausible Zahl, aber keine Jahreszahlen
+              cand = [int(x) for x in re.findall(r'\b(\d{1,4})\b', text)]
+              # Jahreszahlen ausschließen
+              cand = [c for c in cand if not (1400 <= c <= 2099)]
+              cand = [c for c in cand if 1 <= c <= 4000]
+              if cand: return max(cand)
+              return None
+
+          def parse_pages_any(value):
+              """Akzeptiert int/str (z.B. '300 S.' / 'xii, 300 p.') und liefert int."""
+              if value is None: return None
+              if isinstance(value, int):
+                  return value if value > 0 else None
+              # strings inkl. EN 'p.'
+              return extract_pages(str(value).replace('p.', 'Seiten'))
 
           # ----------------- ISBN utils -----------------
           def isbn10_to13(isbn10):
               base = "978" + isbn10[:-1]
-              total = 0
-              for i, ch in enumerate(base):
-                  total += int(ch) * (1 if i % 2 == 0 else 3)
+              total = sum((int(ch) * (1 if i % 2 == 0 else 3)) for i, ch in enumerate(base))
               check = (10 - (total % 10)) % 10
               return base + str(check)
 
           def ensure_isbn13(isbn):
-              if not isbn: 
-                  return None
-              if len(isbn) == 13:
-                  return isbn
-              if len(isbn) == 10:
-                  return isbn10_to13(isbn)
+              if not isbn: return None
+              if len(isbn) == 13: return isbn
+              if len(isbn) == 10: return isbn10_to13(isbn)
               return isbn
 
           # ----------------- OpenLibrary -----------------
@@ -159,55 +187,75 @@ jobs:
                   data = json.loads(body.decode("utf-8"))
                   return data.get(f"ISBN:{isbn}") or {}
               except Exception as e:
-                  print(f"OpenLibrary Fehler: {e}", file=sys.stderr)
+                  print(f"OpenLibrary data Fehler: {e}", file=sys.stderr)
+                  return {}
+
+          def fetch_openlibrary_details(isbn):
+              url = f"https://openlibrary.org/api/books?bibkeys=ISBN:{isbn}&format=json&jscmd=details"
+              try:
+                  body, _ = http_get(url, timeout=15)
+                  data = json.loads(body.decode("utf-8"))
+                  rec = data.get(f"ISBN:{isbn}") or {}
+                  return rec.get("details") or {}
+              except Exception as e:
+                  print(f"OpenLibrary details Fehler: {e}", file=sys.stderr)
+                  return {}
+
+          def fetch_openlibrary_isbn_json(isbn):
+              url = f"https://openlibrary.org/isbn/{isbn}.json"
+              try:
+                  body, _ = http_get(url, timeout=15)
+                  return json.loads(body.decode("utf-8"))
+              except Exception as e:
+                  print(f"OpenLibrary edition Fehler: {e}", file=sys.stderr)
                   return {}
 
           def enrich_from_openlibrary(entry):
               isbn = entry.get("isbn")
-              if not isbn:
-                  return entry
+              if not isbn: return entry
+
               data = fetch_openlibrary_data(isbn)
-              if not data:
-                  return entry
-
-              if not entry.get("titel"):
-                  t = (data.get("title") or "").strip()
-                  if t:
-                      entry["titel"] = t
-
-              if not entry.get("autor"):
-                  authors = data.get("authors") or []
-                  names = [a.get("name", "").strip() for a in authors if a.get("name")]
-                  names = [n for n in names if n]
-                  if names:
-                      entry["autor"] = names
-
-              if "cover" not in entry:
-                  cover = data.get("cover") or {}
-                  for k in ("large", "medium", "small"):
-                      if cover.get(k):
-                          entry["cover"] = cover[k]
-                          break
+              if data:
+                  if not entry.get("titel"):
+                      t = sanitize_str((data.get("title") or "").strip())
+                      if t: entry["titel"] = t
+                  if not entry.get("autor"):
+                      authors = data.get("authors") or []
+                      names = [sanitize_str(a.get("name","").strip()) for a in authors if a.get("name")]
+                      names = [n for n in names if n]
+                      if names: entry["autor"] = names
                   if "cover" not in entry:
-                      entry["cover"] = f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg"
+                      cover = data.get("cover") or {}
+                      for k in ("large","medium","small"):
+                          if cover.get(k):
+                              entry["cover"] = sanitize_str(cover[k]); break
+                      if "cover" not in entry:
+                          entry["cover"] = f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg"
+                  if not entry.get("verlag"):
+                      pubs = data.get("publishers") or []
+                      pubs = [p.get("name","").strip() if isinstance(p,dict) else str(p).strip() for p in pubs]
+                      pubs = [sanitize_str(p) for p in pubs if p]
+                      if pubs: entry["verlag"] = pubs[0]
+                  if not entry.get("erscheinungsjahr"):
+                      pub_date = sanitize_str((data.get("publish_date") or "").strip())
+                      m = re.search(r"(\d{4})", pub_date or "")
+                      if m: entry["erscheinungsjahr"] = m.group(1)
+                  if not entry.get("seiten"):
+                      num_pages = data.get("number_of_pages")
+                      n = parse_pages_any(num_pages)
+                      if n: entry["seiten"] = n
 
-              if not entry.get("verlag"):
-                  publishers = data.get("publishers") or []
-                  pubs = [p.get("name", "").strip() if isinstance(p, dict) else str(p).strip() for p in publishers]
-                  pubs = [p for p in pubs if p]
-                  if pubs:
-                      entry["verlag"] = pubs[0]
-
-              if not entry.get("erscheinungsjahr"):
-                  pub_date = (data.get("publish_date") or "").strip()
-                  m = re.search(r"(\d{4})", pub_date)
-                  if m:
-                      entry["erscheinungsjahr"] = m.group(1)
-
+              # Fallback: details
               if not entry.get("seiten"):
-                  num_pages = data.get("number_of_pages")
-                  if isinstance(num_pages, int) and num_pages > 0:
-                      entry["seiten"] = num_pages
+                  det = fetch_openlibrary_details(isbn)
+                  n = parse_pages_any(det.get("number_of_pages")) or parse_pages_any(det.get("pagination"))
+                  if n: entry["seiten"] = n
+
+              # Fallback: edition JSON
+              if not entry.get("seiten"):
+                  ed = fetch_openlibrary_isbn_json(isbn)
+                  n = parse_pages_any(ed.get("number_of_pages")) or parse_pages_any(ed.get("pagination"))
+                  if n: entry["seiten"] = n
 
               return entry
 
@@ -218,82 +266,97 @@ jobs:
                       data = json.loads(tag.string or tag.get_text() or "")
                   except Exception:
                       continue
-                  candidates = data if isinstance(data, list) else [data]
-                  for obj in candidates:
-                      if not isinstance(obj, dict):
-                          continue
+                  for obj in (data if isinstance(data, list) else [data]):
+                      if not isinstance(obj, dict): continue
                       t = obj.get("@type")
                       if (isinstance(t, list) and "Book" in t) or t == "Book":
                           out = {}
                           name = obj.get("name") or obj.get("headline") or ""
                           if isinstance(name, str) and name.strip():
-                              out["titel"] = name.strip()
+                              out["titel"] = sanitize_str(name.strip())
                           authors = obj.get("author")
                           names = []
                           if isinstance(authors, list):
                               for a in authors:
-                                  if isinstance(a, dict):
-                                      n = a.get("name")
-                                      if n: names.append(n.strip())
-                                  elif isinstance(a, str):
-                                      names.append(a.strip())
-                          elif isinstance(authors, dict):
-                              n = authors.get("name")
-                              if n: names.append(n.strip())
+                                  if isinstance(a, dict) and a.get("name"): names.append(sanitize_str(a["name"].strip()))
+                                  elif isinstance(a, str): names.append(sanitize_str(a.strip()))
+                          elif isinstance(authors, dict) and authors.get("name"):
+                              names.append(sanitize_str(authors["name"].strip()))
                           elif isinstance(authors, str):
-                              names.append(authors.strip())
-                          if names:
-                              out["autor"] = names
+                              names.append(sanitize_str(authors.strip()))
+                          if names: out["autor"] = names
                           image = obj.get("image")
                           if isinstance(image, str) and image.strip():
-                              out["cover"] = image.strip()
+                              out["cover"] = sanitize_str(image.strip())
                           publisher = obj.get("publisher")
-                          if isinstance(publisher, dict):
-                              n = publisher.get("name")
-                              if n: out["verlag"] = n.strip()
+                          if isinstance(publisher, dict) and publisher.get("name"):
+                              out["verlag"] = sanitize_str(publisher["name"].strip())
                           elif isinstance(publisher, str) and publisher.strip():
-                              out["verlag"] = publisher.strip()
+                              out["verlag"] = sanitize_str(publisher.strip())
                           date_pub = obj.get("datePublished")
                           if isinstance(date_pub, str):
                               m = re.search(r"(\d{4})", date_pub)
-                              if m:
-                                  out["erscheinungsjahr"] = m.group(1)
+                              if m: out["erscheinungsjahr"] = m.group(1)
+                          # numberOfPages kann int oder str sein
                           pages = obj.get("numberOfPages")
-                          if isinstance(pages, int) and pages > 0:
-                              out["seiten"] = pages
+                          n = parse_pages_any(pages)
+                          if n: out["seiten"] = n
                           return out
               return {}
 
+          def find_pages_in_isbn_de_soup(soup):
+              # gezielt nach Labels suchen
+              for label in ["Seiten", "Seitenzahl", "Umfang", "Kollation"]:
+                  el = soup.find(string=re.compile(rf'\b{label}\b', re.I))
+                  if el:
+                      # nimm den nächsten Geschwister/Text
+                      candidate = el.parent.get_text(" ", strip=True) if hasattr(el, "parent") else str(el)
+                      n = extract_pages(candidate)
+                      if n: return n
+                      sib = el.find_next(string=True)
+                      if sib:
+                          n = extract_pages(str(sib))
+                          if n: return n
+              # genereller Fallback
+              text = soup.get_text(" ", strip=True)
+              return extract_pages(text)
+
           def enrich_from_isbn_de(entry):
               raw_isbn = entry.get("isbn")
-              if not raw_isbn:
-                  return entry
+              if not raw_isbn: return entry
               isbn13 = ensure_isbn13(raw_isbn)
               url = f"https://www.isbn.de/buch/{isbn13}/"
               try:
-                  body, final_url = http_get(url, timeout=20)
+                  body, _ = http_get(url, timeout=20)
                   html = body.decode("utf-8", errors="ignore")
                   soup = BeautifulSoup(html, "lxml")
                   meta = parse_json_ld_book(soup)
 
+                  # OG-Fallbacks
                   og_title = soup.find("meta", property="og:title")
                   if og_title and not meta.get("titel"):
                       t = og_title.get("content")
-                      if t: meta["titel"] = t.strip()
+                      if t: meta["titel"] = sanitize_str(t.strip())
 
                   og_image = soup.find("meta", property="og:image")
                   if og_image and not meta.get("cover"):
                       img = og_image.get("content")
-                      if img: meta["cover"] = img.strip()
+                      if img: meta["cover"] = sanitize_str(img.strip())
 
+                  # Seiten via HTML-Text, wenn noch nicht vorhanden
+                  if not meta.get("seiten"):
+                      n = find_pages_in_isbn_de_soup(soup)
+                      if n: meta["seiten"] = n
+
+                  # Dummy-Cover aussortieren
                   if "cover" in meta:
-                      lower = meta["cover"].lower()
+                      lower = (meta["cover"] or "").lower()
                       if ("nopic.png" in lower) or ("placeholder.png" in lower):
                           meta.pop("cover", None)
 
+                  # Übernehmen nur, wenn im entry leer
                   for k, v in meta.items():
-                      if v in (None, "", []):
-                          continue
+                      if v in (None, "", []): continue
                       if k not in entry or not entry.get(k):
                           entry[k] = v
 
@@ -306,17 +369,17 @@ jobs:
 
               return entry
 
-          # ----------------- Inputs lesen -----------------
+          # ----------------- Inputs -----------------
           entry = {
               "typ": "buch",
               "status": (os.getenv("STATUS") or "want to read").strip(),
-              "titel": (os.getenv("TITLE") or "").strip() or None,
+              "titel": sanitize_str((os.getenv("TITLE") or "").strip()) or None,
               "autor": parse_list(os.getenv("AUTHORS")),
               "isbn": clean_isbn(os.getenv("ISBN")),
-              "quelle": (os.getenv("SOURCE") or "").strip() or None,
+              "quelle": sanitize_str((os.getenv("SOURCE") or "").strip()) or None,
               "bewertung": parse_rating(os.getenv("RATING")),
               "tags": parse_list(os.getenv("TAGS")),
-              "notizen": (os.getenv("NOTES") or "").strip() or None,
+              "notizen": sanitize_str((os.getenv("NOTES") or "").strip()) or None,
           }
 
           if not entry.get("isbn"):
@@ -326,22 +389,28 @@ jobs:
           if len(entry["isbn"]) not in (10, 13):
               print(f"Warn: ISBN '{entry['isbn']}' hat unübliche Länge.", file=sys.stderr)
 
-          # 1) isbn.de
+          # 1) isbn.de (präferiert)
           entry = enrich_from_isbn_de(entry)
-          # 2) OpenLibrary
+          # 2) OpenLibrary (mehrere Endpunkte)
           entry = enrich_from_openlibrary(entry)
 
-          # Immer: aktuelles Eintragsdatum
+          # Datum: immer eingetragen_am; bei finished auch fertig_am (falls nicht gesetzt)
           entry["eingetragen_am"] = today_iso()
-          # Optional: Fertigstellungsdatum bei finished
           if entry.get("status") == "finished" and not entry.get("fertig_am"):
               entry["fertig_am"] = entry["eingetragen_am"]
 
           # Leere Felder entfernen
           entry = {k: v for k, v in entry.items() if v not in (None, "", [])}
 
+          # Seitenzahl am Ende nochmals absichern (falls als String reingekommen ist)
+          if "seiten" in entry:
+              n = parse_pages_any(entry["seiten"])
+              if n: entry["seiten"] = n
+              else: entry.pop("seiten", None)
+
           data = load_yaml(FILE_PATH)
 
+          # Duplikat-Check
           def is_duplicate(e):
               for d in data:
                   if e.get("isbn") and d.get("isbn") == e["isbn"]:
@@ -360,9 +429,15 @@ jobs:
               print("Eintrag wirkt wie ein Duplikat – wird nicht ergänzt.")
               sys.exit(0)
 
+          # Neueste Einträge nach oben
           data.insert(0, entry)
-          save_yaml(FILE_PATH, data)
-          print("Eintrag hinzugefügt (am Anfang von read.yml).")
+
+          try:
+              save_yaml(FILE_PATH, data)
+              print("Eintrag hinzugefügt (am Anfang von read.yml).")
+          except Exception as e:
+              print("Fehler beim Schreiben/Validieren von _data/read.yml:", e, file=sys.stderr)
+              sys.exit(1)
           PY
 
       - name: Commit & Push changes
