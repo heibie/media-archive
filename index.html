@@ -39,7 +39,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
-{% comment %} Filterlisten bauen (Liquid-kompatibel) {% endcomment %}
+{% comment %} Filterlisten bauen (inkl. eingetragen_am & gestartet_am) {% endcomment %}
 {% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
@@ -47,7 +47,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     {% assign s_arr = b.status | append: '' | split: '__' %}
     {% assign all_status = all_status | concat: s_arr %}
   {% endif %}
-  {% assign year_source = b.fertig_am | default: b.datum | default: b.hinzugefuegt_am | default: b.start_am %}
+  {% assign year_source = b.fertig_am | default: b.eingetragen_am | default: b.hinzugefuegt_am | default: b.start_am | default: b.gestartet_am | default: b.datum %}
   {% if year_source %}
     {% assign y = year_source | date: "%Y" %}
     {% assign y_arr = y | split: '__' %}
@@ -105,34 +105,35 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     {% if b.autor.size %}{% assign authors_text = b.autor | join: ", " %}{% else %}{% assign authors_text = b.autor %}{% endif %}
   {% endif %}
 
-  {% assign status = b.status | default: "" %}
-  {% assign pages = b.seiten | default: b.Seiten | default: "" %}
-  {% assign progress = b.progress | default: "" %}
+  {%- comment -%} Robust normalisierte Werte {%- endcomment -%}
+  {% assign status = b.status | downcase | strip | default: "" %}
+  {% assign pages_num = b.seiten | default: b.Seiten | default: 0 | plus: 0 %}
+  {% assign progress_num = b.progress | default: 0 | plus: 0 %}
+  {% assign rating_num = b.bewertung | replace: ",","." | default: 0 | plus: 0 %}
 
-  {% assign date_source = "" %}
-  {% if status == "finished" and b.fertig_am %}
-    {% assign date_source = b.fertig_am %}
-  {% elsif status == "currently reading" and b.start_am %}
-    {% assign date_source = b.start_am %}
-  {% elsif status == "to read" and b.hinzugefuegt_am %}
-    {% assign date_source = b.hinzugefuegt_am %}
-  {% endif %}
-  {% assign date_source = date_source | default: b.datum | default: b.fertig_am | default: b.start_am | default: b.hinzugefuegt_am %}
-  {% assign year = "" %}{% if date_source %}{% assign year = date_source | date: "%Y" %}{% endif %}
-
+  {%- comment -%} Datumsableitung je Status + Fallbacks {%- endcomment -%}
   {% assign date_label = "" %}
+  {% assign date_value = "" %}
   {% if status == "finished" %}
     {% assign date_label = "beendet" %}
-  {% elsif status == "to read" %}
+    {% assign date_value = b.fertig_am | default: b.eingetragen_am | default: b.datum %}
+  {% elsif status == "want to read" %}
     {% assign date_label = "hinzugefügt" %}
+    {% assign date_value = b.eingetragen_am | default: b.hinzugefuegt_am | default: b.datum %}
   {% elsif status == "currently reading" %}
     {% assign date_label = "gestartet" %}
+    {% assign date_value = b.start_am | default: b.gestartet_am | default: b.eingetragen_am | default: b.datum %}
+  {% else %}
+    {% assign date_value = b.eingetragen_am | default: b.fertig_am | default: b.datum %}
   {% endif %}
 
-  {% assign rating_for_sort = b.bewertung | default: 0 %}
+  {% assign year = "" %}{% if date_value %}{% assign year = date_value | date: "%Y" %}{% endif %}
+
+  {%- comment -%} Rating sortierbar; Fortschritt in % nur bei gültigen Zahlen {%- endcomment -%}
+  {% assign rating_for_sort = rating_num %}
   {% assign pct = "" %}
-  {% if status == "currently reading" and pages and pages != 0 and progress and progress != 0 %}
-    {% assign pct = progress | times: 100.0 | divided_by: pages | round %}
+  {% if status == "currently reading" and pages_num > 0 and progress_num > 0 %}
+    {% assign pct = progress_num | times: 100.0 | divided_by: pages_num | round %}
   {% endif %}
 
   <article
@@ -142,7 +143,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     data-status="{{ status | downcase | escape }}"
     data-year="{{ year }}"
     data-rating="{{ rating_for_sort }}"
-    data-date="{{ date_source }}"
+    data-date="{{ date_value }}"
   >
     <img
       loading="lazy"
@@ -157,17 +158,16 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       {% endif %}
 
       <div class="muted meta">
-        {% if date_source %}
+        {% if date_value %}
           <span>
             {% if date_label != "" %}{{ date_label }} am{% else %}am{% endif %}
-            <span class="date" data-date="{{ date_source | escape }}"></span>
+            <span class="date" data-date="{{ date_value | escape }}"></span>
           </span>
         {% endif %}
 
-        {% if b.bewertung %}
-        <span class="dot">⭐ {{ b.bewertung }}</span><br>
+        {% if rating_num > 0 %}
+          <span class="dot">⭐ {{ rating_num }}</span><br>
         {% endif %}
-
 
         {% if b.isbn %}
           <span>ISBN <a href="https://www.isbn.de/buch/{{ isbn_str | uri_escape }}/" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
@@ -181,7 +181,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       {% if pct != "" and pct > 0 and pct <= 100 %}
         <div class="progress" aria-label="Lesefortschritt">
           <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
-          <div class="muted" style="margin-top:4px">{{ progress }}/{{ pages }} Seiten ({{ pct }}%)</div>
+          <div class="muted" style="margin-top:4px">{{ progress_num }}/{{ pages_num }} Seiten ({{ pct }}%)</div>
         </div>
       {% endif %}
     </div>
