@@ -47,9 +47,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
-{%- comment -%}
-  Sammle Status- und Jahreslisten für die Filter
-{%- endcomment -%}
 {% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
@@ -72,15 +69,8 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     <label for="status">Status:</label>
     <select id="status">
       <option value="">(alle)</option>
-      {%- comment -%} Falls bestimmte Schreibweisen gewünscht sind, hier statisch setzen:
-      <option value="finished">finished</option>
-      <option value="currently reading">currently reading</option>
-      <option value="to read">to read</option>
-      {%- endcomment -%}
       {% for s in status_unique %}
-        {% if s %}
-          <option value="{{ s | escape }}">{{ s }}</option>
-        {% endif %}
+        {% if s %}<option value="{{ s | escape }}">{{ s }}</option>{% endif %}
       {% endfor %}
     </select>
   </div>
@@ -122,17 +112,9 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {%- endif -%}
 
   {%- assign status = b.status | default: "" -%}
-
   {%- assign pages = b.seiten | default: b.Seiten | default: "" -%}
   {%- assign progress = b.progress | default: "" -%}
 
-  {%- comment -%}
-    Wähle ein Datumsfeld (Fallback-Reihenfolge):
-    - finished  → fertig_am
-    - currently reading → start_am / datum
-    - to read → hinzugefuegt_am / datum
-    - generisch: datum
-  {%- endcomment -%}
   {%- assign date_source = "" -%}
   {%- if status == "finished" and b.fertig_am -%}
     {% assign date_source = b.fertig_am %}
@@ -145,7 +127,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {%- assign year = "" -%}
   {%- if date_source -%}{% assign year = date_source | date: "%Y" %}{%- endif -%}
 
-  {%- comment -%} Label-Text je Status {%- endcomment -%}
   {%- assign date_label = "" -%}
   {%- if status == "finished" -%}
     {% assign date_label = "beendet" %}
@@ -156,11 +137,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {%- endif -%}
 
   {%- assign rating = b.bewertung | default: 0 -%}
-
-  {%- comment -%}
-    Prozent für Fortschrittsbalken nur bei "currently reading".
-    Wenn Seiten/Progress fehlen oder 0 sind, zeigen wir keinen Balken.
-  {%- endcomment -%}
   {%- assign pct = "" -%}
   {%- if status == "currently reading" and pages and pages != 0 and progress and progress != 0 -%}
     {%- assign pct = progress | times: 100.0 | divided_by: pages | round -%}
@@ -171,7 +147,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     data-title="{{ b.titel | default: 'Ohne Titel' | downcase | escape }}"
     data-author="{{ authors_text | downcase | escape }}"
     data-status="{{ status | downcase | escape }}"
-    data-tags=""  {# legacy attr freigelassen #}
     data-year="{{ year }}"
     data-rating="{{ rating }}"
     data-date="{{ date_source }}"
@@ -187,15 +162,23 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       {% if authors_text != "" %}
         <div class="muted">{{ authors_text }}</div>
       {% endif %}
+
       <div class="muted meta">
         {% if date_source %}
           <span>
-            {% if date_label != "" %}{{ date_label }}{% else %}Datum{% endif %} {{ date_source }}
+            {% if date_label != "" %}{{ date_label }}{% else %}Datum{% endif %} 
+            <span class="date" data-date="{{ date_source | escape }}"></span>
           </span>
         {% endif %}
-        {% if b.bewertung %}<span class="dot">⭐ {{ b.bewertung }}</span>{% endif %}
-        {% if b.isbn %}<span class="dot">ISBN {{ b.isbn }}</span>{% endif %}
-        {% if status %}<span class="dot">{{ status }}</span>{% endif %}
+        {% if rating %}<span class="dot">⭐ {{ rating }}</span>{% endif %}
+        {% if b.isbn %}
+          <span>
+            ISBN <a href="https://www.isbn.de/search?s={{ b.isbn | uri_escape }}" target="_blank" rel="noopener">{{ b.isbn }}</a>
+          </span>
+        {% endif %}
+        {% if status %}
+          <span>Status {{ status }}</span>
+        {% endif %}
       </div>
 
       {% if pct != "" and pct > 0 and pct <= 100 %}
@@ -212,9 +195,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
           {% for t in b.tags %}<span class="badge">#{{ t }}</span>{% endfor %}
         </div>
       {% endif %}
-      {% if b.quelle %}
-        <p><a href="{{ b.quelle }}" target="_blank" rel="noopener">Quelle</a></p>
-      {% endif %}
+      {# „Quelle“-Link entfällt vollständig #}
     </div>
   </article>
 {% endfor %}
@@ -244,12 +225,15 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   const perPage = 48;
 
   function normalize(s){ return (s||"").toLowerCase(); }
+  function parseDateISO(s){ const t = Date.parse(s||""); return isNaN(t) ? 0 : t; }
 
-  function parseDateISO(s){
-    if(!s) return 0;
-    // Versuche, ISO/Datum robust zu parsen
-    const t = Date.parse(s);
-    return isNaN(t) ? 0 : t;
+  // Format deutsche Datumsanzeige
+  function formatGermanDate(iso){
+    try{
+      const d = new Date(iso);
+      if(isNaN(+d)) return iso || "";
+      return d.toLocaleDateString('de-DE', { day:'numeric', month:'long', year:'numeric' });
+    }catch(e){ return iso || ""; }
   }
 
   function applySort(list){
@@ -275,7 +259,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   }
 
   function filter(){
-    const term = normalize(document.getElementById('q')?.value || "");
+    const term = normalize(q?.value || "");
     const status = normalize(selStatus.value);
     const year = selYear.value;
     const noCover = hideNoCover.checked;
@@ -323,10 +307,16 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
   next.addEventListener('click', ()=>{ page++; filter(); });
 
-  // beim Laden No-Cover markieren
-  grid.querySelectorAll('img').forEach(img=>{
-    if(img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1'){
-      img.closest('.card').dataset.nocover='1';
+  // Markiere No-Cover und formatiere Datumsfelder
+  cards.forEach(card=>{
+    const img = card.querySelector('img');
+    if(img && (img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1')){
+      card.dataset.nocover='1';
+    }
+    const ds = card.dataset.date;
+    const dateSpan = card.querySelector('.date');
+    if(dateSpan && ds){
+      dateSpan.textContent = formatGermanDate(ds);
     }
   });
 
