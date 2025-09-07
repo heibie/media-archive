@@ -2520,20 +2520,6 @@
   verlag: Reprodukt Autor Tillie Walden erschienen am 07.08.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
-  titel: Star Wars - Thrawn
-  autor:
-  - Jody Houser
-  isbn: '9783736748552'
-  cover: https://buch.isbn.de/gross/9783736748552.jpg
-  fertig_am: '2019-11-05'
-  bewertung: 4.0
-  seiten: 148
-  erscheinungsjahr: 2019
-  quelle: https://www.goodreads.com/book/show/52292472
-  verlag: Panini Autor Houser, Jody erschienen am 24.09.2019 ISBN-10 3-7367-4855-8
-    ISBN-13 978- 3- 7367- 4855- 2 Lieferstatus Lief
-- typ: buch
-  status: finished
   titel: 'Hotel Cartagena (Chas Riley, #9)'
   autor:
   - Simone Buchholz
@@ -2570,7 +2556,7 @@
   quelle: https://medienwelten.ekz.de/product?id=pim:5cd4e9e1352df30001f152fa
 - typ: buch
   status: finished
-  titel: Thrawn
+  titel: Star Wars - Thrawn
   autor:
   - Jody Houser
   - Luke Ross
@@ -3095,7 +3081,8 @@
   titel: '1793 (Bellman noir, #1)'
   autor:
   - Niklas Natt och Dag
-  isbn: '9789137150253'
+  isbn: '9783492317931'
+  cover: https://cover.ekz.de/9783492317931.jpg
   hinzugefuegt_am: '2019-04-22'
   tags:
   - to-read
@@ -5533,28 +5520,14 @@
   sprache: fr
 - typ: buch
   status: finished
-  titel: DieFürsten vom Djebel
+  titel: 'Lockruf Tanger (Marokkanischer Frühling, #1)'
   autor:
   - Fabien Bedouel
   - Merwan
   - Maurin Defrance
   - Fabien Nury
-  isbn: '9783946337096'
-  cover: https://cover.ekz.de/9783946337096.jpg
-  fertig_am: '2016-12-11'
-  bewertung: 4.0
-  seiten: 54
-  erscheinungsjahr: 2014
-  quelle: https://www.goodreads.com/book/show/25733094
-- typ: buch
-  status: finished
-  titel: 'L''appel du large (L''or et le sang, #1)'
-  autor:
-  - Fabien Bedouel
-  - Merwan
-  - Maurin Defrance
-  - Fabien Nury
-  isbn: '9782344004401'
+  isbn: '9783943808889'
+  cover: https://cover.ekz.de/9783943808889.jpg
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 54
@@ -5565,13 +5538,14 @@
     00440- 1 Lieferstatus Lieferant anfragen Prei
 - typ: buch
   status: finished
-  titel: 'Inch''allah (L''or et le sang, #2)'
+  titel: 'Inch''allah (Marokkanischer Frühling, #2)'
   autor:
   - Fabien Bedouel
   - Merwan
   - Maurin Defrance
   - Fabien Nury
   isbn: '9782344004418'
+  cover: https://m.media-amazon.com/images/I/51PhQ802BGL._SL500_.jpg
   fertig_am: '2016-12-11'
   seiten: 54
   erscheinungsjahr: 2014
@@ -5600,7 +5574,7 @@
     am 19.09.2016 Rubrik Graphic Novels, Com
 - typ: buch
   status: finished
-  titel: DieFürsten vom Djebel
+  titel: Die Fürsten vom Djebel
   autor:
   - Maurin Defrance
   - Fabien Nury
