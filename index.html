@@ -1,284 +1,433 @@
----
-layout: default
-title: Bücher
----
+name: Add Book
 
-<style>
-:root{
-  --gap:16px; --muted:#6b7280; --border:#e5e7eb; --chip:#eef2ff;
-  --bar:#e5e7eb; --bar-fill:#6366f1;
-}
-.controls{margin:10px 0 20px 0; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
-.controls .group{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
-.controls label{font-size:14px; color:var(--muted)}
-.controls input[type="search"], .controls select{padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px}
-.controls .toggle{display:flex; gap:6px; align-items:center; font-size:14px; color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--gap)}
-.card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff; display:flex; flex-direction:column}
-.card img{width:100%;height:320px;object-fit:cover;background:#f3f4f6}
-.card .body{padding:12px}
-.muted{color:var(--muted);font-size:14px}
-h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
-.meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
-.meta .dot::before{content:""; margin:0; color:var(--muted)}
-.progress{margin-top:8px}
-.progress .track{width:100%; height:10px; background:var(--bar); border-radius:999px; overflow:hidden}
-.progress .fill{height:100%; background:var(--bar-fill); width:0%}
-.pager{display:flex; gap:8px; justify-content:center; margin:20px 0 0}
-.pager button{padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer}
-.pager button[disabled]{opacity:.5; cursor:not-allowed}
-</style>
+on:
+  workflow_dispatch:
+    inputs:
+      isbn:
+        description: "ISBN (10 oder 13) – reicht aus, Rest wird automatisch ergänzt"
+        required: true
+        type: string
+      title:
+        description: "Buchtitel (optional, überschreibt Auto-Erkennung)"
+        required: false
+        type: string
+      authors:
+        description: "Autor:innen (kommagetrennt, optional – überschreibt Auto-Erkennung)"
+        required: false
+        type: string
+      source:
+        description: "Quelle/Link (optional)"
+        required: false
+        type: string
+      rating:
+        description: "Bewertung (z.B. 4 oder 4,5)"
+        required: false
+        type: string
+      tags:
+        description: "Tags (kommagetrennt, optional)"
+        required: false
+        type: string
+      notes:
+        description: "Notizen (optional)"
+        required: false
+        type: string
+      status:
+        description: "Lese-Status"
+        required: false
+        default: "want to read"
+        type: choice
+        options:
+          - "currently reading"
+          - "finished"
+          - "want to read"
 
-<h1>📚 Gelesene Bücher</h1>
+jobs:
+  add-book:
+    runs-on: ubuntu-latest
 
-<div class="controls muted">
-  <small>Quelle: <code>_data/read.yml</code> • neueste zuerst</small>
-</div>
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-{% assign books_all = site.data.read | default: empty %}
-{% assign books = books_all | where: "typ", "buch" %}
-{% assign books = books | sort: "fertig_am" | reverse %}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-{% comment %} Filterlisten bauen (inkl. eingetragen_am & gestartet_am) {% endcomment %}
-{% assign all_status = "" | split: "" %}
-{% assign all_years = "" | split: "" %}
-{% for b in books %}
-  {% if b.status %}
-    {% assign s_arr = b.status | append: '' | split: '__' %}
-    {% assign all_status = all_status | concat: s_arr %}
-  {% endif %}
-  {% assign year_source = b.fertig_am | default: b.eingetragen_am | default: b.hinzugefuegt_am | default: b.start_am | default: b.gestartet_am | default: b.datum %}
-  {% if year_source %}
-    {% assign y = year_source | date: "%Y" %}
-    {% assign y_arr = y | split: '__' %}
-    {% assign all_years = all_years | concat: y_arr %}
-  {% endif %}
-{% endfor %}
-{% assign status_unique = all_status | uniq | sort %}
-{% assign years_unique = all_years | uniq | sort | reverse %}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml beautifulsoup4 lxml
 
-<div class="controls">
-  <div class="group">
-    <label for="q">Suche:</label>
-    <input id="q" type="search" placeholder="Titel oder Autor…">
-  </div>
-  <div class="group">
-    <label for="status">Status:</label>
-    <select id="status">
-      <option value="">(alle)</option>
-      {% for s in status_unique %}{% if s %}<option value="{{ s | escape }}">{{ s }}</option>{% endif %}{% endfor %}
-    </select>
-  </div>
-  <div class="group">
-    <label for="year">Jahr:</label>
-    <select id="year">
-      <option value="">(alle)</option>
-      {% for y in years_unique %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
-    </select>
-  </div>
-  <div class="group">
-    <label for="sort">Sortierung:</label>
-    <select id="sort">
-      <option value="newest">Neueste zuerst</option>
-      <option value="oldest">Älteste zuerst</option>
-      <option value="rating_desc">Bewertung ↓</option>
-      <option value="rating_asc">Bewertung ↑</option>
-      <option value="title_asc">Titel A–Z</option>
-      <option value="title_desc">Titel Z–A</option>
-    </select>
-  </div>
-  <label class="toggle">
-    <input id="hide-nocover" type="checkbox"> ohne Cover ausblenden
-  </label>
-</div>
+      - name: Add book to _data/read.yml
+        env:
+          TITLE: ${{ inputs.title }}
+          AUTHORS: ${{ inputs.authors }}
+          ISBN: ${{ inputs.isbn }}
+          SOURCE: ${{ inputs.source }}
+          RATING: ${{ inputs.rating }}
+          TAGS: ${{ inputs.tags }}
+          NOTES: ${{ inputs.notes }}
+          STATUS: ${{ inputs.status }}
+        run: |
+          python - <<'PY'
+          import os, sys, re, json, urllib.request, urllib.error
+          from datetime import date
+          import yaml
+          from bs4 import BeautifulSoup
 
-<div id="grid" class="grid">
-{% for b in books %}
-  {% assign cover = b.cover %}
-  {% assign isbn_str = b.isbn | append: '' %}
-  {% if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn %}
-    {% assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" %}
-  {% endif %}
+          FILE_PATH = "_data/read.yml"
 
-  {% assign authors_text = "" %}
-  {% if b.autor %}
-    {% if b.autor.size %}{% assign authors_text = b.autor | join: ", " %}{% else %}{% assign authors_text = b.autor %}{% endif %}
-  {% endif %}
+          # ------------ Utilities ------------
+          def today_iso():
+              return date.today().isoformat()
 
-  {%- comment -%} Robust normalisierte Werte {%- endcomment -%}
-  {% assign status = b.status | downcase | strip | default: "" %}
-  {% assign pages_num = b.seiten | default: b.Seiten | default: 0 | plus: 0 %}
-  {% assign progress_num = b.progress | default: 0 | plus: 0 %}
-  {% assign rating_num = b.bewertung | replace: ",","." | default: 0 | plus: 0 %}
+          def sanitize_str(s: str) -> str:
+              if s is None: return None
+              # Entferne Nullbytes, ersetze Tabs mit 2 Spaces, normalisiere Zeilenumbrüche
+              s = s.replace("\x00", "")
+              s = s.replace("\t", "  ")
+              s = s.replace("\r\n", "\n").replace("\r", "\n")
+              # trimme überlange Whitespace-Folgen am Zeilenende
+              s = "\n".join(line.rstrip() for line in s.split("\n"))
+              return s
 
-  {%- comment -%} Datumsableitung je Status + Fallbacks {%- endcomment -%}
-  {% assign date_label = "" %}
-  {% assign date_value = "" %}
-  {% if status == "finished" %}
-    {% assign date_label = "beendet" %}
-    {% assign date_value = b.fertig_am | default: b.eingetragen_am | default: b.datum %}
-  {% elsif status == "want to read" %}
-    {% assign date_label = "hinzugefügt" %}
-    {% assign date_value = b.eingetragen_am | default: b.hinzugefuegt_am | default: b.datum %}
-  {% elsif status == "currently reading" %}
-    {% assign date_label = "gestartet" %}
-    {% assign date_value = b.start_am | default: b.gestartet_am | default: b.eingetragen_am | default: b.datum %}
-  {% else %}
-    {% assign date_value = b.eingetragen_am | default: b.fertig_am | default: b.datum %}
-  {% endif %}
+          def parse_list(val):
+              if not val:
+                  return None
+              items = [sanitize_str(x.strip()) for x in re.split(r"[;,]", val) if x.strip()]
+              return [i for i in items if i] or None
 
-  {% assign year = "" %}{% if date_value %}{% assign year = date_value | date: "%Y" %}{% endif %}
+          def clean_isbn(s):
+              if not s:
+                  return None
+              s = re.sub(r"[^0-9Xx]", "", s).upper()
+              return s or None
 
-  {%- comment -%} Rating sortierbar; Fortschritt in % nur bei gültigen Zahlen {%- endcomment -%}
-  {% assign rating_for_sort = rating_num %}
-  {% assign pct = "" %}
-  {% if status == "currently reading" and pages_num > 0 and progress_num > 0 %}
-    {% assign pct = progress_num | times: 100.0 | divided_by: pages_num | round %}
-  {% endif %}
+          def parse_rating(s):
+              if not s:
+                  return None
+              s = sanitize_str(s).strip().replace(",", ".")
+              try:
+                  return float(s)
+              except ValueError:
+                  return None
 
-  <article
-    class="card"
-    data-title="{{ b.titel | default: 'Ohne Titel' | downcase | escape }}"
-    data-author="{{ authors_text | downcase | escape }}"
-    data-status="{{ status | downcase | escape }}"
-    data-year="{{ year }}"
-    data-rating="{{ rating_for_sort }}"
-    data-date="{{ date_value }}"
-  >
-    <img
-      loading="lazy"
-      src="{{ cover | default: '/assets/placeholder.png' | relative_url }}"
-      alt="Cover"
-      onerror="this.onerror=null; this.dataset.error=1; this.src='{{ '/assets/placeholder.png' | relative_url }}'; this.closest('.card').dataset.nocover='1'; if(document.getElementById('hide-nocover')?.checked){ this.closest('.card').style.display='none'; }"
-    >
-    <div class="body">
-      <h2 title="{{ b.titel | escape }}">{{ b.titel | default: "Ohne Titel" }}</h2>
-      {% if authors_text != "" %}
-        <div class="muted">{{ authors_text }}</div>
-      {% endif %}
+          def norm(s):
+              return re.sub(r"\s+", " ", (s or "").strip().lower())
 
-      <div class="muted meta">
-        {% if date_value %}
-          <span>
-            {% if date_label != "" %}{{ date_label }} am{% else %}am{% endif %}
-            <span class="date" data-date="{{ date_value | escape }}"></span>
-          </span>
-        {% endif %}
+          def load_yaml(path):
+              if not os.path.exists(path):
+                  return []
+              with open(path, "r", encoding="utf-8") as f:
+                  data = yaml.safe_load(f) or []
+                  if not isinstance(data, list):
+                      raise ValueError("read.yml ist kein Listenformat.")
+                  return data
 
-        {% if rating_num > 0 %}
-          <span class="dot">⭐ {{ rating_num }}</span><br>
-        {% endif %}
+          # String-Quoting erzwingen (alle Strings in doppelte Anführungszeichen)
+          class _QuotedDumper(yaml.SafeDumper):
+              pass
 
-        {% if b.isbn %}
-          <span>ISBN <a href="https://www.isbn.de/buch/{{ isbn_str | uri_escape }}/" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
-        {% endif %}
+          def _str_representer(dumper, data):
+              return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
 
-        {% if status %}
-          <span>Status: {{ status }}</span>
-        {% endif %}
-      </div>
+          _QuotedDumper.add_representer(str, _str_representer)
 
-      {% if pct != "" and pct > 0 and pct <= 100 %}
-        <div class="progress" aria-label="Lesefortschritt">
-          <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
-          <div class="muted" style="margin-top:4px">{{ progress_num }}/{{ pages_num }} Seiten ({{ pct }}%)</div>
-        </div>
-      {% endif %}
-    </div>
-  </article>
-{% endfor %}
-</div>
+          def save_yaml(path, data):
+              # vor dem Dump alle Strings sanitisieren
+              def sanitize_obj(obj):
+                  if isinstance(obj, dict):
+                      return {k: sanitize_obj(v) for k, v in obj.items()}
+                  if isinstance(obj, list):
+                      return [sanitize_obj(v) for v in obj]
+                  if isinstance(obj, str):
+                      return sanitize_str(obj)
+                  return obj
 
-<div class="pager" id="pager" hidden>
-  <button id="prev" disabled>Zurück</button>
-  <span id="pageinfo" class="muted"></span>
-  <button id="next">Weiter</button>
-</div>
+              safe_data = sanitize_obj(data)
+              with open(path, "w", encoding="utf-8") as f:
+                  yaml.safe_dump(
+                      safe_data, f,
+                      allow_unicode=True,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      explicit_start=True,
+                      Dumper=_QuotedDumper
+                  )
 
-<script>
-(function(){
-  const q = document.getElementById('q');
-  const selStatus = document.getElementById('status');
-  const selYear = document.getElementById('year');
-  const selSort = document.getElementById('sort');
-  const hideNoCover = document.getElementById('hide-nocover');
-  const grid = document.getElementById('grid');
-  const cards = Array.from(grid.querySelectorAll('.card'));
-  const pager = document.getElementById('pager');
-  const prev = document.getElementById('prev');
-  const next = document.getElementById('next');
-  const pageinfo = document.getElementById('pageinfo');
+              # Direkt wieder einlesen, um Gültigkeit sicherzustellen
+              try:
+                  with open(path, "r", encoding="utf-8") as f2:
+                      _ = yaml.safe_load(f2)
+              except yaml.YAMLError as e:
+                  # Kontext um die fehlerhafte Stelle ausgeben
+                  print("YAML-Validierung fehlgeschlagen:", file=sys.stderr)
+                  try:
+                      mark = e.problem_mark
+                      line = getattr(mark, 'line', None)
+                      if line is not None:
+                          with open(path, "r", encoding="utf-8") as rf:
+                              lines = rf.read().splitlines()
+                          start = max(0, line-5); end = min(len(lines), line+6)
+                          snippet = "\n".join(f"{i+1:>5}: {lines[i]}" for i in range(start, end))
+                          print(snippet, file=sys.stderr)
+                  except Exception:
+                      pass
+                  raise
 
-  let page = 1;
-  const perPage = 48;
+          def http_get(url, timeout=20):
+              req = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "Mozilla/5.0 (compatible; HeikoAddBookBot/1.0)"},
+              )
+              with urllib.request.urlopen(req, timeout=timeout) as resp:
+                  return resp.read(), resp.geturl()
 
-  function normalize(s){ return (s||"").toLowerCase(); }
-  function parseDateISO(s){ const t = Date.parse(s||""); return isNaN(t) ? 0 : t; }
-  function formatGermanDate(iso){
-    try{ const d = new Date(iso); if(isNaN(+d)) return iso||""; return d.toLocaleDateString('de-DE',{day:'numeric',month:'long',year:'numeric'}); }
-    catch(e){ return iso||""; }
-  }
+          # ------------ ISBN utils ------------
+          def isbn10_to13(isbn10):
+              base = "978" + isbn10[:-1]
+              total = 0
+              for i, ch in enumerate(base):
+                  total += int(ch) * (1 if i % 2 == 0 else 3)
+              check = (10 - (total % 10)) % 10
+              return base + str(check)
 
-  function applySort(list){
-    const mode = selSort.value;
-    return list.sort((a,b)=>{
-      if(mode==='newest'||mode==='oldest'){
-        const da=parseDateISO(a.dataset.date), db=parseDateISO(b.dataset.date);
-        return mode==='newest' ? (db-da) : (da-db);
-      }
-      if(mode==='rating_desc'||mode==='rating_asc'){
-        const ra=parseFloat(a.dataset.rating||0), rb=parseFloat(b.dataset.rating||0);
-        return mode==='rating_desc' ? (rb-ra) : (ra-rb);
-      }
-      if(mode==='title_asc'||mode==='title_desc'){
-        const ta=a.dataset.title||'', tb=b.dataset.title||'';
-        return mode==='title_asc' ? ta.localeCompare(tb) : tb.localeCompare(ta);
-      }
-      return 0;
-    });
-  }
+          def ensure_isbn13(isbn):
+              if not isbn: 
+                  return None
+              if len(isbn) == 13:
+                  return isbn
+              if len(isbn) == 10:
+                  return isbn10_to13(isbn)
+              return isbn
 
-  function filter(){
-    const term = normalize(q?.value||"");
-    const status = normalize(selStatus.value);
-    const year = selYear.value;
-    const noCover = hideNoCover.checked;
+          # ------------ OpenLibrary ------------
+          def fetch_openlibrary_data(isbn):
+              url = f"https://openlibrary.org/api/books?bibkeys=ISBN:{isbn}&format=json&jscmd=data"
+              try:
+                  body, _ = http_get(url, timeout=15)
+                  data = json.loads(body.decode("utf-8"))
+                  return data.get(f"ISBN:{isbn}") or {}
+              except Exception as e:
+                  print(f"OpenLibrary Fehler: {e}", file=sys.stderr)
+                  return {}
 
-    let visible = cards.filter(card=>{
-      if(noCover && card.dataset.nocover==='1') return false;
-      const t=card.dataset.title, a=card.dataset.author;
-      if(term && !(t.includes(term)||a.includes(term))) return false;
-      if(status){ const s=(card.dataset.status||''); if(s!==status) return false; }
-      if(year && card.dataset.year!==year) return false;
-      return true;
-    });
+          def enrich_from_openlibrary(entry):
+              isbn = entry.get("isbn")
+              if not isbn:
+                  return entry
+              data = fetch_openlibrary_data(isbn)
+              if not data:
+                  return entry
 
-    visible = applySort(visible);
+              if not entry.get("titel"):
+                  t = sanitize_str((data.get("title") or "").strip())
+                  if t:
+                      entry["titel"] = t
 
-    const total = visible.length, pages = Math.max(1, Math.ceil(total/perPage));
-    if(page>pages) page=pages;
+              if not entry.get("autor"):
+                  authors = data.get("authors") or []
+                  names = [sanitize_str(a.get("name", "").strip()) for a in authors if a.get("name")]
+                  names = [n for n in names if n]
+                  if names:
+                      entry["autor"] = names
 
-    cards.forEach(c=>c.style.display='none');
-    const start=(page-1)*perPage, end=start+perPage;
-    visible.slice(start,end).forEach(c=>c.style.display='flex');
+              if "cover" not in entry:
+                  cover = data.get("cover") or {}
+                  for k in ("large", "medium", "small"):
+                      if cover.get(k):
+                          entry["cover"] = sanitize_str(cover[k])
+                          break
+                  if "cover" not in entry:
+                      entry["cover"] = f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg"
 
-    if(total>perPage){
-      pager.hidden=false; prev.disabled=(page<=1); next.disabled=(page>=pages);
-      pageinfo.textContent=`Seite ${page} / ${pages} • ${total} Treffer`;
-    }else{ pager.hidden=true; }
-  }
+              if not entry.get("verlag"):
+                  publishers = data.get("publishers") or []
+                  pubs = [p.get("name", "").strip() if isinstance(p, dict) else str(p).strip() for p in publishers]
+                  pubs = [sanitize_str(p) for p in pubs if p]
+                  if pubs:
+                      entry["verlag"] = pubs[0]
 
-  [q, selStatus, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
-  prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
-  next.addEventListener('click', ()=>{ page++; filter(); });
+              if not entry.get("erscheinungsjahr"):
+                  pub_date = sanitize_str((data.get("publish_date") or "").strip())
+                  m = re.search(r"(\d{4})", pub_date or "")
+                  if m:
+                      entry["erscheinungsjahr"] = m.group(1)
 
-  // Markierungen & deutsches Datum einsetzen
-  cards.forEach(card=>{
-    const img=card.querySelector('img');
-    if(img && (img.currentSrc.includes('/assets/placeholder.png')||img.dataset.error==='1')) card.dataset.nocover='1';
-    const ds=card.dataset.date, dateSpan=card.querySelector('.date'); if(dateSpan&&ds){ dateSpan.textContent=formatGermanDate(ds); }
-  });
+              if not entry.get("seiten"):
+                  num_pages = data.get("number_of_pages")
+                  if isinstance(num_pages, int) and num_pages > 0:
+                      entry["seiten"] = num_pages
 
-  filter();
-})();
-</script>
+              return entry
+
+          # ------------ isbn.de ------------
+          def parse_json_ld_book(soup):
+              for tag in soup.find_all("script", {"type": "application/ld+json"}):
+                  try:
+                      data = json.loads(tag.string or tag.get_text() or "")
+                  except Exception:
+                      continue
+                  candidates = data if isinstance(data, list) else [data]
+                  for obj in candidates:
+                      if not isinstance(obj, dict):
+                          continue
+                      t = obj.get("@type")
+                      if (isinstance(t, list) and "Book" in t) or t == "Book":
+                          out = {}
+                          name = obj.get("name") or obj.get("headline") or ""
+                          if isinstance(name, str) and name.strip():
+                              out["titel"] = sanitize_str(name.strip())
+                          authors = obj.get("author")
+                          names = []
+                          if isinstance(authors, list):
+                              for a in authors:
+                                  if isinstance(a, dict):
+                                      n = a.get("name")
+                                      if n: names.append(sanitize_str(n.strip()))
+                                  elif isinstance(a, str):
+                                      names.append(sanitize_str(a.strip()))
+                          elif isinstance(authors, dict):
+                              n = authors.get("name")
+                              if n: names.append(sanitize_str(n.strip()))
+                          elif isinstance(authors, str):
+                              names.append(sanitize_str(authors.strip()))
+                          if names:
+                              out["autor"] = names
+                          image = obj.get("image")
+                          if isinstance(image, str) and image.strip():
+                              out["cover"] = sanitize_str(image.strip())
+                          publisher = obj.get("publisher")
+                          if isinstance(publisher, dict):
+                              n = publisher.get("name")
+                              if n: out["verlag"] = sanitize_str(n.strip())
+                          elif isinstance(publisher, str) and publisher.strip():
+                              out["verlag"] = sanitize_str(publisher.strip())
+                          date_pub = obj.get("datePublished")
+                          if isinstance(date_pub, str):
+                              m = re.search(r"(\d{4})", date_pub)
+                              if m:
+                                  out["erscheinungsjahr"] = m.group(1)
+                          pages = obj.get("numberOfPages")
+                          if isinstance(pages, int) and pages > 0:
+                              out["seiten"] = pages
+                          return out
+              return {}
+
+          def enrich_from_isbn_de(entry):
+              raw_isbn = entry.get("isbn")
+              if not raw_isbn:
+                  return entry
+              isbn13 = ensure_isbn13(raw_isbn)
+              url = f"https://www.isbn.de/buch/{isbn13}/"
+              try:
+                  body, _ = http_get(url, timeout=20)
+                  html = body.decode("utf-8", errors="ignore")
+                  soup = BeautifulSoup(html, "lxml")
+                  meta = parse_json_ld_book(soup)
+
+                  og_title = soup.find("meta", property="og:title")
+                  if og_title and not meta.get("titel"):
+                      t = og_title.get("content")
+                      if t: meta["titel"] = sanitize_str(t.strip())
+
+                  og_image = soup.find("meta", property="og:image")
+                  if og_image and not meta.get("cover"):
+                      img = og_image.get("content")
+                      if img: meta["cover"] = sanitize_str(img.strip())
+
+                  if "cover" in meta:
+                      lower = (meta["cover"] or "").lower()
+                      if ("nopic.png" in lower) or ("placeholder.png" in lower):
+                          meta.pop("cover", None)
+
+                  for k, v in meta.items():
+                      if v in (None, "", []):
+                          continue
+                      if k not in entry or not entry.get(k):
+                          entry[k] = v
+
+              except urllib.error.HTTPError as e:
+                  print(f"isbn.de HTTPError: {e}", file=sys.stderr)
+              except urllib.error.URLError as e:
+                  print(f"isbn.de URLError: {e}", file=sys.stderr)
+              except Exception as e:
+                  print(f"isbn.de Parsing-Fehler: {e}", file=sys.stderr)
+
+              return entry
+
+          # ------------ Inputs lesen ------------
+          entry = {
+              "typ": "buch",
+              "status": (os.getenv("STATUS") or "want to read").strip(),
+              "titel": sanitize_str((os.getenv("TITLE") or "").strip()) or None,
+              "autor": parse_list(os.getenv("AUTHORS")),
+              "isbn": clean_isbn(os.getenv("ISBN")),
+              "quelle": sanitize_str((os.getenv("SOURCE") or "").strip()) or None,
+              "bewertung": parse_rating(os.getenv("RATING")),
+              "tags": parse_list(os.getenv("TAGS")),
+              "notizen": sanitize_str((os.getenv("NOTES") or "").strip()) or None,
+          }
+
+          if not entry.get("isbn"):
+              print("Fehler: ISBN ist erforderlich.", file=sys.stderr)
+              sys.exit(1)
+
+          if len(entry["isbn"]) not in (10, 13):
+              print(f"Warn: ISBN '{entry['isbn']}' hat unübliche Länge.", file=sys.stderr)
+
+          # 1) isbn.de
+          entry = enrich_from_isbn_de(entry)
+          # 2) OpenLibrary
+          entry = enrich_from_openlibrary(entry)
+
+          # Datum: immer eingetragen_am; bei finished auch fertig_am (falls nicht gesetzt)
+          entry["eingetragen_am"] = today_iso()
+          if entry.get("status") == "finished" and not entry.get("fertig_am"):
+              entry["fertig_am"] = entry["eingetragen_am"]
+
+          # Leere Felder entfernen
+          entry = {k: v for k, v in entry.items() if v not in (None, "", [])}
+
+          data = load_yaml(FILE_PATH)
+
+          # Duplikat-Check
+          def is_duplicate(e):
+              for d in data:
+                  if e.get("isbn") and d.get("isbn") == e["isbn"]:
+                      return True
+                  if e.get("quelle") and d.get("quelle") == e["quelle"]:
+                      return True
+                  if not e.get("isbn"):
+                      if norm(d.get("titel")) == norm(e.get("titel")):
+                          a_e = ", ".join(e.get("autor") or [])
+                          a_d = ", ".join(d.get("autor") or [])
+                          if norm(a_e) == norm(a_d) and a_e:
+                              return True
+              return False
+
+          if is_duplicate(entry):
+              print("Eintrag wirkt wie ein Duplikat – wird nicht ergänzt.")
+              sys.exit(0)
+
+          # Neueste Einträge nach oben
+          data.insert(0, entry)
+
+          # Speichern + Validieren
+          try:
+              save_yaml(FILE_PATH, data)
+              print("Eintrag hinzugefügt (am Anfang von read.yml).")
+          except Exception as e:
+              print("Fehler beim Schreiben/Validieren von _data/read.yml:", e, file=sys.stderr)
+              sys.exit(1)
+          PY
+
+      - name: Commit & Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
+          git add _data/read.yml
+          git commit -m "Add book to read.yml" || echo "Nothing to commit"
+          git push || true
