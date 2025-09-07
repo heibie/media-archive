@@ -267,6 +267,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
     const year = selYear.value;
     const noCover = hideNoCover.checked;
 
+    // 1) filtern
     let visible = cards.filter(card=>{
       if(noCover && card.dataset.nocover==='1') return false;
       const t=card.dataset.title, a=card.dataset.author;
@@ -276,27 +277,39 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
       return true;
     });
 
+    // 2) sortieren (Pinned → oben, dann gewählte Sortierung)
     visible = applySort(visible);
 
+    // 3) DOM-REIHENFOLGE ANPASSEN (entscheidend!)
+    //    Wir hängen die sichtbaren Karten in dieser Reihenfolge ans Grid (move operation).
+    visible.forEach(el => grid.appendChild(el));
+
+    // 4) Pagination + Sichtbarkeit
     const total = visible.length, pages = Math.max(1, Math.ceil(total/perPage));
     if(page>pages) page=pages;
 
+    // alles ausblenden
     cards.forEach(c=>c.style.display='none');
+
+    // nur die aktuelle Seite einblenden
     const start=(page-1)*perPage, end=start+perPage;
     visible.slice(start,end).forEach(c=>c.style.display='flex');
 
     if(total>perPage){
       pager.hidden=false; prev.disabled=(page<=1); next.disabled=(page>=pages);
       pageinfo.textContent=`Seite ${page} / ${pages} • ${total} Treffer`;
-    }else{ pager.hidden=true; }
+    }else{
+      pager.hidden=true;
+    }
   }
 
   [q, selStatus, selYear, selSort, hideNoCover].forEach(el=>el.addEventListener('input', ()=>{ page=1; filter(); }));
   prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
   next.addEventListener('click', ()=>{ page++; filter(); });
 
-  // Markierungen & deutsches Datum einsetzen
-  cards.forEach(card=>{
+  // Markierungen & deutsches Datum einsetzen (unverändert)
+  const cardsAll = Array.from(grid.querySelectorAll('.card'));
+  cardsAll.forEach(card=>{
     const img=card.querySelector('img');
     if(img && (img.currentSrc.includes('/assets/placeholder.png')||img.dataset.error==='1')) card.dataset.nocover='1';
     const ds=card.dataset.date, dateSpan=card.querySelector('.date'); if(dateSpan&&ds){ dateSpan.textContent=formatGermanDate(ds); }
@@ -305,3 +318,4 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   filter();
 })();
 </script>
+
