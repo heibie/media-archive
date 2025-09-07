@@ -130,7 +130,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   {% endif %}
 
   {% assign rating_for_sort = b.bewertung | default: 0 %}
-  {% assign rating_text = b.bewertung | append: '' %} {# leer wenn kein Rating #}
   {% assign pct = "" %}
   {% if status == "currently reading" and pages and pages != 0 and progress and progress != 0 %}
     {% assign pct = progress | times: 100.0 | divided_by: pages | round %}
@@ -165,9 +164,10 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
           </span>
         {% endif %}
 
-        {% if rating_text != "" %}
-          <span class="dot">⭐ {{ rating_text }}</span><br>
+        {% if b.bewertung %}
+        <span class="dot">⭐ {{ b.bewertung }}</span><br>
         {% endif %}
+
 
         {% if b.isbn %}
           <span>ISBN <a href="https://www.isbn.de/buch/{{ isbn_str | uri_escape }}/" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
