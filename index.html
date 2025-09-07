@@ -47,14 +47,19 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 {% assign books = books_all | where: "typ", "buch" %}
 {% assign books = books | sort: "fertig_am" | reverse %}
 
+{%- comment -%} Status- und Jahreslisten aufbauen (ohne 'push', mit 'concat') {%- endcomment -%}
 {% assign all_status = "" | split: "" %}
 {% assign all_years = "" | split: "" %}
 {% for b in books %}
-  {% if b.status %}{% assign all_status = all_status | push: b.status %}{% endif %}
+  {% if b.status %}
+    {% assign s_arr = b.status | append: '' | split: '__' %}
+    {% assign all_status = all_status | concat: s_arr %}
+  {% endif %}
   {% assign year_source = b.fertig_am | default: b.datum | default: b.hinzugefuegt_am | default: b.start_am %}
   {% if year_source %}
     {% assign y = year_source | date: "%Y" %}
-    {% assign all_years = all_years | push: y %}
+    {% assign y_arr = y | split: '__' %}
+    {% assign all_years = all_years | concat: y_arr %}
   {% endif %}
 {% endfor %}
 {% assign status_unique = all_status | uniq | sort %}
@@ -102,8 +107,9 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
 <div id="grid" class="grid">
 {% for b in books %}
   {%- assign cover = b.cover -%}
+  {%- assign isbn_str = b.isbn | append: '' -%} {# cast ISBN zu String #}
   {%- if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn -%}
-    {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: b.isbn | append: "-L.jpg" -%}
+    {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" -%}
   {%- endif -%}
 
   {%- assign authors_text = "" -%}
@@ -172,9 +178,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
         {% endif %}
         {% if rating %}<span class="dot">⭐ {{ rating }}</span>{% endif %}
         {% if b.isbn %}
-          <span>
-            ISBN <a href="https://www.isbn.de/search?s={{ b.isbn | uri_escape }}" target="_blank" rel="noopener">{{ b.isbn }}</a>
-          </span>
+          <span>ISBN <a href="https://www.isbn.de/search?s={{ isbn_str | uri_escape }}" target="_blank" rel="noopener">{{ isbn_str }}</a></span>
         {% endif %}
         {% if status %}
           <span>Status {{ status }}</span>
@@ -195,7 +199,6 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
           {% for t in b.tags %}<span class="badge">#{{ t }}</span>{% endfor %}
         </div>
       {% endif %}
-      {# „Quelle“-Link entfällt vollständig #}
     </div>
   </article>
 {% endfor %}
@@ -227,7 +230,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   function normalize(s){ return (s||"").toLowerCase(); }
   function parseDateISO(s){ const t = Date.parse(s||""); return isNaN(t) ? 0 : t; }
 
-  // Format deutsche Datumsanzeige
+  // deutsches Datum rendern
   function formatGermanDate(iso){
     try{
       const d = new Date(iso);
@@ -307,7 +310,7 @@ h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
   prev.addEventListener('click', ()=>{ if(page>1){ page--; filter(); }});
   next.addEventListener('click', ()=>{ page++; filter(); });
 
-  // Markiere No-Cover und formatiere Datumsfelder
+  // No-Cover markieren + deutsches Datum einsetzen
   cards.forEach(card=>{
     const img = card.querySelector('img');
     if(img && (img.currentSrc.includes('/assets/placeholder.png') || img.dataset.error === '1')){
