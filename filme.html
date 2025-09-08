@@ -4,49 +4,36 @@ title: Filme
 permalink: /filme/
 ---
 
-<style>
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 1rem; }
-  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
-  .card img { width: 100%; height: 330px; object-fit: cover; background: #f3f4f6; }
-  .card-body { padding: .75rem .9rem; font-size: .95rem; }
-  .muted { color: #6b7280; font-size: .85rem; }
-  .pill { display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:#eef2ff; color:#3730a3; }
-  .toolbar { display:flex; gap:.75rem; align-items:center; margin: 1rem 0; flex-wrap: wrap; }
-  .toolbar input { padding:.5rem .6rem; border:1px solid #e5e7eb; border-radius: 8px; min-width: 220px; }
-  .toolbar select { padding:.45rem .6rem; border:1px solid #e5e7eb; border-radius:8px; }
-</style>
+<h1>🎬 Filme</h1>
+<p class="muted">Quelle: <code>_data/watched_movies.yml</code> • neueste zuerst</p>
 
-<h1>Filme</h1>
-<p class="muted">Quelle: Trakt → YAML. Angezeigt nach <em>gesehen am</em> (neu → alt).</p>
-
-<div class="toolbar">
-  <input id="q" type="search" placeholder="Suche nach Titel …" aria-label="Suche">
-  <select id="year">
-    <option value="">Jahr (alle)</option>
-    {% assign years = site.data.watched_movies | map: "year" | uniq | sort %}
-    {% for y in years %}
-      {% if y %}<option value="{{ y }}">{{ y }}</option>{% endif %}
-    {% endfor %}
-  </select>
-  <span class="muted pill" id="count"></span>
+<div class="controls">
+  <div class="group">
+    <label for="q">Suche:</label>
+    <input id="q" type="search" placeholder="Titel …">
+  </div>
+  <div class="group">
+    <label for="year">Jahr:</label>
+    <select id="year">
+      <option value="">(alle)</option>
+      {% assign years = site.data.watched_movies | map: "year" | uniq | sort %}
+      {% for y in years %}{% if y %}<option value="{{ y }}">{{ y }}</option>{% endif %}{% endfor %}
+    </select>
+  </div>
+  <span class="pill muted" id="count"></span>
 </div>
 
 <div id="movies" class="grid">
   {% assign movies = site.data.watched_movies %}
   {% for m in movies %}
-  <article class="card" 
-           data-title="{{ m.title | downcase }}" 
-           data-year="{{ m.year }}" 
-           data-date="{{ m.watched_on }}">
-    <img src="{{ m.poster | default: '/assets/placeholder.png' }}" alt="Poster {{ m.title | escape }}">
-    <div class="card-body">
+  <article class="card" data-title="{{ m.title | downcase }}" data-year="{{ m.year }}" data-date="{{ m.watched_on }}">
+    <img src="{{ m.poster | default: '/assets/placeholder.png' }}" alt="Poster {{ m.title | escape }}" loading="lazy">
+    <div class="body">
       <div style="display:flex; justify-content:space-between; gap:.5rem;">
         <strong>{{ m.title }}</strong>
         {% if m.year %}<span class="pill">{{ m.year }}</span>{% endif %}
       </div>
-      {% if m.watched_on %}
-        <div class="muted">gesehen am {{ m.watched_on }}</div>
-      {% endif %}
+      {% if m.watched_on %}<div class="muted">gesehen am {{ m.watched_on }}</div>{% endif %}
       <div class="muted">
         {% if m.imdb %}<a href="https://www.imdb.com/title/{{ m.imdb }}/" target="_blank" rel="noopener">IMDb</a>{% endif %}
         {% if m.tmdb %}{% if m.imdb %} · {% endif %}<a href="https://www.themoviedb.org/movie/{{ m.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
@@ -58,31 +45,27 @@ permalink: /filme/
 
 <script>
 (function(){
-  const q = document.getElementById('q');
-  const year = document.getElementById('year');
-  const cards = Array.from(document.querySelectorAll('#movies .card'));
-  const count = document.getElementById('count');
+  const q=document.getElementById('q');
+  const year=document.getElementById('year');
+  const cards=[...document.querySelectorAll('#movies .card')];
+  const count=document.getElementById('count');
 
   function apply(){
-    const term = (q.value || '').trim().toLowerCase();
-    const y = year.value;
-    let visible = 0;
+    const term=(q.value||'').trim().toLowerCase();
+    const y=year.value;
+    let visible=0;
 
-    // sort by watched_on desc (fallback empty last)
-    cards.sort((a,b) => {
-      const da = a.dataset.date || '';
-      const db = b.dataset.date || '';
-      if (!da && !db) return 0;
-      if (!da) return 1;
-      if (!db) return -1;
+    // sort by watched_on desc (empty last)
+    cards.sort((a,b)=>{
+      const da=a.dataset.date||'', db=b.dataset.date||'';
+      if(!da && !db) return 0; if(!da) return 1; if(!db) return -1;
       return db.localeCompare(da);
-    }).forEach(el => el.parentElement.appendChild(el));
+    }).forEach(el=>el.parentElement.appendChild(el));
 
     for(const el of cards){
-      const hit = (!term || el.dataset.title.includes(term)) &&
-                  (!y || el.dataset.year === y);
-      el.style.display = hit ? '' : 'none';
-      if (hit) visible++;
+      const hit=(!term || el.dataset.title.includes(term)) && (!y || el.dataset.year===y);
+      el.style.display=hit?'':'none';
+      if(hit) visible++;
     }
     count.textContent = visible + ' Filme';
   }
