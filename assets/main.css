@@ -1,0 +1,34 @@
+/* Navigation Styling */
+.site-nav {
+  background: #f8f9fa;        /* hellgrau */
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.site-nav .wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: .6rem 1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #374151;             /* dunkelgrau */
+  font-weight: 500;
+  padding: .3rem .5rem;
+  border-radius: 6px;
+  transition: background .2s, color .2s;
+}
+
+.site-nav a:hover {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.site-nav a.active {
+  background: #dbeafe;        /* leicht blau hinterlegt */
+  color: #1e3a8a;
+}
