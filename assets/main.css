@@ -1,15 +1,37 @@
-/* ====== Design Tokens ====== */
-:root{
-  --gap:16px; --muted:#6b7280; --border:#e5e7eb; --chip:#eef2ff;
-  --bar:#e5e7eb; --bar-fill:#6366f1;
-  --bg:#ffffff;
+/* ====== Reset / Basics ====== */
+* { box-sizing: border-box; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;   /* neutral gray-800 */
+  background: #fafafa;
 }
+
+h1, h2, h3 { line-height: 1.25; font-weight: 600; margin: 0 0 .6em; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Wrapper für Content */
+.wrapper { max-width: 960px; margin: 0 auto; padding: 0 1rem; }
+
+/* ====== Header & Footer ====== */
+.site-header, .site-footer {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+.site-header { padding: 1.2rem 0 .8rem; margin-bottom: 1rem; }
+.site-title a { font-size: 1.6rem; font-weight: 700; color: #111827; text-decoration: none; }
+.site-description { margin: .2rem 0 0; color: #6b7280; }
+
+.site-footer { margin-top: 2rem; padding: 1rem 0; font-size: .875rem; color: #6b7280; text-align: center; }
 
 /* ====== Navigation ====== */
 .site-nav {
-  background: #f8f9fa;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
   margin-bottom: 1.5rem;
 }
 .site-nav .wrapper {
@@ -17,55 +39,99 @@
   padding: .6rem 1rem;
 }
 .site-nav a {
-  text-decoration: none; color: #374151; font-weight: 500;
-  padding: .3rem .5rem; border-radius: 6px; transition: background .2s, color .2s;
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding: .3rem .5rem;
+  border-radius: 6px;
+  transition: background .2s, color .2s;
 }
 .site-nav a:hover { background: #e5e7eb; color: #111827; }
 .site-nav a.active { background: #dbeafe; color: #1e3a8a; }
 
-/* ====== Utilities ====== */
-.muted{color:var(--muted);font-size:14px}
-.pill{display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:var(--chip); color:#3730a3;}
-h1{margin-top:.5rem}
-
 /* ====== Controls (Filter/Toolbar) ====== */
-.controls{margin:10px 0 20px; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
-.controls .group{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
-.controls label{font-size:14px; color:var(--muted)}
-.controls input[type="search"], .controls select{
-  padding:8px 10px; border:1px solid var(--border); border-radius:8px; min-width:200px
+.controls {
+  margin: 1rem 0 1.5rem;
+  display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
 }
-.controls .toggle{display:flex; gap:6px; align-items:center; font-size:14px; color:var(--muted)}
+.controls label { font-size: .9rem; color: #374151; }
+.controls input[type="search"], .controls select {
+  padding: .45rem .6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: .9rem;
+  background: #fff;
+}
 
 /* ====== Grid & Cards ====== */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--gap)}
-.card{position:relative; border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg); display:flex; flex-direction:column}
-.card img{width:100%;height:320px;object-fit:cover;background:#f3f4f6}
-.card .body{padding:12px}
-h2{font-size:16px;margin:8px 0 4px 0; line-height:1.25}
-.meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
-.meta .dot::before{content:""; margin:0; color:var(--muted)}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.card img {
+  width: 100%; height: 300px; object-fit: cover;
+  background: #f3f4f6;
+}
+.card .body { padding: .8rem; }
+.card h2 { font-size: 1rem; margin: 0 0 .3rem; }
+.muted { color: #6b7280; font-size: .85rem; }
+.pill {
+  display: inline-block;
+  font-size: .75rem;
+  padding: .1rem .45rem;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+}
 
-/* Badges / Pin */
-.badge{position:absolute; top:8px; left:8px; padding:4px 8px; border-radius:999px; font-size:12px; border:1px solid var(--border); background:var(--chip)}
-.badge-running{border-color:var(--bar-fill); background:rgba(99,102,241,.10)}
-.card[data-pin="1"]{border-color:var(--bar-fill); box-shadow:0 0 0 2px rgba(99,102,241,.15)}
-.card[data-pin="1"]::before{content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:var(--bar-fill)}
+/* ====== Progress bar (Books) ====== */
+.progress { margin-top: .5rem; }
+.progress .track {
+  width: 100%; height: 8px; background: #e5e7eb;
+  border-radius: 999px; overflow: hidden;
+}
+.progress .fill { height: 100%; background: #6366f1; width: 0%; }
 
-/* Progress bar (Books) */
-.progress{margin-top:8px}
-.progress .track{width:100%; height:10px; background:var(--bar); border-radius:999px; overflow:hidden}
-.progress .fill{height:100%; background:var(--bar-fill); width:0%}
+/* ====== Serien (Grouped shows) ====== */
+.show {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  margin: 0 0 1rem 0;
+}
+.show .row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: .9rem;
+  align-items: start;
+}
+.show .poster {
+  width: 100%; height: 160px; object-fit: cover;
+  border-radius: 6px; background: #f3f4f6;
+}
+.show details { border-top: 1px dashed #e5e7eb; background: #fafafa; }
+.show details > summary {
+  cursor: pointer; padding: .6rem .9rem; font-weight: 600;
+}
+.show .episodes { padding: .2rem .9rem .9rem; font-size: .9rem; }
 
-/* Pager */
-.pager{display:flex; gap:8px; justify-content:center; margin:20px 0 0}
-.pager button{padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer}
-.pager button[disabled]{opacity:.5; cursor:not-allowed}
-
-/* ====== Serien-Layout (Gruppen je Show) ====== */
-.show { border:1px solid var(--border); border-radius:12px; overflow:hidden; margin:0 0 1rem 0; background:#fff; }
-.show .row { display:grid; grid-template-columns: 130px 1fr; gap: 1rem; padding: .9rem; align-items: start; }
-.show .poster { width: 100%; height: 190px; object-fit: cover; background:#f3f4f6; border-radius: 8px; }
-.show details { border-top:1px dashed var(--border); background: #fafafa; }
-.show details > summary { cursor:pointer; padding:.6rem .9rem; font-weight:600; }
-.show .episodes { padding:.2rem .9rem .9rem; }
+/* ====== Pager ====== */
+.pager { display: flex; gap: .5rem; justify-content: center; margin: 1rem 0 0; }
+.pager button {
+  padding: .4rem .7rem;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pager button[disabled] { opacity: .5; cursor: not-allowed; }
