@@ -1,0 +1,95 @@
+---
+layout: default
+title: TV-Serien
+permalink: /serien/
+---
+
+<style>
+  .show { border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; margin:0 0 1rem 0; background:#fff; }
+  .row { display:grid; grid-template-columns: 130px 1fr; gap: 1rem; padding: .9rem; align-items: start; }
+  .poster { width: 100%; height: 190px; object-fit: cover; background:#f3f4f6; border-radius: 8px; }
+  .meta { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+  .pill { display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:#eef2ff; color:#3730a3; }
+  .muted { color:#6b7280; }
+  details { border-top:1px dashed #e5e7eb; background: #fafafa; }
+  details > summary { cursor:pointer; padding:.6rem .9rem; font-weight:600; }
+  .episodes { padding:.2rem .9rem .9rem; }
+  .toolbar { display:flex; gap:.75rem; align-items:center; margin: 1rem 0; flex-wrap: wrap; }
+  .toolbar input { padding:.5rem .6rem; border:1px solid #e5e7eb; border-radius:8px; min-width: 260px; }
+</style>
+
+<h1>TV-Serien</h1>
+<p class="muted">Gruppiert nach Serie. Jede Gruppe zeigt <em>zuletzt gesehen</em> und die Anzahl der gesehenen Episoden. Per Klick alle Episoden einblenden.</p>
+
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Suche nach Serien-Titel …" aria-label="Suche">
+  <span class="muted pill" id="count"></span>
+</div>
+
+<div id="shows">
+{% assign eps = site.data.watched_episodes %}
+{% assign groups = eps | group_by: "show" | sort: "name" %}
+
+{% for g in groups %}
+  {% assign list = g.items | sort: "watched_on" | reverse %}
+  {% assign latest = list[0] %}
+  {% assign total = g.items | size %}
+
+  <section class="show" data-title="{{ g.name | downcase }}">
+    <div class="row">
+      <div>
+        <img class="poster" src="{{ latest.show_poster | default: '/assets/placeholder.png' }}" alt="Poster {{ g.name | escape }}">
+      </div>
+      <div>
+        <h2 style="margin:.2rem 0 .3rem 0;">{{ g.name }}</h2>
+        <div class="meta">
+          {% if latest.year %}<span class="pill">{{ latest.year }}</span>{% endif %}
+          <span class="pill">{{ total }} Episoden</span>
+          {% if latest.watched_on %}<span class="muted">zuletzt gesehen: {{ latest.watched_on }}</span>{% endif %}
+          {% if latest.imdb %} · <a href="https://www.imdb.com/title/{{ latest.imdb }}/" target="_blank" rel="noopener">IMDb</a>{% endif %}
+          {% if latest.tmdb %} · <a href="https://www.themoviedb.org/tv/{{ latest.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <details>
+      <summary>Episoden anzeigen</summary>
+      <div class="episodes">
+        <ul>
+        {% for ep in list %}
+          <li>
+            S{{ ep.season | prepend: "0" | slice: -2 }},E{{ ep.episode | prepend: "0" | slice: -2 }}
+            {% if ep.watched_on %}– gesehen am {{ ep.watched_on }}{% endif %}
+            {% if ep.episode_still %}
+              · <a href="{{ ep.episode_still }}" target="_blank" rel="noopener">Still</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </details>
+  </section>
+{% endfor %}
+</div>
+
+<script>
+(function(){
+  const q = document.getElementById('q');
+  const items = Array.from(document.querySelectorAll('#shows .show'));
+  const count = document.getElementById('count');
+
+  // initial sort by latest watched desc (based on first episode in each group already sorted in Liquid)
+  function apply(){
+    const term = (q.value || '').trim().toLowerCase();
+    let visible = 0;
+    for(const el of items){
+      const hit = (!term || el.dataset.title.includes(term));
+      el.style.display = hit ? '' : 'none';
+      if (hit) visible++;
+    }
+    count.textContent = visible + ' Serien';
+  }
+  q.addEventListener('input', apply);
+  apply();
+})();
+</script>
