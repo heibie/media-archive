@@ -42,17 +42,6 @@
   poster: https://image.tmdb.org/t/p/w500/lQqLYTOfJxBkOAZsW4XqVFM68HP.jpg
   backdrop: https://image.tmdb.org/t/p/w780/eiDZHo35VSSSbyBsxZWq3rXCsft.jpg
   source: trakt
-- title: 'Der Amsterdam-Krimi: Der falsche Tote'
-  year: 2025
-  imdb: tt36517871
-  tmdb: 1478748
-  trakt: 1212108
-  slug: der-amsterdam-krimi-der-falsche-tote-2025
-  plays: 1
-  watched_on: '2025-08-03'
-  poster: https://image.tmdb.org/t/p/w500/9eEjM8HND7YxFjmWm1ERK0xGq3g.jpg
-  backdrop: https://image.tmdb.org/t/p/w780/gRpacPnmLxQxfjwQoHulBfMDugu.jpg
-  source: trakt
 - title: Wunderschön
   year: 2022
   imdb: tt12194006
