@@ -5,7 +5,7 @@ permalink: /serien/
 ---
 
 <h1>📺 TV-Serien</h1>
-<p class="muted">Die Liste ist so sortiert, dass die Serie mit der <em>zuletzt gesehenen Episode</em> oben steht.</p>
+<p class="muted">Sortiert nach <em>zuletzt gesehen</em> (neu → alt). Klicke auf eine Serie, um alle Episoden einzublenden.</p>
 
 <div class="controls">
   <div class="group">
@@ -17,10 +17,6 @@ permalink: /serien/
 
 <div id="shows">
 {% assign eps = site.data.watched_episodes %}
-{%- comment -%}
-  Wir gruppieren nach Show. Die alphabetische Sortierung lassen wir,
-  aber wir überschreiben gleich per JS -> „latest first“.
-{%- endcomment -%}
 {% assign groups = eps | group_by: "show" %}
 {% for g in groups %}
   {% assign list = g.items | sort: "watched_on" | reverse %}
@@ -53,10 +49,26 @@ permalink: /serien/
       <div class="episodes">
         <ul>
         {% for ep in list %}
-          {% assign se = ep.season  | plus: 0 %}
-          {% assign en = ep.episode | plus: 0 %}
+          {%- comment -%}
+            Robust: Staffel/Episode aus verschiedenen möglichen Keys ziehen
+          {%- endcomment -%}
+          {% assign se_raw = ep.season | default: ep.Season | default: ep.staffel | default: ep.season_number | default: 0 %}
+          {% assign en_raw = ep.episode | default: ep.Episode | default: ep.folge  | default: ep.episode_number | default: 0 %}
+
+          {%- comment -%}
+            In Zahlen wandeln
+          {%- endcomment -%}
+          {% assign se_num = se_raw | plus: 0 %}
+          {% assign en_num = en_raw | plus: 0 %}
+
+          {%- comment -%}
+            Zweistellig formatiert
+          {%- endcomment -%}
+          {% assign se_str = se_num | prepend: "0" | slice: -2 %}
+          {% assign en_str = en_num | prepend: "0" | slice: -2 %}
+
           <li>
-            S{{ se | prepend: "0" | slice: -2 }},E{{ en | prepend: "0" | slice: -2 }}
+            S{{ se_str }},E{{ en_str }}
             {% if ep.watched_on %} – gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}{% endif %}
             {% if ep.episode_still %} · <a href="{{ ep.episode_still }}" target="_blank" rel="noopener">Still</a>{% endif %}
           </li>
@@ -76,7 +88,6 @@ permalink: /serien/
   const count = document.getElementById('count');
 
   function sortByLatest() {
-    // Sortiere nach data-latest (desc), leere ans Ende
     items.sort((a,b)=>{
       const da = a.dataset.latest || '';
       const db = b.dataset.latest || '';
@@ -89,8 +100,8 @@ permalink: /serien/
 
   function apply(){
     const term = (q.value || '').trim().toLowerCase();
-    let visible = 0;
     sortByLatest();
+    let visible = 0;
     for (const el of items){
       const hit = !term || (el.dataset.title || '').includes(term);
       el.style.display = hit ? '' : 'none';
@@ -98,7 +109,6 @@ permalink: /serien/
     }
     if (count) count.textContent = visible + ' Serien';
   }
-
   q.addEventListener('input', apply);
   apply();
 })();
