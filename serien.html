@@ -44,38 +44,29 @@ permalink: /serien/
       </div>
     </div>
 
-    <details>
-      <summary>Episoden anzeigen</summary>
-      <div class="episodes">
-        <ul>
-        {% for ep in list %}
-          {%- comment -%}
-            Robust: Staffel/Episode aus verschiedenen möglichen Keys ziehen
-          {%- endcomment -%}
-          {% assign se_raw = ep.season | default: ep.Season | default: ep.staffel | default: ep.season_number | default: 0 %}
-          {% assign en_raw = ep.episode | default: ep.Episode | default: ep.folge  | default: ep.episode_number | default: 0 %}
+   <details>
+  <summary>Episoden anzeigen</summary>
+  <div class="episodes">
+    <ul>
+    {% for ep in list %}
+      {%- comment -%} Robust in Zahlen wandeln {%- endcomment -%}
+      {% assign se_num = ep.season  | plus: 0 %}
+      {% assign en_num = ep.episode | plus: 0 %}
 
-          {%- comment -%}
-            In Zahlen wandeln
-          {%- endcomment -%}
-          {% assign se_num = se_raw | plus: 0 %}
-          {% assign en_num = en_raw | plus: 0 %}
+      {%- comment -%} Zweistellig formatieren (01, 02, …) {%- endcomment -%}
+      {% capture se_str %}{% if se_num < 10 %}0{{ se_num }}{% else %}{{ se_num }}{% endif %}{% endcapture %}
+      {% capture en_str %}{% if en_num < 10 %}0{{ en_num }}{% else %}{{ en_num }}{% endif %}{% endcapture %}
 
-          {%- comment -%}
-            Zweistellig formatiert
-          {%- endcomment -%}
-          {% assign se_str = se_num | prepend: "0" | slice: -2 %}
-          {% assign en_str = en_num | prepend: "0" | slice: -2 %}
+      <li>
+        S{{ se_str }},E{{ en_str }}
+        {% if ep.watched_on %} – gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}{% endif %}
+        {% if ep.episode_still %} · <a href="{{ ep.episode_still }}" target="_blank" rel="noopener">Still</a>{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</details>
 
-          <li>
-            S{{ se_str }},E{{ en_str }}
-            {% if ep.watched_on %} – gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}{% endif %}
-            {% if ep.episode_still %} · <a href="{{ ep.episode_still }}" target="_blank" rel="noopener">Still</a>{% endif %}
-          </li>
-        {% endfor %}
-        </ul>
-      </div>
-    </details>
   </section>
 {% endfor %}
 </div>
