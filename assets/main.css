@@ -1,6 +1,6 @@
 /* Navigation Styling */
 .site-nav {
-  background: #f8f9fa;        /* hellgrau */
+  background: #f8f9fa;
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 1.5rem;
@@ -16,7 +16,7 @@
 
 .site-nav a {
   text-decoration: none;
-  color: #374151;             /* dunkelgrau */
+  color: #374151;
   font-weight: 500;
   padding: .3rem .5rem;
   border-radius: 6px;
@@ -29,6 +29,6 @@
 }
 
 .site-nav a.active {
-  background: #dbeafe;        /* leicht blau hinterlegt */
+  background: #dbeafe;
   color: #1e3a8a;
 }
