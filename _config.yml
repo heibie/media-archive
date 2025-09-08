@@ -2,3 +2,10 @@ title: Medienarchiv
 description: Bücherliste
 theme: minima
 # Jekyll liest automatisch _data/*.yml ein
+
+<nav class="site-nav">
+  <a href="{{ '/' | relative_url }}">Start</a>
+  <a href="{{ '/buecher/' | relative_url }}">Bücher</a>
+  <a href="{{ '/filme/' | relative_url }}">Filme</a>
+  <a href="{{ '/serien/' | relative_url }}">Serien</a>
+</nav>
