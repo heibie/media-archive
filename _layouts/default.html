@@ -31,10 +31,17 @@
     <!-- Navigation -->
     <nav class="site-nav">
       <div class="wrapper">
-        <a href="{{ '/' | relative_url }}">Start</a>
-        <a href="{{ '/buecher/' | relative_url }}">Bücher</a>
-        <a href="{{ '/filme/' | relative_url }}">Filme</a>
-        <a href="{{ '/serien/' | relative_url }}">Serien</a>
+        <a href="{{ '/' | relative_url }}"
+           class="{% if page.url == '/' %}active{% endif %}">Start</a>
+
+        <a href="{{ '/buecher/' | relative_url }}"
+           class="{% if page.url contains '/buecher/' %}active{% endif %}">Bücher</a>
+
+        <a href="{{ '/filme/' | relative_url }}"
+           class="{% if page.url contains '/filme/' %}active{% endif %}">Filme</a>
+
+        <a href="{{ '/serien/' | relative_url }}"
+           class="{% if page.url contains '/serien/' %}active{% endif %}">Serien</a>
       </div>
     </nav>
 
