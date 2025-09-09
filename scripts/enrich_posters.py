@@ -119,94 +119,84 @@ def main():
         m["title_de"]    = j_de.get("title") or m.get("title_de")
         m["overview_de"] = j_de.get("overview") or m.get("overview_de")
 
-    # -------- Episodes / TV --------
-    episodes = load_yaml(Path(args.episodes))
-    show_meta_cache = {}  # tv_id -> dict
+# -------- Episodes / TV --------
+episodes = load_yaml(Path(args.episodes))
+show_meta_cache = {}  # tv_id -> dict
 
-    def tv_details_default(tv_id=None, imdb_id=None):
-        tid = tv_id
-        if not tid and imdb_id:
-            res = find_by_imdb(imdb_id).get("tv_results") or []
-            if res: tid = res[0]["id"]
-        if not tid: return None, None
-        if tid not in tv_def_cache:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tid}")
-            tv_def_cache[tid] = r.json() if r.status_code == 200 else None
-            pause()
-        return tid, tv_def_cache.get(tid)
+def tv_details_default(tv_id=None, imdb_id=None):
+    ...
+def tv_details_localized(tv_id, lang):
+    ...
+def season_details_localized(tv_id, season, lang):
+    ...
+def episode_details_def(tv_id, season, ep):
+    ...
+def episode_details_de(tv_id, season, ep, lang):
+    ...
 
-    def tv_details_localized(tv_id, lang):
-        key = (tv_id, lang)
-        if key not in tv_de_cache:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}", params={"language": lang})
-            tv_de_cache[key] = r.json() if r.status_code == 200 else None
-            pause()
-        return tv_de_cache.get(key)
+for e in episodes:
+    tv_id, tv_def = tv_details_default(tv_id=e.get("tmdb"), imdb_id=e.get("imdb"))
+    e["tmdb"] = tv_id or e.get("tmdb")
 
-    def season_details_localized(tv_id, season, lang):
-        key = (tv_id, season, lang)
-        if key not in season_de_cache:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}", params={"language": lang})
-            season_de_cache[key] = r.json() if r.status_code == 200 else None
-            pause()
-        return season_de_cache.get(key)
+    if tv_id:
+        # --- SHOW-LEVEL META inkl. POSTER/BACKDROP ---
+        if tv_id not in show_meta_cache:
+            # default & localized details holen
+            tv_de = tv_details_localized(tv_id, args.lang)
 
-    def episode_details_def(tv_id, season, ep):
-        key = (tv_id, season, ep)
-        if key not in episode_cache_def:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}/episode/{ep}")
-            episode_cache_def[key] = r.json() if r.status_code == 200 else None
-            pause()
-        return episode_cache_def.get(key)
+            total_eps = tv_def.get("number_of_episodes") if tv_def else None
+            run_times = (tv_def.get("episode_run_time") or []) if tv_def else []
+            avg_rt = int(round(statistics.mean(run_times))) if run_times else None
 
-    def episode_details_de(tv_id, season, ep, lang):
-        key = (tv_id, season, ep, lang)
-        if key not in episode_cache_de:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}/episode/{ep}",
-                      params={"language": lang})
-            episode_cache_de[key] = r.json() if r.status_code == 200 else None
-            pause()
-        return episode_cache_de.get(key)
+            # Poster/Backdrop: erst default, dann fallback localized
+            poster_path   = (tv_def or {}).get("poster_path")   or (tv_de or {}).get("poster_path")
+            backdrop_path = (tv_def or {}).get("backdrop_path") or (tv_de or {}).get("backdrop_path")
 
-    for e in episodes:
-        tv_id, tv_def = tv_details_default(tv_id=e.get("tmdb"), imdb_id=e.get("imdb"))
-        e["tmdb"] = tv_id or e.get("tmdb")
+            show_meta_cache[ tv_id ] = {
+                "show_total_episodes": total_eps,
+                "show_episode_run_time": avg_rt,
+                "show_title_de": (tv_de.get("name") if tv_de else None),
+                "show_poster_url":   build_url(poster_path, poster_size) if poster_path else None,
+                "show_backdrop_url": build_url(backdrop_path, backdrop_size) if backdrop_path else None,
+            }
 
-        if tv_id:
-            if tv_id not in show_meta_cache:
-                total_eps = tv_def.get("number_of_episodes") if tv_def else None
-                run_times = (tv_def.get("episode_run_time") or []) if tv_def else []
-                avg_rt = int(round(statistics.mean(run_times))) if run_times else None
-                tv_de = tv_details_localized(tv_id, args.lang)
-                show_meta_cache[tv_id] = {
-                    "show_total_episodes": total_eps,
-                    "show_episode_run_time": avg_rt,
-                    "show_title_de": (tv_de.get("name") if tv_de else None)
-                }
-            e.update(show_meta_cache[tv_id])
+        meta = show_meta_cache[tv_id]
+        # Grund-Meta auf jede Episode mappen
+        e.update({
+            "show_total_episodes": meta["show_total_episodes"],
+            "show_episode_run_time": meta["show_episode_run_time"],
+            "show_title_de": meta["show_title_de"],
+        })
+        # Poster/Backdrop nur setzen, wenn leer
+        if not e.get("show_poster"):
+            e["show_poster"] = meta["show_poster_url"]
+        if not e.get("show_backdrop"):
+            e["show_backdrop"] = meta["show_backdrop_url"]
 
-            sn = e.get("season")
-            en = e.get("episode")
-            if sn is not None:
-                s_de = season_details_localized(tv_id, int(sn), args.lang)
-                if s_de and "episodes" in s_de:
-                    e["season_total_episodes"] = len(s_de["episodes"])
-                else:
-                    e.setdefault("season_total_episodes", None)
+        # --- SEASON-COUNT ---
+        sn = e.get("season")
+        en = e.get("episode")
+        if sn is not None:
+            s_de = season_details_localized(tv_id, int(sn), args.lang)
+            if s_de and "episodes" in s_de:
+                e["season_total_episodes"] = len(s_de["episodes"])
+            else:
+                e.setdefault("season_total_episodes", None)
 
-            if sn is not None and en is not None:
-                ed_de  = episode_details_de(tv_id, int(sn), int(en), args.lang)
-                ed_def = episode_details_def(tv_id, int(sn), int(en))
+        # --- EPISODEN-DETAILS ---
+        if sn is not None and en is not None:
+            ed_de  = episode_details_de(tv_id, int(sn), int(en), args.lang)
+            ed_def = episode_details_def(tv_id, int(sn), int(en))
 
-                if ed_de:
-                    e["episode_title_de"] = ed_de.get("name")
-                    e["episode_runtime"]  = ed_de.get("runtime") or e.get("episode_runtime") \
-                                            or show_meta_cache[tv_id]["show_episode_run_time"]
-                    if not e.get("episode_still"):
-                        e["episode_still"] = build_url(ed_de.get("still_path"), still_size)
+            if ed_de:
+                e["episode_title_de"] = ed_de.get("name")
+                e["episode_runtime"]  = ed_de.get("runtime") or e.get("episode_runtime") \
+                                        or meta["show_episode_run_time"]
+                if not e.get("episode_still"):
+                    e["episode_still"] = build_url(ed_de.get("still_path"), still_size)
 
-                if not e.get("episode_title") and ed_def:
-                    e["episode_title"] = ed_def.get("name")
+            if not e.get("episode_title") and ed_def:
+                e["episode_title"] = ed_def.get("name")
 
     outdir = Path(args.outdir)
     dump_yaml(outdir / "watched_movies.yml", movies)
