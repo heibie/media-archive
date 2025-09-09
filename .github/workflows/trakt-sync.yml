@@ -1,0 +1,35 @@
+name: Trakt → YAML Sync
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # alle 15 Minuten
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+
+      - name: Install deps
+        run: pip install pyyaml requests
+
+      - name: Run Trakt sync
+        env:
+          TRAKT_CLIENT_ID:     ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
+          TRAKT_ACCESS_TOKEN:  ${{ secrets.TRAKT_ACCESS_TOKEN }}
+          TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
+        run: python scripts/trakt_sync.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "trakt-bot"
+          git config user.email "trakt-bot@users.noreply.github.com"
+          git add _data/*.yml .trakt_cursor.json || true
+          git diff --cached --quiet || git commit -m "chore(trakt): update YAMLs"
+          git push
