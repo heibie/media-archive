@@ -1,5 +1,5 @@
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 8
@@ -12,16 +12,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/hC4WgrNv8llTgPooBTQSKEYNOG0.jpg
+  episode_title: Episode 8
+  episode_title_de: Am Tag, als Carlo Brenner starb
+  episode_runtime: 25
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 7
@@ -34,16 +34,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/z3fb9msJjB2oXi7WUUv0vV90jwR.jpg
+  episode_title: Episode 7
+  episode_title_de: Der BlaBla-Mein-Dorf-Komplex
+  episode_runtime: 23
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 6
@@ -56,16 +56,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/t0YNBNd5Vm7By103NUDGJazTLSh.jpg
+  episode_title: Episode 6
+  episode_title_de: Oben ohne, Down Under
+  episode_runtime: 25
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 5
@@ -78,16 +78,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/hWVStIZmMXgM1dxv1RcTkRv32qU.jpg
+  episode_title: Episode 5
+  episode_title_de: Das nullte Mal
+  episode_runtime: 27
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 4
@@ -100,16 +100,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/x5jXuSbY8GNga7JXd9Uq9tBRwLA.jpg
+  episode_title: Episode 4
+  episode_title_de: 1000 Jahre Hintervorderbach
+  episode_runtime: 25
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 3
@@ -122,16 +122,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/nEyJjeSd7iGWfRyHwFHMOwG2jTb.jpg
+  episode_title: Episode 3
+  episode_title_de: Papa (T)ante Sportplatz
+  episode_runtime: 25
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 2
@@ -144,16 +144,16 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/azU6JCSIGapusA418do1ynYoJJ6.jpg
+  episode_title: Episode 2
+  episode_title_de: Der Gott des Geschnetzels
+  episode_runtime: 24
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: Tschappel
-  show_title_de: null
+  show_title_de: Tschappel
   year: 2025
   season: 1
   episode: 1
@@ -166,12 +166,12 @@
   slug: tschappel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/cAZCoIdMtFRRY1DrTT6M4Rj6HXX.jpg
+  episode_title: Episode 1
+  episode_title_de: Mehr Schwein als Sein
+  episode_runtime: 25
+  season_total_episodes: 8
+  show_total_episodes: 8
   show_episode_run_time: null
   source: trakt
 - show: High Potential
@@ -5413,7 +5413,7 @@
   episode_runtime: 38
   episode_title: The Show Must...
 - show: Secret Invasion
-  show_title_de: null
+  show_title_de: Secret Invasion
   year: 2023
   season: 1
   episode: 1
@@ -5426,12 +5426,12 @@
   slug: secret-invasion
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/yyx0s1TRRjqT9pqFUVm70IBENQP.jpg
+  episode_title: Resurrection
+  episode_title_de: Auferstehung
+  episode_runtime: 55
+  season_total_episodes: 6
+  show_total_episodes: 6
   show_episode_run_time: null
   source: trakt
 - show: Ted Lasso
@@ -8229,7 +8229,7 @@
   episode_runtime: 42
   episode_title: Say Something
 - show: 'Star Wars: Andor'
-  show_title_de: null
+  show_title_de: Andor
   year: 2022
   season: 1
   episode: 1
@@ -8242,12 +8242,12 @@
   slug: star-wars-andor
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/mOL38zvzT4Xu1gcFNwzhtQfQVsc.jpg
+  episode_title: Kassa
+  episode_title_de: Kassa
+  episode_runtime: 42
+  season_total_episodes: 12
+  show_total_episodes: 24
   show_episode_run_time: null
   source: trakt
 - show: Gilmore Girls
@@ -9505,7 +9505,7 @@
   episode_runtime: 44
   episode_title: Gods and Monsters
 - show: Obi-Wan Kenobi
-  show_title_de: null
+  show_title_de: Obi-Wan Kenobi
   year: 2022
   season: 1
   episode: 3
@@ -9518,16 +9518,16 @@
   slug: obi-wan-kenobi
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/aM0H1Gn2ry8Wc2eUxk9KHbZbeBr.jpg
+  episode_title: Part III
+  episode_title_de: Teil III
+  episode_runtime: 48
+  season_total_episodes: 6
+  show_total_episodes: 6
   show_episode_run_time: null
   source: trakt
 - show: Obi-Wan Kenobi
-  show_title_de: null
+  show_title_de: Obi-Wan Kenobi
   year: 2022
   season: 1
   episode: 2
@@ -9540,16 +9540,16 @@
   slug: obi-wan-kenobi
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/7NvWnQmdBKRfMtKGcdik6NLH7MX.jpg
+  episode_title: Part II
+  episode_title_de: Teil II
+  episode_runtime: 42
+  season_total_episodes: 6
+  show_total_episodes: 6
   show_episode_run_time: null
   source: trakt
 - show: Obi-Wan Kenobi
-  show_title_de: null
+  show_title_de: Obi-Wan Kenobi
   year: 2022
   season: 1
   episode: 1
@@ -9562,12 +9562,12 @@
   slug: obi-wan-kenobi
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/twfvrChI2YEQITGbqjhEXVy39QA.jpg
+  episode_title: Part I
+  episode_title_de: Teil I
+  episode_runtime: 56
+  season_total_episodes: 6
+  show_total_episodes: 6
   show_episode_run_time: null
   source: trakt
 - show: Gilmore Girls
@@ -15138,7 +15138,7 @@
   episode_runtime: 27
   episode_title: Cornered
 - show: 'Star Wars: The Bad Batch'
-  show_title_de: null
+  show_title_de: 'Star Wars: The Bad Batch'
   year: 2021
   season: 1
   episode: 4
@@ -15151,12 +15151,12 @@
   slug: star-wars-the-bad-batch
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/V0VtlwgPjOWT3JowxDuFfiZNvs.jpg
+  episode_title: Cornered
+  episode_title_de: Gejagt
+  episode_runtime: 27
+  season_total_episodes: 16
+  show_total_episodes: 47
   show_episode_run_time: null
   source: trakt
 - show: Love, Death & Robots
@@ -21474,7 +21474,7 @@
   episode_runtime: 41
   episode_title: 'Chapter 1: The Mandalorian'
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 3
   episode: 1
@@ -21487,12 +21487,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/g1iZmyn42qSFkXhw6gjoNE0diKb.jpg
+  episode_title: 'Chapter One: Suzie, Do You Copy?'
+  episode_title_de: 'Kapitel eins: Suzie, hörst du mich?'
+  episode_runtime: 51
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Murder With A View
@@ -22266,7 +22266,7 @@
   episode_runtime: 24
   episode_title: Moving Day
 - show: The Boys
-  show_title_de: null
+  show_title_de: The Boys
   year: 2019
   season: 1
   episode: 2
@@ -22279,12 +22279,12 @@
   slug: the-boys-2019
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/1XzqWHBFvddrO2sazXzaCTtFEeA.jpg
+  episode_title: Cherry
+  episode_title_de: Cherry
+  episode_runtime: 59
+  season_total_episodes: 8
+  show_total_episodes: 33
   show_episode_run_time: null
   source: trakt
 - show: Murder With A View
@@ -22420,7 +22420,7 @@
   episode_runtime: 44
   episode_title: Sonne, Mord und Sterne
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 8
@@ -22433,16 +22433,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/8pk4Doc6l35kfANCNRRJz3gZNFy.jpg
+  episode_title: Episode 8
+  episode_title_de: Folge 8
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 7
@@ -22455,16 +22455,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/gMoxLHO9n9DOWh3wja9HI0RNIN8.jpg
+  episode_title: Episode 7
+  episode_title_de: Folge 7
+  episode_runtime: 45
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 6
@@ -22477,16 +22477,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/jyv5TyYJrbpOCQnQv0nUikhOshN.jpg
+  episode_title: Episode 6
+  episode_title_de: Folge 6
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 5
@@ -22499,12 +22499,12 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/u8FsfwPopvsPMcvMwysy2htTRMT.jpg
+  episode_title: Episode 5
+  episode_title_de: Folge 5
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Murder With A View
@@ -22552,7 +22552,7 @@
   episode_runtime: 44
   episode_title: Tödliche Nachbarschaft
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 5
@@ -22565,16 +22565,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/u8FsfwPopvsPMcvMwysy2htTRMT.jpg
+  episode_title: Episode 5
+  episode_title_de: Folge 5
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 4
@@ -22587,16 +22587,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/h8hPmZEgXfkY2j5h6SnJ7v8FJ6O.jpg
+  episode_title: Episode 4
+  episode_title_de: Folge 4
+  episode_runtime: 44
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 3
@@ -22609,16 +22609,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/mNoPDRVcdsdGNahUaKI24ibl1Bz.jpg
+  episode_title: Episode 3
+  episode_title_de: Folge 3
+  episode_runtime: 45
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 2
@@ -22631,16 +22631,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
+  episode_title: Episode 2
+  episode_title_de: Folge 2
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 1
@@ -22653,12 +22653,12 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
+  episode_title: Episode 1
+  episode_title_de: Folge 1
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: 'Star Trek: Picard'
@@ -22706,7 +22706,7 @@
   episode_runtime: 44
   episode_title: Waldeslust
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 3
@@ -22719,16 +22719,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/mNoPDRVcdsdGNahUaKI24ibl1Bz.jpg
+  episode_title: Episode 3
+  episode_title_de: Folge 3
+  episode_runtime: 45
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 2
@@ -22741,16 +22741,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
+  episode_title: Episode 2
+  episode_title_de: Folge 2
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 1
@@ -22763,12 +22763,12 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
+  episode_title: Episode 1
+  episode_title_de: Folge 1
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Modern Family
@@ -22860,7 +22860,7 @@
   episode_runtime: 44
   episode_title: Fingerübungen
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 2
@@ -22873,16 +22873,16 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
+  episode_title: Episode 2
+  episode_title_de: Folge 2
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Babylon Berlin
-  show_title_de: null
+  show_title_de: Babylon Berlin
   year: 2017
   season: 1
   episode: 1
@@ -22895,12 +22895,12 @@
   slug: babylon-berlin
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
+  episode_title: Episode 1
+  episode_title_de: Folge 1
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 40
   show_episode_run_time: null
   source: trakt
 - show: Murder With A View
@@ -23102,7 +23102,7 @@
   episode_runtime: 24
   episode_title: The Arcadian Job
 - show: The Witcher
-  show_title_de: null
+  show_title_de: The Witcher
   year: 2019
   season: 1
   episode: 1
@@ -23115,12 +23115,12 @@
   slug: the-witcher-2019
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/kvnbgfKMSOeq08gWeL7FrzT0mah.jpg
+  episode_title: The End's Beginning
+  episode_title_de: Des Endes Anfang
+  episode_runtime: 62
+  season_total_episodes: 8
+  show_total_episodes: 24
   show_episode_run_time: null
   source: trakt
 - show: Home for Christmas
@@ -23872,7 +23872,7 @@
   episode_runtime: 46
   episode_title: Angel One
 - show: Marvel's Agents of S.H.I.E.L.D.
-  show_title_de: null
+  show_title_de: Marvel's Agents of S.H.I.E.L.D.
   year: 2013
   season: 1
   episode: 10
@@ -23885,13 +23885,13 @@
   slug: marvel-s-agents-of-s-h-i-e-l-d
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/j2SjEEDIoWiSFXzp1x3SbN0mJjz.jpg
+  episode_title: The Bridge
+  episode_title_de: Der Wolf im Schafspelz
+  episode_runtime: 42
+  season_total_episodes: 22
+  show_total_episodes: 136
+  show_episode_run_time: 43
   source: trakt
 - show: 'Star Trek: The Next Generation'
   year: 1987
@@ -25546,7 +25546,7 @@
   episode_runtime: 43
   episode_title: Discovery
 - show: The Good Wife
-  show_title_de: null
+  show_title_de: The Good Wife
   year: 2009
   season: 7
   episode: 9
@@ -25559,13 +25559,13 @@
   slug: the-good-wife
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/bTPyEdT6L8wwcQPuSlOC0cul1yt.jpg
+  episode_title: Discovery
+  episode_title_de: Enthüllungen
+  episode_runtime: 43
+  season_total_episodes: 22
+  show_total_episodes: 156
+  show_episode_run_time: 43
   source: trakt
 - show: The Good Wife
   year: 2009
@@ -27746,7 +27746,7 @@
   episode_runtime: 24
   episode_title: 'Chapter 5: The Troll Rock'
 - show: The Marvelous Mrs. Maisel
-  show_title_de: null
+  show_title_de: The Marvelous Mrs. Maisel
   year: 2017
   season: 2
   episode: 2
@@ -27759,16 +27759,16 @@
   slug: the-marvelous-mrs-maisel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/eQfZjH7jz3Koz7NSXa98k9HvsfX.jpg
+  episode_title: Mid-way to Mid-town
+  episode_title_de: Auf halbem Weg nach Midtown
+  episode_runtime: 58
+  season_total_episodes: 10
+  show_total_episodes: 43
   show_episode_run_time: null
   source: trakt
 - show: The Marvelous Mrs. Maisel
-  show_title_de: null
+  show_title_de: The Marvelous Mrs. Maisel
   year: 2017
   season: 2
   episode: 1
@@ -27781,12 +27781,12 @@
   slug: the-marvelous-mrs-maisel
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/BJISBlYYcGMBYSKdDkc2WByzKn.jpg
+  episode_title: Simone
+  episode_title_de: Simone
+  episode_runtime: 55
+  season_total_episodes: 10
+  show_total_episodes: 43
   show_episode_run_time: null
   source: trakt
 - show: Hilda
@@ -31530,7 +31530,7 @@
   episode_runtime: 58
   episode_title: Pilot
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 9
@@ -31543,16 +31543,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/cxCf7O5WPHfyXb7PLSJCG6EvXc3.jpg
+  episode_title: 'Chapter Nine: The Gate'
+  episode_title_de: 'Kapitel neun: Das Tor'
+  episode_runtime: 62
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 8
@@ -31565,16 +31565,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/qVIjQZsW5q6QeVDlRV5AmEtq66o.jpg
+  episode_title: 'Chapter Eight: The Mind Flayer'
+  episode_title_de: 'Kapitel acht: Der Gedankenschinder'
+  episode_runtime: 48
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 7
@@ -31587,12 +31587,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/kgOaaTbAutwAoA7tkVzYCfTjPXn.jpg
+  episode_title: 'Chapter Seven: The Lost Sister'
+  episode_title_de: 'Kapitel sieben: Die verlorene Schwester'
+  episode_runtime: 46
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: 'Star Trek: Discovery'
@@ -31618,7 +31618,7 @@
   episode_runtime: 47
   episode_title: Into the Forest I Go
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 6
@@ -31631,16 +31631,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/6ZugLBCvBJ1TKxKaLMyjyaXMd6D.jpg
+  episode_title: 'Chapter Six: The Spy'
+  episode_title_de: 'Kapitel sechs: Der Spion'
+  episode_runtime: 52
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 5
@@ -31653,16 +31653,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/lkw76vUQHnnWQM0k7kbByOW5hzY.jpg
+  episode_title: 'Chapter Five: Dig Dug'
+  episode_title_de: 'Kapitel fünf: Dig Dug'
+  episode_runtime: 58
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 4
@@ -31675,16 +31675,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/wZXeV5cWC1RuaCls2mm6imzchnN.jpg
+  episode_title: 'Chapter Four: Will the Wise'
+  episode_title_de: 'Kapitel vier: Will, der Weise'
+  episode_runtime: 46
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 3
@@ -31697,12 +31697,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/792NQjFydcr5ucb1sga55LS6Vt3.jpg
+  episode_title: 'Chapter Three: The Pollywog'
+  episode_title_de: 'Kapitel drei: Die Kaulquappe'
+  episode_runtime: 51
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: 'Star Trek: Discovery'
@@ -31860,7 +31860,7 @@
   episode_runtime: 61
   episode_title: Episode 1
 - show: Mindhunter
-  show_title_de: null
+  show_title_de: MINDHUNTER
   year: 2017
   season: 1
   episode: 1
@@ -31873,16 +31873,16 @@
   slug: mindhunter
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/fO3YE0XLR3uH3MAmQKpBNzFPo2s.jpg
+  episode_title: Episode 1
+  episode_title_de: Eine neue Art von Killer
+  episode_runtime: 61
+  season_total_episodes: 10
+  show_total_episodes: 19
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 2
@@ -31895,16 +31895,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/3gzPnRilyASmcoSyUKXhaD5ofhr.jpg
+  episode_title: 'Chapter Two: Trick or Treat, Freak'
+  episode_title_de: 'Kapitel zwei: Süßes oder Saures, Freak'
+  episode_runtime: 56
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 2
   episode: 1
@@ -31917,12 +31917,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/efz0MgPAxPw11PIeAJNgKKg3Paa.jpg
+  episode_title: 'Chapter One: MADMAX'
+  episode_title_de: 'Kapitel eins: MAD MAX'
+  episode_runtime: 48
+  season_total_episodes: 9
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: 'Star Trek: Discovery'
@@ -32451,7 +32451,7 @@
   episode_runtime: 45
   episode_title: Reality Check
 - show: The Expanse
-  show_title_de: null
+  show_title_de: The Expanse
   year: 2015
   season: 1
   episode: 2
@@ -32464,16 +32464,16 @@
   slug: the-expanse
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/cJ3dfsoU9ya5WtGWthqo1eKR2pT.jpg
+  episode_title: The Big Empty
+  episode_title_de: Die große Leere
+  episode_runtime: 46
+  season_total_episodes: 10
+  show_total_episodes: 62
+  show_episode_run_time: 43
   source: trakt
 - show: The Expanse
-  show_title_de: null
+  show_title_de: The Expanse
   year: 2015
   season: 1
   episode: 1
@@ -32486,13 +32486,13 @@
   slug: the-expanse
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/j4WEC9Jh4AyXF8ynpX3pz633tse.jpg
+  episode_title: Dulcinea
+  episode_title_de: 50.000 Kilometer
+  episode_runtime: 48
+  season_total_episodes: 10
+  show_total_episodes: 62
+  show_episode_run_time: 43
   source: trakt
 - show: Rick and Morty
   year: 2013
@@ -32847,7 +32847,7 @@
   episode_runtime: 43
   episode_title: Warriors
 - show: Jerks
-  show_title_de: null
+  show_title_de: jerks.
   year: 2017
   season: 1
   episode: 1
@@ -32860,13 +32860,13 @@
   slug: jerks
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/8IIBWYupRhtsU27hcoo9Kyg3Qgv.jpg
+  episode_title: Sperm Theft
+  episode_title_de: Samenraub
+  episode_runtime: 21
+  season_total_episodes: 10
+  show_total_episodes: 51
+  show_episode_run_time: 21
   source: trakt
 - show: Broadchurch
   year: 2013
@@ -33309,7 +33309,7 @@
   episode_runtime: 53
   episode_title: Oathbreaker
 - show: Game of Thrones
-  show_title_de: null
+  show_title_de: Game of Thrones
   year: 2011
   season: 6
   episode: 3
@@ -33322,12 +33322,12 @@
   slug: game-of-thrones
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/dNp7HBQbwKlgX76fwqM6SWUo5tU.jpg
+  episode_title: Oathbreaker
+  episode_title_de: Eidbrecher
+  episode_runtime: 53
+  season_total_episodes: 10
+  show_total_episodes: 73
   show_episode_run_time: null
   source: trakt
 - show: Game of Thrones
@@ -34343,7 +34343,7 @@
   episode_runtime: 94
   episode_title: Where There is Ruin, There is Hope for a Treasure
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 8
@@ -34356,16 +34356,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/1teJ5dbuepfqOOs9uYhYTUjr2qs.jpg
+  episode_title: 'Chapter Eight: The Upside Down'
+  episode_title_de: 'Kapitel acht: Die andere Seite'
+  episode_runtime: 54
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 7
@@ -34378,12 +34378,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/fjsTVEnqTKUO0GJSpiWKBZRUBcx.jpg
+  episode_title: 'Chapter Seven: The Bathtub'
+  episode_title_de: 'Kapitel sieben: Die Badewanne'
+  episode_runtime: 42
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Black Mirror
@@ -34409,7 +34409,7 @@
   episode_runtime: 44
   episode_title: The National Anthem
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 6
@@ -34422,16 +34422,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/lNS6qycyucewz3duTr1tf1LU688.jpg
+  episode_title: 'Chapter Six: The Monster'
+  episode_title_de: 'Kapitel sechs: Das Monster'
+  episode_runtime: 46
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 5
@@ -34444,16 +34444,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/exT4NW9EdXG1qLZHKJnRpq3gh1H.jpg
+  episode_title: 'Chapter Five: The Flea and the Acrobat'
+  episode_title_de: 'Kapitel fünf: Der Floh und der Akrobat'
+  episode_runtime: 52
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 4
@@ -34466,16 +34466,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/60wmC1e20HV8gu688GAhsWxqxPx.jpg
+  episode_title: 'Chapter Four: The Body'
+  episode_title_de: 'Kapitel vier: Die Leiche'
+  episode_runtime: 50
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 3
@@ -34488,16 +34488,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/5snULpWQWp7aqFto7UbRcEkEyyS.jpg
+  episode_title: 'Chapter Three: Holly, Jolly'
+  episode_title_de: 'Kapitel drei: Grausame Nacht'
+  episode_runtime: 51
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 2
@@ -34510,16 +34510,16 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/icjMb4yVK7dh5GDXxGhnq2s9pk4.jpg
+  episode_title: 'Chapter Two: The Weirdo on Maple Street'
+  episode_title_de: 'Kapitel zwei: Die Verrückte auf der Maple Street'
+  episode_runtime: 55
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Stranger Things
-  show_title_de: null
+  show_title_de: Stranger Things
   year: 2016
   season: 1
   episode: 1
@@ -34532,12 +34532,12 @@
   slug: stranger-things
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
+  episode_still: https://image.tmdb.org/t/p/w300/uLES7sRpy7Ih6Kr6XCaYj1GyfTw.jpg
+  episode_title: 'Chapter One: The Vanishing of Will Byers'
+  episode_title_de: 'Kapitel eins: Das Verschwinden des Will Byers'
+  episode_runtime: 48
+  season_total_episodes: 8
+  show_total_episodes: 42
   show_episode_run_time: null
   source: trakt
 - show: Braunschlag
@@ -36540,7 +36540,7 @@
   episode_runtime: 59
   episode_title: Sovereign
 - show: Braunschlag
-  show_title_de: null
+  show_title_de: Braunschlag
   year: 2012
   season: 1
   episode: 1
@@ -36553,13 +36553,13 @@
   slug: braunschlag
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/iEsyCwZ9Dy8UP010y6wA728jIC7.jpg
+  episode_title: Ein heiliges Wunder
+  episode_title_de: Ein heiliges Wunder
+  episode_runtime: 42
+  season_total_episodes: 8
+  show_total_episodes: 8
+  show_episode_run_time: 43
   source: trakt
 - show: The King of Queens
   year: 1998
@@ -36914,7 +36914,7 @@
   episode_runtime: 47
   episode_title: Burnt and Purged Away
 - show: Marvel's Agents of S.H.I.E.L.D.
-  show_title_de: null
+  show_title_de: Marvel's Agents of S.H.I.E.L.D.
   year: 2013
   season: 1
   episode: 4
@@ -36927,13 +36927,13 @@
   slug: marvel-s-agents-of-s-h-i-e-l-d
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/8P8Q7gb6u1vIrG3QKl9wTrOk4gS.jpg
+  episode_title: Eye Spy
+  episode_title_de: Augen-Blick
+  episode_runtime: 43
+  season_total_episodes: 22
+  show_total_episodes: 136
+  show_episode_run_time: 43
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -37222,7 +37222,7 @@
   episode_runtime: 48
   episode_title: Brick
 - show: Marvel's Agents of S.H.I.E.L.D.
-  show_title_de: null
+  show_title_de: Marvel's Agents of S.H.I.E.L.D.
   year: 2013
   season: 1
   episode: 3
@@ -37235,13 +37235,13 @@
   slug: marvel-s-agents-of-s-h-i-e-l-d
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/7pW5MEaKH2XIiQpzZs5YvPkbNnl.jpg
+  episode_title: The Asset
+  episode_title_de: Anziehungskräfte
+  episode_runtime: 44
+  season_total_episodes: 22
+  show_total_episodes: 136
+  show_episode_run_time: 43
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -37266,7 +37266,7 @@
   episode_runtime: 42
   episode_title: Una Venta
 - show: Marvel's Agents of S.H.I.E.L.D.
-  show_title_de: null
+  show_title_de: Marvel's Agents of S.H.I.E.L.D.
   year: 2013
   season: 1
   episode: 2
@@ -37279,16 +37279,16 @@
   slug: marvel-s-agents-of-s-h-i-e-l-d
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/3Ndrphly05IpOoBV6DyppJu15gx.jpg
+  episode_title: 0-8-4
+  episode_title_de: 0–8–4
+  episode_runtime: 42
+  season_total_episodes: 22
+  show_total_episodes: 136
+  show_episode_run_time: 43
   source: trakt
 - show: Marvel's Agents of S.H.I.E.L.D.
-  show_title_de: null
+  show_title_de: Marvel's Agents of S.H.I.E.L.D.
   year: 2013
   season: 1
   episode: 1
@@ -37301,13 +37301,13 @@
   slug: marvel-s-agents-of-s-h-i-e-l-d
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/rPSvrM1XEUcVE3fYpYEdEA58KvV.jpg
+  episode_title: Pilot
+  episode_title_de: Aus großer Kraft folgt...
+  episode_runtime: 45
+  season_total_episodes: 22
+  show_total_episodes: 136
+  show_episode_run_time: 43
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -37926,7 +37926,7 @@
   episode_runtime: 43
   episode_title: Smite
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 2
   episode: 4
@@ -37939,13 +37939,13 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/qOmrd9VCG6p8JBmu5r5Id8sdc91.jpg
+  episode_title: Eureka
+  episode_title_de: Eureka
+  episode_runtime: 43
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -38014,7 +38014,7 @@
   episode_runtime: 47
   episode_title: Seeds
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 2
   episode: 1
@@ -38027,13 +38027,13 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/tdGbKL6mWvYzJd322pSmZDcFNwx.jpg
+  episode_title: Albification
+  episode_title_de: Die Liga
+  episode_runtime: 47
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: The Bridge
   year: 2011
@@ -38432,7 +38432,7 @@
   episode_runtime: 43
   episode_title: Capybara
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 1
   episode: 10
@@ -38445,13 +38445,13 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/uE9FabDsUtt8yLzSp9ytdIvK8bW.jpg
+  episode_title: Better Half
+  episode_title_de: Die bessere Hälfte
+  episode_runtime: 44
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -38520,7 +38520,7 @@
   episode_runtime: 90
   episode_title: Episode 6
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 1
   episode: 9
@@ -38533,13 +38533,13 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/hReG59ttaki71kRhORzlAHRKt9t.jpg
+  episode_title: Hell Followed
+  episode_title_de: Hölle
+  episode_runtime: 45
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Sons of Anarchy
   year: 2008
@@ -38652,7 +38652,7 @@
   episode_runtime: 44
   episode_title: Patch Over
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 1
   episode: 3
@@ -38665,16 +38665,16 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/dq1OgXa3d4Qq8NpczsFA2urLqKm.jpg
+  episode_title: Fun Town
+  episode_title_de: Kirmes
+  episode_runtime: 48
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 1
   episode: 2
@@ -38687,16 +38687,16 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/6YZVXrSCUTRYXOiNAnAdBkwRtvC.jpg
+  episode_title: Seeds
+  episode_title_de: Krematorium
+  episode_runtime: 47
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Sons of Anarchy
-  show_title_de: null
+  show_title_de: Sons of Anarchy
   year: 2008
   season: 1
   episode: 1
@@ -38709,13 +38709,13 @@
   slug: sons-of-anarchy
   show_poster: null
   show_backdrop: null
-  episode_still: null
-  episode_title: null
-  episode_title_de: null
-  episode_runtime: null
-  season_total_episodes: null
-  show_total_episodes: null
-  show_episode_run_time: null
+  episode_still: https://image.tmdb.org/t/p/w300/jc2RFJIJBFqsMpxnCD6VParg8Rj.jpg
+  episode_title: Pilot
+  episode_title_de: Sam Crowe
+  episode_runtime: 57
+  season_total_episodes: 13
+  show_total_episodes: 92
+  show_episode_run_time: 45
   source: trakt
 - show: Game of Thrones
   year: 2011

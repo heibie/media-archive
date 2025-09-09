@@ -4400,15 +4400,20 @@
     bedroht wird, werden Nick Fury und sein Team all ihre Kräfte brauchen, um die
     Welt vor einer Katastrophe zu bewahren ...
 - title: 'Captain America: The First Avenger'
-  title_de: null
+  title_de: 'Captain America: The First Avenger'
   year: 2011
   imdb: tt0458339
   tmdb: 1771
   watched_on: '2019-06-15'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg
+  runtime: 124
+  overview_de: '1942 – die USA ziehen in den Kampf gegen Hitler-Deutschland. Steve
+    Rogers wird auf Grund seines Gesundheitszustands als ungeeignet eingestuft. Mit
+    Hilfe des Project: Rebirth soll er trotzdem in den Kampf gegen Nazis ziehen. Der
+    kränkliche Steve wird in eine Art Super-Soldaten namens Captain America transformiert.
+    Hilfe bekommt der neue Superheld dabei von seinem Freund Bucky Barnes. Gemeinsam
+    kämpfen sie gegen Red Skul, Hitlers Geheimwaffe im Krieg gegen den Rest der Welt.'
   source: trakt
 - title: Thor
   year: 2011
@@ -4810,15 +4815,23 @@
     Lous alberne Mutter findet Gefallen an dem neuen Nachbarn, woraufhin es zu diversen
     peinlichen Vorfällen kommt…
 - title: Harry Potter and the Prisoner of Azkaban
-  title_de: null
+  title_de: Harry Potter und der Gefangene von Askaban
   year: 2004
   imdb: tt0304141
   tmdb: 673
   watched_on: '2019-01-26'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg
+  runtime: 141
+  overview_de: Während die abscheuliche Tante Magda über den Nachthimmel schwebt,
+    kehrt Harry nach Hogwarts zurück, um sein drittes Ausbildungsjahr zu beginnen.
+    Eine haarsträubende Busreise im Fahrenden Ritter bringt ihn zur Winkelgasse, wo
+    er erfährt, dass der flüchtige Sträfling Sirius Black hinter ihm her ist. So beginnt
+    das neue Schuljahr. In Hogwarts lernen Harry und seine Freunde die schwierige
+    Kunst, mit einem Hippogreif umzugehen, die ständig ihre Gestalt verändernden Irrwichte
+    in lustige Formen zu verwandeln und sogar die Zeit zurückzudrehen. Die Seelen
+    aussaugenden Dementoren belauern die Schule und bedrohen Harry, während Der-dessen-Name-nicht-genannt-werden-darf
+    einen Spitzel in der Burg untergebracht hat. Und Harry muss es mit allen aufnehmen.
   source: trakt
 - title: Jim Button and Luke the Engine Driver
   year: 2018
@@ -4909,15 +4922,25 @@
     zum Pferdeschlächter zu geben, will sie reiten lernen und bei einem Turnier beweisen,
     dass der Hengst eine zweite Chance verdient hat.
 - title: Die Hard 2
-  title_de: null
+  title_de: Stirb langsam 2
   year: 1990
   imdb: tt0099423
   tmdb: 1573
   watched_on: '2018-12-21'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/lDFO7D4MdbhjOwaPwe18QG69Rt0.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/cDtefl7KGnKrDziEUXetMnztvqr.jpg
+  runtime: 124
+  overview_de: 'Det. Lt. John McClane wartet am Dulles Airport in Washington D.C.
+    auf seine Frau Holly, die mit einem Flieger aus Los Angeles anreist, um mit ihm
+    Weihnachten zu verbringen. Das Wetter ist miserabel: Schneestürme. Aber die meteorologischen
+    Widrigkeiten sind nicht der Grund dafür, dass Hollys Maschine in der Luft bleiben
+    muss. Der südamerikanische Drogen-Boss und Diktator Esperanza soll zur gleichen
+    Zeit an die US-Behörden ausgeliefert werden. Aber Esperanza hat seine Flucht längst
+    penibel vorbereitet. Unter Führung des ehemaligen Colonels Stuart, der inzwischen
+    als Terrorist arbeitet, hat eine Spezialtruppe den Flughafen in ihre Gewalt gebracht.
+    Die Kämpfer kontrollieren auch den Funkverkehr und die Computerzentrale, um Esperanza
+    zur Flucht verhelfen zu können. Einmal mehr muss McClane als Einmann-Spezialeinheit
+    die Lage bereinigen.'
   source: trakt
 - title: Buffy the Vampire Slayer
   year: 1992
@@ -5495,15 +5518,21 @@
     und dem Laborleiter Strickland gejagt, die das außergewöhnliche Geschöpf und seine
     heilenden Kräfte bei einem Kriegsausbruch gegen die Sowjets einsetzen wollen …
 - title: 'Kingsman: The Golden Circle'
-  title_de: null
+  title_de: 'Kingsman: The Golden Circle'
   year: 2017
   imdb: tt4649466
   tmdb: 343668
   watched_on: '2018-03-27'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/34xBL6BXNYFqtHO9zhcgoakS4aP.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/eVHVwP71el20fofkCHo78ebQv7Q.jpg
+  runtime: 141
+  overview_de: Als die Hauptquartiere der Kingsman zerstört und ihre Welt bedroht
+    werden, führt sie ihre Reise zur Entdeckung einer verbündeten US-Spionageorganisation
+    namens Statesman, die bis in die Tage der Gründung beider Organisationen zurückreicht.
+    In einem neuen Abenteuer, das die Stärke und den Einfallsreichtum der Agenten
+    bis zum Äußersten fordert, verbünden sich die beiden Elite-Geheimorganisationen.
+    Sie bekämpfen ihren rücksichtslosen, gemeinsamen Feind, um die Welt zu retten,
+    was für Eggsy langsam zur Gewohnheit wird…
   source: trakt
 - title: Monsters, Inc.
   year: 2001
@@ -6042,15 +6071,24 @@
     und ein zum Scheitern verurteilter Raubüberfall sein Leben, seine Liebe und seine
     Freiheit gefährdet, muss er für seine Handlungen geradestehen.
 - title: Harry Potter and the Chamber of Secrets
-  title_de: null
+  title_de: Harry Potter und die Kammer des Schreckens
   year: 2002
   imdb: tt0295297
   tmdb: 672
   watched_on: '2017-08-02'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/xACx8htL9Ubz1qGe0gU2ggHonxV.jpg
+  runtime: 161
+  overview_de: 'Harry Potter könnte sich schönere Sommerferien vorstellen: Einerseits
+    erträgt er nur schwer den herrischen Ton im Haus von Tante Petunia und Onkel Vernon
+    Dursley, denen seine Zauberkunst nicht geheuer ist, andererseits haben ihn seine
+    besten Freunde Ron Weasley und Hermine Granger offenbar vergessen, denn sie beantworten
+    keinen seiner Briefe. Plötzlich taucht der geheimnisvolle Haus-Elf Dobby in Harrys
+    Schlafzimmer auf und warnt ihn: Falls Harry nach Hogwarts zurückkehrt, schwebt
+    er in großer Gefahr. Dobby will den jungen Gryffindor unbedingt davon abhalten,
+    weiter auf die Schule für Hexerei und Zauberei zu gehen – deswegen hat er dafür
+    gesorgt, dass Rons und Hermines Briefe nicht ankommen. Doch was der boshafte Elf
+    auch anstellt – Harry lässt sich nicht beirren.'
   source: trakt
 - title: The Lego Batman Movie
   year: 2017
@@ -6172,15 +6210,25 @@
     Inspektor Wade vermutet, dass die Bar als Unterschlupf eines Schmugglerringes
     dient, mit dem der "Hai" gemeinsame Sache macht.
 - title: Wonder Woman
-  title_de: null
+  title_de: Wonder Woman
   year: 2017
   imdb: tt0451279
   tmdb: 297762
   watched_on: '2017-06-16'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/AaABt75ZzfMGrscUR2seabz4PEX.jpg
+  runtime: 141
+  overview_de: Diana stammt von Themyscira, der Insel der Amazonen, wo Frauen regieren
+    und es keine Männer gibt. Doch auch auf dem paradiesisch wirkenden Eiland geht
+    es um Macht und Kampf. Schon als Kind lernt Diana von ihrer Tante Antiope das
+    Kämpfen. Als der amerikanische Pilot Steve Trevor auf der Insel strandet und von
+    einem grauenvollen Krieg berichtet, der in der Welt der Menschen tobt, vermutet
+    Diana dahinter das Wirken des vor langer Zeit verbannten Kriegsgottes Ares. So
+    folgt sie Steve in unsere Welt und lässt ihr Zuhause mit ihrer Mutter, Königin
+    Hippolyta, hinter sich, um Ares dort zu suchen, wo das Schlachtgetümmel am dichtesten
+    ist. Doch in den Wirren des Ersten Weltkriegs bekommt sie es zunächst mit dem
+    deutschen Heerführer General Ludendorff und dessen getreuer Wissenschaftlerin
+    Dr. Maru zu tun, die den Krieg mit allen Mitteln für sich entscheiden wollen …
   source: trakt
 - title: 'Mad Max: Fury Road'
   year: 2015
@@ -6924,15 +6972,24 @@
     Drei Waisenmädchen entdecken in ihm einen potentiellen Vater. Ist es nun mit seinem
     Verbrecherleben vorbei … oder stiehlt er doch noch den Mond?'
 - title: Star Wars
-  title_de: null
+  title_de: Krieg der Sterne
   year: 1977
   imdb: tt0076759
   tmdb: 11
   watched_on: '2016-01-23'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/2w4xG178RpB4MDAIfTkqAuSJzec.jpg
+  runtime: 121
+  overview_de: Seit der Vernichtung der Jedi-Ritter steht die Galaxie unter der grausamen
+    Herrschaft des Imperiums. Nur eine kleine Gruppe von Rebellen, angeführt von der
+    schönen Prinzessin Leia, widersetzt sich der dunklen Macht. Als es ihnen gelingt,
+    die geheimen Baupläne für den gefährlichen Todesstern zu entwenden, gerät das
+    Imperium in Aufruhr. Durch Zufall gelangen die Pläne ausgerechnet in die Hände
+    des Farmerjungen Luke Skywalker, der spürt, dass er sein bisheriges Leben hinter
+    sich lassen muss. Gemeinsam mit dem weisen Obi-Wan Kenobi, den Weltraumabenteurern
+    Han Solo und Chewbacca sowie den Droiden R2-D2 und C-3PO nimmt er den Kampf gegen
+    das mächtige Imperium auf. Es beginnt ein Wettlauf gegen die Zeit, denn der Kampfstern
+    kann nur vor seiner Fertigstellung zerstört werden...
   source: trakt
 - title: Famous Five
   year: 2012
@@ -6957,15 +7014,26 @@
     Also müssen sie auf eigene Faust ermitteln. Als eines Tages die verabredeten Lichtsignale
     von Quentin ausbleiben, spitzt sich die Lage zu…'
 - title: 'Avengers: Age of Ultron'
-  title_de: null
+  title_de: 'Avengers: Age of Ultron'
   year: 2015
   imdb: tt2395427
   tmdb: 99861
   watched_on: '2016-01-05'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg
+  runtime: 141
+  overview_de: 'Milliardär, Lebemann und Genie Tony Stark aka Iron Man will ein inaktives
+    Friedensprogramm in Gang bringen, doch dabei geht etwas schief. So taucht der
+    niederträchtige Roboter-Bösewicht Ultron auf und verfolgt Pläne zur Ausrottung
+    der Menschheit. Nun ist es an den Helden, sich wieder zu sammeln und das schreckliche
+    Schicksal der Welt abzuwenden. Zusammen mit Iron Man treten Thor, Captain America,
+    Hulk, Black Widow und Hawkeye dem fiesen Ultron entgegen und bekommen dabei Unterstützung
+    von den ehemaligen S.H.I.E.L.D.-Agenten Nick Fury und Maria Hill. Außerdem kreuzen
+    die geheimnisvollen und mit besonderen Fähigkeiten ausgestatteten Newcomer Wanda
+    und Pietro Maximoff den Weg der Helden, wie auch ein alter Bekannter in neuer
+    Gestalt: Vision. Die Rächer müssen ihre Kräfte vereinen, unsichere Allianzen schmieden
+    und auf unerwartete Aktionen reagieren, um die Bewohner der Erde einmal mehr vor
+    dem drohenden Untergang zu bewahren.'
   source: trakt
 - title: Doctor Proctor's Fart Powder
   year: 2014
@@ -7208,15 +7276,26 @@
     Lu Yan und dem schweigenden Mönch stellt sich Jason der größten Herausforderung
     seines Lebens. Er muss den bösen Jadekriegsherrn und die weißhaarige Dämonin besiegen...
 - title: 'Mission: Impossible - Rogue Nation'
-  title_de: null
+  title_de: 'Mission: Impossible - Rogue Nation'
   year: 2015
   imdb: tt2381249
   tmdb: 177677
   watched_on: '2015-09-07'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/jwqL7croP7JMVfz0l9o7V4yJsJO.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/ki5RnA0xNOEd3R0RohXqJt9R6Om.jpg
+  runtime: 131
+  overview_de: 'Nachdem das Pentagon die Impossible Missions Force aufgelöst hat,
+    ist Ethan Hunt auf sich allein gestellt. Doch gerade jetzt hat der ehemalige IMF-Agent
+    die Spur der geheimnisvollen und hochgefährlichen Organisation „Syndikat“ aufgenommen,
+    die sich schon bald als sein mächtigster Gegner erweist. Aus dem Untergrund heraus
+    operiert das „Syndikat“ mit bestens ausgebildeten Spezialagenten und diese scheinen
+    Hunt immer einen Schritt voraus zu sein – und ihre Mission ist teuflisch: Sie
+    wollen durch gezielte Anschläge eine neue Weltordnung schaffen und alle ehemaligen
+    Mitglieder der IMF auslöschen, um ihre Pläne ungestört verwirklichen zu können.
+    In offizieller Mission der Regierung oder nicht, Ethan Hunt kann nicht zusehen,
+    wie der Terror immer weiter um sich greift, und reaktiviert sein einzigartiges
+    Team. Unerwartete Hilfe bekommt das Quartett von der geheimnisvollen Agentin Ilsa
+    Faust – doch auf welcher Seite steht sie wirklich?'
   source: trakt
 - title: 'The Hunger Games: Mockingjay - Part 1'
   year: 2014
@@ -7432,15 +7511,25 @@
     Prinz, fordert nun die Ermordung derjenigen Killer, die vor Jahren für das Ableben
     seiner Söhne verantwortlich waren. Eine gnadenlose Jagd rund um den Globus beginnt…
 - title: Guardians of the Galaxy
-  title_de: null
+  title_de: Guardians of the Galaxy
   year: 2014
   imdb: tt2015381
   tmdb: 118340
   watched_on: '2015-05-15'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg
+  runtime: 121
+  overview_de: Nachdem der Abenteurer Peter Quill eine geheimnisvolle Kugel gestohlen
+    hat, wird er das Opfer einer unerbittlichen Kopfgeldjagd mit Ronan the Accuser.
+    Die Ziele des mächtigen Bösewichts bedrohen die Sicherheit des Universums. Um
+    dem hartnäckigen Ronan und seinen Schergen zu entgehen, ist Quill gezwungen, einen
+    nicht gerade einfach einzuhaltenden Waffenstillstand mit einem Quartett von ungleichen
+    Außenseitern einzugehen - dazu gehört der waffenliebende Waschbär Rocket, der
+    Baummensch Groot, die tödliche und rätselhafte Gamora und der rachsüchtige Drax
+    the Destroyer. Als Peter dann die wahre Macht der Kugel und dessen Bedrohung für
+    den Kosmos bewusst wird, muss er sein Bestes geben, um die bunt zusammengewürfelten
+    Rivalen für einen letzten, verzweifelten Widerstand zu vereinen und eine Helden-Truppe
+    aus ihnen machen - denn das Schicksal der Galaxie steht auf dem Spiel.
   source: trakt
 - title: Paddington
   year: 2014
@@ -7708,15 +7797,21 @@
     Plan, der ihnen nicht nur ihre Freundin zurückbringen soll, sondern auch das Geld
     rettet.'
 - title: Gremlins
-  title_de: null
+  title_de: Gremlins - Kleine Monster
   year: 1984
   imdb: tt0087363
   tmdb: 927
   watched_on: '2015-01-07'
-  poster: null
-  backdrop: null
-  runtime: null
-  overview_de: null
+  poster: https://image.tmdb.org/t/p/w500/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg
+  runtime: 106
+  overview_de: 'Warnung: halte sie von Wasser fern – halte sie von Licht fern – aber
+    das Wichtigste überhaupt: egal, wie sehr sie betteln: in keinem Fall dürfen sie
+    nach Mitternacht gefüttert werden – niemals! Drei mysteriöse Warnungen, bevor
+    Billy Pelzer sein neues kuscheliges Haustier in die Arme schließen kann. Doch
+    er hätte besser auf die Warnungen gehört, denn aus dem possierlichen Weihnachtsgeschenk
+    wird ein Albtraum für eine ganze Stadt. Ein kleines, drolliges Tier vermehrt sich
+    in Sekundenschnelle und es entstehen grauenvolle und doch hochintelligente Monster.'
   source: trakt
 - title: 'Madagascar: Escape 2 Africa'
   year: 2008
