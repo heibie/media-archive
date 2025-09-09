@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Die Stadt für alle
+  autor:
+  - Osamu Okamura
+  isbn: '9783792003794'
+  cover: https://buch.isbn.de/gross/9783792003794.jpg
+  seiten: 176
+  eingetragen_am: '2025-09-09'
+- typ: buch
+  status: want to read
   titel: Der Circle
   autor:
   - Dave Eggers
