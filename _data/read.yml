@@ -352,22 +352,6 @@
   ekz_id: '2119450'
   quelle: https://medienwelten.ekz.de/product?id=pim:6586005f9fa73b204877c764
 - typ: buch
-  status: want to read
-  titel: 'A Darwinian Survival Guide: Hope for the Twenty-First Century'
-  autor:
-  - Daniel R. Brooks
-  - Salvatore J. Agosta
-  isbn: '9780262048682'
-  hinzugefuegt_am: '2024-06-09'
-  tags:
-  - to-read
-  seiten: 360
-  erscheinungsjahr: 2024
-  quelle: https://www.goodreads.com/book/show/150065135
-  cover: https://cover.ekz.de/9780262048682.jpg
-  verlag: The MIT Press Autor Brooks, Daniel R., Agosta, Salvatore J. erschienen am
-    06.02.2024 ISBN-10 0-262-04868-X ISBN-13 978-
-- typ: buch
   status: finished
   titel: In den Fängen des Wolfes
   autor:
@@ -1714,21 +1698,6 @@
   verlag: Heyne Autor Christoph Koch erschienen am 08.03.2021 Rubrik Krankheit und
     Sucht
 - typ: buch
-  status: want to read
-  titel: Female Choice - Vom Anfang und Ende der männlichen Zivilisation
-  autor:
-  - Meike Stoverock
-  isbn: '9783608504804'
-  hinzugefuegt_am: '2021-08-29'
-  tags:
-  - to-read
-  seiten: 320
-  erscheinungsjahr: 2021
-  quelle: https://www.goodreads.com/book/show/55848520
-  cover: https://buch.isbn.de/gross/9783608504804.jpg
-  verlag: Tropen Autor Meike Stoverock erschienen am 13.02.2021 Rubrik Feminismus
-    und feministische Theorie ISBN-10 3-608-50480-X
-- typ: buch
   status: finished
   titel: Oddjob
   autor:
@@ -2491,20 +2460,6 @@
   ekz_id: '5599665'
   quelle: https://medienwelten.ekz.de/product?id=pim:5c357565352df30001d0e1ae
 - typ: buch
-  status: want to read
-  titel: 'All Systems Red (The Murderbot Diaries, #1)'
-  autor:
-  - Martha Wells
-  cover: http://books.google.com/books/content?id=nY8hEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api
-  hinzugefuegt_am: '2019-11-26'
-  tags:
-  - to-read
-  seiten: 144
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/32758901
-  isbn: '9781250389824'
-  sprache: en
-- typ: buch
   status: finished
   titel: 'Tausend Zeilen Lüge: Das System Relotius und der deutsche Journalismus'
   autor:
@@ -3117,19 +3072,6 @@
   quelle: https://www.goodreads.com/book/show/36281089
   verlag: Dark Horse Books Autor Jeff Lemire erschienen am 22.05.2018 ISBN-10 1-5067-0526-X
     ISBN-13 978- 1- 5067- 0526- 2 Lieferst
-- typ: buch
-  status: want to read
-  titel: '1793 (Bellman noir, #1)'
-  autor:
-  - Niklas Natt och Dag
-  isbn: '9783492317931'
-  cover: https://cover.ekz.de/9783492317931.jpg
-  hinzugefuegt_am: '2019-04-22'
-  tags:
-  - to-read
-  seiten: 446
-  erscheinungsjahr: 2017
-  quelle: https://www.goodreads.com/book/show/36241510
 - typ: buch
   status: want to read
   titel: Die Kinder der Zeit
