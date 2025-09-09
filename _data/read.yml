@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Die Verkrempelung der Welt
+  autor:
+  - Gabriel Yoran
+  isbn: '9783518030028'
+  cover: https://buch.isbn.de/gross/9783518030028.jpg
+  seiten: 185
+  eingetragen_am: '2025-09-09'
+- typ: buch
+  status: want to read
   titel: Die Stadt für alle
   autor:
   - Osamu Okamura
