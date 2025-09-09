@@ -10,8 +10,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/hC4WgrNv8llTgPooBTQSKEYNOG0.jpg
   episode_title: Episode 8
   episode_title_de: Am Tag, als Carlo Brenner starb
@@ -32,8 +32,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/z3fb9msJjB2oXi7WUUv0vV90jwR.jpg
   episode_title: Episode 7
   episode_title_de: Der BlaBla-Mein-Dorf-Komplex
@@ -54,8 +54,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/t0YNBNd5Vm7By103NUDGJazTLSh.jpg
   episode_title: Episode 6
   episode_title_de: Oben ohne, Down Under
@@ -76,8 +76,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/hWVStIZmMXgM1dxv1RcTkRv32qU.jpg
   episode_title: Episode 5
   episode_title_de: Das nullte Mal
@@ -98,8 +98,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/x5jXuSbY8GNga7JXd9Uq9tBRwLA.jpg
   episode_title: Episode 4
   episode_title_de: 1000 Jahre Hintervorderbach
@@ -120,8 +120,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/nEyJjeSd7iGWfRyHwFHMOwG2jTb.jpg
   episode_title: Episode 3
   episode_title_de: Papa (T)ante Sportplatz
@@ -142,8 +142,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/azU6JCSIGapusA418do1ynYoJJ6.jpg
   episode_title: Episode 2
   episode_title_de: Der Gott des Geschnetzels
@@ -164,8 +164,8 @@
   imdb: null
   tmdb: 292213
   slug: tschappel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8nFYjiUld4lbntIbLpWPvcbNTO0.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/eLby7h83vlZQrJfE8BYl7WKHTfX.jpg
   episode_still: https://image.tmdb.org/t/p/w300/cAZCoIdMtFRRY1DrTT6M4Rj6HXX.jpg
   episode_title: Episode 1
   episode_title_de: Mehr Schwein als Sein
@@ -5424,8 +5424,8 @@
   imdb: tt13157618
   tmdb: 114472
   slug: secret-invasion
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/f5ZMzzCvt2IzVDxr54gHPv9jlC9.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/6mOK9j99OFlxGc3ird2jWUeUha9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/yyx0s1TRRjqT9pqFUVm70IBENQP.jpg
   episode_title: Resurrection
   episode_title_de: Auferstehung
@@ -8240,8 +8240,8 @@
   imdb: tt9253284
   tmdb: 83867
   slug: star-wars-andor
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/khZqmwHQicTYoS7Flreb9EddFZC.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg
   episode_still: https://image.tmdb.org/t/p/w300/mOL38zvzT4Xu1gcFNwzhtQfQVsc.jpg
   episode_title: Kassa
   episode_title_de: Kassa
@@ -9516,8 +9516,8 @@
   imdb: tt8466564
   tmdb: 92830
   slug: obi-wan-kenobi
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/qJRB789ceLryrLvOKrZqLKr2CGf.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg
   episode_still: https://image.tmdb.org/t/p/w300/aM0H1Gn2ry8Wc2eUxk9KHbZbeBr.jpg
   episode_title: Part III
   episode_title_de: Teil III
@@ -9538,8 +9538,8 @@
   imdb: tt8466564
   tmdb: 92830
   slug: obi-wan-kenobi
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/qJRB789ceLryrLvOKrZqLKr2CGf.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg
   episode_still: https://image.tmdb.org/t/p/w300/7NvWnQmdBKRfMtKGcdik6NLH7MX.jpg
   episode_title: Part II
   episode_title_de: Teil II
@@ -9560,8 +9560,8 @@
   imdb: tt8466564
   tmdb: 92830
   slug: obi-wan-kenobi
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/qJRB789ceLryrLvOKrZqLKr2CGf.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg
   episode_still: https://image.tmdb.org/t/p/w300/twfvrChI2YEQITGbqjhEXVy39QA.jpg
   episode_title: Part I
   episode_title_de: Teil I
@@ -15149,8 +15149,8 @@
   imdb: tt12708542
   tmdb: 105971
   slug: star-wars-the-bad-batch
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/cDQAvfgAqnKuklerrZylZr6PCQa.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/sjxtIUCWR74yPPcZFfTsToepfWm.jpg
   episode_still: https://image.tmdb.org/t/p/w300/V0VtlwgPjOWT3JowxDuFfiZNvs.jpg
   episode_title: Cornered
   episode_title_de: Gejagt
@@ -21485,8 +21485,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/g1iZmyn42qSFkXhw6gjoNE0diKb.jpg
   episode_title: 'Chapter One: Suzie, Do You Copy?'
   episode_title_de: 'Kapitel eins: Suzie, hörst du mich?'
@@ -22277,8 +22277,8 @@
   imdb: tt1190634
   tmdb: 76479
   slug: the-boys-2019
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7cqKGQMnNabzOpi7qaIgZvQ7NGV.jpg
   episode_still: https://image.tmdb.org/t/p/w300/1XzqWHBFvddrO2sazXzaCTtFEeA.jpg
   episode_title: Cherry
   episode_title_de: Cherry
@@ -22431,8 +22431,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/8pk4Doc6l35kfANCNRRJz3gZNFy.jpg
   episode_title: Episode 8
   episode_title_de: Folge 8
@@ -22453,8 +22453,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/gMoxLHO9n9DOWh3wja9HI0RNIN8.jpg
   episode_title: Episode 7
   episode_title_de: Folge 7
@@ -22475,8 +22475,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/jyv5TyYJrbpOCQnQv0nUikhOshN.jpg
   episode_title: Episode 6
   episode_title_de: Folge 6
@@ -22497,8 +22497,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/u8FsfwPopvsPMcvMwysy2htTRMT.jpg
   episode_title: Episode 5
   episode_title_de: Folge 5
@@ -22563,8 +22563,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/u8FsfwPopvsPMcvMwysy2htTRMT.jpg
   episode_title: Episode 5
   episode_title_de: Folge 5
@@ -22585,8 +22585,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/h8hPmZEgXfkY2j5h6SnJ7v8FJ6O.jpg
   episode_title: Episode 4
   episode_title_de: Folge 4
@@ -22607,8 +22607,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/mNoPDRVcdsdGNahUaKI24ibl1Bz.jpg
   episode_title: Episode 3
   episode_title_de: Folge 3
@@ -22629,8 +22629,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
   episode_title: Episode 2
   episode_title_de: Folge 2
@@ -22651,8 +22651,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
   episode_title: Episode 1
   episode_title_de: Folge 1
@@ -22717,8 +22717,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/mNoPDRVcdsdGNahUaKI24ibl1Bz.jpg
   episode_title: Episode 3
   episode_title_de: Folge 3
@@ -22739,8 +22739,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
   episode_title: Episode 2
   episode_title_de: Folge 2
@@ -22761,8 +22761,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
   episode_title: Episode 1
   episode_title_de: Folge 1
@@ -22871,8 +22871,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/OBgH7fwx2Jiiiil0HCs8gvLBgI.jpg
   episode_title: Episode 2
   episode_title_de: Folge 2
@@ -22893,8 +22893,8 @@
   imdb: tt4378376
   tmdb: 66980
   slug: babylon-berlin
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg
   episode_still: https://image.tmdb.org/t/p/w300/7pVRfmAvXIbLnnuA8suZXWqafOW.jpg
   episode_title: Episode 1
   episode_title_de: Folge 1
@@ -23113,8 +23113,8 @@
   imdb: tt5180504
   tmdb: 71912
   slug: the-witcher-2019
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dQOphbONxlpPsKo30araFr0CYMO.jpg
   episode_still: https://image.tmdb.org/t/p/w300/kvnbgfKMSOeq08gWeL7FrzT0mah.jpg
   episode_title: The End's Beginning
   episode_title_de: Des Endes Anfang
@@ -23883,8 +23883,8 @@
   imdb: tt2364582
   tmdb: 1403
   slug: marvel-s-agents-of-s-h-i-e-l-d
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qtr5i6hOm6oVzTYl3jOQAYP3oc7.jpg
   episode_still: https://image.tmdb.org/t/p/w300/j2SjEEDIoWiSFXzp1x3SbN0mJjz.jpg
   episode_title: The Bridge
   episode_title_de: Der Wolf im Schafspelz
@@ -25557,8 +25557,8 @@
   imdb: tt1442462
   tmdb: 1435
   slug: the-good-wife
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/lasNCd45fpPLirlA7QxkuopWro.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/uinrziSwEmS6s8VvGBad5sed7bF.jpg
   episode_still: https://image.tmdb.org/t/p/w300/bTPyEdT6L8wwcQPuSlOC0cul1yt.jpg
   episode_title: Discovery
   episode_title_de: Enthüllungen
@@ -27757,8 +27757,8 @@
   imdb: tt5788792
   tmdb: 70796
   slug: the-marvelous-mrs-maisel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/zS7fQiOZiKCVH2vlYSiIsFWW8hh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/vQ77kC1amsZECKIxkUIsMJCtBVp.jpg
   episode_still: https://image.tmdb.org/t/p/w300/eQfZjH7jz3Koz7NSXa98k9HvsfX.jpg
   episode_title: Mid-way to Mid-town
   episode_title_de: Auf halbem Weg nach Midtown
@@ -27779,8 +27779,8 @@
   imdb: tt5788792
   tmdb: 70796
   slug: the-marvelous-mrs-maisel
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/zS7fQiOZiKCVH2vlYSiIsFWW8hh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/vQ77kC1amsZECKIxkUIsMJCtBVp.jpg
   episode_still: https://image.tmdb.org/t/p/w300/BJISBlYYcGMBYSKdDkc2WByzKn.jpg
   episode_title: Simone
   episode_title_de: Simone
@@ -31541,8 +31541,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/cxCf7O5WPHfyXb7PLSJCG6EvXc3.jpg
   episode_title: 'Chapter Nine: The Gate'
   episode_title_de: 'Kapitel neun: Das Tor'
@@ -31563,8 +31563,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/qVIjQZsW5q6QeVDlRV5AmEtq66o.jpg
   episode_title: 'Chapter Eight: The Mind Flayer'
   episode_title_de: 'Kapitel acht: Der Gedankenschinder'
@@ -31585,8 +31585,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/kgOaaTbAutwAoA7tkVzYCfTjPXn.jpg
   episode_title: 'Chapter Seven: The Lost Sister'
   episode_title_de: 'Kapitel sieben: Die verlorene Schwester'
@@ -31629,8 +31629,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/6ZugLBCvBJ1TKxKaLMyjyaXMd6D.jpg
   episode_title: 'Chapter Six: The Spy'
   episode_title_de: 'Kapitel sechs: Der Spion'
@@ -31651,8 +31651,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/lkw76vUQHnnWQM0k7kbByOW5hzY.jpg
   episode_title: 'Chapter Five: Dig Dug'
   episode_title_de: 'Kapitel fünf: Dig Dug'
@@ -31673,8 +31673,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/wZXeV5cWC1RuaCls2mm6imzchnN.jpg
   episode_title: 'Chapter Four: Will the Wise'
   episode_title_de: 'Kapitel vier: Will, der Weise'
@@ -31695,8 +31695,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/792NQjFydcr5ucb1sga55LS6Vt3.jpg
   episode_title: 'Chapter Three: The Pollywog'
   episode_title_de: 'Kapitel drei: Die Kaulquappe'
@@ -31871,8 +31871,8 @@
   imdb: tt5290382
   tmdb: 67744
   slug: mindhunter
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/a906PH7CDmSOdS7kmnAgdWk5mhv.jpg
   episode_still: https://image.tmdb.org/t/p/w300/fO3YE0XLR3uH3MAmQKpBNzFPo2s.jpg
   episode_title: Episode 1
   episode_title_de: Eine neue Art von Killer
@@ -31893,8 +31893,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/3gzPnRilyASmcoSyUKXhaD5ofhr.jpg
   episode_title: 'Chapter Two: Trick or Treat, Freak'
   episode_title_de: 'Kapitel zwei: Süßes oder Saures, Freak'
@@ -31915,8 +31915,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/efz0MgPAxPw11PIeAJNgKKg3Paa.jpg
   episode_title: 'Chapter One: MADMAX'
   episode_title_de: 'Kapitel eins: MAD MAX'
@@ -32462,8 +32462,8 @@
   imdb: tt3230854
   tmdb: 63639
   slug: the-expanse
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8djpxDeWpINnGhjpFXQjnBe6zbx.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7yKtaRij2giAj0s09F6gmB8XIje.jpg
   episode_still: https://image.tmdb.org/t/p/w300/cJ3dfsoU9ya5WtGWthqo1eKR2pT.jpg
   episode_title: The Big Empty
   episode_title_de: Die große Leere
@@ -32484,8 +32484,8 @@
   imdb: tt3230854
   tmdb: 63639
   slug: the-expanse
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/8djpxDeWpINnGhjpFXQjnBe6zbx.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7yKtaRij2giAj0s09F6gmB8XIje.jpg
   episode_still: https://image.tmdb.org/t/p/w300/j4WEC9Jh4AyXF8ynpX3pz633tse.jpg
   episode_title: Dulcinea
   episode_title_de: 50.000 Kilometer
@@ -32858,8 +32858,8 @@
   imdb: tt6071060
   tmdb: 69931
   slug: jerks
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/u1JncmdwAUT3wPNaYRNW1ULQwjD.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/iPwqir5qvA87Is1DdIgrYauCH5P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/8IIBWYupRhtsU27hcoo9Kyg3Qgv.jpg
   episode_title: Sperm Theft
   episode_title_de: Samenraub
@@ -33320,8 +33320,8 @@
   imdb: tt0944947
   tmdb: 1399
   slug: game-of-thrones
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg
   episode_still: https://image.tmdb.org/t/p/w300/dNp7HBQbwKlgX76fwqM6SWUo5tU.jpg
   episode_title: Oathbreaker
   episode_title_de: Eidbrecher
@@ -34354,8 +34354,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/1teJ5dbuepfqOOs9uYhYTUjr2qs.jpg
   episode_title: 'Chapter Eight: The Upside Down'
   episode_title_de: 'Kapitel acht: Die andere Seite'
@@ -34376,8 +34376,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/fjsTVEnqTKUO0GJSpiWKBZRUBcx.jpg
   episode_title: 'Chapter Seven: The Bathtub'
   episode_title_de: 'Kapitel sieben: Die Badewanne'
@@ -34420,8 +34420,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/lNS6qycyucewz3duTr1tf1LU688.jpg
   episode_title: 'Chapter Six: The Monster'
   episode_title_de: 'Kapitel sechs: Das Monster'
@@ -34442,8 +34442,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/exT4NW9EdXG1qLZHKJnRpq3gh1H.jpg
   episode_title: 'Chapter Five: The Flea and the Acrobat'
   episode_title_de: 'Kapitel fünf: Der Floh und der Akrobat'
@@ -34464,8 +34464,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/60wmC1e20HV8gu688GAhsWxqxPx.jpg
   episode_title: 'Chapter Four: The Body'
   episode_title_de: 'Kapitel vier: Die Leiche'
@@ -34486,8 +34486,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/5snULpWQWp7aqFto7UbRcEkEyyS.jpg
   episode_title: 'Chapter Three: Holly, Jolly'
   episode_title_de: 'Kapitel drei: Grausame Nacht'
@@ -34508,8 +34508,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/icjMb4yVK7dh5GDXxGhnq2s9pk4.jpg
   episode_title: 'Chapter Two: The Weirdo on Maple Street'
   episode_title_de: 'Kapitel zwei: Die Verrückte auf der Maple Street'
@@ -34530,8 +34530,8 @@
   imdb: tt4574334
   tmdb: 66732
   slug: stranger-things
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg
   episode_still: https://image.tmdb.org/t/p/w300/uLES7sRpy7Ih6Kr6XCaYj1GyfTw.jpg
   episode_title: 'Chapter One: The Vanishing of Will Byers'
   episode_title_de: 'Kapitel eins: Das Verschwinden des Will Byers'
@@ -36551,8 +36551,8 @@
   imdb: tt1934564
   tmdb: 43879
   slug: braunschlag
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/jre6pjAGc10l1r5ORUhN1akKZA2.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/jMY485DXRj1f45gXKBN9DleJSTn.jpg
   episode_still: https://image.tmdb.org/t/p/w300/iEsyCwZ9Dy8UP010y6wA728jIC7.jpg
   episode_title: Ein heiliges Wunder
   episode_title_de: Ein heiliges Wunder
@@ -36925,8 +36925,8 @@
   imdb: tt2364582
   tmdb: 1403
   slug: marvel-s-agents-of-s-h-i-e-l-d
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qtr5i6hOm6oVzTYl3jOQAYP3oc7.jpg
   episode_still: https://image.tmdb.org/t/p/w300/8P8Q7gb6u1vIrG3QKl9wTrOk4gS.jpg
   episode_title: Eye Spy
   episode_title_de: Augen-Blick
@@ -37233,8 +37233,8 @@
   imdb: tt2364582
   tmdb: 1403
   slug: marvel-s-agents-of-s-h-i-e-l-d
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qtr5i6hOm6oVzTYl3jOQAYP3oc7.jpg
   episode_still: https://image.tmdb.org/t/p/w300/7pW5MEaKH2XIiQpzZs5YvPkbNnl.jpg
   episode_title: The Asset
   episode_title_de: Anziehungskräfte
@@ -37277,8 +37277,8 @@
   imdb: tt2364582
   tmdb: 1403
   slug: marvel-s-agents-of-s-h-i-e-l-d
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qtr5i6hOm6oVzTYl3jOQAYP3oc7.jpg
   episode_still: https://image.tmdb.org/t/p/w300/3Ndrphly05IpOoBV6DyppJu15gx.jpg
   episode_title: 0-8-4
   episode_title_de: 0–8–4
@@ -37299,8 +37299,8 @@
   imdb: tt2364582
   tmdb: 1403
   slug: marvel-s-agents-of-s-h-i-e-l-d
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qtr5i6hOm6oVzTYl3jOQAYP3oc7.jpg
   episode_still: https://image.tmdb.org/t/p/w300/rPSvrM1XEUcVE3fYpYEdEA58KvV.jpg
   episode_title: Pilot
   episode_title_de: Aus großer Kraft folgt...
@@ -37937,8 +37937,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/qOmrd9VCG6p8JBmu5r5Id8sdc91.jpg
   episode_title: Eureka
   episode_title_de: Eureka
@@ -38025,8 +38025,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/tdGbKL6mWvYzJd322pSmZDcFNwx.jpg
   episode_title: Albification
   episode_title_de: Die Liga
@@ -38443,8 +38443,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/uE9FabDsUtt8yLzSp9ytdIvK8bW.jpg
   episode_title: Better Half
   episode_title_de: Die bessere Hälfte
@@ -38531,8 +38531,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/hReG59ttaki71kRhORzlAHRKt9t.jpg
   episode_title: Hell Followed
   episode_title_de: Hölle
@@ -38663,8 +38663,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/dq1OgXa3d4Qq8NpczsFA2urLqKm.jpg
   episode_title: Fun Town
   episode_title_de: Kirmes
@@ -38685,8 +38685,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/6YZVXrSCUTRYXOiNAnAdBkwRtvC.jpg
   episode_title: Seeds
   episode_title_de: Krematorium
@@ -38707,8 +38707,8 @@
   imdb: tt1124373
   tmdb: 1409
   slug: sons-of-anarchy
-  show_poster: null
-  show_backdrop: null
+  show_poster: https://image.tmdb.org/t/p/w500/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg
   episode_still: https://image.tmdb.org/t/p/w300/jc2RFJIJBFqsMpxnCD6VParg8Rj.jpg
   episode_title: Pilot
   episode_title_de: Sam Crowe
