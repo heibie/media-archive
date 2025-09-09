@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Und Federn überall
+  autor:
+  - Nava Ebrahimi
+  isbn: '9783630877457'
+  cover: https://buch.isbn.de/gross/9783630877457.jpg
+  seiten: 352
+  eingetragen_am: '2025-09-09'
+- typ: buch
+  status: want to read
   titel: Baustellen der Nation
   autor:
   - Philip Banse
