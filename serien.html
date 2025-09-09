@@ -31,7 +31,7 @@ permalink: /serien/
         <img class="poster" src="{{ latest.show_poster | default: '/assets/placeholder.png' }}" alt="Poster {{ g.name | escape }}" loading="lazy">
       </div>
       <div>
-        <h2 style="margin:.2rem 0 .3rem 0;">{{ g.name }}</h2>
+        <h2 style="margin:.2rem 0 .3rem 0;">{{ latest.show_title_de | default: g.name }}</h2>
         <div class="meta">
           {% if latest.year %}<span class="pill">{{ latest.year }}</span>{% endif %}
           <span class="pill">{{ total }} Episoden</span>
