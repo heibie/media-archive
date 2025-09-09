@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Klima-Bullshit-Bingo (SPIEGEL-Bestseller)
+  autor:
+  - Jan Hegenberg
+  isbn: '9783831206353'
+  cover: https://buch.isbn.de/gross/9783831206353.jpg
+  seiten: 240
+  eingetragen_am: '2025-09-09'
+- typ: buch
+  status: want to read
   titel: Kein Geld Kein Glück Kein Sprit
   autor:
   - Heinz Strunk
