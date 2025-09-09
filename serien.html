@@ -58,8 +58,8 @@ permalink: /serien/
       {% capture en_str %}{% if en_num < 10 %}0{{ en_num }}{% else %}{{ en_num }}{% endif %}{% endcapture %}
 
       <li>
-        S{{ se_str }},E{{ en_str }}
-        {% if ep.watched_on %} – gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}{% endif %}
+        S{{ se_str }}E{{ en_str }}
+        {% if ep.watched_on %} {{ ep.episode_title_de | default: ep.episode_title }} – gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}{% endif %}
         {% if ep.episode_still %} · <a href="{{ ep.episode_still }}" target="_blank" rel="noopener">Still</a>{% endif %}
       </li>
     {% endfor %}
