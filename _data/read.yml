@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Die Auferstehung
+  autor:
+  - Andreas Eschbach
+  isbn: '9783440179741'
+  cover: https://buch.isbn.de/gross/9783440179741.jpg
+  seiten: 448
+  eingetragen_am: '2025-09-10'
+- typ: buch
+  status: want to read
   titel: Stoizismus für Eilige
   autor:
   - Brad Inwood
