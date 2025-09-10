@@ -63,6 +63,8 @@ def main():
                     help="TMDB API key (or set TMDB_API_KEY)")
     ap.add_argument("--sleep", type=float, default=0.02, help="Sleep between API calls (seconds)")
     ap.add_argument("--lang", default="de-DE", help="Preferred language for localized titles")
+    ap.add_argument("--debug", action="store_true", help="Print debug info for missing IDs")
+
     args = ap.parse_args()
 
     if not args.tmdb_key:
@@ -297,6 +299,10 @@ def main():
                     e["imdb"] = t_ids["imdb"]
                 if not e.get("tvdb") and t_ids.get("tvdb"):
                     e["tvdb"] = t_ids["tvdb"]
+            # Optionales Debugging
+            if args.debug and (not e.get("imdb") or not e.get("tvdb")):
+                print(f"[DEBUG] Missing IDs for show='{e.get('show')}', tmdb={tv_id}, "
+                f"trakt={e.get('trakt_show')}, slug={e.get('slug')} -> imdb={e.get('imdb')}, tvdb={e.get('tvdb')}")
 
             # Poster/Backdrop nur setzen, wenn leer
             if not e.get("show_poster"):
