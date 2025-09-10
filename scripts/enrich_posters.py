@@ -104,6 +104,47 @@ def main():
         tv_external_ids_cache[tv_id] = r.json() if r.status_code == 200 else {}
         pause()
         return tv_external_ids_cache[tv_id]
+      # Cache für Trakt-IDs
+trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12345}
+
+    def trakt_show_ids(trakt_id=None, slug=None):
+    """
+    Fallback: hole imdb/tvdb von Trakt, wenn TMDB keine external_ids hat.
+    Benötigt nur TRAKT_CLIENT_ID (public), kein OAuth.
+    """
+    client_id = os.environ.get("TRAKT_CLIENT_ID")
+    if not client_id:
+        return {}
+
+    key = ("id", trakt_id) if trakt_id else ("slug", slug)
+    if key in trakt_show_ids_cache:
+        return trakt_show_ids_cache[key]
+
+    headers = {
+        "trakt-api-version": "2",
+        "trakt-api-key": client_id,
+        "Accept": "application/json",
+    }
+    if trakt_id:
+        url = f"https://api.trakt.tv/shows/{trakt_id}?extended=ids"
+    elif slug:
+        url = f"https://api.trakt.tv/shows/{slug}?extended=ids"
+    else:
+        return {}
+
+    r = requests.get(url, headers=headers, timeout=20)
+    if r.status_code != 200:
+        trakt_show_ids_cache[key] = {}
+        return {}
+    j = r.json() or {}
+    ids = (j.get("ids") or {})
+    out = {
+        "imdb": ids.get("imdb"),
+        "tvdb": ids.get("tvdb"),
+    }
+    trakt_show_ids_cache[key] = out
+    return out
+
 
     # ---------------- Movies ----------------
     movies = load_yaml(Path(args.movies))
