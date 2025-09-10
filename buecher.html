@@ -8,7 +8,7 @@ permalink: /buecher/
 <p class="muted">Quelle: <code>_data/read.yml</code></p>
 
 <!-- Aktuell am Lesen -->
-<h2>📖 Aktuell am Lesen</h2>
+<h2 style="margin-top:2rem;">📖 Aktuell am Lesen</h2>
 <div class="grid">
   {% assign current = site.data.read | where: "status", "currently reading" %}
   {% for b in current %}
@@ -18,13 +18,21 @@ permalink: /buecher/
       <strong>{{ b.title }}</strong>
       {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
       {% if b.started %}<div class="muted">gestartet am {{ b.started | date: "%d.%m.%Y" }}</div>{% endif %}
+
+      {% if b.progress %}
+      {% assign pct = b.progress | times: 100 | divided_by: b.pages | round %}
+      <div class="progress" aria-label="Fortschritt" style="margin-top:.4rem;">
+        <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
+        <div class="muted" style="margin-top:4px">{{ b.progress }}/{{ b.pages }} Seiten ({{ pct }}%)</div>
+      </div>
+      {% endif %}
     </div>
   </article>
   {% endfor %}
 </div>
 
 <!-- Will ich lesen -->
-<h2>📚 Will ich lesen</h2>
+<h2 style="margin-top:3rem;">📚 Will ich lesen</h2>
 <div class="grid">
   {% assign want = site.data.read | where: "status", "want to read" %}
   {% for b in want %}
@@ -40,7 +48,7 @@ permalink: /buecher/
 </div>
 
 <!-- Nicht beendet -->
-<h2>⏸️ Abgebrochen / Not Finished</h2>
+<h2 style="margin-top:3rem;">⏸️ Abgebrochen / Not Finished</h2>
 <div class="grid">
   {% assign nf = site.data.read | where: "status", "not finished" %}
   {% for b in nf %}
@@ -56,7 +64,7 @@ permalink: /buecher/
 </div>
 
 <!-- Beendet -->
-<h2>✅ Gelesen</h2>
+<h2 style="margin-top:3rem;">✅ Gelesen</h2>
 <div class="grid">
   {% assign done = site.data.read | where: "status", "finished" | sort: "finished" | reverse %}
   {% for b in done %}
