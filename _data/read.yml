@@ -1,5 +1,16 @@
 - typ: buch
   status: want to read
+  titel: Wackelkontakt
+  autor:
+  - Wolf Haas
+  isbn: '9783446282728'
+  cover: https://buch.isbn.de/gross/9783446282728.jpg
+  seiten: 240
+  verlag: Carl Hanser Verlag GmbH & Co. KG
+  erscheinungsjahr: '2025'
+  eingetragen_am: '2025-09-10'
+- typ: buch
+  status: want to read
   titel: The Secret of Secrets
   autor:
   - Dan Brown
