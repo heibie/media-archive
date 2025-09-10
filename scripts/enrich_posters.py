@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """
 Enrich YAMLs (movies & episodes) with images + detailed metadata from TMDB,
-including German titles (de-DE) for shows, episodes and movies.
+including German titles (de-DE) and external IDs.
 
 Movies adds:
   - poster, backdrop
   - runtime (minutes)
-  - title_de (German title)
-  - overview_de (German overview)
+  - title_de, overview_de
+  - imdb (filled if missing)
 
-Episodes adds:
+Episodes adds (per row):
   - show_title_de
   - show_total_episodes
   - show_episode_run_time (typical, minutes)
   - show_poster, show_backdrop
+  - imdb (show-level), tvdb (show-level)  ← filled if missing
   - season_total_episodes
-  - episode_title (default-language)
-  - episode_title_de (German)
+  - episode_title (default-language), episode_title_de (German)
   - episode_runtime (minutes)
   - episode_still (fallback if missing)
 
@@ -73,14 +73,15 @@ def main():
         return f"{base}{size}{path}" if path else None
 
     # --- caches ---
-    find_cache = {}          # imdb_id -> /find results
-    movie_def_cache = {}     # movie_id -> default-language details
-    movie_de_cache  = {}     # movie_id -> localized (de-DE) details
-    tv_def_cache = {}        # tv_id -> default details
-    tv_de_cache  = {}        # (tv_id, lang) -> localized details
-    season_de_cache = {}     # (tv_id, season, lang) -> season details
-    episode_cache_de = {}    # (tv_id, season, ep, lang) -> episode details (localized)
-    episode_cache_def = {}   # (tv_id, season, ep) -> episode details (default)
+    find_cache = {}            # imdb_id -> /find results
+    movie_def_cache = {}       # movie_id -> default-language details
+    movie_de_cache  = {}       # movie_id -> localized (de-DE) details
+    tv_def_cache = {}          # tv_id -> default details
+    tv_de_cache  = {}          # (tv_id, lang) -> localized details
+    tv_external_ids_cache = {} # tv_id -> external ids json (imdb_id, tvdb_id)
+    season_de_cache = {}       # (tv_id, season, lang) -> season details
+    episode_cache_de = {}      # (tv_id, season, ep, lang) -> episode details (localized)
+    episode_cache_def = {}     # (tv_id, season, ep) -> episode details (default)
 
     def pause():
         time.sleep(args.sleep)
@@ -94,6 +95,16 @@ def main():
         find_cache[imdb_id] = r.json() if r.status_code == 200 else {}
         return find_cache[imdb_id]
 
+    def tv_external_ids(tv_id):
+        if not tv_id:
+            return {}
+        if tv_id in tv_external_ids_cache:
+            return tv_external_ids_cache[tv_id]
+        r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/external_ids")
+        tv_external_ids_cache[tv_id] = r.json() if r.status_code == 200 else {}
+        pause()
+        return tv_external_ids_cache[tv_id]
+
     # ---------------- Movies ----------------
     movies = load_yaml(Path(args.movies))
     for m in movies:
@@ -105,7 +116,7 @@ def main():
         if not mid:
             continue
 
-        # default/EN (poster/backdrop/runtime/title fallback)
+        # default/EN (poster/backdrop/runtime/title + imdb_id)
         if mid not in movie_def_cache:
             r_def = s.get(f"https://api.themoviedb.org/3/movie/{mid}")
             movie_def_cache[mid] = r_def.json() if r_def.status_code == 200 else None
@@ -125,13 +136,15 @@ def main():
         m["runtime"]  = j_def.get("runtime")
         if not m.get("title"):
             m["title"] = j_def.get("title")
+        # IMDb-ID nachtragen, falls fehlt
+        if not m.get("imdb"):
+            m["imdb"] = j_def.get("imdb_id")
         m["title_de"]    = j_de.get("title") or m.get("title_de")
         m["overview_de"] = j_de.get("overview") or m.get("overview_de")
 
     # ---------------- Episodes / TV ----------------
     episodes = load_yaml(Path(args.episodes))
-
-    # per-show memo for totals & typical runtime & german show name & poster/backdrop urls
+    # per-show memo for totals & typical runtime & german show name & poster/backdrop urls & external ids
     show_meta_cache = {}  # tv_id -> dict
 
     def tv_details_default(tv_id=None, imdb_id=None):
@@ -188,7 +201,7 @@ def main():
         e["tmdb"] = tv_id or e.get("tmdb")
 
         if tv_id:
-            # --- SHOW-LEVEL META inkl. POSTER/BACKDROP ---
+            # --- SHOW-LEVEL META inkl. POSTER/BACKDROP & External IDs ---
             if tv_id not in show_meta_cache:
                 tv_de = tv_details_localized(tv_id, args.lang)
 
@@ -199,12 +212,19 @@ def main():
                 poster_path   = (tv_def or {}).get("poster_path")   or (tv_de or {}).get("poster_path")
                 backdrop_path = (tv_def or {}).get("backdrop_path") or (tv_de or {}).get("backdrop_path")
 
+                # External IDs (IMDb/TVDB) für die Show
+                ex_ids = tv_external_ids(tv_id)
+                imdb_id = ex_ids.get("imdb_id")
+                tvdb_id = ex_ids.get("tvdb_id")
+
                 show_meta_cache[tv_id] = {
                     "show_total_episodes": total_eps,
                     "show_episode_run_time": avg_rt,
                     "show_title_de": (tv_de.get("name") if tv_de else None),
                     "show_poster_url":   build_url(poster_path, poster_size) if poster_path else None,
                     "show_backdrop_url": build_url(backdrop_path, backdrop_size) if backdrop_path else None,
+                    "imdb_id": imdb_id,
+                    "tvdb_id": tvdb_id,
                 }
 
             meta = show_meta_cache[tv_id]
@@ -213,6 +233,12 @@ def main():
             e["show_total_episodes"]   = meta["show_total_episodes"]
             e["show_episode_run_time"] = meta["show_episode_run_time"]
             e["show_title_de"]         = meta["show_title_de"]
+
+            # IMDb/TVDB-IDs der Show in Episodenzeilen nachtragen, wenn leer
+            if not e.get("imdb") and meta.get("imdb_id"):
+                e["imdb"] = meta["imdb_id"]
+            if not e.get("tvdb") and meta.get("tvdb_id"):
+                e["tvdb"] = meta["tvdb_id"]
 
             # Poster/Backdrop nur setzen, wenn leer
             if not e.get("show_poster"):
