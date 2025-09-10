@@ -5,175 +5,68 @@ permalink: /buecher/
 ---
 
 <h1>📚 Bücher</h1>
-<p class="muted">Quelle: <code>_data/read.yml</code> • „currently reading“ immer oben • danach neueste zuerst</p>
+<p class="muted">Quelle: <code>_data/read.yml</code></p>
 
-{%- assign books_all = site.data.read | default: empty -%}
-{%- assign books = books_all | where: "typ", "buch" -%}
-{%- assign books = books | sort: "fertig_am" | reverse -%}
-
-<div class="controls">
-  <div class="group">
-    <label for="q">Suche:</label>
-    <input id="q" type="search" placeholder="Titel oder Autor…">
-  </div>
-  <div class="group">
-    <label for="status">Status:</label>
-    {%- assign all_status = "" | split: "" -%}
-    {%- for b in books -%}
-      {%- if b.status -%}{%- assign all_status = all_status | push: b.status -%}{%- endif -%}
-    {%- endfor -%}
-    {%- assign status_unique = all_status | uniq | sort -%}
-    <select id="status">
-      <option value="">(alle)</option>
-      {%- for s in status_unique -%}{% if s %}<option value="{{ s | escape }}">{{ s }}</option>{% endif %}{%- endfor -%}
-    </select>
-  </div>
-  <div class="group">
-    <label for="year">Jahr:</label>
-    {%- assign all_years = "" | split: "" -%}
-    {%- for b in books -%}
-      {%- assign d = b.fertig_am | default: b.eingetragen_am | default: b.hinzugefuegt_am | default: b.start_am | default: b.gestartet_am | default: b.datum -%}
-      {%- if d -%}{%- assign all_years = all_years | push: d | map: "date: '%Y'" -%}{%- endif -%}
-    {%- endfor -%}
-    {%- assign years_unique = all_years | uniq | sort | reverse -%}
-    <select id="year">
-      <option value="">(alle)</option>
-      {%- for y in years_unique -%}<option value="{{ y }}">{{ y }}</option>{%- endfor -%}
-    </select>
-  </div>
-  <label class="toggle"><input id="hide-nocover" type="checkbox"> ohne Cover ausblenden</label>
-  <span class="pill muted" id="count"></span>
-</div>
-
-<div id="grid" class="grid">
-{%- for b in books -%}
-  {%- assign cover = b.cover -%}
-  {%- assign isbn_str = b.isbn | append: '' -%}
-  {%- if (cover == nil or cover == "" or cover contains "nopic.png" or cover contains "/assets/placeholder.png") and b.isbn -%}
-    {%- assign cover = "https://covers.openlibrary.org/b/isbn/" | append: isbn_str | append: "-L.jpg" -%}
-  {%- endif -%}
-
-  {%- assign authors_text = "" -%}
-  {%- if b.autor -%}
-    {%- if b.autor.size -%}{%- assign authors_text = b.autor | join: ", " -%}{%- else -%}{%- assign authors_text = b.autor -%}{%- endif -%}
-  {%- endif -%}
-
-  {%- assign status = b.status | default: "" | downcase | strip -%}
-  {%- if status == "to read" -%}{%- assign status = "want to read" -%}{%- endif -%}
-  {%- assign pages_num = b.seiten | default: b.Seiten | default: 0 | plus: 0 -%}
-  {%- assign progress_num = b.progress | default: 0 | plus: 0 -%}
-  {%- assign rating_num = b.bewertung | replace: ",","." | default: 0 | plus: 0 -%}
-
-  {%- assign date_label = "" -%}
-  {%- assign date_value = "" -%}
-  {%- if status == "finished" -%}
-    {%- assign date_label = "beendet" -%}
-    {%- assign date_value = b.fertig_am | default: b.eingetragen_am | default: b.datum -%}
-  {%- elsif status == "want to read" -%}
-    {%- assign date_label = "hinzugefügt" -%}
-    {%- assign date_value = b.eingetragen_am | default: b.hinzugefuegt_am | default: b.datum -%}
-  {%- elsif status == "currently reading" -%}
-    {%- assign date_label = "gestartet" -%}
-    {%- assign date_value = b.start_am | default: b.gestartet_am | default: b.eingetragen_am | default: b.datum -%}
-  {%- else -%}
-    {%- assign date_value = b.eingetragen_am | default: b.fertig_am | default: b.datum -%}
-  {%- endif -%}
-  {%- assign year = "" -%}{%- if date_value -%}{%- assign year = date_value | date: "%Y" -%}{%- endif -%}
-
-  {%- assign is_pin = 0 -%}
-  {%- if status == "currently reading" and (b.fertig_am == nil or b.fertig_am == "") -%}
-    {%- assign is_pin = 1 -%}
-  {%- endif -%}
-
-  {%- assign pct = "" -%}
-  {%- if status == "currently reading" and pages_num > 0 and progress_num > 0 -%}
-    {%- assign pct = progress_num | times: 100.0 | divided_by: pages_num | round -%}
-  {%- endif -%}
-
-  <article class="card"
-    data-title="{{ b.titel | default: 'Ohne Titel' | downcase | escape }}"
-    data-author="{{ authors_text | downcase | escape }}"
-    data-status="{{ status | downcase | escape }}"
-    data-year="{{ year }}"
-    data-rating="{{ rating_num }}"
-    data-date="{{ date_value }}"
-    data-pin="{{ is_pin }}"
-  >
-    {%- if is_pin == 1 -%}<span class="badge badge-running">📖 läuft</span>{%- endif -%}
-    <img loading="lazy"
-      src="{{ cover | default: '/assets/placeholder.png' | relative_url }}"
-      alt="Cover"
-      onerror="this.onerror=null; this.dataset.error=1; this.src='{{ '/assets/placeholder.png' | relative_url }}'; this.closest('.card').dataset.nocover='1'; if(document.getElementById('hide-nocover')?.checked){ this.closest('.card').style.display='none'; }">
+<!-- Aktuell am Lesen -->
+<h2>📖 Aktuell am Lesen</h2>
+<div class="grid">
+  {% assign current = site.data.read | where: "status", "currently reading" %}
+  {% for b in current %}
+  <article class="card">
+    <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
     <div class="body">
-      <h2 title="{{ b.titel | escape }}">{{ b.titel | default: "Ohne Titel" }}</h2>
-      {% if authors_text != "" %}<div class="muted">{{ authors_text }}</div>{% endif %}
-      <div class="muted">
-        {% if date_value %}am <span class="date" data-date="{{ date_value | escape }}"></span>{% endif %}
-        {% if rating_num > 0 %} · ⭐ {{ rating_num }}{% endif %}
-        {% if b.isbn %} · ISBN <a href="https://www.isbn.de/buch/{{ isbn_str | uri_escape }}/" target="_blank" rel="noopener">{{ isbn_str }}</a>{% endif %}
-        {% if status %} · Status: {{ status }}{% endif %}
-      </div>
-      {% if pct != "" and pct > 0 and pct <= 100 %}
-        <div class="progress">
-          <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
-          <div class="muted" style="margin-top:4px">{{ progress_num }}/{{ pages_num }} Seiten ({{ pct }}%)</div>
-        </div>
-      {% endif %}
+      <strong>{{ b.title }}</strong>
+      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
+      {% if b.started %}<div class="muted">gestartet am {{ b.started | date: "%d.%m.%Y" }}</div>{% endif %}
     </div>
   </article>
-{%- endfor -%}
+  {% endfor %}
 </div>
 
-<script>
-/* Pin zuerst, dann Datum desc; plus Filter */
-(function(){
-  const q = document.getElementById('q');
-  const statusSel = document.getElementById('status');
-  const yearSel = document.getElementById('year');
-  const hideNoCover = document.getElementById('hide-nocover');
-  const grid = document.getElementById('grid');
-  const cards = Array.from(grid.querySelectorAll('.card'));
-  const count = document.getElementById('count');
+<!-- Will ich lesen -->
+<h2>📚 Will ich lesen</h2>
+<div class="grid">
+  {% assign want = site.data.read | where: "status", "want to read" %}
+  {% for b in want %}
+  <article class="card">
+    <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
+    <div class="body">
+      <strong>{{ b.title }}</strong>
+      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
+      {% if b.added %}<div class="muted">hinzugefügt am {{ b.added | date: "%d.%m.%Y" }}</div>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
 
-  function sortWithPin(arr){
-    return arr.sort((a,b)=>{
-      const pa = a.dataset.pin === '1' ? 1 : 0;
-      const pb = b.dataset.pin === '1' ? 1 : 0;
-      if (pa !== pb) return pb - pa;
-      const da = a.dataset.date || '';
-      const db = b.dataset.date || '';
-      if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
-      return db.localeCompare(da);
-    });
-  }
-  function apply(){
-    const term = (q?.value || '').trim().toLowerCase();
-    const st = (statusSel?.value || '').toLowerCase();
-    const yr = (yearSel?.value || '');
-    const hideNC = !!(hideNoCover && hideNoCover.checked);
-    let visible = 0;
+<!-- Nicht beendet -->
+<h2>⏸️ Abgebrochen / Not Finished</h2>
+<div class="grid">
+  {% assign nf = site.data.read | where: "status", "not finished" %}
+  {% for b in nf %}
+  <article class="card">
+    <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
+    <div class="body">
+      <strong>{{ b.title }}</strong>
+      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
+      {% if b.finished %}<div class="muted">abgebrochen am {{ b.finished | date: "%d.%m.%Y" }}</div>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
 
-    sortWithPin(cards).forEach(el => grid.appendChild(el));
-
-    for (const el of cards){
-      const title = el.dataset.title || '';
-      const author = el.dataset.author || '';
-      const status = el.dataset.status || '';
-      const year = el.dataset.year || '';
-      const hasNoCover = el.dataset.nocover === '1';
-      const ok = (!term || title.includes(term) || author.includes(term)) &&
-                 (!st || status === st) &&
-                 (!yr || year === yr) &&
-                 (!hideNC || !hasNoCover);
-      el.style.display = ok ? '' : 'none';
-      if (ok) visible++;
-    }
-    if (count) count.textContent = visible + ' Bücher';
-  }
-  q?.addEventListener('input', apply);
-  statusSel?.addEventListener('change', apply);
-  yearSel?.addEventListener('change', apply);
-  hideNoCover?.addEventListener('change', apply);
-  apply();
-})();
-</script>
+<!-- Beendet -->
+<h2>✅ Gelesen</h2>
+<div class="grid">
+  {% assign done = site.data.read | where: "status", "finished" | sort: "finished" | reverse %}
+  {% for b in done %}
+  <article class="card">
+    <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
+    <div class="body">
+      <strong>{{ b.title }}</strong>
+      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
+      {% if b.finished %}<div class="muted">beendet am {{ b.finished | date: "%d.%m.%Y" }}</div>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
