@@ -34,6 +34,7 @@ jobs:
             --episodes _data/watched_episodes.yml \
             --outdir _data \
             --lang de-DE
+            --debug
 
       - name: Commit enriched YAMLs
         run: |
