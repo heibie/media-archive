@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Enrich YAMLs (movies & episodes) with images + detailed metadata from TMDB,
-including German titles (de-DE) and external IDs.
+including German titles (de-DE) and external IDs with Trakt fallback.
 
 Movies adds:
   - poster, backdrop
@@ -14,7 +14,7 @@ Episodes adds (per row):
   - show_total_episodes
   - show_episode_run_time (typical, minutes)
   - show_poster, show_backdrop
-  - imdb (show-level), tvdb (show-level)  ← filled if missing
+  - imdb (show-level), tvdb (show-level)  ← filled if missing (TMDB → fallback Trakt)
   - season_total_episodes
   - episode_title (default-language), episode_title_de (German)
   - episode_runtime (minutes)
@@ -22,6 +22,7 @@ Episodes adds (per row):
 
 Usage (local):
   export TMDB_API_KEY=...
+  export TRAKT_CLIENT_ID=...   # only needed for fallback
   pip install pyyaml requests
   python scripts/enrich_posters.py \
       --movies _data/watched_movies.yml \
@@ -30,18 +31,27 @@ Usage (local):
       --lang de-DE
 """
 
-import os, sys, time, argparse, yaml, requests, statistics
+import os
+import sys
+import time
+import argparse
+import yaml
+import requests
+import statistics
 from pathlib import Path
+
 
 # ---------- IO helpers ----------
 def load_yaml(p: Path):
     with open(p, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or []
 
+
 def dump_yaml(p: Path, data):
     p.parent.mkdir(parents=True, exist_ok=True)
     with open(p, "w", encoding="utf-8") as f:
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
+
 
 # ---------- Main ----------
 def main():
@@ -49,25 +59,27 @@ def main():
     ap.add_argument("--movies", default="watched_movies.yml", help="Path to movies YAML")
     ap.add_argument("--episodes", default="watched_episodes.yml", help="Path to episodes YAML")
     ap.add_argument("--outdir", default="enriched", help="Output directory")
-    ap.add_argument("--tmdb-key", default=os.environ.get("TMDB_API_KEY"), help="TMDB API key (or set TMDB_API_KEY)")
+    ap.add_argument("--tmdb-key", default=os.environ.get("TMDB_API_KEY"),
+                    help="TMDB API key (or set TMDB_API_KEY)")
     ap.add_argument("--sleep", type=float, default=0.02, help="Sleep between API calls (seconds)")
-    ap.add_argument("--lang", default="de-DE", help="Preferred language for localized titles (e.g., de-DE)")
+    ap.add_argument("--lang", default="de-DE", help="Preferred language for localized titles")
     args = ap.parse_args()
 
     if not args.tmdb_key:
         print("ERROR: TMDB API key missing. Set TMDB_API_KEY or pass --tmdb-key.", file=sys.stderr)
         sys.exit(1)
 
+    # Sessions
     s = requests.Session()
     s.params = {"api_key": args.tmdb_key}
-    s.headers.update({"Accept":"application/json"})
+    s.headers.update({"Accept": "application/json"})
 
-    # --- TMDB configuration (image base/sizes) ---
+    # TMDB configuration
     cfg = s.get("https://api.themoviedb.org/3/configuration").json()
     base = cfg["images"]["secure_base_url"]
-    poster_size   = "w500" if "w500" in cfg["images"]["poster_sizes"] else cfg["images"]["poster_sizes"][-1]
+    poster_size = "w500" if "w500" in cfg["images"]["poster_sizes"] else cfg["images"]["poster_sizes"][-1]
     backdrop_size = "w780" if "w780" in cfg["images"]["backdrop_sizes"] else cfg["images"]["backdrop_sizes"][-1]
-    still_size    = "w300" if "w300" in cfg["images"]["still_sizes"] else cfg["images"]["still_sizes"][-1]
+    still_size = "w300" if "w300" in cfg["images"]["still_sizes"] else cfg["images"]["still_sizes"][-1]
 
     def build_url(path, size):
         return f"{base}{size}{path}" if path else None
@@ -75,23 +87,26 @@ def main():
     # --- caches ---
     find_cache = {}            # imdb_id -> /find results
     movie_def_cache = {}       # movie_id -> default-language details
-    movie_de_cache  = {}       # movie_id -> localized (de-DE) details
+    movie_de_cache = {}        # movie_id -> localized (de-DE) details
     tv_def_cache = {}          # tv_id -> default details
-    tv_de_cache  = {}          # (tv_id, lang) -> localized details
+    tv_de_cache = {}           # (tv_id, lang) -> localized details
     tv_external_ids_cache = {} # tv_id -> external ids json (imdb_id, tvdb_id)
     season_de_cache = {}       # (tv_id, season, lang) -> season details
     episode_cache_de = {}      # (tv_id, season, ep, lang) -> episode details (localized)
     episode_cache_def = {}     # (tv_id, season, ep) -> episode details (default)
+    trakt_show_ids_cache = {}  # ("id"/"slug", value) -> {"imdb": "...", "tvdb": 12345}
 
     def pause():
         time.sleep(args.sleep)
 
+    # ---- helpers ----
     def find_by_imdb(imdb_id):
         if not imdb_id:
             return {}
         if imdb_id in find_cache:
             return find_cache[imdb_id]
-        r = s.get(f"https://api.themoviedb.org/3/find/{imdb_id}", params={"external_source": "imdb_id"})
+        r = s.get(f"https://api.themoviedb.org/3/find/{imdb_id}",
+                  params={"external_source": "imdb_id"})
         find_cache[imdb_id] = r.json() if r.status_code == 200 else {}
         return find_cache[imdb_id]
 
@@ -104,47 +119,42 @@ def main():
         tv_external_ids_cache[tv_id] = r.json() if r.status_code == 200 else {}
         pause()
         return tv_external_ids_cache[tv_id]
-      # Cache für Trakt-IDs
-trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12345}
 
     def trakt_show_ids(trakt_id=None, slug=None):
-    """
-    Fallback: hole imdb/tvdb von Trakt, wenn TMDB keine external_ids hat.
-    Benötigt nur TRAKT_CLIENT_ID (public), kein OAuth.
-    """
-    client_id = os.environ.get("TRAKT_CLIENT_ID")
-    if not client_id:
-        return {}
-
-    key = ("id", trakt_id) if trakt_id else ("slug", slug)
-    if key in trakt_show_ids_cache:
-        return trakt_show_ids_cache[key]
-
-    headers = {
-        "trakt-api-version": "2",
-        "trakt-api-key": client_id,
-        "Accept": "application/json",
-    }
-    if trakt_id:
-        url = f"https://api.trakt.tv/shows/{trakt_id}?extended=ids"
-    elif slug:
-        url = f"https://api.trakt.tv/shows/{slug}?extended=ids"
-    else:
-        return {}
-
-    r = requests.get(url, headers=headers, timeout=20)
-    if r.status_code != 200:
-        trakt_show_ids_cache[key] = {}
-        return {}
-    j = r.json() or {}
-    ids = (j.get("ids") or {})
-    out = {
-        "imdb": ids.get("imdb"),
-        "tvdb": ids.get("tvdb"),
-    }
-    trakt_show_ids_cache[key] = out
-    return out
-
+        """
+        Fallback: hole imdb/tvdb von Trakt, wenn TMDB keine external_ids liefert.
+        Benötigt nur TRAKT_CLIENT_ID (public), kein OAuth.
+        """
+        client_id = os.environ.get("TRAKT_CLIENT_ID")
+        if not client_id:
+            return {}
+        key = ("id", trakt_id) if trakt_id else ("slug", slug)
+        if key in trakt_show_ids_cache:
+            return trakt_show_ids_cache[key]
+        headers = {
+            "trakt-api-version": "2",
+            "trakt-api-key": client_id,
+            "Accept": "application/json",
+        }
+        if trakt_id:
+            url = f"https://api.trakt.tv/shows/{trakt_id}?extended=ids"
+        elif slug:
+            url = f"https://api.trakt.tv/shows/{slug}?extended=ids"
+        else:
+            return {}
+        try:
+            r = requests.get(url, headers=headers, timeout=20)
+            if r.status_code != 200:
+                trakt_show_ids_cache[key] = {}
+                return {}
+            j = r.json() or {}
+            ids = (j.get("ids") or {})
+            out = {"imdb": ids.get("imdb"), "tvdb": ids.get("tvdb")}
+            trakt_show_ids_cache[key] = out
+            return out
+        except Exception:
+            trakt_show_ids_cache[key] = {}
+            return {}
 
     # ---------------- Movies ----------------
     movies = load_yaml(Path(args.movies))
@@ -157,34 +167,33 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
         if not mid:
             continue
 
-        # default/EN (poster/backdrop/runtime/title + imdb_id)
         if mid not in movie_def_cache:
             r_def = s.get(f"https://api.themoviedb.org/3/movie/{mid}")
             movie_def_cache[mid] = r_def.json() if r_def.status_code == 200 else None
             pause()
         j_def = movie_def_cache.get(mid) or {}
 
-        # localized (German) for title_de/overview_de
         if mid not in movie_de_cache:
-            r_de = s.get(f"https://api.themoviedb.org/3/movie/{mid}", params={"language": args.lang})
+            r_de = s.get(f"https://api.themoviedb.org/3/movie/{mid}",
+                         params={"language": args.lang})
             movie_de_cache[mid] = r_de.json() if r_de.status_code == 200 else None
             pause()
         j_de = movie_de_cache.get(mid) or {}
 
         m["tmdb"] = mid
-        m["poster"]   = build_url(j_def.get("poster_path"), poster_size) or m.get("poster")
+        m["poster"] = build_url(j_def.get("poster_path"), poster_size) or m.get("poster")
         m["backdrop"] = build_url(j_def.get("backdrop_path"), backdrop_size) or m.get("backdrop")
-        m["runtime"]  = j_def.get("runtime")
+        m["runtime"] = j_def.get("runtime")
         if not m.get("title"):
             m["title"] = j_def.get("title")
-        # IMDb-ID nachtragen, falls fehlt
         if not m.get("imdb"):
             m["imdb"] = j_def.get("imdb_id")
-        m["title_de"]    = j_de.get("title") or m.get("title_de")
+        m["title_de"] = j_de.get("title") or m.get("title_de")
         m["overview_de"] = j_de.get("overview") or m.get("overview_de")
 
     # ---------------- Episodes / TV ----------------
     episodes = load_yaml(Path(args.episodes))
+
     # per-show memo for totals & typical runtime & german show name & poster/backdrop urls & external ids
     show_meta_cache = {}  # tv_id -> dict
 
@@ -205,7 +214,8 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
     def tv_details_localized(tv_id, lang):
         key = (tv_id, lang)
         if key not in tv_de_cache:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}", params={"language": lang})
+            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}",
+                      params={"language": lang})
             tv_de_cache[key] = r.json() if r.status_code == 200 else None
             pause()
         return tv_de_cache.get(key)
@@ -213,7 +223,8 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
     def season_details_localized(tv_id, season, lang):
         key = (tv_id, season, lang)
         if key not in season_de_cache:
-            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}", params={"language": lang})
+            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}",
+                      params={"language": lang})
             season_de_cache[key] = r.json() if r.status_code == 200 else None
             pause()
         return season_de_cache.get(key)
@@ -229,10 +240,8 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
     def episode_details_de(tv_id, season, ep, lang):
         key = (tv_id, season, ep, lang)
         if key not in episode_cache_de:
-            r = s.get(
-                f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}/episode/{ep}",
-                params={"language": lang}
-            )
+            r = s.get(f"https://api.themoviedb.org/3/tv/{tv_id}/season/{season}/episode/{ep}",
+                      params={"language": lang})
             episode_cache_de[key] = r.json() if r.status_code == 200 else None
             pause()
         return episode_cache_de.get(key)
@@ -242,7 +251,7 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
         e["tmdb"] = tv_id or e.get("tmdb")
 
         if tv_id:
-            # --- SHOW-LEVEL META inkl. POSTER/BACKDROP & External IDs ---
+            # --- SHOW-LEVEL META inkl. Poster/Backdrop & External IDs ---
             if tv_id not in show_meta_cache:
                 tv_de = tv_details_localized(tv_id, args.lang)
 
@@ -250,10 +259,10 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
                 run_times = (tv_def.get("episode_run_time") or []) if tv_def else []
                 avg_rt = int(round(statistics.mean(run_times))) if run_times else None
 
-                poster_path   = (tv_def or {}).get("poster_path")   or (tv_de or {}).get("poster_path")
+                poster_path = (tv_def or {}).get("poster_path") or (tv_de or {}).get("poster_path")
                 backdrop_path = (tv_def or {}).get("backdrop_path") or (tv_de or {}).get("backdrop_path")
 
-                # External IDs (IMDb/TVDB) für die Show
+                # External IDs aus TMDB
                 ex_ids = tv_external_ids(tv_id)
                 imdb_id = ex_ids.get("imdb_id")
                 tvdb_id = ex_ids.get("tvdb_id")
@@ -262,7 +271,7 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
                     "show_total_episodes": total_eps,
                     "show_episode_run_time": avg_rt,
                     "show_title_de": (tv_de.get("name") if tv_de else None),
-                    "show_poster_url":   build_url(poster_path, poster_size) if poster_path else None,
+                    "show_poster_url": build_url(poster_path, poster_size) if poster_path else None,
                     "show_backdrop_url": build_url(backdrop_path, backdrop_size) if backdrop_path else None,
                     "imdb_id": imdb_id,
                     "tvdb_id": tvdb_id,
@@ -271,15 +280,23 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
             meta = show_meta_cache[tv_id]
 
             # Grund-Meta auf jede Episode mappen
-            e["show_total_episodes"]   = meta["show_total_episodes"]
+            e["show_total_episodes"] = meta["show_total_episodes"]
             e["show_episode_run_time"] = meta["show_episode_run_time"]
-            e["show_title_de"]         = meta["show_title_de"]
+            e["show_title_de"] = meta["show_title_de"]
 
-            # IMDb/TVDB-IDs der Show in Episodenzeilen nachtragen, wenn leer
+            # IMDb/TVDB-IDs der Show in Episodenzeilen nachtragen, wenn leer (TMDB)
             if not e.get("imdb") and meta.get("imdb_id"):
                 e["imdb"] = meta["imdb_id"]
             if not e.get("tvdb") and meta.get("tvdb_id"):
                 e["tvdb"] = meta["tvdb_id"]
+
+            # --- Fallback via Trakt, falls TMDB keine IDs lieferte ---
+            if (not e.get("imdb") or not e.get("tvdb")):
+                t_ids = trakt_show_ids(trakt_id=e.get("trakt_show"), slug=e.get("slug"))
+                if not e.get("imdb") and t_ids.get("imdb"):
+                    e["imdb"] = t_ids["imdb"]
+                if not e.get("tvdb") and t_ids.get("tvdb"):
+                    e["tvdb"] = t_ids["tvdb"]
 
             # Poster/Backdrop nur setzen, wenn leer
             if not e.get("show_poster"):
@@ -299,13 +316,13 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
 
             # --- EPISODEN-DETAILS ---
             if sn is not None and en is not None:
-                ed_de  = episode_details_de(tv_id, int(sn), int(en), args.lang)
+                ed_de = episode_details_de(tv_id, int(sn), int(en), args.lang)
                 ed_def = episode_details_def(tv_id, int(sn), int(en))
 
                 if ed_de:
                     e["episode_title_de"] = ed_de.get("name")
-                    e["episode_runtime"]  = ed_de.get("runtime") or e.get("episode_runtime") \
-                                            or meta["show_episode_run_time"]
+                    e["episode_runtime"] = ed_de.get("runtime") or e.get("episode_runtime") \
+                        or meta["show_episode_run_time"]
                     if not e.get("episode_still"):
                         e["episode_still"] = build_url(ed_de.get("still_path"), still_size)
 
@@ -319,6 +336,7 @@ trakt_show_ids_cache = {}  # key: trakt_id or slug -> {"imdb": "...", "tvdb": 12
 
     print(f"✓ Enriched files written to: {outdir}")
     print("Tip: Use *_de titles with fallback in templates.")
+
 
 if __name__ == "__main__":
     main()
