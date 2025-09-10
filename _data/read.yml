@@ -1,5 +1,12 @@
 - typ: buch
   status: want to read
+  titel: Die LET THEM Theorie
+  isbn: '9783641338190'
+  cover: https://buch.isbn.de/gross/9783641338190.jpg
+  seiten: 978
+  eingetragen_am: '2025-09-10'
+- typ: buch
+  status: want to read
   titel: Die Auferstehung
   autor:
   - Andreas Eschbach
