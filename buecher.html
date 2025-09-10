@@ -19,11 +19,13 @@ permalink: /buecher/
       {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
       {% if b.started %}<div class="muted">gestartet am {{ b.started | date: "%d.%m.%Y" }}</div>{% endif %}
 
-      {% if b.progress %}
-      {% assign pct = b.progress | times: 100 | divided_by: b.pages | round %}
+      {% if b.progress and b.seiten and b.seiten > 0 %}
+      {% assign pct = b.progress | times: 100 | divided_by: b.seiten | round %}
       <div class="progress" aria-label="Fortschritt" style="margin-top:.4rem;">
         <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
-        <div class="muted" style="margin-top:4px">{{ b.progress }}/{{ b.pages }} Seiten ({{ pct }}%)</div>
+        <div class="muted" style="margin-top:4px">
+          {{ b.progress }}/{{ b.seiten }} Seiten ({{ pct }}%)
+        </div>
       </div>
       {% endif %}
     </div>
