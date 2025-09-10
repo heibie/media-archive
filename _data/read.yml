@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Umweg zur Hölle
+  autor:
+  - Ross Thomas
+  isbn: '9783895811722'
+  cover: https://buch.isbn.de/gross/9783895811722.jpg
+  seiten: 424
+  eingetragen_am: '2025-09-10'
+- typ: buch
+  status: want to read
   titel: Wo kommen bloß die vielen Autos her und wie werden wir sie wieder los?
   autor:
   - Andreas Knie
