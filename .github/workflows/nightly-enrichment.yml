@@ -33,7 +33,7 @@ jobs:
             --movies _data/watched_movies.yml \
             --episodes _data/watched_episodes.yml \
             --outdir _data \
-            --lang de-DE
+            --lang de-DE \
             --debug
 
       - name: Commit enriched YAMLs
