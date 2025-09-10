@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Wo kommen bloß die vielen Autos her und wie werden wir sie wieder los?
+  autor:
+  - Andreas Knie
+  isbn: '9783895816314'
+  cover: https://buch.isbn.de/gross/9783895816314.jpg
+  seiten: 196
+  eingetragen_am: '2025-09-10'
+- typ: buch
+  status: want to read
   titel: Wackelkontakt
   autor:
   - Wolf Haas
