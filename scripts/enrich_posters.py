@@ -3,32 +3,7 @@
 Enrich YAMLs (movies & episodes) with images + detailed metadata from TMDB,
 including German titles (de-DE) and external IDs with Trakt fallback.
 
-Movies adds:
-  - poster, backdrop
-  - runtime (minutes)
-  - title_de, overview_de
-  - imdb (filled if missing)
-
-Episodes adds (per row):
-  - show_title_de
-  - show_total_episodes
-  - show_episode_run_time (typical, minutes)
-  - show_poster, show_backdrop
-  - imdb (show-level), tvdb (show-level)  ← filled if missing (TMDB → fallback Trakt)
-  - season_total_episodes
-  - episode_title (default-language), episode_title_de (German)
-  - episode_runtime (minutes)
-  - episode_still (fallback if missing)
-
-Usage (local):
-  export TMDB_API_KEY=...
-  export TRAKT_CLIENT_ID=...   # only needed for fallback
-  pip install pyyaml requests
-  python scripts/enrich_posters.py \
-      --movies _data/watched_movies.yml \
-      --episodes _data/watched_episodes.yml \
-      --outdir _data \
-      --lang de-DE
+Adds debug mode (--debug) to print missing fields into logs.
 """
 
 import os
@@ -63,8 +38,7 @@ def main():
                     help="TMDB API key (or set TMDB_API_KEY)")
     ap.add_argument("--sleep", type=float, default=0.02, help="Sleep between API calls (seconds)")
     ap.add_argument("--lang", default="de-DE", help="Preferred language for localized titles")
-    ap.add_argument("--debug", action="store_true", help="Print debug info for missing IDs")
-
+    ap.add_argument("--debug", action="store_true", help="Print debug info for missing fields")
     args = ap.parse_args()
 
     if not args.tmdb_key:
@@ -86,17 +60,17 @@ def main():
     def build_url(path, size):
         return f"{base}{size}{path}" if path else None
 
-    # --- caches ---
-    find_cache = {}            # imdb_id -> /find results
-    movie_def_cache = {}       # movie_id -> default-language details
-    movie_de_cache = {}        # movie_id -> localized (de-DE) details
-    tv_def_cache = {}          # tv_id -> default details
-    tv_de_cache = {}           # (tv_id, lang) -> localized details
-    tv_external_ids_cache = {} # tv_id -> external ids json (imdb_id, tvdb_id)
-    season_de_cache = {}       # (tv_id, season, lang) -> season details
-    episode_cache_de = {}      # (tv_id, season, ep, lang) -> episode details (localized)
-    episode_cache_def = {}     # (tv_id, season, ep) -> episode details (default)
-    trakt_show_ids_cache = {}  # ("id"/"slug", value) -> {"imdb": "...", "tvdb": 12345}
+    # caches
+    find_cache = {}
+    movie_def_cache = {}
+    movie_de_cache = {}
+    tv_def_cache = {}
+    tv_de_cache = {}
+    tv_external_ids_cache = {}
+    season_de_cache = {}
+    episode_cache_de = {}
+    episode_cache_def = {}
+    trakt_show_ids_cache = {}
 
     def pause():
         time.sleep(args.sleep)
@@ -123,10 +97,6 @@ def main():
         return tv_external_ids_cache[tv_id]
 
     def trakt_show_ids(trakt_id=None, slug=None):
-        """
-        Fallback: hole imdb/tvdb von Trakt, wenn TMDB keine external_ids liefert.
-        Benötigt nur TRAKT_CLIENT_ID (public), kein OAuth.
-        """
         client_id = os.environ.get("TRAKT_CLIENT_ID")
         if not client_id:
             return {}
@@ -193,11 +163,13 @@ def main():
         m["title_de"] = j_de.get("title") or m.get("title_de")
         m["overview_de"] = j_de.get("overview") or m.get("overview_de")
 
+        if args.debug and (not m.get("imdb") or not m.get("poster")):
+            print(f"[DEBUG] Movie missing fields: title='{m.get('title')}', "
+                  f"imdb={m.get('imdb')}, poster={m.get('poster')}")
+
     # ---------------- Episodes / TV ----------------
     episodes = load_yaml(Path(args.episodes))
-
-    # per-show memo for totals & typical runtime & german show name & poster/backdrop urls & external ids
-    show_meta_cache = {}  # tv_id -> dict
+    show_meta_cache = {}
 
     def tv_details_default(tv_id=None, imdb_id=None):
         tid = tv_id
@@ -253,18 +225,14 @@ def main():
         e["tmdb"] = tv_id or e.get("tmdb")
 
         if tv_id:
-            # --- SHOW-LEVEL META inkl. Poster/Backdrop & External IDs ---
             if tv_id not in show_meta_cache:
                 tv_de = tv_details_localized(tv_id, args.lang)
-
                 total_eps = tv_def.get("number_of_episodes") if tv_def else None
                 run_times = (tv_def.get("episode_run_time") or []) if tv_def else []
                 avg_rt = int(round(statistics.mean(run_times))) if run_times else None
-
                 poster_path = (tv_def or {}).get("poster_path") or (tv_de or {}).get("poster_path")
                 backdrop_path = (tv_def or {}).get("backdrop_path") or (tv_de or {}).get("backdrop_path")
 
-                # External IDs aus TMDB
                 ex_ids = tv_external_ids(tv_id)
                 imdb_id = ex_ids.get("imdb_id")
                 tvdb_id = ex_ids.get("tvdb_id")
@@ -280,37 +248,27 @@ def main():
                 }
 
             meta = show_meta_cache[tv_id]
-
-            # Grund-Meta auf jede Episode mappen
             e["show_total_episodes"] = meta["show_total_episodes"]
             e["show_episode_run_time"] = meta["show_episode_run_time"]
             e["show_title_de"] = meta["show_title_de"]
 
-            # IMDb/TVDB-IDs der Show in Episodenzeilen nachtragen, wenn leer (TMDB)
             if not e.get("imdb") and meta.get("imdb_id"):
                 e["imdb"] = meta["imdb_id"]
             if not e.get("tvdb") and meta.get("tvdb_id"):
                 e["tvdb"] = meta["tvdb_id"]
 
-            # --- Fallback via Trakt, falls TMDB keine IDs lieferte ---
             if (not e.get("imdb") or not e.get("tvdb")):
                 t_ids = trakt_show_ids(trakt_id=e.get("trakt_show"), slug=e.get("slug"))
                 if not e.get("imdb") and t_ids.get("imdb"):
                     e["imdb"] = t_ids["imdb"]
                 if not e.get("tvdb") and t_ids.get("tvdb"):
                     e["tvdb"] = t_ids["tvdb"]
-            # Optionales Debugging
-            if args.debug and (not e.get("imdb") or not e.get("tvdb")):
-                print(f"[DEBUG] Missing IDs for show='{e.get('show')}', tmdb={tv_id}, "
-                f"trakt={e.get('trakt_show')}, slug={e.get('slug')} -> imdb={e.get('imdb')}, tvdb={e.get('tvdb')}")
 
-            # Poster/Backdrop nur setzen, wenn leer
             if not e.get("show_poster"):
                 e["show_poster"] = meta["show_poster_url"]
             if not e.get("show_backdrop"):
                 e["show_backdrop"] = meta["show_backdrop_url"]
 
-            # --- SEASON-COUNT ---
             sn = e.get("season")
             en = e.get("episode")
             if sn is not None:
@@ -320,7 +278,6 @@ def main():
                 else:
                     e.setdefault("season_total_episodes", None)
 
-            # --- EPISODEN-DETAILS ---
             if sn is not None and en is not None:
                 ed_de = episode_details_de(tv_id, int(sn), int(en), args.lang)
                 ed_def = episode_details_def(tv_id, int(sn), int(en))
@@ -334,6 +291,12 @@ def main():
 
                 if not e.get("episode_title") and ed_def:
                     e["episode_title"] = ed_def.get("name")
+
+        if args.debug and (not e.get("imdb") or not e.get("tvdb") or not e.get("episode_title_de")):
+            print(f"[DEBUG] Episode missing fields: show='{e.get('show')}', "
+                  f"season={e.get('season')}, ep={e.get('episode')}, "
+                  f"imdb={e.get('imdb')}, tvdb={e.get('tvdb')}, "
+                  f"ep_title_de={e.get('episode_title_de')}")
 
     # ---------- Write output ----------
     outdir = Path(args.outdir)
