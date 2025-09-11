@@ -5,109 +5,89 @@ permalink: /
 ---
 
 <h1>👋 Willkommen</h1>
-<p class="muted">Hier findest du die <strong>zuletzt gesehenen</strong> Filme & Episoden (Top 12), gemischt nach Datum. Für die komplette Liste siehe <a href="{{ '/filme/' | relative_url }}">Filme</a> und <a href="{{ '/serien/' | relative_url }}">Serien</a>.</p>
 
-<div class="controls">
-  <div class="group">
-    <label for="type">Typ:</label>
-    <select id="type">
-      <option value="">(alle)</option>
-      <option value="movie">Filme</option>
-      <option value="episode">Serien</option>
-    </select>
-  </div>
-  <span class="pill muted" id="count"></span>
+<!-- ===== Zeile 1: Aktuell gelesene Bücher ===== -->
+<h2 style="margin-top:1rem;">📖 Aktuell am Lesen</h2>
+<p class="muted" style="margin-top:-.5rem;">Aus <code>_data/read.yml</code></p>
+<div class="grid" style="grid-auto-rows:1fr;">
+  {% assign current = site.data.read | where: "status", "currently reading" %}
+  {% for b in current %}
+  {% assign title_txt = b.titel | default: b.title %}
+  {% assign author_txt = b.autor | default: b.author %}
+  {% assign isbn_clean = b.isbn | replace: "-", "" | replace: " ", "" %}
+  <article class="card">
+    <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ title_txt | escape }}" loading="lazy">
+    <div class="body">
+      <strong>{{ title_txt }}</strong>
+      {% if author_txt %}<div class="muted">von {{ author_txt }}</div>{% endif %}
+
+      {% if b.isbn %}
+      <div class="muted">ISBN: <a href="https://www.isbn.de/buch/{{ isbn_clean }}/" target="_blank" rel="noopener">{{ b.isbn }}</a></div>
+      {% endif %}
+
+      {% if b.progress and b.seiten and b.seiten > 0 %}
+        {% assign pct = b.progress | times: 100 | divided_by: b.seiten | round %}
+        <div class="progress" aria-label="Fortschritt" style="margin-top:.6rem;">
+          <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
+          <div class="muted" style="margin-top:4px">
+            {{ b.progress }}/{{ b.seiten }} Seiten ({{ pct }}%)
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
 </div>
 
-<div id="recent" class="grid">
-  {%- comment -%}
-    Wir rendern beide Datenquellen als Cards mit data-Attributen.
-    Die finale Sortierung (nach data-date) & Begrenzung (12) macht unten ein kurzes JS.
-  {%- endcomment -%}
-
-  {%- assign movies = site.data.watched_movies | sort: "watched_on" | reverse -%}
-  {%- for m in movies limit: 60 -%}
-    <article class="card"
-      data-type="movie"
-      data-title="{{ m.title | downcase | escape }}"
-      data-date="{{ m.watched_on | escape }}">
-      <img src="{{ m.poster | default: '/assets/placeholder.png' }}" alt="Poster {{ m.title | escape }}" loading="lazy">
-      <div class="body">
-        <div style="display:flex; justify-content:space-between; gap:.5rem;">
-          <strong>{{ m.title }}</strong>
-          <span class="pill">Film{% if m.year %} · {{ m.year }}{% endif %}</span>
-        </div>
-        {% if m.watched_on %}<div class="muted">gesehen am {{ m.watched_on }}</div>{% endif %}
-        <div class="muted">
-          {% if m.imdb %}<a href="https://www.imdb.com/title/{{ m.imdb }}/" target="_blank" rel="noopener">IMDb</a>{% endif %}
-          {% if m.tmdb %}{% if m.imdb %} · {% endif %}<a href="https://www.themoviedb.org/movie/{{ m.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
-        </div>
+<!-- ===== Zeile 2: Letzte 4 Filme ===== -->
+<h2 style="margin-top:2.5rem;">🎬 Zuletzt gesehene Filme</h2>
+<p class="muted" style="margin-top:-.5rem;">Aus <code>_data/watched_movies.yml</code></p>
+<div class="grid">
+  {% assign movies = site.data.watched_movies | sort: "watched_on" | reverse %}
+  {% for m in movies limit: 4 %}
+  {% assign title_txt = m.title_de | default: m.title %}
+  <article class="card">
+    <img src="{{ m.poster | default: '/assets/placeholder.png' }}" alt="Poster {{ title_txt | escape }}" loading="lazy">
+    <div class="body">
+      <div style="display:flex; justify-content:space-between; gap:.5rem;">
+        <strong>{{ title_txt }}</strong>
+        <span class="pill">Film{% if m.year %} · {{ m.year }}{% endif %}</span>
       </div>
-    </article>
-  {%- endfor -%}
-
-  {%- assign eps = site.data.watched_episodes | sort: "watched_on" | reverse -%}
-  {%- for ep in eps limit: 120 -%}
-    {%- assign se = ep.season | plus: 0 -%}
-    {%- assign en = ep.episode | plus: 0 -%}
-    <article class="card"
-      data-type="episode"
-      data-title="{{ ep.show | downcase | escape }}"
-      data-date="{{ ep.watched_on | escape }}">
-      <img src="{{ ep.episode_still | default: ep.show_poster | default: '/assets/placeholder.png' }}" alt="Still {{ ep.show | escape }}" loading="lazy">
-      <div class="body">
-        <div style="display:flex; justify-content:space-between; gap:.5rem;">
-          <strong>{{ ep.show }}</strong>
-          <span class="pill">S{{ se | prepend: "0" | slice: -2 }}·E{{ en | prepend: "0" | slice: -2 }}</span>
-        </div>
-        {% if ep.watched_on %}<div class="muted">gesehen am {{ ep.watched_on }}</div>{% endif %}
-        <div class="muted">
-          <span>Serie</span>
-          {% if ep.tmdb %} · <a href="https://www.themoviedb.org/tv/{{ ep.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
-        </div>
+      {% if m.watched_on %}<div class="muted">gesehen am {{ m.watched_on | date: "%d.%m.%Y" }}</div>{% endif %}
+      <div class="muted">
+        {% if m.imdb %}<a href="https://www.imdb.com/title/{{ m.imdb }}/" target="_blank" rel="noopener">IMDb</a>{% endif %}
+        {% if m.tmdb %}{% if m.imdb %} · {% endif %}<a href="https://www.themoviedb.org/movie/{{ m.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
       </div>
-    </article>
-  {%- endfor -%}
+    </div>
+  </article>
+  {% endfor %}
 </div>
 
-<script>
-/* Mische alle Cards, sortiere nach data-date (desc), filtere ggf. nach Typ, zeige Top 12 */
-(function(){
-  const grid = document.getElementById('recent');
-  const cards = Array.from(grid.querySelectorAll('.card'));
-  const typeSel = document.getElementById('type');
-  const count = document.getElementById('count');
-
-  function apply(){
-    const typ = typeSel.value;
-    // sort nach Datum desc (leere ans Ende)
-    cards.sort((a,b)=>{
-      const da = a.dataset.date || '';
-      const db = b.dataset.date || '';
-      if (!da && !db) return 0;
-      if (!da) return 1;
-      if (!db) return -1;
-      return db.localeCompare(da);
-    });
-
-    // alles neu anhängen in Sortierreihenfolge
-    cards.forEach(el => grid.appendChild(el));
-
-    // Filtern + Top 12 begrenzen
-    let shown = 0;
-    for(const el of cards){
-      const matchType = (!typ || el.dataset.type === typ);
-      if (matchType && shown < 12){
-        el.style.display = '';
-        shown++;
-      } else {
-        el.style.display = 'none';
-      }
-    }
-    if (count) count.textContent = shown + ' Einträge';
-  }
-
-  typeSel.addEventListener('change', apply);
-  apply();
-})();
-</script>
+<!-- ===== Zeile 3: Letzte 4 Serienepisoden ===== -->
+<h2 style="margin-top:2.5rem;">📺 Zuletzt gesehene Episoden</h2>
+<p class="muted" style="margin-top:-.5rem;">Aus <code>_data/watched_episodes.yml</code></p>
+<div class="grid">
+  {% assign eps = site.data.watched_episodes | sort: "watched_on" | reverse %}
+  {% for ep in eps limit: 4 %}
+  {% assign se = ep.season | plus: 0 %}
+  {% assign en = ep.episode | plus: 0 %}
+  {% assign show_name = ep.show_title_de | default: ep.show %}
+  <article class="card">
+    <img src="{{ ep.episode_still | default: ep.show_poster | default: '/assets/placeholder.png' }}" alt="Still {{ show_name | escape }}" loading="lazy">
+    <div class="body">
+      <div style="display:flex; justify-content:space-between; gap:.5rem;">
+        <strong>{{ show_name }}</strong>
+        <span class="pill">S{{ se | prepend: "0" | slice: -2 }}·E{{ en | prepend: "0" | slice: -2 }}</span>
+      </div>
+      {% if ep.episode_title_de or ep.episode_title %}
+        <div class="muted">{{ ep.episode_title_de | default: ep.episode_title }}</div>
+      {% endif %}
+      {% if ep.watched_on %}<div class="muted">gesehen am {{ ep.watched_on | date: "%d.%m.%Y" }}</div>{% endif %}
+      <div class="muted">
+        <span>Serie</span>
+        {% if ep.tmdb %} · <a href="https://www.themoviedb.org/tv/{{ ep.tmdb }}" target="_blank" rel="noopener">TMDB</a>{% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
