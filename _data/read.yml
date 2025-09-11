@@ -4,7 +4,7 @@
   autor:
   - Ross Thomas
   isbn: '9783895811722'
-  cover: https://buch.isbn.de/gross/9783895811722.jpg
+  cover: https://cover.ekz.de/9783895811722.jpg
   seiten: 424
   eingetragen_am: '2025-09-10'
 - typ: buch
@@ -13,7 +13,7 @@
   autor:
   - Andreas Knie
   isbn: '9783895816314'
-  cover: https://buch.isbn.de/gross/9783895816314.jpg
+  cover: https://cover.ekz.de/9783895816314.jpg
   seiten: 196
   eingetragen_am: '2025-09-10'
 - typ: buch
@@ -22,7 +22,7 @@
   autor:
   - Wolf Haas
   isbn: '9783446282728'
-  cover: https://buch.isbn.de/gross/9783446282728.jpg
+  cover: https://cover.ekz.de/9783446282728.jpg
   seiten: 240
   verlag: Carl Hanser Verlag GmbH & Co. KG
   erscheinungsjahr: '2025'
@@ -33,14 +33,14 @@
   autor:
   - Dan Brown
   isbn: '9783785727706'
-  cover: https://buch.isbn.de/gross/9783785727706.jpg
+  cover: https://cover.ekz.de/9783785727706.jpg
   seiten: 800
   eingetragen_am: '2025-09-10'
 - typ: buch
   status: want to read
   titel: Die LET THEM Theorie
   isbn: '9783641338190'
-  cover: https://buch.isbn.de/gross/9783641338190.jpg
+  cover: https://cover.ekz.de/9783641338190.jpg
   seiten: 978
   eingetragen_am: '2025-09-10'
 - typ: buch
@@ -49,7 +49,7 @@
   autor:
   - Andreas Eschbach
   isbn: '9783440179741'
-  cover: https://buch.isbn.de/gross/9783440179741.jpg
+  cover: https://cover.ekz.de/9783440179741.jpg
   seiten: 448
   eingetragen_am: '2025-09-10'
 - typ: buch
@@ -58,7 +58,7 @@
   autor:
   - Brad Inwood
   isbn: '9783959727983'
-  cover: https://buch.isbn.de/gross/9783959727983.jpg
+  cover: https://cover.ekz.de/9783959727983.jpg
   seiten: 174
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -67,7 +67,7 @@
   autor:
   - Jan Gehl
   isbn: '9783868591460'
-  cover: https://buch.isbn.de/gross/9783868591460.jpg
+  cover: https://cover.ekz.de/9783868591460.jpg
   seiten: 200
   verlag: Jovis Verlag GmbH
   erscheinungsjahr: '2012'
@@ -78,7 +78,7 @@
   autor:
   - Jan Hegenberg
   isbn: '9783831206353'
-  cover: https://buch.isbn.de/gross/9783831206353.jpg
+  cover: https://cover.ekz.de/9783831206353.jpg
   seiten: 240
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -87,7 +87,7 @@
   autor:
   - Heinz Strunk
   isbn: '9783498007683'
-  cover: https://buch.isbn.de/gross/9783498007683.jpg
+  cover: https://cover.ekz.de/9783498007683.jpg
   seiten: 192
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -96,7 +96,7 @@
   autor:
   - Gabriel Yoran
   isbn: '9783518030028'
-  cover: https://buch.isbn.de/gross/9783518030028.jpg
+  cover: https://cover.ekz.de/9783518030028.jpg
   seiten: 185
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -105,7 +105,7 @@
   autor:
   - Osamu Okamura
   isbn: '9783792003794'
-  cover: https://buch.isbn.de/gross/9783792003794.jpg
+  cover: https://cover.ekz.de/9783792003794.jpg
   seiten: 176
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -114,7 +114,7 @@
   autor:
   - Dave Eggers
   isbn: '9783462048544'
-  cover: https://buch.isbn.de/gross/9783462048544.jpg
+  cover: https://cover.ekz.de/9783462048544.jpg
   seiten: 560
   verlag: Kiepenheuer & Witsch GmbH
   erscheinungsjahr: '2015'
@@ -125,14 +125,14 @@
   autor:
   - Francisco Ibáñez
   isbn: '9783551792709'
-  cover: https://buch.isbn.de/gross/9783551792709.jpg
+  cover: https://cover.ekz.de/9783551792709.jpg
   seiten: 800
   eingetragen_am: '2025-09-09'
 - typ: buch
   status: want to read
   titel: 22 Bahnen
   isbn: '9783832182786'
-  cover: https://buch.isbn.de/gross/9783832182786.jpg
+  cover: https://cover.ekz.de/9783832182786.jpg
   seiten: 22
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -141,7 +141,7 @@
   autor:
   - Nava Ebrahimi
   isbn: '9783630877457'
-  cover: https://buch.isbn.de/gross/9783630877457.jpg
+  cover: https://cover.ekz.de/9783630877457.jpg
   seiten: 352
   eingetragen_am: '2025-09-09'
 - typ: buch
@@ -150,7 +150,7 @@
   autor:
   - Philip Banse
   isbn: '9783550202414'
-  cover: https://buch.isbn.de/gross/9783550202414.jpg
+  cover: https://cover.ekz.de/9783550202414.jpg
   seiten: 384
   eingetragen_am: '2025-09-07'
 - typ: buch
@@ -161,7 +161,7 @@
   autor:
   - Louise Penny
   isbn: '9783311120087'
-  cover: https://buch.isbn.de/gross/9783311120087.jpg
+  cover: https://cover.ekz.de/9783311120087.jpg
   eingetragen_am: '2025-09-07'
 - typ: buch
   status: finished
@@ -169,7 +169,7 @@
   autor:
   - Louise Penny
   isbn: '9783311120063'
-  cover: https://buch.isbn.de/gross/9783311120063.jpg
+  cover: https://cover.ekz.de/9783311120063.jpg
   verlag: Kampa Verlag
   erscheinungsjahr: '2019'
   seiten: 395
@@ -375,7 +375,7 @@
   seiten: 292
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/58573566
-  cover: https://buch.isbn.de/gross/9783499004902.jpg
+  cover: https://cover.ekz.de/9783499004902.jpg
   verlag: ROWOHLT Taschenbuch Autor Miguel Robitzky erschienen am 20.07.2021 Rubrik
     Kunst
 - typ: buch
@@ -390,7 +390,7 @@
   seiten: 608
   erscheinungsjahr: 2024
   quelle: https://www.goodreads.com/book/show/200523171
-  cover: https://buch.isbn.de/gross/9783423442572.jpg
+  cover: https://cover.ekz.de/9783423442572.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 21.03.2024
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -1096,7 +1096,7 @@
   seiten: 464
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62805529
-  cover: https://buch.isbn.de/gross/9783328601814.jpg
+  cover: https://cover.ekz.de/9783328601814.jpg
   verlag: Penguin Autor Kerstin Brune erschienen am 24.08.2022 Rubrik Belletristik
 - typ: buch
   status: finished
@@ -1221,7 +1221,7 @@
   seiten: 384
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/57558287
-  cover: https://buch.isbn.de/gross/9780062851192.jpg
+  cover: https://cover.ekz.de/9780062851192.jpg
   verlag: HarperCollins US Autor Don Winslow ISBN-10 0-06-285119-5 ISBN-13 978- 0-
     06- 285119- 2 Lieferstatus verfügbar Preis 29,0
 - typ: buch
@@ -1280,7 +1280,7 @@
   seiten: 72
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62311652
-  cover: https://buch.isbn.de/gross/9783551781680.jpg
+  cover: https://cover.ekz.de/9783551781680.jpg
   verlag: Carlsen Autor Flix erschienen am 02.08.2022 Rubrik Graphic Novels, Comics,
     Cartoons ISBN-10 3-551-78168-0 ISBN-13 978- 3
 - typ: buch
@@ -1295,7 +1295,7 @@
   seiten: 265
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/62709987
-  cover: https://buch.isbn.de/gross/9783518472767.jpg
+  cover: https://cover.ekz.de/9783518472767.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 26.09.2022 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-47276-3 ISBN-13
 - typ: buch
@@ -1310,7 +1310,7 @@
   seiten: 256
   erscheinungsjahr: 2022
   quelle: https://www.goodreads.com/book/show/60226175
-  cover: https://buch.isbn.de/gross/9783546100052.jpg
+  cover: https://cover.ekz.de/9783546100052.jpg
   verlag: Claassen Autor Lucy Fricke erschienen am 10.03.2022 Rubrik Belletristik
 - typ: buch
   status: finished
@@ -1322,7 +1322,7 @@
   seiten: 352
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/58515679
-  cover: https://buch.isbn.de/gross/9783498002589.jpg
+  cover: https://cover.ekz.de/9783498002589.jpg
   verlag: Rowohlt Autor Herv
 - typ: buch
   status: finished
@@ -1452,7 +1452,7 @@
   seiten: 423
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/30324161
-  cover: https://buch.isbn.de/gross/9783518425534.jpg
+  cover: https://cover.ekz.de/9783518425534.jpg
   verlag: Suhrkamp Autor Elena Ferrante erschienen am 29.08.2016 Rubrik Moderne und
     zeitgenössische Belletristik ISBN-10 3-518-425
 - typ: buch
@@ -1718,7 +1718,7 @@
   seiten: 164
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29421599
-  cover: https://buch.isbn.de/gross/9783954610617.jpg
+  cover: https://cover.ekz.de/9783954610617.jpg
   verlag: Lektora GmbH Autor Claudio Ghin erschienen am 23.02.2016 Rubrik Belletristik
 - typ: buch
   status: finished
@@ -1776,7 +1776,7 @@
   seiten: 48
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/59362955
-  cover: https://buch.isbn.de/gross/9783770424399.jpg
+  cover: https://cover.ekz.de/9783770424399.jpg
   verlag: Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
     am 21.10.2021 Rubrik Europäische Comics ISBN-
 - typ: buch
@@ -1789,7 +1789,7 @@
   seiten: 750
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/1435541
-  cover: https://buch.isbn.de/gross/9783785722749.jpg
+  cover: https://cover.ekz.de/9783785722749.jpg
   verlag: Lübbe Autor Andreas Eschbach erschienen am 20.02.2007 Rubrik Thriller
 - typ: buch
   status: want to read
@@ -1804,7 +1804,7 @@
   seiten: 304
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57808479
-  cover: https://buch.isbn.de/gross/9783423282932.jpg
+  cover: https://cover.ekz.de/9783423282932.jpg
   verlag: dtv Verlagsgesellschaft Autor Alex Schulman erschienen am 20.08.2021 Rubrik
     Belletristik
 - typ: buch
@@ -1840,7 +1840,7 @@
   seiten: 209
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57616715
-  cover: https://buch.isbn.de/gross/9783641273347.jpg
+  cover: https://cover.ekz.de/9783641273347.jpg
   verlag: Heyne Autor Christoph Koch erschienen am 08.03.2021 Rubrik Krankheit und
     Sucht
 - typ: buch
@@ -1959,7 +1959,7 @@
   seiten: 192
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/40094855
-  cover: https://buch.isbn.de/gross/9783630875729.jpg
+  cover: https://cover.ekz.de/9783630875729.jpg
   verlag: Luchterhand Autor Juli Zeh erschienen am 10.09.2018 Rubrik Belletristik
 - typ: buch
   status: finished
@@ -1997,7 +1997,7 @@
   seiten: 176
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57932182
-  cover: https://buch.isbn.de/gross/9783517099613.jpg
+  cover: https://cover.ekz.de/9783517099613.jpg
   verlag: Südwest Autor Heiko Bielinski erschienen am 29.03.2021 Rubrik Umweltschutz
     ISBN-10 3-517-09961-9 ISBN-13 978- 3- 517- 09
 - typ: buch
@@ -2012,7 +2012,7 @@
   seiten: 207
   erscheinungsjahr: 2021
   quelle: https://www.goodreads.com/book/show/57331741
-  cover: https://buch.isbn.de/gross/9783518768082.jpg
+  cover: https://cover.ekz.de/9783518768082.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.03.2021 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-76808-5 ISBN-13
 - typ: buch
@@ -2059,7 +2059,7 @@
   seiten: 592
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/46036906
-  cover: https://buch.isbn.de/gross/9783423282109.jpg
+  cover: https://cover.ekz.de/9783423282109.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 10.10.2019
     Rubrik Belletristik
 - typ: buch
@@ -2224,7 +2224,7 @@
   seiten: 368
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/53924368
-  cover: https://buch.isbn.de/gross/9783442178582.jpg
+  cover: https://cover.ekz.de/9783442178582.jpg
   verlag: Goldmann Autor James Clear erschienen am 27.04.2020 Rubrik Selbsthilfe und
     Persönlichkeitsentwicklung ISBN-10 3-442-1785
 - typ: buch
@@ -2290,7 +2290,7 @@
   seiten: 254
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50088445
-  cover: https://buch.isbn.de/gross/9783407865878.jpg
+  cover: https://cover.ekz.de/9783407865878.jpg
   verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Nils Pickert erschienen am 11.03.2020
     Rubrik Ratgeber
 - typ: buch
@@ -2305,7 +2305,7 @@
   seiten: 300
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50807206
-  cover: https://buch.isbn.de/gross/9783518429198.jpg
+  cover: https://cover.ekz.de/9783518429198.jpg
   verlag: Suhrkamp Autor Anna Katharina Hahn erschienen am 18.05.2020 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-51
 - typ: buch
@@ -2320,7 +2320,7 @@
   seiten: 240
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13552998
-  cover: https://buch.isbn.de/gross/9783518422823.jpg
+  cover: https://cover.ekz.de/9783518422823.jpg
   verlag: Suhrkamp Autor Anna Katharina Hahn erschienen am 12.03.2012 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-51
 - typ: buch
@@ -2380,7 +2380,7 @@
   seiten: 266
   erscheinungsjahr: 2020
   quelle: https://www.goodreads.com/book/show/50461247
-  cover: https://buch.isbn.de/gross/9783546100038.jpg
+  cover: https://cover.ekz.de/9783546100038.jpg
   verlag: Claassen Autor Bov Bjerg erschienen am 28.01.2020 Rubrik Moderne und zeitgenössische
     Belletristik ISBN-10 3-546-10003-4
 - typ: buch
@@ -2516,7 +2516,7 @@
   seiten: 848
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/42444127
-  cover: https://buch.isbn.de/gross/9783596701452.jpg
+  cover: https://cover.ekz.de/9783596701452.jpg
   verlag: FISCHER Tor Autor Andreas Eschbach erschienen am 27.02.2019 Rubrik Klassische
     Science-Fiction-Literatur ISBN-10 3-596-70
 - typ: buch
@@ -2556,7 +2556,7 @@
   seiten: 608
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41584274
-  cover: https://buch.isbn.de/gross/9783462051070.jpg
+  cover: https://cover.ekz.de/9783462051070.jpg
   verlag: Kiepenheuer & Witsch Autor Philipp Schwenke erschienen am 07.09.2018 Rubrik
     Moderne und zeitgenössische Belletristik ISB
 - typ: buch
@@ -2616,7 +2616,7 @@
   seiten: 288
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/53042301
-  cover: https://buch.isbn.de/gross/9783737100861.jpg
+  cover: https://cover.ekz.de/9783737100861.jpg
   verlag: sollten ihm ein Denkmal setzen. Juan Moreno ist ein Held
 - typ: buch
   status: finished
@@ -2629,7 +2629,7 @@
   seiten: 208
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/46137990
-  cover: https://buch.isbn.de/gross/9783462053494.jpg
+  cover: https://cover.ekz.de/9783462053494.jpg
   verlag: Kiepenheuer & Witsch Autor Isabel Bogdan erschienen am 12.09.2019 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-1
 - typ: buch
@@ -2645,7 +2645,7 @@
   seiten: 160
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25228042
-  cover: https://buch.isbn.de/gross/9783813506662.jpg
+  cover: https://cover.ekz.de/9783813506662.jpg
   verlag: Knaus Autor Riad Sattouf erschienen am 16.02.2015 Rubrik Islam
 - typ: buch
   status: finished
@@ -2658,7 +2658,7 @@
   seiten: 320
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/52484715
-  cover: https://buch.isbn.de/gross/9783956401954.jpg
+  cover: https://cover.ekz.de/9783956401954.jpg
   verlag: Reprodukt Autor Tillie Walden erschienen am 07.08.2019 Rubrik Graphic Novel
 - typ: buch
   status: finished
@@ -2671,7 +2671,7 @@
   seiten: 228
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/49690261
-  cover: https://buch.isbn.de/gross/9783518470039.jpg
+  cover: https://cover.ekz.de/9783518470039.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 29.09.2019 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-47003-5 ISBN-13
 - typ: buch
@@ -2778,7 +2778,7 @@
   seiten: 192
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/50829849
-  cover: https://buch.isbn.de/gross/9783462053692.jpg
+  cover: https://cover.ekz.de/9783462053692.jpg
   verlag: Kiepenheuer & Witsch Autor Thees Uhlmann erschienen am 10.10.2019 Rubrik
     Unterhaltungsmusik, Popmusik ISBN-10 3-462-0536
 - typ: buch
@@ -2792,7 +2792,7 @@
   seiten: 432
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45437737
-  cover: https://buch.isbn.de/gross/9783832184469.jpg
+  cover: https://cover.ekz.de/9783832184469.jpg
   verlag: DuMont Buchverlag Autor Berni Mayer erschienen am 18.03.2019 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-8
 - typ: buch
@@ -2903,7 +2903,7 @@
   seiten: 369
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39317731
-  cover: https://buch.isbn.de/gross/9783641220907.jpg
+  cover: https://cover.ekz.de/9783641220907.jpg
   verlag: Goldmann Autor Hendrik Berg erschienen am 19.03.2018 Rubrik Moderne und
     zeitgenössische Belletristik ISBN-10 3-641-22090
 - typ: buch
@@ -2942,7 +2942,7 @@
   seiten: 176
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45316256
-  cover: https://buch.isbn.de/gross/9783959811811.jpg
+  cover: https://cover.ekz.de/9783959811811.jpg
   verlag: Cross Cult Entertainment Autor Rick Remender erschienen am 26.02.2019 Rubrik
     Comics und Graphic Novels im amerikanischen
 - typ: buch
@@ -2955,7 +2955,7 @@
   seiten: 64
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45453551
-  cover: https://buch.isbn.de/gross/9783770440603.jpg
+  cover: https://cover.ekz.de/9783770440603.jpg
   verlag: Egmont Comic Collection Autor Mawil erschienen am 02.05.2019 Rubrik Europäische
     Comics ISBN-10 3-7704-4060-9 ISBN-13 978
 - typ: buch
@@ -2992,7 +2992,7 @@
   seiten: 250
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41807370
-  cover: https://buch.isbn.de/gross/9783518468944.jpg
+  cover: https://cover.ekz.de/9783518468944.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 10.09.2018 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-46894-4 ISBN-13
 - typ: buch
@@ -3029,7 +3029,7 @@
   seiten: 408
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/43181885
-  cover: https://buch.isbn.de/gross/9783644403734.jpg
+  cover: https://cover.ekz.de/9783644403734.jpg
   verlag: ROWOHLT E-Book Autor Derek B. Miller erschienen am 21.08.2018 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-
 - typ: buch
@@ -3086,7 +3086,7 @@
   seiten: 112
   erscheinungsjahr: 2019
   quelle: https://www.goodreads.com/book/show/45312772
-  cover: https://buch.isbn.de/gross/9783964450012.jpg
+  cover: https://cover.ekz.de/9783964450012.jpg
   verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2019 Rubrik Europäische
     Graphic Novels ISBN-10 3-96445-001-4 I
 - typ: buch
@@ -3184,7 +3184,7 @@
   seiten: 224
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/38226163
-  cover: https://buch.isbn.de/gross/9783499633669.jpg
+  cover: https://cover.ekz.de/9783499633669.jpg
   verlag: ROWOHLT Taschenbuch Autor Michael Curse Kurth erschienen am 24.01.2018 Rubrik
     Positive Psychologie ISBN-10 3-499-63366-3
 - typ: buch
@@ -3231,7 +3231,7 @@
   seiten: 672
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/38487598
-  cover: https://buch.isbn.de/gross/9783641216856.jpg
+  cover: https://cover.ekz.de/9783641216856.jpg
   verlag: Heyne Autor Adrian Tchaikovsky erschienen am 12.02.2018 Rubrik Science-Fiction
     ISBN-10 3-641-21685-0 ISBN-13 978- 3- 641
 - typ: buch
@@ -3322,7 +3322,7 @@
   seiten: 227
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/35916581
-  cover: https://buch.isbn.de/gross/9783518467855.jpg
+  cover: https://cover.ekz.de/9783518467855.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.08.2017 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-46785-9 ISBN-13
 - typ: buch
@@ -3412,7 +3412,7 @@
   seiten: 160
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41710487
-  cover: https://buch.isbn.de/gross/9783956401602.jpg
+  cover: https://cover.ekz.de/9783956401602.jpg
   verlag: Reprodukt Autor Katja Klengel erschienen am 12.09.2018 Rubrik Graphic Novels
     und Comics
 - typ: buch
@@ -3426,7 +3426,7 @@
   seiten: 56
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28281766
-  cover: https://buch.isbn.de/gross/9783868738070.jpg
+  cover: https://cover.ekz.de/9783868738070.jpg
   verlag: Knesebeck Autor Heiner Lünstedt erschienen am 17.09.2015 Rubrik Holocaust
     ISBN-10 3-86873-807-X ISBN-13 978- 3- 86873- 8
 - typ: buch
@@ -3444,7 +3444,7 @@
   seiten: 160
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36413255
-  cover: https://buch.isbn.de/gross/9783103972535.jpg
+  cover: https://cover.ekz.de/9783103972535.jpg
   verlag: S. FISCHER Autoren Anne Frank , David Polonsky , Ari Folman erschienen am
     05.10.2017 Rubrik Tagebücher, Briefe, Notizbüc
 - typ: buch
@@ -3516,7 +3516,7 @@
   seiten: 235
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29629580
-  cover: https://buch.isbn.de/gross/9783518466629.jpg
+  cover: https://cover.ekz.de/9783518466629.jpg
   verlag: Suhrkamp Autor Simone Buchholz erschienen am 07.03.2016 Rubrik Kriminalromane
     und Mystery ISBN-10 3-518-46662-3 ISBN-13
 - typ: buch
@@ -3608,7 +3608,7 @@
   seiten: 608
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23710614
-  cover: https://buch.isbn.de/gross/9783423280488.jpg
+  cover: https://cover.ekz.de/9783423280488.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.04.2015
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -3779,7 +3779,7 @@
   seiten: 400
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41710511
-  cover: https://buch.isbn.de/gross/9783956401619.jpg
+  cover: https://cover.ekz.de/9783956401619.jpg
   verlag: Reprodukt Autor Tillie Walden erschienen am 12.09.2018 Rubrik Graphic Novels
     und Comics
 - typ: buch
@@ -3794,7 +3794,7 @@
   seiten: 140
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34523308
-  cover: https://buch.isbn.de/gross/9783945034569.jpg
+  cover: https://cover.ekz.de/9783945034569.jpg
   verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im März 2017 Rubrik Europäische
     Graphic Novels ISBN-10 3-945034-56-6 I
 - typ: buch
@@ -3830,7 +3830,7 @@
   seiten: 645
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/36117765
-  cover: https://buch.isbn.de/gross/9783423215732.jpg
+  cover: https://cover.ekz.de/9783423215732.jpg
   verlag: dtv Verlagsgesellschaft erschienen am 01.02.2015 Rubrik Kriminalromane und
     Mystery
 - typ: buch
@@ -3845,7 +3845,7 @@
   seiten: 404
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18081090
-  cover: https://buch.isbn.de/gross/9783518464403.jpg
+  cover: https://cover.ekz.de/9783518464403.jpg
   verlag: Suhrkamp Autor Don Winslow erschienen am 17.06.2013 Rubrik Kriminalromane
     und Mystery
 - typ: buch
@@ -3895,7 +3895,7 @@
   seiten: 60
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41012235
-  cover: https://buch.isbn.de/gross/9783551721150.jpg
+  cover: https://cover.ekz.de/9783551721150.jpg
   verlag: Carlsen Autor Flix erschienen am 31.07.2018 Rubrik Graphic Novels, Comics,
     Cartoons ISBN-10 3-551-72115-7 ISBN-13 978- 3
 - typ: buch
@@ -3938,7 +3938,7 @@
   seiten: 240
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/41587184
-  cover: https://buch.isbn.de/gross/9783499633744.jpg
+  cover: https://cover.ekz.de/9783499633744.jpg
   verlag: ROWOHLT Taschenbuch Autor Natascha Wegelin erschienen am 21.08.2018 Rubrik
     Feminismus und feministische Theorie ISBN-10
 - typ: buch
@@ -4008,7 +4008,7 @@
   seiten: 160
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/21936799
-  cover: https://buch.isbn.de/gross/9783862019502.jpg
+  cover: https://cover.ekz.de/9783862019502.jpg
   verlag: Panini Verlags GmbH Autor Daniela Schreiter erschienen am 17.03.2014 Rubrik
     Autobiografien
 - typ: buch
@@ -4252,7 +4252,7 @@
   seiten: 160
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/40504720
-  cover: https://buch.isbn.de/gross/9783741603129.jpg
+  cover: https://cover.ekz.de/9783741603129.jpg
   verlag: Panini Verlags GmbH Autoren Jody Houser , Emilio Laiso , Oscar Bazaldu ,
     Paolo Villanelli erschienen am 04.12.2017 Rubri
 - typ: buch
@@ -4281,7 +4281,7 @@
   seiten: 136
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/39300293
-  cover: https://buch.isbn.de/gross/9783945034897.jpg
+  cover: https://cover.ekz.de/9783945034897.jpg
   verlag: avant-verlag GmbH Autor Liv Strömquist erschienen im Februar 2018 Rubrik
     Europäische Graphic Novels ISBN-10 3-945034-89-
 - typ: buch
@@ -4294,7 +4294,7 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/27507872
-  cover: https://buch.isbn.de/gross/9783957982353.jpg
+  cover: https://cover.ekz.de/9783957982353.jpg
   verlag: Panini Verlags GmbH Autoren Corinna Bechko , Gabriel Hardman erschienen
     am 12.10.2015 Rubrik Europäische Comics ISBN-10
 - typ: buch
@@ -4517,7 +4517,7 @@
   seiten: 144
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/3428766
-  cover: https://buch.isbn.de/gross/9783866074828.jpg
+  cover: https://cover.ekz.de/9783866074828.jpg
   verlag: Panini Autor George R Martin erschienen am 15.08.2007 Rubrik Graphic Novels
     und Comics
 - typ: buch
@@ -4579,7 +4579,7 @@
   seiten: 544
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36613030
-  cover: https://buch.isbn.de/gross/9783499291333.jpg
+  cover: https://cover.ekz.de/9783499291333.jpg
   verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 17.11.2017 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-10
 - typ: buch
@@ -4636,7 +4636,7 @@
   seiten: 248
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/36406463
-  cover: https://buch.isbn.de/gross/9783458362975.jpg
+  cover: https://cover.ekz.de/9783458362975.jpg
   verlag: Insel Verlag Autor Isabel Bogdan erschienen am 11.09.2017 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-458-
 - typ: buch
@@ -4674,7 +4674,7 @@
   seiten: 576
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/17937674
-  cover: https://buch.isbn.de/gross/9783423280204.jpg
+  cover: https://cover.ekz.de/9783423280204.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.10.2013
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -4689,7 +4689,7 @@
   seiten: 289
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/33125667
-  cover: https://buch.isbn.de/gross/9783832189327.jpg
+  cover: https://cover.ekz.de/9783832189327.jpg
   verlag: DuMont Buchverlag Autor Berni Mayer erschienen am 17.11.2016 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3-8
 - typ: buch
@@ -4718,7 +4718,7 @@
   seiten: 255
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28694154
-  cover: https://buch.isbn.de/gross/9783498064365.jpg
+  cover: https://cover.ekz.de/9783498064365.jpg
   verlag: Rowohlt Autor Heinz Strunk erschienen am 26.02.2016 Rubrik Moderne und zeitgenössische
     Belletristik ISBN-10 3-498-06436-
 - typ: buch
@@ -4733,7 +4733,7 @@
   seiten: 544
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15848175
-  cover: https://buch.isbn.de/gross/9783423280020.jpg
+  cover: https://cover.ekz.de/9783423280020.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.09.2012
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -4820,7 +4820,7 @@
   seiten: 48
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34858639
-  cover: https://buch.isbn.de/gross/9783770440375.jpg
+  cover: https://cover.ekz.de/9783770440375.jpg
   verlag: Egmont Comic Collection Autoren Jean-Yves Ferri , Didier Conrad erschienen
     am 19.10.2017 Rubrik Graphic Novels, Comics,
 - typ: buch
@@ -4858,7 +4858,7 @@
   seiten: 384
   erscheinungsjahr: 2018
   quelle: https://www.goodreads.com/book/show/36216607
-  cover: https://buch.isbn.de/gross/9783550050237.jpg
+  cover: https://cover.ekz.de/9783550050237.jpg
   verlag: Ullstein Buchverlage Autor Marc-Uwe Kling erschienen am 22.09.2017 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-
 - typ: buch
@@ -4873,7 +4873,7 @@
   seiten: 378
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/29422631
-  cover: https://buch.isbn.de/gross/9783426304303.jpg
+  cover: https://cover.ekz.de/9783426304303.jpg
   verlag: Droemer Taschenbuch Autor Don Winslow erschienen am 01.03.2016 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3
 - typ: buch
@@ -4887,7 +4887,7 @@
   seiten: 395
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23273239
-  cover: https://buch.isbn.de/gross/9783426304280.jpg
+  cover: https://cover.ekz.de/9783426304280.jpg
   verlag: Droemer Taschenbuch Autor Don Winslow erschienen am 01.10.2014 Rubrik Moderne
     und zeitgenössische Belletristik ISBN-10 3
 - typ: buch
@@ -4902,7 +4902,7 @@
   seiten: 544
   erscheinungsjahr: 2017
   quelle: https://www.goodreads.com/book/show/34623876
-  cover: https://buch.isbn.de/gross/9783426281680.jpg
+  cover: https://cover.ekz.de/9783426281680.jpg
   verlag: Droemer Autor Don Winslow erschienen am 20.06.2017 Rubrik Moderne und zeitgenössische
     Belletristik ISBN-10 3-426-28168-6
 - typ: buch
@@ -5046,7 +5046,7 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/30896676
-  cover: https://buch.isbn.de/gross/9781632159090.jpg
+  cover: https://cover.ekz.de/9781632159090.jpg
   verlag: Image Comics Autor Matt Hawkins ISBN-10 1-63215-909-0 ISBN-13 978- 1- 63215-
     909- 0 Lieferstatus verfügbar Preis 17,00
 - typ: buch
@@ -5061,7 +5061,7 @@
   seiten: 592
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10243438
-  cover: https://buch.isbn.de/gross/9783423248525.jpg
+  cover: https://cover.ekz.de/9783423248525.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.07.2011
     Rubrik Kriminalromane und Mystery
 - typ: buch
@@ -5075,7 +5075,7 @@
   seiten: 52
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/22446973
-  cover: https://buch.isbn.de/gross/9783943143508.jpg
+  cover: https://cover.ekz.de/9783943143508.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen im August 2013 Rubrik Europäische
     Comics ISBN-10 3-943143-50-3 ISBN-13 978- 3
 - typ: buch
@@ -5089,7 +5089,7 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/24421077
-  cover: https://buch.isbn.de/gross/9783956400285.jpg
+  cover: https://cover.ekz.de/9783956400285.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen im Mai 2015 Rubrik Europäische
     Comics ISBN-10 3-95640-028-3 ISBN-13 978- 3- 9
 - typ: buch
@@ -5169,7 +5169,7 @@
   seiten: 48
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/28898036
-  cover: https://buch.isbn.de/gross/9783956400490.jpg
+  cover: https://cover.ekz.de/9783956400490.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen im Januar 2016 Rubrik Graphic
     Novels, Comics, Cartoons ISBN-10 3-95640-049-6
 - typ: buch
@@ -5182,7 +5182,7 @@
   seiten: 48
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26215620
-  cover: https://buch.isbn.de/gross/9783956400292.jpg
+  cover: https://cover.ekz.de/9783956400292.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen im August 2015 Rubrik Europäische
     Comics ISBN-10 3-95640-029-1 ISBN-13 978- 3
 - typ: buch
@@ -5195,7 +5195,7 @@
   seiten: 54
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/24421024
-  cover: https://buch.isbn.de/gross/9783943143843.jpg
+  cover: https://cover.ekz.de/9783943143843.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen am 02.01.2014 Rubrik Europäische
     Comics ISBN-10 3-943143-84-8 ISBN-13 978- 3-
 - typ: buch
@@ -5209,7 +5209,7 @@
   seiten: 48
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/17302034
-  cover: https://buch.isbn.de/gross/9783943143201.jpg
+  cover: https://cover.ekz.de/9783943143201.jpg
   verlag: Reprodukt Autor Lewis Trondheim erschienen im Mai 2012 Rubrik Europäische
     Comics ISBN-10 3-943143-20-1 ISBN-13 978- 3- 9
 - typ: buch
@@ -5224,7 +5224,7 @@
   seiten: 128
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/32681412
-  cover: https://buch.isbn.de/gross/9783937088211.jpg
+  cover: https://cover.ekz.de/9783937088211.jpg
   verlag: Seitenstra
 - typ: buch
   status: finished
@@ -5237,7 +5237,7 @@
   seiten: 378
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/34959472
-  cover: https://buch.isbn.de/gross/9783423261210.jpg
+  cover: https://cover.ekz.de/9783423261210.jpg
   verlag: dtv Verlagsgesellschaft erschienen am 11.11.2016 Rubrik Thriller
 - typ: buch
   status: finished
@@ -5255,7 +5255,7 @@
   seiten: 240
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/16590050
-  cover: https://buch.isbn.de/gross/9783940864215.jpg
+  cover: https://cover.ekz.de/9783940864215.jpg
   verlag: Splitter-Verlag Autoren Stephen King , Robin Furth , Peter David erschienen
     am 01.01.2009 Rubrik Europäische Comics ISBN
 - typ: buch
@@ -5306,7 +5306,7 @@
   seiten: 459
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/7772557
-  cover: https://buch.isbn.de/gross/9783423247870.jpg
+  cover: https://cover.ekz.de/9783423247870.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.09.2010
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -5381,7 +5381,7 @@
   seiten: 432
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/8908116
-  cover: https://buch.isbn.de/gross/9783423212625.jpg
+  cover: https://cover.ekz.de/9783423212625.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.02.2011
     Rubrik Moderne und zeitgenössische Belletristik
 - typ: buch
@@ -5518,7 +5518,7 @@
   seiten: 588
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/11774457
-  cover: https://buch.isbn.de/gross/9783423248945.jpg
+  cover: https://cover.ekz.de/9783423248945.jpg
   verlag: dtv Verlagsgesellschaft Autor Jussi Adler-Olsen erschienen am 01.02.2012
     Rubrik Belletristik
 - typ: buch
@@ -5532,7 +5532,7 @@
   seiten: 528
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/22668803
-  cover: https://buch.isbn.de/gross/9780451469441.jpg
+  cover: https://cover.ekz.de/9780451469441.jpg
   verlag: Signet Autor Daniel Suarez Sprache Englisch ISBN-10 0-451-46944-5 ISBN-13
     978- 0- 451- 46944- 1 Lieferstatus verfügbar P
 - typ: buch
@@ -5640,7 +5640,7 @@
   - Maurin Defrance
   - Fabien Nury
   isbn: '9783943808889'
-  cover: https://buch.isbn.de/gross/9782344004401.jpg
+  cover: https://cover.ekz.de/9783943808889.jpg
   fertig_am: '2016-12-11'
   bewertung: 4.0
   seiten: 54
@@ -5680,7 +5680,7 @@
   seiten: 136
   erscheinungsjahr: 2016
   quelle: https://www.goodreads.com/book/show/32180269
-  cover: https://buch.isbn.de/gross/9783957989291.jpg
+  cover: https://cover.ekz.de/9783957989291.jpg
   verlag: Panini Verlags GmbH Autoren Stephen King , Peter David , Robin Furth erschienen
     am 19.09.2016 Rubrik Graphic Novels, Com
 - typ: buch
@@ -5719,7 +5719,7 @@
   seiten: 428
   erscheinungsjahr: 1979
   quelle: https://www.goodreads.com/book/show/96290
-  cover: https://buch.isbn.de/gross/9783522128001.jpg
+  cover: https://cover.ekz.de/9783522128001.jpg
   verlag: zweifarbig gedruckt, mit schönen, reich verzierte Initialen. Bastian versteckt
     sich mit dem Buch auf dem Speicher seiner
 - typ: buch
@@ -5776,7 +5776,7 @@
   seiten: 136
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/16177134
-  cover: https://buch.isbn.de/gross/9783862015306.jpg
+  cover: https://cover.ekz.de/9783862015306.jpg
   verlag: Panini Verlags GmbH Autoren Stephen King , Robin Furth , Peter David erschienen
     am 11.03.2013 Rubrik Graphic Novels, Com
 - typ: buch
@@ -5792,7 +5792,7 @@
   seiten: 128
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/26829778
-  cover: https://buch.isbn.de/gross/9783957982094.jpg
+  cover: https://cover.ekz.de/9783957982094.jpg
   verlag: Panini Verlags GmbH Autoren Stephen King , Peter David , Robin Furth erschienen
     am 21.09.2015 Rubrik Graphic Novels, Com
 - typ: buch
@@ -5904,7 +5904,7 @@
   seiten: 160
   erscheinungsjahr: 1999
   quelle: https://www.goodreads.com/book/show/2092839
-  cover: https://buch.isbn.de/gross/9783789119521.jpg
+  cover: https://cover.ekz.de/9783789119521.jpg
   verlag: Verlag Friedrich Oetinger GmbH Autor Paul Maar erschienen am 01.02.1973
     Rubrik Kinder
 - typ: buch
@@ -5918,7 +5918,7 @@
   seiten: 224
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25570494
-  cover: https://buch.isbn.de/gross/9783849303693.jpg
+  cover: https://cover.ekz.de/9783849303693.jpg
   verlag: Metrolit Verlag Autor Katrin Rönicke erschienen am 17.07.2015 Rubrik Sexualität,
     Partnerschaft und Gesellschaft, allgeme
 - typ: buch
@@ -5932,7 +5932,7 @@
   seiten: 224
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18240718
-  cover: https://buch.isbn.de/gross/9783551652720.jpg
+  cover: https://cover.ekz.de/9783551652720.jpg
   verlag: Carlsen Autor Margit Auer erschienen am 25.04.2013 Rubrik Kinder
 - typ: buch
   status: finished
@@ -5955,7 +5955,7 @@
   - Fabien Nury
   - Pierre Alary
   isbn: '9783958392571'
-  cover: https://buch.isbn.de/gross/9782723483926.jpg
+  cover: https://cover.ekz.de/9783958392571.jpg
   fertig_am: '2016-07-11'
   seiten: 64
   erscheinungsjahr: 2013
@@ -6015,7 +6015,7 @@
   autor:
   - Ben Gijsemans
   isbn: '9783941787810'
-  cover: https://buch.isbn.de/gross/9789077549872.jpg
+  cover: https://cover.ekz.de/9783941787810.jpg
   fertig_am: '2016-07-11'
   seiten: 88
   erscheinungsjahr: 2014
@@ -6032,7 +6032,7 @@
   seiten: 208
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/18240710
-  cover: https://buch.isbn.de/gross/9783551652713.jpg
+  cover: https://cover.ekz.de/9783551652713.jpg
   verlag: Carlsen Autor Margit Auer erschienen am 25.04.2013 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6067,7 +6067,7 @@
   seiten: 158
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/13541267
-  cover: https://buch.isbn.de/gross/9783446236592.jpg
+  cover: https://cover.ekz.de/9783446236592.jpg
   verlag: Hanser, Carl Autor Per Olov Enquist erschienen am 07.02.2011 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6076,7 +6076,7 @@
   - Laurent-Frédéric Bollée
   - Philippe Nicloux
   isbn: '9783958392298'
-  cover: https://buch.isbn.de/gross/9782723472579.jpg
+  cover: https://cover.ekz.de/9783958392298.jpg
   fertig_am: '2016-03-21'
   seiten: 512
   erscheinungsjahr: 2013
@@ -6089,7 +6089,7 @@
   autor:
   - Marcin Podolec
   isbn: '9783770455201'
-  cover: https://buch.isbn.de/cover/9783770455201.jpg
+  cover: https://cover.ekz.de/9783770455201.jpg
   fertig_am: '2016-03-21'
   bewertung: 3.0
   seiten: 240
@@ -6106,7 +6106,7 @@
   seiten: 240
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/25366292
-  cover: https://buch.isbn.de/gross/9783351050238.jpg
+  cover: https://cover.ekz.de/9783351050238.jpg
   verlag: Blumenbar Autor Bov Bjerg erschienen am 17.07.2015 Rubrik Belletristik
 - typ: buch
   status: finished
@@ -6119,7 +6119,7 @@
   seiten: 256
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/28288923
-  cover: https://buch.isbn.de/gross/9783945034330.jpg
+  cover: https://cover.ekz.de/9783945034330.jpg
   verlag: avant-verlag GmbH Herausgeber Johann Ulrich Autor Hamed Eshrat erschienen
     im November 2015 Rubrik Europäische Comics ISB
 - typ: buch
@@ -6132,7 +6132,7 @@
   seiten: 703
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/62034
-  cover: https://buch.isbn.de/gross/9783442453818.jpg
+  cover: https://cover.ekz.de/9783442453818.jpg
   verlag: Goldmann Autor Walter Moers erschienen am 01.12.2002 Rubrik Moderne und
     zeitgenössische Belletristik ISBN-10 3-442-45381
 - typ: buch
@@ -6145,7 +6145,7 @@
   seiten: 267
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/16125797
-  cover: https://buch.isbn.de/gross/9783789185304.jpg
+  cover: https://cover.ekz.de/9783789185304.jpg
   verlag: Verlag Friedrich Oetinger GmbH Autor Kirsten Boie erschienen am 01.08.2012
     Rubrik Kinder
 - typ: buch
@@ -6260,7 +6260,7 @@
   seiten: 275
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/6913100
-  cover: https://buch.isbn.de/gross/9783789131639.jpg
+  cover: https://cover.ekz.de/9783789131639.jpg
   verlag: Verlag Friedrich Oetinger GmbH Autor Kirsten Boie erschienen am 01.08.2006
     Rubrik Kinder
 - typ: buch
@@ -6274,7 +6274,7 @@
   seiten: 171
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/23970624
-  cover: https://buch.isbn.de/gross/9783862721597.jpg
+  cover: https://cover.ekz.de/9783862721597.jpg
   verlag: Dressler Autor Dagmar Chidolue erschienen am 28.01.2014 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6287,7 +6287,7 @@
   seiten: 176
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/1132597
-  cover: https://buch.isbn.de/gross/9783791530154.jpg
+  cover: https://cover.ekz.de/9783791530154.jpg
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1935 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6335,7 +6335,7 @@
   seiten: 176
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/887010
-  cover: https://buch.isbn.de/gross/9783791530116.jpg
+  cover: https://cover.ekz.de/9783791530116.jpg
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1949 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6405,7 +6405,7 @@
   seiten: 175
   erscheinungsjahr: 1998
   quelle: https://www.goodreads.com/book/show/63471
-  cover: https://buch.isbn.de/gross/9783791530130.jpg
+  cover: https://cover.ekz.de/9783791530130.jpg
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1934 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6419,7 +6419,7 @@
   seiten: 512
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/24167689
-  cover: https://buch.isbn.de/gross/9783453269637.jpg
+  cover: https://cover.ekz.de/9783453269637.jpg
   verlag: Heyne Autor Stephen King erschienen am 02.03.2015 Rubrik Zeitgenössische
     Horrorliteratur ISBN-10 3-453-26963-2 ISBN-13 9
 - typ: buch
@@ -6433,7 +6433,7 @@
   seiten: 175
   erscheinungsjahr: 1973
   quelle: https://www.goodreads.com/book/show/63465
-  cover: https://buch.isbn.de/gross/9783791530123.jpg
+  cover: https://cover.ekz.de/9783791530123.jpg
   verlag: Dressler Autor Erich Kästner erschienen am 01.02.1929 Rubrik Kinder
 - typ: buch
   status: finished
@@ -6446,7 +6446,7 @@
   seiten: 491
   erscheinungsjahr: 2014
   quelle: https://www.goodreads.com/book/show/20423752
-  cover: https://buch.isbn.de/gross/9783518465004.jpg
+  cover: https://cover.ekz.de/9783518465004.jpg
   verlag: Suhrkamp Autor Don Winslow erschienen am 20.01.2014 Rubrik Politthriller
 - typ: buch
   status: finished
@@ -6459,7 +6459,7 @@
   seiten: 192
   erscheinungsjahr: 2013
   quelle: https://www.goodreads.com/book/show/22823023
-  cover: https://buch.isbn.de/gross/9783407743909.jpg
+  cover: https://cover.ekz.de/9783407743909.jpg
   verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 28.01.2013
     Rubrik Kinder
 - typ: buch
@@ -6473,7 +6473,7 @@
   seiten: 370
   erscheinungsjahr: 2015
   quelle: https://www.goodreads.com/book/show/23548019
-  cover: https://buch.isbn.de/gross/9783518465806.jpg
+  cover: https://cover.ekz.de/9783518465806.jpg
   verlag: Suhrkamp Autor Don Winslow erschienen am 08.02.2015 Rubrik Kriminalromane
     und Mystery
 - typ: buch
@@ -6487,7 +6487,7 @@
   seiten: 192
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/22822948
-  cover: https://buch.isbn.de/gross/9783407743251.jpg
+  cover: https://cover.ekz.de/9783407743251.jpg
   verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 07.03.2012
     Rubrik Kinder
 - typ: buch
@@ -6501,7 +6501,7 @@
   seiten: 182
   erscheinungsjahr: 2009
   quelle: https://www.goodreads.com/book/show/8441837
-  cover: https://buch.isbn.de/gross/9783407799630.jpg
+  cover: https://cover.ekz.de/9783407799630.jpg
   verlag: Beltz Verlagsgruppe GmbH & Co. KG Autor Wieland Freund erschienen am 25.11.2010
     Rubrik Kinder
 - typ: buch
@@ -6515,7 +6515,7 @@
   seiten: 176
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15833281
-  cover: https://buch.isbn.de/gross/9783551786975.jpg
+  cover: https://cover.ekz.de/9783551786975.jpg
   verlag: Carlsen Autor Reinhard Kleist erschienen am 29.05.2012 Rubrik Biografien
 - typ: buch
   status: finished
@@ -6528,7 +6528,7 @@
   seiten: 0
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/7453161
-  cover: https://buch.isbn.de/gross/9783401063300.jpg
+  cover: https://cover.ekz.de/9783401063300.jpg
   verlag: Arena Autor Jo Nesb
 - typ: buch
   status: finished
@@ -6600,7 +6600,7 @@
   seiten: 148
   erscheinungsjahr: 2010
   quelle: https://www.goodreads.com/book/show/23533161
-  cover: https://buch.isbn.de/gross/9783942649186.jpg
+  cover: https://cover.ekz.de/9783942649186.jpg
   verlag: Cross Cult Entertainment Autor John Layman erschienen im Dezember 2010 Rubrik
     Europäische Comics ISBN-10 3-942649-18-7 I
 - typ: buch
@@ -6614,7 +6614,7 @@
   seiten: 230
   erscheinungsjahr: 2008
   quelle: https://www.goodreads.com/book/show/6610336
-  cover: https://buch.isbn.de/gross/9783401063041.jpg
+  cover: https://cover.ekz.de/9783401063041.jpg
   verlag: Arena Autor Jo Nesb
 - typ: buch
   status: finished
@@ -6641,7 +6641,7 @@
   seiten: 400
   erscheinungsjahr: 2006
   quelle: https://www.goodreads.com/book/show/24259557
-  cover: https://buch.isbn.de/gross/9783257011210.jpg
+  cover: https://cover.ekz.de/9783257011210.jpg
   verlag: Diogenes Autoren Ren
 - typ: buch
   status: finished
@@ -6724,7 +6724,7 @@
   seiten: 800
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/13113378
-  cover: https://buch.isbn.de/gross/9783764504458.jpg
+  cover: https://cover.ekz.de/9783764504458.jpg
   verlag: Blanvalet Autor Marc Elsberg erschienen am 19.03.2012 Rubrik Technothriller
     ISBN-10 3-7645-0445-5 ISBN-13 978- 3- 7645-
 - typ: buch
@@ -6739,7 +6739,7 @@
   seiten: 160
   erscheinungsjahr: 2012
   quelle: https://www.goodreads.com/book/show/15704307
-  cover: https://buch.isbn.de/gross/9781607066019.jpg
+  cover: https://cover.ekz.de/9781607066019.jpg
   verlag: Diamond Comic Autor Brian K. Vaughan, Fiona Staples ISBN-10 1-60706-601-7
     ISBN-13 978- 1- 60706- 601- 9 Lieferstatus ver
 - typ: buch
@@ -6860,7 +6860,7 @@
   seiten: 576
   erscheinungsjahr: 2007
   quelle: https://www.goodreads.com/book/show/23529
-  cover: https://buch.isbn.de/gross/9780861661411.jpg
+  cover: https://cover.ekz.de/9780861661411.jpg
   verlag: Knockabout Comics Autor Alan Moore, Eddie Campbell ISBN-10 0-86166-141-9
     ISBN-13 978- 0- 86166- 141- 1 Lieferstatus verf
 - typ: buch
@@ -6979,7 +6979,7 @@
   seiten: 130
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/156534
-  cover: https://buch.isbn.de/gross/9781563899805.jpg
+  cover: https://cover.ekz.de/9781563899805.jpg
   verlag: DC Comics Autor Vaughan, Brian K., Guerra, Pia, Marzan, Jose erschienen
     am 01.12.2002 ISBN-10 1-56389-980-9 ISBN-13 978-
 - typ: buch
@@ -7010,7 +7010,7 @@
   seiten: 296
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/15195
-  cover: https://buch.isbn.de/gross/9780141014081.jpg
+  cover: https://cover.ekz.de/9780141014081.jpg
   verlag: Penguin Books UK Autor Art Spiegelman ISBN-10 0-14-101408-3 ISBN-13 978-
     0- 14- 101408- 1 Lieferstatus verfügbar Preis 2
 - typ: buch
@@ -7026,7 +7026,7 @@
   seiten: 416
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/472331
-  cover: https://buch.isbn.de/gross/9780930289232.jpg
+  cover: https://cover.ekz.de/9780930289232.jpg
   verlag: DC Comics Autor Moore, Alan, Gibbons, Dave erschienen am 01.04.1995 ISBN-10
     0-930289-23-4 ISBN-13 978- 0- 930289- 23- 2
 - typ: buch
@@ -7080,7 +7080,7 @@
   seiten: 336
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/11131632
-  cover: https://buch.isbn.de/gross/9783502110668.jpg
+  cover: https://cover.ekz.de/9783502110668.jpg
   verlag: FISCHER Scherz Autor Max Landorff erschienen am 18.07.2011 Rubrik Thriller
 - typ: buch
   status: finished
@@ -7093,7 +7093,7 @@
   seiten: 204
   erscheinungsjahr: 2005
   quelle: https://www.goodreads.com/book/show/1603221
-  cover: https://buch.isbn.de/gross/9783499241161.jpg
+  cover: https://cover.ekz.de/9783499241161.jpg
   verlag: ROWOHLT Taschenbuch Autor Rocko Schamoni erschienen am 01.11.2005 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-1
 - typ: buch
@@ -7107,7 +7107,7 @@
   seiten: 256
   erscheinungsjahr: 2004
   quelle: https://www.goodreads.com/book/show/1325901
-  cover: https://buch.isbn.de/gross/9783499237119.jpg
+  cover: https://cover.ekz.de/9783499237119.jpg
   verlag: ROWOHLT Taschenbuch Autor Heinz Strunk erschienen am 01.10.2004 Rubrik Autobiografien
 - typ: buch
   status: finished
@@ -7120,7 +7120,7 @@
   seiten: 480
   erscheinungsjahr: 2003
   quelle: https://www.goodreads.com/book/show/1600607
-  cover: https://buch.isbn.de/gross/9783499231049.jpg
+  cover: https://cover.ekz.de/9783499231049.jpg
   verlag: ROWOHLT Taschenbuch Autor Liza Marklund erschienen am 02.06.2003 Rubrik
     Thriller
 - typ: buch
@@ -7175,6 +7175,6 @@
   seiten: 480
   erscheinungsjahr: 2011
   quelle: https://www.goodreads.com/book/show/10238767
-  cover: https://buch.isbn.de/gross/9783499252440.jpg
+  cover: https://cover.ekz.de/9783499252440.jpg
   verlag: ROWOHLT Taschenbuch Autor Daniel Suarez erschienen am 02.05.2011 Rubrik
     Moderne und zeitgenössische Belletristik ISBN-10
