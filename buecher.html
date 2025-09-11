@@ -12,16 +12,26 @@ permalink: /buecher/
 <div class="grid">
   {% assign current = site.data.read | where: "status", "currently reading" %}
   {% for b in current %}
+  {% assign isbn_clean = b.isbn | replace: "-", "" | replace: " ", "" %}
   <article class="card">
     <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
     <div class="body">
       <strong>{{ b.title }}</strong>
-      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
-      {% if b.started %}<div class="muted">gestartet am {{ b.started | date: "%d.%m.%Y" }}</div>{% endif %}
+      {% if b.author %}<div class="muted">von {{ b.author }}</div>{% endif %}
+
+      <div class="muted" style="margin-top:.25rem;">
+        {% if b.eingetragen_am %}eingetragen am {{ b.eingetragen_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.beendet_am %}{% if b.eingetragen_am %} · {% endif %}beendet am {{ b.beendet_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.bewertung %}{% if b.eingetragen_am or b.beendet_am %} · {% endif %}Rating: {{ b.bewertung }}{% endif %}
+      </div>
+
+      {% if b.isbn %}
+      <div class="muted">ISBN: <a href="https://www.isbn.de/buch/{{ isbn_clean }}/" target="_blank" rel="noopener">{{ b.isbn }}</a></div>
+      {% endif %}
 
       {% if b.progress and b.seiten and b.seiten > 0 %}
       {% assign pct = b.progress | times: 100 | divided_by: b.seiten | round %}
-      <div class="progress" aria-label="Fortschritt" style="margin-top:.4rem;">
+      <div class="progress" aria-label="Fortschritt" style="margin-top:.6rem;">
         <div class="track"><div class="fill" style="width: {{ pct }}%"></div></div>
         <div class="muted" style="margin-top:4px">
           {{ b.progress }}/{{ b.seiten }} Seiten ({{ pct }}%)
@@ -38,12 +48,21 @@ permalink: /buecher/
 <div class="grid">
   {% assign want = site.data.read | where: "status", "want to read" %}
   {% for b in want %}
+  {% assign isbn_clean = b.isbn | replace: "-", "" | replace: " ", "" %}
   <article class="card">
     <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
     <div class="body">
       <strong>{{ b.title }}</strong>
-      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
-      {% if b.added %}<div class="muted">hinzugefügt am {{ b.added | date: "%d.%m.%Y" }}</div>{% endif %}
+      {% if b.author %}<div class="muted">von {{ b.author }}</div>{% endif %}
+
+      <div class="muted" style="margin-top:.25rem;">
+        {% if b.eingetragen_am %}eingetragen am {{ b.eingetragen_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.bewertung %}{% if b.eingetragen_am %} · {% endif %}Rating: {{ b.bewertung }}{% endif %}
+      </div>
+
+      {% if b.isbn %}
+      <div class="muted">ISBN: <a href="https://www.isbn.de/buch/{{ isbn_clean }}/" target="_blank" rel="noopener">{{ b.isbn }}</a></div>
+      {% endif %}
     </div>
   </article>
   {% endfor %}
@@ -54,12 +73,22 @@ permalink: /buecher/
 <div class="grid">
   {% assign nf = site.data.read | where: "status", "not finished" %}
   {% for b in nf %}
+  {% assign isbn_clean = b.isbn | replace: "-", "" | replace: " ", "" %}
   <article class="card">
     <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
     <div class="body">
       <strong>{{ b.title }}</strong>
-      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
-      {% if b.finished %}<div class="muted">abgebrochen am {{ b.finished | date: "%d.%m.%Y" }}</div>{% endif %}
+      {% if b.author %}<div class="muted">von {{ b.author }}</div>{% endif %}
+
+      <div class="muted" style="margin-top:.25rem;">
+        {% if b.eingetragen_am %}eingetragen am {{ b.eingetragen_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.beendet_am %}{% if b.eingetragen_am %} · {% endif %}beendet am {{ b.beendet_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.bewertung %}{% if b.eingetragen_am or b.beendet_am %} · {% endif %}Rating: {{ b.bewertung }}{% endif %}
+      </div>
+
+      {% if b.isbn %}
+      <div class="muted">ISBN: <a href="https://www.isbn.de/buch/{{ isbn_clean }}/" target="_blank" rel="noopener">{{ b.isbn }}</a></div>
+      {% endif %}
     </div>
   </article>
   {% endfor %}
@@ -68,14 +97,24 @@ permalink: /buecher/
 <!-- Beendet -->
 <h2 style="margin-top:3rem;">✅ Gelesen</h2>
 <div class="grid">
-  {% assign done = site.data.read | where: "status", "finished" | sort: "finished" | reverse %}
+  {% assign done = site.data.read | where: "status", "finished" | sort: "beendet_am" | reverse %}
   {% for b in done %}
+  {% assign isbn_clean = b.isbn | replace: "-", "" | replace: " ", "" %}
   <article class="card">
     <img src="{{ b.cover | default: '/assets/placeholder.png' }}" alt="Cover {{ b.title | escape }}" loading="lazy">
     <div class="body">
       <strong>{{ b.title }}</strong>
-      {% if b.author %}<div class="muted">{{ b.author }}</div>{% endif %}
-      {% if b.finished %}<div class="muted">beendet am {{ b.finished | date: "%d.%m.%Y" }}</div>{% endif %}
+      {% if b.author %}<div class="muted">von {{ b.author }}</div>{% endif %}
+
+      <div class="muted" style="margin-top:.25rem;">
+        {% if b.eingetragen_am %}eingetragen am {{ b.eingetragen_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.beendet_am %}{% if b.eingetragen_am %} · {% endif %}beendet am {{ b.beendet_am | date: "%d.%m.%Y" }}{% endif %}
+        {% if b.bewertung %}{% if b.eingetragen_am or b.beendet_am %} · {% endif %}Rating: {{ b.bewertung }}{% endif %}
+      </div>
+
+      {% if b.isbn %}
+      <div class="muted">ISBN: <a href="https://www.isbn.de/buch/{{ isbn_clean }}/" target="_blank" rel="noopener">{{ b.isbn }}</a></div>
+      {% endif %}
     </div>
   </article>
   {% endfor %}
