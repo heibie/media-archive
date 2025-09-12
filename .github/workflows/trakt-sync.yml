@@ -2,21 +2,34 @@ name: Trakt → YAML Sync
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # alle 15 Minuten
+    # Achtung: Cron ist UTC. Beispiel: 01:17 UTC ≈ 03:17 Europe/Berlin (Sommerzeit).
+    - cron: "17 1 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Setup Python
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
+        with:
+          python-version: "3.12"
 
       - name: Install deps
-        run: pip install pyyaml requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+          sudo apt-get update -y
+          sudo apt-get install -y jq
 
       - name: Run Trakt sync
         env:
@@ -24,12 +37,44 @@ jobs:
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
           TRAKT_ACCESS_TOKEN:  ${{ secrets.TRAKT_ACCESS_TOKEN }}
           TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
-        run: python scripts/trakt_sync.py
-
-      - name: Commit & push if changed
+          # Optionales Tuning:
+          TRAKT_HISTORY_LIMIT: "200"
+          TRAKT_HISTORY_PAGES: "5"
+          # TRAKT_START_AT_ISO: "2024-01-01T00:00:00Z"
         run: |
-          git config user.name  "trakt-bot"
-          git config user.email "trakt-bot@users.noreply.github.com"
-          git add _data/*.yml .trakt_cursor.json || true
-          git diff --cached --quiet || git commit -m "chore(trakt): update YAMLs"
-          git push
+          python scripts/trakt_sync.py
+
+      - name: Rotate Trakt refresh token secret (if updated)
+        if: ${{ hashFiles('.trakt_tokens.json') != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT (classic) mit mind. 'repo'-Scope
+        run: |
+          set -euo pipefail
+          NEW_REFRESH="$(jq -r '.refresh_token' .trakt_tokens.json)"
+          if [ -z "$NEW_REFRESH" ] || [ "$NEW_REFRESH" = "null" ]; then
+            echo "No new refresh_token found — skipping."
+            exit 0
+          fi
+          gh secret set TRAKT_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW_REFRESH"
+          echo "Updated TRAKT_REFRESH_TOKEN secret."
+
+          # Optional: Access-Token rotieren (nicht zwingend erforderlich)
+          NEW_ACCESS="$(jq -r '.access_token' .trakt_tokens.json)"
+          if [ -n "$NEW_ACCESS" ] && [ "$NEW_ACCESS" != "null" ]; then
+            gh secret set TRAKT_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW_ACCESS"
+            echo "Updated TRAKT_ACCESS_TOKEN secret (optional)."
+          fi
+
+      - name: Commit & push changes (YAML, cursor)
+        run: |
+          set -e
+          git config user.name  "trakt-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add _data/trakt_history.yml .trakt_cursor || true
+          if git diff --cached --quiet; then
+            echo "No content changes to commit."
+          else
+            git commit -m "chore(trakt): update history + cursor"
+            git push
+          fi
