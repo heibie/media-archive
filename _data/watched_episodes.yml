@@ -2081,7 +2081,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/61I2az5RaUyfXKLXv2DFBx91rN1.jpg
   episode_still: https://image.tmdb.org/t/p/w300/61I2az5RaUyfXKLXv2DFBx91rN1.jpg
   source: trakt
-  show_total_episodes: 8
+  show_total_episodes: 9
   show_episode_run_time: null
   show_title_de: Lass dich überwachen! – Die PRISM IS A DANCER Show
   season_total_episodes: 9
@@ -2941,7 +2941,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/AnJM5Q30ufIPBwvk1MAYunbLbEL.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -2963,7 +2963,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/sHAdGBqkBGcwdBsf59PxoxudbF9.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -2985,7 +2985,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/6cfkKPgXD35HexQmohX8tTkUB4p.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -3007,7 +3007,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/v12koz1EfeMn4kCNY2Igr3Bavju.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -3051,7 +3051,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/irYUmIQMHXatUc5CechvDqQey5.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -3073,7 +3073,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/5HLYXBdv705UIcHeyuNjvolFz12.jpg
   episode_still: https://image.tmdb.org/t/p/w300/w34GSXanQPKyWsS5HfXZ7PAX8Vv.jpg
   source: trakt
-  show_total_episodes: 12
+  show_total_episodes: 6
   show_episode_run_time: 48
   show_title_de: Red Eye
   season_total_episodes: 6
@@ -3517,7 +3517,7 @@
   show_episode_run_time: 22
   show_title_de: Tim & Struppi
   season_total_episodes: 13
-  episode_title_de: Die Krabbe mit den goldenen Scheren (1)
+  episode_title_de: Die Krabbe mit den goldenen Scheren
   episode_runtime: 22
   episode_title: The Crab with the Golden Claws (1)
 - show: Hijack
@@ -7209,7 +7209,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/caxiGGKRqnwz7Zy9zNWByFRaKOv.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 36
@@ -26682,7 +26682,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/jIguWfsKbK8fBHpuMawrHuqdvGA.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 37
@@ -35435,7 +35435,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/vRUj6h7AxYzskeY32VIMMEb0o1z.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 37
@@ -35457,7 +35457,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/cApTm0Alvu8vaNvSdJCU9byaUwr.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 37
@@ -36224,7 +36224,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/z0Yn1DjrOVmIThiexpKFdnQuR3z.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 37
@@ -36246,7 +36246,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/uoR2jS11Fh1GsJqKFFOnFyy9YCy.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 37
@@ -36444,7 +36444,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/hcp7IbhLRtpvSmSwz9sOjp5J8pp.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 40
@@ -36774,7 +36774,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/bxfEO4bPtrze3g87JPvfH2FkbgJ.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 40
@@ -38490,7 +38490,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/2WkiliCBvpYE3R2UPztozbKMiFi.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 40
@@ -38512,7 +38512,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/kAnCMJM7eyziODH9GxDJ8CToyvg.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 40
@@ -39062,7 +39062,7 @@
   show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
   episode_still: https://image.tmdb.org/t/p/w300/ldiwNuY8O6PaAXZ2rNh8jNbJmJp.jpg
   source: trakt
-  show_total_episodes: 1306
+  show_total_episodes: 1308
   show_episode_run_time: null
   show_title_de: Tatort
   season_total_episodes: 40
