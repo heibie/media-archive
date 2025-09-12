@@ -1,168 +1,223 @@
 #!/usr/bin/env python3
-import os, sys, time, json, requests, yaml
-from pathlib import Path
-from datetime import datetime, timezone
+# -*- coding: utf-8 -*-
 
-CLIENT_ID     = os.environ["TRAKT_CLIENT_ID"]
-CLIENT_SECRET = os.environ["TRAKT_CLIENT_SECRET"]
-ACCESS_TOKEN  = os.environ["TRAKT_ACCESS_TOKEN"]
-REFRESH_TOKEN = os.environ["TRAKT_REFRESH_TOKEN"]
+"""
+Trakt → YAML Sync
+- Holt die zuletzt gesehenen Einträge (Movies & Episodes) aus Trakt.
+- Schreibt/aktualisiert _data/trakt_history.yml (YAML) für Jekyll.
+- Verwendet OAuth2 Refresh-Flow und legt neue Tokens in .trakt_tokens.json im Repo-Root ab,
+  damit der Workflow anschließend das Repo-Secret rotieren kann.
+
+ENV EXPECTED:
+  TRAKT_CLIENT_ID
+  TRAKT_CLIENT_SECRET
+  TRAKT_ACCESS_TOKEN   # optional
+  TRAKT_REFRESH_TOKEN
+
+OPTIONAL ENV:
+  TRAKT_HISTORY_LIMIT (default: 200)
+  TRAKT_HISTORY_PAGES (default: 5)
+  TRAKT_START_AT_ISO  (default: read from .trakt_cursor if present)
+"""
+
+from __future__ import annotations
+import os
+import sys
+import json
+import datetime as dt
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+import requests
+import yaml
+
+# --- Pfade ---
+SCRIPT_DIR = Path(__file__).resolve().parent          # .../scripts
+REPO_ROOT  = SCRIPT_DIR.parent                        # Repo-Root
+DATA_DIR   = REPO_ROOT / "_data"
+DATA_DIR.mkdir(exist_ok=True)
+
+HISTORY_FILE = DATA_DIR / "trakt_history.yml"
+CURSOR_FILE  = REPO_ROOT / ".trakt_cursor"            # im Repo-Root
+TOKENS_OUT   = REPO_ROOT / ".trakt_tokens.json"       # im Repo-Root
+
+# --- Trakt ---
+TRAKT_BASE = "https://api.trakt.tv"
+USER_AGENT = "trakt-yaml-sync/1.0 (+github actions)"
+
+CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
+CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
+ACCESS_TOKEN  = os.environ.get("TRAKT_ACCESS_TOKEN", "")
+REFRESH_TOKEN = os.environ.get("TRAKT_REFRESH_TOKEN", "")
+
+if not CLIENT_ID or not CLIENT_SECRET or not REFRESH_TOKEN:
+    print("ERROR: Missing required Trakt credentials (CLIENT_ID/CLIENT_SECRET/REFRESH_TOKEN).", file=sys.stderr)
+    sys.exit(1)
 
 TRAKT_HEADERS = {
     "Content-Type": "application/json",
-    "trakt-api-version": "2",
     "trakt-api-key": CLIENT_ID,
-    "Authorization": f"Bearer {ACCESS_TOKEN}",
+    "trakt-api-version": "2",
+    "User-Agent": USER_AGENT,
 }
+if ACCESS_TOKEN:
+    TRAKT_HEADERS["Authorization"] = f"Bearer {ACCESS_TOKEN}"
 
-ROOT              = Path(os.environ.get("GITHUB_WORKSPACE", "."))  # GH Actions liefert das
-DATA_DIR          = ROOT / "_data"
-MOVIES_YAML       = DATA_DIR / "watched_movies.yml"
-EPISODES_YAML     = DATA_DIR / "watched_episodes.yml"
-CURSOR_FILE       = ROOT / ".trakt_cursor.json"  # speichert letzte verarbeitete Zeit
 
-def load_yaml(p): 
-    return yaml.safe_load(p.read_text(encoding="utf-8")) if p.exists() else []
+def read_cursor() -> Optional[str]:
+    if "TRAKT_START_AT_ISO" in os.environ and os.environ["TRAKT_START_AT_ISO"].strip():
+        return os.environ["TRAKT_START_AT_ISO"].strip()
+    if CURSOR_FILE.exists():
+        return CURSOR_FILE.read_text(encoding="utf-8").strip()
+    return None
 
-def dump_yaml(p, data):
-    p.parent.mkdir(parents=True, exist_ok=True)
-    with p.open("w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
 
-def load_cursor():
-    if not CURSOR_FILE.exists(): return {"last_seen": None}
-    return json.loads(CURSOR_FILE.read_text())
+def write_cursor(iso_timestamp: str) -> None:
+    CURSOR_FILE.write_text(iso_timestamp, encoding="utf-8")
 
-def save_cursor(obj):
-    CURSOR_FILE.write_text(json.dumps(obj, ensure_ascii=False, indent=2))
 
-def refresh_tokens():
+def save_tokens(access_token: str, refresh_token: str) -> None:
+    TOKENS_OUT.write_text(
+        json.dumps({"access_token": access_token, "refresh_token": refresh_token}, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
+
+def refresh_tokens() -> None:
     global ACCESS_TOKEN, REFRESH_TOKEN, TRAKT_HEADERS
-    r = requests.post("https://api.trakt.tv/oauth/token", json={
+    payload = {
         "refresh_token": REFRESH_TOKEN,
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
-        "grant_type": "refresh_token"
-    }, headers={"Content-Type":"application/json"})
+        "grant_type": "refresh_token",
+    }
+    r = requests.post(f"{TRAKT_BASE}/oauth/token", json=payload,
+                      headers={"Content-Type": "application/json", "User-Agent": USER_AGENT}, timeout=30)
     r.raise_for_status()
     tok = r.json()
-    ACCESS_TOKEN = tok["access_token"]
+    ACCESS_TOKEN  = tok["access_token"]
     REFRESH_TOKEN = tok["refresh_token"]
     TRAKT_HEADERS["Authorization"] = f"Bearer {ACCESS_TOKEN}"
-    print("Refreshed Trakt token.")
+    print("Refreshed Trakt access token.")
+    save_tokens(ACCESS_TOKEN, REFRESH_TOKEN)
 
-def paged_get(url, params):
-    """Generator über /sync/history Pagination (X-Pagination-* header)."""
+
+def trakt_get(path: str, params: Optional[Dict[str, Any]] = None, retry_on_401: bool = True):
+    url = f"{TRAKT_BASE}{path}"
+    r = requests.get(url, headers=TRAKT_HEADERS, params=params or {}, timeout=45)
+    if r.status_code == 401 and retry_on_401:
+        print("401 from Trakt. Attempting token refresh…")
+        refresh_tokens()
+        r = requests.get(url, headers=TRAKT_HEADERS, params=params or {}, timeout=45)
+    r.raise_for_status()
+    return r
+
+
+def normalize_history_item(item: Dict[str, Any]) -> Dict[str, Any]:
+    out: Dict[str, Any] = {
+        "type": item.get("type"),
+        "watched_at": item.get("watched_at"),
+        "id": item.get("id"),
+    }
+    if item.get("movie"):
+        m = item["movie"]
+        out.update({"title": m.get("title"), "year": m.get("year"), "ids": m.get("ids", {})})
+    if item.get("show"):
+        s = item["show"]
+        out.update({"show": {"title": s.get("title"), "year": s.get("year"), "ids": s.get("ids", {})}})
+    if item.get("episode"):
+        e = item["episode"]
+        out.update({"episode": {"season": e.get("season"), "number": e.get("number"),
+                                "title": e.get("title"), "ids": e.get("ids", {})}})
+    if "action" in item:
+        out["action"] = item["action"]
+    return out
+
+
+def merge_history(existing: List[Dict[str, Any]], new: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    by_id = {e.get("id"): e for e in existing if "id" in e}
+    for e in new:
+        by_id[e.get("id")] = e
+    merged = list(by_id.values())
+    merged.sort(key=lambda x: x.get("watched_at") or "", reverse=True)
+    return merged
+
+
+def load_existing_yaml() -> List[Dict[str, Any]]:
+    if not HISTORY_FILE.exists():
+        return []
+    with HISTORY_FILE.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or []
+        return data if isinstance(data, list) else []
+
+
+def save_yaml(data: List[Dict[str, Any]]) -> None:
+    with HISTORY_FILE.open("w", encoding="utf-8") as f:
+        yaml.safe_dump(data, f, sort_keys=False, allow_unicode=True)
+
+
+def fetch_history() -> List[Dict[str, Any]]:
+    limit = int(os.environ.get("TRAKT_HISTORY_LIMIT", "200"))
+    pages = int(os.environ.get("TRAKT_HISTORY_PAGES", "5"))
+    start_at = read_cursor()
+
+    collected: List[Dict[str, Any]] = []
     page = 1
-    while True:
-        rp = dict(params, page=page, limit=100)
-        r = requests.get(url, headers=TRAKT_HEADERS, params=rp)
-        if r.status_code == 401:
-            refresh_tokens()
-            r = requests.get(url, headers=TRAKT_HEADERS, params=rp)
-        r.raise_for_status()
-        items = r.json() or []
-        yield from items
-
-        # Pagination-Header auslesen, abbrechen wenn durch
-        page_count = int(r.headers.get("X-Pagination-Page-Count", "1"))
-        if page >= page_count: break
+    while page <= pages:
+        params = {"limit": limit, "page": page}
+        if start_at:
+            params["start_at"] = start_at
+        r = trakt_get("/sync/history", params=params)
+        batch = r.json()
+        if not batch:
+            break
+        collected.extend(normalize_history_item(x) for x in batch)
         page += 1
-        time.sleep(0.2)
+    return collected
 
-def as_date(dts):
-    # Trakt liefert ISO8601 (UTC). Wir nehmen YYYY-MM-DD.
+
+def update_cursor_from(history: List[Dict[str, Any]]) -> None:
+    if not history:
+        return
+    newest = max(history, key=lambda x: x.get("watched_at") or "")
+    if newest.get("watched_at"):
+        write_cursor(newest["watched_at"])
+
+
+def main() -> None:
     try:
-        dt = datetime.fromisoformat(dts.replace("Z","+00:00")).astimezone(timezone.utc)
-        return dt.date().isoformat()
-    except Exception:
-        return dts.split("T")[0] if "T" in dts else dts
+        _ = trakt_get("/users/me").json()
+    except Exception as e:
+        print(f"Warning: /users/me check failed: {e}", file=sys.stderr)
 
-def upsert_movie(movies, it):
-    m = it["movie"]
-    watched_on = as_date(it["watched_at"])
-    key = (m.get("ids",{}).get("tmdb"), m.get("ids",{}).get("imdb"), watched_on)
-    # Duplikate vermeiden: gleicher TMDB/IMDb + Datum
-    for x in movies:
-        if (x.get("tmdb"), x.get("imdb"), x.get("watched_on")) == key:
-            return False
-    movies.append({
-        "title": m.get("title"),
-        "title_de": None,           # wird im Enrichment gefüllt
-        "year": m.get("year"),
-        "imdb": m.get("ids",{}).get("imdb"),
-        "tmdb": m.get("ids",{}).get("tmdb"),
-        "watched_on": watched_on,
-        "poster": None, "backdrop": None,
-        "runtime": None, "overview_de": None,
-        "source": "trakt"
-    })
-    return True
+    history_new = fetch_history()
+    if history_new:
+        existing = load_existing_yaml()
+        merged = merge_history(existing, history_new)
+        save_yaml(merged)
+        update_cursor_from(history_new)
+        print(f"Synced {len(history_new)} new history items. Total: {len(merged)}")
+    else:
+        print("No new history items.")
+    print("Done.")
 
-def upsert_episode(episodes, it):
-    e = it["episode"]; sh = it["show"]
-    watched_on = as_date(it["watched_at"])
-    key = (sh.get("ids",{}).get("tmdb"), e.get("season"), e.get("number"), watched_on)
-    for x in episodes:
-        if (x.get("tmdb"), x.get("season"), x.get("episode"), x.get("watched_on")) == key:
-            return False
-    episodes.append({
-        "show": sh.get("title"),
-        "show_title_de": None,      # Enrichment
-        "year": sh.get("year"),
-        "season": e.get("season"),
-        "episode": e.get("number"),
-        "plays": 1,
-        "watched_on": watched_on,
-        "trakt_show": sh.get("ids",{}).get("trakt"),
-        "tvdb": sh.get("ids",{}).get("tvdb"),
-        "imdb": sh.get("ids",{}).get("imdb"),
-        "tmdb": sh.get("ids",{}).get("tmdb"),
-        "slug": sh.get("ids",{}).get("slug"),
-        "show_poster": None, "show_backdrop": None,
-        "episode_still": None,
-        "episode_title": None, "episode_title_de": None,
-        "episode_runtime": None, "season_total_episodes": None,
-        "show_total_episodes": None, "show_episode_run_time": None,
-        "source": "trakt"
-    })
-    return True
-
-def main():
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    movies = load_yaml(MOVIES_YAML)
-    episodes = load_yaml(EPISODES_YAML)
-    cur = load_cursor()
-
-    params = {}
-    # Wenn Cursor vorhanden → nur Neuigkeiten seitdem (start_at erwartet UTC ISO)
-    if cur.get("last_seen"):
-        params["start_at"] = cur["last_seen"]
-
-    # Wir ziehen beide Typen getrennt, um einfach zu mappen
-    added = 0
-
-    # Movies
-    for it in paged_get("https://api.trakt.tv/sync/history/movies", params=params):
-        added += upsert_movie(movies, it)
-
-    # Episodes
-    for it in paged_get("https://api.trakt.tv/sync/history/episodes", params=params):
-        added += upsert_episode(episodes, it)
-
-    # Cursor fortschreiben = höchste seenTime aus dieser Runde (UTC now als Fallback)
-    now_iso = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
-    cur["last_seen"] = now_iso
-    save_cursor(cur)
-
-    # Speichern (stabil sortiert: neueste zuerst)
-    movies.sort(key=lambda x: (x.get("watched_on") or ""), reverse=True)
-    episodes.sort(key=lambda x: (x.get("watched_on") or "", x.get("season") or 0, x.get("episode") or 0), reverse=True)
-    dump_yaml(MOVIES_YAML, movies)
-    dump_yaml(EPISODES_YAML, episodes)
-
-    print(f"Added {added} new items. Movies: {len(movies)}, Episodes: {len(episodes)}")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except requests.HTTPError as http_err:
+        if http_err.response is not None and http_err.response.status_code == 401:
+            print("HTTP 401 on main flow. Trying one last token refresh + retry…", file=sys.stderr)
+            try:
+                refresh_tokens()
+                main()
+            except Exception as e2:
+                print(f"Final failure after refresh: {e2}", file=sys.stderr)
+                sys.exit(2)
+        else:
+            print(f"HTTP error: {http_err}", file=sys.stderr)
+            sys.exit(2)
+    except Exception as e:
+        print(f"Fatal error: {e}", file=sys.stderr)
+        sys.exit(2)
