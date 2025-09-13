@@ -1,1 +1,55 @@
+name: Trakt Sync (nightly)
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 00:30 UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # fürs Committen
+      actions: write     # (nicht zwingend, aber hilfreich)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyYAML pynacl
+
+      - name: Run Trakt Sync
+        env:
+          TRAKT_CLIENT_ID:     ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
+          TRAKT_ACCESS_TOKEN:  ${{ secrets.TRAKT_ACCESS_TOKEN }}
+          TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
+          TRAKT_USERNAME:      ${{ secrets.TRAKT_USERNAME }}
+          TMDB_API_KEY:        ${{ secrets.TMDB_API_KEY }}
+          # Falls deine YAMLs in _data/ liegen:
+          OUTPUT_DIR:          _data
+          # Optional: für Secret-Rotation (Repo-Token mit 'repo' Rechten)
+          GH_PAT:              ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY:   ${{ github.repository }}
+        run: |
+          python scripts/trakt_sync.py
+
+      - name: Commit & push changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Update watched YAMLs from Trakt (nightly)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
