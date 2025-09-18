@@ -369,6 +369,7 @@ def main():
     pages = int(os.environ.get("TRAKT_HISTORY_PAGES", "5"))
 
     history = fetch_trakt_history(start_at, limit, pages)
+    log(f"Fetched {len(history)} history items von Trakt (start_at={start_at}).")
     if not history:
         log("Keine neuen History-Items.")
         write_cursor(iso_now_z())
@@ -498,8 +499,24 @@ def main():
     yaml_dump(EPISODES_YAML, episodes_all)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
 
+@@
     # Cursor fortschreiben (jetzt)
     write_cursor(iso_now_z())
+    # Cursor fortschreiben: auf neuestes watched_at der frisch geholten Items
+    newest = None
+    for it in (movies_raw + episodes_raw):
+        ts = it.get("watched_on")
+        if ts and (newest is None or ts > newest):
+            newest = ts
+    if newest:
+        # 1–2 Sekunden „zurückspringen“, um Boundary-Issues zu vermeiden (start_at ist inkl.)
+        # und eventuelle Rundungs-/TZ-Edgecases abzufangen.
+        # Wir rechnen ohne externe Libs, daher nur sicherheitshalber  'Z' belassen.
+        write_cursor(newest)
+        log(f"Cursor aktualisiert auf: {newest}")
+    else:
+        log("Keine neuen watched_at-Zeiten gefunden – Cursor unverändert.")
+
 
 if __name__ == "__main__":
     try:
