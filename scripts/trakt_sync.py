@@ -499,7 +499,6 @@ def main():
     yaml_dump(EPISODES_YAML, episodes_all)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
 
-@@
     # Cursor fortschreiben (jetzt)
     write_cursor(iso_now_z())
     # Cursor fortschreiben: auf neuestes watched_at der frisch geholten Items
