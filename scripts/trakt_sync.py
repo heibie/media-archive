@@ -53,7 +53,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"  # neue Tokens für Workflow-Ro
 # -----------------------------
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
-USER_AGENT = "trakt-yaml-sync/1.3 (+github actions)"
+USER_AGENT = "trakt-yaml-sync/1.4 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -173,7 +173,6 @@ def trakt_refresh_tokens() -> Tuple[bool, Optional[str], Optional[str]]:
         return False, None, None
 
     if r.status_code != 200:
-        # zeige begrenzt den Body (z.B. {"error":"invalid_grant",...})
         body = r.text
         if body and len(body) > 500:
             body = body[:500] + "…"
@@ -228,7 +227,7 @@ def tmdb_get(path: str, params: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], title: str, year: Optional[int]) -> Dict[str, Any]:
     movie = {}
     if tmdb_id:
-        data = tmdb_get(f"/movie/{tmdb_id}", {"append_to_response": "internal,external_ids"})
+        data = tmdb_get(f"/movie/{tmdb_id}", {"append_to_response": "external_ids"})
         if data:
             movie = data
     if not movie and imdb_id:
@@ -371,8 +370,7 @@ def main():
     history = fetch_trakt_history(start_at, limit, pages)
     log(f"Fetched {len(history)} history items von Trakt (start_at={start_at}).")
     if not history:
-        log("Keine neuen History-Items.")
-        write_cursor(iso_now_z())
+        log("Keine neuen History-Items. Cursor bleibt unverändert.")
         return
 
     movies_raw, episodes_raw = [], []
@@ -386,14 +384,6 @@ def main():
 
     # Enrichment
     log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
-    def safe(fn, arg):
-        try:
-            return fn(arg)
-        except Exception as e:
-            # keine harte Unterbrechung bei TMDB-Fehlern
-            log(f"Enrichment-Fehler: {e}")
-            return arg
-
     # Movie-Enrichment
     enriched_movies = []
     for m in movies_raw:
@@ -468,27 +458,6 @@ def main():
     movies_all = yaml_load(MOVIES_YAML)
     episodes_all = yaml_load(EPISODES_YAML)
 
-    def movie_key(r: Dict[str, Any]):
-        ids = r.get("ids", {}) or {}
-        return ids.get("trakt") or (r.get("title"), r.get("year"), r.get("watched_on"))
-
-    def episode_key(r: Dict[str, Any]):
-        ids = (r.get("ids", {}) or {}).get("episode", {}) or {}
-        k = ids.get("trakt")
-        if k: return k
-        return (r.get("show"), r.get("season"), r.get("episode"), r.get("watched_on"))
-
-    def add_or_update(records: List[Dict[str, Any]], new_items: List[Dict[str, Any]], key_fn) -> List[Dict[str, Any]]:
-        index = {key_fn(r): i for i, r in enumerate(records) if key_fn(r) is not None}
-        for it in new_items:
-            k = key_fn(it)
-            if k is None: continue
-            if k in index:
-                records[index[k]] = it
-            else:
-                records.append(it)
-        return records
-
     movies_all   = add_or_update(movies_all, enriched_movies, movie_key)
     episodes_all = add_or_update(episodes_all, enriched_eps, episode_key)
 
@@ -499,23 +468,17 @@ def main():
     yaml_dump(EPISODES_YAML, episodes_all)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
 
-    # Cursor fortschreiben (jetzt)
-    write_cursor(iso_now_z())
-    # Cursor fortschreiben: auf neuestes watched_at der frisch geholten Items
-    newest = None
+    # Cursor fortschreiben: auf neuestes watched_on der frisch geholten Items
+    newest_ts = None
     for it in (movies_raw + episodes_raw):
         ts = it.get("watched_on")
-        if ts and (newest is None or ts > newest):
-            newest = ts
-    if newest:
-        # 1–2 Sekunden „zurückspringen“, um Boundary-Issues zu vermeiden (start_at ist inkl.)
-        # und eventuelle Rundungs-/TZ-Edgecases abzufangen.
-        # Wir rechnen ohne externe Libs, daher nur sicherheitshalber  'Z' belassen.
-        write_cursor(newest)
-        log(f"Cursor aktualisiert auf: {newest}")
+        if ts and (newest_ts is None or ts > newest_ts):
+            newest_ts = ts
+    if newest_ts:
+        write_cursor(newest_ts)
+        log(f"Cursor aktualisiert auf: {newest_ts}")
     else:
         log("Keine neuen watched_at-Zeiten gefunden – Cursor unverändert.")
-
 
 if __name__ == "__main__":
     try:
