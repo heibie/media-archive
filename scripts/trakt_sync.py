@@ -5,8 +5,11 @@ Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment)
 - Holt neue History ab letztem Cursor/YAML
 - Schreibt nach _data/watched_movies.yml & _data/watched_episodes.yml
 - TMDB-Enrichment (de-DE)
-- Access-/Refresh-Token-Refresh; bei Erfolg werden die neuen Tokens in .trakt_tokens.json
-  im Repo-Root gespeichert. Die Secret-Rotation übernimmt der Workflow (gh secret set).
+- Refresh-Flow; neue Tokens nach .trakt_tokens.json (Rotation im Workflow)
+
+Debug-Logs:
+- zeigt jedes geladene History-Item (history_id, show/season/episode, watched_on)
+- zeigt für jedes normalisierte Item, ob es NEU/AKTUALISIERT wurde und mit welchem Key
 
 ENV (required):
   TRAKT_CLIENT_ID
@@ -16,7 +19,6 @@ ENV (required):
 
 ENV (optional):
   TRAKT_ACCESS_TOKEN
-  TRAKT_USERNAME
   OUTPUT_DIR                (default: "_data")
   TRAKT_HISTORY_LIMIT       (default: "200")
   TRAKT_HISTORY_PAGES       (default: "5")
@@ -53,13 +55,12 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"  # neue Tokens für Workflow-Ro
 # -----------------------------
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
-USER_AGENT = "trakt-yaml-sync/1.6 (+github actions)"
+USER_AGENT = "trakt-yaml-sync/1.7 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
 TRAKT_ACCESS_TOKEN  = os.environ.get("TRAKT_ACCESS_TOKEN", "")
 TRAKT_REFRESH_TOKEN = os.environ.get("TRAKT_REFRESH_TOKEN", "")
-TRAKT_USERNAME      = os.environ.get("TRAKT_USERNAME", "")
 
 TMDB_API_KEY        = os.environ.get("TMDB_API_KEY", "")
 
@@ -278,15 +279,16 @@ def normalize_movie_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         return None
     m = item["movie"]
     w = item.get("watched_at")
-    return {
+    out = {
         "type": "movie",
-        "history_id": item.get("id"),   # eindeutiger Key pro Watch
+        "history_id": item.get("id"),
         "title": m.get("title"),
         "year": m.get("year"),
         "ids": m.get("ids", {}),
         "watched_on": w,
         "action": item.get("action"),
     }
+    return out
 
 def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if item.get("type") != "episode" or "episode" not in item:
@@ -294,9 +296,9 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     e = item["episode"]
     s = item.get("show", {})
     w = item.get("watched_at")
-    return {
+    out = {
         "type": "episode",
-        "history_id": item.get("id"),   # eindeutiger Key pro Watch
+        "history_id": item.get("id"),
         "show": s.get("title"),
         "year": s.get("year"),
         "ids": {"show": s.get("ids", {}), "episode": e.get("ids", {})},
@@ -306,9 +308,10 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "watched_on": w,
         "action": item.get("action"),
     }
+    return out
 
 # -----------------------------
-# Keys & Merge
+# Keys
 # -----------------------------
 def movie_key(r: Dict[str, Any]):
     if r.get("history_id") is not None:
@@ -325,17 +328,35 @@ def episode_key(r: Dict[str, Any]):
         return ("ep", k, r.get("watched_on"))
     return ("ep-fallback", r.get("show"), r.get("season"), r.get("episode"), r.get("watched_on"))
 
-def add_or_update(records: List[Dict[str, Any]], new_items: List[Dict[str, Any]], key_fn) -> List[Dict[str, Any]]:
+# -----------------------------
+# Merge mit detailliertem Logging
+# -----------------------------
+def add_or_update_verbose(records: List[Dict[str, Any]],
+                          new_items: List[Dict[str, Any]],
+                          key_fn,
+                          kind: str) -> Tuple[List[Dict[str, Any]], int, int]:
     index = {key_fn(r): i for i, r in enumerate(records) if key_fn(r) is not None}
+    new_count = 0
+    upd_count = 0
     for it in new_items:
         k = key_fn(it)
-        if k is None:
-            continue
+        # hübsches Label fürs Log:
+        label = ""
+        if it.get("type") == "episode":
+            label = f"{it.get('show')} S{it.get('season')}E{it.get('episode')} @ {it.get('watched_on')} [hist={it.get('history_id')}]"
+        elif it.get("type") == "movie":
+            label = f"{it.get('title')} ({it.get('year')}) @ {it.get('watched_on')} [hist={it.get('history_id')}]"
+
         if k in index:
             records[index[k]] = it
+            upd_count += 1
+            log(f"{kind}: UPDATE  -> {label}  key={k}")
         else:
             records.append(it)
-    return records
+            index[k] = len(records) - 1
+            new_count += 1
+            log(f"{kind}: ADD     -> {label}  key={k}")
+    return records, new_count, upd_count
 
 # -----------------------------
 # Fetch History
@@ -350,6 +371,16 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
         batch = r.json()
         if not batch:
             break
+        # Debug: kurz anzeigen, was wir bekommen
+        for raw in batch:
+            t = raw.get("type")
+            if t == "episode":
+                e = raw.get("episode") or {}
+                s = raw.get("show") or {}
+                log(f"  raw: EP  hist={raw.get('id')}  {s.get('title')} S{e.get('season')}E{e.get('number')}  watched_at={raw.get('watched_at')}  ids.ep.trakt={(e.get('ids') or {}).get('trakt')}")
+            elif t == "movie":
+                m = raw.get("movie") or {}
+                log(f"  raw: MOV hist={raw.get('id')}  {m.get('title')}({m.get('year')})  watched_at={raw.get('watched_at')}  ids.trakt={(m.get('ids') or {}).get('trakt')}")
         collected.extend(batch)
     return collected
 
@@ -382,94 +413,99 @@ def main():
     for it in history:
         if it.get("type") == "movie":
             nm = normalize_movie_item(it)
-            if nm: movies_raw.append(nm)
+            if nm:
+                movies_raw.append(nm)
+                log(f"  norm: MOV hist={nm.get('history_id')}  {nm.get('title')}({nm.get('year')})  watched_on={nm.get('watched_on')}")
         elif it.get("type") == "episode":
             ne = normalize_episode_item(it)
-            if ne: episodes_raw.append(ne)
+            if ne:
+                episodes_raw.append(ne)
+                log(f"  norm: EP  hist={ne.get('history_id')}  {ne.get('show')} S{ne.get('season')}E{ne.get('episode')}  watched_on={ne.get('watched_on')}")
 
-    # Enrichment
+    # Enrichment (nur Log kurz, eigentliche Daten werden wie gehabt gefüllt)
     log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
-    enriched_movies = []
-    for m in movies_raw:
-        ids = m.get("ids", {}) or {}
-        tmdb_id = ids.get("tmdb")
-        imdb_id = ids.get("imdb")
-        title   = m.get("title") or ""
-        year    = m.get("year")
-        info = {}
+
+    # Für die Ursachensuche reicht es meist, hier keine Netzfehler zu forcieren
+    def safe_enrich_movie(m):
         try:
-            info = enrich_movie_by_tmdb_ids(tmdb_id, imdb_id, title, year)
+            ids = m.get("ids", {}) or {}
+            info = enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year"))
+            if info:
+                m["tmdb"] = {
+                    "id": info.get("id"),
+                    "title": info.get("title") or info.get("original_title"),
+                    "original_title": info.get("original_title"),
+                    "overview": info.get("overview"),
+                    "poster_path": info.get("poster_path"),
+                    "backdrop_path": info.get("backdrop_path"),
+                    "release_date": info.get("release_date"),
+                    "genres": [g.get("name") for g in (info.get("genres") or []) if g.get("name")],
+                    "vote_average": info.get("vote_average"),
+                    "runtime": info.get("runtime"),
+                    "external_ids": info.get("external_ids", {}),
+                }
         except Exception as e:
-            log(f"Movie-Enrichment Fehler ({title}): {e}")
-        if info:
-            m["tmdb"] = {
-                "id": info.get("id"),
-                "title": info.get("title") or info.get("original_title"),
-                "original_title": info.get("original_title"),
-                "overview": info.get("overview"),
-                "poster_path": info.get("poster_path"),
-                "backdrop_path": info.get("backdrop_path"),
-                "release_date": info.get("release_date"),
-                "genres": [g.get("name") for g in (info.get("genres") or []) if g.get("name")],
-                "vote_average": info.get("vote_average"),
-                "runtime": info.get("runtime"),
-                "external_ids": info.get("external_ids", {}),
-            }
-        enriched_movies.append(m)
+            log(f"Movie-Enrichment Fehler ({m.get('title')}): {e}")
+        return m
 
-    enriched_eps = []
-    for e in episodes_raw:
-        show_ids = (e.get("ids") or {}).get("show") or {}
-        show_tmdb_id = show_ids.get("tmdb")
-        show_title   = e.get("show")
-        show_year    = e.get("year")
-        show_det = {}
+    def safe_enrich_episode(e):
         try:
-            show_det = enrich_show_by_tmdb_id(show_tmdb_id, show_title, show_year)
+            show_ids = (e.get("ids") or {}).get("show") or {}
+            show_tmdb_id = show_ids.get("tmdb")
+            show_title   = e.get("show")
+            show_year    = e.get("year")
+            show_det = enrich_show_by_tmdb_id(show_tmdb_id, show_title, show_year) or {}
+            if show_det:
+                e["tmdb_show"] = {
+                    "id": show_det.get("id"),
+                    "name": show_det.get("name") or show_det.get("original_name"),
+                    "overview": show_det.get("overview"),
+                    "poster_path": show_det.get("poster_path"),
+                    "backdrop_path": show_det.get("backdrop_path"),
+                    "first_air_date": show_det.get("first_air_date"),
+                    "genres": [g.get("name") for g in (show_det.get("genres") or []) if g.get("name")],
+                    "vote_average": show_det.get("vote_average"),
+                    "external_ids": show_det.get("external_ids", {}),
+                }
+            ep_det = enrich_episode_by_tmdb_ids(show_det.get("id") if show_det else show_tmdb_id,
+                                               e.get("season"), e.get("episode")) or {}
+            if ep_det:
+                e["tmdb_episode"] = {
+                    "id": ep_det.get("id"),
+                    "name": ep_det.get("name"),
+                    "overview": ep_det.get("overview"),
+                    "still_path": ep_det.get("still_path"),
+                    "air_date": ep_det.get("air_date"),
+                    "vote_average": ep_det.get("vote_average"),
+                    "external_ids": ep_det.get("external_ids", {}),
+                }
         except Exception as ex:
-            log(f"Show-Enrichment Fehler ({show_title}): {ex}")
-        if show_det:
-            e["tmdb_show"] = {
-                "id": show_det.get("id"),
-                "name": show_det.get("name") or show_det.get("original_name"),
-                "overview": show_det.get("overview"),
-                "poster_path": show_det.get("poster_path"),
-                "backdrop_path": show_det.get("backdrop_path"),
-                "first_air_date": show_det.get("first_air_date"),
-                "genres": [g.get("name") for g in (show_det.get("genres") or []) if g.get("name")],
-                "vote_average": show_det.get("vote_average"),
-                "external_ids": show_det.get("external_ids", {}),
-            }
-        ep_det = {}
-        try:
-            ep_det = enrich_episode_by_tmdb_ids(show_det.get("id") if show_det else show_tmdb_id, e.get("season"), e.get("episode"))
-        except Exception as ex:
-            log(f"Episoden-Enrichment Fehler ({show_title} S{e.get('season')}E{e.get('episode')}): {ex}")
-        if ep_det:
-            e["tmdb_episode"] = {
-                "id": ep_det.get("id"),
-                "name": ep_det.get("name"),
-                "overview": ep_det.get("overview"),
-                "still_path": ep_det.get("still_path"),
-                "air_date": ep_det.get("air_date"),
-                "vote_average": ep_det.get("vote_average"),
-                "external_ids": ep_det.get("external_ids", {}),
-            }
-        enriched_eps.append(e)
+            log(f"Episoden-Enrichment Fehler ({e.get('show')} S{e.get('season')}E{e.get('episode')}): {ex}")
+        return e
 
-    # Merge
+    enriched_movies = [safe_enrich_movie(m) for m in movies_raw]
+    enriched_eps    = [safe_enrich_episode(e) for e in episodes_raw]
+
+    # Merge (mit detaillierten Logs pro Item)
     movies_all   = yaml_load(MOVIES_YAML)
     episodes_all = yaml_load(EPISODES_YAML)
+    before_movies = len(movies_all)
+    before_eps    = len(episodes_all)
 
-    movies_all   = add_or_update(movies_all, enriched_movies, movie_key)
-    episodes_all = add_or_update(episodes_all, enriched_eps, episode_key)
+    movies_all, new_m, upd_m = add_or_update_verbose(movies_all, enriched_movies, movie_key, "MOV")
+    episodes_all, new_e, upd_e = add_or_update_verbose(episodes_all, enriched_eps, episode_key, "EP ")
 
     movies_all.sort(key=lambda r: (r.get("watched_on") or ""), reverse=True)
     episodes_all.sort(key=lambda r: (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0), reverse=True)
 
     yaml_dump(MOVIES_YAML, movies_all)
     yaml_dump(EPISODES_YAML, episodes_all)
+
+    after_movies = len(movies_all)
+    after_eps    = len(episodes_all)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
+    log(f"Movies: {before_movies} → {after_movies} (neu: {new_m}, aktualisiert: {upd_m})")
+    log(f"Episodes: {before_eps} → {after_eps} (neu: {new_e}, aktualisiert: {upd_e})")
 
     # Cursor fortschreiben: neuestes watched_on der frisch geholten Items – mit 1s Puffer
     newest_ts = None
