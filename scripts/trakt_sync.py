@@ -6,7 +6,7 @@ Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment)
 - Schreibt nach _data/watched_movies.yml & _data/watched_episodes.yml
 - TMDB-Enrichment (de-DE)
 - Access-/Refresh-Token-Refresh; bei Erfolg werden die neuen Tokens in .trakt_tokens.json
-  im Repo-Root gespeichert. Die Secret-Rotation übernimmt der Workflow.
+  im Repo-Root gespeichert. Die Secret-Rotation übernimmt der Workflow (gh secret set).
 
 ENV (required):
   TRAKT_CLIENT_ID
@@ -20,13 +20,13 @@ ENV (optional):
   OUTPUT_DIR                (default: "_data")
   TRAKT_HISTORY_LIMIT       (default: "200")
   TRAKT_HISTORY_PAGES       (default: "5")
-  TRAKT_START_AT_ISO        (default: wird automatisch aus Cursor/YAML bestimmt)
+  TRAKT_START_AT_ISO        (default: automatisch aus Cursor/YAML)
 """
 
 import os
 import sys
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import Dict, Any, List, Optional, Tuple
 from pathlib import Path
 
@@ -53,7 +53,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"  # neue Tokens für Workflow-Ro
 # -----------------------------
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
-USER_AGENT = "trakt-yaml-sync/1.4 (+github actions)"
+USER_AGENT = "trakt-yaml-sync/1.6 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -188,7 +188,6 @@ def trakt_refresh_tokens() -> Tuple[bool, Optional[str], Optional[str]]:
         log("Token-Refresh: Antwort ohne Tokens.")
         return False, None, None
 
-    # Session-Header aktualisieren
     SESSION.headers["Authorization"] = f"Bearer {new_access}"
     TRAKT_ACCESS_TOKEN  = new_access
     TRAKT_REFRESH_TOKEN = new_refresh
@@ -272,7 +271,7 @@ def enrich_show_by_tmdb_id(show_tmdb_id: Optional[int], title: Optional[str], ye
     return show or {}
 
 # -----------------------------
-# Normalisierung
+# Normalisierung (mit history_id)
 # -----------------------------
 def normalize_movie_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if item.get("type") != "movie" or "movie" not in item:
@@ -281,6 +280,7 @@ def normalize_movie_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     w = item.get("watched_at")
     return {
         "type": "movie",
+        "history_id": item.get("id"),   # eindeutiger Key pro Watch
         "title": m.get("title"),
         "year": m.get("year"),
         "ids": m.get("ids", {}),
@@ -296,6 +296,7 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     w = item.get("watched_at")
     return {
         "type": "episode",
+        "history_id": item.get("id"),   # eindeutiger Key pro Watch
         "show": s.get("title"),
         "year": s.get("year"),
         "ids": {"show": s.get("ids", {}), "episode": e.get("ids", {})},
@@ -307,8 +308,23 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     }
 
 # -----------------------------
-# Merge/Dedupe
+# Keys & Merge
 # -----------------------------
+def movie_key(r: Dict[str, Any]):
+    if r.get("history_id") is not None:
+        return ("hist", r["history_id"])
+    ids = r.get("ids", {}) or {}
+    return ids.get("trakt") or ("movie-fallback", r.get("title"), r.get("year"), r.get("watched_on"))
+
+def episode_key(r: Dict[str, Any]):
+    if r.get("history_id") is not None:
+        return ("hist", r["history_id"])
+    ids = (r.get("ids", {}) or {}).get("episode", {}) or {}
+    k = ids.get("trakt")
+    if k:
+        return ("ep", k, r.get("watched_on"))
+    return ("ep-fallback", r.get("show"), r.get("season"), r.get("episode"), r.get("watched_on"))
+
 def add_or_update(records: List[Dict[str, Any]], new_items: List[Dict[str, Any]], key_fn) -> List[Dict[str, Any]]:
     index = {key_fn(r): i for i, r in enumerate(records) if key_fn(r) is not None}
     for it in new_items:
@@ -320,17 +336,6 @@ def add_or_update(records: List[Dict[str, Any]], new_items: List[Dict[str, Any]]
         else:
             records.append(it)
     return records
-
-def movie_key(r: Dict[str, Any]):
-    ids = r.get("ids", {}) or {}
-    return ids.get("trakt") or (r.get("title"), r.get("year"), r.get("watched_on"))
-
-def episode_key(r: Dict[str, Any]):
-    ids = (r.get("ids", {}) or {}).get("episode", {}) or {}
-    k = ids.get("trakt")
-    if k:
-        return k
-    return (r.get("show"), r.get("season"), r.get("episode"), r.get("watched_on"))
 
 # -----------------------------
 # Fetch History
@@ -384,7 +389,6 @@ def main():
 
     # Enrichment
     log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
-    # Movie-Enrichment
     enriched_movies = []
     for m in movies_raw:
         ids = m.get("ids", {}) or {}
@@ -413,7 +417,6 @@ def main():
             }
         enriched_movies.append(m)
 
-    # Episode-/Show-Enrichment
     enriched_eps = []
     for e in episodes_raw:
         show_ids = (e.get("ids") or {}).get("show") or {}
@@ -454,8 +457,8 @@ def main():
             }
         enriched_eps.append(e)
 
-    # Merge + Sort
-    movies_all = yaml_load(MOVIES_YAML)
+    # Merge
+    movies_all   = yaml_load(MOVIES_YAML)
     episodes_all = yaml_load(EPISODES_YAML)
 
     movies_all   = add_or_update(movies_all, enriched_movies, movie_key)
@@ -468,15 +471,21 @@ def main():
     yaml_dump(EPISODES_YAML, episodes_all)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
 
-    # Cursor fortschreiben: auf neuestes watched_on der frisch geholten Items
+    # Cursor fortschreiben: neuestes watched_on der frisch geholten Items – mit 1s Puffer
     newest_ts = None
     for it in (movies_raw + episodes_raw):
         ts = it.get("watched_on")
         if ts and (newest_ts is None or ts > newest_ts):
             newest_ts = ts
     if newest_ts:
-        write_cursor(newest_ts)
-        log(f"Cursor aktualisiert auf: {newest_ts}")
+        dt = parse_iso(newest_ts)
+        if dt:
+            dt_minus = dt - timedelta(seconds=1)
+            cursor_iso = dt_minus.isoformat().replace("+00:00", "Z")
+        else:
+            cursor_iso = newest_ts
+        write_cursor(cursor_iso)
+        log(f"Cursor aktualisiert auf: {cursor_iso}")
     else:
         log("Keine neuen watched_at-Zeiten gefunden – Cursor unverändert.")
 
