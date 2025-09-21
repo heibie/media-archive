@@ -3,7 +3,8 @@
 """
 Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment)
 - Holt neue History ab letztem Cursor/YAML
-- Schreibt nach _data/watched_movies.yml & _data/watched_episodes.yml
+- Schreibt **Movies** nach _data/watched_movies.yml im alten Frontend-Format
+- Schreibt **Episoden** nach _data/watched_episodes.yml im alten Frontend-Format
 - TMDB-Enrichment (de-DE)
 - Refresh-Flow; neue Tokens nach .trakt_tokens.json (Rotation im Workflow)
 
@@ -13,7 +14,6 @@ Debug-Logs:
 - zeigt normalisierte Items
 - zeigt beim Merge: ADD/UPDATE inkl. Key
 - zeigt Datei-Status vor/nach Write + Tail der YAMLs
-- zeigt OUTPUT_DIR-Listing
 - Cursor = neuestes watched_on – 1s (Boundary-sicher)
 
 ENV (required):
@@ -44,13 +44,8 @@ import yaml
 # Pfade
 # -----------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
-
-# Bevorzugt Actions-Workspace (sicherer in CI)
 WS = os.environ.get("GITHUB_WORKSPACE", "")
-if WS:
-    REPO_ROOT = Path(WS).resolve()
-else:
-    REPO_ROOT = SCRIPT_DIR.parent.resolve()
+REPO_ROOT = Path(WS).resolve() if WS else SCRIPT_DIR.parent.resolve()
 
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "_data"))
 if not OUTPUT_DIR.is_absolute():
@@ -59,21 +54,21 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MOVIES_YAML   = OUTPUT_DIR / "watched_movies.yml"
 EPISODES_YAML = OUTPUT_DIR / "watched_episodes.yml"
-CURSOR_FILE   = REPO_ROOT / ".trakt_cursor"       # ISO-String
-TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"  # neue Tokens für Workflow-Rotation
+CURSOR_FILE   = REPO_ROOT / ".trakt_cursor"
+TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"
 
 # -----------------------------
 # Konfiguration
 # -----------------------------
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
-USER_AGENT = "trakt-yaml-sync/1.8 (+github actions)"
+IMG_BASE   = "https://image.tmdb.org/t/p"
+USER_AGENT = "trakt-yaml-sync/2.0 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
 TRAKT_ACCESS_TOKEN  = os.environ.get("TRAKT_ACCESS_TOKEN", "")
 TRAKT_REFRESH_TOKEN = os.environ.get("TRAKT_REFRESH_TOKEN", "")
-
 TMDB_API_KEY        = os.environ.get("TMDB_API_KEY", "")
 
 if not (TRAKT_CLIENT_ID and TRAKT_CLIENT_SECRET and TRAKT_REFRESH_TOKEN and TMDB_API_KEY):
@@ -98,9 +93,6 @@ SESSION.headers.update(TRAKT_HEADERS)
 def log(msg: str):
     print(f"[trakt-sync] {msg}")
 
-def iso_now_z() -> str:
-    return datetime.utcnow().replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
-
 def yaml_load(path: Path):
     if not path.exists():
         return []
@@ -123,6 +115,14 @@ def parse_iso(s: str) -> Optional[datetime]:
     except Exception:
         return None
 
+def only_date(iso_ts: Optional[str]) -> Optional[str]:
+    if not iso_ts:
+        return None
+    try:
+        return iso_ts.split("T", 1)[0]
+    except Exception:
+        return iso_ts
+
 def read_cursor_env_or_file() -> Optional[str]:
     v = os.environ.get("TRAKT_START_AT_ISO", "").strip()
     if v:
@@ -144,9 +144,11 @@ def latest_watched_iso_from_yaml() -> Optional[str]:
         arr = yaml_load(path)
         for row in arr:
             w = row.get("watched_on") or row.get("watched_at")
-            if not w:
-                continue
-            d = parse_iso(w)
+            if w and len(w) == 10 and w.count("-") == 2:
+                w_iso = f"{w}T00:00:00Z"
+            else:
+                w_iso = w
+            d = parse_iso(w_iso) if w_iso else None
             if d and (max_dt is None or d > max_dt):
                 max_dt = d
     if max_dt:
@@ -178,7 +180,6 @@ def stat_path(p: Path) -> str:
 # Trakt OAuth & API
 # -----------------------------
 def trakt_refresh_tokens() -> Tuple[bool, Optional[str], Optional[str]]:
-    """Refresh Trakt tokens. Returns (ok, new_access, new_refresh)."""
     global TRAKT_ACCESS_TOKEN, TRAKT_REFRESH_TOKEN
     payload = {
         "refresh_token": TRAKT_REFRESH_TOKEN,
@@ -231,7 +232,7 @@ def trakt_get(path: str, params: Optional[Dict[str, Any]] = None, retry_on_401: 
     return r
 
 # -----------------------------
-# TMDB Enrichment (de-DE)
+# TMDB (de-DE)
 # -----------------------------
 def tmdb_get(path: str, params: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     params = dict(params)
@@ -244,6 +245,38 @@ def tmdb_get(path: str, params: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         return resp.json()
     except requests.RequestException:
         return None
+
+# -----------------------------
+# Enrichment-Helfer
+# -----------------------------
+def enrich_show(show_tmdb_id: Optional[int], title: Optional[str], year: Optional[int]) -> Dict[str, Any]:
+    show = {}
+    if show_tmdb_id:
+        det = tmdb_get(f"/tv/{show_tmdb_id}", {"append_to_response": "external_ids"})
+        if det:
+            show = det
+    if not show and title:
+        params = {"query": title}
+        if year: params["first_air_date_year"] = year
+        sr = tmdb_get("/search/tv", params)
+        if sr and sr.get("results"):
+            hit = sr["results"][0]
+            det = tmdb_get(f"/tv/{hit['id']}", {"append_to_response": "external_ids"})
+            if det:
+                show = det
+    return show or {}
+
+def enrich_episode(show_tmdb_id: Optional[int], season: Optional[int], number: Optional[int]) -> Dict[str, Any]:
+    if not (show_tmdb_id and season is not None and number is not None):
+        return {}
+    ep = tmdb_get(f"/tv/{show_tmdb_id}/season/{season}/episode/{number}", {"append_to_response": "external_ids"})
+    return ep or {}
+
+def enrich_season_meta(show_tmdb_id: Optional[int], season: Optional[int]) -> Dict[str, Any]:
+    if not (show_tmdb_id and season is not None):
+        return {}
+    det = tmdb_get(f"/tv/{show_tmdb_id}/season/{season}", {})
+    return det or {}
 
 def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], title: str, year: Optional[int]) -> Dict[str, Any]:
     movie = {}
@@ -268,29 +301,6 @@ def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], tit
             if det:
                 movie = det
     return movie or {}
-
-def enrich_episode_by_tmdb_ids(show_tmdb_id: Optional[int], ep_season: Optional[int], ep_number: Optional[int]) -> Dict[str, Any]:
-    if not (show_tmdb_id and ep_season is not None and ep_number is not None):
-        return {}
-    ep = tmdb_get(f"/tv/{show_tmdb_id}/season/{ep_season}/episode/{ep_number}", {"append_to_response": "external_ids"})
-    return ep or {}
-
-def enrich_show_by_tmdb_id(show_tmdb_id: Optional[int], title: Optional[str], year: Optional[int]) -> Dict[str, Any]:
-    show = {}
-    if show_tmdb_id:
-        det = tmdb_get(f"/tv/{show_tmdb_id}", {"append_to_response": "external_ids"})
-        if det:
-            show = det
-    if not show and title:
-        params = {"query": title}
-        if year: params["first_air_date_year"] = year
-        sr = tmdb_get("/search/tv", params)
-        if sr and sr.get("results"):
-            hit = sr["results"][0]
-            det = tmdb_get(f"/tv/{hit['id']}", {"append_to_response": "external_ids"})
-            if det:
-                show = det
-    return show or {}
 
 # -----------------------------
 # Normalisierung (mit history_id)
@@ -332,7 +342,7 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     return out
 
 # -----------------------------
-# Keys
+# Keys (pro Watch via history_id)
 # -----------------------------
 def movie_key(r: Dict[str, Any]):
     if r.get("history_id") is not None:
@@ -361,13 +371,10 @@ def add_or_update_verbose(records: List[Dict[str, Any]],
     upd_count = 0
     for it in new_items:
         k = key_fn(it)
-        # Label fürs Log:
-        label = ""
         if it.get("type") == "episode":
             label = f"{it.get('show')} S{it.get('season')}E{it.get('episode')} @ {it.get('watched_on')} [hist={it.get('history_id')}]"
-        elif it.get("type") == "movie":
+        else:
             label = f"{it.get('title')} ({it.get('year')}) @ {it.get('watched_on')} [hist={it.get('history_id')}]"
-
         if k in index:
             records[index[k]] = it
             upd_count += 1
@@ -392,7 +399,6 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
         batch = r.json()
         if not batch:
             break
-        # Debug: kurz anzeigen, was wir bekommen
         for raw in batch:
             t = raw.get("type")
             if t == "episode":
@@ -406,10 +412,69 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
     return collected
 
 # -----------------------------
+# Frontend-Format: Episoden & Filme
+# -----------------------------
+def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
+    if not path:
+        return None
+    return f"{IMG_BASE}/{variant}{path}"
+
+def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
+    show_ids = (e.get("ids") or {}).get("show") or {}
+    tmdb_show = e.get("tmdb_show") or {}
+    tmdb_ep   = e.get("tmdb_episode") or {}
+    season_meta = e.get("tmdb_season") or {}
+    data = {
+        "show": e.get("show"),
+        "year": e.get("year"),
+        "season": e.get("season"),
+        "episode": e.get("episode"),
+        "plays": 1,
+        "watched_on": only_date(e.get("watched_on")),
+        "trakt_show": show_ids.get("trakt"),
+        "tvdb": show_ids.get("tvdb"),
+        "imdb": show_ids.get("imdb"),
+        "tmdb": show_ids.get("tmdb") or tmdb_show.get("id"),
+        "slug": show_ids.get("slug"),
+        "source": "trakt",
+        "show_title_de": tmdb_show.get("name") or e.get("show"),
+        "show_poster": img_or_none(tmdb_show.get("poster_path"), "w500"),
+        "show_backdrop": img_or_none(tmdb_show.get("backdrop_path"), "w780"),
+        "show_total_episodes": tmdb_show.get("number_of_episodes"),
+        "episode_title": e.get("title") or (tmdb_ep.get("name") or None),
+        "episode_title_de": tmdb_ep.get("name") or None,
+        "episode_runtime": tmdb_ep.get("runtime") or (tmdb_show.get("episode_run_time", [None])[0] if tmdb_show.get("episode_run_time") else None),
+        "season_total_episodes": len(season_meta.get("episodes", [])) if season_meta.get("episodes") else None,
+        "episode_still": img_or_none(tmdb_ep.get("still_path"), "w300"),
+    }
+    return {k: v for k, v in data.items() if v is not None}
+
+def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
+    ids = m.get("ids") or {}
+    tmdb = m.get("tmdb") or {}
+    data = {
+        "title": m.get("title"),
+        "year": m.get("year"),
+        "imdb": ids.get("imdb"),
+        "tmdb": ids.get("tmdb") or tmdb.get("id"),
+        "trakt": ids.get("trakt"),
+        "slug": ids.get("slug"),
+        "plays": 1,
+        "watched_on": only_date(m.get("watched_on")),
+        "poster": img_or_none(tmdb.get("poster_path"), "w500"),
+        "backdrop": img_or_none(tmdb.get("backdrop_path"), "w780"),
+        "source": "trakt",
+        "runtime": tmdb.get("runtime"),
+        "title_de": tmdb.get("title") or tmdb.get("original_title") or m.get("title"),
+        "overview_de": tmdb.get("overview"),
+    }
+    return {k: v for k, v in data.items() if v is not None}
+
+# -----------------------------
 # MAIN
 # -----------------------------
 def main():
-    # Debug: Arbeitsverzeichnis & Pfade
+    # Debug: Pfade & Umgebung
     try:
         log(f"CWD={os.getcwd()}")
     except Exception:
@@ -455,120 +520,109 @@ def main():
                 episodes_raw.append(ne)
                 log(f"  norm: EP  hist={ne.get('history_id')}  {ne.get('show')} S{ne.get('season')}E{ne.get('episode')}  watched_on={ne.get('watched_on')}")
 
-    # Enrichment
     log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
 
-    def safe_enrich_movie(m):
+    # Movies enrichment
+    enriched_movies = []
+    for m in movies_raw:
+        ids = m.get("ids", {}) or {}
+        info = {}
         try:
-            ids = m.get("ids", {}) or {}
             info = enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year"))
-            if info:
-                m["tmdb"] = {
-                    "id": info.get("id"),
-                    "title": info.get("title") or info.get("original_title"),
-                    "original_title": info.get("original_title"),
-                    "overview": info.get("overview"),
-                    "poster_path": info.get("poster_path"),
-                    "backdrop_path": info.get("backdrop_path"),
-                    "release_date": info.get("release_date"),
-                    "genres": [g.get("name") for g in (info.get("genres") or []) if g.get("name")],
-                    "vote_average": info.get("vote_average"),
-                    "runtime": info.get("runtime"),
-                    "external_ids": info.get("external_ids", {}),
-                }
         except Exception as e:
             log(f"Movie-Enrichment Fehler ({m.get('title')}): {e}")
-        return m
+        if info:
+            m["tmdb"] = {
+                "id": info.get("id"),
+                "title": info.get("title") or info.get("original_title"),
+                "original_title": info.get("original_title"),
+                "overview": info.get("overview"),
+                "poster_path": info.get("poster_path"),
+                "backdrop_path": info.get("backdrop_path"),
+                "release_date": info.get("release_date"),
+                "genres": [g.get("name") for g in (info.get("genres") or []) if g.get("name")],
+                "vote_average": info.get("vote_average"),
+                "runtime": info.get("runtime"),
+                "external_ids": info.get("external_ids", {}),
+            }
+        enriched_movies.append(m)
 
-    def safe_enrich_episode(e):
-        try:
-            show_ids = (e.get("ids") or {}).get("show") or {}
-            show_tmdb_id = show_ids.get("tmdb")
-            show_title   = e.get("show")
-            show_year    = e.get("year")
-            show_det = enrich_show_by_tmdb_id(show_tmdb_id, show_title, show_year) or {}
-            if show_det:
-                e["tmdb_show"] = {
-                    "id": show_det.get("id"),
-                    "name": show_det.get("name") or show_det.get("original_name"),
-                    "overview": show_det.get("overview"),
-                    "poster_path": show_det.get("poster_path"),
-                    "backdrop_path": show_det.get("backdrop_path"),
-                    "first_air_date": show_det.get("first_air_date"),
-                    "genres": [g.get("name") for g in (show_det.get("genres") or []) if g.get("name")],
-                    "vote_average": show_det.get("vote_average"),
-                    "external_ids": show_det.get("external_ids", {}),
-                }
-            ep_det = enrich_episode_by_tmdb_ids(show_det.get("id") if show_det else show_tmdb_id,
-                                               e.get("season"), e.get("episode")) or {}
-            if ep_det:
-                e["tmdb_episode"] = {
-                    "id": ep_det.get("id"),
-                    "name": ep_det.get("name"),
-                    "overview": ep_det.get("overview"),
-                    "still_path": ep_det.get("still_path"),
-                    "air_date": ep_det.get("air_date"),
-                    "vote_average": ep_det.get("vote_average"),
-                    "external_ids": ep_det.get("external_ids", {}),
-                }
-        except Exception as ex:
-            log(f"Episoden-Enrichment Fehler ({e.get('show')} S{e.get('season')}E{e.get('episode')}): {ex}")
-        return e
+    # Episodes enrichment (Show + Episode + Season)
+    enriched_eps = []
+    for e in episodes_raw:
+        show_ids = (e.get("ids") or {}).get("show") or {}
+        show_tmdb_id = show_ids.get("tmdb")
+        show_title   = e.get("show")
+        show_year    = e.get("year")
 
-    enriched_movies = [safe_enrich_movie(m) for m in movies_raw]
-    enriched_eps    = [safe_enrich_episode(e) for e in episodes_raw]
+        show_det = enrich_show(show_tmdb_id, show_title, show_year) or {}
+        if show_det:
+            e["tmdb_show"] = show_det
 
-    # Initialer Dateistatus
+        ep_det = enrich_episode(show_det.get("id") if show_det else show_tmdb_id, e.get("season"), e.get("episode")) or {}
+        if ep_det:
+            e["tmdb_episode"] = ep_det
+
+        season_meta = enrich_season_meta(show_det.get("id") if show_det else show_tmdb_id, e.get("season")) or {}
+        if season_meta:
+            e["tmdb_season"] = season_meta
+
+        enriched_eps.append(e)
+
+    # Initialer Dateistatus & Listing
     log("Initial file state:")
     log("  " + stat_path(MOVIES_YAML))
     log("  " + stat_path(EPISODES_YAML))
-
-    # OUTPUT_DIR-Listing
     try:
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         listing = "\n".join(sorted(os.listdir(OUTPUT_DIR)))
         log(f"OUTPUT_DIR listing:\n{listing}")
     except Exception as e:
         log(f"OUTPUT_DIR check/listing failed: {e}")
 
-    # Merge (mit detaillierten Logs pro Item)
-    movies_all   = yaml_load(MOVIES_YAML)
-    episodes_all = yaml_load(EPISODES_YAML)
-    before_movies = len(movies_all)
-    before_eps    = len(episodes_all)
+    # Merge (auf Basis der normalisierten Items)
+    movies_all_norm   = yaml_load(MOVIES_YAML)   # wir überschreiben gleich mit Legacy-Form, aber zum Start ggf. leer
+    episodes_all_norm = yaml_load(EPISODES_YAML)
 
-    movies_all, new_m, upd_m = add_or_update_verbose(movies_all, enriched_movies, movie_key, "MOV")
-    episodes_all, new_e, upd_e = add_or_update_verbose(episodes_all, enriched_eps, episode_key, "EP ")
+    before_movies = len(movies_all_norm)
+    before_eps    = len(episodes_all_norm)
 
-    movies_all.sort(key=lambda r: (r.get("watched_on") or ""), reverse=True)
-    episodes_all.sort(key=lambda r: (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0), reverse=True)
+    merged_movies_norm, new_m, upd_m = add_or_update_verbose(movies_all_norm, enriched_movies, movie_key, "MOV")
+    merged_eps_norm,  new_e, upd_e  = add_or_update_verbose(episodes_all_norm, enriched_eps,  episode_key, "EP ")
+
+    # ➜ VOR dem Schreiben in Legacy-Form mappen
+    legacy_movies = [movie_to_frontend(m) for m in merged_movies_norm]
+    legacy_eps    = [episode_to_frontend(e) for e in merged_eps_norm]
+
+    # Sortierung: neueste zuerst
+    legacy_movies.sort(key=lambda r: (r.get("watched_on") or ""), reverse=True)
+    legacy_eps.sort(key=lambda r: (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0), reverse=True)
 
     # Write + Tail (Movies)
     log("Vor Write (Movies): " + stat_path(MOVIES_YAML))
-    yaml_dump(MOVIES_YAML, movies_all)
+    yaml_dump(MOVIES_YAML, legacy_movies)
     log("Nach Write (Movies): " + stat_path(MOVIES_YAML))
     try:
         with MOVIES_YAML.open("r", encoding="utf-8") as f:
             lines = f.readlines()
-            tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
+        tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
         log("Tail Movies YAML:\n" + tail)
     except Exception as e:
         log(f"Tail Movies YAML fehlgeschlagen: {e}")
 
     # Write + Tail (Episodes)
     log("Vor Write (Episodes): " + stat_path(EPISODES_YAML))
-    yaml_dump(EPISODES_YAML, episodes_all)
+    yaml_dump(EPISODES_YAML, legacy_eps)
     log("Nach Write (Episodes): " + stat_path(EPISODES_YAML))
     try:
         with EPISODES_YAML.open("r", encoding="utf-8") as f:
             lines = f.readlines()
-            tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
+        tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
         log("Tail Episodes YAML:\n" + tail)
     except Exception as e:
         log(f"Tail Episodes YAML fehlgeschlagen: {e}")
 
-    after_movies = len(movies_all)
-    after_eps    = len(episodes_all)
+    after_movies = len(legacy_movies)
+    after_eps    = len(legacy_eps)
     log(f"Aktualisiert: {MOVIES_YAML}, {EPISODES_YAML}")
     log(f"Movies: {before_movies} → {after_movies} (neu: {new_m}, aktualisiert: {upd_m})")
     log(f"Episodes: {before_eps} → {after_eps} (neu: {new_e}, aktualisiert: {upd_e})")
@@ -581,11 +635,7 @@ def main():
             newest_ts = ts
     if newest_ts:
         dt = parse_iso(newest_ts)
-        if dt:
-            dt_minus = dt - timedelta(seconds=1)
-            cursor_iso = dt_minus.isoformat().replace("+00:00", "Z")
-        else:
-            cursor_iso = newest_ts
+        cursor_iso = (dt - timedelta(seconds=1)).isoformat().replace("+00:00", "Z") if dt else newest_ts
         write_cursor(cursor_iso)
         log(f"Cursor aktualisiert auf: {cursor_iso}")
     else:
