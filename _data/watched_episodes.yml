@@ -4,6 +4,14 @@
   episode: 4
   plays: 1
   watched_on: '2025-09-20'
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 4
+  plays: 1
+  watched_on: '2025-09-20'
   trakt_show: 169246
   tvdb: 390284
   imdb: tt13486352
@@ -19,6 +27,27 @@
   episode_runtime: 27
   season_total_episodes: 7
   episode_still: https://image.tmdb.org/t/p/w300/kARmTG1CescXrpsRIUJ0mI8f0Tl.jpg
+- show: 'Alien: Earth'
+  year: 2025
+  season: 1
+  episode: 2
+  plays: 1
+  watched_on: '2025-09-18'
+  trakt_show: 170689
+  tvdb: 458912
+  imdb: tt13623632
+  tmdb: 157239
+  slug: alien-earth
+  source: trakt
+  show_title_de: 'Alien: Earth'
+  show_poster: https://image.tmdb.org/t/p/w500/xOExk58Tu1522rtiJflmSuu3cQN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg
+  show_total_episodes: 8
+  episode_title: Mr. October
+  episode_title_de: Mr. October
+  episode_runtime: 56
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/hZclNGZx4pjOx6MNdJfTZid113f.jpg
 - show: 'Alien: Earth'
   year: 2025
   season: 1
