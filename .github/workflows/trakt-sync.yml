@@ -6,7 +6,7 @@ on:
     - cron: "17 1 * * *"
   workflow_dispatch:
 
-# verhindert parallele Läufe (die sonst Tokens gegenseitig invalidieren)
+# Verhindert parallele Läufe (die sonst Tokens gegenseitig invalidieren)
 concurrency:
   group: trakt-sync
   cancel-in-progress: true
@@ -40,6 +40,16 @@ jobs:
           fi
           gh --version
 
+      - name: Debug workspace
+        run: |
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          pwd
+          ls -la
+          echo "---- _data (pre-run) ----"
+          ls -la _data || true
+          echo "---- .gitignore ----"
+          [ -f .gitignore ] && cat .gitignore || echo "(no .gitignore)"
+
       - name: Run Trakt sync
         env:
           TRAKT_CLIENT_ID:     ${{ secrets.TRAKT_CLIENT_ID }}
@@ -53,16 +63,16 @@ jobs:
         run: |
           python scripts/trakt_sync.py
 
-      # Secret-Rotation NUR wenn neue Tokens-Datei existiert
+      # Secret-Rotation nur, wenn neue Tokens geschrieben wurden
       - name: Authenticate gh for secret rotation
         if: ${{ hashFiles('.trakt_tokens.json') != '' }}
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT (classic) mit 'repo'
+          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT (classic) mit Scope: repo
         run: |
           set -euo pipefail
           gh auth status || gh auth setup-git || true
 
-      - name: Rotate Trakt refresh token secret (if updated)
+      - name: Rotate Trakt secrets (if updated)
         if: ${{ hashFiles('.trakt_tokens.json') != '' }}
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
@@ -73,29 +83,53 @@ jobs:
             exit 0
           fi
           NEW_REFRESH="$(jq -r '.refresh_token' .trakt_tokens.json)"
-          if [ -z "$NEW_REFRESH" ] || [ "$NEW_REFRESH" = "null" ]; then
+          if [ -n "$NEW_REFRESH" ] && [ "$NEW_REFRESH" != "null" ]; then
+            gh secret set TRAKT_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW_REFRESH"
+            echo "Updated TRAKT_REFRESH_TOKEN secret."
+          else
             echo "No new refresh_token found — skipping."
-            exit 0
           fi
-          gh secret set TRAKT_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW_REFRESH"
-          echo "Updated TRAKT_REFRESH_TOKEN secret."
-
-          # Optional: auch Access-Token rotieren (nicht zwingend)
           NEW_ACCESS="$(jq -r '.access_token' .trakt_tokens.json)"
           if [ -n "$NEW_ACCESS" ] && [ "$NEW_ACCESS" != "null" ]; then
             gh secret set TRAKT_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW_ACCESS"
             echo "Updated TRAKT_ACCESS_TOKEN secret (optional)."
           fi
 
-      - name: Commit & push changes (YAML, cursor)
+      - name: Show git status & diff (before commit)
         run: |
           set -e
-          git config user.name  "trakt-sync-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add _data/watched_movies.yml _data/watched_episodes.yml .trakt_cursor || true
+          echo "CWD: $(pwd)"
+          git status
+          echo "---- DIFF (stat) ----"
+          git --no-pager diff --stat || true
+          echo "---- CHECK-IGNORE ----"
+          git check-ignore -v _data/watched_episodes.yml _data/watched_movies.yml || true
+          echo "---- TAIL watched_episodes.yml ----"
+          if [ -f _data/watched_episodes.yml ]; then tail -n 50 _data/watched_episodes.yml; fi
+          echo "---- TAIL watched_movies.yml ----"
+          if [ -f _data/watched_movies.yml ]; then tail -n 50 _data/watched_movies.yml; fi
+
+      - name: Commit & push changes (YAML, cursor)
+        env:
+          GIT_AUTHOR_NAME:  trakt-sync-bot
+          GIT_AUTHOR_EMAIL: actions@users.noreply.github.com
+          GIT_COMMITTER_NAME:  trakt-sync-bot
+          GIT_COMMITTER_EMAIL: actions@users.noreply.github.com
+        run: |
+          set -e
+          git config user.name  "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+
+          # Alles adden (inkl. .trakt_cursor). .trakt_tokens.json NICHT adden.
+          git add -A
+          git reset .trakt_tokens.json 2>/dev/null || true
+
+          echo "---- DIFF (cached) ----"
+          git --no-pager diff --cached --stat || true
+
           if git diff --cached --quiet; then
             echo "No content changes to commit."
-          else:
+          else
             git commit -m "chore(trakt): update history + cursor"
             git push
           fi
