@@ -1,20 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment)
+Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment, robust)
 - Holt neue History ab letztem Cursor/YAML
 - Schreibt **Movies** nach _data/watched_movies.yml im alten Frontend-Format
 - Schreibt **Episoden** nach _data/watched_episodes.yml im alten Frontend-Format
 - TMDB-Enrichment (de-DE)
 - Refresh-Flow; neue Tokens nach .trakt_tokens.json (Rotation im Workflow)
+- Sehr ausführliches Logging (Pfade, Merge, Write, Tail)
 
-Debug-Logs:
-- zeigt CWD, REPO_ROOT, OUTPUT_DIR, Pfade, GITHUB_WORKSPACE
-- zeigt jeden rohen Trakt-History-Eintrag (EP/MOV)
-- zeigt normalisierte Items
-- zeigt beim Merge: ADD/UPDATE inkl. Key
-- zeigt Datei-Status vor/nach Write + Tail der YAMLs
-- Cursor = neuestes watched_on – 1s (Boundary-sicher)
+Wichtig:
+- Deduplizierung pro Watch via Trakt-`history_id` (neue Watches = neue Zeilen)
+- Cursor = neuestes watched_on – 1s (damit Boundary-Events nicht verloren gehen)
 
 ENV (required):
   TRAKT_CLIENT_ID
@@ -63,7 +60,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
 IMG_BASE   = "https://image.tmdb.org/t/p"
-USER_AGENT = "trakt-yaml-sync/2.0 (+github actions)"
+USER_AGENT = "trakt-yaml-sync/2.1 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -88,7 +85,7 @@ SESSION = requests.Session()
 SESSION.headers.update(TRAKT_HEADERS)
 
 # -----------------------------
-# Utils
+# Utils & Guards
 # -----------------------------
 def log(msg: str):
     print(f"[trakt-sync] {msg}")
@@ -143,6 +140,7 @@ def latest_watched_iso_from_yaml() -> Optional[str]:
     for path in (MOVIES_YAML, EPISODES_YAML):
         arr = yaml_load(path)
         for row in arr:
+            row = as_dict(row)
             w = row.get("watched_on") or row.get("watched_at")
             if w and len(w) == 10 and w.count("-") == 2:
                 w_iso = f"{w}T00:00:00Z"
@@ -175,6 +173,21 @@ def stat_path(p: Path) -> str:
         return f"{p} [exists=True size={s.st_size}B mtime={datetime.fromtimestamp(s.st_mtime).isoformat()}]"
     except Exception as e:
         return f"{p} [stat error: {e}]"
+
+def as_dict(v):
+    return v if isinstance(v, dict) else {}
+
+def as_list(v):
+    return v if isinstance(v, list) else []
+
+def dget(obj, key, default=None):
+    obj = as_dict(obj)
+    return obj.get(key, default)
+
+def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
+    if not path:
+        return None
+    return f"{IMG_BASE}/{variant}{path}"
 
 # -----------------------------
 # Trakt OAuth & API
@@ -259,8 +272,8 @@ def enrich_show(show_tmdb_id: Optional[int], title: Optional[str], year: Optiona
         params = {"query": title}
         if year: params["first_air_date_year"] = year
         sr = tmdb_get("/search/tv", params)
-        if sr and sr.get("results"):
-            hit = sr["results"][0]
+        if sr and dget(sr, "results"):
+            hit = dget(sr, "results")[0]
             det = tmdb_get(f"/tv/{hit['id']}", {"append_to_response": "external_ids"})
             if det:
                 show = det
@@ -286,8 +299,8 @@ def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], tit
             movie = data
     if not movie and imdb_id:
         data = tmdb_get(f"/find/{imdb_id}", {"external_source": "imdb_id"})
-        if data and data.get("movie_results"):
-            hit = data["movie_results"][0]
+        if data and dget(data, "movie_results"):
+            hit = dget(data, "movie_results")[0]
             det = tmdb_get(f"/movie/{hit['id']}", {"append_to_response": "external_ids"})
             if det:
                 movie = det
@@ -295,8 +308,8 @@ def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], tit
         params = {"query": title}
         if year: params["year"] = year
         sr = tmdb_get("/search/movie", params)
-        if sr and sr.get("results"):
-            hit = sr["results"][0]
+        if sr and dget(sr, "results"):
+            hit = dget(sr, "results")[0]
             det = tmdb_get(f"/movie/{hit['id']}", {"append_to_response": "external_ids"})
             if det:
                 movie = det
@@ -308,52 +321,52 @@ def enrich_movie_by_tmdb_ids(tmdb_id: Optional[int], imdb_id: Optional[str], tit
 def normalize_movie_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if item.get("type") != "movie" or "movie" not in item:
         return None
-    m = item["movie"]
+    m = as_dict(item.get("movie"))
     w = item.get("watched_at")
-    out = {
+    return {
         "type": "movie",
         "history_id": item.get("id"),
         "title": m.get("title"),
         "year": m.get("year"),
-        "ids": m.get("ids", {}),
+        "ids": as_dict(m.get("ids")),
         "watched_on": w,
         "action": item.get("action"),
     }
-    return out
 
 def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if item.get("type") != "episode" or "episode" not in item:
         return None
-    e = item["episode"]
-    s = item.get("show", {})
+    e = as_dict(item.get("episode"))
+    s = as_dict(item.get("show"))
     w = item.get("watched_at")
-    out = {
+    return {
         "type": "episode",
         "history_id": item.get("id"),
         "show": s.get("title"),
         "year": s.get("year"),
-        "ids": {"show": s.get("ids", {}), "episode": e.get("ids", {})},
+        "ids": {"show": as_dict(s.get("ids")), "episode": as_dict(e.get("ids"))},
         "season": e.get("season"),
         "episode": e.get("number"),
         "title": e.get("title"),
         "watched_on": w,
         "action": item.get("action"),
     }
-    return out
 
 # -----------------------------
 # Keys (pro Watch via history_id)
 # -----------------------------
 def movie_key(r: Dict[str, Any]):
+    r = as_dict(r)
     if r.get("history_id") is not None:
         return ("hist", r["history_id"])
-    ids = r.get("ids", {}) or {}
+    ids = as_dict(r.get("ids"))
     return ids.get("trakt") or ("movie-fallback", r.get("title"), r.get("year"), r.get("watched_on"))
 
 def episode_key(r: Dict[str, Any]):
+    r = as_dict(r)
     if r.get("history_id") is not None:
         return ("hist", r["history_id"])
-    ids = (r.get("ids", {}) or {}).get("episode", {}) or {}
+    ids = as_dict(as_dict(r.get("ids")).get("episode"))
     k = ids.get("trakt")
     if k:
         return ("ep", k, r.get("watched_on"))
@@ -366,11 +379,23 @@ def add_or_update_verbose(records: List[Dict[str, Any]],
                           new_items: List[Dict[str, Any]],
                           key_fn,
                           kind: str) -> Tuple[List[Dict[str, Any]], int, int]:
-    index = {key_fn(r): i for i, r in enumerate(records) if key_fn(r) is not None}
+    safe_keys = []
+    index: Dict[Any, int] = {}
+    for i, r in enumerate(records):
+        try:
+            k = key_fn(r)
+        except Exception:
+            k = None
+        if k is not None:
+            index[k] = i
+            safe_keys.append(k)
     new_count = 0
     upd_count = 0
     for it in new_items:
-        k = key_fn(it)
+        try:
+            k = key_fn(it)
+        except Exception:
+            k = None
         if it.get("type") == "episode":
             label = f"{it.get('show')} S{it.get('season')}E{it.get('episode')} @ {it.get('watched_on')} [hist={it.get('history_id')}]"
         else:
@@ -402,28 +427,39 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
         for raw in batch:
             t = raw.get("type")
             if t == "episode":
-                e = raw.get("episode") or {}
-                s = raw.get("show") or {}
-                log(f"  raw: EP  hist={raw.get('id')}  {s.get('title')} S{e.get('season')}E{e.get('number')}  watched_at={raw.get('watched_at')}  ids.ep.trakt={(e.get('ids') or {}).get('trakt')}")
+                e = as_dict(raw.get("episode"))
+                s = as_dict(raw.get("show"))
+                log(f"  raw: EP  hist={raw.get('id')}  {s.get('title')} S{e.get('season')}E{e.get('number')}  watched_at={raw.get('watched_at')}  ids.ep.trakt={dget(e,'ids',{}).get('trakt')}")
             elif t == "movie":
-                m = raw.get("movie") or {}
-                log(f"  raw: MOV hist={raw.get('id')}  {m.get('title')}({m.get('year')})  watched_at={raw.get('watched_at')}  ids.trakt={(m.get('ids') or {}).get('trakt')}")
+                m = as_dict(raw.get("movie"))
+                log(f"  raw: MOV hist={raw.get('id')}  {m.get('title')}({m.get('year')})  watched_at={raw.get('watched_at')}  ids.trakt={dget(m,'ids',{}).get('trakt')}")
         collected.extend(batch)
     return collected
 
 # -----------------------------
-# Frontend-Format: Episoden & Filme
+# Frontend-Format: Episoden & Filme (robust)
 # -----------------------------
-def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
-    if not path:
-        return None
-    return f"{IMG_BASE}/{variant}{path}"
-
 def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
-    show_ids = (e.get("ids") or {}).get("show") or {}
-    tmdb_show = e.get("tmdb_show") or {}
-    tmdb_ep   = e.get("tmdb_episode") or {}
-    season_meta = e.get("tmdb_season") or {}
+    ids_all    = as_dict(e.get("ids"))
+    show_ids   = as_dict(ids_all.get("show"))
+    tmdb_show  = as_dict(e.get("tmdb_show"))
+    tmdb_ep    = as_dict(e.get("tmdb_episode"))
+    season_meta= as_dict(e.get("tmdb_season"))
+
+    # episode_run_time kann Liste ODER int ODER fehlen:
+    ep_runtime = tmdb_ep.get("runtime")
+    if ep_runtime is None:
+        ert = tmdb_show.get("episode_run_time")
+        if isinstance(ert, list) and ert:
+            ep_runtime = ert[0]
+        elif isinstance(ert, int):
+            ep_runtime = ert
+        else:
+            ep_runtime = None
+
+    episodes_in_season = season_meta.get("episodes")
+    season_total = len(episodes_in_season) if isinstance(episodes_in_season, list) else None
+
     data = {
         "show": e.get("show"),
         "year": e.get("year"),
@@ -441,17 +477,18 @@ def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
         "show_poster": img_or_none(tmdb_show.get("poster_path"), "w500"),
         "show_backdrop": img_or_none(tmdb_show.get("backdrop_path"), "w780"),
         "show_total_episodes": tmdb_show.get("number_of_episodes"),
-        "episode_title": e.get("title") or (tmdb_ep.get("name") or None),
-        "episode_title_de": tmdb_ep.get("name") or None,
-        "episode_runtime": tmdb_ep.get("runtime") or (tmdb_show.get("episode_run_time", [None])[0] if tmdb_show.get("episode_run_time") else None),
-        "season_total_episodes": len(season_meta.get("episodes", [])) if season_meta.get("episodes") else None,
+        "episode_title": e.get("title") or tmdb_ep.get("name"),
+        "episode_title_de": tmdb_ep.get("name"),
+        "episode_runtime": ep_runtime,
+        "season_total_episodes": season_total,
         "episode_still": img_or_none(tmdb_ep.get("still_path"), "w300"),
     }
     return {k: v for k, v in data.items() if v is not None}
 
 def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
-    ids = m.get("ids") or {}
-    tmdb = m.get("tmdb") or {}
+    ids  = as_dict(m.get("ids"))
+    tmdb = as_dict(m.get("tmdb"))
+
     data = {
         "title": m.get("title"),
         "year": m.get("year"),
@@ -469,6 +506,14 @@ def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
         "overview_de": tmdb.get("overview"),
     }
     return {k: v for k, v in data.items() if v is not None}
+
+def sort_key_episode(r):
+    r = as_dict(r)
+    return (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0)
+
+def sort_key_movie(r):
+    r = as_dict(r)
+    return (r.get("watched_on") or "")
 
 # -----------------------------
 # MAIN
@@ -525,12 +570,13 @@ def main():
     # Movies enrichment
     enriched_movies = []
     for m in movies_raw:
-        ids = m.get("ids", {}) or {}
+        ids = as_dict(m.get("ids"))
         info = {}
         try:
-            info = enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year"))
+            info = enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year")) or {}
         except Exception as e:
             log(f"Movie-Enrichment Fehler ({m.get('title')}): {e}")
+        info = as_dict(info)
         if info:
             m["tmdb"] = {
                 "id": info.get("id"),
@@ -540,30 +586,31 @@ def main():
                 "poster_path": info.get("poster_path"),
                 "backdrop_path": info.get("backdrop_path"),
                 "release_date": info.get("release_date"),
-                "genres": [g.get("name") for g in (info.get("genres") or []) if g.get("name")],
+                "genres": [g.get("name") for g in as_list(info.get("genres")) if as_dict(g).get("name")],
                 "vote_average": info.get("vote_average"),
                 "runtime": info.get("runtime"),
-                "external_ids": info.get("external_ids", {}),
+                "external_ids": as_dict(info.get("external_ids")),
             }
         enriched_movies.append(m)
 
     # Episodes enrichment (Show + Episode + Season)
     enriched_eps = []
     for e in episodes_raw:
-        show_ids = (e.get("ids") or {}).get("show") or {}
+        ids_all    = as_dict(e.get("ids"))
+        show_ids   = as_dict(ids_all.get("show"))
         show_tmdb_id = show_ids.get("tmdb")
-        show_title   = e.get("show")
-        show_year    = e.get("year")
+        show_title = e.get("show")
+        show_year  = e.get("year")
 
-        show_det = enrich_show(show_tmdb_id, show_title, show_year) or {}
+        show_det = as_dict(enrich_show(show_tmdb_id, show_title, show_year))
         if show_det:
             e["tmdb_show"] = show_det
 
-        ep_det = enrich_episode(show_det.get("id") if show_det else show_tmdb_id, e.get("season"), e.get("episode")) or {}
+        ep_det = as_dict(enrich_episode(show_det.get("id") if show_det else show_tmdb_id, e.get("season"), e.get("episode")))
         if ep_det:
             e["tmdb_episode"] = ep_det
 
-        season_meta = enrich_season_meta(show_det.get("id") if show_det else show_tmdb_id, e.get("season")) or {}
+        season_meta = as_dict(enrich_season_meta(show_det.get("id") if show_det else show_tmdb_id, e.get("season")))
         if season_meta:
             e["tmdb_season"] = season_meta
 
@@ -580,22 +627,21 @@ def main():
         log(f"OUTPUT_DIR check/listing failed: {e}")
 
     # Merge (auf Basis der normalisierten Items)
-    movies_all_norm   = yaml_load(MOVIES_YAML)   # wir überschreiben gleich mit Legacy-Form, aber zum Start ggf. leer
-    episodes_all_norm = yaml_load(EPISODES_YAML)
-
+    movies_all_norm   = as_list(yaml_load(MOVIES_YAML))
+    episodes_all_norm = as_list(yaml_load(EPISODES_YAML))
     before_movies = len(movies_all_norm)
     before_eps    = len(episodes_all_norm)
 
     merged_movies_norm, new_m, upd_m = add_or_update_verbose(movies_all_norm, enriched_movies, movie_key, "MOV")
     merged_eps_norm,  new_e, upd_e  = add_or_update_verbose(episodes_all_norm, enriched_eps,  episode_key, "EP ")
 
-    # ➜ VOR dem Schreiben in Legacy-Form mappen
+    # In Legacy-Form mappen
     legacy_movies = [movie_to_frontend(m) for m in merged_movies_norm]
     legacy_eps    = [episode_to_frontend(e) for e in merged_eps_norm]
 
     # Sortierung: neueste zuerst
-    legacy_movies.sort(key=lambda r: (r.get("watched_on") or ""), reverse=True)
-    legacy_eps.sort(key=lambda r: (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0), reverse=True)
+    legacy_movies.sort(key=sort_key_movie, reverse=True)
+    legacy_eps.sort(key=sort_key_episode, reverse=True)
 
     # Write + Tail (Movies)
     log("Vor Write (Movies): " + stat_path(MOVIES_YAML))
