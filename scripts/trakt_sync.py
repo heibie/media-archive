@@ -8,8 +8,13 @@ Trakt → YAML Sync (inkrementell, mit TMDB-Enrichment)
 - Refresh-Flow; neue Tokens nach .trakt_tokens.json (Rotation im Workflow)
 
 Debug-Logs:
-- zeigt jedes geladene History-Item (history_id, show/season/episode, watched_on)
-- zeigt für jedes normalisierte Item, ob es NEU/AKTUALISIERT wurde und mit welchem Key
+- zeigt CWD, REPO_ROOT, OUTPUT_DIR, Pfade, GITHUB_WORKSPACE
+- zeigt jeden rohen Trakt-History-Eintrag (EP/MOV)
+- zeigt normalisierte Items
+- zeigt beim Merge: ADD/UPDATE inkl. Key
+- zeigt Datei-Status vor/nach Write + Tail der YAMLs
+- zeigt OUTPUT_DIR-Listing
+- Cursor = neuestes watched_on – 1s (Boundary-sicher)
 
 ENV (required):
   TRAKT_CLIENT_ID
@@ -39,10 +44,17 @@ import yaml
 # Pfade
 # -----------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT  = SCRIPT_DIR.parent
+
+# Bevorzugt Actions-Workspace (sicherer in CI)
+WS = os.environ.get("GITHUB_WORKSPACE", "")
+if WS:
+    REPO_ROOT = Path(WS).resolve()
+else:
+    REPO_ROOT = SCRIPT_DIR.parent.resolve()
+
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "_data"))
 if not OUTPUT_DIR.is_absolute():
-    OUTPUT_DIR = REPO_ROOT / OUTPUT_DIR
+    OUTPUT_DIR = (REPO_ROOT / OUTPUT_DIR).resolve()
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MOVIES_YAML   = OUTPUT_DIR / "watched_movies.yml"
@@ -55,7 +67,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"  # neue Tokens für Workflow-Ro
 # -----------------------------
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
-USER_AGENT = "trakt-yaml-sync/1.7 (+github actions)"
+USER_AGENT = "trakt-yaml-sync/1.8 (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -152,6 +164,15 @@ def save_tokens_file(access_token: str, refresh_token: str):
         )
     except Exception:
         pass
+
+def stat_path(p: Path) -> str:
+    try:
+        if not p.exists():
+            return f"{p} [exists=False]"
+        s = p.stat()
+        return f"{p} [exists=True size={s.st_size}B mtime={datetime.fromtimestamp(s.st_mtime).isoformat()}]"
+    except Exception as e:
+        return f"{p} [stat error: {e}]"
 
 # -----------------------------
 # Trakt OAuth & API
@@ -340,7 +361,7 @@ def add_or_update_verbose(records: List[Dict[str, Any]],
     upd_count = 0
     for it in new_items:
         k = key_fn(it)
-        # hübsches Label fürs Log:
+        # Label fürs Log:
         label = ""
         if it.get("type") == "episode":
             label = f"{it.get('show')} S{it.get('season')}E{it.get('episode')} @ {it.get('watched_on')} [hist={it.get('history_id')}]"
@@ -388,6 +409,18 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
 # MAIN
 # -----------------------------
 def main():
+    # Debug: Arbeitsverzeichnis & Pfade
+    try:
+        log(f"CWD={os.getcwd()}")
+    except Exception:
+        pass
+    log(f"REPO_ROOT={REPO_ROOT}")
+    log(f"OUTPUT_DIR={OUTPUT_DIR}")
+    log(f"MOVIES_YAML={MOVIES_YAML}")
+    log(f"EPISODES_YAML={EPISODES_YAML}")
+    log(f"CURSOR_FILE={CURSOR_FILE}")
+    log(f"GITHUB_WORKSPACE={os.environ.get('GITHUB_WORKSPACE','<unset>')}")
+
     # /users/me (triggert ggf. 401 → Refresh)
     try:
         _ = trakt_get("/users/me").json()
@@ -422,10 +455,9 @@ def main():
                 episodes_raw.append(ne)
                 log(f"  norm: EP  hist={ne.get('history_id')}  {ne.get('show')} S{ne.get('season')}E{ne.get('episode')}  watched_on={ne.get('watched_on')}")
 
-    # Enrichment (nur Log kurz, eigentliche Daten werden wie gehabt gefüllt)
+    # Enrichment
     log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
 
-    # Für die Ursachensuche reicht es meist, hier keine Netzfehler zu forcieren
     def safe_enrich_movie(m):
         try:
             ids = m.get("ids", {}) or {}
@@ -486,6 +518,19 @@ def main():
     enriched_movies = [safe_enrich_movie(m) for m in movies_raw]
     enriched_eps    = [safe_enrich_episode(e) for e in episodes_raw]
 
+    # Initialer Dateistatus
+    log("Initial file state:")
+    log("  " + stat_path(MOVIES_YAML))
+    log("  " + stat_path(EPISODES_YAML))
+
+    # OUTPUT_DIR-Listing
+    try:
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        listing = "\n".join(sorted(os.listdir(OUTPUT_DIR)))
+        log(f"OUTPUT_DIR listing:\n{listing}")
+    except Exception as e:
+        log(f"OUTPUT_DIR check/listing failed: {e}")
+
     # Merge (mit detaillierten Logs pro Item)
     movies_all   = yaml_load(MOVIES_YAML)
     episodes_all = yaml_load(EPISODES_YAML)
@@ -498,8 +543,29 @@ def main():
     movies_all.sort(key=lambda r: (r.get("watched_on") or ""), reverse=True)
     episodes_all.sort(key=lambda r: (r.get("watched_on") or "", r.get("season") or 0, r.get("episode") or 0), reverse=True)
 
+    # Write + Tail (Movies)
+    log("Vor Write (Movies): " + stat_path(MOVIES_YAML))
     yaml_dump(MOVIES_YAML, movies_all)
+    log("Nach Write (Movies): " + stat_path(MOVIES_YAML))
+    try:
+        with MOVIES_YAML.open("r", encoding="utf-8") as f:
+            lines = f.readlines()
+            tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
+        log("Tail Movies YAML:\n" + tail)
+    except Exception as e:
+        log(f"Tail Movies YAML fehlgeschlagen: {e}")
+
+    # Write + Tail (Episodes)
+    log("Vor Write (Episodes): " + stat_path(EPISODES_YAML))
     yaml_dump(EPISODES_YAML, episodes_all)
+    log("Nach Write (Episodes): " + stat_path(EPISODES_YAML))
+    try:
+        with EPISODES_YAML.open("r", encoding="utf-8") as f:
+            lines = f.readlines()
+            tail = "".join(lines[-10:]) if len(lines) > 10 else "".join(lines)
+        log("Tail Episodes YAML:\n" + tail)
+    except Exception as e:
+        log(f"Tail Episodes YAML fehlgeschlagen: {e}")
 
     after_movies = len(movies_all)
     after_eps    = len(episodes_all)
@@ -507,7 +573,7 @@ def main():
     log(f"Movies: {before_movies} → {after_movies} (neu: {new_m}, aktualisiert: {upd_m})")
     log(f"Episodes: {before_eps} → {after_eps} (neu: {new_e}, aktualisiert: {upd_e})")
 
-    # Cursor fortschreiben: neuestes watched_on der frisch geholten Items – mit 1s Puffer
+    # Cursor fortschreiben: neuestes watched_on – 1s
     newest_ts = None
     for it in (movies_raw + episodes_raw):
         ts = it.get("watched_on")
