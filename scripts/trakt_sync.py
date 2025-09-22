@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Trakt → YAML Sync (strict append-only)
+Trakt → YAML Sync (strict prepend-only)
 - Holt neue History ab (ab Cursor/YAML)
-- Schreibt **nur neue** Einträge im Legacy-Format ans Ende der bestehenden YAMLs
-- Existierende YAML-Einträge werden niemals angetastet/überschrieben
+- Schreibt **nur neue** Einträge im Legacy-Format an den **Anfang** der bestehenden YAMLs
+- Bestehende YAML-Einträge werden niemals verändert/umformatiert (Byte-genau erhalten)
 - Legt vor der ersten Änderung pro Run eine Backup-Datei an: *.bak-YYYYmmdd-HHMMSS
 - Cursor = neuestes watched_on – 1s
 
@@ -41,7 +41,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
 IMG_BASE   = "https://image.tmdb.org/t/p"
-USER_AGENT = "trakt-yaml-sync/2.3-append-only (+github actions)"
+USER_AGENT = "trakt-yaml-sync/2.4-prepend-only (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -142,35 +142,40 @@ def as_list(v): return v if isinstance(v, list) else []
 def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
     return f"{IMG_BASE}/{variant}{path}" if path else None
 
-def append_yaml_items(path: Path, items: List[Dict[str, Any]]):
-    """Hängt items als '- ' Einträge an bestehende Datei an. Schreibt NIE die bestehende Liste neu.
-       Falls Datei nicht existiert: legt vollständige Liste an."""
+def prepend_yaml_items(path: Path, items: List[Dict[str, Any]]):
+    """Fügt items als YAML-Liste **vorne** ein, ohne bestehende Bytes zu verändern.
+       Existiert die Datei nicht, wird eine vollständige Liste geschrieben.
+       Vorher wird 1x pro Run ein Backup der Originaldatei erzeugt."""
     if not items:
         return
 
-    # Falls Datei existiert: 1x Backup pro Run
+    # Dump der neuen Items (als Liste von Einzel-Listenelementen)
+    new_text_parts = []
+    for it in items:
+        new_text_parts.append(yaml.safe_dump([it], allow_unicode=True, sort_keys=False))
+    new_text = "".join(new_text_parts)
+
     if path.exists():
+        # Backup
         ts = datetime.utcnow().strftime("%Y%m%d-%H%M%S")
         bak = Path(str(path) + f".bak-{ts}")
         try:
-            bak.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+            orig_text = path.read_text(encoding="utf-8")
+            bak.write_text(orig_text, encoding="utf-8")
             log(f"Backup geschrieben: {bak.name}")
         except Exception as e:
             log(f"Backup fehlgeschlagen ({path}): {e}")
+            orig_text = path.read_text(encoding="utf-8")  # best effort
 
-    if not path.exists():
-        # Erstbefüllung: komplette Liste schreiben
+        # Prepend: <neu> + <alt>
+        with path.open("w", encoding="utf-8") as f:
+            f.write(new_text)
+            # keine zusätzliche Leerzeile nötig: safe_dump endet mit '\n'
+            f.write(orig_text)
+    else:
+        # Erstbefüllung: komplette Liste schreiben (in richtiger Reihenfolge)
         with path.open("w", encoding="utf-8") as f:
             yaml.safe_dump(items, f, allow_unicode=True, sort_keys=False)
-        return
-
-    # Anhängen: pro Item einen Listeneintrag dumpen
-    # Damit PyYAML '- ' erzeugt, dumpen wir eine Ein-Eintrags-Liste
-    with path.open("a", encoding="utf-8") as f:
-        for it in items:
-            txt = yaml.safe_dump([it], allow_unicode=True, sort_keys=False)
-            # PyYAML hängt einen Zeilenumbruch an; wir schreiben direkt an
-            f.write(txt)
 
 # -----------------------------
 # Trakt OAuth / API
@@ -298,7 +303,6 @@ def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
     ids_all=as_dict(e.get("ids")); show_ids=as_dict(ids_all.get("show"))
     tmdb_show=as_dict(e.get("tmdb_show")); tmdb_ep=as_dict(e.get("tmdb_episode"))
     season_meta=as_dict(e.get("tmdb_season"))
-    # runtime
     ep_runtime=tmdb_ep.get("runtime")
     if ep_runtime is None:
         ert=tmdb_show.get("episode_run_time")
@@ -385,7 +389,6 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
 # MAIN
 # -----------------------------
 def main():
-    # Pfad-Debug
     log(f"REPO_ROOT={REPO_ROOT}")
     log(f"OUTPUT_DIR={OUTPUT_DIR}")
     log(f"MOVIES_YAML={MOVIES_YAML}")
@@ -443,44 +446,44 @@ def main():
     mov_keys = { legacy_mov_key(r) for r in existing_movies }
     ep_keys  = { legacy_ep_key(r)  for r in existing_eps }
 
-    # Nur NEUE Einträge anhängen
-    to_append_movies = []
-    to_append_eps    = []
+    # Nur NEUE Einträge (vorn einfügen)
+    to_prepend_movies = []
+    to_prepend_eps    = []
 
     for row in new_movies_legacy:
         k = legacy_mov_key(row)
         if k not in mov_keys:
-            to_append_movies.append(row)
+            to_prepend_movies.append(row)
             mov_keys.add(k)
-            log(f"MOV: QUEUE ADD -> {row.get('title')} ({row.get('year')}) @ {row.get('watched_on')} key={k}")
+            log(f"MOV: QUEUE PREPEND -> {row.get('title')} ({row.get('year')}) @ {row.get('watched_on')} key={k}")
         else:
             log(f"MOV: SKIP (exists) -> {row.get('title')} ({row.get('year')}) @ {row.get('watched_on')} key={k}")
 
     for row in new_eps_legacy:
         k = legacy_ep_key(row)
         if k not in ep_keys:
-            to_append_eps.append(row)
+            to_prepend_eps.append(row)
             ep_keys.add(k)
-            log(f"EP : QUEUE ADD -> {row.get('show')} S{row.get('season')}E{row.get('episode')} @ {row.get('watched_on')} key={k}")
+            log(f"EP : QUEUE PREPEND -> {row.get('show')} S{row.get('season')}E{row.get('episode')} @ {row.get('watched_on')} key={k}")
         else:
             log(f"EP : SKIP (exists) -> {row.get('show')} S{row.get('season')}E{row.get('episode')} @ {row.get('watched_on')} key={k}")
 
-    # Anhängen (append-only) + Backup
-    if to_append_movies:
-        log("Vor Append (Movies): " + stat_path(MOVIES_YAML))
-        append_yaml_items(MOVIES_YAML, to_append_movies)
-        log("Nach Append (Movies): " + stat_path(MOVIES_YAML))
+    # Prepend mit Backup
+    if to_prepend_movies:
+        log("Vor Prepend (Movies): " + stat_path(MOVIES_YAML))
+        prepend_yaml_items(MOVIES_YAML, to_prepend_movies)
+        log("Nach Prepend (Movies): " + stat_path(MOVIES_YAML))
     else:
-        log("Movies: nichts anzuhängen.")
+        log("Movies: nichts einzufügen.")
 
-    if to_append_eps:
-        log("Vor Append (Episodes): " + stat_path(EPISODES_YAML))
-        append_yaml_items(EPISODES_YAML, to_append_eps)
-        log("Nach Append (Episodes): " + stat_path(EPISODES_YAML))
+    if to_prepend_eps:
+        log("Vor Prepend (Episodes): " + stat_path(EPISODES_YAML))
+        prepend_yaml_items(EPISODES_YAML, to_prepend_eps)
+        log("Nach Prepend (Episodes): " + stat_path(EPISODES_YAML))
     else:
-        log("Episodes: nichts anzuhängen.")
+        log("Episodes: nichts einzufügen.")
 
-    log(f"Appended: Movies={len(to_append_movies)} | Episodes={len(to_append_eps)}")
+    log(f"Prepended: Movies={len(to_prepend_movies)} | Episodes={len(to_prepend_eps)}")
 
     # Cursor fortschreiben: neuestes watched_on – 1s
     newest_ts = None
