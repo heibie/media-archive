@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Trakt → YAML Sync (strict prepend-only)
+Trakt → YAML Sync (strict prepend-only, ohne Backups)
 - Holt neue History ab (ab Cursor/YAML)
 - Schreibt **nur neue** Einträge im Legacy-Format an den **Anfang** der bestehenden YAMLs
-- Bestehende YAML-Einträge werden niemals verändert/umformatiert (Byte-genau erhalten)
-- Legt vor der ersten Änderung pro Run eine Backup-Datei an: *.bak-YYYYmmdd-HHMMSS
+- Bestehende YAML-Einträge bleiben unverändert
 - Cursor = neuestes watched_on – 1s
-
-ENV (required):
-  TRAKT_CLIENT_ID, TRAKT_CLIENT_SECRET, TRAKT_REFRESH_TOKEN, TMDB_API_KEY
-ENV (optional):
-  TRAKT_ACCESS_TOKEN, OUTPUT_DIR, TRAKT_HISTORY_LIMIT, TRAKT_HISTORY_PAGES, TRAKT_START_AT_ISO
 """
 
 import os, sys, json
@@ -41,7 +35,7 @@ TOKENS_OUT    = REPO_ROOT / ".trakt_tokens.json"
 TRAKT_BASE = "https://api.trakt.tv"
 TMDB_BASE  = "https://api.themoviedb.org/3"
 IMG_BASE   = "https://image.tmdb.org/t/p"
-USER_AGENT = "trakt-yaml-sync/2.4-prepend-only (+github actions)"
+USER_AGENT = "trakt-yaml-sync/2.5-prepend-no-backup (+github actions)"
 
 TRAKT_CLIENT_ID     = os.environ.get("TRAKT_CLIENT_ID", "")
 TRAKT_CLIENT_SECRET = os.environ.get("TRAKT_CLIENT_SECRET", "")
@@ -144,36 +138,22 @@ def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
 
 def prepend_yaml_items(path: Path, items: List[Dict[str, Any]]):
     """Fügt items als YAML-Liste **vorne** ein, ohne bestehende Bytes zu verändern.
-       Existiert die Datei nicht, wird eine vollständige Liste geschrieben.
-       Vorher wird 1x pro Run ein Backup der Originaldatei erzeugt."""
+       Existiert die Datei nicht, wird eine vollständige Liste geschrieben."""
     if not items:
         return
 
-    # Dump der neuen Items (als Liste von Einzel-Listenelementen)
+    # Dump der neuen Items
     new_text_parts = []
     for it in items:
         new_text_parts.append(yaml.safe_dump([it], allow_unicode=True, sort_keys=False))
     new_text = "".join(new_text_parts)
 
     if path.exists():
-        # Backup
-        ts = datetime.utcnow().strftime("%Y%m%d-%H%M%S")
-        bak = Path(str(path) + f".bak-{ts}")
-        try:
-            orig_text = path.read_text(encoding="utf-8")
-            bak.write_text(orig_text, encoding="utf-8")
-            log(f"Backup geschrieben: {bak.name}")
-        except Exception as e:
-            log(f"Backup fehlgeschlagen ({path}): {e}")
-            orig_text = path.read_text(encoding="utf-8")  # best effort
-
-        # Prepend: <neu> + <alt>
+        orig_text = path.read_text(encoding="utf-8")
         with path.open("w", encoding="utf-8") as f:
             f.write(new_text)
-            # keine zusätzliche Leerzeile nötig: safe_dump endet mit '\n'
             f.write(orig_text)
     else:
-        # Erstbefüllung: komplette Liste schreiben (in richtiger Reihenfolge)
         with path.open("w", encoding="utf-8") as f:
             yaml.safe_dump(items, f, allow_unicode=True, sort_keys=False)
 
@@ -297,7 +277,7 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             "watched_on":w,"action":item.get("action")}
 
 # -----------------------------
-# Legacy-Mapping (für neue Items)
+# Legacy-Mapping
 # -----------------------------
 def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
     ids_all=as_dict(e.get("ids")); show_ids=as_dict(ids_all.get("show"))
@@ -352,7 +332,7 @@ def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
     }.items() if v is not None}
 
 # -----------------------------
-# Legacy-Keys (Duplikat-Erkennung)
+# Keys
 # -----------------------------
 def legacy_ep_key(r: Dict[str, Any]):
     r = r if isinstance(r, dict) else {}
@@ -374,14 +354,6 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
         r=trakt_get("/sync/history", params=params)
         batch=r.json()
         if not batch: break
-        for raw in batch:
-            t=raw.get("type")
-            if t=="episode":
-                e=as_dict(raw.get("episode")); s=as_dict(raw.get("show"))
-                log(f"  raw: EP  hist={raw.get('id')}  {s.get('title')} S{e.get('season')}E{e.get('number')}  watched_at={raw.get('watched_at')}")
-            elif t=="movie":
-                m=as_dict(raw.get("movie"))
-                log(f"  raw: MOV hist={raw.get('id')}  {m.get('title')}({m.get('year')})  watched_at={raw.get('watched_at')}")
         out.extend(batch)
     return out
 
@@ -389,26 +361,13 @@ def fetch_trakt_history(start_at: Optional[str], limit: int, pages: int) -> List
 # MAIN
 # -----------------------------
 def main():
-    log(f"REPO_ROOT={REPO_ROOT}")
-    log(f"OUTPUT_DIR={OUTPUT_DIR}")
-    log(f"MOVIES_YAML={MOVIES_YAML}")
-    log(f"EPISODES_YAML={EPISODES_YAML}")
-    log(f"CURSOR_FILE={CURSOR_FILE}")
-
-    # /users/me (401→Refresh)
-    try: _=trakt_get("/users/me").json()
-    except Exception as e: log(f"/users/me check: {e}")
-
     start_at = determine_start_at()
     log(f"Starte ab: {start_at}" if start_at else "Kein Cursor – hole aktuelle History ohne start_at.")
 
     limit=int(os.environ.get("TRAKT_HISTORY_LIMIT","200"))
     pages=int(os.environ.get("TRAKT_HISTORY_PAGES","5"))
     history=fetch_trakt_history(start_at, limit, pages)
-    log(f"Fetched {len(history)} history items von Trakt (start_at={start_at}).")
-    if not history:
-        log("Keine neuen History-Items. Cursor unverändert.")
-        return
+    log(f"Fetched {len(history)} history items von Trakt.")
 
     movies_raw, episodes_raw = [], []
     for it in history:
@@ -419,93 +378,5 @@ def main():
             ne=normalize_episode_item(it)
             if ne: episodes_raw.append(ne)
 
-    # Enrichment
-    log(f"Enrichment: {len(movies_raw)} Movies, {len(episodes_raw)} Episodes …")
-    # Movies
-    new_movies_legacy=[]
-    for m in movies_raw:
-        ids=as_dict(m.get("ids"))
-        info=enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year")) or {}
-        m["tmdb"]=info
-        new_movies_legacy.append(movie_to_frontend(m))
-    # Episodes
-    new_eps_legacy=[]
-    for e in episodes_raw:
-        show_ids=as_dict(as_dict(e.get("ids")).get("show"))
-        tmdb_show_id = show_ids.get("tmdb")
-        show_det=enrich_show(tmdb_show_id, e.get("show"), e.get("year")) or {}
-        ep_det=enrich_episode(show_det.get("id") if show_det else tmdb_show_id, e.get("season"), e.get("episode")) or {}
-        season_meta=enrich_season_meta(show_det.get("id") if show_det else tmdb_show_id, e.get("season")) or {}
-        e["tmdb_show"]=show_det; e["tmdb_episode"]=ep_det; e["tmdb_season"]=season_meta
-        new_eps_legacy.append(episode_to_frontend(e))
-
-    # Bestehende YAMLs (nur zum Duplikat-Check einlesen — Inhalte bleiben unberührt)
-    existing_movies = [r for r in yaml_load(MOVIES_YAML) if isinstance(r, dict)]
-    existing_eps    = [r for r in yaml_load(EPISODES_YAML) if isinstance(r, dict)]
-
-    mov_keys = { legacy_mov_key(r) for r in existing_movies }
-    ep_keys  = { legacy_ep_key(r)  for r in existing_eps }
-
-    # Nur NEUE Einträge (vorn einfügen)
-    to_prepend_movies = []
-    to_prepend_eps    = []
-
-    for row in new_movies_legacy:
-        k = legacy_mov_key(row)
-        if k not in mov_keys:
-            to_prepend_movies.append(row)
-            mov_keys.add(k)
-            log(f"MOV: QUEUE PREPEND -> {row.get('title')} ({row.get('year')}) @ {row.get('watched_on')} key={k}")
-        else:
-            log(f"MOV: SKIP (exists) -> {row.get('title')} ({row.get('year')}) @ {row.get('watched_on')} key={k}")
-
-    for row in new_eps_legacy:
-        k = legacy_ep_key(row)
-        if k not in ep_keys:
-            to_prepend_eps.append(row)
-            ep_keys.add(k)
-            log(f"EP : QUEUE PREPEND -> {row.get('show')} S{row.get('season')}E{row.get('episode')} @ {row.get('watched_on')} key={k}")
-        else:
-            log(f"EP : SKIP (exists) -> {row.get('show')} S{row.get('season')}E{row.get('episode')} @ {row.get('watched_on')} key={k}")
-
-    # Prepend mit Backup
-    if to_prepend_movies:
-        log("Vor Prepend (Movies): " + stat_path(MOVIES_YAML))
-        prepend_yaml_items(MOVIES_YAML, to_prepend_movies)
-        log("Nach Prepend (Movies): " + stat_path(MOVIES_YAML))
-    else:
-        log("Movies: nichts einzufügen.")
-
-    if to_prepend_eps:
-        log("Vor Prepend (Episodes): " + stat_path(EPISODES_YAML))
-        prepend_yaml_items(EPISODES_YAML, to_prepend_eps)
-        log("Nach Prepend (Episodes): " + stat_path(EPISODES_YAML))
-    else:
-        log("Episodes: nichts einzufügen.")
-
-    log(f"Prepended: Movies={len(to_prepend_movies)} | Episodes={len(to_prepend_eps)}")
-
-    # Cursor fortschreiben: neuestes watched_on – 1s
-    newest_ts = None
-    for it in (movies_raw + episodes_raw):
-        ts = it.get("watched_on")
-        if ts and (newest_ts is None or ts > newest_ts):
-            newest_ts = ts
-    if newest_ts:
-        dt = parse_iso(newest_ts)
-        cursor_iso = (dt - timedelta(seconds=1)).isoformat().replace("+00:00","Z") if dt else newest_ts
-        write_cursor(cursor_iso)
-        log(f"Cursor aktualisiert auf: {cursor_iso}")
-    else:
-        log("Keine neuen watched_at-Zeiten – Cursor unverändert.")
-
-if __name__ == "__main__":
-    try:
-        main()
-    except requests.HTTPError as http_err:
-        sc = http_err.response.status_code if http_err.response is not None else "?"
-        log(f"HTTP error: {http_err} (status {sc})"); sys.exit(2)
-    except RuntimeError as re:
-        log(str(re)); sys.exit(1)
-    except Exception as e:
-        log(f"Fatal error: {e}"); sys.exit(2)
+    new_movies_legacy=[movie_to_frontend(m) for m in movies_raw]
+    new_eps_legacy=[episode_to_frontend(e)
