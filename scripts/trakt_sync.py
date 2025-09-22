@@ -3,9 +3,10 @@
 """
 Trakt → YAML Sync (strict prepend-only, ohne Backups)
 - Holt neue History ab (ab Cursor/YAML)
-- Schreibt **nur neue** Einträge im Legacy-Format an den **Anfang** der bestehenden YAMLs
-- Bestehende YAML-Einträge bleiben unverändert
-- Cursor = neuestes watched_on – 1s
+- Schreibt NUR NEUE Einträge im Legacy-Format an den ANFANG der bestehenden YAMLs
+- Bestehende YAML-Einträge werden nicht verändert / nicht neu formatiert
+- TMDB-Enrichment (de-DE) für Poster/Backdrop/Titel usw.
+- Cursor = neuestes watched_on – 1s (Boundary-sicher)
 """
 
 import os, sys, json
@@ -121,15 +122,6 @@ def write_cursor(iso_str: str):
 def save_tokens_file(a: str, r: str):
     TOKENS_OUT.write_text(json.dumps({"access_token": a, "refresh_token": r}, indent=2), encoding="utf-8")
 
-def stat_path(p: Path) -> str:
-    try:
-        if not p.exists():
-            return f"{p} [exists=False]"
-        s = p.stat()
-        return f"{p} [exists=True size={s.st_size}B]"
-    except Exception as e:
-        return f"{p} [stat error: {e}]"
-
 def as_dict(v): return v if isinstance(v, dict) else {}
 def as_list(v): return v if isinstance(v, list) else []
 
@@ -137,17 +129,12 @@ def img_or_none(path: Optional[str], variant: str) -> Optional[str]:
     return f"{IMG_BASE}/{variant}{path}" if path else None
 
 def prepend_yaml_items(path: Path, items: List[Dict[str, Any]]):
-    """Fügt items als YAML-Liste **vorne** ein, ohne bestehende Bytes zu verändern.
+    """Fügt items als YAML-Liste **vorn** ein, ohne bestehende Bytes zu verändern.
        Existiert die Datei nicht, wird eine vollständige Liste geschrieben."""
     if not items:
         return
-
-    # Dump der neuen Items
-    new_text_parts = []
-    for it in items:
-        new_text_parts.append(yaml.safe_dump([it], allow_unicode=True, sort_keys=False))
-    new_text = "".join(new_text_parts)
-
+    # Dump der neuen Items (je Item eine Ein-Element-Liste → korrektes '- ' Präfix)
+    new_text = "".join(yaml.safe_dump([it], allow_unicode=True, sort_keys=False) for it in items)
     if path.exists():
         orig_text = path.read_text(encoding="utf-8")
         with path.open("w", encoding="utf-8") as f:
@@ -277,7 +264,7 @@ def normalize_episode_item(item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             "watched_on":w,"action":item.get("action")}
 
 # -----------------------------
-# Legacy-Mapping
+# Legacy-Mapping (für NEUE Items)
 # -----------------------------
 def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
     ids_all=as_dict(e.get("ids")); show_ids=as_dict(ids_all.get("show"))
@@ -314,7 +301,7 @@ def episode_to_frontend(e: Dict[str, Any]) -> Dict[str, Any]:
 
 def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
     ids=as_dict(m.get("ids")); tmdb=as_dict(m.get("tmdb"))
-    return {k:v for k,v in {
+    return {k:v for k, v in {
         "title": m.get("title"),
         "year": m.get("year"),
         "imdb": ids.get("imdb"),
@@ -332,7 +319,7 @@ def movie_to_frontend(m: Dict[str, Any]) -> Dict[str, Any]:
     }.items() if v is not None}
 
 # -----------------------------
-# Keys
+# Keys (Duplikat-Erkennung)
 # -----------------------------
 def legacy_ep_key(r: Dict[str, Any]):
     r = r if isinstance(r, dict) else {}
@@ -369,14 +356,91 @@ def main():
     history=fetch_trakt_history(start_at, limit, pages)
     log(f"Fetched {len(history)} history items von Trakt.")
 
-    movies_raw, episodes_raw = [], []
+    # Normalisieren
+    movies_norm, episodes_norm = [], []
     for it in history:
         if it.get("type")=="movie":
             nm=normalize_movie_item(it)
-            if nm: movies_raw.append(nm)
+            if nm: movies_norm.append(nm)
         elif it.get("type")=="episode":
             ne=normalize_episode_item(it)
-            if ne: episodes_raw.append(ne)
+            if ne: episodes_norm.append(ne)
 
-    new_movies_legacy=[movie_to_frontend(m) for m in movies_raw]
-    new_eps_legacy=[episode_to_frontend(e)
+    # Enrichment → Legacy-Mapping (NEUE Items vorbereiten)
+    # Movies
+    new_movies_legacy=[]
+    for m in movies_norm:
+        ids=as_dict(m.get("ids"))
+        info=enrich_movie_by_tmdb_ids(ids.get("tmdb"), ids.get("imdb"), m.get("title") or "", m.get("year")) or {}
+        m["tmdb"]=info
+        new_movies_legacy.append(movie_to_frontend(m))
+    # Episodes
+    new_eps_legacy=[]
+    for e in episodes_norm:
+        show_ids=as_dict(as_dict(e.get("ids")).get("show"))
+        tmdb_show_id = show_ids.get("tmdb")
+        show_det=enrich_show(tmdb_show_id, e.get("show"), e.get("year")) or {}
+        ep_det=enrich_episode(show_det.get("id") if show_det else tmdb_show_id, e.get("season"), e.get("episode")) or {}
+        season_meta=enrich_season_meta(show_det.get("id") if show_det else tmdb_show_id, e.get("season")) or {}
+        e["tmdb_show"]=show_det; e["tmdb_episode"]=ep_det; e["tmdb_season"]=season_meta
+        new_eps_legacy.append(episode_to_frontend(e))
+
+    # Bestehende YAMLs nur zum Duplikat-Check einlesen (nicht überschreiben!)
+    existing_movies = [r for r in yaml_load(MOVIES_YAML) if isinstance(r, dict)]
+    existing_eps    = [r for r in yaml_load(EPISODES_YAML) if isinstance(r, dict)]
+
+    mov_keys = { legacy_mov_key(r) for r in existing_movies }
+    ep_keys  = { legacy_ep_key(r)  for r in existing_eps }
+
+    # Nur wirklich neue Einträge vorn einfügen
+    to_prepend_movies = []
+    to_prepend_eps    = []
+
+    for row in new_movies_legacy:
+        k = legacy_mov_key(row)
+        if k not in mov_keys:
+            to_prepend_movies.append(row)
+            mov_keys.add(k)
+
+    for row in new_eps_legacy:
+        k = legacy_ep_key(row)
+        if k not in ep_keys:
+            to_prepend_eps.append(row)
+            ep_keys.add(k)
+
+    if to_prepend_movies:
+        prepend_yaml_items(MOVIES_YAML, to_prepend_movies)
+        log(f"Movies prepended: {len(to_prepend_movies)}")
+    else:
+        log("Movies: nichts einzufügen.")
+
+    if to_prepend_eps:
+        prepend_yaml_items(EPISODES_YAML, to_prepend_eps)
+        log(f"Episodes prepended: {len(to_prepend_eps)}")
+    else:
+        log("Episodes: nichts einzufügen.")
+
+    # Cursor fortschreiben: neuestes watched_on – 1s
+    newest_ts = None
+    for it in (movies_norm + episodes_norm):
+        ts = it.get("watched_on")
+        if ts and (newest_ts is None or ts > newest_ts):
+            newest_ts = ts
+    if newest_ts:
+        dt = parse_iso(newest_ts)
+        cursor_iso = (dt - timedelta(seconds=1)).isoformat().replace("+00:00","Z") if dt else newest_ts
+        write_cursor(cursor_iso)
+        log(f"Cursor aktualisiert auf: {cursor_iso}")
+    else:
+        log("Keine neuen watched_at-Zeiten – Cursor unverändert.")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except requests.HTTPError as http_err:
+        sc = http_err.response.status_code if http_err.response is not None else "?"
+        log(f"HTTP error: {http_err} (status {sc})"); sys.exit(2)
+    except RuntimeError as re:
+        log(str(re)); sys.exit(1)
+    except Exception as e:
+        log(f"Fatal error: {e}"); sys.exit(2)
