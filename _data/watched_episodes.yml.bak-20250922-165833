@@ -1,24 +1,3 @@
-- show: ZDF Magazin Royale
-  year: 2020
-  season: 11
-  episode: 4
-  plays: 1
-  watched_on: '2025-09-20'
-  trakt_show: 169246
-  tvdb: 390284
-  imdb: tt13486352
-  tmdb: 111956
-  slug: zdf-magazin-royale
-  source: trakt
-  show_title_de: ZDF Magazin Royale
-  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
-  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
-  show_total_episodes: 153
-  episode_title: Episode 4
-  episode_title_de: Fack Ju Hitla
-  episode_runtime: 27
-  season_total_episodes: 7
-  episode_still: https://image.tmdb.org/t/p/w300/kARmTG1CescXrpsRIUJ0mI8f0Tl.jpg
 - show: 'Alien: Earth'
   year: 2025
   season: 1
