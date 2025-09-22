@@ -1,25 +1,3 @@
-- title: Sneakers
-  year: 1992
-  imdb: tt0105435
-  tmdb: 2322
-  trakt: 1639
-  slug: sneakers-1992
-  plays: 1
-  watched_on: '2025-09-22'
-  poster: https://image.tmdb.org/t/p/w500/jgGB5wHOZWgQ5CWM1aRusHvJ4Gi.jpg
-  backdrop: https://image.tmdb.org/t/p/w780/smK3ud9IKSLVuRXdKauJ9p0DwNB.jpg
-  source: trakt
-  runtime: 126
-  title_de: Sneakers - Die Lautlosen
-  overview_de: Wer heutzutage als Einbrecher erfolgreich sein will, muß etwas mehr
-    bieten als Strumpfmaske und vorgehaltene Pistole. Das beweisen die "Sneakers"
-    sehr eindrucksvoll mit Hilfe modernster Computertechnologien. Die Truppe um Boß
-    Martin Bishop läßt sich von großen Firmen für Einbrüche anheuern, um Sicherheitssysteme
-    auf undichte Stellen zu überprüfen. Ganz legal versteht sich. Das ändert sich
-    allerdings, als zwei Beamte der Spionageabwehr die Sneakers zwingen, ihnen das
-    geheime Dechiffrierungsprogramm SETEC zu beschaffen. Ein Abenteuer mit ungeahnten
-    Dimensionen, denn SETEC entpuppt sich als brisante Waffe zur Gefährdung des Weltfriedens,
-    an der eine Menge Leute brennend interessiert sind...
 - title: Barbie
   year: 2023
   imdb: tt1517268
