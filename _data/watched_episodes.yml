@@ -1,3 +1,23 @@
+- show: Inas Nacht
+  year: 2007
+  season: 21
+  episode: 8
+  plays: 1
+  watched_on: '2025-09-22'
+  trakt_show: 65233
+  tvdb: 149681
+  imdb: tt1147079
+  tmdb: 46112
+  slug: inas-nacht
+  source: trakt
+  show_title_de: Inas Nacht
+  show_poster: https://image.tmdb.org/t/p/w500/g6aYyK4Ocd00niImqanumiYXfLw.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/LoU6Zibhr0OdyopHOsVWiiVxsC.jpg
+  show_total_episodes: 211
+  episode_title: Episode 8
+  episode_title_de: Inas Nacht mit Ilka Bessin und Sebastian Lege
+  episode_runtime: 60
+  season_total_episodes: 8
 - show: ZDF Magazin Royale
   year: 2020
   season: 11
