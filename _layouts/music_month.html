@@ -6,6 +6,8 @@ layout: default
 {% assign month = page.month | append: "" %}
 
 <h1>Musik {{ year }} / {{ month }}</h1>
+{% include music_archive_nav.html year=page.year month=page.month %}
+
 <p><a href="{{ '/musik/' | append: year | append: '/' | relative_url }}">← zurück zu {{ year }}</a></p>
 
 {% assign items = site.data.lastfm[year][month] | sort: "played_at_utc" | reverse %}
