@@ -1,0 +1,12 @@
+- artist: Frank Turner
+  track: I Still Believe
+  album: Last Minutes and Lost Evenings
+  played_at_utc: '2015-10-11T09:27:56Z'
+  lastfm_url: https://www.last.fm/music/Frank+Turner/_/I+Still+Believe
+  mbid_track: 9ede430e-83e2-4643-bce9-b061f7df88b4
+  mbid_artist: aca5718f-4f49-4439-b8f6-209db3f11757
+  mbid_album: 5b632fea-3da9-4cbe-accb-511ede8c10a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/44e9f4e644514c1f9ea62ed25dc1babe.png
+  loved: false
+  duration_sec: null
+  source: lastfm

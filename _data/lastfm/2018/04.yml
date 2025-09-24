@@ -1,0 +1,96 @@
+- artist: HAIM
+  track: Right Now
+  album: Something to Tell You
+  played_at_utc: '2018-04-19T16:18:07Z'
+  lastfm_url: https://www.last.fm/music/HAIM/_/Right+Now
+  mbid_track: 11029a4a-677a-4872-9f83-c430ba362b3d
+  mbid_artist: aef06569-098f-4218-a577-b413944d9493
+  mbid_album: 1a786c24-9a68-4510-aa75-a2105c4c6bbc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/acbbc3e34276616b08548ffcd7f1dc8a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kendrick Lamar
+  track: DNA.
+  album: DAMN.
+  played_at_utc: '2018-04-19T16:15:01Z'
+  lastfm_url: https://www.last.fm/music/Kendrick+Lamar/_/DNA.
+  mbid_track: 43e38394-376a-4b4f-a48f-f44c133ed41d
+  mbid_artist: 381086ea-f511-4aba-bdf9-71c753dc5077
+  mbid_album: 503c4a0f-97b9-4d6b-9a27-52a7f6b21cc9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8a59ed3a9c71cb5113325e2026889e4a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Overcoats
+  track: Hold Me Close
+  album: Hold Me Close
+  played_at_utc: '2018-04-19T16:11:46Z'
+  lastfm_url: https://www.last.fm/music/Overcoats/_/Hold+Me+Close
+  mbid_track: 54c7ceff-8407-42fd-b563-b3323381a025
+  mbid_artist: c56b9fdd-041b-4d96-b2ec-438091f4e57d
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7c82c3a03eb56a202ceb36c71d8c724f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kettcar
+  track: Sommer '89 (Er schnitt Löcher in den Zaun)
+  album: Sommer '89 (Er schnitt Löcher in den Zaun)
+  played_at_utc: '2018-04-19T16:06:47Z'
+  lastfm_url: https://www.last.fm/music/Kettcar/_/Sommer+%2789+(Er+schnitt+L%C3%B6cher+in+den+Zaun)
+  mbid_track: c5b2cf18-deba-4ddf-8f08-60f26b2a8713
+  mbid_artist: 315fa94f-3bb5-43db-a28e-406a83e9805c
+  mbid_album: 2352e7d4-4ba1-47e5-946d-8e96c661cc23
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1f0f34009a258a7efd4113fae474f602.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Japandroids
+  track: North East South West
+  album: Near To The Wild Heart Of Life
+  played_at_utc: '2018-04-19T15:31:55Z'
+  lastfm_url: https://www.last.fm/music/Japandroids/_/North+East+South+West
+  mbid_track: 1c2a2448-405c-497e-92bb-21b51766f531
+  mbid_artist: 2008d65c-31ee-4382-8960-5188523568d5
+  mbid_album: 55e6a6da-79bd-49cd-8c21-fdbf469b2589
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6fa87ee7258e8f31f3e2d7b05b4905cb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cloud Nothings
+  track: Modern Act
+  album: Life Without Sound
+  played_at_utc: '2018-04-19T15:27:45Z'
+  lastfm_url: https://www.last.fm/music/Cloud+Nothings/_/Modern+Act
+  mbid_track: 31edc90f-480f-4fe4-955d-47d11ba57277
+  mbid_artist: 29c91854-8c45-469b-b36d-a11fb650638b
+  mbid_album: 029cb7e3-fe5b-4252-84c9-9a48fc82d04d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/48fae5ae223c0479e1972081737913f9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sampha
+  track: (No One Knows Me) Like the Piano
+  album: Process
+  played_at_utc: '2018-04-19T15:24:06Z'
+  lastfm_url: https://www.last.fm/music/Sampha/_/(No+One+Knows+Me)+Like+the+Piano
+  mbid_track: c7a405d5-cedf-47ce-85d1-3418b29efc6b
+  mbid_artist: 130c2184-14f2-4180-a216-04b5a333be57
+  mbid_album: 6388dd8d-2226-484e-9c2b-daa58d84bd7a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/61b45bdb8945fada07d6b7dedcfc49c6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sinai Vessel
+  track: Looseleaf
+  album: Brokenlegged
+  played_at_utc: '2018-04-19T15:20:10Z'
+  lastfm_url: https://www.last.fm/music/Sinai+Vessel/_/Looseleaf
+  mbid_track: 3c804f50-00ea-4a5e-be73-e11703873eae
+  mbid_artist: 2163fc86-173a-4160-a32d-6d792ab2abcf
+  mbid_album: 6c88b6fd-4586-4e1d-8f67-c3d2485d1e10
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/204f278159ee90fe12d29fba00ca06b7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm

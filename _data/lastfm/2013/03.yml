@@ -1,0 +1,816 @@
+- artist: Liam Lynch
+  track: United States of Whatever
+  album: Fake Songs
+  played_at_utc: '2013-03-14T12:25:06Z'
+  lastfm_url: https://www.last.fm/music/Liam+Lynch/_/United+States+of+Whatever
+  mbid_track: 087ddfe4-29e0-32d9-8325-966fcdadbc9f
+  mbid_artist: 6e987552-beba-4cc2-900d-ac01c7b4c964
+  mbid_album: 2bf2c41c-ab9a-4595-b738-1c9ef0711e2d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/714e39b429e6de9ec1ef06918f3d23c2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Helloween
+  track: Future World
+  album: Keeper Of The Seven Keys (Deluxe Edition)
+  played_at_utc: '2013-03-11T16:42:30Z'
+  lastfm_url: https://www.last.fm/music/Helloween/_/Future+World
+  mbid_track: 01041473-f5cc-3135-b440-6168df1620f2
+  mbid_artist: 765774a0-2060-469b-8b7d-612eea48579b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/801ef3d8380b479eaf683d66496cef86.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: High Speed Dirt - 24-bit digitally remastered 04;
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:37:28Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/High+Speed+Dirt+-+24-bit+digitally+remastered+04%3B
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Countdown To Extinction - 2004 Digital Remaster
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:33:08Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Countdown+To+Extinction+-+2004+Digital+Remaster
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: This Was My Life - 24-Bit Digitally Remastered 04;
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:29:24Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/This+Was+My+Life+-+24-Bit+Digitally+Remastered+04%3B
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Sweating Bullets - 2004 Digital Remaster
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:23:57Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Sweating+Bullets+-+2004+Digital+Remaster
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Foreclosure Of A Dream - 2004 Digital Remaster
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:19:35Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Foreclosure+Of+A+Dream+-+2004+Digital+Remaster
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Architecture Of Aggression - 24-Bit Digitally Remastered 04;
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:15:55Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Architecture+Of+Aggression+-+24-Bit+Digitally+Remastered+04%3B
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Symphony Of Destruction - 2004 Digital Remaster
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:11:49Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Symphony+Of+Destruction+-+2004+Digital+Remaster
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Skin O' My Teeth - 2004 Digital Remaster
+  album: Countdown to Extinction
+  played_at_utc: '2013-03-11T16:08:18Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Skin+O%27+My+Teeth+-+2004+Digital+Remaster
+  mbid_track: null
+  mbid_artist: a9044915-8be3-4c7e-b11f-9e2d2ea0a91e
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Bare Me
+  album: Blackmail - Remastered 2008
+  played_at_utc: '2013-03-05T13:58:37Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Bare+Me
+  mbid_track: b66ada78-cac2-3899-b495-09c82298942e
+  mbid_artist: null
+  mbid_album: 72896fe6-5046-4b6e-9702-49fb96969ee5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: When I Start Today
+  album: Blackmail - Remastered 2008
+  played_at_utc: '2013-03-05T13:56:14Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/When+I+Start+Today
+  mbid_track: e3552c2e-1a5f-4123-b5cf-19eed984f4e0
+  mbid_artist: null
+  mbid_album: 72896fe6-5046-4b6e-9702-49fb96969ee5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Blink / I Get Numb
+  album: Blackmail - Remastered 2008
+  played_at_utc: '2013-03-05T13:50:01Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Blink+%2F+I+Get+Numb
+  mbid_track: 0418c197-e40b-3a49-b963-4e44943ea4cd
+  mbid_artist: null
+  mbid_album: 72896fe6-5046-4b6e-9702-49fb96969ee5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Sisera
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:47:04Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Sisera
+  mbid_track: 6617ed8e-3116-366b-aedb-20062888fafb
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Graduation
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:43:47Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Graduation
+  mbid_track: aec9b59a-6556-3df6-8105-d7e145df83a1
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Someday
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:40:20Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Someday
+  mbid_track: 1fe928f6-eb26-3f2f-9961-db2f4364dc5b
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Dialogue Dial
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:36:18Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Dialogue+Dial
+  mbid_track: 4abc4f3a-3267-496a-be10-3a912fd8c7c3
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Upon The Waves
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:35:16Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Upon+The+Waves
+  mbid_track: 233addbf-bf35-4e73-8fbf-5b2791dffda7
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Sky On Sky
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:31:04Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Sky+On+Sky
+  mbid_track: 568d8ed2-b40a-31a6-bab6-c3f60902452c
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Rocket Soul
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:28:38Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Rocket+Soul
+  mbid_track: 51316e6b-3d22-4f4f-9419-3b97989e52dd
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Santa Rosalia
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:25:51Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Santa+Rosalia
+  mbid_track: 30453d29-c688-44eb-82ca-8c21013bf3fa
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Telescope
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:22:56Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Telescope
+  mbid_track: 974a6f3f-569d-44b4-bbe9-925375bd7671
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Monographic Doll
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:18:54Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Monographic+Doll
+  mbid_track: 3c8a96b1-8e73-451a-a2f0-e5f0d04a0d35
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Bugs
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:15:33Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Bugs
+  mbid_track: 03ffa4ce-6733-491c-9a1f-a56ad7549fe2
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: The Whys Of The Ways
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:11:46Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/The+Whys+Of+The+Ways
+  mbid_track: a87fef0c-bf57-491d-8f16-c74e9ce70543
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: night school
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:08:42Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/night+school
+  mbid_track: 3b0525b7-9929-392d-a786-929c78cdd542
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Deborah
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:04:30Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Deborah
+  mbid_track: 5903c14a-c5e2-4261-ae8c-eebefe322475
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Resonant Wave
+  album: Anima Now!
+  played_at_utc: '2013-03-05T13:00:51Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Resonant+Wave
+  mbid_track: 6078d9cd-a532-44fc-97bb-a7430fc78ff2
+  mbid_artist: null
+  mbid_album: 2de9f481-0530-4ccf-9f81-ac88650a7da6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3033888257941729ef64e60d868cd96.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: All Time Medicine
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:57:16Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/All+Time+Medicine
+  mbid_track: 431b6f9b-b904-41ca-b9e1-706f6a8c0ddf
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: No Easy Way Out
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:54:19Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/No+Easy+Way+Out
+  mbid_track: 6eb7751e-4d33-47e7-a5d2-db10b47d0ef2
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Reflecting Skin
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:50:43Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Reflecting+Skin
+  mbid_track: 37eb42b5-3d42-4313-a7fe-52ddaef825c1
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Neo Geo
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:46:56Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Neo+Geo
+  mbid_track: 027b0c04-1feb-40c6-afb1-813ea4c9c928
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Soap Opera Nightmare
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:43:09Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Soap+Opera+Nightmare
+  mbid_track: 2fc1496b-f9d1-4fdb-9be1-8d71b17324cb
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Cold Music River
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:37:58Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Cold+Music+River
+  mbid_track: b2256926-e5ac-4de8-bf4e-631b32273584
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Black Room
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:33:04Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Black+Room
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Snow White
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:29:37Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Snow+White
+  mbid_track: dff7e4b2-a7bc-46df-97ef-9401219ade4c
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Spotlight
+  album: Overexposed
+  played_at_utc: '2013-03-05T12:24:23Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Spotlight
+  mbid_track: 339c5f19-fd7f-4b1a-b20b-bf4357a4af10
+  mbid_artist: null
+  mbid_album: 9fec8c4f-9b4b-409e-98ec-d31942b6bc57
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c56dc6e5a613118aae1476a38bd5e5c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: 2 Lonely
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:20:47Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/2+Lonely
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Clown of Life
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:17:02Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Clown+of+Life
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Xtc
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:12:03Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Xtc
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Gov't Mule
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:08:59Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Gov%27t+Mule
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Gentrification
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:05:51Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Gentrification
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Justify
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T12:02:57Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Justify
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Compromise
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T11:59:31Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Compromise
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Circles
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T11:55:35Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Circles
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Lost & Sound
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T11:52:54Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Lost+&+Sound
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Runnin from the Sun
+  album: The Hard Groove
+  played_at_utc: '2013-03-05T11:50:00Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Runnin+from+the+Sun
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Concrete Heap
+  album: Bones
+  played_at_utc: '2013-03-05T11:44:47Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Concrete+Heap
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Stout Boy
+  album: Bones
+  played_at_utc: '2013-03-05T11:41:53Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Stout+Boy
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Return
+  album: Bones
+  played_at_utc: '2013-03-05T11:38:57Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Return
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Bet Nothing
+  album: Bones
+  played_at_utc: '2013-03-05T11:35:14Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Bet+Nothing
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Night Hunter
+  album: Bones
+  played_at_utc: '2013-03-05T11:31:38Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Night+Hunter
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Ol' Shitty Music
+  album: Bones
+  played_at_utc: '2013-03-05T11:28:38Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Ol%27+Shitty+Music
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Turkish Delight
+  album: Bones
+  played_at_utc: '2013-03-05T11:26:11Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Turkish+Delight
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: A Miracle America
+  album: Bones
+  played_at_utc: '2013-03-05T11:20:56Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/A+Miracle+America
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Fattest Dream
+  album: Bones
+  played_at_utc: '2013-03-05T11:18:10Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Fattest+Dream
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Turn the Heater Off
+  album: Bones
+  played_at_utc: '2013-03-05T11:14:59Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Turn+the+Heater+Off
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: '1974'
+  album: Bones
+  played_at_utc: '2013-03-05T11:13:02Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/1974
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0f90e55edaf849fe9878cd4ce13db6d8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Dual
+  album: II
+  played_at_utc: '2013-03-05T11:06:27Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Dual
+  mbid_track: 1d6a5e87-14ef-3d16-80e0-84d8697a5773
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Sleep Well, Madness
+  album: II
+  played_at_utc: '2013-03-05T11:02:38Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Sleep+Well,+Madness
+  mbid_track: 6c0863bb-9bea-3b9a-99f1-69d66255925c
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: O
+  album: II
+  played_at_utc: '2013-03-05T10:58:58Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/O
+  mbid_track: 72b22c8d-ae18-48a1-8ea6-ea455e767513
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Kiss The Sun
+  album: II
+  played_at_utc: '2013-03-05T10:55:42Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Kiss+The+Sun
+  mbid_track: a9deefba-705d-3921-8d62-4523d0388124
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Palms
+  album: II
+  played_at_utc: '2013-03-05T10:51:46Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Palms
+  mbid_track: 9c4d0b56-b399-4538-9cc8-bc94d9172c93
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Day of Doom
+  album: II
+  played_at_utc: '2013-03-05T10:47:05Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Day+of+Doom
+  mbid_track: 93f97b4a-9e5e-33e3-9131-66c1bd2c4265
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: La Futura
+  album: II
+  played_at_utc: '2013-03-05T10:45:52Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/La+Futura
+  mbid_track: 39584439-8a1a-34cc-8b9d-d6106401f838
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Shine
+  album: II
+  played_at_utc: '2013-03-05T10:42:40Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Shine
+  mbid_track: 2e89c022-ae1e-304c-9480-cef7f712ff75
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: The Rush
+  album: II
+  played_at_utc: '2013-03-05T10:39:02Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/The+Rush
+  mbid_track: e6e9beca-68be-4270-b5be-4ec88790304f
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Impact
+  album: II
+  played_at_utc: '2013-03-05T10:35:00Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Impact
+  mbid_track: 0beb0fdf-d1b0-4daa-b8bb-2e9c65800fe0
+  mbid_artist: null
+  mbid_album: 8d8f4dc2-3720-4b82-ab25-9ab723f86fc0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cc2aa42b5044453c4ae57a390d03d59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm

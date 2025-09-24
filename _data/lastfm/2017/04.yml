@@ -1,0 +1,36 @@
+- artist: James
+  track: Sit Down
+  album: Fresh As A Daisy - The Singles
+  played_at_utc: '2017-04-02T15:24:48Z'
+  lastfm_url: https://www.last.fm/music/James/_/Sit+Down
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 016ae03d-fa09-4639-aaad-0a6428f920f3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a5b46ac36bd490bb6914d5ed8f8ae60.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: James
+  track: Sit Down
+  album: 'James: The Best Of'
+  played_at_utc: '2017-04-02T15:20:43Z'
+  lastfm_url: https://www.last.fm/music/James/_/Sit+Down
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/87046e9bf5ef4807b74e73ca5984b67e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: James
+  track: Sit Down
+  album: Gold Mother
+  played_at_utc: '2017-04-02T15:16:38Z'
+  lastfm_url: https://www.last.fm/music/James/_/Sit+Down
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 53117da6-0a53-3a33-b318-65a41812e307
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a1d28bf3e1c5c6f3d6405d6e05911906.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm

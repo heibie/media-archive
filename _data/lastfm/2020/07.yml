@@ -1,0 +1,4501 @@
+- artist: Metronomy
+  track: Insecurity
+  album: Metronomy Forever
+  played_at_utc: '2020-07-26T17:24:25Z'
+  lastfm_url: https://www.last.fm/music/Metronomy/_/Insecurity
+  mbid_track: 223854fa-e2c4-4121-aaed-f1ea45afbbeb
+  mbid_artist: 93eb7110-0bc9-4d3f-816b-4b52ef982ec8
+  mbid_album: 2497e749-3a78-45b1-8c85-4954a2bf3bb4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7114432af811d0db39e9b414b88cba31.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Roger Rekless
+  track: Drums
+  album: Über die Natur der Dinge
+  played_at_utc: '2020-07-26T17:21:38Z'
+  lastfm_url: https://www.last.fm/music/Roger+Rekless/_/Drums
+  mbid_track: null
+  mbid_artist: c3c89311-0db6-4d38-ae2b-e8446381170c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Brutus
+  track: Cemetery
+  album: Cemetery
+  played_at_utc: '2020-07-26T17:17:41Z'
+  lastfm_url: https://www.last.fm/music/Brutus/_/Cemetery
+  mbid_track: d469237e-cfd6-4200-9583-057b07510d25
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9acd10cbc0d8b126b04b4bcbd8a5b649.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: IDLES
+  track: Mother - Live at Le Bataclan
+  album: 'A Beautiful Thing: IDLES Live at Le Bataclan'
+  played_at_utc: '2020-07-26T17:14:19Z'
+  lastfm_url: https://www.last.fm/music/IDLES/_/Mother+-+Live+at+Le+Bataclan
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 04c919ce-cc39-42bf-8e01-ecce174a68c1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/503c93f629a0d3d90592889f09e621fd.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Turbostaat
+  track: Rattenlinie Nord
+  album: Uthlande
+  played_at_utc: '2020-07-26T17:11:01Z'
+  lastfm_url: https://www.last.fm/music/Turbostaat/_/Rattenlinie+Nord
+  mbid_track: null
+  mbid_artist: 7ffd711a-b34d-4739-8aab-25e045c246da
+  mbid_album: 4f631309-2395-420d-9278-c213d005e390
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4144b4300a215f57eb499c601b3c07f2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spanish Love Songs
+  track: Routine Pain
+  album: Brave Faces Everyone
+  played_at_utc: '2020-07-26T17:06:37Z'
+  lastfm_url: https://www.last.fm/music/Spanish+Love+Songs/_/Routine+Pain
+  mbid_track: 87fef2f3-9cdd-4d9b-94ea-76beeb857c55
+  mbid_artist: 5c9dd772-a38f-4873-baa8-4b5d9dff3990
+  mbid_album: 4da96dbd-1d81-4372-bf35-78c916077ca0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7804d38ed40af5ab766f88d4a7bc4bdf.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Elizabeth
+  album: Opus Eponymous
+  played_at_utc: '2020-07-26T17:02:36Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Elizabeth
+  mbid_track: 09e40d0a-5cd6-45d6-9425-bc5a91831bcc
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ritual
+  album: Opus Eponymous
+  played_at_utc: '2020-07-26T16:58:07Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ritual
+  mbid_track: 04e3e410-9444-48f5-977a-4ae1578120e6
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ash
+  track: Buzzkill
+  album: Buzzkill
+  played_at_utc: '2020-07-26T16:55:37Z'
+  lastfm_url: https://www.last.fm/music/Ash/_/Buzzkill
+  mbid_track: 06488ff5-8b25-4a6e-b327-c32bd9489cbe
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fc345f1765d914a8bfafe7d18930970f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pet Shop Boys
+  track: SUBURBIA - 2010 REMASTER
+  album: Ultimate
+  played_at_utc: '2020-07-26T16:50:36Z'
+  lastfm_url: https://www.last.fm/music/Pet+Shop+Boys/_/SUBURBIA+-+2010+REMASTER
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5426eb7e-5da7-485d-8b81-e2a3d641b142
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5395df3848c0e9ad593af8267d13ae6a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Refused
+  track: New Noise
+  album: The E.P. Compilation
+  played_at_utc: '2020-07-26T16:45:23Z'
+  lastfm_url: https://www.last.fm/music/Refused/_/New+Noise
+  mbid_track: de4225a6-2487-49cc-afb1-a1ac277829d7
+  mbid_artist: 42884e27-dfb8-453d-990f-2ffd90bc2d1a
+  mbid_album: ebfb4400-5eb5-490f-ac77-5dd0a7bae786
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5290adc4859d4f63cffe0bdbde403b19.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Frank Turner
+  track: I Still Believe
+  album: Last Minutes and Lost Evenings
+  played_at_utc: '2020-07-26T16:41:37Z'
+  lastfm_url: https://www.last.fm/music/Frank+Turner/_/I+Still+Believe
+  mbid_track: 9ede430e-83e2-4643-bce9-b061f7df88b4
+  mbid_artist: aca5718f-4f49-4439-b8f6-209db3f11757
+  mbid_album: 5b632fea-3da9-4cbe-accb-511ede8c10a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/44e9f4e644514c1f9ea62ed25dc1babe.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Antemasque
+  track: 4AM
+  album: Antemasque
+  played_at_utc: '2020-07-26T16:38:40Z'
+  lastfm_url: https://www.last.fm/music/Antemasque/_/4AM
+  mbid_track: 018ce35d-6c40-47e1-ae2f-428a9b328d84
+  mbid_artist: 1985d53e-d4e4-4705-9341-8747091b0b18
+  mbid_album: 11f2e519-f270-4894-a138-03096ff5a3f5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec6f1c85f55d462cc6f3a7a635c02d4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Chemical Brothers
+  track: Go
+  album: Born in the Echoes
+  played_at_utc: '2020-07-26T16:34:19Z'
+  lastfm_url: https://www.last.fm/music/The+Chemical+Brothers/_/Go
+  mbid_track: 0316ed9b-bfa3-4bac-bff8-592eeada6182
+  mbid_artist: 1946a82a-f927-40c2-8235-38d64f50d043
+  mbid_album: 035f5aef-58c3-48e9-8bfd-221b1341d892
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/afc76303d6509c73e0e03cd4ae32020a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bad Religion
+  track: Modern Man
+  album: Against The Grain (Reissue)
+  played_at_utc: '2020-07-26T16:32:21Z'
+  lastfm_url: https://www.last.fm/music/Bad+Religion/_/Modern+Man
+  mbid_track: 05421d65-5139-3cbc-b329-834eae4d5b4a
+  mbid_artist: 149e6720-4e4a-41a4-afca-6d29083fc091
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c577f8b550144b8e839122e21bfe6997.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Kriegerin
+  album: Jade
+  played_at_utc: '2020-07-26T16:29:30Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Kriegerin
+  mbid_track: 64474470-561c-4b90-9556-161ba9dc19de
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Tommy In the 80s
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-26T16:26:31Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Tommy+In+the+80s
+  mbid_track: 6337f16b-204b-46a1-911c-4cb3a1d301e3
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lagwagon
+  track: Reign
+  album: Hang
+  played_at_utc: '2020-07-26T16:23:08Z'
+  lastfm_url: https://www.last.fm/music/Lagwagon/_/Reign
+  mbid_track: 1e303e36-b386-4ca0-bbaa-447239962c09
+  mbid_artist: c7788fba-e635-4d8b-a937-01a68ab154e3
+  mbid_album: 11c7564e-9baa-492f-9f7a-f2e4b9b4dea2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/44f5a9e9fb684be5cb814f557b477bd5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Go! Team
+  track: Semicircle Song
+  album: SEMICIRCLE
+  played_at_utc: '2020-07-26T16:19:39Z'
+  lastfm_url: https://www.last.fm/music/The+Go!+Team/_/Semicircle+Song
+  mbid_track: 2dfe04aa-cb31-42c6-9901-6a8c993ae8d9
+  mbid_artist: 8a396a9c-2e4f-47e2-a587-c26e93a0953f
+  mbid_album: 10b00d21-7285-44eb-ad4f-d657ed110a8d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb1a361c96552dcf98f71dd8acfeab2b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Love It
+  album: I Love It
+  played_at_utc: '2020-07-26T16:17:05Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Love+It
+  mbid_track: 7fa7e2b3-0455-4b67-bc58-7552c04d5a35
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Baboon Show
+  track: Holiday
+  album: Radio Rebelde
+  played_at_utc: '2020-07-26T16:14:05Z'
+  lastfm_url: https://www.last.fm/music/The+Baboon+Show/_/Holiday
+  mbid_track: 105e88d2-8557-4f75-a9c1-604fbf2d867c
+  mbid_artist: 98e26691-7590-4d7d-82a5-e389c010016b
+  mbid_album: 02c49e31-361c-4e9e-a9c2-4971292d9992
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1324f8ddd5b23d6c882530bbb9665b30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Avicii
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-26T16:11:04Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Avicii
+  mbid_track: c865e898-a27f-4945-90cb-b92e0feb3089
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Silberblick & Scherenhände
+  album: Jade
+  played_at_utc: '2020-07-26T16:04:08Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Silberblick+&+Scherenh%C3%A4nde
+  mbid_track: ae249cff-ce33-491a-8b51-fc05a5f9a087
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now
+  played_at_utc: '2020-07-23T06:58:10Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: 3d2db87e-c6d3-44c6-8da5-12e6247c336c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b129447c9dfde9e1b562b1cc2d6c604.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Godspeed
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-23T06:57:12Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Godspeed
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: A Little Rain Has Never Hurt No One
+  album: Sorry, kid.
+  played_at_utc: '2020-07-23T06:54:54Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/A+Little+Rain+Has+Never+Hurt+No+One
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc9b0c06bbb308c587d66ba649eac992.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Simple Life
+  album: Simple Life
+  played_at_utc: '2020-07-23T06:51:36Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Simple+Life
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1af4ef884d1ebd872bc29f5f53a18a23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Freedom Fry
+  track: Clint Eastwood
+  album: Rio Grande
+  played_at_utc: '2020-07-23T06:47:52Z'
+  lastfm_url: https://www.last.fm/music/Freedom+Fry/_/Clint+Eastwood
+  mbid_track: ecf85f4b-4e85-4365-9b36-1816f58379e9
+  mbid_artist: e5fef947-7702-4b13-9e68-538d7d74b8bd
+  mbid_album: 4296af91-b27e-456c-9bf6-d2eb346d4707
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b699fd0c39f5e514478fb38a01b8d1d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jessica Pratt
+  track: As The World Turns
+  album: Quiet Signs
+  played_at_utc: '2020-07-23T06:44:38Z'
+  lastfm_url: https://www.last.fm/music/Jessica+Pratt/_/As+The+World+Turns
+  mbid_track: 42e513de-33b1-4c8a-9c99-29e21f8a806e
+  mbid_artist: 931852b5-394b-40ac-9bd3-e41c38ea564f
+  mbid_album: 2e181ff0-a30c-48e8-8928-df5d99506d08
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7be44d84ca765a71e9648e39fb9cd6f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Swim With Sam - Demo
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-23T06:40:27Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Swim+With+Sam+-+Demo
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Heat
+  album: Meaning of Life
+  played_at_utc: '2020-07-23T06:37:19Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Heat
+  mbid_track: 4c81d450-cd9f-4262-bf5f-fbdda83c3f3b
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: 0e656760-5c06-4c07-bc53-a7e755562ea5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e8a5540595cb10301052f2eb669ac8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Tommy In the 80s
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-22T17:02:52Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Tommy+In+the+80s
+  mbid_track: 6337f16b-204b-46a1-911c-4cb3a1d301e3
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ritual
+  album: Opus Eponymous
+  played_at_utc: '2020-07-22T16:58:23Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ritual
+  mbid_track: 04e3e410-9444-48f5-977a-4ae1578120e6
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lagwagon
+  track: Stealing Light
+  album: Railer
+  played_at_utc: '2020-07-22T16:55:48Z'
+  lastfm_url: https://www.last.fm/music/Lagwagon/_/Stealing+Light
+  mbid_track: 323ae99f-fcc7-4900-a52e-b2ed59688f78
+  mbid_artist: c7788fba-e635-4d8b-a937-01a68ab154e3
+  mbid_album: 1a84a684-b090-40ac-b8be-90cd3ed09576
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04b53a351557a47e3da5f7b6142e0713.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: If I Can't Change Your Mind
+  album: Copper Blue
+  played_at_utc: '2020-07-22T16:52:28Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/If+I+Can%27t+Change+Your+Mind
+  mbid_track: 05d0d293-06f6-3b3a-a277-a32366150327
+  mbid_artist: null
+  mbid_album: 06519690-5882-4df1-bbd0-a677dd6c6b11
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b5b8dfec61a945a7c5782e66bf7fceb5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kraftklub
+  track: Band mit dem K
+  album: Keine Nacht für Niemand
+  played_at_utc: '2020-07-22T16:48:42Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/Band+mit+dem+K
+  mbid_track: 35da3da0-52d4-4e2c-9c9c-ef5370e21f76
+  mbid_artist: ecfc32cb-b26e-41a0-8b41-7100c6a3fcc4
+  mbid_album: 23b99f6b-6632-4542-8e5a-a922de54ddb0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/01836397e187735ce2e11dd06a51a995.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Taron Egerton
+  track: Saturday Night's Alright (For Fighting)
+  album: Rocketman (Music from the Motion Picture)
+  played_at_utc: '2020-07-22T16:45:31Z'
+  lastfm_url: https://www.last.fm/music/Taron+Egerton/_/Saturday+Night%27s+Alright+(For+Fighting)
+  mbid_track: null
+  mbid_artist: 3c17c228-b4f2-485a-9d7c-ada98d9662dd
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e438c6ff31038e6aa4a4c6e1a74f29ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Wombats
+  track: Lemon To A Knife Fight
+  album: Lemon to a Knife Fight
+  played_at_utc: '2020-07-22T16:42:05Z'
+  lastfm_url: https://www.last.fm/music/The+Wombats/_/Lemon+To+A+Knife+Fight
+  mbid_track: 78935153-b3f5-4110-86c8-51deceb4a349
+  mbid_artist: e105c272-b5d7-4135-82ef-d60bded54345
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d6a3cefda5aafc6e0ac6fe47dbd360a7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Go! Team
+  track: Semicircle Song
+  album: SEMICIRCLE
+  played_at_utc: '2020-07-22T16:38:35Z'
+  lastfm_url: https://www.last.fm/music/The+Go!+Team/_/Semicircle+Song
+  mbid_track: 2dfe04aa-cb31-42c6-9901-6a8c993ae8d9
+  mbid_artist: 8a396a9c-2e4f-47e2-a587-c26e93a0953f
+  mbid_album: 10b00d21-7285-44eb-ad4f-d657ed110a8d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb1a361c96552dcf98f71dd8acfeab2b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Die, All Right!
+  album: Veni Vidi Vicious
+  played_at_utc: '2020-07-22T16:35:49Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Die,+All+Right!
+  mbid_track: 1387ce94-2810-3557-a05c-77836f8257cf
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 13e2716a-6eb4-3575-881e-bb9cf48aeda2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e404fc27fa684d719b115bcb5d2cd8b0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Knack
+  track: My Sharona
+  album: Get The Knack
+  played_at_utc: '2020-07-22T16:30:53Z'
+  lastfm_url: https://www.last.fm/music/The+Knack/_/My+Sharona
+  mbid_track: 0bc7cc98-7c06-4911-a2b6-d0acbc46085b
+  mbid_artist: null
+  mbid_album: 25d7097a-eb3c-4bfa-8e7a-2fd6672c2d31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a3c30126bdc4ef2833dc57fb89ee25e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Love It
+  album: I Love It
+  played_at_utc: '2020-07-22T16:28:19Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Love+It
+  mbid_track: 7fa7e2b3-0455-4b67-bc58-7552c04d5a35
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Everclear
+  track: Heroin Girl
+  album: Sparkle And Fade
+  played_at_utc: '2020-07-22T16:25:55Z'
+  lastfm_url: https://www.last.fm/music/Everclear/_/Heroin+Girl
+  mbid_track: 6f52cdd6-8910-4998-b92d-393619c28ded
+  mbid_artist: 3604c99d-c146-4276-aa0c-9376d333aeb8
+  mbid_album: 13f7fe43-7797-4425-86fa-174038a84639
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ace720f6166146ef55fa8ac52d947b2f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mountain Goats
+  track: This Year
+  album: The Sunset Tree
+  played_at_utc: '2020-07-22T16:22:02Z'
+  lastfm_url: https://www.last.fm/music/The+Mountain+Goats/_/This+Year
+  mbid_track: 80057822-9ff9-4777-a279-162686235166
+  mbid_artist: 9639cd52-c351-4a17-9797-58880e95a7ef
+  mbid_album: 2d66c5e3-c1f0-440c-96b7-fd4578ecb8c7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/153955c4d6e20fd1ed6b45738676be42.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Baboon Show
+  track: Holiday
+  album: Radio Rebelde
+  played_at_utc: '2020-07-22T16:19:02Z'
+  lastfm_url: https://www.last.fm/music/The+Baboon+Show/_/Holiday
+  mbid_track: 105e88d2-8557-4f75-a9c1-604fbf2d867c
+  mbid_artist: 98e26691-7590-4d7d-82a5-e389c010016b
+  mbid_album: 02c49e31-361c-4e9e-a9c2-4971292d9992
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1324f8ddd5b23d6c882530bbb9665b30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fleetwood Mac
+  track: Everywhere - 2017 Remaster
+  album: Tango in the Night (Deluxe Edition)
+  played_at_utc: '2020-07-22T16:15:14Z'
+  lastfm_url: https://www.last.fm/music/Fleetwood+Mac/_/Everywhere+-+2017+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f62b785112ce1a770e7f712df259962b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Avicii
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-22T16:11:22Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Avicii
+  mbid_track: c865e898-a27f-4945-90cb-b92e0feb3089
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Danke für die Angst
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-22T15:17:17Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Danke+f%C3%BCr+die+Angst
+  mbid_track: 3bcef0d5-83c7-467b-bf61-1ebec0446526
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Kriegerin
+  album: Jade
+  played_at_utc: '2020-07-22T15:14:25Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Kriegerin
+  mbid_track: 64474470-561c-4b90-9556-161ba9dc19de
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Silberblick & Scherenhände
+  album: Jade
+  played_at_utc: '2020-07-22T15:11:16Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Silberblick+&+Scherenh%C3%A4nde
+  mbid_track: ae249cff-ce33-491a-8b51-fc05a5f9a087
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pikes
+  track: All My Friends Are On P3
+  album: All My Friends Are On P3
+  played_at_utc: '2020-07-21T12:10:28Z'
+  lastfm_url: https://www.last.fm/music/Pikes/_/All+My+Friends+Are+On+P3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0569066c35a4d1b3628a6706e1314b45.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Hat in Hand
+  album: Mob Wife
+  played_at_utc: '2020-07-21T12:07:49Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Hat+in+Hand
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4252b369525d2274bd5aaba5a82fd75.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Yesterday Morning
+  album: Yesterday Morning
+  played_at_utc: '2020-07-21T12:03:53Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Yesterday+Morning
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/63d811556eaec6a36e10e549a9fe4c08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Harry Nilsson
+  track: Jump Into The Fire - Single Version
+  album: Nilsson Sessions 1971-1974
+  played_at_utc: '2020-07-21T12:00:19Z'
+  lastfm_url: https://www.last.fm/music/Harry+Nilsson/_/Jump+Into+The+Fire+-+Single+Version
+  mbid_track: 089e48d6-4bd9-4f42-aaf7-244d8131b156
+  mbid_artist: e5963d26-01fa-40f5-b200-e0127f410a45
+  mbid_album: 529bfb60-ba6a-4380-b275-5ac019fa4565
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4869d907d24b0b7834f6c7010f24611.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: DeLange
+  track: Waltz For The Long Goodbye
+  album: Waltz For The Long Goodbye
+  played_at_utc: '2020-07-21T11:56:46Z'
+  lastfm_url: https://www.last.fm/music/DeLange/_/Waltz+For+The+Long+Goodbye
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mamas & the Papas
+  track: California Dreamin' - Single Version
+  album: If You Can Believe Your Eyes & Ears
+  played_at_utc: '2020-07-21T11:54:03Z'
+  lastfm_url: https://www.last.fm/music/The+Mamas+&+the+Papas/_/California+Dreamin%27+-+Single+Version
+  mbid_track: 5faa5af9-7e30-49d4-acff-0cfa898953ce
+  mbid_artist: ff294730-0315-440d-a543-54005779c15b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ddb966abda80c2e8211df4e07d1513ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Crystal places
+  track: Got to Start Somewhere
+  album: As Our Hearts Beat
+  played_at_utc: '2020-07-21T11:50:39Z'
+  lastfm_url: https://www.last.fm/music/Crystal+places/_/Got+to+Start+Somewhere
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Hooray! Hooray!
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T11:49:50Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Hooray!+Hooray!
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Wishes, Horses
+  album: A Wolf at the Door
+  played_at_utc: '2020-07-21T11:46:01Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Wishes,+Horses
+  mbid_track: 59d6aafa-bbe5-4d5a-8e92-17ec7ccb9070
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: 063771b7-ba6b-483c-b276-c6f44132923e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4abe76208ef76b4a3c00d2bfcb5c6ec9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Elbow
+  track: Grounds for Divorce
+  album: The Seldom Seen Kid
+  played_at_utc: '2020-07-21T11:42:17Z'
+  lastfm_url: https://www.last.fm/music/Elbow/_/Grounds+for+Divorce
+  mbid_track: 049b5986-7851-4a0b-9bbf-8137845c4c56
+  mbid_artist: 3cb3928a-526c-4a3d-93c5-53315fa9bde0
+  mbid_album: 014bd968-9c73-3ccd-89bf-10cc1883a542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b1e27d1c27654ab78d07947a8a30dd24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Two Feet
+  track: I Feel Like I'm Drowning
+  album: A 20 Something Fuck
+  played_at_utc: '2020-07-21T11:39:11Z'
+  lastfm_url: https://www.last.fm/music/Two+Feet/_/I+Feel+Like+I%27m+Drowning
+  mbid_track: ba8ffa3b-9a40-44dd-a7e3-013fcd2ded8e
+  mbid_artist: 07d0e0b3-dea4-4892-bee7-eaad19d093ec
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0590d2096231c2bdb783dc1fbedcc7c2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: Let's Burn Down the Cornfield
+  album: 12 Songs
+  played_at_utc: '2020-07-21T11:36:05Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/Let%27s+Burn+Down+the+Cornfield
+  mbid_track: 28c91b48-b3e1-3585-8186-c6e1f014abda
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 0ef6fe44-164f-4ad6-8916-43d602cec606
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c68657c794aadf2e3006b258ee676267.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Down Again
+  album: Down Again
+  played_at_utc: '2020-07-21T11:32:01Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Down+Again
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dd186f22e0a5858942f1593758af13b9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ki:Theory
+  track: I Wanna Run (feat. Maura Davis)
+  album: KITTY HAWK
+  played_at_utc: '2020-07-21T11:28:36Z'
+  lastfm_url: https://www.last.fm/music/Ki:Theory/_/I+Wanna+Run+(feat.+Maura+Davis)
+  mbid_track: null
+  mbid_artist: 407aac3b-696c-4fef-af14-aac7121a7041
+  mbid_album: 59a0f6c5-9378-48fb-9d77-62427503d2d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2f675964993479ac70dbb9683d025d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ween
+  track: If You Could Save Yourself (You'd Save Us All)
+  album: Quebec
+  played_at_utc: '2020-07-21T11:23:48Z'
+  lastfm_url: https://www.last.fm/music/Ween/_/If+You+Could+Save+Yourself+(You%27d+Save+Us+All)
+  mbid_track: 082da741-0b5d-3a24-95a9-12922f543dc4
+  mbid_artist: c0eee88b-47f2-4cd2-ac48-a045e902a432
+  mbid_album: 5a5d8a71-ef7b-4115-a686-318638aec5c2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a644812bba0fe4bf3de21dd2681e2b5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: God's Song (That's Why I Love Mankind)
+  album: The Randy Newman Songbook
+  played_at_utc: '2020-07-21T11:20:23Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/God%27s+Song+(That%27s+Why+I+Love+Mankind)
+  mbid_track: 63f365af-ecc2-3110-8252-cb8870c77295
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 10f401ba-956d-4315-a7c9-51d142d777d0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/debd23159e9c3864c55bfabc515b4bc4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: rozzi
+  track: Creep
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-21T11:15:26Z'
+  lastfm_url: https://www.last.fm/music/rozzi/_/Creep
+  mbid_track: f454e80f-1693-4abd-a0f4-9afe748243b6
+  mbid_artist: bcf34355-19bc-482c-b349-4c2ae7683955
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daisy Dash
+  track: New York, New York
+  album: New York, New York
+  played_at_utc: '2020-07-21T11:12:22Z'
+  lastfm_url: https://www.last.fm/music/Daisy+Dash/_/New+York,+New+York
+  mbid_track: fc0c3574-b0d1-4b03-a562-35c92b18271c
+  mbid_artist: null
+  mbid_album: e6271c2e-59c4-493d-9d69-7c89d7278bd5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ddc8679047fe2adcb78825b6672a19f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now
+  played_at_utc: '2020-07-21T11:07:17Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: 3d2db87e-c6d3-44c6-8da5-12e6247c336c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b129447c9dfde9e1b562b1cc2d6c604.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Godspeed
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T11:06:19Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Godspeed
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: A Little Rain Has Never Hurt No One
+  album: Sorry, kid.
+  played_at_utc: '2020-07-21T11:03:53Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/A+Little+Rain+Has+Never+Hurt+No+One
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc9b0c06bbb308c587d66ba649eac992.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Simple Life
+  album: Simple Life
+  played_at_utc: '2020-07-21T11:00:35Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Simple+Life
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1af4ef884d1ebd872bc29f5f53a18a23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Freedom Fry
+  track: Clint Eastwood
+  album: Rio Grande
+  played_at_utc: '2020-07-21T10:56:54Z'
+  lastfm_url: https://www.last.fm/music/Freedom+Fry/_/Clint+Eastwood
+  mbid_track: ecf85f4b-4e85-4365-9b36-1816f58379e9
+  mbid_artist: e5fef947-7702-4b13-9e68-538d7d74b8bd
+  mbid_album: 4296af91-b27e-456c-9bf6-d2eb346d4707
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b699fd0c39f5e514478fb38a01b8d1d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jessica Pratt
+  track: As The World Turns
+  album: Quiet Signs
+  played_at_utc: '2020-07-21T10:53:42Z'
+  lastfm_url: https://www.last.fm/music/Jessica+Pratt/_/As+The+World+Turns
+  mbid_track: 42e513de-33b1-4c8a-9c99-29e21f8a806e
+  mbid_artist: 931852b5-394b-40ac-9bd3-e41c38ea564f
+  mbid_album: 2e181ff0-a30c-48e8-8928-df5d99506d08
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7be44d84ca765a71e9648e39fb9cd6f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Swim With Sam - Demo
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T10:49:31Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Swim+With+Sam+-+Demo
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Heat
+  album: Meaning of Life
+  played_at_utc: '2020-07-21T10:46:22Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Heat
+  mbid_track: 4c81d450-cd9f-4262-bf5f-fbdda83c3f3b
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: 0e656760-5c06-4c07-bc53-a7e755562ea5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e8a5540595cb10301052f2eb669ac8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Merle Travis
+  track: Dark as a Dungeon
+  album: 100 Greatest Bluegrass Hits
+  played_at_utc: '2020-07-21T10:03:52Z'
+  lastfm_url: https://www.last.fm/music/Merle+Travis/_/Dark+as+a+Dungeon
+  mbid_track: 9ee5768c-7c1a-4d66-9ca0-b7b59ea9a61a
+  mbid_artist: 13da4ed2-7344-49aa-aa73-004826896c5c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e75b511a88313a0e947fefa3c0c7863d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Landon Pigg
+  track: Young At Heart
+  album: Coffee Shop
+  played_at_utc: '2020-07-21T10:00:18Z'
+  lastfm_url: https://www.last.fm/music/Landon+Pigg/_/Young+At+Heart
+  mbid_track: 4b2069a1-a435-3ce7-a2f7-2e94ae598bc0
+  mbid_artist: 142db9a8-d42d-44f4-8f3c-db20e5bdfd78
+  mbid_album: c70a6956-a7c4-48a9-a27d-104bef7221e5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be4ee864e78def20f7e3f48aebf5488e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Carter Burwell
+  track: Pinch Me
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-21T09:59:07Z'
+  lastfm_url: https://www.last.fm/music/Carter+Burwell/_/Pinch+Me
+  mbid_track: e6f95a38-a217-4ed7-a7e5-d8fdcce52f62
+  mbid_artist: b88ca659-0393-4a62-abd8-f290e6c7a7e2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maple St.
+  track: Holes in My Shoes
+  album: Holes in My Shoes
+  played_at_utc: '2020-07-21T09:55:56Z'
+  lastfm_url: https://www.last.fm/music/Maple+St./_/Holes+in+My+Shoes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fern Jones
+  track: Be Thankful You're You
+  album: The Glory Road
+  played_at_utc: '2020-07-21T09:53:29Z'
+  lastfm_url: https://www.last.fm/music/Fern+Jones/_/Be+Thankful+You%27re+You
+  mbid_track: 94bef5c3-1ee1-4e09-bef3-51826f38e920
+  mbid_artist: null
+  mbid_album: 0ae96c40-17b1-4ef0-ab8e-b5b60d370445
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9b0d56260f24948f7e6ce8e20569baeb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Under the Ivy
+  album: Under the Ivy
+  played_at_utc: '2020-07-21T09:51:14Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Under+the+Ivy
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5aa0dba8329b8f6f4cea4d9937840c6a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Stronger (What Doesn't Kill You)
+  album: Stronger (Deluxe Version)
+  played_at_utc: '2020-07-21T09:46:30Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Stronger+(What+Doesn%27t+Kill+You)
+  mbid_track: null
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/191becbaaf774309a6c0db331f817656.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Steely Dan
+  track: Dirty Work
+  album: Can't Buy A Thrill
+  played_at_utc: '2020-07-21T09:43:22Z'
+  lastfm_url: https://www.last.fm/music/Steely+Dan/_/Dirty+Work
+  mbid_track: 74e5c6b9-3082-4ad4-b7c9-781c6e33a09a
+  mbid_artist: e01c3376-15fa-40d7-b747-5f219bdefdd7
+  mbid_album: 05dcfda8-7ef6-4ba1-a3de-62abcfe3460c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2550608de7d41d2c18bcd9f0db1bc00.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nina June
+  track: Twenty One
+  album: Shadows & Riddles
+  played_at_utc: '2020-07-21T09:33:06Z'
+  lastfm_url: https://www.last.fm/music/Nina+June/_/Twenty+One
+  mbid_track: null
+  mbid_artist: 45c87567-a143-49d5-84d1-2793b8cc167f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/848cab5c4d59836f6e17f21da0dce85c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pikes
+  track: All My Friends Are On P3
+  album: All My Friends Are On P3
+  played_at_utc: '2020-07-21T09:30:28Z'
+  lastfm_url: https://www.last.fm/music/Pikes/_/All+My+Friends+Are+On+P3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0569066c35a4d1b3628a6706e1314b45.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Hat in Hand
+  album: Mob Wife
+  played_at_utc: '2020-07-21T09:27:49Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Hat+in+Hand
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4252b369525d2274bd5aaba5a82fd75.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Yesterday Morning
+  album: Yesterday Morning
+  played_at_utc: '2020-07-21T09:23:53Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Yesterday+Morning
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/63d811556eaec6a36e10e549a9fe4c08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Harry Nilsson
+  track: Jump Into The Fire - Single Version
+  album: Nilsson Sessions 1971-1974
+  played_at_utc: '2020-07-21T09:20:19Z'
+  lastfm_url: https://www.last.fm/music/Harry+Nilsson/_/Jump+Into+The+Fire+-+Single+Version
+  mbid_track: 089e48d6-4bd9-4f42-aaf7-244d8131b156
+  mbid_artist: e5963d26-01fa-40f5-b200-e0127f410a45
+  mbid_album: 529bfb60-ba6a-4380-b275-5ac019fa4565
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4869d907d24b0b7834f6c7010f24611.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: DeLange
+  track: Waltz For The Long Goodbye
+  album: Waltz For The Long Goodbye
+  played_at_utc: '2020-07-21T09:16:46Z'
+  lastfm_url: https://www.last.fm/music/DeLange/_/Waltz+For+The+Long+Goodbye
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mamas & the Papas
+  track: California Dreamin' - Single Version
+  album: If You Can Believe Your Eyes & Ears
+  played_at_utc: '2020-07-21T09:14:03Z'
+  lastfm_url: https://www.last.fm/music/The+Mamas+&+the+Papas/_/California+Dreamin%27+-+Single+Version
+  mbid_track: 5faa5af9-7e30-49d4-acff-0cfa898953ce
+  mbid_artist: ff294730-0315-440d-a543-54005779c15b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ddb966abda80c2e8211df4e07d1513ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Crystal places
+  track: Got to Start Somewhere
+  album: As Our Hearts Beat
+  played_at_utc: '2020-07-21T09:10:39Z'
+  lastfm_url: https://www.last.fm/music/Crystal+places/_/Got+to+Start+Somewhere
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Hooray! Hooray!
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T09:09:50Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Hooray!+Hooray!
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Wishes, Horses
+  album: A Wolf at the Door
+  played_at_utc: '2020-07-21T09:06:01Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Wishes,+Horses
+  mbid_track: 59d6aafa-bbe5-4d5a-8e92-17ec7ccb9070
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: 063771b7-ba6b-483c-b276-c6f44132923e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4abe76208ef76b4a3c00d2bfcb5c6ec9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Elbow
+  track: Grounds for Divorce
+  album: The Seldom Seen Kid
+  played_at_utc: '2020-07-21T09:02:21Z'
+  lastfm_url: https://www.last.fm/music/Elbow/_/Grounds+for+Divorce
+  mbid_track: 049b5986-7851-4a0b-9bbf-8137845c4c56
+  mbid_artist: 3cb3928a-526c-4a3d-93c5-53315fa9bde0
+  mbid_album: 014bd968-9c73-3ccd-89bf-10cc1883a542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b1e27d1c27654ab78d07947a8a30dd24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Two Feet
+  track: I Feel Like I'm Drowning
+  album: A 20 Something Fuck
+  played_at_utc: '2020-07-21T08:59:15Z'
+  lastfm_url: https://www.last.fm/music/Two+Feet/_/I+Feel+Like+I%27m+Drowning
+  mbid_track: ba8ffa3b-9a40-44dd-a7e3-013fcd2ded8e
+  mbid_artist: 07d0e0b3-dea4-4892-bee7-eaad19d093ec
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0590d2096231c2bdb783dc1fbedcc7c2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: Let's Burn Down the Cornfield
+  album: 12 Songs
+  played_at_utc: '2020-07-21T08:56:09Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/Let%27s+Burn+Down+the+Cornfield
+  mbid_track: 28c91b48-b3e1-3585-8186-c6e1f014abda
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 0ef6fe44-164f-4ad6-8916-43d602cec606
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c68657c794aadf2e3006b258ee676267.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Down Again
+  album: Down Again
+  played_at_utc: '2020-07-21T08:52:05Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Down+Again
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dd186f22e0a5858942f1593758af13b9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ki:Theory
+  track: I Wanna Run (feat. Maura Davis)
+  album: KITTY HAWK
+  played_at_utc: '2020-07-21T08:48:40Z'
+  lastfm_url: https://www.last.fm/music/Ki:Theory/_/I+Wanna+Run+(feat.+Maura+Davis)
+  mbid_track: null
+  mbid_artist: 407aac3b-696c-4fef-af14-aac7121a7041
+  mbid_album: 59a0f6c5-9378-48fb-9d77-62427503d2d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2f675964993479ac70dbb9683d025d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ween
+  track: If You Could Save Yourself (You'd Save Us All)
+  album: Quebec
+  played_at_utc: '2020-07-21T08:43:52Z'
+  lastfm_url: https://www.last.fm/music/Ween/_/If+You+Could+Save+Yourself+(You%27d+Save+Us+All)
+  mbid_track: 082da741-0b5d-3a24-95a9-12922f543dc4
+  mbid_artist: c0eee88b-47f2-4cd2-ac48-a045e902a432
+  mbid_album: 5a5d8a71-ef7b-4115-a686-318638aec5c2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a644812bba0fe4bf3de21dd2681e2b5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: God's Song (That's Why I Love Mankind)
+  album: The Randy Newman Songbook
+  played_at_utc: '2020-07-21T08:40:27Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/God%27s+Song+(That%27s+Why+I+Love+Mankind)
+  mbid_track: 63f365af-ecc2-3110-8252-cb8870c77295
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 10f401ba-956d-4315-a7c9-51d142d777d0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/debd23159e9c3864c55bfabc515b4bc4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: rozzi
+  track: Creep
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-21T08:35:30Z'
+  lastfm_url: https://www.last.fm/music/rozzi/_/Creep
+  mbid_track: f454e80f-1693-4abd-a0f4-9afe748243b6
+  mbid_artist: bcf34355-19bc-482c-b349-4c2ae7683955
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daisy Dash
+  track: New York, New York
+  album: New York, New York
+  played_at_utc: '2020-07-21T08:32:25Z'
+  lastfm_url: https://www.last.fm/music/Daisy+Dash/_/New+York,+New+York
+  mbid_track: fc0c3574-b0d1-4b03-a562-35c92b18271c
+  mbid_artist: null
+  mbid_album: e6271c2e-59c4-493d-9d69-7c89d7278bd5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ddc8679047fe2adcb78825b6672a19f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now
+  played_at_utc: '2020-07-21T08:27:21Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: 3d2db87e-c6d3-44c6-8da5-12e6247c336c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b129447c9dfde9e1b562b1cc2d6c604.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Godspeed
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T08:26:23Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Godspeed
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: A Little Rain Has Never Hurt No One
+  album: Sorry, kid.
+  played_at_utc: '2020-07-21T08:24:05Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/A+Little+Rain+Has+Never+Hurt+No+One
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc9b0c06bbb308c587d66ba649eac992.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Simple Life
+  album: Simple Life
+  played_at_utc: '2020-07-21T08:20:47Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Simple+Life
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1af4ef884d1ebd872bc29f5f53a18a23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Freedom Fry
+  track: Clint Eastwood
+  album: Rio Grande
+  played_at_utc: '2020-07-21T08:17:06Z'
+  lastfm_url: https://www.last.fm/music/Freedom+Fry/_/Clint+Eastwood
+  mbid_track: ecf85f4b-4e85-4365-9b36-1816f58379e9
+  mbid_artist: e5fef947-7702-4b13-9e68-538d7d74b8bd
+  mbid_album: 4296af91-b27e-456c-9bf6-d2eb346d4707
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b699fd0c39f5e514478fb38a01b8d1d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jessica Pratt
+  track: As The World Turns
+  album: Quiet Signs
+  played_at_utc: '2020-07-21T08:13:53Z'
+  lastfm_url: https://www.last.fm/music/Jessica+Pratt/_/As+The+World+Turns
+  mbid_track: 42e513de-33b1-4c8a-9c99-29e21f8a806e
+  mbid_artist: 931852b5-394b-40ac-9bd3-e41c38ea564f
+  mbid_album: 2e181ff0-a30c-48e8-8928-df5d99506d08
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7be44d84ca765a71e9648e39fb9cd6f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Swim With Sam - Demo
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-21T08:09:42Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Swim+With+Sam+-+Demo
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Heat
+  album: Meaning of Life
+  played_at_utc: '2020-07-21T08:06:33Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Heat
+  mbid_track: 4c81d450-cd9f-4262-bf5f-fbdda83c3f3b
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: 0e656760-5c06-4c07-bc53-a7e755562ea5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e8a5540595cb10301052f2eb669ac8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Tommy In the 80s
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-20T15:06:30Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Tommy+In+the+80s
+  mbid_track: 6337f16b-204b-46a1-911c-4cb3a1d301e3
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ritual
+  album: Opus Eponymous
+  played_at_utc: '2020-07-20T15:02:01Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ritual
+  mbid_track: 04e3e410-9444-48f5-977a-4ae1578120e6
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lagwagon
+  track: Stealing Light
+  album: Railer
+  played_at_utc: '2020-07-20T14:59:25Z'
+  lastfm_url: https://www.last.fm/music/Lagwagon/_/Stealing+Light
+  mbid_track: 323ae99f-fcc7-4900-a52e-b2ed59688f78
+  mbid_artist: c7788fba-e635-4d8b-a937-01a68ab154e3
+  mbid_album: 1a84a684-b090-40ac-b8be-90cd3ed09576
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04b53a351557a47e3da5f7b6142e0713.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: If I Can't Change Your Mind
+  album: Copper Blue
+  played_at_utc: '2020-07-20T14:56:06Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/If+I+Can%27t+Change+Your+Mind
+  mbid_track: 05d0d293-06f6-3b3a-a277-a32366150327
+  mbid_artist: null
+  mbid_album: 06519690-5882-4df1-bbd0-a677dd6c6b11
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b5b8dfec61a945a7c5782e66bf7fceb5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kraftklub
+  track: Band mit dem K
+  album: Keine Nacht für Niemand
+  played_at_utc: '2020-07-20T14:52:20Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/Band+mit+dem+K
+  mbid_track: 35da3da0-52d4-4e2c-9c9c-ef5370e21f76
+  mbid_artist: ecfc32cb-b26e-41a0-8b41-7100c6a3fcc4
+  mbid_album: 23b99f6b-6632-4542-8e5a-a922de54ddb0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/01836397e187735ce2e11dd06a51a995.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Taron Egerton
+  track: Saturday Night's Alright (For Fighting)
+  album: Rocketman (Music from the Motion Picture)
+  played_at_utc: '2020-07-20T14:49:09Z'
+  lastfm_url: https://www.last.fm/music/Taron+Egerton/_/Saturday+Night%27s+Alright+(For+Fighting)
+  mbid_track: null
+  mbid_artist: 3c17c228-b4f2-485a-9d7c-ada98d9662dd
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e438c6ff31038e6aa4a4c6e1a74f29ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Wombats
+  track: Lemon To A Knife Fight
+  album: Lemon to a Knife Fight
+  played_at_utc: '2020-07-20T14:45:43Z'
+  lastfm_url: https://www.last.fm/music/The+Wombats/_/Lemon+To+A+Knife+Fight
+  mbid_track: 78935153-b3f5-4110-86c8-51deceb4a349
+  mbid_artist: e105c272-b5d7-4135-82ef-d60bded54345
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d6a3cefda5aafc6e0ac6fe47dbd360a7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Go! Team
+  track: Semicircle Song
+  album: SEMICIRCLE
+  played_at_utc: '2020-07-20T14:42:13Z'
+  lastfm_url: https://www.last.fm/music/The+Go!+Team/_/Semicircle+Song
+  mbid_track: 2dfe04aa-cb31-42c6-9901-6a8c993ae8d9
+  mbid_artist: 8a396a9c-2e4f-47e2-a587-c26e93a0953f
+  mbid_album: 10b00d21-7285-44eb-ad4f-d657ed110a8d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb1a361c96552dcf98f71dd8acfeab2b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Die, All Right!
+  album: Veni Vidi Vicious
+  played_at_utc: '2020-07-20T14:39:27Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Die,+All+Right!
+  mbid_track: 1387ce94-2810-3557-a05c-77836f8257cf
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 13e2716a-6eb4-3575-881e-bb9cf48aeda2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e404fc27fa684d719b115bcb5d2cd8b0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Knack
+  track: My Sharona
+  album: Get The Knack
+  played_at_utc: '2020-07-20T14:34:31Z'
+  lastfm_url: https://www.last.fm/music/The+Knack/_/My+Sharona
+  mbid_track: 0bc7cc98-7c06-4911-a2b6-d0acbc46085b
+  mbid_artist: null
+  mbid_album: 25d7097a-eb3c-4bfa-8e7a-2fd6672c2d31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a3c30126bdc4ef2833dc57fb89ee25e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Love It
+  album: I Love It
+  played_at_utc: '2020-07-20T14:31:57Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Love+It
+  mbid_track: 7fa7e2b3-0455-4b67-bc58-7552c04d5a35
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Everclear
+  track: Heroin Girl
+  album: Sparkle And Fade
+  played_at_utc: '2020-07-20T14:29:33Z'
+  lastfm_url: https://www.last.fm/music/Everclear/_/Heroin+Girl
+  mbid_track: 6f52cdd6-8910-4998-b92d-393619c28ded
+  mbid_artist: 3604c99d-c146-4276-aa0c-9376d333aeb8
+  mbid_album: 13f7fe43-7797-4425-86fa-174038a84639
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ace720f6166146ef55fa8ac52d947b2f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mountain Goats
+  track: This Year
+  album: The Sunset Tree
+  played_at_utc: '2020-07-20T14:25:40Z'
+  lastfm_url: https://www.last.fm/music/The+Mountain+Goats/_/This+Year
+  mbid_track: 80057822-9ff9-4777-a279-162686235166
+  mbid_artist: 9639cd52-c351-4a17-9797-58880e95a7ef
+  mbid_album: 2d66c5e3-c1f0-440c-96b7-fd4578ecb8c7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/153955c4d6e20fd1ed6b45738676be42.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Baboon Show
+  track: Holiday
+  album: Radio Rebelde
+  played_at_utc: '2020-07-20T14:22:40Z'
+  lastfm_url: https://www.last.fm/music/The+Baboon+Show/_/Holiday
+  mbid_track: 105e88d2-8557-4f75-a9c1-604fbf2d867c
+  mbid_artist: 98e26691-7590-4d7d-82a5-e389c010016b
+  mbid_album: 02c49e31-361c-4e9e-a9c2-4971292d9992
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1324f8ddd5b23d6c882530bbb9665b30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fleetwood Mac
+  track: Everywhere - 2017 Remaster
+  album: Tango in the Night (Deluxe Edition)
+  played_at_utc: '2020-07-20T14:18:52Z'
+  lastfm_url: https://www.last.fm/music/Fleetwood+Mac/_/Everywhere+-+2017+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f62b785112ce1a770e7f712df259962b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Avicii
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-20T14:15:52Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Avicii
+  mbid_track: c865e898-a27f-4945-90cb-b92e0feb3089
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Danke für die Angst
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-20T14:10:57Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Danke+f%C3%BCr+die+Angst
+  mbid_track: 3bcef0d5-83c7-467b-bf61-1ebec0446526
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Kriegerin
+  album: Jade
+  played_at_utc: '2020-07-20T14:06:11Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Kriegerin
+  mbid_track: 64474470-561c-4b90-9556-161ba9dc19de
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Silberblick & Scherenhände
+  album: Jade
+  played_at_utc: '2020-07-20T14:00:35Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Silberblick+&+Scherenh%C3%A4nde
+  mbid_track: ae249cff-ce33-491a-8b51-fc05a5f9a087
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: José González
+  track: Crosses
+  album: Veneer
+  played_at_utc: '2020-07-18T09:43:27Z'
+  lastfm_url: https://www.last.fm/music/Jos%C3%A9+Gonz%C3%A1lez/_/Crosses
+  mbid_track: 082bc238-408c-3258-b6cb-5fe39480cd72
+  mbid_artist: cd8c5019-5d75-4d5c-bc28-e1e26a7dd5c8
+  mbid_album: 25951225-d8f1-482a-bb83-e9ab9e89c6ab
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/91ad6114b393b88c2b5af6a549ce3361.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Incompatible
+  album: A Wolf at the Door
+  played_at_utc: '2020-07-18T09:40:35Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Incompatible
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: 063771b7-ba6b-483c-b276-c6f44132923e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4abe76208ef76b4a3c00d2bfcb5c6ec9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mating Ritual
+  track: An Honest Mistake (feat. Lizzy Land)
+  album: An Honest Mistake (feat. Lizzy Land)
+  played_at_utc: '2020-07-18T09:36:46Z'
+  lastfm_url: https://www.last.fm/music/Mating+Ritual/_/An+Honest+Mistake+(feat.+Lizzy+Land)
+  mbid_track: null
+  mbid_artist: 27cb9225-d153-43d6-989a-1358311d4a20
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Tune Weavers
+  track: Happy, Happy Birthday Baby
+  album: Deep Purple (Original Recordings)
+  played_at_utc: '2020-07-18T09:34:27Z'
+  lastfm_url: https://www.last.fm/music/The+Tune+Weavers/_/Happy,+Happy+Birthday+Baby
+  mbid_track: null
+  mbid_artist: c5a96f47-9bc2-4277-ab2a-02d1c62f46e6
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Therefore
+  album: A Wolf at the Door
+  played_at_utc: '2020-07-18T09:30:46Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Therefore
+  mbid_track: 0ead46aa-0c5b-437b-a89f-f19571293722
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: 063771b7-ba6b-483c-b276-c6f44132923e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4abe76208ef76b4a3c00d2bfcb5c6ec9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Poor Little Match Boy
+  album: December
+  played_at_utc: '2020-07-18T09:30:07Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Poor+Little+Match+Boy
+  mbid_track: 07412953-c5a9-4d45-a038-8c59aa08adc3
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: d684e277-7827-4d7c-80a7-393b6402231c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0bc8cb71b16dfbd87e933138908d631a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Both Sides Now - Live
+  album: A Tribute to Joni Mitchell (Live At Kriterion)
+  played_at_utc: '2020-07-18T09:25:32Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Both+Sides+Now+-+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2d0a215ec4f0434b693d2c1ce7f6abb9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Supertramp
+  track: Goodbye Stranger - 2010 Remastered
+  album: Breakfast In America (Deluxe Edition)
+  played_at_utc: '2020-07-18T09:19:41Z'
+  lastfm_url: https://www.last.fm/music/Supertramp/_/Goodbye+Stranger+-+2010+Remastered
+  mbid_track: 6e3f43e8-7edd-4037-b7d0-4b515be6b297
+  mbid_artist: d2ff6b6b-fc30-48dc-8952-06f9d8fc64f8
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/860cb3c64f273e0cf86cd2b0010e88e2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lizzo
+  track: Cuz I Love You
+  album: Cuz I Love You (Deluxe)
+  played_at_utc: '2020-07-18T09:16:40Z'
+  lastfm_url: https://www.last.fm/music/Lizzo/_/Cuz+I+Love+You
+  mbid_track: 04383592-ac3c-4670-a507-8d44b28a023f
+  mbid_artist: 8fb5370b-9568-4b61-9da5-2aa12c9928db
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7ae25279841cadd7d2d35bf8c786e098.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now (Deluxe)
+  played_at_utc: '2020-07-18T09:11:39Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/98433c7e4c24f264192ba7f60f8d2bd9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: James Walker
+  track: Landslide
+  album: English Bones
+  played_at_utc: '2020-07-18T09:08:58Z'
+  lastfm_url: https://www.last.fm/music/James+Walker/_/Landslide
+  mbid_track: null
+  mbid_artist: 2cb4c011-3cd4-4cd4-b0a7-d4a5fe0c2c02
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6afc2e93b1155981f7d3ca92aa8b9616.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Renee Olstead
+  track: A Love That Will Last
+  album: Renee Olstead
+  played_at_utc: '2020-07-18T09:05:25Z'
+  lastfm_url: https://www.last.fm/music/Renee+Olstead/_/A+Love+That+Will+Last
+  mbid_track: 22c7981b-eb75-3cb4-b969-4f2ffc0075e6
+  mbid_artist: 1f1ce989-bf0e-421b-bd71-a2a33fdbc7b6
+  mbid_album: dc13ab6d-27d1-484f-839d-d44424960aa2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c49735017c781169b7ff5f5c54ead381.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Mob Wife
+  album: Mob Wife
+  played_at_utc: '2020-07-18T08:59:31Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Mob+Wife
+  mbid_track: 23d703c5-2438-4a3b-b459-4b86c12ffc52
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4252b369525d2274bd5aaba5a82fd75.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: As Far As the Compliments Went
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-18T08:59:00Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/As+Far+As+the+Compliments+Went
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Trills
+  track: Speak Loud
+  album: Speak Loud
+  played_at_utc: '2020-07-18T08:55:13Z'
+  lastfm_url: https://www.last.fm/music/Trills/_/Speak+Loud
+  mbid_track: 15763401-362c-47d0-b211-bf13edbb5fd0
+  mbid_artist: c380d993-2dea-4f77-a96a-5ec9b484fd4b
+  mbid_album: ad8d767a-78b4-4126-8142-93f83dd0cb7b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2f38d1974512014648e2944a49a71131.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Merle Travis
+  track: Dark as a Dungeon
+  album: 100 Greatest Bluegrass Hits
+  played_at_utc: '2020-07-18T08:51:11Z'
+  lastfm_url: https://www.last.fm/music/Merle+Travis/_/Dark+as+a+Dungeon
+  mbid_track: 9ee5768c-7c1a-4d66-9ca0-b7b59ea9a61a
+  mbid_artist: 13da4ed2-7344-49aa-aa73-004826896c5c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e75b511a88313a0e947fefa3c0c7863d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Landon Pigg
+  track: Young At Heart
+  album: Coffee Shop
+  played_at_utc: '2020-07-18T08:47:36Z'
+  lastfm_url: https://www.last.fm/music/Landon+Pigg/_/Young+At+Heart
+  mbid_track: 4b2069a1-a435-3ce7-a2f7-2e94ae598bc0
+  mbid_artist: 142db9a8-d42d-44f4-8f3c-db20e5bdfd78
+  mbid_album: c70a6956-a7c4-48a9-a27d-104bef7221e5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be4ee864e78def20f7e3f48aebf5488e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Carter Burwell
+  track: Pinch Me
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-18T08:46:25Z'
+  lastfm_url: https://www.last.fm/music/Carter+Burwell/_/Pinch+Me
+  mbid_track: e6f95a38-a217-4ed7-a7e5-d8fdcce52f62
+  mbid_artist: b88ca659-0393-4a62-abd8-f290e6c7a7e2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maple St.
+  track: Holes in My Shoes
+  album: Holes in My Shoes
+  played_at_utc: '2020-07-18T08:43:15Z'
+  lastfm_url: https://www.last.fm/music/Maple+St./_/Holes+in+My+Shoes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fern Jones
+  track: Be Thankful You're You
+  album: The Glory Road
+  played_at_utc: '2020-07-18T08:40:48Z'
+  lastfm_url: https://www.last.fm/music/Fern+Jones/_/Be+Thankful+You%27re+You
+  mbid_track: 94bef5c3-1ee1-4e09-bef3-51826f38e920
+  mbid_artist: null
+  mbid_album: 0ae96c40-17b1-4ef0-ab8e-b5b60d370445
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9b0d56260f24948f7e6ce8e20569baeb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Stronger (What Doesn't Kill You)
+  album: Stronger (Deluxe Version)
+  played_at_utc: '2020-07-18T08:37:05Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Stronger+(What+Doesn%27t+Kill+You)
+  mbid_track: null
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/191becbaaf774309a6c0db331f817656.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Steely Dan
+  track: Dirty Work
+  album: Can't Buy A Thrill
+  played_at_utc: '2020-07-18T08:33:58Z'
+  lastfm_url: https://www.last.fm/music/Steely+Dan/_/Dirty+Work
+  mbid_track: 74e5c6b9-3082-4ad4-b7c9-781c6e33a09a
+  mbid_artist: e01c3376-15fa-40d7-b747-5f219bdefdd7
+  mbid_album: 05dcfda8-7ef6-4ba1-a3de-62abcfe3460c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2550608de7d41d2c18bcd9f0db1bc00.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Wishes, Horses
+  album: A Wolf at the Door
+  played_at_utc: '2020-07-18T08:30:09Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Wishes,+Horses
+  mbid_track: 59d6aafa-bbe5-4d5a-8e92-17ec7ccb9070
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: 063771b7-ba6b-483c-b276-c6f44132923e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4abe76208ef76b4a3c00d2bfcb5c6ec9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nina June
+  track: Twenty One
+  album: Shadows & Riddles
+  played_at_utc: '2020-07-18T08:27:07Z'
+  lastfm_url: https://www.last.fm/music/Nina+June/_/Twenty+One
+  mbid_track: null
+  mbid_artist: 45c87567-a143-49d5-84d1-2793b8cc167f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/848cab5c4d59836f6e17f21da0dce85c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pikes
+  track: All My Friends Are On P3
+  album: All My Friends Are On P3
+  played_at_utc: '2020-07-18T08:24:30Z'
+  lastfm_url: https://www.last.fm/music/Pikes/_/All+My+Friends+Are+On+P3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0569066c35a4d1b3628a6706e1314b45.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Yesterday Morning
+  album: Yesterday Morning
+  played_at_utc: '2020-07-18T08:20:34Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Yesterday+Morning
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/63d811556eaec6a36e10e549a9fe4c08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Harry Nilsson
+  track: Jump Into The Fire - Single Version
+  album: Nilsson Sessions 1971-1974
+  played_at_utc: '2020-07-18T08:17:00Z'
+  lastfm_url: https://www.last.fm/music/Harry+Nilsson/_/Jump+Into+The+Fire+-+Single+Version
+  mbid_track: 089e48d6-4bd9-4f42-aaf7-244d8131b156
+  mbid_artist: e5963d26-01fa-40f5-b200-e0127f410a45
+  mbid_album: 529bfb60-ba6a-4380-b275-5ac019fa4565
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4869d907d24b0b7834f6c7010f24611.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: DeLange
+  track: Waltz For The Long Goodbye
+  album: Waltz For The Long Goodbye
+  played_at_utc: '2020-07-18T08:13:27Z'
+  lastfm_url: https://www.last.fm/music/DeLange/_/Waltz+For+The+Long+Goodbye
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mamas & the Papas
+  track: California Dreamin' - Single Version
+  album: If You Can Believe Your Eyes & Ears
+  played_at_utc: '2020-07-18T08:10:44Z'
+  lastfm_url: https://www.last.fm/music/The+Mamas+&+the+Papas/_/California+Dreamin%27+-+Single+Version
+  mbid_track: 5faa5af9-7e30-49d4-acff-0cfa898953ce
+  mbid_artist: ff294730-0315-440d-a543-54005779c15b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ddb966abda80c2e8211df4e07d1513ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Crystal places
+  track: Got to Start Somewhere
+  album: As Our Hearts Beat
+  played_at_utc: '2020-07-18T08:07:20Z'
+  lastfm_url: https://www.last.fm/music/Crystal+places/_/Got+to+Start+Somewhere
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Hooray! Hooray!
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-18T08:06:31Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Hooray!+Hooray!
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Under the Ivy
+  album: Under the Ivy
+  played_at_utc: '2020-07-18T08:04:16Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Under+the+Ivy
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5aa0dba8329b8f6f4cea4d9937840c6a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Elbow
+  track: Grounds for Divorce
+  album: The Seldom Seen Kid
+  played_at_utc: '2020-07-18T08:00:39Z'
+  lastfm_url: https://www.last.fm/music/Elbow/_/Grounds+for+Divorce
+  mbid_track: 049b5986-7851-4a0b-9bbf-8137845c4c56
+  mbid_artist: 3cb3928a-526c-4a3d-93c5-53315fa9bde0
+  mbid_album: 014bd968-9c73-3ccd-89bf-10cc1883a542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b1e27d1c27654ab78d07947a8a30dd24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Two Feet
+  track: I Feel Like I'm Drowning
+  album: A 20 Something Fuck
+  played_at_utc: '2020-07-18T07:54:04Z'
+  lastfm_url: https://www.last.fm/music/Two+Feet/_/I+Feel+Like+I%27m+Drowning
+  mbid_track: ba8ffa3b-9a40-44dd-a7e3-013fcd2ded8e
+  mbid_artist: 07d0e0b3-dea4-4892-bee7-eaad19d093ec
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0590d2096231c2bdb783dc1fbedcc7c2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: Let's Burn Down the Cornfield
+  album: 12 Songs
+  played_at_utc: '2020-07-18T07:50:58Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/Let%27s+Burn+Down+the+Cornfield
+  mbid_track: 28c91b48-b3e1-3585-8186-c6e1f014abda
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 0ef6fe44-164f-4ad6-8916-43d602cec606
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c68657c794aadf2e3006b258ee676267.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Down Again
+  album: Down Again
+  played_at_utc: '2020-07-18T07:46:54Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Down+Again
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dd186f22e0a5858942f1593758af13b9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ki:Theory
+  track: I Wanna Run (feat. Maura Davis)
+  album: KITTY HAWK
+  played_at_utc: '2020-07-18T07:43:28Z'
+  lastfm_url: https://www.last.fm/music/Ki:Theory/_/I+Wanna+Run+(feat.+Maura+Davis)
+  mbid_track: null
+  mbid_artist: 407aac3b-696c-4fef-af14-aac7121a7041
+  mbid_album: 59a0f6c5-9378-48fb-9d77-62427503d2d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2f675964993479ac70dbb9683d025d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ween
+  track: If You Could Save Yourself (You'd Save Us All)
+  album: Quebec
+  played_at_utc: '2020-07-18T07:38:40Z'
+  lastfm_url: https://www.last.fm/music/Ween/_/If+You+Could+Save+Yourself+(You%27d+Save+Us+All)
+  mbid_track: 082da741-0b5d-3a24-95a9-12922f543dc4
+  mbid_artist: c0eee88b-47f2-4cd2-ac48-a045e902a432
+  mbid_album: 5a5d8a71-ef7b-4115-a686-318638aec5c2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a644812bba0fe4bf3de21dd2681e2b5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: God's Song (That's Why I Love Mankind)
+  album: The Randy Newman Songbook
+  played_at_utc: '2020-07-18T07:35:16Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/God%27s+Song+(That%27s+Why+I+Love+Mankind)
+  mbid_track: 63f365af-ecc2-3110-8252-cb8870c77295
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 10f401ba-956d-4315-a7c9-51d142d777d0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/debd23159e9c3864c55bfabc515b4bc4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: rozzi
+  track: Creep
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-18T07:30:18Z'
+  lastfm_url: https://www.last.fm/music/rozzi/_/Creep
+  mbid_track: f454e80f-1693-4abd-a0f4-9afe748243b6
+  mbid_artist: bcf34355-19bc-482c-b349-4c2ae7683955
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daisy Dash
+  track: New York, New York
+  album: New York, New York
+  played_at_utc: '2020-07-18T07:27:14Z'
+  lastfm_url: https://www.last.fm/music/Daisy+Dash/_/New+York,+New+York
+  mbid_track: fc0c3574-b0d1-4b03-a562-35c92b18271c
+  mbid_artist: null
+  mbid_album: e6271c2e-59c4-493d-9d69-7c89d7278bd5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ddc8679047fe2adcb78825b6672a19f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now
+  played_at_utc: '2020-07-18T07:22:09Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: 3d2db87e-c6d3-44c6-8da5-12e6247c336c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b129447c9dfde9e1b562b1cc2d6c604.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Godspeed
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-18T07:21:11Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Godspeed
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: A Little Rain Has Never Hurt No One
+  album: Sorry, kid.
+  played_at_utc: '2020-07-18T07:18:53Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/A+Little+Rain+Has+Never+Hurt+No+One
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc9b0c06bbb308c587d66ba649eac992.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Simple Life
+  album: Simple Life
+  played_at_utc: '2020-07-18T07:15:35Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Simple+Life
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1af4ef884d1ebd872bc29f5f53a18a23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Freedom Fry
+  track: Clint Eastwood
+  album: Rio Grande
+  played_at_utc: '2020-07-18T07:11:54Z'
+  lastfm_url: https://www.last.fm/music/Freedom+Fry/_/Clint+Eastwood
+  mbid_track: ecf85f4b-4e85-4365-9b36-1816f58379e9
+  mbid_artist: e5fef947-7702-4b13-9e68-538d7d74b8bd
+  mbid_album: 4296af91-b27e-456c-9bf6-d2eb346d4707
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b699fd0c39f5e514478fb38a01b8d1d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jessica Pratt
+  track: As The World Turns
+  album: Quiet Signs
+  played_at_utc: '2020-07-18T07:08:42Z'
+  lastfm_url: https://www.last.fm/music/Jessica+Pratt/_/As+The+World+Turns
+  mbid_track: 42e513de-33b1-4c8a-9c99-29e21f8a806e
+  mbid_artist: 931852b5-394b-40ac-9bd3-e41c38ea564f
+  mbid_album: 2e181ff0-a30c-48e8-8928-df5d99506d08
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7be44d84ca765a71e9648e39fb9cd6f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Swim With Sam - Demo
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-18T07:04:31Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Swim+With+Sam+-+Demo
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Heat
+  album: Meaning of Life
+  played_at_utc: '2020-07-18T07:01:22Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Heat
+  mbid_track: 4c81d450-cd9f-4262-bf5f-fbdda83c3f3b
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: 0e656760-5c06-4c07-bc53-a7e755562ea5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e8a5540595cb10301052f2eb669ac8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: IDLES
+  track: A Hymn
+  album: A Hymn
+  played_at_utc: '2020-07-17T09:12:00Z'
+  lastfm_url: https://www.last.fm/music/IDLES/_/A+Hymn
+  mbid_track: 7a454405-94bd-4cab-b9a5-a9ed2b31f489
+  mbid_artist: be465d4f-c28d-4ba1-94ab-ebaada7db8af
+  mbid_album: 85367072-bf71-48a0-9ce7-ca8bf6238705
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc4c90187f094626beb087b7391ed5ca.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hate Squad
+  track: Not My God
+  album: You Are Not My Fuckin' God (Best of 20 Years of Raging Hate)
+  played_at_utc: '2020-07-16T15:22:39Z'
+  lastfm_url: https://www.last.fm/music/Hate+Squad/_/Not+My+God
+  mbid_track: 29c5098d-0f77-3cc6-a2b3-cb56079d049a
+  mbid_artist: 9460fe17-34de-4e92-a91c-4b1a969996f4
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5abe6b3d28348a94610f3e7a3b083692.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fear Factory
+  track: Replica
+  album: Demanufacture
+  played_at_utc: '2020-07-16T15:18:31Z'
+  lastfm_url: https://www.last.fm/music/Fear+Factory/_/Replica
+  mbid_track: 12e37659-95b9-4f13-89f5-cf7767b74062
+  mbid_artist: c17f08f4-2542-46fb-97f3-3202d60c225a
+  mbid_album: 0430dfec-5f2d-41ea-b121-ea16aee4e040
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5d8ede97979a19d60b596e6802927980.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Body Count
+  track: Born Dead
+  album: Born Dead
+  played_at_utc: '2020-07-16T15:14:32Z'
+  lastfm_url: https://www.last.fm/music/Body+Count/_/Born+Dead
+  mbid_track: 8c2176d3-0fdb-47d4-9320-70829f1b72c2
+  mbid_artist: 8b12db5d-54a9-4014-9fa8-d646ac291361
+  mbid_album: 28604ca0-6dff-4ba9-a731-0e427ebedf7c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/915978d30b59e38bc10f29e85b9d0659.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dub War
+  track: Strike It
+  album: Pain
+  played_at_utc: '2020-07-16T15:08:32Z'
+  lastfm_url: https://www.last.fm/music/Dub+War/_/Strike+It
+  mbid_track: 5447238c-dfad-4cff-a2e0-f7ad788ddda7
+  mbid_artist: c648740f-f636-48c9-91a9-26e50bf49b78
+  mbid_album: 050cf60d-5ee1-4394-b38c-c43a240c50cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/88d2a9bcfec741dea454ad6160fcb274.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Prong
+  track: Snap Your Fingers, Snap Your Neck
+  album: Cleansing
+  played_at_utc: '2020-07-16T15:04:50Z'
+  lastfm_url: https://www.last.fm/music/Prong/_/Snap+Your+Fingers,+Snap+Your+Neck
+  mbid_track: 09cf0dd5-90da-3527-81c5-98ab77a97350
+  mbid_artist: 366b86a0-74b2-4fcb-ba79-637258299dbb
+  mbid_album: 01d60556-470b-319f-b53a-5ab69373c74a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fd7d40d6d8aca4206e86ea984bee6c1e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Bates
+  track: Billie Jean
+  album: Pleasure And Pain
+  played_at_utc: '2020-07-16T15:00:39Z'
+  lastfm_url: https://www.last.fm/music/The+Bates/_/Billie+Jean
+  mbid_track: 09a4442c-b8d0-34d2-8b3d-8f455b81dc9b
+  mbid_artist: 6a0779fa-308c-4563-97fd-1db3e3d5bcc4
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e0850453a3849d1c94b8a3532a150f8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Red Hot Chili Peppers
+  track: Warped
+  album: One Hot Minute (Deluxe Edition)
+  played_at_utc: '2020-07-16T14:56:14Z'
+  lastfm_url: https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Warped
+  mbid_track: 02be62f7-a36f-4721-acb5-27a17c8d7fa1
+  mbid_artist: 8bfac288-ccc5-448d-9573-c33ea2aa5c30
+  mbid_album: 777279a4-efe9-4ab6-99ce-b2263913c93d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a1e2013ba50f67142d2a4a8e1ef9d37a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Garbage
+  track: Vow
+  album: Absolute Garbage
+  played_at_utc: '2020-07-16T14:51:10Z'
+  lastfm_url: https://www.last.fm/music/Garbage/_/Vow
+  mbid_track: 5dba4da0-ae78-3ffb-be86-e7ec95fc6162
+  mbid_artist: f9ef7a22-4262-4596-a2a8-1d19345b8e50
+  mbid_album: 00d735ea-484b-3c19-bac4-e4299679b6ce
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/85b33f20bc7b4deccd47f5342f19f585.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: White Zombie
+  track: More Human Than Human
+  album: 'Astro Creep: 2000 Songs Of Love, Destruction And Other Synthetic Delusions
+    Of The Electric Head'
+  played_at_utc: '2020-07-16T14:46:39Z'
+  lastfm_url: https://www.last.fm/music/White+Zombie/_/More+Human+Than+Human
+  mbid_track: a4d04097-19e8-4cdf-b4a5-ea4c3a4288c9
+  mbid_artist: cfe572bf-840f-4bed-934a-f69f4b1e90d4
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3537a172d77534418c1952150d2427f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Gun
+  track: Word Up - Radio Mix
+  album: Swagger
+  played_at_utc: '2020-07-16T14:42:10Z'
+  lastfm_url: https://www.last.fm/music/Gun/_/Word+Up+-+Radio+Mix
+  mbid_track: null
+  mbid_artist: 4507dabf-b525-4969-8d8a-c0fcf52f83b4
+  mbid_album: 175ed244-4ad3-4032-9b40-fd1fcea6a690
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/390d453576ea4926c92b7e2b20ba1728.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Lost
+  album: Outcast / Cause For Conflict
+  played_at_utc: '2020-07-16T14:37:49Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Lost
+  mbid_track: 154cfc0c-e848-4ac3-9d9b-405e3e5682ab
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5c83702f7f034156becf0ceab6dc34d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Die Krupps
+  track: Isolation
+  album: Wired Injections
+  played_at_utc: '2020-07-16T14:34:14Z'
+  lastfm_url: https://www.last.fm/music/Die+Krupps/_/Isolation
+  mbid_track: 21f50ef2-6b1d-35b5-9fc2-35c4da699778
+  mbid_artist: fc555365-17a2-4820-84e8-400887aa3d6f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7acdd0c6a7718b249b8fb4bb34bd2c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Other Side of the River
+  album: Ugly
+  played_at_utc: '2020-07-16T14:30:01Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Other+Side+of+the+River
+  mbid_track: dc622b84-ee94-4120-9ddf-cf31fee88884
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 0890c1e3-8299-42c3-a2cb-5e00684bf49c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4186da1d321141ca8ef70e0d7c1f4661.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Silverchair
+  track: Pure Massacre
+  album: Frogstomp (Deluxe Edition) [Remastered]
+  played_at_utc: '2020-07-16T14:25:57Z'
+  lastfm_url: https://www.last.fm/music/Silverchair/_/Pure+Massacre
+  mbid_track: 029fad0b-e03a-3a4a-8782-714867bbd822
+  mbid_artist: b0799818-22cb-4564-8e68-3c410d0722ee
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/608909022ccff26be77936c8da5f3ce4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shelter
+  track: Here We Go
+  album: Mantra
+  played_at_utc: '2020-07-16T14:20:58Z'
+  lastfm_url: https://www.last.fm/music/Shelter/_/Here+We+Go
+  mbid_track: 6b3351dc-1631-37a5-bd75-5a6c2b6963ac
+  mbid_artist: a2e3bfab-e1b2-4945-9758-a92968dcbcd5
+  mbid_album: 4ead94a6-b76b-4582-9002-7f815315e98d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a4e47bfba61ebc2f5615fe1a3ecfeba0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Such A Surge
+  track: Schatten
+  album: UNDER PRESSURE
+  played_at_utc: '2020-07-16T14:18:20Z'
+  lastfm_url: https://www.last.fm/music/Such+A+Surge/_/Schatten
+  mbid_track: 4bac9fbe-35d7-438d-b02b-51c8a8953b4c
+  mbid_artist: 90727f5f-2446-40ad-8a31-692e75833b76
+  mbid_album: d86fe8d8-d735-49bf-bd0d-70d3c79119d4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/93b616315f2f3464f3ce25600be56d71.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Whale
+  track: Hobo Humpin' Slobo Babe
+  album: We Care
+  played_at_utc: '2020-07-16T14:11:34Z'
+  lastfm_url: https://www.last.fm/music/Whale/_/Hobo+Humpin%27+Slobo+Babe
+  mbid_track: 09f58c1b-96ef-4e09-9973-7ba317ca6faf
+  mbid_artist: 7289f08a-0788-4214-af74-ad10d7c6ae05
+  mbid_album: 21ef06be-4c2c-3b1a-aca2-4c38616b68e5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2e5b59e5b647e6fc45e9ff0057e4378f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Paradise Lost
+  track: The Last Time
+  album: Draconian Times
+  played_at_utc: '2020-07-16T14:07:35Z'
+  lastfm_url: https://www.last.fm/music/Paradise+Lost/_/The+Last+Time
+  mbid_track: 0939f8ee-3645-38d4-993d-5e09a1bbc21c
+  mbid_artist: 10bf95b6-30e3-44f1-817f-45762cdc0de0
+  mbid_album: 06cdea06-359b-3846-b96e-8780c022c5ec
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4fce09ef002f43f293c3f3bb2ccd8d1f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Monster Magnet
+  track: Negasonic Teenage Warhead
+  album: Dopes to Infinity
+  played_at_utc: '2020-07-16T14:04:08Z'
+  lastfm_url: https://www.last.fm/music/Monster+Magnet/_/Negasonic+Teenage+Warhead
+  mbid_track: 01fcf054-4cb3-308f-a2b4-6b6e7fe16718
+  mbid_artist: a0955511-1324-4e9b-834f-e1e140502850
+  mbid_album: 0a72c514-952a-3dc7-b225-bca0621fc77f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f67b86d246e02ebdc9114cd8ef29d546.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Smashing Pumpkins
+  track: Bullet With Butterfly Wings - remastered 2012
+  album: Mellon Collie and the Infinite Sadness (Deluxe Edition)
+  played_at_utc: '2020-07-16T13:59:40Z'
+  lastfm_url: https://www.last.fm/music/The+Smashing+Pumpkins/_/Bullet+With+Butterfly+Wings+-+remastered+2012
+  mbid_track: b0758075-2b7b-44e5-b34e-f4cfacf9dcda
+  mbid_artist: ba0d6274-db14-4ef5-b28d-657ebde1a396
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a453e940a8945b4c5b2766f76ece94a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Clawfinger
+  track: Do What I Say - Remastered version
+  album: Use Your Brain (Remastered version)
+  played_at_utc: '2020-07-16T13:51:14Z'
+  lastfm_url: https://www.last.fm/music/Clawfinger/_/Do+What+I+Say+-+Remastered+version
+  mbid_track: null
+  mbid_artist: f16d25c6-556f-42f9-b648-5f48a8f96ec2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/85a7c7e1ed142eba08234fb7f7dc1816.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Faith No More
+  track: Digging the Grave - 2016 Remaster
+  album: King for a Day, Fool for a Lifetime (2016 Remaster; Deluxe Edition)
+  played_at_utc: '2020-07-16T13:46:49Z'
+  lastfm_url: https://www.last.fm/music/Faith+No+More/_/Digging+the+Grave+-+2016+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2cb5e334e3e134a67f36ddebed336b5c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackeyed Blonde
+  track: Do Ya Like That Shit?
+  album: Best Of
+  played_at_utc: '2020-07-16T13:39:56Z'
+  lastfm_url: https://www.last.fm/music/Blackeyed+Blonde/_/Do+Ya+Like+That+Shit%3F
+  mbid_track: 11e4516f-b8a6-435a-9274-9e3b860d4182
+  mbid_artist: fe0af100-d844-4d09-a034-2cc0f06f4eea
+  mbid_album: 8c0fdadd-bad8-439d-9704-f1c3c3887319
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/434b13b6035f4f3d8e9c54a61fcb680a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Chemical Brothers
+  track: Go
+  album: Born in the Echoes
+  played_at_utc: '2020-07-16T09:45:39Z'
+  lastfm_url: https://www.last.fm/music/The+Chemical+Brothers/_/Go
+  mbid_track: 0316ed9b-bfa3-4bac-bff8-592eeada6182
+  mbid_artist: 1946a82a-f927-40c2-8235-38d64f50d043
+  mbid_album: 035f5aef-58c3-48e9-8bfd-221b1341d892
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/afc76303d6509c73e0e03cd4ae32020a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rancid
+  track: Time Bomb
+  album: '...And Out Come the Wolves'
+  played_at_utc: '2020-07-16T09:43:14Z'
+  lastfm_url: https://www.last.fm/music/Rancid/_/Time+Bomb
+  mbid_track: 200dd597-f1d2-32ee-8f2f-d75afb33370d
+  mbid_artist: 24f8d8a5-269b-475c-a1cb-792990b0b2ee
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/faa67e346b164f08cfeb0f5313b564a8.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bad Religion
+  track: Modern Man
+  album: Against The Grain (Reissue)
+  played_at_utc: '2020-07-16T09:41:16Z'
+  lastfm_url: https://www.last.fm/music/Bad+Religion/_/Modern+Man
+  mbid_track: 05421d65-5139-3cbc-b329-834eae4d5b4a
+  mbid_artist: 149e6720-4e4a-41a4-afca-6d29083fc091
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c577f8b550144b8e839122e21bfe6997.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: The National Health
+  album: The National Health (Deluxe Version)
+  played_at_utc: '2020-07-16T09:38:17Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/The+National+Health
+  mbid_track: 0707a947-a7db-3fa0-a5ce-49b207dd5e83
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6ada6c617c49244407394165e614c5f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Weeds
+  album: Soul Searching Sun (Digital)
+  played_at_utc: '2020-07-16T09:34:09Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Weeds
+  mbid_track: 95938af0-7997-43ed-b5a7-28f87e876d6d
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/efb05d463ac7413fc1a076ac85473d5a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Tommy In the 80s
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-16T09:31:10Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Tommy+In+the+80s
+  mbid_track: 6337f16b-204b-46a1-911c-4cb3a1d301e3
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ritual
+  album: Opus Eponymous
+  played_at_utc: '2020-07-16T09:26:40Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ritual
+  mbid_track: 04e3e410-9444-48f5-977a-4ae1578120e6
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lagwagon
+  track: Stealing Light
+  album: Railer
+  played_at_utc: '2020-07-16T09:24:05Z'
+  lastfm_url: https://www.last.fm/music/Lagwagon/_/Stealing+Light
+  mbid_track: 323ae99f-fcc7-4900-a52e-b2ed59688f78
+  mbid_artist: c7788fba-e635-4d8b-a937-01a68ab154e3
+  mbid_album: 1a84a684-b090-40ac-b8be-90cd3ed09576
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04b53a351557a47e3da5f7b6142e0713.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: If I Can't Change Your Mind
+  album: Copper Blue
+  played_at_utc: '2020-07-16T09:20:45Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/If+I+Can%27t+Change+Your+Mind
+  mbid_track: 05d0d293-06f6-3b3a-a277-a32366150327
+  mbid_artist: null
+  mbid_album: 06519690-5882-4df1-bbd0-a677dd6c6b11
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b5b8dfec61a945a7c5782e66bf7fceb5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kraftklub
+  track: Band mit dem K
+  album: Keine Nacht für Niemand
+  played_at_utc: '2020-07-16T09:16:59Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/Band+mit+dem+K
+  mbid_track: 35da3da0-52d4-4e2c-9c9c-ef5370e21f76
+  mbid_artist: ecfc32cb-b26e-41a0-8b41-7100c6a3fcc4
+  mbid_album: 23b99f6b-6632-4542-8e5a-a922de54ddb0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/01836397e187735ce2e11dd06a51a995.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Taron Egerton
+  track: Saturday Night's Alright (For Fighting)
+  album: Rocketman (Music from the Motion Picture)
+  played_at_utc: '2020-07-16T09:13:49Z'
+  lastfm_url: https://www.last.fm/music/Taron+Egerton/_/Saturday+Night%27s+Alright+(For+Fighting)
+  mbid_track: null
+  mbid_artist: 3c17c228-b4f2-485a-9d7c-ada98d9662dd
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e438c6ff31038e6aa4a4c6e1a74f29ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Wombats
+  track: Lemon To A Knife Fight
+  album: Lemon to a Knife Fight
+  played_at_utc: '2020-07-16T09:10:22Z'
+  lastfm_url: https://www.last.fm/music/The+Wombats/_/Lemon+To+A+Knife+Fight
+  mbid_track: 78935153-b3f5-4110-86c8-51deceb4a349
+  mbid_artist: e105c272-b5d7-4135-82ef-d60bded54345
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d6a3cefda5aafc6e0ac6fe47dbd360a7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Go! Team
+  track: Semicircle Song
+  album: SEMICIRCLE
+  played_at_utc: '2020-07-16T09:06:52Z'
+  lastfm_url: https://www.last.fm/music/The+Go!+Team/_/Semicircle+Song
+  mbid_track: 2dfe04aa-cb31-42c6-9901-6a8c993ae8d9
+  mbid_artist: 8a396a9c-2e4f-47e2-a587-c26e93a0953f
+  mbid_album: 10b00d21-7285-44eb-ad4f-d657ed110a8d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb1a361c96552dcf98f71dd8acfeab2b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Die, All Right!
+  album: Veni Vidi Vicious
+  played_at_utc: '2020-07-16T09:04:06Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Die,+All+Right!
+  mbid_track: 1387ce94-2810-3557-a05c-77836f8257cf
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 13e2716a-6eb4-3575-881e-bb9cf48aeda2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e404fc27fa684d719b115bcb5d2cd8b0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Knack
+  track: My Sharona
+  album: Get The Knack
+  played_at_utc: '2020-07-16T08:59:11Z'
+  lastfm_url: https://www.last.fm/music/The+Knack/_/My+Sharona
+  mbid_track: 0bc7cc98-7c06-4911-a2b6-d0acbc46085b
+  mbid_artist: null
+  mbid_album: 25d7097a-eb3c-4bfa-8e7a-2fd6672c2d31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a3c30126bdc4ef2833dc57fb89ee25e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Love It
+  album: I Love It
+  played_at_utc: '2020-07-16T08:56:36Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Love+It
+  mbid_track: 7fa7e2b3-0455-4b67-bc58-7552c04d5a35
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Everclear
+  track: Heroin Girl
+  album: Sparkle And Fade
+  played_at_utc: '2020-07-16T08:54:13Z'
+  lastfm_url: https://www.last.fm/music/Everclear/_/Heroin+Girl
+  mbid_track: 6f52cdd6-8910-4998-b92d-393619c28ded
+  mbid_artist: 3604c99d-c146-4276-aa0c-9376d333aeb8
+  mbid_album: 13f7fe43-7797-4425-86fa-174038a84639
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ace720f6166146ef55fa8ac52d947b2f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mountain Goats
+  track: This Year
+  album: The Sunset Tree
+  played_at_utc: '2020-07-16T08:50:19Z'
+  lastfm_url: https://www.last.fm/music/The+Mountain+Goats/_/This+Year
+  mbid_track: 80057822-9ff9-4777-a279-162686235166
+  mbid_artist: 9639cd52-c351-4a17-9797-58880e95a7ef
+  mbid_album: 2d66c5e3-c1f0-440c-96b7-fd4578ecb8c7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/153955c4d6e20fd1ed6b45738676be42.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Baboon Show
+  track: Holiday
+  album: Radio Rebelde
+  played_at_utc: '2020-07-16T08:47:18Z'
+  lastfm_url: https://www.last.fm/music/The+Baboon+Show/_/Holiday
+  mbid_track: 105e88d2-8557-4f75-a9c1-604fbf2d867c
+  mbid_artist: 98e26691-7590-4d7d-82a5-e389c010016b
+  mbid_album: 02c49e31-361c-4e9e-a9c2-4971292d9992
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1324f8ddd5b23d6c882530bbb9665b30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fleetwood Mac
+  track: Everywhere - 2017 Remaster
+  album: Tango in the Night (Deluxe Edition)
+  played_at_utc: '2020-07-16T08:43:32Z'
+  lastfm_url: https://www.last.fm/music/Fleetwood+Mac/_/Everywhere+-+2017+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f62b785112ce1a770e7f712df259962b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Avicii
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-16T08:40:31Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Avicii
+  mbid_track: c865e898-a27f-4945-90cb-b92e0feb3089
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Danke für die Angst
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-16T08:36:18Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Danke+f%C3%BCr+die+Angst
+  mbid_track: 3bcef0d5-83c7-467b-bf61-1ebec0446526
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Kriegerin
+  album: Jade
+  played_at_utc: '2020-07-16T08:33:27Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Kriegerin
+  mbid_track: 64474470-561c-4b90-9556-161ba9dc19de
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Silberblick & Scherenhände
+  album: Jade
+  played_at_utc: '2020-07-16T08:30:17Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Silberblick+&+Scherenh%C3%A4nde
+  mbid_track: ae249cff-ce33-491a-8b51-fc05a5f9a087
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Method of Groove
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:58:35Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Method+of+Groove
+  mbid_track: 9d5fbd6a-db2d-3fcf-a57a-00a0824b6dd7
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Respect
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:54:22Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Respect
+  mbid_track: 28059a36-46c4-3c5c-9e34-759874357011
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: My Eyes
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:51:35Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/My+Eyes
+  mbid_track: 33a48373-7234-4ed0-82c0-f2a4ab8693e9
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Bad Seed
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:45:57Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Bad+Seed
+  mbid_track: e1a4fefa-e46a-4784-9fce-04980e5e1d5c
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Thursday
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:43:45Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Thursday
+  mbid_track: 5ec5bf1b-fc31-33a5-86ca-712ff523a3c5
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Words and Music
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:38:31Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Words+and+Music
+  mbid_track: f778605d-9a19-3be0-91ef-e95e4acc29e1
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Through and Through
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:35:26Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Through+and+Through
+  mbid_track: 029d0b92-005c-46e7-a692-5d121eaae619
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: River Runs Red
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:33:32Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/River+Runs+Red
+  mbid_track: 144e133a-7896-3c55-a195-b76108547df0
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Monday
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:32:01Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Monday
+  mbid_track: 097bb26b-304e-4c23-8e44-31b0cf8f9aa1
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Underground
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:27:19Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Underground
+  mbid_track: e52d03e3-1ed7-4693-bb41-523b7969451a
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: This Time
+  album: River Runs Red
+  played_at_utc: '2020-07-15T13:21:39Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/This+Time
+  mbid_track: 09a6e8c3-ee9b-37f0-8002-e2eed26b8e69
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: 183ef8af-60ef-3426-98ee-6c0e6d7ed091
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e14316f319e180bb7b7c6ff4c227f547.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Brainsaw - Incl. Hidden Track "You Are My Sunshine"
+  album: Troublegum
+  played_at_utc: '2020-07-15T13:16:53Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Brainsaw+-+Incl.+Hidden+Track+%22You+Are+My+Sunshine%22
+  mbid_track: null
+  mbid_artist: 85226286-349a-4046-8dcf-f75b32baa6b1
+  mbid_album: 08e77681-0380-428f-86a7-3a1b4985f985
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/820c468ad9e5016569df26dfe033ddd5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Lonely, Cryin’ Only - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T13:14:15Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Lonely,+Cryin%E2%80%99+Only+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Church of Noise - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T13:11:29Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Church+of+Noise+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Diane - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T13:06:59Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Diane+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Loose - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T13:03:56Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Loose+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Stories - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T13:01:02Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Stories+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Die Laughing - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:58:12Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Die+Laughing+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Trigger Inside - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:54:12Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Trigger+Inside+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Nowhere - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:51:46Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Nowhere+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Turn - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:47:54Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Turn+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Opal Mantra - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:45:31Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Opal+Mantra+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Screamager - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:42:50Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Screamager+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Teethgrinder - 2020 Version
+  album: Greatest Hits (2020 Versions)
+  played_at_utc: '2020-07-15T12:39:22Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Teethgrinder+-+2020+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be3ee846ce2d8c29d0df85386d3cdb98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Nocturnal Me
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-15T08:59:17Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Nocturnal+Me
+  mbid_track: 03a96adc-3578-41e6-a120-1d372dc81153
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Bible
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-15T08:54:03Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Bible
+  mbid_track: 2547c4fb-e439-4e96-844b-35d0f4801b88
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ghuleh / Zombie Queen
+  album: Infestissumam
+  played_at_utc: '2020-07-15T08:47:29Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ghuleh+%2F+Zombie+Queen
+  mbid_track: 067055a9-34a5-42ee-8e4c-6d262726350d
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Secular Haze
+  album: Infestissumam
+  played_at_utc: '2020-07-15T08:39:59Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Secular+Haze
+  mbid_track: 0c1041f1-ef5c-3822-b546-097eeb8c5ec3
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Majesty
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-15T08:34:48Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Majesty
+  mbid_track: 06bd3468-fc0f-447f-8304-4ed14d8ed64c
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Crucified
+  album: If You Have Ghost
+  played_at_utc: '2020-07-15T08:29:23Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Crucified
+  mbid_track: 18f7e1a0-7d50-42e3-9760-29089d7308f0
+  mbid_artist: null
+  mbid_album: 6b9a25f3-8a27-43e9-b958-d24842409b32
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cf13a329a5994bf2cbd8f1d1e839f0a9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Spirit
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-15T08:24:10Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Spirit
+  mbid_track: 224227ff-f526-4d3f-9750-62e928871405
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Satan Prayer
+  album: Opus Eponymous
+  played_at_utc: '2020-07-15T08:18:55Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Satan+Prayer
+  mbid_track: 4546987b-eb0c-372e-8dc2-84df9a515b13
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Jigolo Har Megiddo
+  album: Infestissumam
+  played_at_utc: '2020-07-15T08:14:17Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Jigolo+Har+Megiddo
+  mbid_track: 6ecfd912-3c63-3040-87b7-549ee4450f36
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Stand by Him
+  album: Opus Eponymous
+  played_at_utc: '2020-07-15T08:10:18Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Stand+by+Him
+  mbid_track: 16560e19-cc6f-4604-a169-1edaf6a587f1
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Deus in Absentia
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-15T08:06:21Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Deus+in+Absentia
+  mbid_track: 0874c5dc-cd5b-4d28-b108-f4def921ff06
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Elizabeth
+  album: Opus Eponymous
+  played_at_utc: '2020-07-15T08:00:45Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Elizabeth
+  mbid_track: 09e40d0a-5cd6-45d6-9425-bc5a91831bcc
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: RVIVR
+  track: The Tide
+  album: The Tide
+  played_at_utc: '2020-07-14T15:48:47Z'
+  lastfm_url: https://www.last.fm/music/RVIVR/_/The+Tide
+  mbid_track: 801589de-b6c1-4994-8c23-0f255f202230
+  mbid_artist: 7fbbe243-a53e-4c80-8ad5-2a736d95c502
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4fab51079e591fd2be7a15c2a68376e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Brian Fallon
+  track: Open All Night
+  album: Painkillers
+  played_at_utc: '2020-07-14T15:45:10Z'
+  lastfm_url: https://www.last.fm/music/Brian+Fallon/_/Open+All+Night
+  mbid_track: 745ff4a6-6dc6-403b-8648-7b8a226fe411
+  mbid_artist: 20d7beef-118f-493c-99f9-3931835cb658
+  mbid_album: 2e6c2bd3-9c32-46bf-a607-29af47a06626
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f412beaf96fe4f7eea07ec3abc5f44e7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jawbreaker
+  track: Accident Prone
+  album: Dear You
+  played_at_utc: '2020-07-14T15:38:56Z'
+  lastfm_url: https://www.last.fm/music/Jawbreaker/_/Accident+Prone
+  mbid_track: 03d22e44-7edc-366e-8689-fb23c59e2265
+  mbid_artist: ec88cdc3-0517-4951-b5ef-7323e7316db0
+  mbid_album: 7086c733-4ced-4f36-b024-74404bb7ab80
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e6fdc2677c0e0e3405922bfc08af3a47.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jets to Brazil
+  track: Chinatown
+  album: Orange Rhyming Dictionary
+  played_at_utc: '2020-07-14T15:33:19Z'
+  lastfm_url: https://www.last.fm/music/Jets+to+Brazil/_/Chinatown
+  mbid_track: 39ae14e8-3ab3-3362-8ac4-4a8f0f13f577
+  mbid_artist: 675ec992-a8e4-41f8-b28b-1aad0c8a9ad1
+  mbid_album: 5ce390b1-7f2f-46a3-9ef4-536b2638e84d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e61535c3b4a9b99c3f3db0b5f28ebc65.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Born To Raise Hell
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T15:31:02Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Born+To+Raise+Hell
+  mbid_track: 0a6bf6b5-e285-45ca-9999-df2699f1a83b
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fucked Up
+  track: Turn The Season
+  album: David Comes To Life
+  played_at_utc: '2020-07-14T15:26:58Z'
+  lastfm_url: https://www.last.fm/music/Fucked+Up/_/Turn+The+Season
+  mbid_track: 2acdd276-b9f6-4a02-bac7-350e3fd1f9f8
+  mbid_artist: 19202b40-eb93-48a0-b6fc-fce9568182aa
+  mbid_album: 654ea917-7648-4988-9400-d413ebd2e2f3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/561e8a746a6c41c788ef70335445a947.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Menzingers
+  track: After the Party
+  album: After the Party
+  played_at_utc: '2020-07-14T15:23:08Z'
+  lastfm_url: https://www.last.fm/music/The+Menzingers/_/After+the+Party
+  mbid_track: 377d3755-40e0-4280-a696-5331b58e66d9
+  mbid_artist: 3071d829-b9ca-4499-b4f5-74d6d8531aed
+  mbid_album: 10dde269-6b47-445b-a497-8b1f1203d03a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e6e115d68486dcde60f3c4ac69526d6f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Brian Fallon
+  track: Long Drives
+  album: Painkillers
+  played_at_utc: '2020-07-14T15:19:33Z'
+  lastfm_url: https://www.last.fm/music/Brian+Fallon/_/Long+Drives
+  mbid_track: 61bcbb41-8496-47c3-a699-6ae6e3af9956
+  mbid_artist: 20d7beef-118f-493c-99f9-3931835cb658
+  mbid_album: 2e6c2bd3-9c32-46bf-a607-29af47a06626
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f412beaf96fe4f7eea07ec3abc5f44e7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: AAA
+  album: MPLS
+  played_at_utc: '2020-07-14T15:16:03Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/AAA
+  mbid_track: 9e24c29b-f2d3-4da2-b05a-bfc9387d73cb
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: c10977a8-7461-46a7-9939-923876148802
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b1316cdde4154d6295ecea8a7f67cd94.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hot Water Music
+  track: Trusty Chords
+  album: Caution
+  played_at_utc: '2020-07-14T15:13:13Z'
+  lastfm_url: https://www.last.fm/music/Hot+Water+Music/_/Trusty+Chords
+  mbid_track: 07284d15-1a9f-417f-aa2a-15490a1b1f0b
+  mbid_artist: c83907ee-8b5a-4547-8f68-96572243ea7f
+  mbid_album: 0adc628c-ad64-39cd-b882-3be9a2af1f1b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e43f80df35224702c7e6c805b4187175.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spanish Love Songs
+  track: Routine Pain
+  album: Brave Faces Everyone
+  played_at_utc: '2020-07-14T15:08:49Z'
+  lastfm_url: https://www.last.fm/music/Spanish+Love+Songs/_/Routine+Pain
+  mbid_track: 87fef2f3-9cdd-4d9b-94ea-76beeb857c55
+  mbid_artist: 5c9dd772-a38f-4873-baa8-4b5d9dff3990
+  mbid_album: 4da96dbd-1d81-4372-bf35-78c916077ca0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7804d38ed40af5ab766f88d4a7bc4bdf.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Menzingers
+  track: America (You're Freaking Me Out)
+  album: Hello Exile
+  played_at_utc: '2020-07-14T15:05:14Z'
+  lastfm_url: https://www.last.fm/music/The+Menzingers/_/America+(You%27re+Freaking+Me+Out)
+  mbid_track: 215e7186-2a59-46c4-865d-900c4ca144fc
+  mbid_artist: 3071d829-b9ca-4499-b4f5-74d6d8531aed
+  mbid_album: 9b95fcbc-d05c-4b05-9191-721e60e8a813
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cbef399b8286a4046f7df280ceaf6e74.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: We Are Nothing
+  album: Cheap Thrills on a Dead End Street
+  played_at_utc: '2020-07-14T15:02:45Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/We+Are+Nothing
+  mbid_track: 4ab45f3c-5607-4465-ad0c-ec7deeb068f9
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0c5df170-cf36-4bf3-b471-efe253ff595c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/92611045d30542ecc23e53191ce81909.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Bar No One
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:55:50Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Bar+No+One
+  mbid_track: 1d9641bf-4836-4891-9e6c-b851f8eae127
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Kicking Over Bottles
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:53:07Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Kicking+Over+Bottles
+  mbid_track: 1fbde8a4-8ec6-4492-ba91-88ff490efeb4
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Sticky Thumbs
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:50:22Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Sticky+Thumbs
+  mbid_track: 321d73c3-d69a-47cc-85d3-765d9d7dda21
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Born To Raise Hell
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:48:04Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Born+To+Raise+Hell
+  mbid_track: 0a6bf6b5-e285-45ca-9999-df2699f1a83b
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Stiff
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:45:02Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Stiff
+  mbid_track: 542e8f70-1f73-446c-99a7-1f462e8aaf86
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Nowhere Bus
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:43:04Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Nowhere+Bus
+  mbid_track: 21f4b39b-2012-4e44-b8ab-c1d4478ef203
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Nobody Say Nothing
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:40:27Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Nobody+Say+Nothing
+  mbid_track: 223a8187-c65e-43e4-add3-743ae8406eff
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Tommy In the 80s
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:37:29Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Tommy+In+the+80s
+  mbid_track: 6337f16b-204b-46a1-911c-4cb3a1d301e3
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Bam Rang Rang
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:33:55Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Bam+Rang+Rang
+  mbid_track: 0312f885-faff-49fb-8e62-029d66711e36
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: Let It Ride
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:30:42Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/Let+It+Ride
+  mbid_track: 6cd5ac8a-e974-4723-923b-abfc8f6a0b79
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Beach Slang
+  track: All the Kids In LA
+  album: The Deadbeat Bang of Heartbreak City
+  played_at_utc: '2020-07-14T14:26:01Z'
+  lastfm_url: https://www.last.fm/music/Beach+Slang/_/All+the+Kids+In+LA
+  mbid_track: 94f9e8cf-1f78-4952-99f5-bfe526854c08
+  mbid_artist: 3af2bc4c-b5b0-4fb5-91e3-d2290a1bc614
+  mbid_album: 0a100879-3e72-4da4-b78f-720557388a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/349567bd9be4edd75e88c4f19e6e19cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Genesis
+  album: Opus Eponymous
+  played_at_utc: '2020-07-14T14:24:49Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Genesis
+  mbid_track: 4e60f9b8-af28-4995-b0e1-f1af46eb86ff
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Mummy Dust
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-14T14:10:36Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Mummy+Dust
+  mbid_track: 3cdaba8a-4576-42f3-8119-b9e6a7994720
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Mary on a Cross
+  album: Seven Inches of Satanic Panic
+  played_at_utc: '2020-07-14T14:06:31Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Mary+on+a+Cross
+  mbid_track: c67845df-c1c1-432b-9dd9-5a24eced84d4
+  mbid_artist: null
+  mbid_album: 1774608c-698c-49ac-a4fa-6c68b5a825eb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/35fdd21456714d50a1cb05e6287913e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Per Aspera Ad Inferi
+  album: Infestissumam
+  played_at_utc: '2020-07-14T14:02:26Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Per+Aspera+Ad+Inferi
+  mbid_track: 3648394e-52ca-4bd9-b471-57d255d6c2f1
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Monstrance Clock
+  album: Infestissumam
+  played_at_utc: '2020-07-14T13:58:21Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Monstrance+Clock
+  mbid_track: 61c47fe2-4951-4b64-8904-150e5efda5a5
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Life Eternal
+  album: Prequelle
+  played_at_utc: '2020-07-14T13:51:45Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Life+Eternal
+  mbid_track: 024b20bd-aeb2-4cc8-91b0-82c39643f0ff
+  mbid_artist: null
+  mbid_album: 079bf359-e3cc-443d-a072-507c64678433
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9344e9c24a21f641c1ed2e6a9d6afef9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Absolution
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-14T13:48:19Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Absolution
+  mbid_track: e4f2aed5-06fa-422f-b429-922173218c14
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: If You Have Ghosts
+  album: If You Have Ghost
+  played_at_utc: '2020-07-14T13:43:35Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/If+You+Have+Ghosts
+  mbid_track: 70b1e036-5a4e-43f8-a7e6-26b0fd9c662a
+  mbid_artist: null
+  mbid_album: 6b9a25f3-8a27-43e9-b958-d24842409b32
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cf13a329a5994bf2cbd8f1d1e839f0a9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Con Clavi Con Dio
+  album: Opus Eponymous
+  played_at_utc: '2020-07-14T13:39:59Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Con+Clavi+Con+Dio
+  mbid_track: 0ad067ec-a8ec-4ef8-9e2a-d6290d323303
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Faith
+  album: Prequelle
+  played_at_utc: '2020-07-14T13:36:25Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Faith
+  mbid_track: eae0388d-cc90-464c-b459-9698aa8b728d
+  mbid_artist: null
+  mbid_album: 079bf359-e3cc-443d-a072-507c64678433
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9344e9c24a21f641c1ed2e6a9d6afef9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Ritual
+  album: Opus Eponymous
+  played_at_utc: '2020-07-14T13:28:22Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Ritual
+  mbid_track: 04e3e410-9444-48f5-977a-4ae1578120e6
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Year Zero
+  album: Infestissumam
+  played_at_utc: '2020-07-14T13:23:53Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Year+Zero
+  mbid_track: 3ebdb0eb-58c8-440d-b0c3-c0a89c545cde
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: He Is
+  album: Meliora
+  played_at_utc: '2020-07-14T13:18:33Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/He+Is
+  mbid_track: f6264689-5a97-4750-853d-3946681cb298
+  mbid_artist: null
+  mbid_album: 5ad39802-a528-4063-b18d-4dee85f4f479
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e2e0dd3520300674b8640f45817d8542.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Rats
+  album: Prequelle
+  played_at_utc: '2020-07-14T13:13:50Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Rats
+  mbid_track: 14304278-0451-48b3-b555-5d84d693608b
+  mbid_artist: null
+  mbid_album: 079bf359-e3cc-443d-a072-507c64678433
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9344e9c24a21f641c1ed2e6a9d6afef9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Cirice
+  album: Meliora
+  played_at_utc: '2020-07-14T13:09:29Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Cirice
+  mbid_track: 6e21518a-6089-4f35-beba-5f3c53af3a6f
+  mbid_artist: null
+  mbid_album: 5ad39802-a528-4063-b18d-4dee85f4f479
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e2e0dd3520300674b8640f45817d8542.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Dance Macabre
+  album: Prequelle
+  played_at_utc: '2020-07-14T13:03:27Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Dance+Macabre
+  mbid_track: 67376cfd-2856-4c19-941e-959093994fa9
+  mbid_artist: null
+  mbid_album: 079bf359-e3cc-443d-a072-507c64678433
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9344e9c24a21f641c1ed2e6a9d6afef9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Square Hammer
+  album: Meliora (Deluxe Edition)
+  played_at_utc: '2020-07-14T12:59:47Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Square+Hammer
+  mbid_track: d8238961-00f3-4955-af02-41b9c3d17051
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e16265571c4e849cf71162e007b8fd7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ki:Theory
+  track: I Wanna Run (feat. Maura Davis)
+  album: KITTY HAWK
+  played_at_utc: '2020-07-07T15:56:49Z'
+  lastfm_url: https://www.last.fm/music/Ki:Theory/_/I+Wanna+Run+(feat.+Maura+Davis)
+  mbid_track: null
+  mbid_artist: 407aac3b-696c-4fef-af14-aac7121a7041
+  mbid_album: 59a0f6c5-9378-48fb-9d77-62427503d2d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d2f675964993479ac70dbb9683d025d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ween
+  track: If You Could Save Yourself (You'd Save Us All)
+  album: Quebec
+  played_at_utc: '2020-07-07T15:52:01Z'
+  lastfm_url: https://www.last.fm/music/Ween/_/If+You+Could+Save+Yourself+(You%27d+Save+Us+All)
+  mbid_track: 082da741-0b5d-3a24-95a9-12922f543dc4
+  mbid_artist: c0eee88b-47f2-4cd2-ac48-a045e902a432
+  mbid_album: 5a5d8a71-ef7b-4115-a686-318638aec5c2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a644812bba0fe4bf3de21dd2681e2b5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Randy Newman
+  track: God's Song (That's Why I Love Mankind)
+  album: The Randy Newman Songbook
+  played_at_utc: '2020-07-07T15:48:36Z'
+  lastfm_url: https://www.last.fm/music/Randy+Newman/_/God%27s+Song+(That%27s+Why+I+Love+Mankind)
+  mbid_track: 63f365af-ecc2-3110-8252-cb8870c77295
+  mbid_artist: da7bb7d8-557d-4635-9ca1-e6e985525bd5
+  mbid_album: 10f401ba-956d-4315-a7c9-51d142d777d0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/debd23159e9c3864c55bfabc515b4bc4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: rozzi
+  track: Creep
+  album: 'The Morning Show: Season 1 (Apple TV+ Original Series Soundtrack)'
+  played_at_utc: '2020-07-07T15:43:38Z'
+  lastfm_url: https://www.last.fm/music/rozzi/_/Creep
+  mbid_track: f454e80f-1693-4abd-a0f4-9afe748243b6
+  mbid_artist: bcf34355-19bc-482c-b349-4c2ae7683955
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/343ff6c7f5f682937fd2d1242fd285ce.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daisy Dash
+  track: New York, New York
+  album: New York, New York
+  played_at_utc: '2020-07-07T15:40:33Z'
+  lastfm_url: https://www.last.fm/music/Daisy+Dash/_/New+York,+New+York
+  mbid_track: fc0c3574-b0d1-4b03-a562-35c92b18271c
+  mbid_artist: null
+  mbid_album: e6271c2e-59c4-493d-9d69-7c89d7278bd5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ddc8679047fe2adcb78825b6672a19f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Benjamin Clementine
+  track: Nemesis
+  album: At Least For Now
+  played_at_utc: '2020-07-07T15:35:29Z'
+  lastfm_url: https://www.last.fm/music/Benjamin+Clementine/_/Nemesis
+  mbid_track: 0e28460e-9cd6-44b5-9ed3-d6b5bf92a760
+  mbid_artist: 578e5d1c-be21-4158-b147-30aad67f207d
+  mbid_album: 3d2db87e-c6d3-44c6-8da5-12e6247c336c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b129447c9dfde9e1b562b1cc2d6c604.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Godspeed
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-07T15:34:31Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Godspeed
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: A Little Rain Has Never Hurt No One
+  album: Sorry, kid.
+  played_at_utc: '2020-07-07T15:32:13Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/A+Little+Rain+Has+Never+Hurt+No+One
+  mbid_track: null
+  mbid_artist: 8cb0ebc9-db95-4748-81df-8e1e24e70541
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc9b0c06bbb308c587d66ba649eac992.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Charlie Dée
+  track: Simple Life
+  album: Simple Life
+  played_at_utc: '2020-07-07T15:28:55Z'
+  lastfm_url: https://www.last.fm/music/Charlie+D%C3%A9e/_/Simple+Life
+  mbid_track: null
+  mbid_artist: 38f230ce-531a-40bf-b9e5-a7e2ff36993f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1af4ef884d1ebd872bc29f5f53a18a23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Freedom Fry
+  track: Clint Eastwood
+  album: Rio Grande
+  played_at_utc: '2020-07-07T15:25:14Z'
+  lastfm_url: https://www.last.fm/music/Freedom+Fry/_/Clint+Eastwood
+  mbid_track: ecf85f4b-4e85-4365-9b36-1816f58379e9
+  mbid_artist: e5fef947-7702-4b13-9e68-538d7d74b8bd
+  mbid_album: 4296af91-b27e-456c-9bf6-d2eb346d4707
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b699fd0c39f5e514478fb38a01b8d1d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jessica Pratt
+  track: As The World Turns
+  album: Quiet Signs
+  played_at_utc: '2020-07-07T15:22:02Z'
+  lastfm_url: https://www.last.fm/music/Jessica+Pratt/_/As+The+World+Turns
+  mbid_track: 42e513de-33b1-4c8a-9c99-29e21f8a806e
+  mbid_artist: 931852b5-394b-40ac-9bd3-e41c38ea564f
+  mbid_album: 2e181ff0-a30c-48e8-8928-df5d99506d08
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7be44d84ca765a71e9648e39fb9cd6f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A Balladeer
+  track: Swim With Sam - Demo
+  album: Clutter, Volume 1
+  played_at_utc: '2020-07-07T15:17:51Z'
+  lastfm_url: https://www.last.fm/music/A+Balladeer/_/Swim+With+Sam+-+Demo
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec435603aa7e308ca59c7161047f0be0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kelly Clarkson
+  track: Heat
+  album: Meaning of Life
+  played_at_utc: '2020-07-07T15:14:42Z'
+  lastfm_url: https://www.last.fm/music/Kelly+Clarkson/_/Heat
+  mbid_track: 4c81d450-cd9f-4262-bf5f-fbdda83c3f3b
+  mbid_artist: d339efbb-77b9-4147-ba9e-59f2f24550b2
+  mbid_album: 0e656760-5c06-4c07-bc53-a7e755562ea5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e8a5540595cb10301052f2eb669ac8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Oranssi Pazuzu
+  track: Oikeamielisten sali
+  album: Mestarin kynsi
+  played_at_utc: '2020-07-07T08:36:52Z'
+  lastfm_url: https://www.last.fm/music/Oranssi+Pazuzu/_/Oikeamielisten+sali
+  mbid_track: b33cdecc-b467-43dc-aabd-f81245a7287f
+  mbid_artist: e9d2cdf6-d485-4074-9a53-9990c9a4d8b1
+  mbid_album: 0ac37db2-a312-4ae6-baff-e30569e09f25
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/395080bc93a5cdb784ab2b8423f9b47b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dool
+  track: Sulphur & Starlight
+  album: Summerland
+  played_at_utc: '2020-07-07T08:30:09Z'
+  lastfm_url: https://www.last.fm/music/Dool/_/Sulphur+&+Starlight
+  mbid_track: d1e270d4-de2c-4b74-954b-f528126adbe8
+  mbid_artist: 24412926-c7bd-48e8-afad-8a285b42e131
+  mbid_album: 020831e1-d7ff-4c58-b89b-527538c38822
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3d04685c7e012c0377efdbba7074cbd9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tribulation
+  track: Melancholia
+  album: The Children of the Night
+  played_at_utc: '2020-07-07T08:24:52Z'
+  lastfm_url: https://www.last.fm/music/Tribulation/_/Melancholia
+  mbid_track: 5db1d25c-6ab7-4270-988f-d6d7245310e0
+  mbid_artist: a986ffff-d7ad-48e3-ba77-d7763b935649
+  mbid_album: 1b0c576b-661e-4c03-a46f-2396fcb3787d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ff9aa060f81a7e7d1706b05559b921c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Knot
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:21:38Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Knot
+  mbid_track: 20fdc6c7-8039-4043-9e45-a77c312ef3a5
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Knot
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:18:22Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Knot
+  mbid_track: 20fdc6c7-8039-4043-9e45-a77c312ef3a5
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Bruise Violet
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:15:35Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Bruise+Violet
+  mbid_track: 7781f05e-80f8-45df-bb1a-50fc1e25dee2
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: The Bomb
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:12:38Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/The+Bomb
+  mbid_track: 906a7a62-a4f6-4928-a454-638ec5e7fa15
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Puss
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:09:20Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Puss
+  mbid_track: 1031e0a5-30ed-443c-bf6f-aab1700d0493
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Who You Drivin' Now
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:07:05Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Who+You+Drivin%27+Now
+  mbid_track: 238f8701-18f3-4e04-ae71-c1c4b0e87d71
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: 100%
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T08:03:58Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/100%25
+  mbid_track: 667847eb-468e-4303-a194-edfce2385514
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Can I Run
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T07:59:50Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Can+I+Run
+  mbid_track: a7fa6b6c-06ae-40d3-aed7-ac9b5a3df34c
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Ghost Highway
+  album: Grungetown Hooligans II
+  played_at_utc: '2020-07-07T07:56:16Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Ghost+Highway
+  mbid_track: 08912f07-5e05-441a-a4e0-8141063158eb
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 3eed0b8f-1446-4e6c-9981-8af3d04b8abb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b808371ba45dd31882dc1eeee2db199.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Go! Team
+  track: Semicircle Song
+  album: SEMICIRCLE
+  played_at_utc: '2020-07-05T07:17:14Z'
+  lastfm_url: https://www.last.fm/music/The+Go!+Team/_/Semicircle+Song
+  mbid_track: 2dfe04aa-cb31-42c6-9901-6a8c993ae8d9
+  mbid_artist: 8a396a9c-2e4f-47e2-a587-c26e93a0953f
+  mbid_album: 10b00d21-7285-44eb-ad4f-d657ed110a8d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb1a361c96552dcf98f71dd8acfeab2b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Die, All Right!
+  album: Veni Vidi Vicious
+  played_at_utc: '2020-07-05T07:14:28Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Die,+All+Right!
+  mbid_track: 1387ce94-2810-3557-a05c-77836f8257cf
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 13e2716a-6eb4-3575-881e-bb9cf48aeda2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e404fc27fa684d719b115bcb5d2cd8b0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Knack
+  track: My Sharona
+  album: Get The Knack
+  played_at_utc: '2020-07-05T07:09:32Z'
+  lastfm_url: https://www.last.fm/music/The+Knack/_/My+Sharona
+  mbid_track: 0bc7cc98-7c06-4911-a2b6-d0acbc46085b
+  mbid_artist: null
+  mbid_album: 25d7097a-eb3c-4bfa-8e7a-2fd6672c2d31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a3c30126bdc4ef2833dc57fb89ee25e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Love It
+  album: I Love It
+  played_at_utc: '2020-07-05T07:06:57Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Love+It
+  mbid_track: 7fa7e2b3-0455-4b67-bc58-7552c04d5a35
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Everclear
+  track: Heroin Girl
+  album: Sparkle And Fade
+  played_at_utc: '2020-07-05T07:04:33Z'
+  lastfm_url: https://www.last.fm/music/Everclear/_/Heroin+Girl
+  mbid_track: 6f52cdd6-8910-4998-b92d-393619c28ded
+  mbid_artist: 3604c99d-c146-4276-aa0c-9376d333aeb8
+  mbid_album: 13f7fe43-7797-4425-86fa-174038a84639
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ace720f6166146ef55fa8ac52d947b2f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Mountain Goats
+  track: This Year
+  album: The Sunset Tree
+  played_at_utc: '2020-07-05T07:00:40Z'
+  lastfm_url: https://www.last.fm/music/The+Mountain+Goats/_/This+Year
+  mbid_track: 80057822-9ff9-4777-a279-162686235166
+  mbid_artist: 9639cd52-c351-4a17-9797-58880e95a7ef
+  mbid_album: 2d66c5e3-c1f0-440c-96b7-fd4578ecb8c7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/153955c4d6e20fd1ed6b45738676be42.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Baboon Show
+  track: Holiday
+  album: Radio Rebelde
+  played_at_utc: '2020-07-05T06:57:40Z'
+  lastfm_url: https://www.last.fm/music/The+Baboon+Show/_/Holiday
+  mbid_track: 105e88d2-8557-4f75-a9c1-604fbf2d867c
+  mbid_artist: 98e26691-7590-4d7d-82a5-e389c010016b
+  mbid_album: 02c49e31-361c-4e9e-a9c2-4971292d9992
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1324f8ddd5b23d6c882530bbb9665b30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fleetwood Mac
+  track: Everywhere - 2017 Remaster
+  album: Tango in the Night (Deluxe Edition)
+  played_at_utc: '2020-07-05T06:53:52Z'
+  lastfm_url: https://www.last.fm/music/Fleetwood+Mac/_/Everywhere+-+2017+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f62b785112ce1a770e7f712df259962b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Avicii
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-05T06:50:52Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Avicii
+  mbid_track: c865e898-a27f-4945-90cb-b92e0feb3089
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thees Uhlmann
+  track: Danke für die Angst
+  album: Junkies und Scientologen
+  played_at_utc: '2020-07-05T06:46:39Z'
+  lastfm_url: https://www.last.fm/music/Thees+Uhlmann/_/Danke+f%C3%BCr+die+Angst
+  mbid_track: 3bcef0d5-83c7-467b-bf61-1ebec0446526
+  mbid_artist: 585729f5-e22e-402f-a87b-4b86b126cd77
+  mbid_album: 4d41a5d6-1c59-4d0d-8059-cdcf8e2d22b1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b08a687c975440b4a0a78493563d512a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Kriegerin
+  album: Jade
+  played_at_utc: '2020-07-05T06:43:47Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Kriegerin
+  mbid_track: 64474470-561c-4b90-9556-161ba9dc19de
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pascow
+  track: Silberblick & Scherenhände
+  album: Jade
+  played_at_utc: '2020-07-05T06:37:15Z'
+  lastfm_url: https://www.last.fm/music/Pascow/_/Silberblick+&+Scherenh%C3%A4nde
+  mbid_track: ae249cff-ce33-491a-8b51-fc05a5f9a087
+  mbid_artist: 79d4c52d-a904-4bc7-9e4d-17aa99da35d6
+  mbid_album: 05edd912-9084-439d-b7ce-0c1dadf947a7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4cf7ef4291ff590fdb58bb1a902fd993.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moonspell
+  track: Blood Tells (Live at CC Estúdio 2) [Bonus Track Live]
+  album: Memorial (Bonus Track Edition)
+  played_at_utc: '2020-07-04T23:18:56Z'
+  lastfm_url: https://www.last.fm/music/Moonspell/_/Blood+Tells+(Live+at+CC+Est%C3%BAdio+2)+%5BBonus+Track+Live%5D
+  mbid_track: null
+  mbid_artist: 386b19c6-a3d2-414a-bef2-c178572b1cbe
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b10e5b2efae489913b515f7744933a8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Die Laughing
+  album: Troublegum
+  played_at_utc: '2020-07-02T13:08:27Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Die+Laughing
+  mbid_track: 0cc9932b-347b-320a-ac64-8cb6796113c4
+  mbid_artist: 85226286-349a-4046-8dcf-f75b32baa6b1
+  mbid_album: 08e77681-0380-428f-86a7-3a1b4985f985
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/820c468ad9e5016569df26dfe033ddd5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Missionary Man
+  album: Popestar
+  played_at_utc: '2020-07-02T13:05:39Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Missionary+Man
+  mbid_track: 1008c69a-add3-4545-8d8b-e0645be0b4ce
+  mbid_artist: null
+  mbid_album: 55d2f81b-426d-4153-9936-17840fc6f448
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/03479ec845905ae34b8df525d05540c6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Paradise Lost
+  track: Ghosts
+  album: Obsidian
+  played_at_utc: '2020-07-02T13:01:57Z'
+  lastfm_url: https://www.last.fm/music/Paradise+Lost/_/Ghosts
+  mbid_track: 036a7ac6-747e-4a9e-9fa5-524d8ec4180b
+  mbid_artist: 10bf95b6-30e3-44f1-817f-45762cdc0de0
+  mbid_album: 1dd9a32b-1a40-4da3-88ab-c34d1fa1e7f6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06ce36733e5345e26b8a5f4e7501ef7e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Amon Amarth
+  track: Fafner's Gold
+  album: Berserker
+  played_at_utc: '2020-07-02T12:57:20Z'
+  lastfm_url: https://www.last.fm/music/Amon+Amarth/_/Fafner%27s+Gold
+  mbid_track: 0580f0aa-723a-4e8b-b4bb-b687031be44d
+  mbid_artist: 5b687684-ad34-4a9f-b425-0e7aa81fbd38
+  mbid_album: 05ff318b-39ac-4f37-9bde-17f304405733
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a9bb9a162d663dab9918f3df6d953a09.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Gojira
+  track: Flying Whales
+  album: From Mars to Sirius
+  played_at_utc: '2020-07-02T12:52:20Z'
+  lastfm_url: https://www.last.fm/music/Gojira/_/Flying+Whales
+  mbid_track: 1efd1369-dc56-3f0e-9cac-29c98129b9be
+  mbid_artist: null
+  mbid_album: 02c95026-ba08-48a4-8488-2b3d638383d4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1a9f1a24a07ee6031ee76f0bdc175625.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anthrax
+  track: A.I.R.
+  album: Spreading The Disease (Deluxe)
+  played_at_utc: '2020-07-02T12:44:36Z'
+  lastfm_url: https://www.last.fm/music/Anthrax/_/A.I.R.
+  mbid_track: 2413548a-3783-46b2-a3b8-056e84cd15b6
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dd86e65f8f06b1aafeae8aa136f19e64.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Katatonia
+  track: Old Heart Falls
+  album: The Fall of Hearts
+  played_at_utc: '2020-07-02T10:25:19Z'
+  lastfm_url: https://www.last.fm/music/Katatonia/_/Old+Heart+Falls
+  mbid_track: 153b2243-83c6-459d-8c92-e17a6a9312c9
+  mbid_artist: 61ed9c9c-79eb-4e8f-8015-bd599ac0ab49
+  mbid_album: 11369d2f-159f-4455-91a4-713a58282deb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/870926d50ca402275ff0bdc334cd9594.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: The Hint
+  album: Ode to the Flame
+  played_at_utc: '2020-07-02T10:22:12Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/The+Hint
+  mbid_track: 0d604cff-9f1f-4cb4-95d5-7c5a90d313c6
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 66595553-9f32-465f-8c58-d204f60f54f1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ed2940d463346cbd97f44d040d51901.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Monstrance Clock
+  album: Infestissumam
+  played_at_utc: '2020-07-02T10:20:56Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Monstrance+Clock
+  mbid_track: 61c47fe2-4951-4b64-8904-150e5efda5a5
+  mbid_artist: null
+  mbid_album: 3f7ed87a-461a-491c-b437-88c2a4b81f4e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b43b667dd7fe4542a71560271359eda1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Callow
+  album: Cleave
+  played_at_utc: '2020-07-02T10:15:03Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Callow
+  mbid_track: 3a4b6075-bd36-4ca7-a2e6-fd5e0520eb04
+  mbid_artist: 85226286-349a-4046-8dcf-f75b32baa6b1
+  mbid_album: 00faba7e-ef45-416a-8ebc-6d5ce389800c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ad791aea820d4b676cb3fe7e41dda9ea.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Alcest
+  track: Sapphire
+  album: Spiritual Instinct
+  played_at_utc: '2020-07-02T10:12:01Z'
+  lastfm_url: https://www.last.fm/music/Alcest/_/Sapphire
+  mbid_track: 7407de46-b1f8-4a87-94db-4668a6706015
+  mbid_artist: dd77b8da-cdc7-46b8-8a7f-10894ca0490e
+  mbid_album: 0fcb0af5-c48d-439e-a3e5-b130bcfd7b32
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8e23a97b0ab6ca22e1d589c17499e226.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Trivium
+  track: The Heart From Your Hate
+  album: The Sin And The Sentence
+  played_at_utc: '2020-07-02T10:07:00Z'
+  lastfm_url: https://www.last.fm/music/Trivium/_/The+Heart+From+Your+Hate
+  mbid_track: 113f1ac4-54f1-454f-a076-9ed3f28f014a
+  mbid_artist: 1f5ff245-2837-4d4a-a609-e93e544478c3
+  mbid_album: 133005c4-e92a-44d3-a5a2-4f888a2cbc7b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d66e12256ce135f58d9a52486f17fad4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Megadeth
+  track: Skin O' My Teeth - Remastered
+  album: Countdown to Extinction
+  played_at_utc: '2020-07-02T10:02:56Z'
+  lastfm_url: https://www.last.fm/music/Megadeth/_/Skin+O%27+My+Teeth+-+Remastered
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 10814779-b80b-3509-8e79-fe6839ebb558
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/923998ab6997b27d59b7e691e22c6e08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost Brigade
+  track: Departures
+  album: 'IV: One with the Storm'
+  played_at_utc: '2020-07-02T09:59:41Z'
+  lastfm_url: https://www.last.fm/music/Ghost+Brigade/_/Departures
+  mbid_track: 0d48196d-40aa-4f2b-a983-8ade44839410
+  mbid_artist: d78c32f2-fdfb-427a-88d1-4051a96afd07
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06954d74115c4543c5997c693c7fd74a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Faith No More
+  track: Epic
+  album: The Real Thing
+  played_at_utc: '2020-07-02T09:54:42Z'
+  lastfm_url: https://www.last.fm/music/Faith+No+More/_/Epic
+  mbid_track: 9bcdf873-68fa-42ba-b180-ef374269cdee
+  mbid_artist: b15ebd71-a252-417d-9e1c-3e6863da68f8
+  mbid_album: 026c1ce9-0f6b-45a0-8d9c-44293ba7919d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fdd2e46ebe18f4aa24c1ada3468474fb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Therapy?
+  track: Isolation
+  album: Troublegum
+  played_at_utc: '2020-07-02T09:49:48Z'
+  lastfm_url: https://www.last.fm/music/Therapy%3F/_/Isolation
+  mbid_track: 8274d819-37d2-35b2-979c-1eb8f6c35131
+  mbid_artist: 85226286-349a-4046-8dcf-f75b32baa6b1
+  mbid_album: 08e77681-0380-428f-86a7-3a1b4985f985
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/820c468ad9e5016569df26dfe033ddd5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Genesis
+  album: Opus Eponymous
+  played_at_utc: '2020-07-02T09:46:38Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Genesis
+  mbid_track: 4e60f9b8-af28-4995-b0e1-f1af46eb86ff
+  mbid_artist: null
+  mbid_album: 76c94c2c-2a50-4e19-b20a-f687c5311796
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/eb0566486a274ce49b03a3c9af690a24.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Flesh to Nothing
+  album: Desolation
+  played_at_utc: '2020-07-02T09:25:05Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Flesh+to+Nothing
+  mbid_track: 1d71ae3a-9598-41ce-b550-6fdc972eb7b4
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 0402989f-4be8-4553-9af0-fe53fe986107
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/80e12c256d308b1176f94efca65cfc30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Isolation
+  album: Desolation
+  played_at_utc: '2020-07-02T09:17:35Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Isolation
+  mbid_track: 16f3aabf-4cb7-4256-90bd-7af3c955a2d4
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 0402989f-4be8-4553-9af0-fe53fe986107
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/80e12c256d308b1176f94efca65cfc30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Bloodletting
+  album: Desolation
+  played_at_utc: '2020-07-02T09:12:46Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Bloodletting
+  mbid_track: 1fbd02d2-48ed-4ba5-91a3-e83da809277d
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 0402989f-4be8-4553-9af0-fe53fe986107
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/80e12c256d308b1176f94efca65cfc30.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: The Bereaved - Live
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T08:27:32Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/The+Bereaved+-+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Three Gates - Live
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T08:18:29Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Three+Gates+-+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Bloodletting - Live
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T08:11:20Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Bloodletting+-+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: A Conversation with Death
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T08:04:02Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/A+Conversation+with+Death
+  mbid_track: 23bf77d6-3687-4402-9a22-b4db31c1a4a7
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Empty Throne
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T07:59:11Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Empty+Throne
+  mbid_track: 5307be0a-acd1-45d0-ac29-39eaf4a09624
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Khemmis
+  track: Rainbow in the Dark
+  album: Doomed Heavy Metal
+  played_at_utc: '2020-07-02T07:53:08Z'
+  lastfm_url: https://www.last.fm/music/Khemmis/_/Rainbow+in+the+Dark
+  mbid_track: d8c50a27-fb58-4fad-a88d-6ef406ffe3fa
+  mbid_artist: 425780ef-6214-41cb-a867-4a3aafd4c6e3
+  mbid_album: 9ba90e41-c12d-45a7-a3ea-18f8d6f355b9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e81802962e3cbcf861390d6c05be23d1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Eternal Return
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:48:50Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Eternal+Return
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Dynasty of Nails
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:45:02Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Dynasty+of+Nails
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Midgard Serpent (Seasons of Failure)
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:40:21Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Midgard+Serpent+(Seasons+of+Failure)
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Taurus
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:36:00Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Taurus
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Seek + Forget
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:31:31Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Seek+%252B+Forget
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Age of the Absurd
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:27:27Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Age+of+the+Absurd
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: The Knowing
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2020-07-02T07:23:47Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/The+Knowing
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
