@@ -5,69 +5,93 @@ permalink: /musik/
 ---
 
 <style>
-  .music-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;}
-  .music-card{border:1px solid var(--border-color,#e6e6e6);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-  .music-cover{width:100%;aspect-ratio:1/1;object-fit:cover;background:#f6f6f6}
-  .music-body{padding:12px}
-  .music-title{font-weight:600;font-size:0.95rem;line-height:1.2;margin:0 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .music-meta{color:#666;font-size:0.85rem;line-height:1.2;margin:0 0 6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .music-time{color:#888;font-size:0.8rem}
-  .music-actions{margin-top:8px}
-  .btn-link{display:inline-block;font-size:0.8rem;border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
-  .btn-link:hover{background:#fafafa}
+  .music-toolbar{display:flex;justify-content:space-between;align-items:center;margin:0 0 12px}
+  .music-table{width:100%;border-collapse:collapse}
+  .music-table th,.music-table td{padding:10px 8px;border-bottom:1px solid #eee;vertical-align:middle}
+  .music-table th{font-weight:600;color:#555;text-align:left;font-size:.9rem}
+  .music-row:hover{background:#fafafa}
+  .cover{width:42px;height:42px;border-radius:6px;object-fit:cover;background:#f2f2f2}
+  .track{font-weight:600}
+  .sub{color:#666;font-size:.9rem}
+  .btn-play{display:inline-flex;align-items:center;gap:6px;border:1px solid #ddd;border-radius:999px;padding:6px 10px;font-size:.85rem;text-decoration:none;color:#111}
+  .btn-play:hover{background:#f8f8f8}
+  .nowrap{white-space:nowrap}
+  @media (max-width:720px){
+    .hide-sm{display:none}
+    .music-table th,.music-table td{padding:8px 6px}
+  }
 </style>
 
-<h1>Musik</h1>
-<p>Neueste Scrobbles von Last.fm (Cover, Artist · Track · Album).</p>
+<div class="music-toolbar">
+  <h1 style="margin:0">Musik</h1>
+  <div class="sub">Neueste Scrobbles (aus Last.fm)</div>
+</div>
 
 {% comment %}
-  Kombiniere aktuelles und letztes Jahr → sortieren → begrenzen (z.B. 400 Einträge).
-  Das vermeidet, dass alle Jahre geladen werden.
+  Alle Jahre/Monate robust einsammeln (Keys sind Strings), dann sortieren & limitieren.
 {% endcomment %}
-{% assign current_year = "now" | date: "%Y" %}
-{% assign prev_year = current_year | minus: 1 | append: "" %}  {# → String #}
-{% assign curr_year = current_year | append: "" %}
-
 {% assign combined = "" | split: "" %}
-{% for y in curr_year | split: "," %}
-  {% assign y = y | append: "" %}
-  {% if site.data.lastfm[y] %}
-    {% for m in (1..12) %}
-      {% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}
-      {% assign arr = site.data.lastfm[y][mm] %}
-      {% if arr %}{% assign combined = combined | concat: arr %}{% endif %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-{% if site.data.lastfm[prev_year] %}
-  {% for m in (1..12) %}
-    {% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}
-    {% assign arr = site.data.lastfm[prev_year][mm] %}
+{% for ypair in site.data.lastfm %}
+  {% assign months = ypair[1] %}
+  {% for mpair in months %}
+    {% assign arr = mpair[1] %}
     {% if arr %}{% assign combined = combined | concat: arr %}{% endif %}
   {% endfor %}
-{% endif %}
+{% endfor %}
+{% assign combined = combined | sort: "played_at_utc" | reverse %}
+{% assign limit = 500 %}
+{% assign items = combined | slice: 0, limit %}
 
-{% assign items = combined | sort: "played_at_utc" | reverse | slice: 0, 400 %}
-
-
-<div class="music-grid">
+<table class="music-table">
+  <thead>
+    <tr>
+      <th class="hide-sm">Cover</th>
+      <th>Track</th>
+      <th>Artist</th>
+      <th class="hide-sm">Album</th>
+      <th class="nowrap">Zeit</th>
+      <th>Aktion</th>
+    </tr>
+  </thead>
+  <tbody>
   {% for item in items %}
     {% assign img = item.cover_url %}
     {% unless img %}{% assign img = "/assets/placeholder.png" | relative_url %}{% endunless %}
-    <article class="music-card">
-      <img class="music-cover" src="{{ img }}" alt="Cover {{ item.artist }} – {{ item.track }}">
-      <div class="music-body">
-        <h3 class="music-title">{{ item.track }}</h3>
-        <p class="music-meta">{{ item.artist }}{% if item.album %} · <em>{{ item.album }}</em>{% endif %}</p>
-        <p class="music-time">
-          {{ item.played_at_utc | date: "%d.%m.%Y · %H:%M" }} Uhr
-        </p>
-        <div class="music-actions">
-          {% if item.lastfm_url %}
-            <a class="btn-link" href="{{ item.lastfm_url }}" target="_blank" rel="noopener">Auf Last.fm öffnen</a>
-          {% endif %}
-        </div>
-      </div>
-    </article>
+
+    {%- comment -%}
+      Spotify-Search-Link bauen: artist + track (+ album)
+      Tipp: uri_escape ist im Jekyll-Stack verfügbar; falls nicht, cgi_escape verwenden.
+    {%- endcomment -%}
+    {% assign q = item.artist | append: " " | append: item.track %}
+    {% if item.album %}{% assign q = q | append: " " | append: item.album %}{% endif %}
+    {% assign q_enc = q | uri_escape %}
+
+    <tr class="music-row">
+      <td class="hide-sm">
+        <a href="{{ item.lastfm_url }}" target="_blank" rel="noopener">
+          <img class="cover" src="{{ img }}" alt="Cover {{ item.artist }} – {{ item.track }}">
+        </a>
+      </td>
+      <td class="track">
+        <a href="{{ item.lastfm_url }}" target="_blank" rel="noopener">{{ item.track }}</a>
+      </td>
+      <td class="sub">{{ item.artist }}</td>
+      <td class="sub hide-sm">{% if item.album %}{{ item.album }}{% endif %}</td>
+      <td class="sub nowrap" title="{{ item.played_at_utc | date: "%d.%m.%Y %H:%M" }}">
+        {{ item.played_at_utc | date: "%d.%m.%Y · %H:%M" }} Uhr
+      </td>
+      <td>
+        <a class="btn-play" href="https://open.spotify.com/search/{{ q_enc }}" target="_blank" rel="noopener noreferrer">
+          <!-- Play-Icon (SVG) -->
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+          In Spotify
+        </a>
+      </td>
+    </tr>
   {% endfor %}
-</div>
+  </tbody>
+</table>
+
+<p class="sub" style="margin-top:8px">
+  Hinweis: Ohne Spotify-Track-IDs öffnet der Button die Spotify-Suche (Artist/Track/Album).
+</p>
