@@ -36,14 +36,19 @@ jobs:
         run: |
           python scripts/lastfm_sync.py --user heikobielinski
 
+      - name: Build archive pages
+        run: |
+          python scripts/build_music_archive_pages.py
+
       - name: Commit & push changes (if any)
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _data/lastfm
-            git commit -m "chore(lastfm): nightly incremental sync"
+            git add _data/lastfm musik
+            git commit -m "chore(lastfm): nightly sync + archive pages"
             git push
           else
             echo "No changes to commit."
           fi
+
