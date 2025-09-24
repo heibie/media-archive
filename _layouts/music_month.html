@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% assign year = page.year | append: "" %}
+{% assign month = page.month | append: "" %}
+
+<h1>Musik {{ year }} / {{ month }}</h1>
+<p><a href="{{ '/musik/' | append: year | append: '/' | relative_url }}">← zurück zu {{ year }}</a></p>
+
+{% assign items = site.data.lastfm[year][month] | sort: "played_at_utc" | reverse %}
+{% if items and items.size > 0 %}
+  {% include music_table.html items=items %}
+{% else %}
+  <p>Keine Scrobbles für {{ month }} / {{ year }} gefunden.</p>
+{% endif %}
