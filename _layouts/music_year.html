@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% assign year = page.year | append: "" %}
+<h1>Musik {{ year }}</h1>
+
+<!-- Monats-Navigation mit Counts -->
+<ul style="display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding-left:0;margin:0 0 14px">
+  {% for m in (1..12) %}
+    {% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}
+    {% assign arr = site.data.lastfm[year][mm] %}
+    {% assign cnt = 0 %}
+    {% if arr %}{% assign cnt = arr.size %}{% endif %}
+    <li>
+      <a href="{{ '/musik/' | append: year | append: '/' | append: mm | append: '/' | relative_url }}"
+         style="display:inline-block;border:1px solid #e0e0e0;border-radius:8px;padding:6px 10px;text-decoration:none">
+        {{ mm }} <span style="color:#777">({{ cnt }})</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% comment %} Alle Monate des Jahres einsammeln {% endcomment %}
+{% assign combined = "" | split: "" %}
+{% for mpair in site.data.lastfm[year] %}
+  {% assign arr = mpair[1] %}
+  {% if arr %}{% assign combined = combined | concat: arr %}{% endif %}
+{% endfor %}
+{% assign combined = combined | sort: "played_at_utc" | reverse %}
+
+<h2>Toplisten {{ year }}</h2>
+<div id="charts" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:8px 0 20px"></div>
+
+<script>
+  // Daten aus Liquid übernehmen
+  const ITEMS = {{ combined | jsonify }};
+  // Zähler
+  const topSongs = new Map();   // key: "artist — track"
+  const topArtists = new Map(); // key: "artist"
+  const topAlbums = new Map();  // key: "artist — album"
+  for (const t of ITEMS) {
+    const a = (t.artist||"").trim(), s = (t.track||"").trim(), al = (t.album||"")?.trim();
+    const kSong = a + " — " + s;
+    topSongs.set(kSong, (topSongs.get(kSong)||0)+1);
+    topArtists.set(a, (topArtists.get(a)||0)+1);
+    if (al) topAlbums.set(a + " — " + al, (topAlbums.get(a + " — " + al)||0)+1);
+  }
+  const toSortedArray = (m) => [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,20);
+  const renderList = (title, arr, type) => {
+    const wrap = document.createElement('section');
+    wrap.innerHTML = `<h3 style="margin:8px 0">${title}</h3>`;
+    const ul = document.createElement('ol'); ul.style.margin='0'; ul.style.paddingLeft='18px';
+    for (const [name, count] of arr) {
+      // Spotify-Suche nur für Songs
+      let extra = '';
+      if (type==='song') {
+        const enc = encodeURIComponent(name);
+        extra = ` — <a href="https://open.spotify.com/search/${enc}" target="_blank" rel="noopener">Play</a>`;
+      }
+      const li = document.createElement('li');
+      li.innerHTML = `${name} <span style="color:#777">(${count})</span>${extra}`;
+      ul.appendChild(li);
+    }
+    wrap.appendChild(ul);
+    return wrap;
+  };
+  const charts = document.getElementById('charts');
+  charts.appendChild(renderList('Top Songs', toSortedArray(topSongs), 'song'));
+  charts.appendChild(renderList('Top Alben', toSortedArray(topAlbums), 'album'));
+  charts.appendChild(renderList('Top Artists', toSortedArray(topArtists), 'artist'));
+</script>
+
+<h2>Alle Scrobbles {{ year }}</h2>
+{% include music_table.html items=combined %}
