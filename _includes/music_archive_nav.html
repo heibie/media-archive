@@ -1,0 +1,104 @@
+<style>
+  .music-archive-nav{display:flex;flex-direction:column;gap:10px;margin:10px 0 16px}
+  .pillbar{display:flex;flex-wrap:wrap;gap:8px}
+  .pillbar a{border:1px solid #e0e0e0;border-radius:999px;padding:6px 10px;text-decoration:none;color:inherit}
+  .selectors{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .selectors label{color:#555;font-size:.9rem}
+  .selectors select{padding:6px 8px;border:1px solid #ddd;border-radius:8px;background:#fff}
+  .selectors a{border:1px solid #ddd;border-radius:8px;padding:6px 10px;text-decoration:none}
+</style>
+
+{% comment %} Alle vorhandenen Jahre einsammeln (Keys sind Strings) {% endcomment %}
+{% assign years = "" | split: "" %}
+{% for ypair in site.data.lastfm %}
+  {% assign y_str = ypair[0] | append: "" %}
+  {% assign one = y_str | split: "§" %}
+  {% assign years = years | concat: one %}
+{% endfor %}
+{% assign years = years | uniq | sort | reverse %}
+
+<div class="music-archive-nav">
+  <!-- Schnellzugriff: Jahr-Pills -->
+  <div class="pillbar">
+    {% for y in years %}
+      <a href="{{ '/musik/' | append: y | append: '/' | relative_url }}">{{ y }}</a>
+    {% endfor %}
+  </div>
+
+  <!-- Selektoren: Jahr + (dynamisch) Monate des Jahres -->
+  <div class="selectors">
+    <label for="yearSel">Jahr</label>
+    <select id="yearSel"></select>
+
+    <label for="monthSel">Monat</label>
+    <select id="monthSel"></select>
+
+    <a id="goArchive" href="#">Öffnen</a>
+  </div>
+</div>
+
+<script>
+  (function(){
+    const BASE = "{{ '/musik/' | relative_url }}";
+    // Liquid baut ein Index-Objekt: { "YYYY": ["01","02",...] }
+    const INDEX = {
+    {% for y in years %}
+      "{{ y }}": [{% assign first=1 %}{% for m in (1..12) %}{% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}{% if site.data.lastfm[y][mm] %}{% if first == 0 %},{% endif %}"{{ mm }}"{% assign first=0 %}{% endif %}{% endfor %}],
+    {% endfor %}
+    };
+
+    // Jahre (DESC) aus Liquid übernehmen
+    const YEARS = {{ years | jsonify }};
+
+    const selYear  = document.getElementById('yearSel');
+    const selMonth = document.getElementById('monthSel');
+    const btnGo    = document.getElementById('goArchive');
+
+    // Dropdowns füllen
+    YEARS.forEach(y=>{
+      const opt = document.createElement('option');
+      opt.value = y; opt.textContent = y;
+      selYear.appendChild(opt);
+    });
+
+    // Vorgabe: aktuell gewählte Seite (falls gesetzt) oder jüngstes Jahr
+    const PAGE_YEAR  = "{{ include.year | default: page.year | default: '' }}";
+    const PAGE_MONTH = "{{ include.month | default: page.month | default: '' }}";
+    const defaultYear = (PAGE_YEAR && INDEX[PAGE_YEAR]?.length) ? PAGE_YEAR : (YEARS[0] || "");
+    selYear.value = defaultYear;
+
+    function fillMonths(y){
+      selMonth.innerHTML = "";
+      const months = (INDEX[y]||[]).slice().sort(); // ASC
+      // Leere Auswahl (nur Jahres-Ansicht)
+      const opt0 = document.createElement('option');
+      opt0.value = ""; opt0.textContent = "— (nur Jahr) —";
+      selMonth.appendChild(opt0);
+      months.forEach(mm=>{
+        const opt = document.createElement('option');
+        opt.value = mm; opt.textContent = mm;
+        selMonth.appendChild(opt);
+      });
+    }
+    fillMonths(defaultYear);
+
+    // Falls die aktuelle Seite ein Monat ist, vorauswählen
+    if (PAGE_MONTH && INDEX[defaultYear]?.includes(PAGE_MONTH)) {
+      selMonth.value = PAGE_MONTH;
+    }
+
+    function updateLink(){
+      const y = selYear.value;
+      const m = selMonth.value;
+      btnGo.href = m ? `${BASE}${y}/${m}/` : `${BASE}${y}/`;
+    }
+    updateLink();
+
+    selYear.addEventListener('change', ()=>{
+      fillMonths(selYear.value);
+      selMonth.value = ""; // zurück auf Jahresansicht
+      updateLink();
+    });
+    selMonth.addEventListener('change', updateLink);
+  })();
+</script>
