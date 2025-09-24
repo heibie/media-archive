@@ -6,21 +6,6 @@ layout: default
 <h1>Musik {{ year }}</h1>
 {% include music_archive_nav.html year=page.year %}
 
-<!-- Monats-Navigation mit Counts -->
-<ul style="display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding-left:0;margin:0 0 14px">
-  {% for m in (1..12) %}
-    {% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}
-    {% assign arr = site.data.lastfm[year][mm] %}
-    {% assign cnt = 0 %}
-    {% if arr %}{% assign cnt = arr.size %}{% endif %}
-    <li>
-      <a href="{{ '/musik/' | append: year | append: '/' | append: mm | append: '/' | relative_url }}"
-         style="display:inline-block;border:1px solid #e0e0e0;border-radius:8px;padding:6px 10px;text-decoration:none">
-        {{ mm }} <span style="color:#777">({{ cnt }})</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
 
 {% comment %} Alle Monate des Jahres einsammeln {% endcomment %}
 {% assign combined = "" | split: "" %}
