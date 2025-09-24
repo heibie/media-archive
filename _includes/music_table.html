@@ -1,0 +1,49 @@
+{% assign items = include.items %}
+<style>
+  .music-table{width:100%;border-collapse:collapse}
+  .music-table th,.music-table td{padding:10px 8px;border-bottom:1px solid #eee;vertical-align:middle}
+  .music-table th{font-weight:600;color:#555;text-align:left;font-size:.9rem}
+  .music-row:hover{background:#fafafa}
+  .cover{width:42px;height:42px;border-radius:6px;object-fit:cover;background:#f2f2f2}
+  .track{font-weight:600}
+  .sub{color:#666;font-size:.9rem}
+  .btn-play{display:inline-flex;align-items:center;gap:6px;border:1px solid #ddd;border-radius:999px;padding:6px 10px;font-size:.85rem;text-decoration:none;color:#111;text-decoration:none}
+  .btn-play:hover{background:#f8f8f8}
+  .nowrap{white-space:nowrap}
+  @media (max-width:720px){.hide-sm{display:none}.music-table th,.music-table td{padding:8px 6px}}
+</style>
+
+<table class="music-table">
+  <thead>
+    <tr>
+      <th class="hide-sm">Cover</th>
+      <th>Track</th>
+      <th>Artist</th>
+      <th class="hide-sm">Album</th>
+      <th class="nowrap">Zeit</th>
+      <th>Aktion</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in items %}
+    {% assign img = item.cover_url %}
+    {% unless img %}{% assign img = "/assets/placeholder.png" | relative_url %}{% endunless %}
+    {% assign q = item.artist | append: " " | append: item.track %}
+    {% if item.album %}{% assign q = q | append: " " | append: item.album %}{% endif %}
+    {% assign q_enc = q | uri_escape %}
+    <tr class="music-row">
+      <td class="hide-sm"><a href="{{ item.lastfm_url }}" target="_blank" rel="noopener">
+        <img class="cover" src="{{ img }}" alt="Cover {{ item.artist }} – {{ item.track }}"></a></td>
+      <td class="track"><a href="{{ item.lastfm_url }}" target="_blank" rel="noopener">{{ item.track }}</a></td>
+      <td class="sub">{{ item.artist }}</td>
+      <td class="sub hide-sm">{% if item.album %}{{ item.album }}{% endif %}</td>
+      <td class="sub nowrap" title="{{ item.played_at_utc | date: "%d.%m.%Y %H:%M" }}">
+        {{ item.played_at_utc | date: "%d.%m.%Y · %H:%M" }} Uhr
+      </td>
+      <td><a class="btn-play" href="https://open.spotify.com/search/{{ q_enc }}" target="_blank" rel="noopener noreferrer">
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+        In Spotify</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
