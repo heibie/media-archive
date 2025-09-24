@@ -4,6 +4,7 @@ layout: default
 
 {% assign year = page.year | append: "" %}
 <h1>Musik {{ year }}</h1>
+{% include music_archive_nav.html year=page.year %}
 
 <!-- Monats-Navigation mit Counts -->
 <ul style="display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding-left:0;margin:0 0 14px">
