@@ -16,46 +16,112 @@ layout: default
 {% assign combined = combined | sort: "played_at_utc" | reverse %}
 
 <h2>Toplisten {{ year }}</h2>
-<div id="charts" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:8px 0 20px"></div>
+
+<style>
+  .topcharts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:8px 0 20px}
+  .toplist{margin:0;padding-left:18px;list-style:decimal}
+  .top-item{display:grid;grid-template-columns:48px 1fr auto;gap:10px;align-items:center;padding:6px 0}
+  .top-cover{width:48px;height:48px;border-radius:8px;object-fit:cover;background:#f2f2f2}
+  .top-name{font-weight:600}
+  .top-meta{color:#777;font-size:.9rem}
+  .top-actions .btn-play{display:inline-flex;align-items:center;gap:6px;border:1px solid #ddd;border-radius:999px;padding:4px 8px;font-size:.8rem;text-decoration:none;color:#111}
+  .top-actions .btn-play:hover{background:#f8f8f8}
+</style>
+
+<div id="charts" class="topcharts"></div>
 
 <script>
-  // Daten aus Liquid übernehmen
+  // Items: alle Scrobbles des Jahres (kommt oben aus Liquid)
   const ITEMS = {{ combined | jsonify }};
-  // Zähler
-  const topSongs = new Map();   // key: "artist — track"
-  const topArtists = new Map(); // key: "artist"
-  const topAlbums = new Map();  // key: "artist — album"
+  const PLACEHOLDER = "{{ '/assets/placeholder.png' | relative_url }}";
+
+  // Zähler + "repräsentatives" Cover (wir nehmen das erste = neueste mit Cover)
+  const topSongs = new Map();   // key: "artist — track"  -> { artist, track, album?, cover, url?, count }
+  const topAlbums = new Map();  // key: "artist — album"  -> { artist, album, cover, count }
+  const topArtists = new Map(); // key: "artist"          -> { artist, cover, count }
+
   for (const t of ITEMS) {
-    const a = (t.artist||"").trim(), s = (t.track||"").trim(), al = (t.album||"")?.trim();
-    const kSong = a + " — " + s;
-    topSongs.set(kSong, (topSongs.get(kSong)||0)+1);
-    topArtists.set(a, (topArtists.get(a)||0)+1);
-    if (al) topAlbums.set(a + " — " + al, (topAlbums.get(a + " — " + al)||0)+1);
+    const artist = (t.artist||"").trim();
+    const track  = (t.track||"").trim();
+    const album  = (t.album||"").trim();
+    const cover  = t.cover_url || null;
+    const url    = t.lastfm_url || null;
+
+    if (artist && track) {
+      const key = `${artist} — ${track}`;
+      if (!topSongs.has(key)) topSongs.set(key, { artist, track, album: album||null, cover: cover||null, url: url||null, count: 0 });
+      const s = topSongs.get(key);
+      s.count++;
+      if (!s.cover && cover) s.cover = cover;
+      if (!s.url && url) s.url = url;
+      if (!s.album && album) s.album = album;
+    }
+
+    if (artist && album) {
+      const key = `${artist} — ${album}`;
+      if (!topAlbums.has(key)) topAlbums.set(key, { artist, album, cover: cover||null, count: 0 });
+      const a = topAlbums.get(key);
+      a.count++;
+      if (!a.cover && cover) a.cover = cover;
+    }
+
+    if (artist) {
+      if (!topArtists.has(artist)) topArtists.set(artist, { artist, cover: cover||null, count: 0 });
+      const ar = topArtists.get(artist);
+      ar.count++;
+      if (!ar.cover && cover) ar.cover = cover;
+    }
   }
-  const toSortedArray = (m) => [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,20);
-  const renderList = (title, arr, type) => {
+
+  const sortTop = (m, limit=20) => [...m.values()].sort((x,y)=> y.count - x.count).slice(0, limit);
+
+  function section(title, arr, type) {
     const wrap = document.createElement('section');
     wrap.innerHTML = `<h3 style="margin:8px 0">${title}</h3>`;
-    const ul = document.createElement('ol'); ul.style.margin='0'; ul.style.paddingLeft='18px';
-    for (const [name, count] of arr) {
-      // Spotify-Suche nur für Songs
-      let extra = '';
-      if (type==='song') {
-        const enc = encodeURIComponent(name);
-        extra = ` — <a href="https://open.spotify.com/search/${enc}" target="_blank" rel="noopener">Play</a>`;
+    const ol = document.createElement('ol'); ol.className = 'toplist';
+
+    for (const it of arr) {
+      const li = document.createElement('li'); li.className = 'top-item';
+
+      const img = document.createElement('img');
+      img.className = 'top-cover';
+      img.src = it.cover || PLACEHOLDER;
+      img.alt = `${title} Cover`;
+
+      const content = document.createElement('div'); content.className = 'top-content';
+      let name = '';
+      if (type === 'song')   name = `${it.artist} — ${it.track}${it.album ? ' · <em>'+it.album+'</em>' : ''}`;
+      if (type === 'album')  name = `${it.artist} — ${it.album}`;
+      if (type === 'artist') name = it.artist;
+      content.innerHTML = `<div class="top-name">${name}</div><div class="top-meta">${it.count} Plays</div>`;
+
+      const actions = document.createElement('div'); actions.className = 'top-actions';
+      if (type === 'song') {
+        const q = encodeURIComponent(`${it.artist} ${it.track} ${it.album || ''}`.trim());
+        const a = document.createElement('a');
+        a.className = 'btn-play';
+        a.href = `https://open.spotify.com/search/${q}`;
+        a.target = '_blank'; a.rel = 'noopener';
+        a.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg> Play`;
+        actions.appendChild(a);
       }
-      const li = document.createElement('li');
-      li.innerHTML = `${name} <span style="color:#777">(${count})</span>${extra}`;
-      ul.appendChild(li);
+
+      li.appendChild(img);
+      li.appendChild(content);
+      li.appendChild(actions);
+      ol.appendChild(li);
     }
-    wrap.appendChild(ul);
+
+    wrap.appendChild(ol);
     return wrap;
-  };
+  }
+
   const charts = document.getElementById('charts');
-  charts.appendChild(renderList('Top Songs', toSortedArray(topSongs), 'song'));
-  charts.appendChild(renderList('Top Alben', toSortedArray(topAlbums), 'album'));
-  charts.appendChild(renderList('Top Artists', toSortedArray(topArtists), 'artist'));
+  charts.appendChild(section('Top Songs',   sortTop(topSongs),  'song'));
+  charts.appendChild(section('Top Alben',   sortTop(topAlbums), 'album'));
+  charts.appendChild(section('Top Artists', sortTop(topArtists),'artist'));
 </script>
+
 
 <h2>Alle Scrobbles {{ year }}</h2>
 {% include music_table.html items=combined %}
