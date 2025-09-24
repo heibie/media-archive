@@ -90,7 +90,7 @@ layout: default
 
       const content = document.createElement('div'); content.className = 'top-content';
       let name = '';
-      if (type === 'song')   name = `${it.artist} — ${it.track}${it.album ? ' · <em>'+it.album+'</em>' : ''}`;
+      if (type === 'song')   name = `${it.artist} — ${it.track}`;
       if (type === 'album')  name = `${it.artist} — ${it.album}`;
       if (type === 'artist') name = it.artist;
       content.innerHTML = `<div class="top-name">${name}</div><div class="top-meta">${it.count} Plays</div>`;
