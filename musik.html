@@ -1,0 +1,70 @@
+---
+layout: default
+title: Musik
+permalink: /musik/
+---
+
+<style>
+  .music-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;}
+  .music-card{border:1px solid var(--border-color,#e6e6e6);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .music-cover{width:100%;aspect-ratio:1/1;object-fit:cover;background:#f6f6f6}
+  .music-body{padding:12px}
+  .music-title{font-weight:600;font-size:0.95rem;line-height:1.2;margin:0 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .music-meta{color:#666;font-size:0.85rem;line-height:1.2;margin:0 0 6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .music-time{color:#888;font-size:0.8rem}
+  .music-actions{margin-top:8px}
+  .btn-link{display:inline-block;font-size:0.8rem;border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
+  .btn-link:hover{background:#fafafa}
+</style>
+
+<h1>Musik</h1>
+<p>Neueste Scrobbles von Last.fm (Cover, Artist · Track · Album).</p>
+
+{% comment %}
+  Kombiniere aktuelles und letztes Jahr → sortieren → begrenzen (z.B. 400 Einträge).
+  Das vermeidet, dass alle Jahre geladen werden.
+{% endcomment %}
+{% assign current_year = "now" | date: "%Y" | plus: 0 %}
+{% assign base_year = current_year | minus: 1 %}
+{% assign combined = "" | split: "" %}
+
+{% for i in (0..1) %}
+  {% assign y = base_year | plus: i %}
+  {% if site.data.lastfm[y] %}
+    {% for m in (1..12) %}
+      {% capture mm %}{% if m < 10 %}0{{ m }}{% else %}{{ m }}{% endif %}{% endcapture %}
+      {% assign arr = site.data.lastfm[y][mm] %}
+      {% if arr %}{% assign combined = combined | concat: arr %}{% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign combined = combined | sort: "played_at_utc" | reverse %}
+{% assign limit = 400 %}
+{% if combined.size > limit %}
+  {% assign items = combined | slice: 0, limit %}
+{% else %}
+  {% assign items = combined %}
+{% endif %}
+
+<div class="music-grid">
+  {% for item in items %}
+    {% assign img = item.cover_url %}
+    {% unless img %}{% assign img = "/assets/placeholder.png" | relative_url %}{% endunless %}
+    <article class="music-card">
+      <img class="music-cover" src="{{ img }}" alt="Cover {{ item.artist }} – {{ item.track }}">
+      <div class="music-body">
+        <h3 class="music-title">{{ item.track }}</h3>
+        <p class="music-meta">{{ item.artist }}{% if item.album %} · <em>{{ item.album }}</em>{% endif %}</p>
+        <p class="music-time">
+          {{ item.played_at_utc | date: "%d.%m.%Y · %H:%M" }} Uhr
+        </p>
+        <div class="music-actions">
+          {% if item.lastfm_url %}
+            <a class="btn-link" href="{{ item.lastfm_url }}" target="_blank" rel="noopener">Auf Last.fm öffnen</a>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
