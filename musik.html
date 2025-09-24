@@ -41,6 +41,7 @@ permalink: /musik/
 {% assign combined = combined | sort: "played_at_utc" | reverse %}
 {% assign limit = 500 %}
 {% assign items = combined | slice: 0, limit %}
+{% include music_archive_nav.html %}
 
 <table class="music-table">
   <thead>
