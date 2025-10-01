@@ -1,4 +1,640 @@
 - artist: Moneybrother
+  track: Any Other Heart
+  album: Mount Pleasure
+  played_at_utc: '2025-09-30T12:51:46Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Any+Other+Heart
+  mbid_track: 57065ff2-ddb7-3e84-a222-3916eb507c3e
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 694a5df5-074e-4a1f-ab0f-96e09b2c97a3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a6c92593ff6b4d2a97dfd7d2d5bd3cca.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jont
+  track: No Lines
+  album: No Lines
+  played_at_utc: '2025-09-30T12:48:10Z'
+  lastfm_url: https://www.last.fm/music/Jont/_/No+Lines
+  mbid_track: null
+  mbid_artist: 8983d2f7-5d9e-4948-bdba-ed58e2cd01d0
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Björn Tengman
+  track: Strange Night
+  album: Strange Night
+  played_at_utc: '2025-09-30T12:44:12Z'
+  lastfm_url: https://www.last.fm/music/Bj%C3%B6rn+Tengman/_/Strange+Night
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daniel Norgren
+  track: Let Love Run the Game
+  album: Wooh Dang
+  played_at_utc: '2025-09-30T12:40:47Z'
+  lastfm_url: https://www.last.fm/music/Daniel+Norgren/_/Let+Love+Run+the+Game
+  mbid_track: 0251833c-4ece-4df3-8a87-982b18ffcff6
+  mbid_artist: c8a26e97-e5f5-4f1c-8eb3-e2453b6cf262
+  mbid_album: 902fae88-4cac-4feb-8d27-14416321a0ab
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3518ebf2f0579e000434ec8d0f10c252.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Divine Comedy
+  track: The Heart Is A Lonely Hunter
+  album: Rainy Sunday Afternoon
+  played_at_utc: '2025-09-30T12:35:58Z'
+  lastfm_url: https://www.last.fm/music/The+Divine+Comedy/_/The+Heart+Is+A+Lonely+Hunter
+  mbid_track: ee585fa3-382b-4ec1-971f-b1e438a91681
+  mbid_artist: 49c4378b-3c36-4c5a-8999-8d936e74f39b
+  mbid_album: fc0bc474-34cc-403e-872a-4e431e27732b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a848e755daaf9b1ddc62b29b58fa064.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Songs of Boda
+  track: Where My Hands Might Go
+  album: Loophole
+  played_at_utc: '2025-09-30T12:32:28Z'
+  lastfm_url: https://www.last.fm/music/Songs+of+Boda/_/Where+My+Hands+Might+Go
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/495a6f8e3e3eeb6be3fb6cb959acf3c2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: It Will Not Happen Here
+  album: Mount Pleasure
+  played_at_utc: '2025-09-30T12:28:44Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/It+Will+Not+Happen+Here
+  mbid_track: 1d2e8cb6-cd5b-391b-8031-cf9e44fdff3c
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 694a5df5-074e-4a1f-ab0f-96e09b2c97a3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a6c92593ff6b4d2a97dfd7d2d5bd3cca.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Christian Kjellvander
+  track: Hole In My Heart
+  album: Hole In My Heart
+  played_at_utc: '2025-09-30T12:24:47Z'
+  lastfm_url: https://www.last.fm/music/Christian+Kjellvander/_/Hole+In+My+Heart
+  mbid_track: null
+  mbid_artist: cb8b5134-e85d-4020-aa5e-93fe24af3c63
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Great Escape
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:19:41Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Great+Escape
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: A Memory Gone
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:15:32Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/A+Memory+Gone
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Here’s My Story, Genevieve
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:11:51Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Here%E2%80%99s+My+Story,+Genevieve
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Cold Where I'm Living
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:07:58Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Cold+Where+I%27m+Living
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Keep A Light On (Like I Do)
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:04:44Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Keep+A+Light+On+(Like+I+Do)
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Feel Like Going Home
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T12:01:00Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Feel+Like+Going+Home
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: One That’s Lost Sees No Direction
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:57:34Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/One+That%E2%80%99s+Lost+Sees+No+Direction
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Oh Salvation
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:52:44Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Oh+Salvation
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Let a Loved one Go
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:49:42Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Let+a+Loved+one+Go
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Det är dom dagarna jag vill sjunga om
+  album: Det är dom dagarna jag vill sjunga om
+  played_at_utc: '2025-09-30T11:26:22Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Det+%C3%A4r+dom+dagarna+jag+vill+sjunga+om
+  mbid_track: 36182b9b-ea6a-4a77-99cd-aa92ab9f944f
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: ac606cc1-3351-4c74-98a1-42a2b59a29f0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ec7819acb639cdafad397f46fb321372.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Great Escape
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:21:16Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Great+Escape
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: A Memory Gone
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:17:07Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/A+Memory+Gone
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Here’s My Story, Genevieve
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:13:26Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Here%E2%80%99s+My+Story,+Genevieve
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Cold Where I'm Living
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:09:32Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Cold+Where+I%27m+Living
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Keep A Light On (Like I Do)
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:06:18Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Keep+A+Light+On+(Like+I+Do)
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Feel Like Going Home
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T11:02:35Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Feel+Like+Going+Home
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: One That’s Lost Sees No Direction
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T10:59:09Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/One+That%E2%80%99s+Lost+Sees+No+Direction
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Oh Salvation
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T10:54:19Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Oh+Salvation
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Let a Loved one Go
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T10:51:17Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Let+a+Loved+one+Go
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rezo
+  track: Nothing Else
+  album: Nothing Else
+  played_at_utc: '2025-09-30T09:22:05Z'
+  lastfm_url: https://www.last.fm/music/Rezo/_/Nothing+Else
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jerry Leger
+  track: Calling A Bluff
+  album: Calling A Bluff
+  played_at_utc: '2025-09-30T09:18:26Z'
+  lastfm_url: https://www.last.fm/music/Jerry+Leger/_/Calling+A+Bluff
+  mbid_track: null
+  mbid_artist: 90cf6015-5fcb-4f37-acf3-52e27f98df09
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Young Rebel Set
+  track: Anchorage
+  album: Anchorage
+  played_at_utc: '2025-09-30T09:14:37Z'
+  lastfm_url: https://www.last.fm/music/Young+Rebel+Set/_/Anchorage
+  mbid_track: null
+  mbid_artist: 7b2aeb3f-c51f-4b35-8f38-54bdbab7a8a9
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/690ac58558156011b281c38e493eb7c1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: ELZ
+  track: White Wine
+  album: White Wine
+  played_at_utc: '2025-09-30T09:11:48Z'
+  lastfm_url: https://www.last.fm/music/ELZ/_/White+Wine
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Skinny Dyck
+  track: Easygoing (more easy)
+  album: Easygoing (more easy)
+  played_at_utc: '2025-09-30T09:07:31Z'
+  lastfm_url: https://www.last.fm/music/Skinny+Dyck/_/Easygoing+(more+easy)
+  mbid_track: null
+  mbid_artist: 069e00c6-d15b-42d6-a758-db1384cd766c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: It Might As Well Be Now
+  album: Mount Pleasure
+  played_at_utc: '2025-09-30T09:02:47Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/It+Might+As+Well+Be+Now
+  mbid_track: f966e160-5735-31c0-9d1f-8e3945dff79f
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 694a5df5-074e-4a1f-ab0f-96e09b2c97a3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a6c92593ff6b4d2a97dfd7d2d5bd3cca.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Die Höchste Eisenbahn
+  track: Morgens gehts Dir gut
+  album: Wenn wir uns wieder sehen schreien wir uns wieder an
+  played_at_utc: '2025-09-30T08:59:09Z'
+  lastfm_url: https://www.last.fm/music/Die+H%C3%B6chste+Eisenbahn/_/Morgens+gehts+Dir+gut
+  mbid_track: f3b33204-8905-44a5-a4d5-ea7db933b2fd
+  mbid_artist: 0cb26d00-212f-4009-8b45-691a1311e541
+  mbid_album: e7561728-9a12-488f-ab11-55fde236a63f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be49ba6fb914e4689e8f38abf904c34c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Great Escape
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:54:03Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Great+Escape
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: A Memory Gone
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:49:54Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/A+Memory+Gone
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Here’s My Story, Genevieve
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:46:12Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Here%E2%80%99s+My+Story,+Genevieve
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Cold Where I'm Living
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:27:44Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Cold+Where+I%27m+Living
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Keep A Light On (Like I Do)
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:24:30Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Keep+A+Light+On+(Like+I+Do)
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Feel Like Going Home
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:20:46Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Feel+Like+Going+Home
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: One That’s Lost Sees No Direction
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:17:21Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/One+That%E2%80%99s+Lost+Sees+No+Direction
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Oh Salvation
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:12:31Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Oh+Salvation
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Let a Loved one Go
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T08:09:28Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Let+a+Loved+one+Go
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shame
+  track: Lampião
+  album: Cutthroat
+  played_at_utc: '2025-09-30T04:21:57Z'
+  lastfm_url: https://www.last.fm/music/Shame/_/Lampi%C3%A3o
+  mbid_track: 07a61dc0-c23e-4adb-b469-e457b37723c2
+  mbid_artist: 752970de-452b-443a-a58f-66088a62485e
+  mbid_album: 25fc940f-f66d-449d-8047-2b53c80f6edb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a85eb7d423288440b64bf09927d1c77.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Paradise Lost
+  track: Lay a Wreath Upon the World
+  album: Ascension
+  played_at_utc: '2025-09-30T04:17:05Z'
+  lastfm_url: https://www.last.fm/music/Paradise+Lost/_/Lay+a+Wreath+Upon+the+World
+  mbid_track: null
+  mbid_artist: 10bf95b6-30e3-44f1-817f-45762cdc0de0
+  mbid_album: fe3c9090-a6cf-4239-999a-3ef33ad41ee2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7bd076ed80a84801fa1ff3a84b14bca5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nine Inch Nails
+  track: I Know You Can Feel It
+  album: 'TRON: Ares (Original Motion Picture Soundtrack)'
+  played_at_utc: '2025-09-30T04:11:43Z'
+  lastfm_url: https://www.last.fm/music/Nine+Inch+Nails/_/I+Know+You+Can+Feel+It
+  mbid_track: f03ee37e-d515-4148-aad1-c889b00e66ee
+  mbid_artist: b7ffd2af-418f-4be2-bdd1-22f8b48613da
+  mbid_album: 5e1d338e-a719-4364-90f1-cf614415c636
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b5f8571028bc5789311a73d05bab36a0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Goodbye
+  album: Futique
+  played_at_utc: '2025-09-30T04:07:55Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Goodbye
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kasabian
+  track: Hippie Sunshine
+  album: Hippie Sunshine
+  played_at_utc: '2025-09-30T04:04:48Z'
+  lastfm_url: https://www.last.fm/music/Kasabian/_/Hippie+Sunshine
+  mbid_track: 414e255a-c392-456e-be6a-5dad08dcb570
+  mbid_artist: 69b39eab-6577-46a4-a9f5-817839092033
+  mbid_album: 868bbc6a-ba1c-4059-b1bc-3e16d8effa29
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a1de9817ec5dc816cf31f701e8e746b6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Judas Priest
+  track: War Pigs - Charity Version
+  album: War Pigs (Charity Version)
+  played_at_utc: '2025-09-30T03:56:43Z'
+  lastfm_url: https://www.last.fm/music/Judas+Priest/_/War+Pigs+-+Charity+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aff4e5d9f009a1b9accc97a4cd8afcac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Here’s My Story, Genevieve
+  album: Classic Vintage
+  played_at_utc: '2025-09-30T03:53:01Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Here%E2%80%99s+My+Story,+Genevieve
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kadavar
+  track: Total Annihilation
+  album: Total Annihilation
+  played_at_utc: '2025-09-30T03:45:44Z'
+  lastfm_url: https://www.last.fm/music/Kadavar/_/Total+Annihilation
+  mbid_track: 5f07a9c7-ee1b-4e98-b24f-44ecbd816e6b
+  mbid_artist: aa262bd7-2217-4590-b2e3-38d148508916
+  mbid_album: 57bee18d-a0bb-44df-8961-15457ddf53ed
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3a064506e631e2fedce3aef4f80ee190.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Die drei ???
+  track: 'Kapitel 02: und das Fantasmofon - Folge 235'
+  album: 'Folge 235: und das Fantasmofon'
+  played_at_utc: '2025-09-30T03:38:46Z'
+  lastfm_url: https://www.last.fm/music/Die+drei+%3F%3F%3F/_/Kapitel+02:+und+das+Fantasmofon+-+Folge+235
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/544abd25bd5e0bf025c08ca62a09d808.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Great Escape
+  album: Classic Vintage
+  played_at_utc: '2025-09-29T20:20:56Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Great+Escape
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
   track: A Memory Gone
   album: Classic Vintage
   played_at_utc: '2025-09-29T13:48:40Z'
