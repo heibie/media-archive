@@ -1,3 +1,15 @@
+- artist: Curse of Lono
+  track: Ursula Andress
+  album: People in Cars
+  played_at_utc: '2025-09-30T12:56:00Z'
+  lastfm_url: https://www.last.fm/music/Curse+of+Lono/_/Ursula+Andress
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a29074444f8c7383256450bcb52fdacc.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Moneybrother
   track: Any Other Heart
   album: Mount Pleasure
