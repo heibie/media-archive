@@ -1,3 +1,147 @@
+- artist: Bruce Springsteen
+  track: Across The Border
+  album: The Ghost of Tom Joad
+  played_at_utc: '2025-10-02T04:17:43Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Across+The+Border
+  mbid_track: 3682d135-153d-3e26-8916-a06d5e4e2ac5
+  mbid_artist: 70248960-cb53-4ea4-943a-edb18f7d336f
+  mbid_album: 0068f2d9-e54c-4371-aa9d-069585899148
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a2fc905a9ef74b87a4fe6ea004a69dd1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rage Against the Machine
+  track: Maria
+  album: The Battle of Los Angeles
+  played_at_utc: '2025-10-02T04:11:26Z'
+  lastfm_url: https://www.last.fm/music/Rage+Against+the+Machine/_/Maria
+  mbid_track: 0820711a-e15f-43da-b93f-082d265d0df5
+  mbid_artist: 3798b104-01cb-484c-a3b0-56adc6399b80
+  mbid_album: 03d4e0c7-6100-4ee2-b401-6704296f32e0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/11df5e46c810493983feb65066b2e9d9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tom Morello
+  track: Roadrunner (feat. Leikeli47)
+  album: The Atlas Underground
+  played_at_utc: '2025-10-02T04:09:11Z'
+  lastfm_url: https://www.last.fm/music/Tom+Morello/_/Roadrunner+(feat.+Leikeli47)
+  mbid_track: null
+  mbid_artist: 42a636a0-dbe4-4d0c-abe2-1590fad9531b
+  mbid_album: 01977fa4-4c63-409d-9926-c02f0a096d04
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1ab27a795b7deb100e55de3255742d1e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Patrick Page
+  track: Why We Build the Wall
+  album: Hadestown (Original Broadway Cast Recording)
+  played_at_utc: '2025-10-02T04:05:10Z'
+  lastfm_url: https://www.last.fm/music/Patrick+Page/_/Why+We+Build+the+Wall
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1b310c53b438ff04ab0060bed252242d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Everlast
+  track: What It's Like
+  album: Whitey Ford Sings the Blues
+  played_at_utc: '2025-10-02T04:00:06Z'
+  lastfm_url: https://www.last.fm/music/Everlast/_/What+It%27s+Like
+  mbid_track: 03bbaadd-285b-3022-85aa-24277979c859
+  mbid_artist: ca39d50f-9885-420e-88d6-9c3f64038773
+  mbid_album: 1e4d0890-9ee0-4020-a9dc-8528208fd3ab
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06ceb664b68b4cebcc150d186544dd39.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rise Against
+  track: Prayer of the Refugee
+  album: The Sufferer & the Witness
+  played_at_utc: '2025-10-02T03:56:46Z'
+  lastfm_url: https://www.last.fm/music/Rise+Against/_/Prayer+of+the+Refugee
+  mbid_track: b9b8684d-c7a6-453c-86db-483dbb00238a
+  mbid_artist: 606bf117-494f-4864-891f-09d63ff6aa4b
+  mbid_album: 0ea3cf7d-d3e8-454f-8049-fd0616b30727
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5741bd6ddf618deb7653965171b9b0a9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tom Morello
+  track: Pretend You Remember Me
+  album: Pretend You Remember Me
+  played_at_utc: '2025-10-02T03:53:59Z'
+  lastfm_url: https://www.last.fm/music/Tom+Morello/_/Pretend+You+Remember+Me
+  mbid_track: 3ddc341a-a938-4667-93ce-27b178c2be99
+  mbid_artist: 42a636a0-dbe4-4d0c-abe2-1590fad9531b
+  mbid_album: 2b5f26f1-9218-478d-92e9-08df34e1bba8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6deed01b3b9e47be64015c03e2c176e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The White Stripes
+  track: Icky Thump
+  album: Icky Thump
+  played_at_utc: '2025-10-02T03:49:44Z'
+  lastfm_url: https://www.last.fm/music/The+White+Stripes/_/Icky+Thump
+  mbid_track: f2faeab5-8a7d-4c84-bd95-3401aa8b35f0
+  mbid_artist: 11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5
+  mbid_album: 00160624-c936-43e1-84cf-038ef45c3b4c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/32f153b85b0f477fc7b672aa04db055d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Led Zeppelin
+  track: Immigrant Song - Remaster
+  album: Mothership (Remastered)
+  played_at_utc: '2025-10-02T03:47:16Z'
+  lastfm_url: https://www.last.fm/music/Led+Zeppelin/_/Immigrant+Song+-+Remaster
+  mbid_track: 43300942-70ff-4594-bd4a-3ef9075f0f16
+  mbid_artist: 678d88b2-87b0-403b-b63d-5da7465aecc3
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c716cd3472fc453e634f2fde4785ac7d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rage Against the Machine
+  track: People of the Sun
+  album: Evil Empire
+  played_at_utc: '2025-10-02T03:41:39Z'
+  lastfm_url: https://www.last.fm/music/Rage+Against+the+Machine/_/People+of+the+Sun
+  mbid_track: 40d70034-42c2-36ae-8eea-9cf34b2e1fcc
+  mbid_artist: 3798b104-01cb-484c-a3b0-56adc6399b80
+  mbid_album: 15dac59f-f199-49c5-bbc9-37a8dc86f7ab
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a7210a59b4fa4cf3cc01f87069f0c5d1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shame
+  track: Lampião
+  album: Cutthroat
+  played_at_utc: '2025-10-02T03:35:40Z'
+  lastfm_url: https://www.last.fm/music/Shame/_/Lampi%C3%A3o
+  mbid_track: 07a61dc0-c23e-4adb-b469-e457b37723c2
+  mbid_artist: 752970de-452b-443a-a58f-66088a62485e
+  mbid_album: 25fc940f-f66d-449d-8047-2b53c80f6edb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a85eb7d423288440b64bf09927d1c77.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Valter Nilsson
+  track: Friday Night Lights
+  album: No Major Change
+  played_at_utc: '2025-10-01T13:04:36Z'
+  lastfm_url: https://www.last.fm/music/Valter+Nilsson/_/Friday+Night+Lights
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/864f33819abc263ba6b8ef9244805221.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Moneybrother
   track: Don't Call the Police
   album: Blood Panic
