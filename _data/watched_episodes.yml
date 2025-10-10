@@ -1,6 +1,27 @@
 - show: Only Murders in the Building
   year: 2021
   season: 5
+  episode: 4
+  plays: 1
+  watched_on: '2025-10-09'
+  trakt_show: 165314
+  tvdb: 399959
+  imdb: tt11691774
+  tmdb: 107113
+  slug: only-murders-in-the-building
+  source: trakt
+  show_title_de: Only Murders in the Building
+  show_poster: https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg
+  show_total_episodes: 50
+  episode_title: Dirty Birds
+  episode_title_de: Schräge Vögel
+  episode_runtime: 38
+  season_total_episodes: 10
+  episode_still: https://image.tmdb.org/t/p/w300/9B24Ab6njBFf68TD8Jmk3SQQCIQ.jpg
+- show: Only Murders in the Building
+  year: 2021
+  season: 5
   episode: 3
   plays: 1
   watched_on: '2025-10-05'
