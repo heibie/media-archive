@@ -1,3 +1,27 @@
+- artist: The Hives
+  track: Enough Is Enough
+  album: The Hives Forever Forever The Hives
+  played_at_utc: '2025-10-13T05:51:41Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Enough+Is+Enough
+  mbid_track: null
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 14be09ec-45ed-4e1c-a9f9-a547882bdd3a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27bb421bc3f6e85f9c6e3f5b807a946a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Survivor
+  track: Burning Heart - From "Rocky IV" Soundtrack
+  album: Rocky IV
+  played_at_utc: '2025-10-12T11:15:11Z'
+  lastfm_url: https://www.last.fm/music/Survivor/_/Burning+Heart+-+From+%22Rocky+IV%22+Soundtrack
+  mbid_track: 06fcc672-6686-46fc-9624-8094900d76c3
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0414f5111fb16a2e808218ddfba0ca1f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: John Parr
   track: Restless Heart
   album: Man With a Vision
