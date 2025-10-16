@@ -1,3 +1,22 @@
+- show: Sträters Problemzonen
+  year: 2025
+  season: 1
+  episode: 1
+  plays: 1
+  watched_on: '2025-10-15'
+  trakt_show: 298394
+  tvdb: 468235
+  tmdb: 300314
+  slug: straters-problemzonen
+  source: trakt
+  show_title_de: Sträters Problemzonen
+  show_poster: https://image.tmdb.org/t/p/w500/lj24mTF9vJao75qlUvRZfMOjo8O.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/jnSEIorUIrDwuDtRvmI5WLNyDcE.jpg
+  show_total_episodes: 3
+  episode_title: Episode 1
+  episode_title_de: Survival of the Philipps
+  episode_runtime: 45
+  season_total_episodes: 3
 - show: Only Murders in the Building
   year: 2021
   season: 5
