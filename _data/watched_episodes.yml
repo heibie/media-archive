@@ -1,3 +1,24 @@
+- show: Only Murders in the Building
+  year: 2021
+  season: 5
+  episode: 5
+  plays: 1
+  watched_on: '2025-10-16'
+  trakt_show: 165314
+  tvdb: 399959
+  imdb: tt11691774
+  tmdb: 107113
+  slug: only-murders-in-the-building
+  source: trakt
+  show_title_de: Only Murders in the Building
+  show_poster: https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg
+  show_total_episodes: 50
+  episode_title: Tongue Tied
+  episode_title_de: Zum Schweigen gebracht
+  episode_runtime: 38
+  season_total_episodes: 10
+  episode_still: https://image.tmdb.org/t/p/w300/9SWPjaexEg7rrXkKUrwhDhGjM3q.jpg
 - show: Sträters Problemzonen
   year: 2025
   season: 1
