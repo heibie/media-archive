@@ -1,3 +1,24 @@
+- show: 'Alien: Earth'
+  year: 2025
+  season: 1
+  episode: 3
+  plays: 1
+  watched_on: '2025-10-19'
+  trakt_show: 170689
+  tvdb: 458912
+  imdb: tt13623632
+  tmdb: 157239
+  slug: alien-earth
+  source: trakt
+  show_title_de: 'Alien: Earth'
+  show_poster: https://image.tmdb.org/t/p/w500/xOExk58Tu1522rtiJflmSuu3cQN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg
+  show_total_episodes: 8
+  episode_title: Metamorphosis
+  episode_title_de: Metamorphose
+  episode_runtime: 55
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/4pLJcZUh73j8wSQfB5vAX3jtORj.jpg
 - show: Only Murders in the Building
   year: 2021
   season: 5
