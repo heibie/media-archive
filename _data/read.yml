@@ -1,5 +1,14 @@
 - typ: buch
   status: want to read
+  titel: Das Haus der Gefühle
+  autor:
+  - Harald Welzer
+  isbn: '9783103976915'
+  cover: https://buch.isbn.de/gross/9783103976915.jpg
+  seiten: 304
+  eingetragen_am: '2025-10-20'
+- typ: buch
+  status: want to read
   titel: Das Ministerium der Zeit
   autor:
   - Kaliane Bradley
