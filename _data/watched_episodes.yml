@@ -1,3 +1,166 @@
+- show: Lass dich überwachen! – Die PRISM IS A DANCER Show
+  year: 2018
+  season: 1
+  episode: 10
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 161832
+  tvdb: 345251
+  imdb: tt9227064
+  tmdb: 105253
+  slug: lass-dich-uberwachen-die-prism-is-a-dancer-show
+  source: trakt
+  show_title_de: Lass dich überwachen! – Die PRISM IS A DANCER Show
+  show_poster: https://image.tmdb.org/t/p/w500/fn3ikEzaJQzQRp9QvBS2QcfuZ6W.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/61I2az5RaUyfXKLXv2DFBx91rN1.jpg
+  show_total_episodes: 9
+  episode_title: Episode 10
+  episode_title_de: Deutschlands schönste Datenleaks
+  episode_runtime: 90
+  season_total_episodes: 10
+- show: falsch, aber anders lustig
+  year: 2024
+  season: 2
+  episode: 1
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 271972
+  tvdb: 457462
+  imdb: tt34754674
+  tmdb: 280978
+  slug: falsch-aber-anders-lustig
+  source: trakt
+  show_title_de: falsch, aber anders lustig
+  show_backdrop: https://image.tmdb.org/t/p/w780/feFI70m0qNf3x6d7vDI0nzoJjs5.jpg
+  show_total_episodes: 18
+  episode_title: Episode 1
+  episode_title_de: Red Flags, Texttausch, Chaos – Filiz übernimmt die Bühne
+  episode_runtime: 24
+  season_total_episodes: 12
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 8
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 8
+  episode_title_de: 'ZDF Magazin Royale präsentiert: International Comedy Union'
+  episode_runtime: 32
+  season_total_episodes: 13
+  episode_still: https://image.tmdb.org/t/p/w300/aYebxGWPuaNwapvTtBtJxfII4Ic.jpg
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 7
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 7
+  episode_title_de: Austern for Future
+  episode_runtime: 29
+  season_total_episodes: 13
+  episode_still: https://image.tmdb.org/t/p/w300/1lIVjRwZL4kbgJdnFLHZKCCnYdi.jpg
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 6
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 6
+  episode_title_de: Wie reiche Männer Meinung kaufen
+  episode_runtime: 30
+  season_total_episodes: 13
+  episode_still: https://image.tmdb.org/t/p/w300/jUp9VYVpsUFGZgpkgDzmwxOmAd9.jpg
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 5
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 5
+  episode_title_de: 'Kimmel, Kirk und Kinderbücher: Sind die USA im Umbau zur Autokratie?'
+  episode_runtime: 29
+  season_total_episodes: 13
+  episode_still: https://image.tmdb.org/t/p/w300/4eBbi1dDDCEvFMX8MQHSCs3ppWg.jpg
+- show: 'Alien: Earth'
+  year: 2025
+  season: 1
+  episode: 4
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 170689
+  tvdb: 458912
+  imdb: tt13623632
+  tmdb: 157239
+  slug: alien-earth
+  source: trakt
+  show_title_de: 'Alien: Earth'
+  show_poster: https://image.tmdb.org/t/p/w500/xOExk58Tu1522rtiJflmSuu3cQN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg
+  show_total_episodes: 8
+  episode_title: Observation
+  episode_title_de: Beobachtung
+  episode_runtime: 60
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/hzE6VJ37veL4p54IicLcI5pDDSJ.jpg
+- show: Sträters Problemzonen
+  year: 2025
+  season: 1
+  episode: 2
+  plays: 1
+  watched_on: '2025-10-25'
+  trakt_show: 298394
+  tvdb: 468235
+  tmdb: 300314
+  slug: straters-problemzonen
+  source: trakt
+  show_title_de: Sträters Problemzonen
+  show_poster: https://image.tmdb.org/t/p/w500/lj24mTF9vJao75qlUvRZfMOjo8O.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/jnSEIorUIrDwuDtRvmI5WLNyDcE.jpg
+  show_total_episodes: 3
+  episode_title: Episode 2
+  episode_title_de: Peinlichkeits-Poker mit Lorena Rae
+  episode_runtime: 45
+  season_total_episodes: 3
 - show: 'Alien: Earth'
   year: 2025
   season: 1
