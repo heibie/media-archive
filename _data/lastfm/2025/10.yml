@@ -1,3 +1,51 @@
+- artist: Bruce Springsteen
+  track: Born In the U.S.A. - Demo Version - 1982
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-29T20:52:12Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Born+In+the+U.S.A.+-+Demo+Version+-+1982
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Dogma Down
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-29T20:47:52Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Dogma+Down
+  mbid_track: 51ea2ffb-0a73-433f-adf8-2dac370c777f
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Let a Loved one Go
+  album: Classic Vintage
+  played_at_utc: '2025-10-29T13:00:02Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Let+a+Loved+one+Go
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: They Can't Hear The Music
+  album: The Hives Forever Forever The Hives
+  played_at_utc: '2025-10-28T06:36:02Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/They+Can%27t+Hear+The+Music
+  mbid_track: null
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 14be09ec-45ed-4e1c-a9f9-a547882bdd3a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27bb421bc3f6e85f9c6e3f5b807a946a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Ash
   track: Ad Astra
   album: Ad Astra
