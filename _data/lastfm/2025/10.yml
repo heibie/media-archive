@@ -1,3 +1,483 @@
+- artist: Mantar
+  track: Carnal Rising
+  album: Ode to the Flame
+  played_at_utc: '2025-10-30T23:06:21Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Carnal+Rising
+  mbid_track: 51457107-53cf-4bb4-b685-28915c81cdd1
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 66595553-9f32-465f-8c58-d204f60f54f1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ed2940d463346cbd97f44d040d51901.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Open All Night - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T15:00:34Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Open+All+Night+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Used Cars - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:56:44Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Used+Cars+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: State Trooper - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:53:39Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/State+Trooper+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Highway Patrolman - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:48:48Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Highway+Patrolman+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Johnny 99 - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:44:35Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Johnny+99+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Mansion on the Hill - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:40:38Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Mansion+on+the+Hill+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Atlantic City - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:36:37Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Atlantic+City+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Open All Night - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:32:31Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Open+All+Night+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Nebraska - Nebraska Live
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:32:09Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Nebraska+-+Nebraska+Live
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Reason to Believe - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:28:32Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Reason+to+Believe+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Downbound Train - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:25:24Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Downbound+Train+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Born in the U.S.A. - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:25:00Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Born+in+the+U.S.A.+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Open All Night - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:21:42Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Open+All+Night+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Downbound Train - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:19:19Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Downbound+Train+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Johnny 99 - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:15:09Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Johnny+99+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Mansion on the Hill - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:10:54Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Mansion+on+the+Hill+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Atlantic City - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:06:07Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Atlantic+City+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Nebraska - Electric Nebraska
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T12:01:22Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Nebraska+-+Electric+Nebraska
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Gun in Every Home - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T11:58:51Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Gun+in+Every+Home+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: On the Prowl - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T09:11:39Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/On+the+Prowl+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Working on the Highway - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T09:08:17Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Working+on+the+Highway+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: The Big Payback - Single B-side - 1982
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T09:06:18Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/The+Big+Payback+-+Single+B-side+-+1982
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Pink Cadillac - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T09:01:44Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Pink+Cadillac+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Child Bride - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T08:56:12Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Child+Bride+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Downbound Train - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T08:53:38Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Downbound+Train+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Losin' Kind - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T08:48:37Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Losin%27+Kind+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Born In the U.S.A. - Demo Version - 1982
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T08:45:25Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Born+In+the+U.S.A.+-+Demo+Version+-+1982
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Grim Reaping
+  album: Pain is Forever and This is the End
+  played_at_utc: '2025-10-30T05:16:28Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Grim+Reaping
+  mbid_track: f4bb44b6-75f3-4ae5-9fac-68b2b6da84af
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a98981f65c82cecce87bd68067adeb19.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Dogma Down
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T05:14:11Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Dogma+Down
+  mbid_track: 51ea2ffb-0a73-433f-adf8-2dac370c777f
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Cosmic Abortion
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T05:10:05Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Cosmic+Abortion
+  mbid_track: a10cd46e-0d82-4080-b0e9-4a4519d5381e
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Principle of Command
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T05:06:28Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Principle+of+Command
+  mbid_track: 47808022-f34f-4ce0-8452-05d3e4ae4dbf
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Astral Kannibal
+  album: Death by Burning
+  played_at_utc: '2025-10-30T05:02:01Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Astral+Kannibal
+  mbid_track: 138c0f4c-04c2-48dc-a2e3-46f615429da1
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 9718962f-afd9-4fed-8427-594d59422259
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e9312d0668df2f0edaf186c4d3a8614c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Age of the Absurd
+  album: The Modern Art of Setting Ablaze
+  played_at_utc: '2025-10-30T04:58:21Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Age+of+the+Absurd
+  mbid_track: null
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fca31bc745e37fe9b30a2db670e6ecf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Absolute Ghost
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T04:55:46Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Absolute+Ghost
+  mbid_track: dbb13c88-5ec8-470f-a01b-237a5a9efdf3
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Rex Perverso
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T04:52:55Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Rex+Perverso
+  mbid_track: 5a2a48dd-c766-48f0-ac94-be98862e5d74
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Hang 'Em Low (So the Rats Can Get 'Em)
+  album: Pain is Forever and This is the End
+  played_at_utc: '2025-10-30T04:48:38Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Hang+%27Em+Low+(So+the+Rats+Can+Get+%27Em)
+  mbid_track: 080ee332-4c26-479f-8193-2fb817945296
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a98981f65c82cecce87bd68067adeb19.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Halsgericht
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-10-30T04:44:30Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Halsgericht
+  mbid_track: da3133de-0244-4835-a172-9f5f00124611
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Era Borealis
+  album: Ode to the Flame
+  played_at_utc: '2025-10-30T04:33:26Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Era+Borealis
+  mbid_track: 372d4f9a-1911-4589-a3cd-c8c4fa6a0d4a
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: 66595553-9f32-465f-8c58-d204f60f54f1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5ed2940d463346cbd97f44d040d51901.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Losin' Kind - Nebraska Outtakes
+  album: 'Nebraska ''82: Expanded Edition'
+  played_at_utc: '2025-10-30T04:32:54Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Losin%27+Kind+-+Nebraska+Outtakes
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5c56fd15-3aea-48fc-9ba8-ee91589df3ca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a193a151da4199693053419b9e30aedb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Bruce Springsteen
   track: Born In the U.S.A. - Demo Version - 1982
   album: 'Nebraska ''82: Expanded Edition'
