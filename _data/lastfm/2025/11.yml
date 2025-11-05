@@ -1,3 +1,603 @@
+- artist: The Hives
+  track: Legalize Living
+  album: The Hives Forever Forever The Hives
+  played_at_utc: '2025-11-04T16:25:35Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Legalize+Living
+  mbid_track: null
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 14be09ec-45ed-4e1c-a9f9-a547882bdd3a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27bb421bc3f6e85f9c6e3f5b807a946a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spiritual Cramp
+  track: You've Got My Number
+  album: RUDE
+  played_at_utc: '2025-11-04T16:21:44Z'
+  lastfm_url: https://www.last.fm/music/Spiritual+Cramp/_/You%27ve+Got+My+Number
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 8aa26c76-b86b-414f-b536-3535105d7e1e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cd4feec08e5f8e002c5421d0f8a4147d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: White Lies
+  track: Keep Up
+  album: Keep Up
+  played_at_utc: '2025-11-04T16:18:07Z'
+  lastfm_url: https://www.last.fm/music/White+Lies/_/Keep+Up
+  mbid_track: efef4d1f-a8a2-47ed-baa4-52b6193a37f3
+  mbid_artist: 5bdb38bd-5c5b-4d0f-8901-8bbe1d7062d8
+  mbid_album: 3f18ac2d-8721-47dd-a220-6a591cfbd7c0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6aca471961a128270195031860bf5ae4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shame
+  track: Spartak
+  album: Cutthroat
+  played_at_utc: '2025-11-04T16:15:27Z'
+  lastfm_url: https://www.last.fm/music/Shame/_/Spartak
+  mbid_track: 5c8b9fb3-59e6-4696-8800-6f65fea49f11
+  mbid_artist: 752970de-452b-443a-a58f-66088a62485e
+  mbid_album: 25fc940f-f66d-449d-8047-2b53c80f6edb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a85eb7d423288440b64bf09927d1c77.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blood Command
+  track: Mariah's Song
+  album: Mariah's Song
+  played_at_utc: '2025-11-04T16:11:11Z'
+  lastfm_url: https://www.last.fm/music/Blood+Command/_/Mariah%27s+Song
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7e2f40cd791df7d2c5be6fc61b503626.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Bubbles
+  album: Only Revolutions
+  played_at_utc: '2025-11-04T16:06:09Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Bubbles
+  mbid_track: 0007e575-17fc-4704-aae0-bee6feedce2e
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: 077cd837-e055-41d4-bbe9-78b28af65a0c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2d574026598de5e36de7544b002e97be.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Two People In Love
+  album: Futique
+  played_at_utc: '2025-11-04T16:00:18Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Two+People+In+Love
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Dearest Amygdala
+  album: Futique
+  played_at_utc: '2025-11-04T15:55:48Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Dearest+Amygdala
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: A Thousand And One
+  album: Futique
+  played_at_utc: '2025-11-04T15:52:13Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/A+Thousand+And+One
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: It's Chemical!
+  album: Futique
+  played_at_utc: '2025-11-04T15:48:00Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/It%27s+Chemical!
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Woe Is Me, Wow Is You
+  album: Futique
+  played_at_utc: '2025-11-04T15:43:13Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Woe+Is+Me,+Wow+Is+You
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Friendshipping
+  album: Futique
+  played_at_utc: '2025-11-04T15:39:59Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Friendshipping
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Goodbye
+  album: Futique
+  played_at_utc: '2025-11-04T15:36:11Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Goodbye
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: True Believer
+  album: Futique
+  played_at_utc: '2025-11-04T15:31:36Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/True+Believer
+  mbid_track: f934129a-89db-4ecc-a01d-e93119815382
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Shot One
+  album: Futique
+  played_at_utc: '2025-11-04T15:28:05Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Shot+One
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Hunting Season
+  album: Futique
+  played_at_utc: '2025-11-04T15:25:10Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Hunting+Season
+  mbid_track: 9c8384d8-567e-49cc-a013-f5b883202fe3
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: A Little Love
+  album: Futique
+  played_at_utc: '2025-11-04T15:21:30Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/A+Little+Love
+  mbid_track: 2e10a1da-7bd9-42e4-932d-2479d1933ac7
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Haru Urara
+  album: The Myth of the Happily Ever After
+  played_at_utc: '2025-11-04T15:19:48Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Haru+Urara
+  mbid_track: 0d03752d-a50a-4908-bc04-a13e06f6033a
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: 206b1f4d-ac4e-498b-b026-3d54a33a37ce
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c575d96b69274fdda98447ba26e0a19b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Midlake
+  track: The Ghouls
+  album: The Ghouls
+  played_at_utc: '2025-11-04T15:15:49Z'
+  lastfm_url: https://www.last.fm/music/Midlake/_/The+Ghouls
+  mbid_track: 49f901ae-42c4-471a-81f6-ea7d2a3f5045
+  mbid_artist: da90b5da-349e-4906-a0b4-805f5e46190d
+  mbid_album: 1abe51ea-8337-4a3c-803d-a2de6d502384
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e9fd10677ddddceb62039010d1dd9a5d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Danko Jones
+  track: Diamond In The Rough (feat. Marty Friedman)
+  album: Diamond In The Rough
+  played_at_utc: '2025-11-04T15:12:11Z'
+  lastfm_url: https://www.last.fm/music/Danko+Jones/_/Diamond+In+The+Rough+(feat.+Marty+Friedman)
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 24859fda-1e89-4dbd-942d-44910da9bf7a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e4a2ce1a550d903488ec8987ea02d5d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Roll Out The Red Carpet
+  album: The Hives Forever Forever The Hives
+  played_at_utc: '2025-11-04T15:09:50Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Roll+Out+The+Red+Carpet
+  mbid_track: null
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 14be09ec-45ed-4e1c-a9f9-a547882bdd3a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27bb421bc3f6e85f9c6e3f5b807a946a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Militarie Gun
+  track: Wake Up and Smile
+  album: God Save The Gun
+  played_at_utc: '2025-11-04T15:06:46Z'
+  lastfm_url: https://www.last.fm/music/Militarie+Gun/_/Wake+Up+and+Smile
+  mbid_track: 9776688d-a2e6-472c-aeaf-d754676f88d2
+  mbid_artist: a521f1a8-a949-4dcf-ab33-94596cb02787
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/02b2ac3dacde2741c1998f332b94cbe3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Subways
+  track: I Need To Feel You Closer
+  album: When I'm with You
+  played_at_utc: '2025-11-04T15:03:22Z'
+  lastfm_url: https://www.last.fm/music/The+Subways/_/I+Need+To+Feel+You+Closer
+  mbid_track: null
+  mbid_artist: 20e264d7-b4d5-4e49-8931-a9c67ff07f04
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c2ced2e792f011bf8e884092a8744d83.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Different People
+  album: Opposites (Deluxe)
+  played_at_utc: '2025-11-04T14:58:10Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Different+People
+  mbid_track: 16f88431-ff5f-35be-91ad-605f6ed8c624
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fe6dca8a1a6f40e0b8fd1ceafa1ca01e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Two People In Love
+  album: Futique
+  played_at_utc: '2025-11-04T14:52:18Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Two+People+In+Love
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Dearest Amygdala
+  album: Futique
+  played_at_utc: '2025-11-04T14:47:48Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Dearest+Amygdala
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: A Thousand And One
+  album: Futique
+  played_at_utc: '2025-11-04T14:44:12Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/A+Thousand+And+One
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: It's Chemical!
+  album: Futique
+  played_at_utc: '2025-11-04T14:39:58Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/It%27s+Chemical!
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Woe Is Me, Wow Is You
+  album: Futique
+  played_at_utc: '2025-11-04T14:35:11Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Woe+Is+Me,+Wow+Is+You
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Friendshipping
+  album: Futique
+  played_at_utc: '2025-11-04T14:31:56Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Friendshipping
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Goodbye
+  album: Futique
+  played_at_utc: '2025-11-04T14:28:07Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Goodbye
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: True Believer
+  album: Futique
+  played_at_utc: '2025-11-04T14:23:32Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/True+Believer
+  mbid_track: f934129a-89db-4ecc-a01d-e93119815382
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Shot One
+  album: Futique
+  played_at_utc: '2025-11-04T14:20:01Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Shot+One
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Hunting Season
+  album: Futique
+  played_at_utc: '2025-11-04T14:00:32Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Hunting+Season
+  mbid_track: 9c8384d8-567e-49cc-a013-f5b883202fe3
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: A Little Love
+  album: Futique
+  played_at_utc: '2025-11-04T13:56:51Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/A+Little+Love
+  mbid_track: 2e10a1da-7bd9-42e4-932d-2479d1933ac7
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Become Immortal
+  album: Hate Über Alles
+  played_at_utc: '2025-11-04T13:53:20Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Become+Immortal
+  mbid_track: d602ea40-0b67-4be7-b3ef-5464186c2a09
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 1c7c306f-f736-4e5b-97fd-8ababd7813dc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20fb27c7a358849f6f382448c9c3a01a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Paradise Lost
+  track: Tyrants Serenade
+  album: Ascension
+  played_at_utc: '2025-11-04T13:48:58Z'
+  lastfm_url: https://www.last.fm/music/Paradise+Lost/_/Tyrants+Serenade
+  mbid_track: 561bda87-b3f0-49fb-a699-629e82487dae
+  mbid_artist: 10bf95b6-30e3-44f1-817f-45762cdc0de0
+  mbid_album: fe3c9090-a6cf-4239-999a-3ef33ad41ee2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7bd076ed80a84801fa1ff3a84b14bca5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Testament
+  track: Shadow People
+  album: Para Bellum
+  played_at_utc: '2025-11-04T13:43:12Z'
+  lastfm_url: https://www.last.fm/music/Testament/_/Shadow+People
+  mbid_track: 51394242-bea5-484a-a4ea-7b3fdd7fea80
+  mbid_artist: 05106775-5d45-4131-aecc-1177f813ba11
+  mbid_album: 6b173011-5ea1-4d57-b001-88bb5d0afe5f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1d59ef48641161a04aae40c335cb360f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Seven Serpents
+  album: Tränenpalast
+  played_at_utc: '2025-11-04T13:38:32Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Seven+Serpents
+  mbid_track: b895ffc8-1c84-46bc-8502-6c884031e4f6
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 2cab08c1-9f7d-44af-9f98-2da95ae1f68e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a145ff862299ed0da41ea6b3252ba3aa.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Tränenpalast
+  album: Tränenpalast
+  played_at_utc: '2025-11-04T13:33:47Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Tr%C3%A4nenpalast
+  mbid_track: 45d5fd09-76bd-40df-a414-3f5fedf68095
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 2cab08c1-9f7d-44af-9f98-2da95ae1f68e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a145ff862299ed0da41ea6b3252ba3aa.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ash
+  track: Ad Astra
+  album: Ad Astra
+  played_at_utc: '2025-11-04T04:41:26Z'
+  lastfm_url: https://www.last.fm/music/Ash/_/Ad+Astra
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 12da6d28-7eba-4cdf-8067-8552f6912706
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/010ca034cc41bf4485c4a7c6b4d095b8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Great Escape
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T22:44:35Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Great+Escape
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: A Memory Gone
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:38:20Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/A+Memory+Gone
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Here’s My Story, Genevieve
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:33:45Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Here%E2%80%99s+My+Story,+Genevieve
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Cold Where I'm Living
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:30:48Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Cold+Where+I%27m+Living
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Keep A Light On (Like I Do)
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:26:10Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Keep+A+Light+On+(Like+I+Do)
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: I Feel Like Going Home
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:22:57Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/I+Feel+Like+Going+Home
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: One That’s Lost Sees No Direction
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:21:25Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/One+That%E2%80%99s+Lost+Sees+No+Direction
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Oh Salvation
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:15:48Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Oh+Salvation
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Moneybrother
+  track: Let a Loved one Go
+  album: Classic Vintage
+  played_at_utc: '2025-11-03T21:11:17Z'
+  lastfm_url: https://www.last.fm/music/Moneybrother/_/Let+a+Loved+one+Go
+  mbid_track: null
+  mbid_artist: 1c3e52cd-c0c5-4220-85d9-ebdb6a26d056
+  mbid_album: 01669391-f0cd-419c-a3d9-2490c6c0069e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50cb0929115af1a85c183fcf08076a56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Ash
   track: Ghosting
   album: Ad Astra
