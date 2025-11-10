@@ -1,3 +1,24 @@
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 10
+  plays: 1
+  watched_on: '2025-11-09'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 10
+  episode_title_de: 1000 Wege nicht ins Gras zu beißen
+  episode_runtime: 29
+  season_total_episodes: 13
+  episode_still: https://image.tmdb.org/t/p/w300/yR0q5BzETnXfWvqJwHrmXvUEexL.jpg
 - show: Lass dich überwachen! – Die PRISM IS A DANCER Show
   year: 2018
   season: 1
