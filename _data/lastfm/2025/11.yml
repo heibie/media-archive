@@ -1,4 +1,616 @@
 - artist: Frank Turner
+  track: Little Aphrodite
+  album: The Next Ten Years
+  played_at_utc: '2025-11-09T09:06:12Z'
+  lastfm_url: https://www.last.fm/music/Frank+Turner/_/Little+Aphrodite
+  mbid_track: c7c7e56f-6201-4c7f-8852-bb5ccdb841d8
+  mbid_artist: aca5718f-4f49-4439-b8f6-209db3f11757
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d4fc980b12de2d9ebe764c1ec2667584.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jimmy Eat World
+  track: Failure
+  album: Failure
+  played_at_utc: '2025-11-09T09:05:15Z'
+  lastfm_url: https://www.last.fm/music/Jimmy+Eat+World/_/Failure
+  mbid_track: c66c1a74-aac3-4f48-a617-4fa6e86542dc
+  mbid_artist: bbc5b66b-d037-4f26-aecf-0b129e7f876a
+  mbid_album: e9ea229d-3ac6-44e7-9b36-c20bc252f9db
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be0e3bbdbb8a2eadb9dbf7b4108e2369.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pearl Jam
+  track: Alive
+  album: Ten
+  played_at_utc: '2025-11-08T21:47:55Z'
+  lastfm_url: https://www.last.fm/music/Pearl+Jam/_/Alive
+  mbid_track: 5c090e3e-6e91-4ab8-972c-93ad5f822cb5
+  mbid_artist: 83b9cbe7-9857-49e2-ab8e-b57b01038103
+  mbid_album: 032469aa-f00b-49cd-badf-5cbda161170c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4dfa0959e9534f8dcfd24d5dc5110589.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pearl Jam
+  track: Alive
+  album: Ten
+  played_at_utc: '2025-11-08T21:43:55Z'
+  lastfm_url: https://www.last.fm/music/Pearl+Jam/_/Alive
+  mbid_track: 5c090e3e-6e91-4ab8-972c-93ad5f822cb5
+  mbid_artist: 83b9cbe7-9857-49e2-ab8e-b57b01038103
+  mbid_album: 032469aa-f00b-49cd-badf-5cbda161170c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4dfa0959e9534f8dcfd24d5dc5110589.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Metallica
+  track: Until It Sleeps - Remastered
+  album: Load (Remastered Deluxe Box Set)
+  played_at_utc: '2025-11-08T21:42:16Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/Until+It+Sleeps+-+Remastered
+  mbid_track: 12887ac8-2f6c-4cc9-9ee0-0869a0119c08
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8eea0183b0f67e31069a1707712ed9f0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Depeche Mode
+  track: It's No Good
+  album: Ultra (Deluxe)
+  played_at_utc: '2025-11-08T21:40:03Z'
+  lastfm_url: https://www.last.fm/music/Depeche+Mode/_/It%27s+No+Good
+  mbid_track: a111c73a-1656-4da3-8f4f-bb05e1ee8520
+  mbid_artist: 8538e728-ca0b-4321-b7e5-cff6565dd4c0
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a50598a3f5fd8b64645df7c983dac218.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Smashing Pumpkins
+  track: 1979 - Remastered 2012
+  album: Mellon Collie and the Infinite Sadness (Deluxe Edition)
+  played_at_utc: '2025-11-08T21:33:08Z'
+  lastfm_url: https://www.last.fm/music/The+Smashing+Pumpkins/_/1979+-+Remastered+2012
+  mbid_track: b4486e7a-2688-4b1d-a1fb-32244a6ab902
+  mbid_artist: ba0d6274-db14-4ef5-b28d-657ebde1a396
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a453e940a8945b4c5b2766f76ece94a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fun Lovin' Criminals
+  track: Scooby Snacks
+  album: Come Find Yourself
+  played_at_utc: '2025-11-08T21:29:28Z'
+  lastfm_url: https://www.last.fm/music/Fun+Lovin%27+Criminals/_/Scooby+Snacks
+  mbid_track: 66753ef6-7775-41d0-83c4-d58c6681ccd6
+  mbid_artist: 1b15e90d-910c-4be4-99cb-463772a6430f
+  mbid_album: 28544dd3-f521-4b76-b8a7-0df1dc269b2a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5c9ba94ccc7c457bc57d84f2e1f28382.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Faith No More
+  track: Epic
+  album: The Real Thing
+  played_at_utc: '2025-11-08T21:25:37Z'
+  lastfm_url: https://www.last.fm/music/Faith+No+More/_/Epic
+  mbid_track: 5fce83ae-558d-4b90-be86-ac20a29f031b
+  mbid_artist: b15ebd71-a252-417d-9e1c-3e6863da68f8
+  mbid_album: 026c1ce9-0f6b-45a0-8d9c-44293ba7919d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c2837663df27c2029cd0736ffa230ff4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Edwyn Collins
+  track: A Girl Like You
+  album: Gorgeous George
+  played_at_utc: '2025-11-08T21:20:44Z'
+  lastfm_url: https://www.last.fm/music/Edwyn+Collins/_/A+Girl+Like+You
+  mbid_track: 003c267b-119a-305f-abcb-0ace40a069db
+  mbid_artist: 14c0c282-e0c1-46fe-acd1-9a015ba721c5
+  mbid_album: 007b9f78-f3cd-49b1-ab73-57a28385897b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9b145abdfe77447bb985793f42abd6cd.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Cure
+  track: Friday I'm in Love
+  album: Wish
+  played_at_utc: '2025-11-08T21:16:47Z'
+  lastfm_url: https://www.last.fm/music/The+Cure/_/Friday+I%27m+in+Love
+  mbid_track: 865137b6-8b6a-4e5a-805a-c17a508b0a25
+  mbid_artist: 69ee3720-a7cb-4402-b48d-a02c366f2bcf
+  mbid_album: 0d5f0ccc-e41a-451d-8845-4675921982cc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7e1f7cafa97e32a9fc549f5cf13061ae.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Smashing Pumpkins
+  track: Tonight, Tonight - Remastered 2012
+  album: Mellon Collie and the Infinite Sadness (Remastered)
+  played_at_utc: '2025-11-08T21:14:06Z'
+  lastfm_url: https://www.last.fm/music/The+Smashing+Pumpkins/_/Tonight,+Tonight+-+Remastered+2012
+  mbid_track: 0fe112e8-cc91-4751-876f-9f8f52b79c13
+  mbid_artist: ba0d6274-db14-4ef5-b28d-657ebde1a396
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/afff7726dc5bb933666bd9cb0698d8da.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pulp
+  track: Common People - Full Length Version
+  album: Different Class
+  played_at_utc: '2025-11-08T21:08:58Z'
+  lastfm_url: https://www.last.fm/music/Pulp/_/Common+People+-+Full+Length+Version
+  mbid_track: a394dac6-5dd4-4309-a94e-b7c943b3e07f
+  mbid_artist: 76b2e842-5e85-4c97-ab62-d5bc315595b5
+  mbid_album: 9d95bcdc-52df-4886-8b5c-774bd3fea8dd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ccb75ea5d7aba1a13975cfeba2792deb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Smash Mouth
+  track: All Star
+  album: Astro Lounge
+  played_at_utc: '2025-11-08T19:58:03Z'
+  lastfm_url: https://www.last.fm/music/Smash+Mouth/_/All+Star
+  mbid_track: e2fecf2a-c7ae-49f6-8e6d-4cde06c46edd
+  mbid_artist: 944e1036-8a03-4611-8aa0-31515a05c848
+  mbid_album: 3b29892e-87fc-4493-99fe-9101bb3b5981
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3db4107a5144e5bcb69b40206808c72f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Semisonic
+  track: Secret Smile
+  album: Feeling Strangely Fine (20th Anniversary Edition)
+  played_at_utc: '2025-11-08T19:48:51Z'
+  lastfm_url: https://www.last.fm/music/Semisonic/_/Secret+Smile
+  mbid_track: 19eb057b-1e0f-47f9-be29-b6bb3f4d46f8
+  mbid_artist: 3037bd18-0079-4e4b-9ce1-758689e210d8
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1655dfb4fda5654b20aac078e041fb58.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Toad The Wet Sprocket
+  track: All I Want
+  album: fear
+  played_at_utc: '2025-11-08T19:44:12Z'
+  lastfm_url: https://www.last.fm/music/Toad+The+Wet+Sprocket/_/All+I+Want
+  mbid_track: cdd802ac-b6ff-4130-a64c-09b46cfbafca
+  mbid_artist: null
+  mbid_album: 3e2ed461-01f5-4692-bb7d-697b4f779775
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5fb9aad3f553cbc06a70f342f5501099.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Verve Pipe
+  track: The Freshmen
+  album: Villains
+  played_at_utc: '2025-11-08T19:40:54Z'
+  lastfm_url: https://www.last.fm/music/The+Verve+Pipe/_/The+Freshmen
+  mbid_track: 02f0e8d0-30c2-3b23-8e57-c56b43004c62
+  mbid_artist: 28f93e8a-43fa-4cfb-aea5-11252ff937ab
+  mbid_album: 4054395d-7f73-4f19-a4f6-df4bb3259fbe
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/13c1e6663b2e4727c782217d3c802d73.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bon Jovi
+  track: Bed Of Roses
+  album: Keep The Faith
+  played_at_utc: '2025-11-08T19:36:38Z'
+  lastfm_url: https://www.last.fm/music/Bon+Jovi/_/Bed+Of+Roses
+  mbid_track: null
+  mbid_artist: 5dcdb5eb-cb72-4e6e-9e63-b7bace604965
+  mbid_album: 03db2d86-e78d-4d36-a616-c8f5aa8ae80f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/36081c7e1d61e653830c888c553e10ca.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sublime
+  track: Santeria
+  album: Sublime
+  played_at_utc: '2025-11-08T19:29:51Z'
+  lastfm_url: https://www.last.fm/music/Sublime/_/Santeria
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 03b864cd-7761-314c-a892-05a89ddff00d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0e9c12d7f8a7319ec103b73a87f889d7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hootie & The Blowfish
+  track: Let Her Cry
+  album: Cracked Rear View
+  played_at_utc: '2025-11-08T19:26:48Z'
+  lastfm_url: https://www.last.fm/music/Hootie+&+The+Blowfish/_/Let+Her+Cry
+  mbid_track: 129f4515-15cd-4c34-9c14-a0d7d37e28bb
+  mbid_artist: b3120863-d98d-4bad-a637-8abd8cde6685
+  mbid_album: 0d0a19a9-143b-4540-8f2a-0b91ce74d8c4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1591d6762b664f20cf93dbe33fa04ab0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jon Bon Jovi
+  track: Blaze Of Glory
+  album: Cross Road
+  played_at_utc: '2025-11-08T19:21:33Z'
+  lastfm_url: https://www.last.fm/music/Jon+Bon+Jovi/_/Blaze+Of+Glory
+  mbid_track: 01ffc16a-3a5e-4314-9131-9586fbe2b430
+  mbid_artist: 5ace9b0c-cc21-4d8f-8e08-a70234439f2a
+  mbid_album: 2a5ec015-9ae5-46d6-835a-a268bee043b0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ef2fb44324ea1c38ac27823155b1b91e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesus Jones
+  track: Right Here Right Now
+  album: Doubt
+  played_at_utc: '2025-11-08T19:15:50Z'
+  lastfm_url: https://www.last.fm/music/Jesus+Jones/_/Right+Here+Right+Now
+  mbid_track: null
+  mbid_artist: f9776598-2689-41db-98d3-829f5510021c
+  mbid_album: 07778e04-f944-45af-900f-c904d1cafa35
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a075c7ab90eb4401904cbe0e39d1d65a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Stereophonics
+  track: Pick a Part That's New
+  album: Performance and Cocktails
+  played_at_utc: '2025-11-08T19:12:52Z'
+  lastfm_url: https://www.last.fm/music/Stereophonics/_/Pick+a+Part+That%27s+New
+  mbid_track: 7a759e96-6070-4bf1-b406-2c6b60ffce0f
+  mbid_artist: 0bfba3d3-6a04-4779-bb0a-df07df5b0558
+  mbid_album: 374b2e06-36db-4c36-b853-6b5b57fffac1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9f5efa1da505394170241f5a4bb5abaf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Def Leppard
+  track: Let's Get Rocked
+  album: Adrenalize (Deluxe)
+  played_at_utc: '2025-11-08T19:10:01Z'
+  lastfm_url: https://www.last.fm/music/Def+Leppard/_/Let%27s+Get+Rocked
+  mbid_track: null
+  mbid_artist: 7249b899-8db8-43e7-9e6e-22f1e736024e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f05dda72c1438098985da744a03f4490.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Goo Goo Dolls
+  track: Iris
+  album: Dizzy Up the Girl
+  played_at_utc: '2025-11-08T19:04:11Z'
+  lastfm_url: https://www.last.fm/music/Goo+Goo+Dolls/_/Iris
+  mbid_track: 49c04d28-280a-4bfb-afb5-a5affcb373e9
+  mbid_artist: e2c00c56-8365-4160-9f40-a64682917633
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7115714c7101454ec57ceca6e2a6dc5c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Scorpions
+  track: Wind of Change
+  album: Crazy World
+  played_at_utc: '2025-11-08T18:59:28Z'
+  lastfm_url: https://www.last.fm/music/Scorpions/_/Wind+of+Change
+  mbid_track: null
+  mbid_artist: c3cceeed-3332-4cf0-8c4c-bbde425147b6
+  mbid_album: 0deebcf9-7440-4268-8502-1d89eaabe272
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/470b934e8cd26ed4d4e1f819b7f7014f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aerosmith
+  track: Pink
+  album: Nine Lives
+  played_at_utc: '2025-11-08T18:54:18Z'
+  lastfm_url: https://www.last.fm/music/Aerosmith/_/Pink
+  mbid_track: 6bb18dcc-2401-4bcb-a613-957aa9560896
+  mbid_artist: 3d2b98e5-556f-4451-a3ff-c50ea18d57cb
+  mbid_album: 08a2bf65-5277-3123-bc5e-035adcdf7920
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/64da143af5c328d2987a3b2762c0c1f7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Soul Asylum
+  track: Misery
+  album: Let Your Dim Light Shine
+  played_at_utc: '2025-11-08T18:51:13Z'
+  lastfm_url: https://www.last.fm/music/Soul+Asylum/_/Misery
+  mbid_track: fc87ab6e-322d-4328-a21d-855acaf8e4dd
+  mbid_artist: b10db9ad-b4c3-47f3-a7a4-37864b134f65
+  mbid_album: 180414f6-23bc-4e03-bc27-c8de6beb3104
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ca50a119274e64eeb6daf6de91d607eb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: U2
+  track: Even Better Than the Real Thing
+  album: Achtung Baby (Deluxe Edition)
+  played_at_utc: '2025-11-08T18:45:52Z'
+  lastfm_url: https://www.last.fm/music/U2/_/Even+Better+Than+the+Real+Thing
+  mbid_track: null
+  mbid_artist: a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432
+  mbid_album: 0ff822f3-5834-482f-a520-519b11ecffb3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e3bf925e801ac70ff08574f324fdbb0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar Ray
+  track: Every Morning
+  album: '14:59'
+  played_at_utc: '2025-11-08T18:42:40Z'
+  lastfm_url: https://www.last.fm/music/Sugar+Ray/_/Every+Morning
+  mbid_track: 081130f9-c936-4f07-ac63-7ffa5442cf0b
+  mbid_artist: 9968756b-d504-4c90-a184-776ba1dd32ea
+  mbid_album: 43a4e614-562d-4fd6-8693-df11aa8c06bc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ace6fe6cc257f5c397732de8adbaa219.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Oasis
+  track: Wonderwall - Remastered
+  album: Time Flies... 1994-2009 (Remastered)
+  played_at_utc: '2025-11-08T18:38:28Z'
+  lastfm_url: https://www.last.fm/music/Oasis/_/Wonderwall+-+Remastered
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9f9b2c0e3b359a40a06b2f875a8a8d58.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Alanis Morissette
+  track: You Learn - 2015 Remaster
+  album: Jagged Little Pill (2015 Remaster)
+  played_at_utc: '2025-11-08T18:34:05Z'
+  lastfm_url: https://www.last.fm/music/Alanis+Morissette/_/You+Learn+-+2015+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b11b155153b825a3dbd6e4a600345ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Skunk Anansie
+  track: Secretly
+  album: Post Orgasmic Chill
+  played_at_utc: '2025-11-08T18:32:24Z'
+  lastfm_url: https://www.last.fm/music/Skunk+Anansie/_/Secretly
+  mbid_track: 01b182e5-8428-3a98-95b6-27e360480480
+  mbid_artist: e212efdf-98b2-4dce-92ed-62cfc1e29854
+  mbid_album: 03cfd6df-54da-3939-8b25-ade260c45ec0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9067f08cf169c5e27fc32fdab9e65317.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Radiohead
+  track: Creep
+  album: Pablo Honey
+  played_at_utc: '2025-11-08T18:25:21Z'
+  lastfm_url: https://www.last.fm/music/Radiohead/_/Creep
+  mbid_track: null
+  mbid_artist: a74b1b7f-71a5-4011-9441-d0b5e4122711
+  mbid_album: 02769f4d-ee78-3680-aa79-67f3a821c931
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e6b38ee9858b906470ba6826825b9354.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Santana
+  track: Smooth (feat. Rob Thomas)
+  album: Supernatural (Remastered)
+  played_at_utc: '2025-11-08T18:21:28Z'
+  lastfm_url: https://www.last.fm/music/Santana/_/Smooth+(feat.+Rob+Thomas)
+  mbid_track: 4d14cc27-57a9-3196-9eb7-2bef0d2e066f
+  mbid_artist: 17d218e4-3c75-45af-88f9-d47ed2f75e39
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/645e016ec566b0931c95c7af41c031a9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aerosmith
+  track: Livin' on the Edge
+  album: Big Ones
+  played_at_utc: '2025-11-08T18:16:29Z'
+  lastfm_url: https://www.last.fm/music/Aerosmith/_/Livin%27+on+the+Edge
+  mbid_track: null
+  mbid_artist: 3d2b98e5-556f-4451-a3ff-c50ea18d57cb
+  mbid_album: 01fb67c5-22f7-3074-82ad-67ba766f2cdd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b6e8c831b594d5bb7362e7d6e0eb723.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pearl Jam
+  track: Last Kiss
+  album: Last Kiss
+  played_at_utc: '2025-11-08T18:11:51Z'
+  lastfm_url: https://www.last.fm/music/Pearl+Jam/_/Last+Kiss
+  mbid_track: null
+  mbid_artist: 83b9cbe7-9857-49e2-ab8e-b57b01038103
+  mbid_album: 0a322bae-608a-3bdc-a19a-c2088ea1d12e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f80129a73fd642b798170c6bb63b4be5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: U2
+  track: One
+  album: Achtung Baby (Deluxe Edition)
+  played_at_utc: '2025-11-08T18:11:48Z'
+  lastfm_url: https://www.last.fm/music/U2/_/One
+  mbid_track: null
+  mbid_artist: a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432
+  mbid_album: 0ff822f3-5834-482f-a520-519b11ecffb3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3e3bf925e801ac70ff08574f324fdbb0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hole
+  track: Awful
+  album: Celebrity Skin
+  played_at_utc: '2025-11-08T18:02:14Z'
+  lastfm_url: https://www.last.fm/music/Hole/_/Awful
+  mbid_track: 48afa26d-11ad-4985-8ce7-972fbfd0e21b
+  mbid_artist: null
+  mbid_album: 1194c9bb-abd6-4d4f-aa1e-07f1ae59d4a2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27e69382f1a0e7a50e06f4edc50c66f9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tom Cochrane
+  track: Life Is a Highway
+  album: Mad Mad World (Deluxe)
+  played_at_utc: '2025-11-08T18:00:37Z'
+  lastfm_url: https://www.last.fm/music/Tom+Cochrane/_/Life+Is+a+Highway
+  mbid_track: 1c9c4b39-d1a3-4678-ab3e-7be370320f4f
+  mbid_artist: 825a918f-09fa-40ee-9c27-b0921d48bdbb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0d0f998800a350df00c4f35b339c1d09.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hootie & The Blowfish
+  track: Only Wanna Be With You
+  album: Cracked Rear View
+  played_at_utc: '2025-11-08T17:54:33Z'
+  lastfm_url: https://www.last.fm/music/Hootie+&+The+Blowfish/_/Only+Wanna+Be+With+You
+  mbid_track: e97a92e7-ef42-4feb-937d-bf50b5967442
+  mbid_artist: b3120863-d98d-4bad-a637-8abd8cde6685
+  mbid_album: 0d0a19a9-143b-4540-8f2a-0b91ce74d8c4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1591d6762b664f20cf93dbe33fa04ab0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ugly Kid Joe
+  track: Everything About You
+  album: 'As Ugly As It Gets: The Very Best Of'
+  played_at_utc: '2025-11-08T17:50:42Z'
+  lastfm_url: https://www.last.fm/music/Ugly+Kid+Joe/_/Everything+About+You
+  mbid_track: null
+  mbid_artist: 91f32a6b-fc11-45b6-a243-4dd90eaee781
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6a449703fe974e3c9f21926af60a8a38.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sheryl Crow
+  track: All I Wanna Do
+  album: Tuesday Night Music Club
+  played_at_utc: '2025-11-08T17:46:27Z'
+  lastfm_url: https://www.last.fm/music/Sheryl+Crow/_/All+I+Wanna+Do
+  mbid_track: 50b06afa-79f8-4da5-905d-e6240f159a7f
+  mbid_artist: 80ccfede-c258-4575-a7ad-c982e9932e0f
+  mbid_album: 0962babb-a98b-498a-b27d-a13663b4f1f7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a3709f8b942d4bdd95151fcd6f201ff7.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: ZZ Top
+  track: Doubleback
+  album: Recycler
+  played_at_utc: '2025-11-08T17:41:59Z'
+  lastfm_url: https://www.last.fm/music/ZZ+Top/_/Doubleback
+  mbid_track: 82814c23-ca5f-4129-917c-b2375e4e141e
+  mbid_artist: a81259a0-a2f5-464b-866e-71220f2739f1
+  mbid_album: 0310fe48-43d0-4984-9ade-f96bb4329a3c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/652228d8bd0a4b47bce514945ac4ae80.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lenny Kravitz
+  track: American Woman
+  album: '5'
+  played_at_utc: '2025-11-08T17:38:48Z'
+  lastfm_url: https://www.last.fm/music/Lenny+Kravitz/_/American+Woman
+  mbid_track: 0fbd6a97-051c-34aa-aa30-daf79375f4be
+  mbid_artist: 0ef3f425-9bd2-4216-9dd2-219d2fe90f1f
+  mbid_album: 11bd170d-ed93-4eef-a77d-0990aebf8a97
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3178b5958f3c20f5d8a312161b085f00.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Live
+  track: Selling the Drama
+  album: Throwing Copper
+  played_at_utc: '2025-11-08T17:35:35Z'
+  lastfm_url: https://www.last.fm/music/Live/_/Selling+the+Drama
+  mbid_track: 1233e288-0818-47ad-b9fe-a7dbb454d4ae
+  mbid_artist: null
+  mbid_album: 29256279-1fb1-454c-a0dc-c3c594d37e04
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1621e4f1b3da45a6a289ae97ce982e20.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Guns N' Roses
+  track: November Rain
+  album: Use Your Illusion I
+  played_at_utc: '2025-11-08T17:33:25Z'
+  lastfm_url: https://www.last.fm/music/Guns+N%27+Roses/_/November+Rain
+  mbid_track: null
+  mbid_artist: eeb1195b-f213-4ce1-b28c-8565211f8e43
+  mbid_album: 02cc332c-5719-4c6d-969c-d8a23ba0b3df
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3f426c9970df50f6eeeace38e6d9d33a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nirvana
+  track: Come as You Are
+  album: Nevermind (Remastered)
+  played_at_utc: '2025-11-08T17:21:42Z'
+  lastfm_url: https://www.last.fm/music/Nirvana/_/Come+as+You+Are
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d97d21d3884088e85785eb471f3c431b.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: 4 Non Blondes
+  track: What's Up?
+  album: Bigger, Better, Faster, More !
+  played_at_utc: '2025-11-08T17:20:33Z'
+  lastfm_url: https://www.last.fm/music/4+Non+Blondes/_/What%27s+Up%3F
+  mbid_track: null
+  mbid_artist: efef848b-63e4-4323-8ef7-69a48fbdd51d
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/36c12ca008a261ca8f43e9fca033c8e4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Human Touch
+  album: Human Touch
+  played_at_utc: '2025-11-08T17:12:35Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Human+Touch
+  mbid_track: null
+  mbid_artist: 70248960-cb53-4ea4-943a-edb18f7d336f
+  mbid_album: 082fdc37-c80c-48b5-9f50-2ba871158d62
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/275c01560eaabd48ed409e1a3032378d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Third Eye Blind
+  track: How's It Going To Be
+  album: Third Eye Blind
+  played_at_utc: '2025-11-08T17:09:27Z'
+  lastfm_url: https://www.last.fm/music/Third+Eye+Blind/_/How%27s+It+Going+To+Be
+  mbid_track: 98560c1b-8cce-3f20-9d57-bf115a29b16b
+  mbid_artist: 92a42e82-b36f-4308-82c1-68bad2e03c89
+  mbid_album: 12ad8fc3-be77-43bd-994a-33b4c2930e6f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f1993e45b36772b764495786820152ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Frank Turner
   track: Least Of All Young Caroline
   album: The Next Ten Years
   played_at_utc: '2025-11-07T20:19:02Z'
