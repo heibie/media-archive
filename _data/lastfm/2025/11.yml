@@ -1,3 +1,51 @@
+- artist: Biffy Clyro
+  track: True Believer
+  album: Futique
+  played_at_utc: '2025-11-11T12:18:18Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/True+Believer
+  mbid_track: f934129a-89db-4ecc-a01d-e93119815382
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Shot One
+  album: Futique
+  played_at_utc: '2025-11-11T12:14:47Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Shot+One
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Hunting Season
+  album: Futique
+  played_at_utc: '2025-11-11T12:11:51Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Hunting+Season
+  mbid_track: 9c8384d8-567e-49cc-a013-f5b883202fe3
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: A Little Love
+  album: Futique
+  played_at_utc: '2025-11-11T12:08:11Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/A+Little+Love
+  mbid_track: 2e10a1da-7bd9-42e4-932d-2479d1933ac7
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Frank Turner
   track: Little Aphrodite
   album: The Next Ten Years
