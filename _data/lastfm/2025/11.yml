@@ -1,3 +1,267 @@
+- artist: Green Day
+  track: Basket Case
+  album: Dookie
+  played_at_utc: '2025-11-12T16:02:48Z'
+  lastfm_url: https://www.last.fm/music/Green+Day/_/Basket+Case
+  mbid_track: null
+  mbid_artist: 084308bd-1654-436f-ba03-df6697104e19
+  mbid_album: 17ca17ed-f061-4d5b-97e2-848d85e47d95
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2248e72411992639ffa8ab94ba97a631.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hanson
+  track: mmmbop - Hex Mix
+  album: mmmBop
+  played_at_utc: '2025-11-12T16:00:51Z'
+  lastfm_url: https://www.last.fm/music/Hanson/_/mmmbop+-+Hex+Mix
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 02629928-a0d1-4292-9f0c-507bc5b883f5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2c569328e6434075c06db36626f71bf8.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spin Doctors
+  track: Two Princes
+  album: Pocket Full of Kryptonite
+  played_at_utc: '2025-11-12T15:56:33Z'
+  lastfm_url: https://www.last.fm/music/Spin+Doctors/_/Two+Princes
+  mbid_track: 59054af9-6d9b-4332-84c1-96d4dc6633c3
+  mbid_artist: 1bcb61f3-ca9c-4a26-b16e-0547ad6c21be
+  mbid_album: 18597359-f2a9-44d8-81aa-9fb2f4395f69
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7aa4584f650e61b5052da08e6596f375.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: New Radicals
+  track: You Get What You Give
+  album: Maybe You've Been Brainwashed Too
+  played_at_utc: '2025-11-12T15:51:32Z'
+  lastfm_url: https://www.last.fm/music/New+Radicals/_/You+Get+What+You+Give
+  mbid_track: 8a64a917-aac4-46c6-807e-def2be87006f
+  mbid_artist: 09a6ae88-7589-4ab2-b10c-dd50ebd526a0
+  mbid_album: 5b16f99a-118a-47b7-83b3-4af1a9ed91d9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2c8326313bdba2b68959f335ba0dc811.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Third Eye Blind
+  track: Semi-Charmed Life
+  album: Third Eye Blind
+  played_at_utc: '2025-11-12T15:47:03Z'
+  lastfm_url: https://www.last.fm/music/Third+Eye+Blind/_/Semi-Charmed+Life
+  mbid_track: null
+  mbid_artist: 92a42e82-b36f-4308-82c1-68bad2e03c89
+  mbid_album: 12ad8fc3-be77-43bd-994a-33b4c2930e6f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f1993e45b36772b764495786820152ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Stereophonics
+  track: More Life in a Tramps Vest
+  album: Word Gets Around - Deluxe Edition
+  played_at_utc: '2025-11-12T15:44:43Z'
+  lastfm_url: https://www.last.fm/music/Stereophonics/_/More+Life+in+a+Tramps+Vest
+  mbid_track: 159b2051-7a3c-3921-82e8-13a5c6a5236c
+  mbid_artist: 0bfba3d3-6a04-4779-bb0a-df07df5b0558
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7690d0725f664297aba906654c6234a2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Manic Street Preachers
+  track: Motorcycle Emptiness
+  album: Forever Delayed
+  played_at_utc: '2025-11-12T15:42:02Z'
+  lastfm_url: https://www.last.fm/music/Manic+Street+Preachers/_/Motorcycle+Emptiness
+  mbid_track: null
+  mbid_artist: 32efea44-6cb5-4b4f-bdaa-c8b8f6cef981
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2d9188d868a04d67be57fbb039ff7d6c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Third Eye Blind
+  track: Semi-Charmed Life
+  album: Third Eye Blind
+  played_at_utc: '2025-11-12T15:38:27Z'
+  lastfm_url: https://www.last.fm/music/Third+Eye+Blind/_/Semi-Charmed+Life
+  mbid_track: null
+  mbid_artist: 92a42e82-b36f-4308-82c1-68bad2e03c89
+  mbid_album: 12ad8fc3-be77-43bd-994a-33b4c2930e6f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f1993e45b36772b764495786820152ab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Stereophonics
+  track: More Life in a Tramps Vest
+  album: Word Gets Around - Deluxe Edition
+  played_at_utc: '2025-11-12T15:36:06Z'
+  lastfm_url: https://www.last.fm/music/Stereophonics/_/More+Life+in+a+Tramps+Vest
+  mbid_track: 159b2051-7a3c-3921-82e8-13a5c6a5236c
+  mbid_artist: 0bfba3d3-6a04-4779-bb0a-df07df5b0558
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7690d0725f664297aba906654c6234a2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Manic Street Preachers
+  track: Motorcycle Emptiness
+  album: Forever Delayed
+  played_at_utc: '2025-11-12T05:32:49Z'
+  lastfm_url: https://www.last.fm/music/Manic+Street+Preachers/_/Motorcycle+Emptiness
+  mbid_track: null
+  mbid_artist: 32efea44-6cb5-4b4f-bdaa-c8b8f6cef981
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2d9188d868a04d67be57fbb039ff7d6c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: If I Can't Change Your Mind
+  album: Copper Blue
+  played_at_utc: '2025-11-12T05:29:30Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/If+I+Can%27t+Change+Your+Mind
+  mbid_track: 05d0d293-06f6-3b3a-a277-a32366150327
+  mbid_artist: null
+  mbid_album: 06519690-5882-4df1-bbd0-a677dd6c6b11
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b5b8dfec61a945a7c5782e66bf7fceb5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Replacements
+  track: Alex Chilton - 2008 Remaster
+  album: Pleased To Meet Me (Expanded)
+  played_at_utc: '2025-11-12T05:26:15Z'
+  lastfm_url: https://www.last.fm/music/The+Replacements/_/Alex+Chilton+-+2008+Remaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/00a3a4aa2c1843d8855dbce1d2c7db72.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Suede
+  track: Trash
+  album: The Best Of
+  played_at_utc: '2025-11-12T05:22:08Z'
+  lastfm_url: https://www.last.fm/music/Suede/_/Trash
+  mbid_track: 6d40eced-7727-3c74-9b34-38086ff59607
+  mbid_artist: null
+  mbid_album: b966f979-4944-43ef-8fe3-5daff562826d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/272a30ff465c461fbcca1a4c62f8d7d0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Slade
+  track: Mama Weer All Crazee Now
+  album: Wall of Hits
+  played_at_utc: '2025-11-12T05:18:23Z'
+  lastfm_url: https://www.last.fm/music/Slade/_/Mama+Weer+All+Crazee+Now
+  mbid_track: e255bbc5-5f5b-4dde-9bd3-783223db8f20
+  mbid_artist: 53f7f8b5-ec4e-4185-8de6-411e74ef58b3
+  mbid_album: 35d2cc02-2194-34e9-b730-7c5c21878cdc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/beccf0e08bb00dc6ffcd5145b2a4f53a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Suzi Quatro
+  track: Can the Can
+  album: Suzi Quatro
+  played_at_utc: '2025-11-12T05:14:48Z'
+  lastfm_url: https://www.last.fm/music/Suzi+Quatro/_/Can+the+Can
+  mbid_track: null
+  mbid_artist: 2c16cb3f-e85f-4158-889f-ffc038f5792d
+  mbid_album: 2a2a6650-ef22-4c30-92b9-c63943eba34a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/64b55f34807efd5c22dd27c26d033a9b.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Knack
+  track: My Sharona
+  album: Get The Knack
+  played_at_utc: '2025-11-12T05:09:52Z'
+  lastfm_url: https://www.last.fm/music/The+Knack/_/My+Sharona
+  mbid_track: a1838c0d-250e-41d3-bfcb-9664ea495e59
+  mbid_artist: null
+  mbid_album: 25d7097a-eb3c-4bfa-8e7a-2fd6672c2d31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a3c30126bdc4ef2833dc57fb89ee25e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sweet
+  track: Teenage Rampage
+  album: Action! The Ultimate Story
+  played_at_utc: '2025-11-12T05:04:56Z'
+  lastfm_url: https://www.last.fm/music/Sweet/_/Teenage+Rampage
+  mbid_track: 3c4bf8be-5f7c-4cea-bd1d-03b0ca62e066
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2ae41e736d5b5bcdd49c1c4395d6f6f6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cheap Trick
+  track: I Want You to Want Me - Live at Nippon Budokan, Tokyo, JPN - April 1978
+  album: At Budokan
+  played_at_utc: '2025-11-12T05:01:10Z'
+  lastfm_url: https://www.last.fm/music/Cheap+Trick/_/I+Want+You+to+Want+Me+-+Live+at+Nippon+Budokan,+Tokyo,+JPN+-+April+1978
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 1dd9a4d5-44ef-458c-b1ec-e7f10b95981e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f0d97ab326ce4567b2e5ce47b3a1bb2e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Undertones
+  track: You've Got My Number (Why Don't You Use It!)
+  album: The Undertones
+  played_at_utc: '2025-11-12T04:58:29Z'
+  lastfm_url: https://www.last.fm/music/The+Undertones/_/You%27ve+Got+My+Number+(Why+Don%27t+You+Use+It!)
+  mbid_track: 2ac3a052-c2d7-4c9b-9683-4015983fd91f
+  mbid_artist: d188e4cd-d187-4df2-8516-6ff8dfd3735c
+  mbid_album: 002ae8aa-7ad1-42bb-8bb7-2907aed8c648
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4941aeedce764ccaafc704acf1289063.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tommy James & The Shondells
+  track: I Think We're Alone Now
+  album: Top Hits from the 60's
+  played_at_utc: '2025-11-12T04:56:08Z'
+  lastfm_url: https://www.last.fm/music/Tommy+James+&+The+Shondells/_/I+Think+We%27re+Alone+Now
+  mbid_track: a9d44d34-efae-4705-8749-18551dc411c7
+  mbid_artist: a13c01e2-7739-4b25-af65-38e2fcb560e2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Eddie & The Hot Rods
+  track: Do Anything You Wanna Do
+  album: 100 Essential Hits - 70s
+  played_at_utc: '2025-11-12T04:49:17Z'
+  lastfm_url: https://www.last.fm/music/Eddie+&+The+Hot+Rods/_/Do+Anything+You+Wanna+Do
+  mbid_track: daf1bb20-59bd-4767-8669-7b8d661a369f
+  mbid_artist: e062ce8b-19cc-4308-b37b-f62b7adfb6c2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Goodbye
+  album: Futique
+  played_at_utc: '2025-11-11T12:22:52Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Goodbye
+  mbid_track: null
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Biffy Clyro
   track: True Believer
   album: Futique
