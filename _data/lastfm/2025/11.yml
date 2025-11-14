@@ -1,3 +1,63 @@
+- artist: Metallica
+  track: For Whom The Bell Tolls - Remastered
+  album: Ride the Lightning (Deluxe / Remastered)
+  played_at_utc: '2025-11-13T05:21:58Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/For+Whom+The+Bell+Tolls+-+Remastered
+  mbid_track: null
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e6532c8e0a3a69ba2a8de7980c2f411f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Metallica
+  track: One
+  album: …And Justice For All (Remastered)
+  played_at_utc: '2025-11-13T05:14:31Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/One
+  mbid_track: a04332a3-5cf2-4fbf-a976-74a7a21b5a4d
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9c85d1a2416bbd2275026a8baa67cdf4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Metallica
+  track: Master of Puppets
+  album: Master Of Puppets (Remastered)
+  played_at_utc: '2025-11-13T05:05:57Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/Master+of+Puppets
+  mbid_track: 18b6c497-d451-4d80-9042-4e2a6d493707
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/19f7a4a414703b4b483e8034dc1460fb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Metallica
+  track: Enter Sandman - Remastered 2021
+  album: Metallica (Remastered Deluxe Box Set)
+  played_at_utc: '2025-11-13T04:58:18Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/Enter+Sandman+-+Remastered+2021
+  mbid_track: null
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d27813e9e3f74d2083019766dfe07815.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Weezer
+  track: Beverly Hills
+  album: Make Believe
+  played_at_utc: '2025-11-12T16:05:49Z'
+  lastfm_url: https://www.last.fm/music/Weezer/_/Beverly+Hills
+  mbid_track: b63053dd-5d18-439b-92e8-e1532485d273
+  mbid_artist: 6fe07aa5-fec0-4eca-a456-f29bff451b04
+  mbid_album: 09fc6dcd-e58a-4f22-99d9-3e57d1d05a64
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1c8439b16ed4ca4e0bac727e7b325581.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Green Day
   track: Basket Case
   album: Dookie
