@@ -1,3 +1,51 @@
+- artist: Iron Maiden
+  track: The Number Of The Beast - 2015 Remaster
+  album: The Number of the Beast (2015 remaster)
+  played_at_utc: '2025-11-14T05:16:26Z'
+  lastfm_url: https://www.last.fm/music/Iron+Maiden/_/The+Number+Of+The+Beast+-+2015+Remaster
+  mbid_track: 8e44e4ea-9bce-47c2-a48c-8aa338242fb2
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0673467a6af29e9130e229a7407ace50.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Iron Maiden
+  track: Run to the Hills - 2015 Remaster
+  album: The Number of the Beast (2015 remaster)
+  played_at_utc: '2025-11-14T05:12:32Z'
+  lastfm_url: https://www.last.fm/music/Iron+Maiden/_/Run+to+the+Hills+-+2015+Remaster
+  mbid_track: df56fa49-de03-4157-8f60-343b70f48df8
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0673467a6af29e9130e229a7407ace50.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Iron Maiden
+  track: Fear of the Dark - 2015 remaster
+  album: Fear Of The Dark (2015 Remaster)
+  played_at_utc: '2025-11-14T05:05:13Z'
+  lastfm_url: https://www.last.fm/music/Iron+Maiden/_/Fear+of+the+Dark+-+2015+remaster
+  mbid_track: 059a7d04-a424-4f88-9d06-c915ad1e3647
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e21f0d98cbe18875967a4ae46369d20b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Iron Maiden
+  track: The Trooper - 2015 remaster
+  album: Piece of Mind (2015 Remaster)
+  played_at_utc: '2025-11-13T06:48:53Z'
+  lastfm_url: https://www.last.fm/music/Iron+Maiden/_/The+Trooper+-+2015+remaster
+  mbid_track: 8f13d546-0cc6-4d8b-8d3a-27805f3ca264
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/72e721c77140568a52b3947f3f9ea70d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Metallica
   track: For Whom The Bell Tolls - Remastered
   album: Ride the Lightning (Deluxe / Remastered)
