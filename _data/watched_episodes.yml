@@ -1,3 +1,24 @@
+- show: Tatort
+  year: 1970
+  season: 56
+  episode: 28
+  plays: 1
+  watched_on: '2025-11-16'
+  trakt_show: 3014
+  tvdb: 83214
+  imdb: tt0806910
+  tmdb: 3034
+  slug: tatort
+  source: trakt
+  show_title_de: Tatort
+  show_poster: https://image.tmdb.org/t/p/w500/j73WOp6ArCy8vK4vreIdSunoXAr.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/lUrtMjiunomHPDC2sQNIxswbmdU.jpg
+  show_total_episodes: 1316
+  episode_title: Reini
+  episode_title_de: Der Reini
+  episode_runtime: 90
+  season_total_episodes: 32
+  episode_still: https://image.tmdb.org/t/p/w300/ypwdDocci3ZklG5bxnVgMkZJLyI.jpg
 - show: ZDF Magazin Royale
   year: 2020
   season: 11
