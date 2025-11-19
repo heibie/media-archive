@@ -1,6 +1,6 @@
 - typ: buch
-  status: want to read
-  titel: Asterix 41
+  status: finished
+  titel: Asterix in Lusitanien (41)
   autor:
   - Fabcaro
   - Didier Conrad
@@ -9,7 +9,8 @@
   verlag: Egmont Comic Collection
   erscheinungsjahr: '2025'
   seiten: 48
-  eingetragen_am: '2025-11-19'
+  eingetragen_am: '2025-10-23'
+  fertig_am: '2025-10-25'
 - typ: buch
   status: want to read
   titel: Das Haus der Gefühle
