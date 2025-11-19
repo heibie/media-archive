@@ -1,5 +1,17 @@
 - typ: buch
   status: want to read
+  titel: Asterix 41
+  autor:
+  - Fabcaro
+  - Didier Conrad
+  isbn: '9783770424412'
+  cover: https://buch.isbn.de/cover/9783770424412.jpg
+  verlag: Egmont Comic Collection
+  erscheinungsjahr: '2025'
+  seiten: 48
+  eingetragen_am: '2025-11-19'
+- typ: buch
+  status: want to read
   titel: Das Haus der Gefühle
   autor:
   - Harald Welzer
