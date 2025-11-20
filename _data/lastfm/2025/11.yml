@@ -1,3 +1,123 @@
+- artist: Anda Morts
+  track: Kein Bock
+  album: ANS
+  played_at_utc: '2025-11-19T16:38:43Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Kein+Bock
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Nikotin
+  album: ANS
+  played_at_utc: '2025-11-19T16:36:49Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Nikotin
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Autobahn
+  album: ANS
+  played_at_utc: '2025-11-19T16:34:03Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Autobahn
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Freitag
+  album: ANS
+  played_at_utc: '2025-11-19T16:31:20Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Freitag
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Fascho
+  album: ANS
+  played_at_utc: '2025-11-19T16:29:04Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Fascho
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Bett
+  album: ANS
+  played_at_utc: '2025-11-19T16:26:48Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Bett
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Sie
+  album: ANS
+  played_at_utc: '2025-11-19T16:23:38Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Sie
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Song19
+  album: ANS
+  played_at_utc: '2025-11-19T16:20:54Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Song19
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anda Morts
+  track: Heute oder morgen
+  album: ANS
+  played_at_utc: '2025-11-19T16:15:05Z'
+  lastfm_url: https://www.last.fm/music/Anda+Morts/_/Heute+oder+morgen
+  mbid_track: null
+  mbid_artist: 890abfe1-cd49-4474-aec3-4e6a4716a823
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/217df87e4fda6964657622720197362c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Turnstile
+  track: CEILING
+  album: NEVER ENOUGH
+  played_at_utc: '2025-11-19T16:14:30Z'
+  lastfm_url: https://www.last.fm/music/Turnstile/_/CEILING
+  mbid_track: 4bdbd0f6-07ca-4c49-b62b-98c53186cfb5
+  mbid_artist: 7b748dac-f5ce-45a7-9b95-c1d8b5b013ed
+  mbid_album: 4627ebc2-e9c8-4977-9d1e-3f82976798c4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/16b2169592c65a0e733c8a741017de30.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Turnstile
   track: Look Out For Me
   album: NEVER ENOUGH
