@@ -1,4 +1,16 @@
 - typ: buch
+  status: want to read
+  titel: Wie KI dein Leben besser macht
+  autor:
+  - Franz Himpsl
+  - Dirk von Gehlen
+  isbn: '9783466373420'
+  cover: https://buch.isbn.de/cover/9783466373420.jpg
+  verlag: Kösel
+  erscheinungsjahr: '2025'
+  seiten: 224
+  eingetragen_am: '2025-11-22'
+- typ: buch
   status: finished
   titel: Asterix in Lusitanien (41)
   autor:
