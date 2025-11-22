@@ -1,5 +1,16 @@
 - typ: buch
   status: want to read
+  titel: Wir, aber besser
+  autor:
+  - Gregor Schmalzried
+  isbn: '9783442143245'
+  cover: https://buch.isbn.de/cover/9783442143245.jpg
+  verlag: Goldmann
+  erscheinungsjahr: '2025'
+  seiten: 256
+  eingetragen_am: '2025-11-22'
+- typ: buch
+  status: want to read
   titel: Wie KI dein Leben besser macht
   autor:
   - Franz Himpsl
