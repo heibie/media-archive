@@ -1,5 +1,16 @@
 - typ: buch
   status: want to read
+  titel: Grundeigentum verpflichtet
+  autor:
+  - Franziska Eichstädt-Bohlig
+  isbn: '9783987261916'
+  cover: https://buch.isbn.de/cover/9783987261916.jpg
+  verlag: oekom verlag
+  erscheinungsjahr: '2025'
+  seiten: 330
+  eingetragen_am: '2025-11-22'
+- typ: buch
+  status: want to read
   titel: Wir, aber besser
   autor:
   - Gregor Schmalzried
