@@ -1,5 +1,16 @@
 - typ: buch
   status: want to read
+  titel: Über den Sinn des Lebens
+  autor:
+  - Viktor E. Frankl
+  isbn: '9783407865885'
+  cover: https://buch.isbn.de/cover/9783407865885.jpg
+  verlag: Beltz Verlagsgruppe GmbH & Co. KG
+  erscheinungsjahr: '2019'
+  seiten: 136
+  eingetragen_am: '2025-11-22'
+- typ: buch
+  status: want to read
   titel: Star Girl Space Boy
   autor:
   - Mirjam Kay Mashkour
