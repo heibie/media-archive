@@ -1,3 +1,26 @@
+- title: Star Wars
+  year: 1977
+  imdb: tt0076759
+  tmdb: 11
+  trakt: 7
+  slug: star-wars-1977
+  plays: 1
+  watched_on: '2025-11-22'
+  poster: https://image.tmdb.org/t/p/w500/crUUE14AROxNWsMdmyyqZNcUB6L.jpg
+  backdrop: https://image.tmdb.org/t/p/w780/2w4xG178RpB4MDAIfTkqAuSJzec.jpg
+  source: trakt
+  runtime: 121
+  title_de: Krieg der Sterne
+  overview_de: Seit der Vernichtung der Jedi-Ritter steht die Galaxie unter der grausamen
+    Herrschaft des Imperiums. Nur eine kleine Gruppe von Rebellen, angeführt von der
+    schönen Prinzessin Leia, widersetzt sich der dunklen Macht. Als es ihnen gelingt,
+    die geheimen Baupläne für den gefährlichen Todesstern zu entwenden, gerät das
+    Imperium in Aufruhr. Durch Zufall gelangen die Pläne ausgerechnet in die Hände
+    des Farmerjungen Luke Skywalker, der spürt, dass er sein bisheriges Leben hinter
+    sich lassen muss. Gemeinsam mit dem weisen Obi-Wan Kenobi, den Weltraumabenteurern
+    Han Solo und Chewbacca sowie den Droiden R2-D2 und C-3PO nimmt er den Kampf gegen
+    das mächtige Imperium auf. Es beginnt ein Wettlauf gegen die Zeit, denn der Kampfstern
+    kann nur vor seiner Fertigstellung zerstört werden...
 - title: Meister der Apokalypse - Roland Emmerich
   year: 2025
   tmdb: 1575444
