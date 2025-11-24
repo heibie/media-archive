@@ -1,3 +1,63 @@
+- artist: Pink Floyd
+  track: Shine On You Crazy Diamond - Pts. 1-9, New Stereo Mix
+  album: Shine On You Crazy Diamond (Pts. 1-9, New Stereo Mix)
+  played_at_utc: '2025-11-23T15:12:55Z'
+  lastfm_url: https://www.last.fm/music/Pink+Floyd/_/Shine+On+You+Crazy+Diamond+-+Pts.+1-9,+New+Stereo+Mix
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: ab0f8c90-34a5-49de-9096-89d7c13b9470
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/af4bfc82d225bbf6faca893d287db239.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: David Byrne
+  track: T Shirt
+  album: T Shirt
+  played_at_utc: '2025-11-22T09:50:13Z'
+  lastfm_url: https://www.last.fm/music/David+Byrne/_/T+Shirt
+  mbid_track: 1289eaca-577f-4741-832e-3eb684686b02
+  mbid_artist: d4659efb-b8eb-4f03-95e9-f69ce35967a9
+  mbid_album: e4046346-1616-4f49-bafe-b5955c40e88b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a69c10f46161cc92468939133e394fbb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aerosmith
+  track: Wild Woman
+  album: One More Time
+  played_at_utc: '2025-11-22T09:46:37Z'
+  lastfm_url: https://www.last.fm/music/Aerosmith/_/Wild+Woman
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/91b7f89b18d44bf4c7af424721b4bdb1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spanish Love Songs
+  track: Lifers Too (feat. The Wonder Years)
+  album: A Brief Intermission in the Flattening of Time
+  played_at_utc: '2025-11-22T09:40:26Z'
+  lastfm_url: https://www.last.fm/music/Spanish+Love+Songs/_/Lifers+Too+(feat.+The+Wonder+Years)
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 81e09779-9e4b-4ebf-bcbb-f0cc0e5acf23
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ffa27138df218154a34483ecf8d16224.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aretha Franklin
+  track: Sparkle
+  album: Sparkle
+  played_at_utc: '2025-11-21T16:12:48Z'
+  lastfm_url: https://www.last.fm/music/Aretha+Franklin/_/Sparkle
+  mbid_track: 070eed42-73ed-45ac-89b3-169783d2eb13
+  mbid_artist: 2f9ecbed-27be-40e6-abca-6de49d50299e
+  mbid_album: 76d75b9b-f14b-4607-8526-4364bcd9bde5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3eb31ed3d2a3ec1ad70c185b8cdd2a25.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: White Lies
   track: Juice
   album: Night Light
