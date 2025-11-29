@@ -1,6 +1,48 @@
 - show: Only Murders in the Building
   year: 2021
   season: 5
+  episode: 10
+  plays: 1
+  watched_on: '2025-11-28'
+  trakt_show: 165314
+  tvdb: 399959
+  imdb: tt11691774
+  tmdb: 107113
+  slug: only-murders-in-the-building
+  source: trakt
+  show_title_de: Only Murders in the Building
+  show_poster: https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg
+  show_total_episodes: 50
+  episode_title: The House Always...
+  episode_title_de: Das Haus gewinnt immer?
+  episode_runtime: 41
+  season_total_episodes: 10
+  episode_still: https://image.tmdb.org/t/p/w300/jBKTVhX4N9hO901Z3lpoSdKJ5Rh.jpg
+- show: Only Murders in the Building
+  year: 2021
+  season: 5
+  episode: 9
+  plays: 1
+  watched_on: '2025-11-28'
+  trakt_show: 165314
+  tvdb: 399959
+  imdb: tt11691774
+  tmdb: 107113
+  slug: only-murders-in-the-building
+  source: trakt
+  show_title_de: Only Murders in the Building
+  show_poster: https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg
+  show_total_episodes: 50
+  episode_title: LESTR
+  episode_title_de: LESTR
+  episode_runtime: 35
+  season_total_episodes: 10
+  episode_still: https://image.tmdb.org/t/p/w300/fAg0ZAYefASjFevMuuOrTkKNWxp.jpg
+- show: Only Murders in the Building
+  year: 2021
+  season: 5
   episode: 8
   plays: 1
   watched_on: '2025-11-21'
