@@ -1,3 +1,27 @@
+- artist: Danko Jones
+  track: I Can't Stop
+  album: Leo Rising
+  played_at_utc: '2025-12-03T07:50:50Z'
+  lastfm_url: https://www.last.fm/music/Danko+Jones/_/I+Can%27t+Stop
+  mbid_track: b86e0a70-5b6e-4ed4-a249-f8fbc6c23eec
+  mbid_artist: ab4721e4-bc37-4bd2-be8c-8f1550152ad6
+  mbid_album: 53b6f137-9e72-4fbc-9d6a-a2427ba16fb4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/410a925850477e6e648303129a2f9bc8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kadavar
+  track: Stick It
+  album: Kids Abandoning Destiny Among Vanity and Ruin
+  played_at_utc: '2025-12-03T07:45:50Z'
+  lastfm_url: https://www.last.fm/music/Kadavar/_/Stick+It
+  mbid_track: b3c4b379-cec4-466d-a1ca-8e021cd96087
+  mbid_artist: aa262bd7-2217-4590-b2e3-38d148508916
+  mbid_album: 456c2b48-410b-4d9c-a07e-982bec8eea0e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b482d36bf4e7abe6164ffa931fa12945.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Midlake
   track: Within/Without
   album: A Bridge To Far
