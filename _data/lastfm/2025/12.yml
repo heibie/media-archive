@@ -1,3 +1,75 @@
+- artist: Jay Buchanan
+  track: Caroline
+  album: Caroline
+  played_at_utc: '2025-12-08T16:36:35Z'
+  lastfm_url: https://www.last.fm/music/Jay+Buchanan/_/Caroline
+  mbid_track: null
+  mbid_artist: 445e8605-7dad-4cf0-b216-3d912aad635e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/da8e09ece3dc4ddff75fd47d749c4867.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Clockworks
+  track: Through The Looking Glass
+  album: Through The Looking Glass
+  played_at_utc: '2025-12-08T16:32:51Z'
+  lastfm_url: https://www.last.fm/music/The+Clockworks/_/Through+The+Looking+Glass
+  mbid_track: null
+  mbid_artist: 51616baa-51db-41a0-8a2f-26a00d02ac0a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8179ca23fb4c47bbef4cf9bba0e1dfd4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: White Lies
+  track: Going Nowhere
+  album: Night Light
+  played_at_utc: '2025-12-08T16:27:17Z'
+  lastfm_url: https://www.last.fm/music/White+Lies/_/Going+Nowhere
+  mbid_track: 44d3e890-fd5d-40ce-a9cc-af406594190c
+  mbid_artist: 5bdb38bd-5c5b-4d0f-8901-8bbe1d7062d8
+  mbid_album: 4d4a5e51-d533-4245-b9ee-e4773870d01e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a84133a7d8c4462e3bf224ecc078f1d5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kraftklub
+  track: Fallen in Liebe feat. Nina Chuba
+  album: Sterben in Karl-Marx-Stadt
+  played_at_utc: '2025-12-08T16:24:56Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/Fallen+in+Liebe+feat.+Nina+Chuba
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f52cb5f6deab98394784a2f256ff6d64.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Home Front
+  track: The Vanishing
+  album: Watch It Die
+  played_at_utc: '2025-12-08T16:20:37Z'
+  lastfm_url: https://www.last.fm/music/Home+Front/_/The+Vanishing
+  mbid_track: d42d9caa-d52e-4939-ae39-c9212aa5cd41
+  mbid_artist: 61fe64d2-983d-487c-bcb8-1e2fe07a1c98
+  mbid_album: 4b8a1043-8aa0-449b-998d-f48bca9ec945
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1765f18a1decd43d793f01565ff2243a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Johan Airijoki
+  track: SKEJTARE (Parken)
+  album: SKEJTARE
+  played_at_utc: '2025-12-08T16:16:12Z'
+  lastfm_url: https://www.last.fm/music/Johan+Airijoki/_/SKEJTARE+(Parken)
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Mine
   track: Fundament
   album: Alle Liebe nachträglich
