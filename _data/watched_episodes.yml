@@ -1,3 +1,64 @@
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 2
+  plays: 1
+  watched_on: '2025-12-10'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 2
+  episode_title_de: Emotionaler Overload
+  episode_runtime: 24
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/621O7R1kR6sYZLyIBI2OvFqeFgp.jpg
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 1
+  plays: 1
+  watched_on: '2025-12-10'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 1
+  episode_title_de: Respekt
+  episode_runtime: 26
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/gKfhqhSlPsVEYzISpuAkK4I9BiP.jpg
+- show: 'Star Trek: The Next Generation'
+  year: 1987
+  season: 2
+  episode: 1
+  plays: 1
+  watched_on: '2025-12-10'
+  trakt_show: 653
+  tvdb: 71470
+  imdb: tt0092455
+  tmdb: 655
+  slug: star-trek-the-next-generation
+  source: trakt
+  show_title_de: 'Raumschiff Enterprise: Das nächste Jahrhundert'
+  show_poster: https://image.tmdb.org/t/p/w500/tCnWSqlG16eS7yKToiC8l0MCccy.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/qmliLoo6GVheM2FihatlAXxCKyF.jpg
+  show_total_episodes: 176
+  episode_title: The Child
+  episode_title_de: Das Kind
+  episode_runtime: 46
+  season_total_episodes: 22
+  episode_still: https://image.tmdb.org/t/p/w300/uY8hu899b7Zz7ueYmiYZ8OzpNaI.jpg
 - show: Stranger Things
   year: 2016
   season: 5
