@@ -1,3 +1,125 @@
+- show: Die Anstalt
+  year: 2014
+  season: 12
+  episode: 7
+  plays: 1
+  watched_on: '2025-12-13'
+  trakt_show: 76674
+  tvdb: 279577
+  imdb: tt4277128
+  tmdb: 73860
+  slug: die-anstalt
+  source: trakt
+  show_title_de: Die Anstalt
+  show_poster: https://image.tmdb.org/t/p/w500/epWYqfujZeJ1Ha1g35T4U7Up2jT.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/7m4zyjOjId6SKCIhn3KXL4FCvty.jpg
+  show_total_episodes: 94
+  episode_title: Episode 7
+  episode_title_de: Die Abriss-Anstalt
+  episode_runtime: 48
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/gfcaZHMAspzU80btzCtVY9qc0VH.jpg
+- show: ZDF Magazin Royale
+  year: 2020
+  season: 11
+  episode: 15
+  plays: 1
+  watched_on: '2025-12-13'
+  trakt_show: 169246
+  tvdb: 390284
+  imdb: tt13486352
+  tmdb: 111956
+  slug: zdf-magazin-royale
+  source: trakt
+  show_title_de: ZDF Magazin Royale
+  show_poster: https://image.tmdb.org/t/p/w500/exRY00ZX6dn60dBxvTxWWyiDvmN.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/azkRhvpeSxKRJCTP2s6J0OJSwyX.jpg
+  show_total_episodes: 163
+  episode_title: Episode 15
+  episode_title_de: Die Gefahren von Lachgas
+  episode_runtime: 30
+  season_total_episodes: 16
+  episode_still: https://image.tmdb.org/t/p/w300/mEgYlZefBhl8MwT3HtArczQqiOR.jpg
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 6
+  plays: 1
+  watched_on: '2025-12-11'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 6
+  episode_title_de: Männer
+  episode_runtime: 26
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/qtKhkLS4LxCX3sZRZkVzfZOvaVV.jpg
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 5
+  plays: 1
+  watched_on: '2025-12-11'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 5
+  episode_title_de: Wegen letzter Nacht
+  episode_runtime: 24
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/10K7tHV8hJdUb1Yu3lT2E0O1oyu.jpg
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 4
+  plays: 1
+  watched_on: '2025-12-11'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 4
+  episode_title_de: Der 50. Geburtstag
+  episode_runtime: 24
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/xweuppAWm45PofWPAdLL0NVxfpi.jpg
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 3
+  plays: 1
+  watched_on: '2025-12-11'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 3
+  episode_title_de: Die Klatsche meiner Mutter
+  episode_runtime: 25
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/jfMyS94YUyVOGT5tNOm5Lj70tFt.jpg
 - show: Frier und Fünfzig - Am Ende meiner Tage
   year: 2025
   season: 1
