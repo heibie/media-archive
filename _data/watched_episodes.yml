@@ -1,3 +1,23 @@
+- show: Frier und Fünfzig - Am Ende meiner Tage
+  year: 2025
+  season: 1
+  episode: 7
+  plays: 1
+  watched_on: '2025-12-14'
+  trakt_show: 301279
+  imdb: tt36214762
+  tmdb: 302207
+  slug: frier-und-funfzig-am-ende-meiner-tage
+  source: trakt
+  show_title_de: Frier und Fünfzig - Am Ende meiner Tage
+  show_poster: https://image.tmdb.org/t/p/w500/1M6FzrcPPiUZ1mWoMZLM9IFvNdh.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/p7TBTZjP1avKOUS3Mlsne1axYMU.jpg
+  show_total_episodes: 8
+  episode_title: Episode 7
+  episode_title_de: Das Trauma
+  episode_runtime: 22
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/3z3yq4wC9AI9ysW2gn57oSEvAhA.jpg
 - show: Die Anstalt
   year: 2014
   season: 12
