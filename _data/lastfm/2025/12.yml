@@ -1,3 +1,99 @@
+- artist: Kraftklub
+  track: So rechts
+  album: Sterben in Karl-Marx-Stadt
+  played_at_utc: '2025-12-16T17:30:15Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/So+rechts
+  mbid_track: null
+  mbid_artist: ecfc32cb-b26e-41a0-8b41-7100c6a3fcc4
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f52cb5f6deab98394784a2f256ff6d64.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Big Special
+  track: DRAGGED UP A HILL (and thrown down the other side)
+  album: DRAGGED UP A HILL (and thrown down the other side)
+  played_at_utc: '2025-12-16T17:25:45Z'
+  lastfm_url: https://www.last.fm/music/Big+Special/_/DRAGGED+UP+A+HILL+(and+thrown+down+the+other+side)
+  mbid_track: null
+  mbid_artist: 38d929d1-502d-486e-947a-00d6e4194039
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0eebb4f7cb9b613d7891666ded3f9911.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kid Kapichi
+  track: Rabbit Hole
+  album: Rabbit Hole
+  played_at_utc: '2025-12-16T17:21:12Z'
+  lastfm_url: https://www.last.fm/music/Kid+Kapichi/_/Rabbit+Hole
+  mbid_track: null
+  mbid_artist: b0e1beff-2561-44c2-9c25-5f5fa9f41984
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bad092f0d639e499aff64ec393de885a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Danko Jones
+  track: Hot Fox
+  album: Leo Rising
+  played_at_utc: '2025-12-16T17:17:51Z'
+  lastfm_url: https://www.last.fm/music/Danko+Jones/_/Hot+Fox
+  mbid_track: f99cf65f-2a74-4ff2-9d77-19a7b4d99205
+  mbid_artist: ab4721e4-bc37-4bd2-be8c-8f1550152ad6
+  mbid_album: 53b6f137-9e72-4fbc-9d6a-a2427ba16fb4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/410a925850477e6e648303129a2f9bc8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Babyshambles
+  track: Gang of Gin
+  album: Down in Albion (20th Anniversary Edition)
+  played_at_utc: '2025-12-16T17:13:07Z'
+  lastfm_url: https://www.last.fm/music/Babyshambles/_/Gang+of+Gin
+  mbid_track: null
+  mbid_artist: 8e1e03fe-ebbc-467a-b541-857144db10fb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f0cf51f86cb07bca1ce778aa23ae3b4f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: amh
+  track: Don't Believe In Love
+  album: Don't Believe In Love
+  played_at_utc: '2025-12-16T17:09:37Z'
+  lastfm_url: https://www.last.fm/music/amh/_/Don%27t+Believe+In+Love
+  mbid_track: f96892dc-8729-49d4-8740-2dc507e21e6d
+  mbid_artist: null
+  mbid_album: 2afc18fe-664d-4626-916a-09877fc717bd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b85e130b378818cc6480f30b7f2e3233.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesper Lindell
+  track: Pretend I Never Happened
+  album: Pretend I Never Happened
+  played_at_utc: '2025-12-16T17:04:37Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Pretend+I+Never+Happened
+  mbid_track: null
+  mbid_artist: d2e3af9b-ad1b-4951-bce2-3be8e2cccece
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ce344593bc0463e22957225c2cca9632.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Hate to Say I Told You So
+  album: Veni Vidi Vicious
+  played_at_utc: '2025-12-16T16:44:04Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Hate+to+Say+I+Told+You+So
+  mbid_track: 77e8a3e4-fb88-3cfc-8e2a-11b347cc9355
+  mbid_artist: 487bfd74-71bf-46dd-b89c-80b7a0f06f2f
+  mbid_album: 13e2716a-6eb4-3575-881e-bb9cf48aeda2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/486d0638f4c7426ac2214a631c398daf.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Neil Young
   track: Rockin' in the Free World
   album: Freedom
