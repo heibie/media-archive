@@ -1,3 +1,111 @@
+- artist: The Undertones
+  track: Teenage Kicks
+  album: Teenage Kicks
+  played_at_utc: '2025-12-21T08:31:09Z'
+  lastfm_url: https://www.last.fm/music/The+Undertones/_/Teenage+Kicks
+  mbid_track: null
+  mbid_artist: d188e4cd-d187-4df2-8516-6ff8dfd3735c
+  mbid_album: 2555d1c7-6507-3d8b-9368-06f8ad06f93d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a3915049fb5c3ac85e8b38072981bcc7.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Phillip Boa & the Voodooclub
+  track: Container Love
+  album: Hair
+  played_at_utc: '2025-12-21T08:27:18Z'
+  lastfm_url: https://www.last.fm/music/Phillip+Boa+&+the+Voodooclub/_/Container+Love
+  mbid_track: 1187e7a2-c282-491b-9d8b-6dea164b50f7
+  mbid_artist: null
+  mbid_album: 223c11ad-2a1d-4de3-8b33-0127dae9b31f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ebbb1b441bd2f51a2c184967eb9a4e72.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Superpunk
+  track: Matula, hau mich raus
+  album: A Young Person's GUIDE to Superpunk
+  played_at_utc: '2025-12-21T08:25:13Z'
+  lastfm_url: https://www.last.fm/music/Superpunk/_/Matula,+hau+mich+raus
+  mbid_track: 9ccbf963-b0ca-3e02-9230-78731ff724b7
+  mbid_artist: 48a3cd68-fed2-4920-857c-1ec601c9512f
+  mbid_album: 061f286e-8391-4cf5-b8d3-ff1e1ae4ea66
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/12273778458440b08cb05180d6519821.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Rex Perverso
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-12-21T08:21:09Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Rex+Perverso
+  mbid_track: 5a2a48dd-c766-48f0-ac94-be98862e5d74
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mantar
+  track: Halsgericht
+  album: Post Apocalyptic Depression
+  played_at_utc: '2025-12-21T08:17:07Z'
+  lastfm_url: https://www.last.fm/music/Mantar/_/Halsgericht
+  mbid_track: da3133de-0244-4835-a172-9f5f00124611
+  mbid_artist: 371c472e-2fc8-402b-9154-61776163d470
+  mbid_album: bc2fe293-9be2-460c-9cc1-4341357300cd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5cb1166f1b9dcda7a0d112d0254ec257.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hellacopters
+  track: Don't Let Me Bring You Down
+  album: Overdriver
+  played_at_utc: '2025-12-21T08:13:51Z'
+  lastfm_url: https://www.last.fm/music/The+Hellacopters/_/Don%27t+Let+Me+Bring+You+Down
+  mbid_track: 07b5f81a-7a4f-43f4-8262-a51e46467188
+  mbid_artist: 6be97d02-b66e-46d5-931c-0a81087fecbc
+  mbid_album: 46eeb6a3-bf2d-4dda-bebd-851650099f84
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d9762731fd3d48dfc09c902ca6482716.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Satanized
+  album: Lachryma
+  played_at_utc: '2025-12-21T08:09:54Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Satanized
+  mbid_track: 49e2459f-d798-40db-b05a-2014051dcd8c
+  mbid_artist: null
+  mbid_album: 2154ce39-20bc-42e9-bf94-3e4e47631277
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/699d344809cc677f447b55f3a9277186.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ghost
+  track: Lachryma
+  album: Lachryma
+  played_at_utc: '2025-12-21T08:03:04Z'
+  lastfm_url: https://www.last.fm/music/Ghost/_/Lachryma
+  mbid_track: 58a95960-503e-4b70-aeca-2cc404f46c07
+  mbid_artist: null
+  mbid_album: 2154ce39-20bc-42e9-bf94-3e4e47631277
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/699d344809cc677f447b55f3a9277186.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dusty Springfield
+  track: Won't Be Long
+  album: You Don't Have To Say You Love Me (Expanded Edition)
+  played_at_utc: '2025-12-20T17:03:55Z'
+  lastfm_url: https://www.last.fm/music/Dusty+Springfield/_/Won%27t+Be+Long
+  mbid_track: 404574dc-d97d-3149-9451-256d074b167b
+  mbid_artist: b896aa8c-2761-40ce-b485-0e1fffd26167
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0806efd022aee30f33484934196ec408.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Dusty Springfield
   track: You Don't Have To Say You Love Me
   album: You Don't Have To Say You Love Me (Expanded Edition)
