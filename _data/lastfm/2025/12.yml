@@ -1,3 +1,123 @@
+- artist: Supergrass
+  track: Don't Leave Me Alone
+  album: Road to Rouen (20th Anniversary Edition)
+  played_at_utc: '2025-12-22T08:16:35Z'
+  lastfm_url: https://www.last.fm/music/Supergrass/_/Don%27t+Leave+Me+Alone
+  mbid_track: b4e67be5-6d6b-49b4-993e-92d7ee69abd7
+  mbid_artist: 6386ddff-0d13-4685-9f0a-a82bf022fb1c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/84ef630f409384cb2ea99157274451f9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shame
+  track: Spartak
+  album: Cutthroat
+  played_at_utc: '2025-12-22T08:13:55Z'
+  lastfm_url: https://www.last.fm/music/Shame/_/Spartak
+  mbid_track: 5c8b9fb3-59e6-4696-8800-6f65fea49f11
+  mbid_artist: 752970de-452b-443a-a58f-66088a62485e
+  mbid_album: 25fc940f-f66d-449d-8047-2b53c80f6edb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a85eb7d423288440b64bf09927d1c77.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Lemonheads
+  track: In the Margin
+  album: Love Chant
+  played_at_utc: '2025-12-22T08:11:34Z'
+  lastfm_url: https://www.last.fm/music/The+Lemonheads/_/In+the+Margin
+  mbid_track: 8945ece1-b241-4d01-b336-03795e789d7f
+  mbid_artist: 58a53082-a629-4ff1-a44d-7492d6f6e8fb
+  mbid_album: 3c9f09e3-33ca-477d-b6d9-280f951f7a0e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/de3a1f7e7e50128d7de75c9cb725f5a3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Biffy Clyro
+  track: Hunting Season
+  album: Futique
+  played_at_utc: '2025-12-22T08:08:39Z'
+  lastfm_url: https://www.last.fm/music/Biffy+Clyro/_/Hunting+Season
+  mbid_track: 9c8384d8-567e-49cc-a013-f5b883202fe3
+  mbid_artist: 892500b7-09a6-4049-ba92-2d192dd70563
+  mbid_album: fa7219e7-4b39-438e-a2e5-50bd12cfbf31
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/20cc0c46e66201ef0982c873400027f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ronboy
+  track: Disaster
+  album: Disaster
+  played_at_utc: '2025-12-22T08:05:45Z'
+  lastfm_url: https://www.last.fm/music/Ronboy/_/Disaster
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3d017469708bdd7971d649c503e2634d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spiritual Cramp
+  track: At My Funeral
+  album: RUDE
+  played_at_utc: '2025-12-22T08:03:13Z'
+  lastfm_url: https://www.last.fm/music/Spiritual+Cramp/_/At+My+Funeral
+  mbid_track: af5bbf8f-6088-454a-bb31-cc654c33bcf9
+  mbid_artist: 423db63d-c110-480f-a783-7a056fe52862
+  mbid_album: 8aa26c76-b86b-414f-b536-3535105d7e1e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cd4feec08e5f8e002c5421d0f8a4147d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spoon
+  track: Chateau Blues
+  album: Guess I'm Fallin In Love
+  played_at_utc: '2025-12-22T08:00:11Z'
+  lastfm_url: https://www.last.fm/music/Spoon/_/Chateau+Blues
+  mbid_track: 83564a9a-a880-42b1-a79b-2964d263be13
+  mbid_artist: 84eac621-1c5a-49a1-9500-555099c6e184
+  mbid_album: 00e81ec8-1c0a-4ee0-b091-bde96a5ed146
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a100a19f885c4375b239b8c36bfbcf3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Suede
+  track: The Sound And the Summer
+  album: Antidepressants
+  played_at_utc: '2025-12-22T07:56:29Z'
+  lastfm_url: https://www.last.fm/music/Suede/_/The+Sound+And+the+Summer
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 63ca7d4e-0853-4c67-a976-084956cc1d72
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f10a8cfb2559ea8b45692756b74591b7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Hives
+  track: Bad Call
+  album: The Hives Forever Forever The Hives
+  played_at_utc: '2025-12-22T07:51:11Z'
+  lastfm_url: https://www.last.fm/music/The+Hives/_/Bad+Call
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 14be09ec-45ed-4e1c-a9f9-a547882bdd3a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/27bb421bc3f6e85f9c6e3f5b807a946a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Bouncing Souls
+  track: Hopeless Romantic
+  album: Hopeless Romantic
+  played_at_utc: '2025-12-21T08:33:38Z'
+  lastfm_url: https://www.last.fm/music/The+Bouncing+Souls/_/Hopeless+Romantic
+  mbid_track: 757ec7d2-0612-4b55-ac90-5726bb525524
+  mbid_artist: 429d5f26-329c-41cc-bdff-17c29dbf1fb8
+  mbid_album: 0b685112-97ee-45c4-a26a-ee0e2b177660
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9f9138b2386f5f6a999472edcd065bfc.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: The Undertones
   track: Teenage Kicks
   album: Teenage Kicks
