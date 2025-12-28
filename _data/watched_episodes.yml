@@ -1,3 +1,66 @@
+- show: Stranger Things
+  year: 2016
+  season: 5
+  episode: 7
+  plays: 1
+  watched_on: '2025-12-27'
+  trakt_show: 104439
+  tvdb: 305288
+  imdb: tt4574334
+  tmdb: 66732
+  slug: stranger-things
+  source: trakt
+  show_title_de: Stranger Things
+  show_poster: https://image.tmdb.org/t/p/w500/cVxVGwHce6xnW8UaVUggaPXbmoE.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/8zbAoryWbtH0DKdev8abFAjdufy.jpg
+  show_total_episodes: 42
+  episode_title: 'Chapter Seven: The Bridge'
+  episode_title_de: 'Kapitel sieben: Die Brücke'
+  episode_runtime: 67
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/WHdrgCxqNDuOIf65cW9It3XSZW.jpg
+- show: Stranger Things
+  year: 2016
+  season: 5
+  episode: 6
+  plays: 1
+  watched_on: '2025-12-27'
+  trakt_show: 104439
+  tvdb: 305288
+  imdb: tt4574334
+  tmdb: 66732
+  slug: stranger-things
+  source: trakt
+  show_title_de: Stranger Things
+  show_poster: https://image.tmdb.org/t/p/w500/cVxVGwHce6xnW8UaVUggaPXbmoE.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/8zbAoryWbtH0DKdev8abFAjdufy.jpg
+  show_total_episodes: 42
+  episode_title: 'Chapter Six: Escape from Camazotz'
+  episode_title_de: 'Kapitel sechs: Die Flucht von Camazotz'
+  episode_runtime: 76
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/4joGuE1zoHIyGta2tlcSBI5XiV8.jpg
+- show: Stranger Things
+  year: 2016
+  season: 5
+  episode: 5
+  plays: 1
+  watched_on: '2025-12-27'
+  trakt_show: 104439
+  tvdb: 305288
+  imdb: tt4574334
+  tmdb: 66732
+  slug: stranger-things
+  source: trakt
+  show_title_de: Stranger Things
+  show_poster: https://image.tmdb.org/t/p/w500/cVxVGwHce6xnW8UaVUggaPXbmoE.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/8zbAoryWbtH0DKdev8abFAjdufy.jpg
+  show_total_episodes: 42
+  episode_title: 'Chapter Five: Shock Jock'
+  episode_title_de: 'Kapitel fünf: Der Stromschlag'
+  episode_runtime: 69
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/4dnRX3S1II3NGkrnwCFZkYpgK83.jpg
 - show: Frier und Fünfzig - Am Ende meiner Tage
   year: 2025
   season: 1
