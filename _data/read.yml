@@ -1,5 +1,16 @@
 - typ: buch
   status: want to read
+  titel: Gym
+  autor:
+  - Verena Kessler
+  isbn: '9783446281639'
+  cover: https://covers.openlibrary.org/b/id/15151190-L.jpg
+  verlag: Hanser Berlin
+  erscheinungsjahr: '2025'
+  seiten: 189
+  eingetragen_am: '2025-12-30'
+- typ: buch
+  status: want to read
   titel: Über den Sinn des Lebens
   autor:
   - Viktor E. Frankl
