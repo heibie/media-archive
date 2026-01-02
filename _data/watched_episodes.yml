@@ -1,3 +1,24 @@
+- show: Stranger Things
+  year: 2016
+  season: 5
+  episode: 8
+  plays: 1
+  watched_on: '2026-01-01'
+  trakt_show: 104439
+  tvdb: 305288
+  imdb: tt4574334
+  tmdb: 66732
+  slug: stranger-things
+  source: trakt
+  show_title_de: Stranger Things
+  show_poster: https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/8zbAoryWbtH0DKdev8abFAjdufy.jpg
+  show_total_episodes: 42
+  episode_title: 'Chapter Eight: The Rightside Up'
+  episode_title_de: 'Kapitel acht: Zurück auf der richtigen Seite'
+  episode_runtime: 129
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/kP23RWbUWM6vGhT9PxFyP5VT3y4.jpg
 - show: High Potential
   year: 2024
   season: 2
