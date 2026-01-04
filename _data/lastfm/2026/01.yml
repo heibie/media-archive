@@ -1,3 +1,15 @@
+- artist: Jo the Man the Music
+  track: Shoulders
+  album: Shoulders
+  played_at_utc: '2026-01-02T17:28:41Z'
+  lastfm_url: https://www.last.fm/music/Jo+the+Man+the+Music/_/Shoulders
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/28015909b221cb6d54033a916903253b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Kids don't smoke
   track: cut out
   album: cut out
