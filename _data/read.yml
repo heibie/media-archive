@@ -1,5 +1,9 @@
 - typ: buch
   status: want to read
+  isbn: '9783462006216'
+  eingetragen_am: '2026-01-06'
+- typ: buch
+  status: want to read
   isbn: '9783462310375'
   eingetragen_am: '2026-01-06'
 - typ: buch
