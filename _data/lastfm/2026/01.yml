@@ -1,3 +1,747 @@
+- artist: Ben Folds Five
+  track: Do It Anyway
+  album: The Sound Of The Life Of The Mind
+  played_at_utc: '2026-01-04T10:48:55Z'
+  lastfm_url: https://www.last.fm/music/Ben+Folds+Five/_/Do+It+Anyway
+  mbid_track: 06a019ba-bb8d-4b27-bfa4-65c97df6f698
+  mbid_artist: abe2669a-a612-4bf6-9193-bb4f4b8a9088
+  mbid_album: 09f1d6b0-0646-4a98-a9f6-cd3566cff080
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e5d4b76a5efa44969d1d7e53a70c6c2c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kraftklub
+  track: Eure Mädchen
+  album: Mit K
+  played_at_utc: '2026-01-04T10:46:00Z'
+  lastfm_url: https://www.last.fm/music/Kraftklub/_/Eure+M%C3%A4dchen
+  mbid_track: 217ba868-b242-358e-b2cc-e8cb6ff457b3
+  mbid_artist: ecfc32cb-b26e-41a0-8b41-7100c6a3fcc4
+  mbid_album: 7f8e994e-873e-4540-a483-b613e60aabca
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bf26deea055f76e37e00f1ba1a4e5eb7.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Django Django
+  track: Default
+  album: Django Django
+  played_at_utc: '2026-01-04T10:42:41Z'
+  lastfm_url: https://www.last.fm/music/Django+Django/_/Default
+  mbid_track: a76f013b-506a-45c7-a38a-e759d09b4379
+  mbid_artist: 4bfce038-b1a0-4bc4-abe1-b679ab900f03
+  mbid_album: 338e6260-b4fb-4ef0-89a4-763482dc81b2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4c84a008a4a8f2cf122896438b8460db.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jimmy Eat World
+  track: The Middle
+  album: Jimmy Eat World
+  played_at_utc: '2026-01-04T10:39:55Z'
+  lastfm_url: https://www.last.fm/music/Jimmy+Eat+World/_/The+Middle
+  mbid_track: null
+  mbid_artist: bbc5b66b-d037-4f26-aecf-0b129e7f876a
+  mbid_album: 1266a3cd-1849-479c-a3bb-5d0285d82b90
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e858039ffcfe4c2ecc21a80e8d973255.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ash
+  track: Walking Barefoot
+  album: Free All Angels
+  played_at_utc: '2026-01-04T10:34:41Z'
+  lastfm_url: https://www.last.fm/music/Ash/_/Walking+Barefoot
+  mbid_track: 6fa25a62-1105-374b-b3b8-b709d4c8c5e5
+  mbid_artist: null
+  mbid_album: 2e3463a5-7b0b-4090-8f8d-e4e905717e4b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/801e166abf0c4436c498d4577f623ccb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: The National Health
+  album: The National Health (Deluxe Version)
+  played_at_utc: '2026-01-04T10:31:41Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/The+National+Health
+  mbid_track: 0707a947-a7db-3fa0-a5ce-49b207dd5e83
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6ada6c617c49244407394165e614c5f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Life of Agony
+  track: Weeds
+  album: Soul Searching Sun (Digital)
+  played_at_utc: '2026-01-04T10:27:33Z'
+  lastfm_url: https://www.last.fm/music/Life+of+Agony/_/Weeds
+  mbid_track: 52b02012-29df-32c5-88c4-94a719f0e957
+  mbid_artist: d6ff259a-bbb6-4454-8503-80151da5f2db
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/efb05d463ac7413fc1a076ac85473d5a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bad Religion
+  track: Modern Man
+  album: Against The Grain (Reissue)
+  played_at_utc: '2026-01-04T10:25:35Z'
+  lastfm_url: https://www.last.fm/music/Bad+Religion/_/Modern+Man
+  mbid_track: 02089101-9d53-3370-9b07-8c3ef939c0d6
+  mbid_artist: 149e6720-4e4a-41a4-afca-6d29083fc091
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c577f8b550144b8e839122e21bfe6997.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rancid
+  track: Time Bomb
+  album: '...And Out Come the Wolves'
+  played_at_utc: '2026-01-04T10:23:10Z'
+  lastfm_url: https://www.last.fm/music/Rancid/_/Time+Bomb
+  mbid_track: 200dd597-f1d2-32ee-8f2f-d75afb33370d
+  mbid_artist: 24f8d8a5-269b-475c-a1cb-792990b0b2ee
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/faa67e346b164f08cfeb0f5313b564a8.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Drums
+  track: Lets Go Surfing
+  album: Kitsuné Maison Compilation 8
+  played_at_utc: '2026-01-04T10:20:15Z'
+  lastfm_url: https://www.last.fm/music/The+Drums/_/Lets+Go+Surfing
+  mbid_track: 9899758c-849a-467a-a2e6-bf3c4bc8608e
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Olli Schulz
+  track: Ich kenn' da ein
+  album: SOS - Save Olli Schulz
+  played_at_utc: '2026-01-04T10:17:19Z'
+  lastfm_url: https://www.last.fm/music/Olli+Schulz/_/Ich+kenn%27+da+ein
+  mbid_track: 107eb4e3-fce5-31a7-9613-9336a0773466
+  mbid_artist: e7f653ba-8cb5-41d9-aaac-f917996fd67d
+  mbid_album: 1880c233-b30c-4a5a-9996-3475c0cf8967
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f4960a88ab734a459abe66a5c51b3b36.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Queen
+  track: Don't Stop Me Now - Remastered 2011
+  album: Absolute Greatest
+  played_at_utc: '2026-01-04T10:09:34Z'
+  lastfm_url: https://www.last.fm/music/Queen/_/Don%27t+Stop+Me+Now+-+Remastered+2011
+  mbid_track: null
+  mbid_artist: 0383dadf-2a4e-4d10-a46a-e9e041da8eb3
+  mbid_album: 6b699fb6-2cca-4a69-874e-42883ced21e8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8cdae1657e14435ec3fb51e25201987d.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: VIENNA VIENNA
+  track: Buzz
+  album: Buzz
+  played_at_utc: '2026-01-04T07:36:10Z'
+  lastfm_url: https://www.last.fm/music/VIENNA+VIENNA/_/Buzz
+  mbid_track: fba590e3-6a46-44bb-b36f-b45c508b865d
+  mbid_artist: 92e81f84-80b1-4327-9dd6-af3e5ee059ce
+  mbid_album: 25b88739-c161-44d5-8feb-3d2622bad65b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1d3269700d12e70234d79e43817384a4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Badda TD
+  track: DG3
+  album: Never Go Against The Family
+  played_at_utc: '2026-01-03T14:11:35Z'
+  lastfm_url: https://www.last.fm/music/Badda+TD/_/DG3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8238cb6ffd656e3899de0a3d6fa3c954.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Beefs
+  track: Ghosts
+  album: Grillin' Jams, Vol. 2
+  played_at_utc: '2026-01-03T13:13:03Z'
+  lastfm_url: https://www.last.fm/music/The+Beefs/_/Ghosts
+  mbid_track: null
+  mbid_artist: 3ac730c9-9496-4b39-a080-f43023dd8ef6
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1b6bd411bb56f69b4f662b6cb52f922a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Arkells
+  track: Money
+  album: Money
+  played_at_utc: '2026-01-03T13:07:52Z'
+  lastfm_url: https://www.last.fm/music/Arkells/_/Money
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3657cca5085c7d9de0a3ebb6d553613a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Corduroy County
+  track: Peel Skin
+  album: Peel Skin
+  played_at_utc: '2026-01-03T13:04:25Z'
+  lastfm_url: https://www.last.fm/music/Corduroy+County/_/Peel+Skin
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4675bc985b62965a845ca6d7a8b3e42b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jan Böhmermann
+  track: Wir sind frei
+  album: Wir sind frei
+  played_at_utc: '2026-01-03T13:03:08Z'
+  lastfm_url: https://www.last.fm/music/Jan+B%C3%B6hmermann/_/Wir+sind+frei
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: e4ade075-2f57-450b-9c3d-e4d9b6ed62ad
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/577922ad1d9399ac61cfc0e8bf3242e2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Call It Off
+  track: The Fate Of Ophelia
+  album: The Fate Of Ophelia
+  played_at_utc: '2026-01-03T12:57:02Z'
+  lastfm_url: https://www.last.fm/music/Call+It+Off/_/The+Fate+Of+Ophelia
+  mbid_track: 6674ceea-1abc-4b42-8b60-818971603143
+  mbid_artist: 536329c9-5580-45c6-8b16-03f36976a559
+  mbid_album: 1f98f9fa-eb48-4faf-a60f-e511852a8ee8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Richard Ashcroft
+  track: You've Got All I Need (Bonus Track)
+  album: Lovin' You (Deluxe)
+  played_at_utc: '2026-01-03T12:53:35Z'
+  lastfm_url: https://www.last.fm/music/Richard+Ashcroft/_/You%27ve+Got+All+I+Need+(Bonus+Track)
+  mbid_track: null
+  mbid_artist: 2d1d8985-47bc-4244-8cc3-577584e411f6
+  mbid_album: e0e8df31-db30-494d-8176-43c7a3ccda4d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/273baeabad933cba35df5bf73b255efb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cleopatrick
+  track: NOW ZERO
+  album: SCRAP
+  played_at_utc: '2026-01-03T12:52:23Z'
+  lastfm_url: https://www.last.fm/music/Cleopatrick/_/NOW+ZERO
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4170136a418e440df8f5b19eb059418b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thomas Raggi
+  track: CAT GOT YOUR TONGUE (with THE S.L.P. & Kasabian) - prod. Tom Morello
+  album: MASQUERADE
+  played_at_utc: '2026-01-03T12:46:47Z'
+  lastfm_url: https://www.last.fm/music/Thomas+Raggi/_/CAT+GOT+YOUR+TONGUE+(with+THE+S.L.P.+&+Kasabian)+-+prod.+Tom+Morello
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/16e1be0822e126afc3790f6178e95485.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cast
+  track: Free Love
+  album: Free Love
+  played_at_utc: '2026-01-03T12:43:55Z'
+  lastfm_url: https://www.last.fm/music/Cast/_/Free+Love
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/29810749a945b5ba1666b6c39fda7d93.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: grandson
+  track: masters of war
+  album: Inertia
+  played_at_utc: '2026-01-03T12:41:00Z'
+  lastfm_url: https://www.last.fm/music/grandson/_/masters+of+war
+  mbid_track: null
+  mbid_artist: cc699fe3-db51-4837-928f-8f712c61a01a
+  mbid_album: 3c0448a8-01a6-4b6d-a5a2-2293ebaf7e74
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4652e10b592d2f5f1286142691d9558c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sex Mask
+  track: Girth
+  album: Girth
+  played_at_utc: '2026-01-03T12:35:47Z'
+  lastfm_url: https://www.last.fm/music/Sex+Mask/_/Girth
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8cf1199647bab68a84979c243f96677a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: armano
+  track: Not Alone
+  album: Not Alone
+  played_at_utc: '2026-01-03T12:33:30Z'
+  lastfm_url: https://www.last.fm/music/armano/_/Not+Alone
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fortuna Ehrenfeld
+  track: Life at the Hollywood Bowl
+  album: Life at the Hollywood Bowl
+  played_at_utc: '2026-01-03T12:30:57Z'
+  lastfm_url: https://www.last.fm/music/Fortuna+Ehrenfeld/_/Life+at+the+Hollywood+Bowl
+  mbid_track: null
+  mbid_artist: 15bab0fb-a47a-41d0-b2a0-440009d3ac14
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a42fb3641e9ffa5417bd26a0d771370e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dicey Hollow
+  track: The Fool
+  album: The Fool
+  played_at_utc: '2026-01-03T12:27:07Z'
+  lastfm_url: https://www.last.fm/music/Dicey+Hollow/_/The+Fool
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Yeah!
+  track: Peace Of Mind
+  album: Dust Comes Up
+  played_at_utc: '2026-01-03T12:26:12Z'
+  lastfm_url: https://www.last.fm/music/Yeah!/_/Peace+Of+Mind
+  mbid_track: null
+  mbid_artist: c5340850-6416-4c58-8979-78807eff999f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0ccee284f7ead57b02a6906315a233ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sam Fender
+  track: Fortuna's Wheel
+  album: People Watching (Deluxe Edition)
+  played_at_utc: '2026-01-03T12:17:08Z'
+  lastfm_url: https://www.last.fm/music/Sam+Fender/_/Fortuna%27s+Wheel
+  mbid_track: null
+  mbid_artist: 3478a5d1-bd96-4584-aa54-4d6e0a329658
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/555e541083ecf2a580c50191397176ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kapa Tult
+  track: Niemand
+  album: Niemand
+  played_at_utc: '2026-01-03T12:15:26Z'
+  lastfm_url: https://www.last.fm/music/Kapa+Tult/_/Niemand
+  mbid_track: null
+  mbid_artist: 09b9a4e9-abe3-42c1-88be-78c11f2d1295
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Milliarden
+  track: Kokain & Himbeereis mit Freunden
+  album: Kokain & Himbeereis mit Freunden
+  played_at_utc: '2026-01-03T12:10:20Z'
+  lastfm_url: https://www.last.fm/music/Milliarden/_/Kokain+&+Himbeereis+mit+Freunden
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tom Smith
+  track: Northern Line
+  album: There Is Nothing In The Dark That Isn't There In The Light
+  played_at_utc: '2026-01-03T12:05:31Z'
+  lastfm_url: https://www.last.fm/music/Tom+Smith/_/Northern+Line
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f8dc343b2d65fff2f44746c8fbebeb1e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: G CALZ
+  track: Smiling at You
+  album: Smiling at You
+  played_at_utc: '2026-01-03T12:00:57Z'
+  lastfm_url: https://www.last.fm/music/G+CALZ/_/Smiling+at+You
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Das Pack
+  track: Tennisschuh
+  album: Tennisschuh
+  played_at_utc: '2026-01-03T11:57:41Z'
+  lastfm_url: https://www.last.fm/music/Das+Pack/_/Tennisschuh
+  mbid_track: null
+  mbid_artist: 4cf50eb6-2291-4db0-9b5c-0b0a4c60bdbb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Brass Against
+  track: Glory Box
+  album: VI
+  played_at_utc: '2026-01-03T11:57:37Z'
+  lastfm_url: https://www.last.fm/music/Brass+Against/_/Glory+Box
+  mbid_track: null
+  mbid_artist: 80792351-8417-4e77-ab2c-8708b07cb45a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7022458ec230c97fc02c074db2710d51.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Disarstar
+  track: Schwarzer Tee
+  album: Schwarzer Tee
+  played_at_utc: '2026-01-03T11:49:55Z'
+  lastfm_url: https://www.last.fm/music/Disarstar/_/Schwarzer+Tee
+  mbid_track: null
+  mbid_artist: bfc8aad9-982b-4fa4-a9f4-8a2ae7158a59
+  mbid_album: 484bac6c-b7e0-484a-88c7-d346ea2e6074
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/890c2a4efbca5b415674766feefea907.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sleaford Mods
+  track: No Touch
+  album: No Touch
+  played_at_utc: '2026-01-03T11:47:53Z'
+  lastfm_url: https://www.last.fm/music/Sleaford+Mods/_/No+Touch
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 7b49cf02-9417-49e6-9ce1-06f74544b770
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a77ea6dd28b5fc05f81dfdb94e8085d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Afghan Whigs
+  track: Downtown
+  album: Fake Like / Downtown
+  played_at_utc: '2026-01-03T11:46:22Z'
+  lastfm_url: https://www.last.fm/music/The+Afghan+Whigs/_/Downtown
+  mbid_track: 7ea3f789-098f-405a-8b0d-a5948074a25b
+  mbid_artist: 2feb192c-2363-46d6-b476-1c88a25cb294
+  mbid_album: b2d36027-338b-45df-91d1-b5a4175a7542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/252ed1bb7faea41ac1021d6f88a67ff0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: YUNGBLUD
+  track: Zombie
+  album: Zombie
+  played_at_utc: '2026-01-03T11:39:51Z'
+  lastfm_url: https://www.last.fm/music/YUNGBLUD/_/Zombie
+  mbid_track: a2be1637-e661-41e9-b13c-bb749407daae
+  mbid_artist: 97529a9e-4b5a-4a9c-9c08-c42401d1c268
+  mbid_album: f7edc933-af4b-4d93-9650-49c45bebec78
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3a7d2670d159ceffd64dfed1c5f893bd.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Valter Nilsson
+  track: Göteborg
+  album: Göteborg
+  played_at_utc: '2026-01-03T11:38:01Z'
+  lastfm_url: https://www.last.fm/music/Valter+Nilsson/_/G%C3%B6teborg
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/75ec8fdb07789a646123ad67c38fa61b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Gretel
+  track: Darkness, be my friend
+  album: Darkness, be my friend
+  played_at_utc: '2026-01-03T11:34:43Z'
+  lastfm_url: https://www.last.fm/music/Gretel/_/Darkness,+be+my+friend
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/52e7ff61097e06ead452b9cc230135c9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: VIENNA VIENNA
+  track: Buzz
+  album: Buzz
+  played_at_utc: '2026-01-03T11:27:43Z'
+  lastfm_url: https://www.last.fm/music/VIENNA+VIENNA/_/Buzz
+  mbid_track: fba590e3-6a46-44bb-b36f-b45c508b865d
+  mbid_artist: 92e81f84-80b1-4327-9dd6-af3e5ee059ce
+  mbid_album: 25b88739-c161-44d5-8feb-3d2622bad65b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1d3269700d12e70234d79e43817384a4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Badda TD
+  track: DG3
+  album: Never Go Against The Family
+  played_at_utc: '2026-01-03T11:24:22Z'
+  lastfm_url: https://www.last.fm/music/Badda+TD/_/DG3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8238cb6ffd656e3899de0a3d6fa3c954.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Beefs
+  track: Ghosts
+  album: Grillin' Jams, Vol. 2
+  played_at_utc: '2026-01-03T11:23:28Z'
+  lastfm_url: https://www.last.fm/music/The+Beefs/_/Ghosts
+  mbid_track: null
+  mbid_artist: 3ac730c9-9496-4b39-a080-f43023dd8ef6
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1b6bd411bb56f69b4f662b6cb52f922a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Arkells
+  track: Money
+  album: Money
+  played_at_utc: '2026-01-03T11:19:27Z'
+  lastfm_url: https://www.last.fm/music/Arkells/_/Money
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3657cca5085c7d9de0a3ebb6d553613a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Corduroy County
+  track: Peel Skin
+  album: Peel Skin
+  played_at_utc: '2026-01-03T11:15:54Z'
+  lastfm_url: https://www.last.fm/music/Corduroy+County/_/Peel+Skin
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4675bc985b62965a845ca6d7a8b3e42b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jan Böhmermann
+  track: Wir sind frei
+  album: Wir sind frei
+  played_at_utc: '2026-01-03T11:13:40Z'
+  lastfm_url: https://www.last.fm/music/Jan+B%C3%B6hmermann/_/Wir+sind+frei
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: e4ade075-2f57-450b-9c3d-e4d9b6ed62ad
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/577922ad1d9399ac61cfc0e8bf3242e2.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Richard Ashcroft
+  track: You've Got All I Need (Bonus Track)
+  album: Lovin' You (Deluxe)
+  played_at_utc: '2026-01-03T11:09:12Z'
+  lastfm_url: https://www.last.fm/music/Richard+Ashcroft/_/You%27ve+Got+All+I+Need+(Bonus+Track)
+  mbid_track: null
+  mbid_artist: 2d1d8985-47bc-4244-8cc3-577584e411f6
+  mbid_album: e0e8df31-db30-494d-8176-43c7a3ccda4d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/273baeabad933cba35df5bf73b255efb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Call It Off
+  track: The Fate Of Ophelia
+  album: The Fate Of Ophelia
+  played_at_utc: '2026-01-03T11:08:58Z'
+  lastfm_url: https://www.last.fm/music/Call+It+Off/_/The+Fate+Of+Ophelia
+  mbid_track: 6674ceea-1abc-4b42-8b60-818971603143
+  mbid_artist: 536329c9-5580-45c6-8b16-03f36976a559
+  mbid_album: 1f98f9fa-eb48-4faf-a60f-e511852a8ee8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cleopatrick
+  track: NOW ZERO
+  album: SCRAP
+  played_at_utc: '2026-01-03T11:02:00Z'
+  lastfm_url: https://www.last.fm/music/Cleopatrick/_/NOW+ZERO
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4170136a418e440df8f5b19eb059418b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Thomas Raggi
+  track: CAT GOT YOUR TONGUE (with THE S.L.P. & Kasabian) - prod. Tom Morello
+  album: MASQUERADE
+  played_at_utc: '2026-01-03T10:58:36Z'
+  lastfm_url: https://www.last.fm/music/Thomas+Raggi/_/CAT+GOT+YOUR+TONGUE+(with+THE+S.L.P.+&+Kasabian)+-+prod.+Tom+Morello
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/16e1be0822e126afc3790f6178e95485.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cast
+  track: Free Love
+  album: Free Love
+  played_at_utc: '2026-01-03T10:55:43Z'
+  lastfm_url: https://www.last.fm/music/Cast/_/Free+Love
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/29810749a945b5ba1666b6c39fda7d93.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: grandson
+  track: masters of war
+  album: Inertia
+  played_at_utc: '2026-01-03T10:51:24Z'
+  lastfm_url: https://www.last.fm/music/grandson/_/masters+of+war
+  mbid_track: null
+  mbid_artist: cc699fe3-db51-4837-928f-8f712c61a01a
+  mbid_album: 3c0448a8-01a6-4b6d-a5a2-2293ebaf7e74
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4652e10b592d2f5f1286142691d9558c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sex Mask
+  track: Girth
+  album: Girth
+  played_at_utc: '2026-01-03T10:47:23Z'
+  lastfm_url: https://www.last.fm/music/Sex+Mask/_/Girth
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8cf1199647bab68a84979c243f96677a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: armano
+  track: Not Alone
+  album: Not Alone
+  played_at_utc: '2026-01-03T10:44:19Z'
+  lastfm_url: https://www.last.fm/music/armano/_/Not+Alone
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fortuna Ehrenfeld
+  track: Life at the Hollywood Bowl
+  album: Life at the Hollywood Bowl
+  played_at_utc: '2026-01-03T10:41:25Z'
+  lastfm_url: https://www.last.fm/music/Fortuna+Ehrenfeld/_/Life+at+the+Hollywood+Bowl
+  mbid_track: null
+  mbid_artist: 15bab0fb-a47a-41d0-b2a0-440009d3ac14
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a42fb3641e9ffa5417bd26a0d771370e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dicey Hollow
+  track: The Fool
+  album: The Fool
+  played_at_utc: '2026-01-03T10:38:22Z'
+  lastfm_url: https://www.last.fm/music/Dicey+Hollow/_/The+Fool
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Yeah!
+  track: Peace Of Mind
+  album: Dust Comes Up
+  played_at_utc: '2026-01-03T10:34:22Z'
+  lastfm_url: https://www.last.fm/music/Yeah!/_/Peace+Of+Mind
+  mbid_track: null
+  mbid_artist: c5340850-6416-4c58-8979-78807eff999f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0ccee284f7ead57b02a6906315a233ac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sam Fender
+  track: Fortuna's Wheel
+  album: People Watching (Deluxe Edition)
+  played_at_utc: '2026-01-03T10:29:02Z'
+  lastfm_url: https://www.last.fm/music/Sam+Fender/_/Fortuna%27s+Wheel
+  mbid_track: null
+  mbid_artist: 3478a5d1-bd96-4584-aa54-4d6e0a329658
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/555e541083ecf2a580c50191397176ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kapa Tult
+  track: Niemand
+  album: Niemand
+  played_at_utc: '2026-01-03T10:27:19Z'
+  lastfm_url: https://www.last.fm/music/Kapa+Tult/_/Niemand
+  mbid_track: null
+  mbid_artist: 09b9a4e9-abe3-42c1-88be-78c11f2d1295
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Milliarden
+  track: Kokain & Himbeereis mit Freunden
+  album: Kokain & Himbeereis mit Freunden
+  played_at_utc: '2026-01-03T10:21:41Z'
+  lastfm_url: https://www.last.fm/music/Milliarden/_/Kokain+&+Himbeereis+mit+Freunden
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Jo the Man the Music
   track: Shoulders
   album: Shoulders
