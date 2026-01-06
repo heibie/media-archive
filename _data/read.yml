@@ -1,17 +1,13 @@
 - typ: buch
   status: want to read
-  titel: Harry Potter und der Feuerkelch
+  titel: Lieferdienst
   autor:
-  - J. K. Rowling
-  isbn: '9783551354044'
-  cover: https://covers.openlibrary.org/b/id/9346706-L.jpg
-  verlag: Carlsen
-  erscheinungsjahr: '2008'
-  seiten: 704
-  eingetragen_am: '2026-01-06'
-- typ: buch
-  status: want to read
-  isbn: '9783462006216'
+  - Tom Hillenbrand
+  isbn: '3-462-00621-5'
+  cover: https://buch.isbn.de/cover/9783462006216.webp
+  verlag: Kiepenheuer & Witsch
+  erscheinungsjahr: '2024'
+  seiten: 192
   eingetragen_am: '2026-01-06'
 - typ: buch
   status: want to read
