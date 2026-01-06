@@ -1,5 +1,38 @@
 - typ: buch
   status: want to read
+  titel: Thanatopia
+  autor:
+  - Tom Hillenbrand
+  isbn: '3-462-00872-2'
+  cover: https://buch.isbn.de/cover/9783462008722.webp
+  verlag: Kiepenheuer & Witsch
+  erscheinungsjahr: '2025'
+  seiten: 384
+  eingetragen_am: '2026-01-06'
+- typ: buch
+  status: want to read
+  titel: Montecrypto
+  autor:
+  - Tom Hillenbrand
+  isbn: '3-462-05465-1'
+  cover: https://buch.isbn.de/cover/9783462054651.webp
+  verlag: Kiepenheuer & Witsch
+  erscheinungsjahr: '2022'
+  seiten: 448
+  eingetragen_am: '2026-01-06'
+- typ: buch
+  status: want to read
+  titel: Qube
+  autor:
+  - Tom Hillenbrand
+  isbn: '3-462-05440-6'
+  cover: https://buch.isbn.de/cover/9783462054408.webp
+  verlag: Kiepenheuer & Witsch
+  erscheinungsjahr: '2020'
+  seiten: 560
+  eingetragen_am: '2026-01-06'
+- typ: buch
+  status: want to read
   titel: Lieferdienst
   autor:
   - Tom Hillenbrand
