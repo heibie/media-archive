@@ -1,3 +1,723 @@
+- artist: Crooked Fingers
+  track: Cold Waves
+  album: Cold Waves
+  played_at_utc: '2026-01-08T15:51:55Z'
+  lastfm_url: https://www.last.fm/music/Crooked+Fingers/_/Cold+Waves
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fc0bc446e4ffcddaae305838feb12bd5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Courtney Barnett
+  track: Stay In Your Lane
+  album: Stay In Your Lane
+  played_at_utc: '2026-01-08T15:48:40Z'
+  lastfm_url: https://www.last.fm/music/Courtney+Barnett/_/Stay+In+Your+Lane
+  mbid_track: db170d16-2e1c-4d4f-b0bb-251e0ebdd535
+  mbid_artist: 55111838-f001-494a-a1b5-9d818db85810
+  mbid_album: 00427866-9310-48d3-9f33-60b7bd795886
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9d987e3e86e5d10cddf04aab348c9c3f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sports Team
+  track: Medium Machine
+  album: Boys These Days (Deluxe)
+  played_at_utc: '2026-01-08T15:46:12Z'
+  lastfm_url: https://www.last.fm/music/Sports+Team/_/Medium+Machine
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d88ce4e10c2d5f4d15d05bd7de89fc72.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Besnard Lakes
+  track: Give Us Our Dominion
+  album: The Besnard Lakes are the Ghost Nation
+  played_at_utc: '2026-01-08T15:41:24Z'
+  lastfm_url: https://www.last.fm/music/The+Besnard+Lakes/_/Give+Us+Our+Dominion
+  mbid_track: 7052abd6-aa6f-4feb-b648-1a9b85ea6712
+  mbid_artist: 520c81bd-e7b4-45c1-bd8f-976eba5b39e1
+  mbid_album: f3fbfcad-75b4-4206-80ed-770754c878f5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b40a479432f9c9c236b793cec8fdfb44.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spanish Love Songs
+  track: Heavenhead (feat. Illuminati Hotties)
+  album: Heavenhead
+  played_at_utc: '2026-01-08T15:37:50Z'
+  lastfm_url: https://www.last.fm/music/Spanish+Love+Songs/_/Heavenhead+(feat.+Illuminati+Hotties)
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a127aaa7910d269270e2e657524fe679.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Dears
+  track: Tomorrow And Tomorrow
+  album: Life Is Beautiful! Life Is Beautiful! Life Is Beautiful!
+  played_at_utc: '2026-01-08T15:34:38Z'
+  lastfm_url: https://www.last.fm/music/The+Dears/_/Tomorrow+And+Tomorrow
+  mbid_track: null
+  mbid_artist: ca7ce20f-c735-4ad9-b664-d8d83b3c7948
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7370a4d2b2cfb75e4ef9ff794a226b23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tyler Ballgame
+  track: I Believe in Love
+  album: I Believe in Love
+  played_at_utc: '2026-01-08T15:30:23Z'
+  lastfm_url: https://www.last.fm/music/Tyler+Ballgame/_/I+Believe+in+Love
+  mbid_track: 13d685cd-cef3-4417-8f7e-e17e5f08403e
+  mbid_artist: null
+  mbid_album: acf3c698-7cd8-4914-8592-9546d5a28181
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/96add80b313b9b41bdad299686a4141c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Radioactivity
+  track: Analog Ways
+  album: Time Won't Bring Me Down
+  played_at_utc: '2026-01-08T15:27:21Z'
+  lastfm_url: https://www.last.fm/music/Radioactivity/_/Analog+Ways
+  mbid_track: 0b3fcb07-bb54-4be4-9e48-ecaa8fcb9857
+  mbid_artist: 1b38a8f3-59c7-46de-9579-37a06b12d6b8
+  mbid_album: 7d692794-85d5-4e57-be4f-d465d526c760
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5e8d2d51e3764c472e7dc17ca1cc5ba3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: House of Dead Memories
+  album: House of Dead Memories
+  played_at_utc: '2026-01-08T15:25:14Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/House+of+Dead+Memories
+  mbid_track: 866d97ea-83ca-4623-8e16-8fd86ef915dc
+  mbid_artist: null
+  mbid_album: dbb0ba5b-a8db-435d-b18c-86a2ed39cb69
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ad25d90f82e8f23fe8778360100770e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ratboys
+  track: Light Night Mountains All That
+  album: Light Night Mountains All That
+  played_at_utc: '2026-01-08T15:19:15Z'
+  lastfm_url: https://www.last.fm/music/Ratboys/_/Light+Night+Mountains+All+That
+  mbid_track: aa8f2b78-c506-4a93-92bb-f7c5cba59033
+  mbid_artist: 423a85de-66ba-4113-abdc-ba2678ee89ba
+  mbid_album: ad355004-4968-4e30-a691-caefa05bc117
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9d48cbf3f6b8da28ff8091872c8a32e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Admiral Fallow
+  track: The Shortest Night
+  album: First Of The Birds
+  played_at_utc: '2026-01-08T15:15:02Z'
+  lastfm_url: https://www.last.fm/music/Admiral+Fallow/_/The+Shortest+Night
+  mbid_track: null
+  mbid_artist: 1955e302-1c18-4e95-8f48-2a7c8b6a6604
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f056c71f95f8e77c2e69bbb4ccb6d7cf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sprints
+  track: Better
+  album: All That Is Over
+  played_at_utc: '2026-01-08T15:11:53Z'
+  lastfm_url: https://www.last.fm/music/Sprints/_/Better
+  mbid_track: 93d1f5fd-4936-4295-b051-93e3495df75f
+  mbid_artist: 256e0b36-88cb-453a-9ce4-7b73cb6b882f
+  mbid_album: ba7cca99-7ac1-4823-8ca7-9e53f606f7db
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06ea060609b755377175bebffa0ffb0d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bright Eyes
+  track: Kids Table
+  album: Kids Table
+  played_at_utc: '2026-01-08T15:07:56Z'
+  lastfm_url: https://www.last.fm/music/Bright+Eyes/_/Kids+Table
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 5f5687cb-0527-4da0-8458-217bc240e6d2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/867bf5878668daf939a4115775c4bb7b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Guided by Voices
+  track: (You Can't Go Back To) Oxford Talawanda
+  album: Thick Rich And Delicious
+  played_at_utc: '2026-01-08T15:05:20Z'
+  lastfm_url: https://www.last.fm/music/Guided+by+Voices/_/(You+Can%27t+Go+Back+To)+Oxford+Talawanda
+  mbid_track: 8b3e62fe-0366-49d8-927d-54668c473f7f
+  mbid_artist: 6c85f4c3-026c-4c16-9a7c-f546f42ed0fb
+  mbid_album: 6991027e-028e-4b38-a93f-b046295dcdad
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/967da3bfe3b957407bd24c27bc4f9bab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Idlewild
+  track: (I Can't Help) Back Then You Found Me
+  album: Idlewild
+  played_at_utc: '2026-01-08T13:50:03Z'
+  lastfm_url: https://www.last.fm/music/Idlewild/_/(I+Can%27t+Help)+Back+Then+You+Found+Me
+  mbid_track: 1dc58894-8bde-46e1-b930-914824933280
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/48e8ad86e220a7220a6d2707ef97c2fa.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Guided by Voices
+  track: (You Can't Go Back To) Oxford Talawanda
+  album: Thick Rich And Delicious
+  played_at_utc: '2026-01-08T13:47:22Z'
+  lastfm_url: https://www.last.fm/music/Guided+by+Voices/_/(You+Can%27t+Go+Back+To)+Oxford+Talawanda
+  mbid_track: 8b3e62fe-0366-49d8-927d-54668c473f7f
+  mbid_artist: 6c85f4c3-026c-4c16-9a7c-f546f42ed0fb
+  mbid_album: 6991027e-028e-4b38-a93f-b046295dcdad
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/967da3bfe3b957407bd24c27bc4f9bab.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Idlewild
+  track: (I Can't Help) Back Then You Found Me
+  album: Idlewild
+  played_at_utc: '2026-01-08T13:42:53Z'
+  lastfm_url: https://www.last.fm/music/Idlewild/_/(I+Can%27t+Help)+Back+Then+You+Found+Me
+  mbid_track: 1dc58894-8bde-46e1-b930-914824933280
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/48e8ad86e220a7220a6d2707ef97c2fa.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T12:03:23Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 17: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:59:30Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+17:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 16: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:56:24Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+16:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 15: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:53:24Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+15:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:50:24Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 13: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:44:52Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+13:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 12: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T11:41:49Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+12:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 11: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:42:51Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+11:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 10: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:39:51Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+10:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 09: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:36:49Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+09:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 08: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:33:11Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+08:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 07: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:30:11Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+07:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 06: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:27:10Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+06:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 05: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:24:08Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+05:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 04: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:21:07Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+04:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 03: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:17:59Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+03:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 02: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:14:53Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+02:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 01: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:10:53Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+01:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-08T07:07:38Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:41:52Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:37:54Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 13: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:34:51Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+13:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 12: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:31:48Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+12:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 11: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:28:43Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+11:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 10: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:25:41Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+10:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 09: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:22:38Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+09:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 08: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:19:35Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+08:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 07: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:16:31Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+07:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 06: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:13:30Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+06:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 05: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:10:27Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+05:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 04: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:07:26Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+04:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 03: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:04:22Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+03:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 02: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T05:01:20Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+02:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 01: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T04:58:15Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+01:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T04:56:36Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Intro: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-08T04:50:57Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Intro:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: ABBA
+  track: Dancing Queen
+  album: Arrival
+  played_at_utc: '2026-01-07T18:41:13Z'
+  lastfm_url: https://www.last.fm/music/ABBA/_/Dancing+Queen
+  mbid_track: null
+  mbid_artist: d87e52c5-bb8d-4da8-b941-9f4928627dc8
+  mbid_album: 0640e31e-e4cb-32f4-be23-e11e4aef8c1b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9669591438fa40869420f91c617de999.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Intro: Die Cassidy-Prüfung - Folge 3'
+  album: 'Folge 3: Die Cassidy-Prüfung'
+  played_at_utc: '2026-01-06T11:46:34Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Intro:+Die+Cassidy-Pr%C3%BCfung+-+Folge+3
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 2: Geschöpfe aus dem Nichts'
+  played_at_utc: '2026-01-06T10:42:17Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 15: Geschöpfe aus dem Nichts - Folge 2'
+  album: 'Folge 2: Geschöpfe aus dem Nichts'
+  played_at_utc: '2026-01-06T10:39:45Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+15:+Gesch%C3%B6pfe+aus+dem+Nichts+-+Folge+2
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Geschöpfe aus dem Nichts - Folge 2'
+  album: 'Folge 2: Geschöpfe aus dem Nichts'
+  played_at_utc: '2026-01-06T10:36:38Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Gesch%C3%B6pfe+aus+dem+Nichts+-+Folge+2
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Geschöpfe aus dem Nichts - Folge 2'
+  album: 'Folge 2: Geschöpfe aus dem Nichts'
+  played_at_utc: '2026-01-06T10:35:46Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Gesch%C3%B6pfe+aus+dem+Nichts+-+Folge+2
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Geschöpfe aus dem Nichts - Folge 2'
+  album: 'Folge 2: Geschöpfe aus dem Nichts'
+  played_at_utc: '2026-01-06T10:35:10Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Gesch%C3%B6pfe+aus+dem+Nichts+-+Folge+2
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Dark Maine
   track: 'Kapitel 13: Geschöpfe aus dem Nichts - Folge 2'
   album: 'Folge 2: Geschöpfe aus dem Nichts'
