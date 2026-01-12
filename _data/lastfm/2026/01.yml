@@ -1,3 +1,663 @@
+- artist: Richard Ashcroft
+  track: To Be Loved Again (Bonus Track)
+  album: Lovin' You (Deluxe)
+  played_at_utc: '2026-01-11T12:11:07Z'
+  lastfm_url: https://www.last.fm/music/Richard+Ashcroft/_/To+Be+Loved+Again+(Bonus+Track)
+  mbid_track: null
+  mbid_artist: 2d1d8985-47bc-4244-8cc3-577584e411f6
+  mbid_album: e0e8df31-db30-494d-8176-43c7a3ccda4d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/273baeabad933cba35df5bf73b255efb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Sherlocks
+  track: NYC (Sing It Loud)
+  album: Unplugged Vol.1
+  played_at_utc: '2026-01-11T12:06:42Z'
+  lastfm_url: https://www.last.fm/music/The+Sherlocks/_/NYC+(Sing+It+Loud)
+  mbid_track: 254c029f-370b-4094-8184-764b59aec296
+  mbid_artist: 840179a0-7dc7-49e2-ae26-4737c2b33ef7
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a32649b45c249f4b5b2aff86b794b768.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Goldie Lookin Chain
+  track: DRY JAN
+  album: DRY JAN
+  played_at_utc: '2026-01-11T12:03:01Z'
+  lastfm_url: https://www.last.fm/music/Goldie+Lookin+Chain/_/DRY+JAN
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c912785322b99b80af3cb5f9689d98b1.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Gluecifer
+  track: I'm Ready
+  album: I'm Ready
+  played_at_utc: '2026-01-11T11:59:31Z'
+  lastfm_url: https://www.last.fm/music/Gluecifer/_/I%27m+Ready
+  mbid_track: null
+  mbid_artist: 4fbfc573-414f-4094-aeda-d7dee5f3370f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Peter Gabriel
+  track: Been Undone - Dark-Side Mix
+  album: Been Undone (Dark-Side Mix)
+  played_at_utc: '2026-01-11T11:51:51Z'
+  lastfm_url: https://www.last.fm/music/Peter+Gabriel/_/Been+Undone+-+Dark-Side+Mix
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 23d6187d-9772-4bfa-8176-df033c68ab45
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ef2bbc735df6e8ca01c9710deb8a30f3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesper Lindell
+  track: Drift Away
+  album: Drift Away
+  played_at_utc: '2026-01-11T11:48:13Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Drift+Away
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: c4dabefb-41f7-46b8-86b5-bb5f0e51d061
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Matt Berninger
+  track: Blue Monday
+  album: Blue Monday
+  played_at_utc: '2026-01-11T11:43:33Z'
+  lastfm_url: https://www.last.fm/music/Matt+Berninger/_/Blue+Monday
+  mbid_track: 329fc32a-325d-4b43-a878-8d6c9aff88ab
+  mbid_artist: 991813f5-27c6-4ff3-88dd-90e750dad545
+  mbid_album: 84f65309-59ef-4c63-9192-81c5a00f4055
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/54617116e1ebabaa23eef8d11b8224f9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angel Du$t
+  track: I'm The Outside
+  album: I'm The Outside
+  played_at_utc: '2026-01-11T11:41:31Z'
+  lastfm_url: https://www.last.fm/music/Angel+Du$t/_/I%27m+The+Outside
+  mbid_track: 239f95f6-97d7-40b9-a44e-95b9fbe69a44
+  mbid_artist: 36c8b01c-cd8b-4ecd-b3fd-9f4f73371d2b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5edc9003549a01d03483ff227114756d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Viagra Boys
+  track: Therapy II
+  album: viagr aboys (Japanese Deluxe Edition)
+  played_at_utc: '2026-01-11T11:36:03Z'
+  lastfm_url: https://www.last.fm/music/Viagra+Boys/_/Therapy+II
+  mbid_track: null
+  mbid_artist: 9df0c0ec-619e-447d-a155-23e19d9c84ce
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e13d3770f94ae5232e63f0258dfbc37d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: Leave This Island
+  album: Too Much Information
+  played_at_utc: '2026-01-10T18:08:49Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/Leave+This+Island
+  mbid_track: 2d8cc98f-fb5a-4915-8e86-043007c4bde3
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: 0d539373-2f76-458c-ace3-ad227efecd5a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f6b905508c904955c986a08765e642eb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Fast Summer - Remastered
+  album: Friend or Foe? (Remastered)
+  played_at_utc: '2026-01-10T12:02:34Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Fast+Summer+-+Remastered
+  mbid_track: 50f17a71-d46f-4c4b-b2a5-35ca8e84a92b
+  mbid_artist: null
+  mbid_album: 6dda079a-aab4-4ad7-acb1-2b402b1b97d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b25aaf90710ffa2c43f6ab28cf33f23a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Slut
+  track: If I Had A Heart
+  album: StillNo1
+  played_at_utc: '2026-01-10T11:59:01Z'
+  lastfm_url: https://www.last.fm/music/Slut/_/If+I+Had+A+Heart
+  mbid_track: 0fc16c03-8cad-4e7a-a020-775bc4c1f4a3
+  mbid_artist: null
+  mbid_album: 05cef31f-8a3e-479f-9ad7-0174c5225e1c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f3c97e56026e4ca183fcc19abe2055e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Chikinki
+  track: Ether Radio
+  album: Lick Your Ticket
+  played_at_utc: '2026-01-10T11:55:21Z'
+  lastfm_url: https://www.last.fm/music/Chikinki/_/Ether+Radio
+  mbid_track: f3843f77-495f-41ba-9cc8-267b093e1350
+  mbid_artist: 59330405-08d2-477d-b5ab-21a1cc396701
+  mbid_album: 1df7df0f-0fbc-4d13-8233-79f8286b369a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/11a511b5e7194982a7e86b8535cefca7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sophia
+  track: Oh My Love
+  album: People Are Like Seasons
+  played_at_utc: '2026-01-10T11:54:21Z'
+  lastfm_url: https://www.last.fm/music/Sophia/_/Oh+My+Love
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 26837648-5da5-46d2-8667-6cfffd073450
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/94019a29fecad3ffe4ed176d50963406.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Catastrophe & Cure
+  track: Stuck
+  album: In the Wind
+  played_at_utc: '2026-01-10T11:47:56Z'
+  lastfm_url: https://www.last.fm/music/Catastrophe+&+Cure/_/Stuck
+  mbid_track: null
+  mbid_artist: a9bbe9f3-aa1e-4e0b-9193-a63596f6d333
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/32d5ee86e5a2be73e16137943de55487.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: By the Monument
+  album: Our Earthly Pleasures
+  played_at_utc: '2026-01-10T11:45:18Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/By+the+Monument
+  mbid_track: 0a061176-4aec-4f04-b6c4-bfe328b8be7d
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: 1e82e322-5954-3918-8894-64bafdd029c5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/94658a06dd1b47b38b993da82622ddb3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Airdrop - Remastered
+  album: Friend or Foe? (Remastered)
+  played_at_utc: '2026-01-10T11:43:54Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Airdrop+-+Remastered
+  mbid_track: 9ec7f7fa-ad1e-4391-a6e9-33bf638006a9
+  mbid_artist: null
+  mbid_album: 6dda079a-aab4-4ad7-acb1-2b402b1b97d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b25aaf90710ffa2c43f6ab28cf33f23a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tall Ships
+  track: Meditations On Loss
+  album: Impressions
+  played_at_utc: '2026-01-10T11:39:04Z'
+  lastfm_url: https://www.last.fm/music/Tall+Ships/_/Meditations+On+Loss
+  mbid_track: d8da593e-5b79-4600-8791-073215176a8d
+  mbid_artist: null
+  mbid_album: 283f4884-7902-47c1-bf2d-c1937390359f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/78e2b7b96a8f737eb7841b3978122766.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Christin Nichols
+  track: I'm Fine
+  album: I'm Fine
+  played_at_utc: '2026-01-10T11:35:37Z'
+  lastfm_url: https://www.last.fm/music/Christin+Nichols/_/I%27m+Fine
+  mbid_track: a56edcfd-d049-4906-b168-8b565a6c443c
+  mbid_artist: 71a54cae-f2a4-4a33-9fd8-d946ec325129
+  mbid_album: a1026c54-2860-4555-871c-c9687ada7a43
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/999cab1363066a64bab0d0be55b3b2f8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Slut
+  track: Why Pourquoi (I Think I Like You)
+  album: All We Need Is Silence
+  played_at_utc: '2026-01-10T11:32:37Z'
+  lastfm_url: https://www.last.fm/music/Slut/_/Why+Pourquoi+(I+Think+I+Like+You)
+  mbid_track: 7179ce4d-e7bf-318a-8989-37adc897e1ac
+  mbid_artist: null
+  mbid_album: 0a52d008-19b6-4451-a36f-61bbc93649be
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/75cfd4abf9484ec2a7b3c033719bf8b6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pabst
+  track: Shake the Disease
+  album: Chlorine
+  played_at_utc: '2026-01-10T11:29:37Z'
+  lastfm_url: https://www.last.fm/music/Pabst/_/Shake+the+Disease
+  mbid_track: 4594cdfd-e900-4755-8eea-d13e1b3f866f
+  mbid_artist: c7a1e8de-18cc-4597-9aad-7ddaef674635
+  mbid_album: 49771e7a-ec32-43cc-94e5-539f07bda708
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/40e3f9bd25380484ac3448ed83e45bdb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: I Want You to Stay
+  album: A Certain Trigger (20th Anniversary Deluxe Version)
+  played_at_utc: '2026-01-10T11:26:27Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/I+Want+You+to+Stay
+  mbid_track: 01b3243a-ab9c-3951-a478-10fedb3e38a5
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Foe
+  album: 1997 - 2013 (Best of + Rare Tracks)
+  played_at_utc: '2026-01-10T11:22:42Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Foe
+  mbid_track: 356aaf3f-abb6-3b0f-86e4-fee2b53a6c23
+  mbid_artist: null
+  mbid_album: 1b8e8484-506c-42ae-8b84-bd8e52d632f3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/65edbe6a1aeb5bfa3a9ce1f376506f98.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bloc Party
+  track: Song for Clay (Disappear Here)
+  album: A Weekend In the City
+  played_at_utc: '2026-01-10T11:19:27Z'
+  lastfm_url: https://www.last.fm/music/Bloc+Party/_/Song+for+Clay+(Disappear+Here)
+  mbid_track: 18dda4e0-681e-36ba-867d-155140fa1ced
+  mbid_artist: 8c538f11-c141-4588-8ecb-931083524186
+  mbid_album: 07838531-c777-433f-b495-b1d92fac1bc7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/56392f20d7514d2580cbbbea75a74f9e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Augustines
+  track: Are We Alive
+  album: This Is Your Life
+  played_at_utc: '2026-01-10T11:14:32Z'
+  lastfm_url: https://www.last.fm/music/Augustines/_/Are+We+Alive
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 7d0d460b-3742-4624-bf3d-837c2959cd90
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0a1cda110c1106f5665289a04d4d387a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Madrugada
+  track: Norwegian Hammerworks Corp.
+  album: Industrial Silence
+  played_at_utc: '2026-01-10T11:11:40Z'
+  lastfm_url: https://www.last.fm/music/Madrugada/_/Norwegian+Hammerworks+Corp.
+  mbid_track: 01eed6e7-334e-3dcd-86ab-c16fbc3a873a
+  mbid_artist: null
+  mbid_album: 10d3d57b-422d-4eae-be6d-185c908d95a1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50538ce23713450fc59ce7a569e1af86.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: Our Velocity
+  album: Our Earthly Pleasures
+  played_at_utc: '2026-01-10T11:09:49Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/Our+Velocity
+  mbid_track: 026637a3-6b7b-3feb-8512-b8ce1935c8a8
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: 1e82e322-5954-3918-8894-64bafdd029c5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/94658a06dd1b47b38b993da82622ddb3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Hot Water Music
+  track: Drag My Body
+  album: Exister
+  played_at_utc: '2026-01-10T11:05:29Z'
+  lastfm_url: https://www.last.fm/music/Hot+Water+Music/_/Drag+My+Body
+  mbid_track: 09a05e5d-30d3-365a-8170-9a0e39a008a5
+  mbid_artist: c83907ee-8b5a-4547-8f68-96572243ea7f
+  mbid_album: 088fd832-ecd0-4dd5-978f-fcb5fe2ddb94
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1bda0d5a140049adc9726717cae9ae48.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: It Could Be Yours - Remastered
+  album: Friend or Foe? (Remastered)
+  played_at_utc: '2026-01-10T11:02:30Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/It+Could+Be+Yours+-+Remastered
+  mbid_track: 00216dd3-4605-4fbd-a1c4-72427ac2c586
+  mbid_artist: null
+  mbid_album: 6dda079a-aab4-4ad7-acb1-2b402b1b97d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b25aaf90710ffa2c43f6ab28cf33f23a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Director
+  track: Reconnect
+  album: We Thrive On Big Cities
+  played_at_utc: '2026-01-10T10:55:39Z'
+  lastfm_url: https://www.last.fm/music/Director/_/Reconnect
+  mbid_track: 6b069e87-48a6-3739-97b5-462310ad7dd9
+  mbid_artist: 66a4f57c-963f-46cf-bc70-75063e3e25dc
+  mbid_album: 843fb9a9-96df-4b00-bb36-c4735b9c2983
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4a788d2d09574de785010cb2b8df730f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Phillip Boa And The Voodooclub
+  track: A Crown for the Wonderboy
+  album: Earthly Powers
+  played_at_utc: '2026-01-10T10:53:12Z'
+  lastfm_url: https://www.last.fm/music/Phillip+Boa+And+The+Voodooclub/_/A+Crown+for+the+Wonderboy
+  mbid_track: null
+  mbid_artist: ace6f889-2d53-4b93-bf70-cbfc4fe0d256
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9e3adba9f145e9e67fde557f929ed0fe.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Babyshambles
+  track: Carry On Up The Morning
+  album: Shotter's Nation
+  played_at_utc: '2026-01-10T10:47:20Z'
+  lastfm_url: https://www.last.fm/music/Babyshambles/_/Carry+On+Up+The+Morning
+  mbid_track: 2e3a03fb-e033-41bc-a34f-3ee4054fb546
+  mbid_artist: 8e1e03fe-ebbc-467a-b541-857144db10fb
+  mbid_album: 3016d2bd-f963-36d8-a5db-6bcc9ba69fdb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5817202b6e984c41cce431549672c900.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dinosaur Pile-Up
+  track: Derail
+  album: Nature Nurture
+  played_at_utc: '2026-01-10T10:44:26Z'
+  lastfm_url: https://www.last.fm/music/Dinosaur+Pile-Up/_/Derail
+  mbid_track: 56a48f83-78d0-4d03-9d7d-d74de8e5d0a7
+  mbid_artist: null
+  mbid_album: 1dd65837-4b08-42ce-ad29-fc55be073636
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6e60e1001ce148559817e9ec966bc959.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maximo Park
+  track: Versions Of You
+  album: Nature Always Wins
+  played_at_utc: '2026-01-10T10:42:17Z'
+  lastfm_url: https://www.last.fm/music/Maximo+Park/_/Versions+Of+You
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9c3bce68fb697e1eee0a103425c62138.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Evon - Remastered
+  album: Friend or Foe? (Remastered)
+  played_at_utc: '2026-01-10T10:38:19Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Evon+-+Remastered
+  mbid_track: b3feaa0d-febe-46c4-a7d6-6ab3e1dbc71f
+  mbid_artist: null
+  mbid_album: 6dda079a-aab4-4ad7-acb1-2b402b1b97d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b25aaf90710ffa2c43f6ab28cf33f23a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Slut
+  track: Easy To Love
+  album: Nothing Will Go Wrong
+  played_at_utc: '2026-01-10T10:31:24Z'
+  lastfm_url: https://www.last.fm/music/Slut/_/Easy+To+Love
+  mbid_track: 1e5ba914-9667-40d7-9b7d-b531236fbd09
+  mbid_artist: null
+  mbid_album: c1874f9f-d728-478b-884b-a4077ed70d15
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/35514e4212ae434c977827d894ea8f08.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Brutus
+  track: Drive
+  album: Burst
+  played_at_utc: '2026-01-10T10:27:37Z'
+  lastfm_url: https://www.last.fm/music/Brutus/_/Drive
+  mbid_track: 1e04cf90-3be1-4f94-bff9-b2813ff2ae93
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a842cc01a1d30c5827861acaff02ba0c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Babyshambles
+  track: Delivery
+  album: Shotter's Nation
+  played_at_utc: '2026-01-10T10:23:36Z'
+  lastfm_url: https://www.last.fm/music/Babyshambles/_/Delivery
+  mbid_track: 4587d395-f390-41d7-b4eb-ce05bb794360
+  mbid_artist: 8e1e03fe-ebbc-467a-b541-857144db10fb
+  mbid_album: 3016d2bd-f963-36d8-a5db-6bcc9ba69fdb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5817202b6e984c41cce431549672c900.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Clockworks
+  track: Endgame
+  album: Endgame
+  played_at_utc: '2026-01-10T10:21:36Z'
+  lastfm_url: https://www.last.fm/music/The+Clockworks/_/Endgame
+  mbid_track: ae351c5e-cdc8-48ce-af71-fc5777adc2d5
+  mbid_artist: 51616baa-51db-41a0-8a2f-26a00d02ac0a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/abc82a73fffd232a2dd9623a77bf1d54.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Maxïmo Park
+  track: Books from Boxes
+  album: Our Earthly Pleasures
+  played_at_utc: '2026-01-10T10:17:27Z'
+  lastfm_url: https://www.last.fm/music/Max%C3%AFmo+Park/_/Books+from+Boxes
+  mbid_track: 199f6a74-983e-3a65-b8e4-2b50ed398ae6
+  mbid_artist: 92e634a7-6023-4be8-be15-ebba822f5b34
+  mbid_album: 1e82e322-5954-3918-8894-64bafdd029c5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/94658a06dd1b47b38b993da82622ddb3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Same Sane - Remastered
+  album: Bliss Please (Remastered)
+  played_at_utc: '2026-01-10T10:13:59Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Same+Sane+-+Remastered
+  mbid_track: 69d70a78-e03d-4c28-a8bd-c49dbbfb6934
+  mbid_artist: null
+  mbid_album: 0ac8ccd1-3376-461c-8f61-60885d27b69c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/955cd4075d49cfc1764d68a1586a019c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Soulblind
+  album: Aerial View
+  played_at_utc: '2026-01-10T10:10:20Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Soulblind
+  mbid_track: 0b0e2f56-431a-3868-8a0a-a9e63a31a3c6
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Armory
+  album: Aerial View
+  played_at_utc: '2026-01-10T10:08:18Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Armory
+  mbid_track: 3e45f183-d45c-3547-b388-3278a080919e
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Splinter
+  album: Aerial View
+  played_at_utc: '2026-01-10T10:06:50Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Splinter
+  mbid_track: 0a085998-6891-3db9-9a8b-e85131bac9d1
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Never Forever
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:59:32Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Never+Forever
+  mbid_track: 0bdb09c0-a663-3707-b387-060690aa59a7
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Me & My Shadow
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:56:25Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Me+&+My+Shadow
+  mbid_track: ddcf8e87-b7a3-33b6-8612-6b21d2bcf204
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Everyone Safe
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:52:49Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Everyone+Safe
+  mbid_track: 35a64101-197f-3d18-a58e-8ff6075eb54d
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Away With the Fairies
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:50:19Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Away+With+the+Fairies
+  mbid_track: 15d34bd9-c204-3bb7-9ef0-6fd976b33212
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Meddlesome
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:43:46Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Meddlesome
+  mbid_track: cbced7d5-ef29-3c0e-a30a-5ec45b6756e6
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Couldn't Care Less
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:40:43Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Couldn%27t+Care+Less
+  mbid_track: 8a3d1fbe-290d-3ecb-b46e-8536d16d464c
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Today
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:39:48Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Today
+  mbid_track: 242ae9cc-19b7-3e83-82bb-2ea1a1cf5740
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Moonpigs
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:32:22Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Moonpigs
+  mbid_track: 2473a5d7-4200-44c7-9deb-9c3610f6e530
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Blackmail
+  track: Electricido
+  album: Aerial View
+  played_at_utc: '2026-01-10T09:26:56Z'
+  lastfm_url: https://www.last.fm/music/Blackmail/_/Electricido
+  mbid_track: 9bb0eb06-2bfb-3830-ab7e-f3c271f59892
+  mbid_artist: null
+  mbid_album: 270635ab-ead6-4c56-aced-b42846630548
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5be86156f842d8ba35c97bf715c46f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-10T07:42:20Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: This is Lorelei
+  track: But You Just Woke Me Up
+  album: Holo Boy
+  played_at_utc: '2026-01-09T13:54:00Z'
+  lastfm_url: https://www.last.fm/music/This+is+Lorelei/_/But+You+Just+Woke+Me+Up
+  mbid_track: e5ae3c4b-396b-4497-bf03-715cb7eecb61
+  mbid_artist: a2d140d8-ae17-4d72-b680-b89c77f1ed52
+  mbid_album: 671ee8b4-3077-4ca2-92bd-203dce8ccd56
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bf6829a1c0ef05a40a1ad6f5ed52b611.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Kyle Gass
   track: What Do I Know
   album: What Do I Know
