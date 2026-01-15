@@ -1,3 +1,27 @@
+- artist: das paradies
+  track: Florian gibt auf
+  album: Überall, wo Menschen sind
+  played_at_utc: '2026-01-14T21:19:52Z'
+  lastfm_url: https://www.last.fm/music/das+paradies/_/Florian+gibt+auf
+  mbid_track: null
+  mbid_artist: 273ed29f-0126-453c-a571-3bf10af8d6f0
+  mbid_album: 715c2a81-cee2-40f5-8875-e065901291fb
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1f3b0a4f9724c6660e440be349b490b9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Seven Serpents
+  album: Seven Serpents
+  played_at_utc: '2026-01-13T18:28:15Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Seven+Serpents
+  mbid_track: b895ffc8-1c84-46bc-8502-6c884031e4f6
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 5be21f0e-29f4-4bab-a7a8-f9f26c1e679f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a86a6012fe269f947af2358dcff09c9e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Dark Maine
   track: 'Kapitel 15: Es ist da drin! - Folge 5'
   album: 'Folge 5: Es ist da drin!'
