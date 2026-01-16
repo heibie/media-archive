@@ -1,6 +1,48 @@
 - show: High Potential
   year: 2024
   season: 2
+  episode: 5
+  plays: 1
+  watched_on: '2026-01-15'
+  trakt_show: 205414
+  tvdb: 434988
+  imdb: tt22091076
+  tmdb: 226637
+  slug: high-potential
+  source: trakt
+  show_title_de: High Potential
+  show_poster: https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/yVP12H81dwaay5B7GVqgO893q2c.jpg
+  show_total_episodes: 28
+  episode_title: Content Warning
+  episode_title_de: Eine Frage des Vertrauens
+  episode_runtime: 44
+  season_total_episodes: 15
+  episode_still: https://image.tmdb.org/t/p/w300/ovjSki0xr2o51DahKNOuDUbRO5b.jpg
+- show: High Potential
+  year: 2024
+  season: 2
+  episode: 6
+  plays: 1
+  watched_on: '2026-01-15'
+  trakt_show: 205414
+  tvdb: 434988
+  imdb: tt22091076
+  tmdb: 226637
+  slug: high-potential
+  source: trakt
+  show_title_de: High Potential
+  show_poster: https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/yVP12H81dwaay5B7GVqgO893q2c.jpg
+  show_total_episodes: 28
+  episode_title: Chasing Ghosts
+  episode_title_de: Die Geister, die ich rief
+  episode_runtime: 43
+  season_total_episodes: 15
+  episode_still: https://image.tmdb.org/t/p/w300/eyFmdKi2Nw5hfP274P8qdRB0aX9.jpg
+- show: High Potential
+  year: 2024
+  season: 2
   episode: 4
   plays: 1
   watched_on: '2026-01-04'
