@@ -1,3 +1,687 @@
+- artist: Father John Misty
+  track: The Old Law
+  album: The Old Law
+  played_at_utc: '2026-01-17T11:37:33Z'
+  lastfm_url: https://www.last.fm/music/Father+John+Misty/_/The+Old+Law
+  mbid_track: 507b02e5-60f1-4416-a70d-0510d93d97b3
+  mbid_artist: 172053e5-a7fb-4548-a64d-c53858b5e775
+  mbid_album: 8d37f3bd-9b9f-4ec9-b73a-24c63cf2b872
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b3adae32be254bf68204822e28af73a8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Black Crowes
+  track: Profane Prophecy
+  album: Profane Prophecy and Pharmacy Chronicles
+  played_at_utc: '2026-01-17T11:33:24Z'
+  lastfm_url: https://www.last.fm/music/The+Black+Crowes/_/Profane+Prophecy
+  mbid_track: 70bd9a27-2870-4132-9086-6155302b58dd
+  mbid_artist: 02ceff75-7363-493e-a78d-912dc86c7460
+  mbid_album: c7790b07-392b-4a59-b276-5b025d37da52
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b852b04c95ca67a38a575ab1175ef98c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Die Sterne
+  track: Fan von Irgendwas
+  album: Wenn es Liebe ist
+  played_at_utc: '2026-01-17T11:29:26Z'
+  lastfm_url: https://www.last.fm/music/Die+Sterne/_/Fan+von+Irgendwas
+  mbid_track: null
+  mbid_artist: 52f2c49e-43c4-4716-bf4a-0eac1c651d3a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/881aa98d761528345abfc80f7ed45a70.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Queen's Pleasure
+  track: Day By Day
+  album: Stunt Double
+  played_at_utc: '2026-01-17T11:26:52Z'
+  lastfm_url: https://www.last.fm/music/Queen%27s+Pleasure/_/Day+By+Day
+  mbid_track: null
+  mbid_artist: 74b237f3-1ed6-4a49-bdd3-8346195ed326
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6c167e23fc06c0ebf8b2db0aa0c0dd04.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Witchcraft
+  track: A Sinner's Child
+  album: A Sinner's Child
+  played_at_utc: '2026-01-17T11:22:20Z'
+  lastfm_url: https://www.last.fm/music/Witchcraft/_/A+Sinner%27s+Child
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8c31f5a4d11199d4f536d78ea36f453b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Alter Bridge
+  track: Scales Are Falling
+  album: Alter Bridge
+  played_at_utc: '2026-01-17T11:16:26Z'
+  lastfm_url: https://www.last.fm/music/Alter+Bridge/_/Scales+Are+Falling
+  mbid_track: 2cf103a5-881e-44b3-8c83-8d09a3a2d2ec
+  mbid_artist: 60a23fda-a440-4ab9-a344-7dfdd2ed341a
+  mbid_album: c27886f7-267d-46b2-a4eb-e06242d4bfd9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a1203eaeec86bcd34820a0275f4a70d6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Viagra Boys
+  track: Cumboy
+  album: viagr aboys (Japanese Deluxe Edition)
+  played_at_utc: '2026-01-17T11:12:35Z'
+  lastfm_url: https://www.last.fm/music/Viagra+Boys/_/Cumboy
+  mbid_track: null
+  mbid_artist: 9df0c0ec-619e-447d-a155-23e19d9c84ce
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e13d3770f94ae5232e63f0258dfbc37d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jay Buchanan
+  track: True Black
+  album: True Black
+  played_at_utc: '2026-01-17T11:01:47Z'
+  lastfm_url: https://www.last.fm/music/Jay+Buchanan/_/True+Black
+  mbid_track: null
+  mbid_artist: 445e8605-7dad-4cf0-b216-3d912aad635e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Band of Horses
+  track: (Biding Time Is a) Boat to Row
+  album: (Biding Time Is a) Boat to Row
+  played_at_utc: '2026-01-17T10:58:27Z'
+  lastfm_url: https://www.last.fm/music/Band+of+Horses/_/(Biding+Time+Is+a)+Boat+to+Row
+  mbid_track: 0c2c7acc-5153-4ed5-aba1-687bf1deed27
+  mbid_artist: 07b6020a-c539-4d68-aeef-f159f3befc76
+  mbid_album: de2c2e2a-3c44-4426-94c9-d79c2f3bba92
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6b5dbee75c1677ee95df584f3f2e0cd5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Wormy
+  track: I Hate You
+  album: I Hate You
+  played_at_utc: '2026-01-17T10:55:31Z'
+  lastfm_url: https://www.last.fm/music/Wormy/_/I+Hate+You
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sleaford Mods
+  track: Elitest G.O.A.T.
+  album: Elitest G.O.A.T.
+  played_at_utc: '2026-01-17T10:52:06Z'
+  lastfm_url: https://www.last.fm/music/Sleaford+Mods/_/Elitest+G.O.A.T.
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 4393c728-2275-46c1-8f56-e0ad2b291ece
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aae32e3fd739c74435e2416a3cfc9a27.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 05: Was ist Schlaf? - Folge 4'
+  album: 'Folge 4: Was ist Schlaf?'
+  played_at_utc: '2026-01-17T10:43:19Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+05:+Was+ist+Schlaf%3F+-+Folge+4
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Outro: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:31:32Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Outro:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 16: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:27:49Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+16:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 15: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:24:39Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+15:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:23:25Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:17:31Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 13: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:14:28Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+13:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 12: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:10:47Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+12:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T10:06:53Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 13: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:41:29Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+13:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 12: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:38:22Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+12:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 11: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:35:22Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+11:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 10: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:30:57Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+10:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 09: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:27:55Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+09:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 08: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:24:22Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+08:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 07: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:21:13Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+07:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 06: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:18:09Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+06:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 05: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:15:07Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+05:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 04: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:07:51Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+04:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 03: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:04:15Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+03:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 02: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T09:01:13Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+02:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 01: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T08:58:07Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+01:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T08:56:28Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Intro: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T08:55:27Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Intro:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Intro: Die unsichtbare Kuppel - Folge 8'
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T08:54:48Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Intro:+Die+unsichtbare+Kuppel+-+Folge+8
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 8: Die unsichtbare Kuppel'
+  played_at_utc: '2026-01-17T08:51:17Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Outro
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:49:17Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Outro
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 16: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:44:13Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+16:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 15: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:41:11Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+15:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 14: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:38:03Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+14:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 13: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:34:59Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+13:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 12: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:31:56Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+12:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 11: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:28:52Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+11:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 10: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:25:48Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+10:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 09: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:22:47Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+09:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 08: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:19:44Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+08:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 07: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:16:40Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+07:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 06: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:13:32Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+06:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 05: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:10:30Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+05:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 04: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:07:20Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+04:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 03: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T08:04:18Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+03:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 02: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T07:53:54Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+02:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Kapitel 01: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T07:50:54Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Kapitel+01:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T07:49:18Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: Dark Maine Theme
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T07:46:40Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Dark+Maine+Theme
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dark Maine
+  track: 'Intro: Das Grauen in Hazen - Folge 7'
+  album: 'Folge 7: Das Grauen in Hazen'
+  played_at_utc: '2026-01-17T07:46:36Z'
+  lastfm_url: https://www.last.fm/music/Dark+Maine/_/Intro:+Das+Grauen+in+Hazen+-+Folge+7
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Dark Maine
   track: Dark Maine Outro
   album: 'Folge 6: Es lebt noch?'
