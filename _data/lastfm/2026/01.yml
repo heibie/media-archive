@@ -1,3 +1,387 @@
+- artist: Queen's Pleasure
+  track: The Devil
+  album: Stunt Double
+  played_at_utc: '2026-01-18T16:27:39Z'
+  lastfm_url: https://www.last.fm/music/Queen%27s+Pleasure/_/The+Devil
+  mbid_track: null
+  mbid_artist: 74b237f3-1ed6-4a49-bdd3-8346195ed326
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6c167e23fc06c0ebf8b2db0aa0c0dd04.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: Garbage
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T16:21:14Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/Garbage
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: You Got the Money
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T16:16:33Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/You+Got+the+Money
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: Erase Me
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T16:12:14Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/Erase+Me
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: Cutting Crew
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T16:09:19Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/Cutting+Crew
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: Heaven
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T16:01:38Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/Heaven
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: The Only One for Me
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T15:56:58Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/The+Only+One+for+Me
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: Love You All the Time
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T15:51:53Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/Love+You+All+the+Time
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Drug Stop
+  track: 57 Years
+  album: Love You All the Time
+  played_at_utc: '2026-01-18T15:46:44Z'
+  lastfm_url: https://www.last.fm/music/Drug+Stop/_/57+Years
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sorry
+  track: Echoes
+  album: COSPLAY
+  played_at_utc: '2026-01-18T15:39:56Z'
+  lastfm_url: https://www.last.fm/music/Sorry/_/Echoes
+  mbid_track: 868adf2a-ae09-4856-9538-4f3d7b270ac0
+  mbid_artist: 54d334a9-3ce4-4d51-8452-7e51c5c2ad11
+  mbid_album: 1a7099f1-67cb-466f-808e-1d1ce0567426
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fddf1a82cf28629c8050f67e5acacebc.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Golden Dregs
+  track: Linoleum
+  album: Godspeed
+  played_at_utc: '2026-01-18T15:36:21Z'
+  lastfm_url: https://www.last.fm/music/The+Golden+Dregs/_/Linoleum
+  mbid_track: null
+  mbid_artist: a7b01341-d18b-43a2-a8f4-534d4d9bce2c
+  mbid_album: b79b61eb-12f2-4e5c-ace2-380f0ce0e8b0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4f94065f0ec2326a884b903e9d79b1ef.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Wave Pictures
+  track: Alice
+  album: Alice
+  played_at_utc: '2026-01-18T15:32:26Z'
+  lastfm_url: https://www.last.fm/music/The+Wave+Pictures/_/Alice
+  mbid_track: null
+  mbid_artist: 48a0672b-7852-490f-ae3f-3d4324e510ee
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/76733f74815dfff3688fe4cecdbcf7ba.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Clockworks
+  track: Best Days
+  album: Best Days
+  played_at_utc: '2026-01-18T15:28:39Z'
+  lastfm_url: https://www.last.fm/music/The+Clockworks/_/Best+Days
+  mbid_track: null
+  mbid_artist: 51616baa-51db-41a0-8a2f-26a00d02ac0a
+  mbid_album: 92900a6f-1ab6-41a4-b2ce-af19f21cc3d8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/50a6538651fe36df08d709e51535c429.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Midlake
+  track: The Calling
+  album: A Bridge To Far
+  played_at_utc: '2026-01-18T15:25:32Z'
+  lastfm_url: https://www.last.fm/music/Midlake/_/The+Calling
+  mbid_track: 188eb1aa-30ad-461e-a96d-524bd4e57397
+  mbid_artist: da90b5da-349e-4906-a0b4-805f5e46190d
+  mbid_album: 4d2b8b78-4c1c-42ed-80b0-401614e834b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7ecde9e80bed0cf6d25c124feb487637.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sprints
+  track: Need
+  album: All That Is Over
+  played_at_utc: '2026-01-18T15:22:51Z'
+  lastfm_url: https://www.last.fm/music/Sprints/_/Need
+  mbid_track: 0bcc75a9-710e-4a08-9d6d-b7f236ad195c
+  mbid_artist: 256e0b36-88cb-453a-9ce4-7b73cb6b882f
+  mbid_album: ba7cca99-7ac1-4823-8ca7-9e53f606f7db
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06ea060609b755377175bebffa0ffb0d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Burning Hell
+  track: You'll Know It When It's Over
+  album: You'll Know It When It's Over
+  played_at_utc: '2026-01-18T15:18:36Z'
+  lastfm_url: https://www.last.fm/music/The+Burning+Hell/_/You%27ll+Know+It+When+It%27s+Over
+  mbid_track: null
+  mbid_artist: 4d55b744-b94d-44ef-bc99-15cd1cbe3cca
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cba416df918d011bab80ccbc9dda8430.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Lemonheads
+  track: Wild Thing
+  album: Love Chant
+  played_at_utc: '2026-01-18T15:15:41Z'
+  lastfm_url: https://www.last.fm/music/The+Lemonheads/_/Wild+Thing
+  mbid_track: afccefed-c6ad-48b1-91e6-9b7c67562955
+  mbid_artist: 58a53082-a629-4ff1-a44d-7492d6f6e8fb
+  mbid_album: 3c9f09e3-33ca-477d-b6d9-280f951f7a0e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/de3a1f7e7e50128d7de75c9cb725f5a3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Emma Pollock
+  track: Future Tree
+  album: Begging The Night To Take Hold
+  played_at_utc: '2026-01-18T15:11:59Z'
+  lastfm_url: https://www.last.fm/music/Emma+Pollock/_/Future+Tree
+  mbid_track: 30ac69d8-b332-4bc8-b439-8ab7d033bf95
+  mbid_artist: 8ace46fa-e460-4f42-b570-0b0ebd1bbbfb
+  mbid_album: 869a2050-8bc1-4e0d-88b2-772c2e0d3edd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/89c40cb3d9ed88c24559e02e45930dc2.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Wedding Present
+  track: Interceptor
+  album: Maxi EP
+  played_at_utc: '2026-01-18T15:08:30Z'
+  lastfm_url: https://www.last.fm/music/The+Wedding+Present/_/Interceptor
+  mbid_track: f25a0884-7767-42bd-ad64-a44fccf1b2fc
+  mbid_artist: 707622da-475f-48e1-905d-248718df6521
+  mbid_album: 0f8e7b3d-8ef7-45ca-8a4a-4574cdc994b4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/70971550f2aec050168afc95a29dc991.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Suede
+  track: Antidepressants
+  album: Antidepressants
+  played_at_utc: '2026-01-18T15:05:03Z'
+  lastfm_url: https://www.last.fm/music/Suede/_/Antidepressants
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 63ca7d4e-0853-4c67-a976-084956cc1d72
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f10a8cfb2559ea8b45692756b74591b7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Westside Cowboy
+  track: Don't Throw Rocks
+  album: Don't Throw Rocks
+  played_at_utc: '2026-01-18T15:02:00Z'
+  lastfm_url: https://www.last.fm/music/Westside+Cowboy/_/Don%27t+Throw+Rocks
+  mbid_track: a773fe94-b19a-4881-9848-8ec213ad5bd7
+  mbid_artist: 243e9a4d-f824-4ec2-8967-09907f954c56
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/85e9deda1ae9017073a7fd4f11b959bc.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ash
+  track: Ad Astra
+  album: Ad Astra
+  played_at_utc: '2026-01-18T14:56:45Z'
+  lastfm_url: https://www.last.fm/music/Ash/_/Ad+Astra
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 12da6d28-7eba-4cdf-8067-8552f6912706
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/010ca034cc41bf4485c4a7c6b4d095b8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Picture Parlour
+  track: Used To Be Your Girlfriend
+  album: The Parlour
+  played_at_utc: '2026-01-18T14:53:18Z'
+  lastfm_url: https://www.last.fm/music/Picture+Parlour/_/Used+To+Be+Your+Girlfriend
+  mbid_track: null
+  mbid_artist: f049adf5-ceb8-4466-970f-9c4ffac3caca
+  mbid_album: 9da21510-4bd3-4a81-9852-4117cb34b0cf
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1fccd676ab53d6ae9b90c869e5792e06.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Clockworks
+  track: Through The Looking Glass
+  album: Through The Looking Glass
+  played_at_utc: '2026-01-18T14:49:34Z'
+  lastfm_url: https://www.last.fm/music/The+Clockworks/_/Through+The+Looking+Glass
+  mbid_track: null
+  mbid_artist: 51616baa-51db-41a0-8a2f-26a00d02ac0a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8179ca23fb4c47bbef4cf9bba0e1dfd4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Afghan Whigs
+  track: Fake Like
+  album: Fake Like / Downtown
+  played_at_utc: '2026-01-18T14:44:37Z'
+  lastfm_url: https://www.last.fm/music/The+Afghan+Whigs/_/Fake+Like
+  mbid_track: 1d9d644a-7849-4c1c-93a6-3ab14dd3f3b6
+  mbid_artist: 2feb192c-2363-46d6-b476-1c88a25cb294
+  mbid_album: b2d36027-338b-45df-91d1-b5a4175a7542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/252ed1bb7faea41ac1021d6f88a67ff0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spiritual Cramp
+  track: You've Got My Number
+  album: RUDE
+  played_at_utc: '2026-01-18T14:40:44Z'
+  lastfm_url: https://www.last.fm/music/Spiritual+Cramp/_/You%27ve+Got+My+Number
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 8aa26c76-b86b-414f-b536-3535105d7e1e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cd4feec08e5f8e002c5421d0f8a4147d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Wreckless Eric
+  track: Lifeline
+  album: England Screaming
+  played_at_utc: '2026-01-18T14:36:52Z'
+  lastfm_url: https://www.last.fm/music/Wreckless+Eric/_/Lifeline
+  mbid_track: null
+  mbid_artist: b80f2162-c04e-400d-bc5f-124eacbd9fd2
+  mbid_album: 0552e8d6-b4d4-45cd-abb0-d731afeedcdc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/87c4bcbd8d589cf94b56e0baff22fcb6.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ed Harcourt
+  track: The Low Spirits
+  album: Orphic
+  played_at_utc: '2026-01-18T14:32:44Z'
+  lastfm_url: https://www.last.fm/music/Ed+Harcourt/_/The+Low+Spirits
+  mbid_track: null
+  mbid_artist: 0cda9358-1def-49aa-a0ff-10320f40522f
+  mbid_album: 347222d3-7a46-4296-b3f4-3222d378d9ae
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/05f6e941f1cd80faf0d22e3e0a7ab56f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Babyshambles
+  track: Dandy Hooligan
+  album: Dandy Hooligan
+  played_at_utc: '2026-01-18T14:29:58Z'
+  lastfm_url: https://www.last.fm/music/Babyshambles/_/Dandy+Hooligan
+  mbid_track: null
+  mbid_artist: 8e1e03fe-ebbc-467a-b541-857144db10fb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/69710b2ef3c14bf270dbaf8cc372962c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Midlake
+  track: The Ghouls
+  album: A Bridge To Far
+  played_at_utc: '2026-01-18T14:25:59Z'
+  lastfm_url: https://www.last.fm/music/Midlake/_/The+Ghouls
+  mbid_track: 49f901ae-42c4-471a-81f6-ea7d2a3f5045
+  mbid_artist: da90b5da-349e-4906-a0b4-805f5e46190d
+  mbid_album: 4d2b8b78-4c1c-42ed-80b0-401614e834b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7ecde9e80bed0cf6d25c124feb487637.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ezra Furman
+  track: One Hand Free
+  album: One Hand Free
+  played_at_utc: '2026-01-18T14:23:19Z'
+  lastfm_url: https://www.last.fm/music/Ezra+Furman/_/One+Hand+Free
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5986fa7f89f33647924652a7e922651e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Morrissey
+  track: make-uP is a liE
+  album: Make-up is a Lie
+  played_at_utc: '2026-01-17T16:29:56Z'
+  lastfm_url: https://www.last.fm/music/Morrissey/_/make-uP+is+a+liE
+  mbid_track: 5e77a748-7dbc-43bd-be26-ad69c2121334
+  mbid_artist: 013fa897-86db-41d3-8e9f-386c8a34f4e6
+  mbid_album: 21d06f10-0576-4aa2-8c08-31a146269423
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04675a520747a12fd6751383a909966a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Father John Misty
   track: The Old Law
   album: The Old Law
