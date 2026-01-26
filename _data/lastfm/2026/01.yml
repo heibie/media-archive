@@ -1,3 +1,39 @@
+- artist: PLOSIVS
+  track: Metacine
+  album: YELL AT CLOUD
+  played_at_utc: '2026-01-25T16:52:41Z'
+  lastfm_url: https://www.last.fm/music/PLOSIVS/_/Metacine
+  mbid_track: 7fb00115-e1fa-46b8-aaf5-04f3ca0dabe5
+  mbid_artist: null
+  mbid_album: 0858d252-9529-439a-9c57-84e9dfe66876
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8351db9b62fcab72d543c1d553139802.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: PLOSIVS
+  track: Falls Equivalency
+  album: YELL AT CLOUD
+  played_at_utc: '2026-01-25T16:48:54Z'
+  lastfm_url: https://www.last.fm/music/PLOSIVS/_/Falls+Equivalency
+  mbid_track: 38700cb6-c088-4955-af6e-8a28df390221
+  mbid_artist: null
+  mbid_album: 0858d252-9529-439a-9c57-84e9dfe66876
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8351db9b62fcab72d543c1d553139802.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: PLOSIVS
+  track: Death Kicks In
+  album: YELL AT CLOUD
+  played_at_utc: '2026-01-25T16:44:10Z'
+  lastfm_url: https://www.last.fm/music/PLOSIVS/_/Death+Kicks+In
+  mbid_track: 46de0d77-239f-4348-9dff-a52e94666c14
+  mbid_artist: null
+  mbid_album: 0858d252-9529-439a-9c57-84e9dfe66876
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8351db9b62fcab72d543c1d553139802.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Flea
   track: Traffic Lights (feat. Thom Yorke)
   album: Traffic Lights (feat. Thom Yorke)
