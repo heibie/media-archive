@@ -1,0 +1,48 @@
+- artist: Bruce Springsteen
+  track: Streets of Minneapolis
+  album: Streets of Minneapolis
+  played_at_utc: '2026-02-02T12:53:12Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Streets+of+Minneapolis
+  mbid_track: bf7f4840-9f53-4302-8a7b-437378ab981e
+  mbid_artist: 70248960-cb53-4ea4-943a-edb18f7d336f
+  mbid_album: 134911db-ad77-4109-a48c-72f5455c17e1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc74d35673a2719d74956e8087ef5c22.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Franz Ferdinand
+  track: U Should Not Be Doing That - triple j Like A Version
+  album: U Should Not Be Doing That (triple j Like A Version)
+  played_at_utc: '2026-02-02T12:49:49Z'
+  lastfm_url: https://www.last.fm/music/Franz+Ferdinand/_/U+Should+Not+Be+Doing+That+-+triple+j+Like+A+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 0b72d74e-ecb5-46c9-9368-35ccdd0112c4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/33b5fdf09b329c635869bc9a86fcc7bc.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Coach Party
+  track: Nurse Depression
+  album: Nurse Depression
+  played_at_utc: '2026-02-02T12:47:43Z'
+  lastfm_url: https://www.last.fm/music/Coach+Party/_/Nurse+Depression
+  mbid_track: null
+  mbid_artist: ec44206a-c3cc-419d-9ef9-08971c1297dd
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6ef43e58fd24fcc8577be165aef0ab56.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Valter Nilsson
+  track: Lukas, Dennis och Farsan
+  album: Lukas, Dennis och Farsan
+  played_at_utc: '2026-02-02T12:43:59Z'
+  lastfm_url: https://www.last.fm/music/Valter+Nilsson/_/Lukas,+Dennis+och+Farsan
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm

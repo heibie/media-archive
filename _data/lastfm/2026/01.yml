@@ -1,4 +1,16 @@
 - artist: Social Distortion
+  track: Down on the World Again
+  album: White Light White Heat White Trash
+  played_at_utc: '2026-01-30T22:45:02Z'
+  lastfm_url: https://www.last.fm/music/Social+Distortion/_/Down+on+the+World+Again
+  mbid_track: a6e1a107-d58b-4074-ab95-3802de925e36
+  mbid_artist: e1e05cce-3922-44e1-8f20-015abe5e309d
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cb1c72430f36e18831a75c96eccab16b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Social Distortion
   track: Through These Eyes
   album: White Light White Heat White Trash
   played_at_utc: '2026-01-30T15:27:30Z'
