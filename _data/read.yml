@@ -1,9 +1,13 @@
 - typ: buch
   status: want to read
+  isbn: '9783492073820'
+  eingetragen_am: '2026-02-06'
+- typ: buch
+  status: want to read
   titel: Thanatopia
   autor:
   - Tom Hillenbrand
-  isbn: '3-462-00872-2'
+  isbn: 3-462-00872-2
   cover: https://buch.isbn.de/cover/9783462008722.webp
   verlag: Kiepenheuer & Witsch
   erscheinungsjahr: '2025'
@@ -14,7 +18,7 @@
   titel: Montecrypto
   autor:
   - Tom Hillenbrand
-  isbn: '3-462-05465-1'
+  isbn: 3-462-05465-1
   cover: https://buch.isbn.de/cover/9783462054651.webp
   verlag: Kiepenheuer & Witsch
   erscheinungsjahr: '2022'
@@ -25,7 +29,7 @@
   titel: Qube
   autor:
   - Tom Hillenbrand
-  isbn: '3-462-05440-6'
+  isbn: 3-462-05440-6
   cover: https://buch.isbn.de/cover/9783462054408.webp
   verlag: Kiepenheuer & Witsch
   erscheinungsjahr: '2020'
@@ -36,7 +40,7 @@
   titel: Lieferdienst
   autor:
   - Tom Hillenbrand
-  isbn: '3-462-00621-5'
+  isbn: 3-462-00621-5
   cover: https://buch.isbn.de/cover/9783462006216.webp
   verlag: Kiepenheuer & Witsch
   erscheinungsjahr: '2024'
