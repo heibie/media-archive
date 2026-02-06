@@ -1,6 +1,10 @@
 - typ: buch
+  titel: Mehr Emotionen wagen
   status: want to read
-  isbn: '9783492073820'
+  isbn: 3-492-07382-4
+  cover: https://buch.isbn.de/cover/9783492073820.webp
+  autor:
+  - Johannes Hillje
   eingetragen_am: '2026-02-06'
 - typ: buch
   status: want to read
