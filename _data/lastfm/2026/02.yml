@@ -1,3 +1,783 @@
+- artist: Florence Arman
+  track: Yummy Yummy Heartache
+  album: Yummy Yummy Heartache
+  played_at_utc: '2026-02-08T07:38:50Z'
+  lastfm_url: https://www.last.fm/music/Florence+Arman/_/Yummy+Yummy+Heartache
+  mbid_track: null
+  mbid_artist: b22e87af-fd22-4e38-b49c-797dec152da1
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ff5edaf45b26a3cd5d3359eb12eab94d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tove Styrke
+  track: Prayer - edit for the impatient
+  album: Prayer
+  played_at_utc: '2026-02-08T07:35:08Z'
+  lastfm_url: https://www.last.fm/music/Tove+Styrke/_/Prayer+-+edit+for+the+impatient
+  mbid_track: b415ea08-2388-4ab4-9fe7-005a4ad3d3ba
+  mbid_artist: 4c5ff1ac-dce8-4815-90f9-232c5ea8d262
+  mbid_album: 22a2707c-5955-476f-ab3a-d11ebe8bc5d3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fdf76d713c142a22acfc4f92791ffadb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Gorillaz
+  track: Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)
+  album: Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)
+  played_at_utc: '2026-02-08T07:31:39Z'
+  lastfm_url: https://www.last.fm/music/Gorillaz/_/Orange+County+(feat.+Bizarrap,+Kara+Jackson+and+Anoushka+Shankar)
+  mbid_track: 1f0768d1-b066-4b49-9161-532aaf41f329
+  mbid_artist: e21857d5-3256-4547-afb3-4b6ded592596
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e28f80d8efad641abf519bbb6d505219.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Loose Goose
+  track: holding on
+  album: holding on
+  played_at_utc: '2026-02-08T07:27:41Z'
+  lastfm_url: https://www.last.fm/music/Loose+Goose/_/holding+on
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/791f668a86ad4e1662fbbc394babd2f8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Harry Styles
+  track: Aperture
+  album: Aperture
+  played_at_utc: '2026-02-08T07:22:29Z'
+  lastfm_url: https://www.last.fm/music/Harry+Styles/_/Aperture
+  mbid_track: 2b1c66e1-4023-4294-813a-9d7d921bffbc
+  mbid_artist: 7eb1ce54-a355-41f9-8d68-e018b096d427
+  mbid_album: ea522835-1107-4706-ad33-b566ffc87f1c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fd4cd1ae266ce2b4a99c8fd8345a9997.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Voodoo Jürgens
+  track: Vaschwindn
+  album: Vaschwindn
+  played_at_utc: '2026-02-08T07:18:53Z'
+  lastfm_url: https://www.last.fm/music/Voodoo+J%C3%BCrgens/_/Vaschwindn
+  mbid_track: null
+  mbid_artist: e0675fe9-0288-45cd-a7aa-ba5941a8a052
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3a461cb4896b347ce58d964c7b1a23c4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: superweak
+  track: Sunny All The Time
+  album: Sunny All The Time
+  played_at_utc: '2026-02-08T07:16:56Z'
+  lastfm_url: https://www.last.fm/music/superweak/_/Sunny+All+The+Time
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: CHURRO64
+  track: Wiener Tauben
+  album: Wiener Tauben
+  played_at_utc: '2026-02-08T07:13:58Z'
+  lastfm_url: https://www.last.fm/music/CHURRO64/_/Wiener+Tauben
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kevin Cool
+  track: Raus aus meinem Kopf
+  album: Raus aus meinem Kopf
+  played_at_utc: '2026-02-08T07:11:40Z'
+  lastfm_url: https://www.last.fm/music/Kevin+Cool/_/Raus+aus+meinem+Kopf
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Harvey Brittain
+  track: can't say no
+  album: can't say no
+  played_at_utc: '2026-02-08T07:08:49Z'
+  lastfm_url: https://www.last.fm/music/Harvey+Brittain/_/can%27t+say+no
+  mbid_track: null
+  mbid_artist: 0199e833-c720-4146-9676-1875bbbbf3a2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5105fba40f3096e69001693bf7d9ba11.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Rawayana
+  track: Se Vienen Cositas
+  album: ¿Dónde Es El After?
+  played_at_utc: '2026-02-08T07:06:09Z'
+  lastfm_url: https://www.last.fm/music/Rawayana/_/Se+Vienen+Cositas
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/322aa19ed97a4872cc195598584ebb59.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kali Uchis
+  track: Muévelo
+  album: Muévelo
+  played_at_utc: '2026-02-08T07:04:01Z'
+  lastfm_url: https://www.last.fm/music/Kali+Uchis/_/Mu%C3%A9velo
+  mbid_track: 53e6db43-caf0-47b5-b286-cb51295b296d
+  mbid_artist: d0c7656d-8169-4f77-9dbe-b8f24e40105d
+  mbid_album: e2cf29e2-04e7-4c47-a101-ea8b97c478db
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/54eae14d34fe7f1c66a1334be3adb239.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Magda
+  track: 2 Versager
+  album: 2 Versager
+  played_at_utc: '2026-02-08T07:00:13Z'
+  lastfm_url: https://www.last.fm/music/Magda/_/2+Versager
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/62b8eb9dba1e206c677491c3c79c585e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A$AP Rocky
+  track: Punk Rocky
+  album: PUNK ROCKY
+  played_at_utc: '2026-02-08T06:56:17Z'
+  lastfm_url: https://www.last.fm/music/A$AP+Rocky/_/Punk+Rocky
+  mbid_track: 4f120766-a704-4abe-a643-a48f52e9fa34
+  mbid_artist: 25b7b584-d952-4662-a8b9-dd8cdfbfeb64
+  mbid_album: a62f293a-6066-4249-b263-682484f77542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c3b52304df8f2af52743c56ebaf992a5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dove Ellis
+  track: Heaven Has No Wings
+  album: Blizzard
+  played_at_utc: '2026-02-08T06:53:27Z'
+  lastfm_url: https://www.last.fm/music/Dove+Ellis/_/Heaven+Has+No+Wings
+  mbid_track: c4c04f71-72e3-4e40-832c-aa09ee09d4c9
+  mbid_artist: 08c7863c-715d-475d-b726-2cc925f151e1
+  mbid_album: 54c160c8-927a-4480-939a-1bf0a8a34922
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0fa05e77dd827dcbba7f221b57358900.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Oli P.
+  track: Flugzeuge im Bauch - Radio Mix
+  album: Mein Tag
+  played_at_utc: '2026-02-08T00:18:14Z'
+  lastfm_url: https://www.last.fm/music/Oli+P./_/Flugzeuge+im+Bauch+-+Radio+Mix
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: f231c6e4-8f98-4f57-98b3-68adff51f085
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/44bf0a028e605b217f5a7fb6f8e57f24.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Destiny's Child
+  track: Say My Name
+  album: The Writing's on the Wall
+  played_at_utc: '2026-02-07T23:15:18Z'
+  lastfm_url: https://www.last.fm/music/Destiny%27s+Child/_/Say+My+Name
+  mbid_track: null
+  mbid_artist: a796b92e-c137-4895-9c89-10f900617a4f
+  mbid_album: 04350c11-83ee-34f7-a962-a17ef07a8d1c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/899f15f13fc0ae2da311fc369d8ae28a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jermaine Jackson
+  track: When The Rain Begins To Fall
+  album: Greatest Hits
+  played_at_utc: '2026-02-07T23:10:41Z'
+  lastfm_url: https://www.last.fm/music/Jermaine+Jackson/_/When+The+Rain+Begins+To+Fall
+  mbid_track: c32e3e80-3174-41af-ba8e-40654a0863a7
+  mbid_artist: ccbdc2ab-1055-44d5-8417-a6b4898bf91b
+  mbid_album: c0fa64af-cc6a-48c0-a8f2-e4bd790dc18f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0537cee7b83a408fc0960942b2594009.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Faithless
+  track: Insomnia - Radio edit
+  album: Pure... 90s Dance Party
+  played_at_utc: '2026-02-07T23:06:45Z'
+  lastfm_url: https://www.last.fm/music/Faithless/_/Insomnia+-+Radio+edit
+  mbid_track: 81b0f061-344f-4322-9f71-8cdd75890b82
+  mbid_artist: 23d9d74d-c95e-46a6-be26-a6075c49747a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f3f0848325fb316e5749cb3f73ed631c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Milli Vanilli
+  track: Blame It On The Rain
+  album: The Best of Milli Vanilli (35th Anniversary)
+  played_at_utc: '2026-02-07T23:04:20Z'
+  lastfm_url: https://www.last.fm/music/Milli+Vanilli/_/Blame+It+On+The+Rain
+  mbid_track: a76ce7e0-1fe6-4f05-8596-fe3422a5d43c
+  mbid_artist: d3d83a98-4a2e-433c-903c-5b4c79ccb42e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/197fd223b4142c7792dc84583f268702.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Pointer Sisters
+  track: I'm So Excited
+  album: Best Of
+  played_at_utc: '2026-02-07T22:58:53Z'
+  lastfm_url: https://www.last.fm/music/The+Pointer+Sisters/_/I%27m+So+Excited
+  mbid_track: ee78d615-08ac-4313-8a27-809fad544f53
+  mbid_artist: 81bac815-97c5-4723-8f0b-4d8edfad1010
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ee7f501dbd6748e691e98d5d484e5e50.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kenny Loggins
+  track: Footloose - From "Footloose" Soundtrack
+  album: The Essential Kenny Loggins
+  played_at_utc: '2026-02-07T22:55:03Z'
+  lastfm_url: https://www.last.fm/music/Kenny+Loggins/_/Footloose+-+From+%22Footloose%22+Soundtrack
+  mbid_track: 384f304d-5539-4cbf-920b-cfa8e69f795e
+  mbid_artist: 15042d2b-2d4c-4451-a96a-6f547642de13
+  mbid_album: 247e438e-6212-4519-ac4c-bb2a9cdba697
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7e6865e280914047bdb062878af7fa49.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mario
+  track: Let Me Love You
+  album: Let me love you
+  played_at_utc: '2026-02-07T22:51:18Z'
+  lastfm_url: https://www.last.fm/music/Mario/_/Let+Me+Love+You
+  mbid_track: null
+  mbid_artist: f236134b-7ebb-4ba8-b155-1791193d05ec
+  mbid_album: 149358d8-366e-4112-a339-f5a4d3456122
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5d4971ae4f96944b391e806eeeed5d1c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Falco
+  track: Der Kommissar
+  album: Einzelhaft
+  played_at_utc: '2026-02-07T22:47:27Z'
+  lastfm_url: https://www.last.fm/music/Falco/_/Der+Kommissar
+  mbid_track: null
+  mbid_artist: 509f800b-7345-434f-933b-ce2f36565045
+  mbid_album: 133d50d1-dd85-484c-bab1-205bbefdcbcd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2b16d97d31682896f56b042ec91b702b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Münchener Freiheit
+  track: Ohne Dich (schlaf' ich heut Nacht nicht ein)
+  album: Von Anfang An
+  played_at_utc: '2026-02-07T22:45:18Z'
+  lastfm_url: https://www.last.fm/music/M%C3%BCnchener+Freiheit/_/Ohne+Dich+(schlaf%27+ich+heut+Nacht+nicht+ein)
+  mbid_track: 17c69756-aef9-48cd-8f4c-8be7841f3db2
+  mbid_artist: 4d0491a7-4812-47ba-8282-03b1f9fda3f9
+  mbid_album: 5721e47e-a760-4b61-84b4-b6f672c4ea33
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bf64851b2bc49de8a1e3c82670e5bb5b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Eurythmics
+  track: Here Comes the Rain Again
+  album: Touch (Reissue - Deluxe Edition)
+  played_at_utc: '2026-02-07T22:39:02Z'
+  lastfm_url: https://www.last.fm/music/Eurythmics/_/Here+Comes+the+Rain+Again
+  mbid_track: null
+  mbid_artist: b4d32cff-f19e-455f-86c4-f347d824ca61
+  mbid_album: 8e708e32-fd7a-473f-a2f3-d10446d66b8e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0ed229b1460d79fbf07a64438b71621a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Milli Vanilli
+  track: I'm Gonna Miss You
+  album: All or Nothing
+  played_at_utc: '2026-02-07T22:34:27Z'
+  lastfm_url: https://www.last.fm/music/Milli+Vanilli/_/I%27m+Gonna+Miss+You
+  mbid_track: df9bac80-db7a-49f3-b6ee-ff85efd6d2c0
+  mbid_artist: d3d83a98-4a2e-433c-903c-5b4c79ccb42e
+  mbid_album: 2bee334d-137c-4961-b67a-d6e7de916bce
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4bb72a6aa9276fd7c9aad5fe8029a120.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kris Kross
+  track: Jump
+  album: Totally Krossed Out
+  played_at_utc: '2026-02-07T22:31:33Z'
+  lastfm_url: https://www.last.fm/music/Kris+Kross/_/Jump
+  mbid_track: 79f0027f-8407-44f2-9ae2-4627abffca8d
+  mbid_artist: bf61e8ff-7621-4655-8ebd-68210645c5e9
+  mbid_album: 089d74d9-9cbc-40c2-b808-bd5ffe74097a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c554901e45cf8038ae85764c7fb24a21.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: No Mercy
+  track: Where Do You Go
+  album: My Promise
+  played_at_utc: '2026-02-07T22:26:52Z'
+  lastfm_url: https://www.last.fm/music/No+Mercy/_/Where+Do+You+Go
+  mbid_track: 69e3324b-80b7-4f62-aa46-f15669dfe4f0
+  mbid_artist: null
+  mbid_album: 75f44f25-6828-4b76-82af-bdf1f7fa9942
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/60f89d6fe151fc5680085d0963935149.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Backstreet Boys
+  track: Larger Than Life
+  album: Millennium
+  played_at_utc: '2026-02-07T22:22:19Z'
+  lastfm_url: https://www.last.fm/music/Backstreet+Boys/_/Larger+Than+Life
+  mbid_track: null
+  mbid_artist: 2f569e60-0a1b-4fb9-95a4-3dc1525d1aad
+  mbid_album: 0e99eb7b-0083-4053-81ab-b9ee0207bf1c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be7d9be5645e1a7d64f51579401e48c7.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: C+C Music Factory
+  track: Gonna Make you Sweat (Everybody Dance Now) (feat. Freedom Williams)
+  album: Super Hits
+  played_at_utc: '2026-02-07T22:21:02Z'
+  lastfm_url: https://www.last.fm/music/C%252BC+Music+Factory/_/Gonna+Make+you+Sweat+(Everybody+Dance+Now)+(feat.+Freedom+Williams)
+  mbid_track: null
+  mbid_artist: c9d4f63d-6c2c-47ae-84fe-819001e3d3ea
+  mbid_album: 09d9567c-754e-4532-a024-85adef8486b2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4de0eac02e2e45be98ebf9de2fac5b92.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mr. Mister
+  track: Broken Wings
+  album: Welcome to the Real World
+  played_at_utc: '2026-02-07T22:14:23Z'
+  lastfm_url: https://www.last.fm/music/Mr.+Mister/_/Broken+Wings
+  mbid_track: 8134a72c-30c7-43c4-9c0d-0d478ec77377
+  mbid_artist: 5c01e170-1302-4e75-a10c-d9e440b0c68f
+  mbid_album: 11f88687-83e1-4f32-9574-231eeb23f97e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3c0436b9ab8f4765a304d19b11ec853b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Pointer Sisters
+  track: I'm So Excited
+  album: So Excited! (Expanded Edition)
+  played_at_utc: '2026-02-07T22:08:39Z'
+  lastfm_url: https://www.last.fm/music/The+Pointer+Sisters/_/I%27m+So+Excited
+  mbid_track: ee78d615-08ac-4313-8a27-809fad544f53
+  mbid_artist: 81bac815-97c5-4723-8f0b-4d8edfad1010
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7d3336b8fd94c901a69c883098bbd59a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Spin Doctors
+  track: Two Princes
+  album: Pocket Full of Kryptonite
+  played_at_utc: '2026-02-07T22:05:12Z'
+  lastfm_url: https://www.last.fm/music/Spin+Doctors/_/Two+Princes
+  mbid_track: 2502cdab-395a-4a62-9d18-b523dcd6e8d6
+  mbid_artist: 1bcb61f3-ca9c-4a26-b16e-0547ad6c21be
+  mbid_album: 18597359-f2a9-44d8-81aa-9fb2f4395f69
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7aa4584f650e61b5052da08e6596f375.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Alice Cooper
+  track: Poison
+  album: Trash
+  played_at_utc: '2026-02-07T22:00:33Z'
+  lastfm_url: https://www.last.fm/music/Alice+Cooper/_/Poison
+  mbid_track: 738aa5a0-149a-43dc-b232-8a988f94ff56
+  mbid_artist: ee58c59f-8e7f-4430-b8ca-236c4d3745ae
+  mbid_album: 095f8e81-3896-4260-b4d0-369aa8f5972b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/87e7a85ab7fe4cecb5f497a4c09895f9.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fugees
+  track: Ready or Not
+  album: The Score (Expanded Edition)
+  played_at_utc: '2026-02-07T21:56:14Z'
+  lastfm_url: https://www.last.fm/music/Fugees/_/Ready+or+Not
+  mbid_track: 425e839c-d9df-4fb0-93f0-e924538c828f
+  mbid_artist: ea321799-9b1d-4e74-a074-a5facf597d82
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2dad0579f6e98d76be9211f8c56221b8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Will Smith
+  track: Gettin' Jiggy Wit It
+  album: Big Willie Style
+  played_at_utc: '2026-02-07T21:52:42Z'
+  lastfm_url: https://www.last.fm/music/Will+Smith/_/Gettin%27+Jiggy+Wit+It
+  mbid_track: 62d6efde-cc90-4c40-ac56-37036e5101ea
+  mbid_artist: 5bae7081-64ef-4473-825a-38d310deb14c
+  mbid_album: 6499bee5-b119-302c-a57f-720530376f93
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c5e60cbf2be0a2e734045efedf453d4b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Michael Jackson
+  track: Smooth Criminal - 2012 Remaster
+  album: Bad 25th Anniversary
+  played_at_utc: '2026-02-07T21:48:28Z'
+  lastfm_url: https://www.last.fm/music/Michael+Jackson/_/Smooth+Criminal+-+2012+Remaster
+  mbid_track: null
+  mbid_artist: f27ec8db-af05-4f36-916e-3d57f91ecf5e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3a1224fa5a5735a9a0f92391c4bda67c.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Europe
+  track: The Final Countdown
+  album: The Final Countdown (Expanded Edition)
+  played_at_utc: '2026-02-07T21:45:45Z'
+  lastfm_url: https://www.last.fm/music/Europe/_/The+Final+Countdown
+  mbid_track: 5f67d050-d4a7-408e-ac72-64415e1cb349
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5f0527b4a5b2186d2b4e71cef2661864.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Toto
+  track: Rosanna
+  album: Toto IV
+  played_at_utc: '2026-02-07T21:38:59Z'
+  lastfm_url: https://www.last.fm/music/Toto/_/Rosanna
+  mbid_track: 7abe7d3a-88ed-4f35-97a0-b3c6ec22dbee
+  mbid_artist: null
+  mbid_album: 05cd5bb6-83bc-486c-99ec-a36494891a7a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/862779ab445949bac9067a3cd472c34b.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bruce Springsteen
+  track: Born in the U.S.A.
+  album: Born in the U.S.A.
+  played_at_utc: '2026-02-07T21:33:40Z'
+  lastfm_url: https://www.last.fm/music/Bruce+Springsteen/_/Born+in+the+U.S.A.
+  mbid_track: 5e012b04-9db1-4460-b4f5-a0748ba2deb3
+  mbid_artist: 70248960-cb53-4ea4-943a-edb18f7d336f
+  mbid_album: 01dfa267-9c84-4411-a2da-ea27cc0eb317
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/03426c63f1f44b53cb6ea5745ec08cda.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Boney M.
+  track: Daddy Cool
+  album: Take the Heat Off Me
+  played_at_utc: '2026-02-07T21:29:17Z'
+  lastfm_url: https://www.last.fm/music/Boney+M./_/Daddy+Cool
+  mbid_track: null
+  mbid_artist: 5403bf6e-bc1d-4e62-b31f-926a2bf66a14
+  mbid_album: 002a65d3-ab21-4fdd-adbf-ca6d5f39033a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0df592bf9044acd3b27de696ad82ce97.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Earth, Wind & Fire
+  track: Let's Groove
+  album: Raise!
+  played_at_utc: '2026-02-07T21:26:28Z'
+  lastfm_url: https://www.last.fm/music/Earth,+Wind+&+Fire/_/Let%27s+Groove
+  mbid_track: null
+  mbid_artist: 535afeda-2538-435d-9dd1-5e10be586774
+  mbid_album: 3af81e08-26b9-40ee-ac98-bcd26de9366a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5d7a3a251ad9f84113bc1693b4debd8b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Modern Talking
+  track: Cheri Cheri Lady
+  album: Let's Talk About Love
+  played_at_utc: '2026-02-07T21:19:40Z'
+  lastfm_url: https://www.last.fm/music/Modern+Talking/_/Cheri+Cheri+Lady
+  mbid_track: null
+  mbid_artist: 98913495-8867-43b3-aa8d-db88ee4d4cdc
+  mbid_album: 329d46cc-6c45-418c-9017-1099dfc7e487
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7b31a29d08d4457bc524f0c0b7886bae.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Depeche Mode
+  track: Enjoy the Silence
+  album: The Singles 86-98
+  played_at_utc: '2026-02-07T21:16:17Z'
+  lastfm_url: https://www.last.fm/music/Depeche+Mode/_/Enjoy+the+Silence
+  mbid_track: null
+  mbid_artist: 8538e728-ca0b-4321-b7e5-cff6565dd4c0
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0a3b990e7b81447f8dd919219eadba08.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Marvin Gaye
+  track: Sexual Healing
+  album: Midnight Love
+  played_at_utc: '2026-02-07T21:13:35Z'
+  lastfm_url: https://www.last.fm/music/Marvin+Gaye/_/Sexual+Healing
+  mbid_track: 3725fe95-1860-4f1f-97d0-58cc8517cc8b
+  mbid_artist: afdb7919-059d-43c1-b668-ba1d265e7e42
+  mbid_album: 1ef440f0-7e08-4047-9c04-b6e8c40848ec
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3332d8741b0f8af8c31ab1f550de49b3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Modern Talking
+  track: Brother Louie
+  album: Ready for Romance
+  played_at_utc: '2026-02-07T21:07:41Z'
+  lastfm_url: https://www.last.fm/music/Modern+Talking/_/Brother+Louie
+  mbid_track: null
+  mbid_artist: 98913495-8867-43b3-aa8d-db88ee4d4cdc
+  mbid_album: 3e06903d-7aa9-4fc0-a0bc-8137532301e4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b94c58cc33813d23f6bcc4bd7a0ed1ae.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Michael Jackson
+  track: Beat It
+  album: Thriller 25 Super Deluxe Edition
+  played_at_utc: '2026-02-07T21:03:58Z'
+  lastfm_url: https://www.last.fm/music/Michael+Jackson/_/Beat+It
+  mbid_track: null
+  mbid_artist: f27ec8db-af05-4f36-916e-3d57f91ecf5e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6e2894e4edba9f42ee448670a59fc12e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: George Michael
+  track: Faith - Remastered
+  album: Faith
+  played_at_utc: '2026-02-07T21:00:42Z'
+  lastfm_url: https://www.last.fm/music/George+Michael/_/Faith+-+Remastered
+  mbid_track: 1d759640-bec3-49b6-a1ec-4990468966c6
+  mbid_artist: ccb8f30e-4d71-40c4-8b1d-846dafe73e2c
+  mbid_album: 17ff24d8-7718-4995-a32d-95c2147f1fd6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7885185e8359393791e964aae85bea56.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Backstreet Boys
+  track: I Want It That Way
+  album: Millennium
+  played_at_utc: '2026-02-07T20:59:17Z'
+  lastfm_url: https://www.last.fm/music/Backstreet+Boys/_/I+Want+It+That+Way
+  mbid_track: 6ba37486-df35-4c74-8ca0-b75e13edc153
+  mbid_artist: 2f569e60-0a1b-4fb9-95a4-3dc1525d1aad
+  mbid_album: 0e99eb7b-0083-4053-81ab-b9ee0207bf1c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/be7d9be5645e1a7d64f51579401e48c7.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: TLC
+  track: Waterfalls
+  album: CrazySexyCool
+  played_at_utc: '2026-02-07T20:52:53Z'
+  lastfm_url: https://www.last.fm/music/TLC/_/Waterfalls
+  mbid_track: 7a7d08a3-c815-4b35-ac5f-dea3322a0a4c
+  mbid_artist: 99790314-885a-4975-8614-9c5bc890364d
+  mbid_album: 0bb14a88-2952-4bd2-9fde-fde555429435
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8c40db78a7dc87ea1a984638f4bf0fc8.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Billy Joel
+  track: We Didn't Start the Fire
+  album: Storm Front
+  played_at_utc: '2026-02-07T20:48:22Z'
+  lastfm_url: https://www.last.fm/music/Billy+Joel/_/We+Didn%27t+Start+the+Fire
+  mbid_track: null
+  mbid_artist: 64b94289-9474-4d43-8c93-918ccc1920d1
+  mbid_album: 00bbf072-3177-49c0-8662-8bc88d0cb1d0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6a0581da482a7a6b2b637554babc65a0.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: AC/DC
+  track: Highway to Hell
+  album: Highway to Hell
+  played_at_utc: '2026-02-07T20:43:25Z'
+  lastfm_url: https://www.last.fm/music/AC%2FDC/_/Highway+to+Hell
+  mbid_track: null
+  mbid_artist: 66c662b6-6e2f-4930-8610-912e24c63ed1
+  mbid_album: 40509197-a063-4b3b-90fd-ab4785d16a06
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7af8e0ab43294405c42eb95480f25c9a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kenny Loggins
+  track: Danger Zone - From "Top Gun" Original Soundtrack
+  album: Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins
+  played_at_utc: '2026-02-07T20:39:55Z'
+  lastfm_url: https://www.last.fm/music/Kenny+Loggins/_/Danger+Zone+-+From+%22Top+Gun%22+Original+Soundtrack
+  mbid_track: e283f084-4ca9-4b8e-9952-f9ad366830f7
+  mbid_artist: 15042d2b-2d4c-4451-a96a-6f547642de13
+  mbid_album: 2626a2f1-9f5f-49d5-ace5-da3429fd7b67
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e21195c46da6ffbccb631a202c712d23.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Survivor
+  track: Eye of the Tiger
+  album: Eye of the Tiger
+  played_at_utc: '2026-02-07T20:37:54Z'
+  lastfm_url: https://www.last.fm/music/Survivor/_/Eye+of+the+Tiger
+  mbid_track: 25da6d6f-5960-4176-b7c5-885b0b9edfcf
+  mbid_artist: null
+  mbid_album: 06a88da7-45e9-498e-b355-225eabc8ec78
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bd8bb33ea532bf4acba6fc8dcc33d90f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cyndi Lauper
+  track: Time After Time
+  album: She's So Unusual
+  played_at_utc: '2026-02-07T20:33:05Z'
+  lastfm_url: https://www.last.fm/music/Cyndi+Lauper/_/Time+After+Time
+  mbid_track: 21469b75-c37a-4458-80df-d3c058ff1118
+  mbid_artist: 7bd9e20e-74b9-446a-a2ed-a223f82a36e7
+  mbid_album: 163ff3f1-f05c-40f6-9d7a-daacd156f07e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ae70a7d166f5d47c6a7954f581cc8f9a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Pointer Sisters
+  track: Jump (Original Mix)
+  album: Break Out (1983 Version - Expanded Edition)
+  played_at_utc: '2026-02-07T20:31:05Z'
+  lastfm_url: https://www.last.fm/music/The+Pointer+Sisters/_/Jump+(Original+Mix)
+  mbid_track: da0adfc4-feff-362e-8062-8227f155a92a
+  mbid_artist: 81bac815-97c5-4723-8f0b-4d8edfad1010
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8de1cee5d6dafae57f79c24109faab49.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Daryl Hall & John Oates
+  track: Maneater
+  album: H2O
+  played_at_utc: '2026-02-07T20:23:49Z'
+  lastfm_url: https://www.last.fm/music/Daryl+Hall+&+John+Oates/_/Maneater
+  mbid_track: 510dbb32-2077-4a5b-9e99-4c422339c60e
+  mbid_artist: debabff3-2559-46e5-862d-ef2a906d7010
+  mbid_album: a7e21bab-3ad4-45be-b960-3c28a39dbb85
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/71c645a18e79e2029306e15c49c6a8d1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Weather Girls
+  track: It's Raining Men
+  album: 80s 100 Hits
+  played_at_utc: '2026-02-07T20:19:14Z'
+  lastfm_url: https://www.last.fm/music/The+Weather+Girls/_/It%27s+Raining+Men
+  mbid_track: null
+  mbid_artist: 8bc23f36-2d1e-45c5-ad47-69e402b0923a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/992626603b217559a14315ab5b550bd3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Will Smith
+  track: Miami
+  album: Big Willie Style
+  played_at_utc: '2026-02-07T20:15:47Z'
+  lastfm_url: https://www.last.fm/music/Will+Smith/_/Miami
+  mbid_track: bc55b7a8-8d4f-43a4-b9b7-f6c99333e5da
+  mbid_artist: 5bae7081-64ef-4473-825a-38d310deb14c
+  mbid_album: 6499bee5-b119-302c-a57f-720530376f93
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/c5e60cbf2be0a2e734045efedf453d4b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Toto
+  track: Hold the Line
+  album: Toto
+  played_at_utc: '2026-02-07T20:12:32Z'
+  lastfm_url: https://www.last.fm/music/Toto/_/Hold+the+Line
+  mbid_track: c92952e2-2f32-4f9b-ac97-95079aed6f5e
+  mbid_artist: null
+  mbid_album: 03a71341-184a-4423-8dc4-6cce8f195b3d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b2e03c46d53a332f96a01bd3cb5c1236.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Survivor
+  track: Eye of the Tiger
+  album: Rocky IV
+  played_at_utc: '2026-02-07T20:08:29Z'
+  lastfm_url: https://www.last.fm/music/Survivor/_/Eye+of+the+Tiger
+  mbid_track: 25da6d6f-5960-4176-b7c5-885b0b9edfcf
+  mbid_artist: null
+  mbid_album: 17aa025c-45d1-4589-8616-d0949767b5b0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5d8325e724069cd69ab09b3765dd7f3f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bonnie Tyler
+  track: Total Eclipse of the Heart
+  album: The Very Best of Bonnie Tyler
+  played_at_utc: '2026-02-07T20:04:37Z'
+  lastfm_url: https://www.last.fm/music/Bonnie+Tyler/_/Total+Eclipse+of+the+Heart
+  mbid_track: 5b024839-6b94-4a85-b8cb-2ebd0006819c
+  mbid_artist: 0aa8294b-6332-4b65-b677-e3a1f8591d3b
+  mbid_album: 0d544848-7db2-4e87-8007-27757c55c6b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e311f1b9d5dde38b6457327f07b70068.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: TLC
+  track: No Scrubs
+  album: FanMail
+  played_at_utc: '2026-02-07T19:59:58Z'
+  lastfm_url: https://www.last.fm/music/TLC/_/No+Scrubs
+  mbid_track: b5e410ff-3438-469b-89ea-405329e5b1bd
+  mbid_artist: 99790314-885a-4975-8614-9c5bc890364d
+  mbid_album: 058129f1-b546-4d5c-9db3-7d79641ac041
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/64ac16438c3244b1b55a8368d77aca4f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Michael Jackson
+  track: Billie Jean
+  album: Thriller
+  played_at_utc: '2026-02-07T19:56:22Z'
+  lastfm_url: https://www.last.fm/music/Michael+Jackson/_/Billie+Jean
+  mbid_track: null
+  mbid_artist: f27ec8db-af05-4f36-916e-3d57f91ecf5e
+  mbid_album: 009a9e97-0097-3fa8-ac85-3d67d6d5e06e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a6a876bd5f927ac2ca5b72a4826f62c7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Getdown Services
   track: Dog Dribble
   album: Dog Dribble
