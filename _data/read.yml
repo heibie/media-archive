@@ -1,4 +1,15 @@
 - typ: buch
+  status: want to read
+  titel: Unsichtbare Wohnraum
+  autor:
+  - Daniel Fuhrhop
+  isbn: '9783839469002'
+  cover: https://covers.openlibrary.org/b/isbn/9783839469002-L.jpg
+  verlag: Transcript Verlag
+  erscheinungsjahr: '2023'
+  seiten: 290
+  eingetragen_am: '2026-02-17'
+- typ: buch
   titel: Mehr Emotionen wagen
   status: want to read
   isbn: 3-492-07382-4
