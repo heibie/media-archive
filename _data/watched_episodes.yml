@@ -1,3 +1,45 @@
+- show: High Potential
+  year: 2024
+  season: 2
+  episode: 9
+  plays: 1
+  watched_on: '2026-02-28'
+  trakt_show: 205414
+  tvdb: 434988
+  imdb: tt22091076
+  tmdb: 226637
+  slug: high-potential
+  source: trakt
+  show_title_de: High Potential
+  show_poster: https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/ijRiyqrXUzrF77INhtzvSS6V6qG.jpg
+  show_total_episodes: 31
+  episode_title: Under the Rug
+  episode_title_de: Verdeckte Ermittlungen
+  episode_runtime: 41
+  season_total_episodes: 18
+  episode_still: https://image.tmdb.org/t/p/w300/3LRsYv00Njtc1XOfkOFMVf4FMaq.jpg
+- show: High Potential
+  year: 2024
+  season: 2
+  episode: 8
+  plays: 1
+  watched_on: '2026-02-28'
+  trakt_show: 205414
+  tvdb: 434988
+  imdb: tt22091076
+  tmdb: 226637
+  slug: high-potential
+  source: trakt
+  show_title_de: High Potential
+  show_poster: https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/ijRiyqrXUzrF77INhtzvSS6V6qG.jpg
+  show_total_episodes: 31
+  episode_title: The One That Got Away (2)
+  episode_title_de: Der Dieb, der nicht geschnappt werden konnte (2)
+  episode_runtime: 42
+  season_total_episodes: 18
+  episode_still: https://image.tmdb.org/t/p/w300/67RT4YYwV2hRcdB1Tvy3d7o9XER.jpg
 - show: Welke & Pastewka - Wiedersehen macht Freude
   year: 2023
   season: 3
