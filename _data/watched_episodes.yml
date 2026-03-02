@@ -1,6 +1,27 @@
 - show: High Potential
   year: 2024
   season: 2
+  episode: 10
+  plays: 1
+  watched_on: '2026-03-01'
+  trakt_show: 205414
+  tvdb: 434988
+  imdb: tt22091076
+  tmdb: 226637
+  slug: high-potential
+  source: trakt
+  show_title_de: High Potential
+  show_poster: https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/ijRiyqrXUzrF77INhtzvSS6V6qG.jpg
+  show_total_episodes: 31
+  episode_title: Grounded
+  episode_title_de: Im freien Fall
+  episode_runtime: 43
+  season_total_episodes: 18
+  episode_still: https://image.tmdb.org/t/p/w300/9Qno4R5dPIN4gc138f58d0iR11t.jpg
+- show: High Potential
+  year: 2024
+  season: 2
   episode: 9
   plays: 1
   watched_on: '2026-02-28'
