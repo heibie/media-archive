@@ -1,3 +1,24 @@
+- show: Young Sherlock
+  year: 2026
+  season: 1
+  episode: 1
+  plays: 1
+  watched_on: '2026-03-07'
+  trakt_show: 242387
+  tvdb: 450633
+  imdb: tt8599532
+  tmdb: 255661
+  slug: young-sherlock-2026
+  source: trakt
+  show_title_de: Young Sherlock
+  show_poster: https://image.tmdb.org/t/p/w500/BMBWTgvL41sOYtfkmXen6nm9mG.jpg
+  show_backdrop: https://image.tmdb.org/t/p/w780/8mmDLb108DoFZlE8sfc64TRqLvm.jpg
+  show_total_episodes: 8
+  episode_title: The Case of the Missing Scrolls
+  episode_title_de: Der Fall der verschwundenen Schriftrollen
+  episode_runtime: 54
+  season_total_episodes: 8
+  episode_still: https://image.tmdb.org/t/p/w300/zilQxwuXqt7UOE6whgWyh5vHYY5.jpg
 - show: Space Rangers
   year: 1993
   season: 1
