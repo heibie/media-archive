@@ -1,3 +1,39 @@
+- artist: Jesper Lindell
+  track: Respect Yourself
+  album: 3614 Jackson Highway
+  played_at_utc: '2026-03-06T15:05:33Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Respect+Yourself
+  mbid_track: null
+  mbid_artist: d2e3af9b-ad1b-4951-bce2-3be8e2cccece
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/83f07a4388b87abba5ca872d6bbaa1ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesper Lindell
+  track: Respect Yourself
+  album: 3614 Jackson Highway
+  played_at_utc: '2026-03-06T13:02:51Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Respect+Yourself
+  mbid_track: null
+  mbid_artist: d2e3af9b-ad1b-4951-bce2-3be8e2cccece
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/83f07a4388b87abba5ca872d6bbaa1ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angel Du$t
+  track: The Beat
+  album: Cold 2 The Touch
+  played_at_utc: '2026-03-06T11:44:43Z'
+  lastfm_url: https://www.last.fm/music/Angel+Du$t/_/The+Beat
+  mbid_track: 02014336-799d-406f-b06b-beb4aea2336c
+  mbid_artist: 36c8b01c-cd8b-4ecd-b3fd-9f4f73371d2b
+  mbid_album: 4d63eeee-0bef-43b2-ab12-c52d65535698
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b91c92082cdc731e7b94a71b2b3dddac.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Angel Du$t
   track: The Knife
   album: Cold 2 The Touch
