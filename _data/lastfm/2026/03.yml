@@ -1,3 +1,111 @@
+- artist: Kreator
+  track: Combatants
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:23:00Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Combatants
+  mbid_track: 0e5cd6ac-8234-4033-9f2b-0a1ee430e115
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Blood of Our Blood
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:17:56Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Blood+of+Our+Blood
+  mbid_track: 7580364d-3157-45ca-b215-bf944a51bf04
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Barbarian
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:13:09Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Barbarian
+  mbid_track: 454d7b51-ba30-446f-a1d2-645b0e2cba1c
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Tränenpalast
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:08:26Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Tr%C3%A4nenpalast
+  mbid_track: 45d5fd09-76bd-40df-a414-3f5fedf68095
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Krushers of the World
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:04:05Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Krushers+of+the+World
+  mbid_track: 22f91cbb-a26d-49be-b77d-cac280481fef
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Satanic Anarchy
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T05:00:32Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Satanic+Anarchy
+  mbid_track: a9b63a29-fcf3-43d9-82bd-c4131974f7bd
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kreator
+  track: Seven Serpents
+  album: Krushers Of The World
+  played_at_utc: '2026-03-10T04:55:54Z'
+  lastfm_url: https://www.last.fm/music/Kreator/_/Seven+Serpents
+  mbid_track: b895ffc8-1c84-46bc-8502-6c884031e4f6
+  mbid_artist: 39822e8d-f24e-4f07-b51b-28b22e59fbdb
+  mbid_album: 892bb6f6-1e9a-4505-8e92-fd978b89df5d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a17afd76f03a8928bc600e1a96f34f4c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Metallica
+  track: Master of Puppets
+  album: Master Of Puppets (Remastered)
+  played_at_utc: '2026-03-10T04:44:34Z'
+  lastfm_url: https://www.last.fm/music/Metallica/_/Master+of+Puppets
+  mbid_track: null
+  mbid_artist: 65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/19f7a4a414703b4b483e8034dc1460fb.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesper Lindell
+  track: Respect Yourself
+  album: 3614 Jackson Highway
+  played_at_utc: '2026-03-09T16:26:21Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Respect+Yourself
+  mbid_track: null
+  mbid_artist: d2e3af9b-ad1b-4951-bce2-3be8e2cccece
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/83f07a4388b87abba5ca872d6bbaa1ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Metallica
   track: Disposable Heroes
   album: Master Of Puppets (Remastered)
