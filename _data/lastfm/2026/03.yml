@@ -1,4 +1,124 @@
 - artist: FJØRT
+  track: '22:30'
+  album: belle époque
+  played_at_utc: '2026-03-12T05:18:11Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/22:30
+  mbid_track: null
+  mbid_artist: bcb478f4-dbf9-4bc8-823e-bec7986d652b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: danse
+  album: belle époque
+  played_at_utc: '2026-03-12T05:14:31Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/danse
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: rott
+  album: belle époque
+  played_at_utc: '2026-03-12T05:10:54Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/rott
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: mir
+  album: belle époque
+  played_at_utc: '2026-03-12T05:00:47Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/mir
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: kalie
+  album: belle époque
+  played_at_utc: '2026-03-12T04:56:41Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/kalie
+  mbid_track: null
+  mbid_artist: bcb478f4-dbf9-4bc8-823e-bec7986d652b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: '''43'
+  album: belle époque
+  played_at_utc: '2026-03-12T04:52:52Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/%2743
+  mbid_track: e08cce4d-4e60-4c34-9eb4-1266e9ad1b9f
+  mbid_artist: bcb478f4-dbf9-4bc8-823e-bec7986d652b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: hertz
+  album: belle époque
+  played_at_utc: '2026-03-12T04:49:49Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/hertz
+  mbid_track: null
+  mbid_artist: bcb478f4-dbf9-4bc8-823e-bec7986d652b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: messer
+  album: belle époque
+  played_at_utc: '2026-03-12T04:42:23Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/messer
+  mbid_track: 082a292a-70b5-44d1-bd2f-e405e0a3f893
+  mbid_artist: bcb478f4-dbf9-4bc8-823e-bec7986d652b
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Frank Turner
+  track: Nashville Tennessee - Live 2006
+  album: Nashville Tennessee
+  played_at_utc: '2026-03-12T04:40:34Z'
+  lastfm_url: https://www.last.fm/music/Frank+Turner/_/Nashville+Tennessee+-+Live+2006
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b24855a020083e8610f02a655924ec92.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
+  track: rott
+  album: belle époque
+  played_at_utc: '2026-03-11T22:44:03Z'
+  lastfm_url: https://www.last.fm/music/FJ%C3%98RT/_/rott
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/8fa2eed3d5a4a7253e71e27ce27f5644.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: FJØRT
   track: ær
   album: belle époque
   played_at_utc: '2026-03-11T21:53:32Z'
