@@ -1,3 +1,171 @@
+- artist: Madsen
+  track: '1995'
+  album: '1995'
+  played_at_utc: '2026-03-20T14:39:53Z'
+  lastfm_url: https://www.last.fm/music/Madsen/_/1995
+  mbid_track: null
+  mbid_artist: 8a0c3b86-af55-42d2-85b9-6372e7430986
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: All Them Witches
+  track: Starting Line
+  album: Starting Line
+  played_at_utc: '2026-03-20T14:36:01Z'
+  lastfm_url: https://www.last.fm/music/All+Them+Witches/_/Starting+Line
+  mbid_track: b30f2ac8-9fda-4e3a-8339-bfe8c0e40520
+  mbid_artist: b574bfea-2359-4e9d-93f6-71c3c9a2a4f0
+  mbid_album: 63ef24db-a5a7-48a6-b68e-c4d8eeb4281e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dc5cd056a5e1f3c905afcab7ec0d200c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Morrissey
+  track: you're right, it's tiME
+  album: Make-up is a Lie
+  played_at_utc: '2026-03-20T14:32:13Z'
+  lastfm_url: https://www.last.fm/music/Morrissey/_/you%27re+right,+it%27s+tiME
+  mbid_track: c750aa26-87ba-407c-b2bd-a01f814431f5
+  mbid_artist: 013fa897-86db-41d3-8e9f-386c8a34f4e6
+  mbid_album: 1b166475-11d2-410f-aaf2-b65e402a316a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04675a520747a12fd6751383a909966a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: CoDefendants
+  track: Lonely Life
+  album: Lonely Life
+  played_at_utc: '2026-03-20T14:29:30Z'
+  lastfm_url: https://www.last.fm/music/CoDefendants/_/Lonely+Life
+  mbid_track: 2707cc78-0cf7-47c1-a63e-8658555fa41f
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1f1ad23c8a71aa34acc8694e70d8c936.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sprints
+  track: Trickle Down
+  album: Trickle Down
+  played_at_utc: '2026-03-20T14:26:42Z'
+  lastfm_url: https://www.last.fm/music/Sprints/_/Trickle+Down
+  mbid_track: 00ef63af-f839-489f-9745-3f5ae7d48b74
+  mbid_artist: 256e0b36-88cb-453a-9ce4-7b73cb6b882f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/26f77b91330646b6e17ee9b9dc968abd.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Death of the High street
+  track: The Age Of Bronze
+  album: The Age of Bronze
+  played_at_utc: '2026-03-20T14:23:23Z'
+  lastfm_url: https://www.last.fm/music/Death+of+the+High+street/_/The+Age+Of+Bronze
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: H-Blockx
+  track: LAST_SUMMER
+  album: FILLIN_THE_BLANK
+  played_at_utc: '2026-03-20T14:20:00Z'
+  lastfm_url: https://www.last.fm/music/H-Blockx/_/LAST_SUMMER
+  mbid_track: 322db8cd-1df8-490d-8d93-1961cc0084fa
+  mbid_artist: 36b7da58-858c-44e2-b3bd-d2e88bf02f7c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/0332b3f88cc8c84fd31f5d0099b765b8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jesper Lindell
+  track: Heavy Makes You Happy
+  album: 3614 Jackson Highway
+  played_at_utc: '2026-03-20T14:16:31Z'
+  lastfm_url: https://www.last.fm/music/Jesper+Lindell/_/Heavy+Makes+You+Happy
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/83f07a4388b87abba5ca872d6bbaa1ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Silver Lines
+  album: News from Planet Zombie
+  played_at_utc: '2026-03-20T14:13:13Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Silver+Lines
+  mbid_track: cb458016-76c2-4974-8939-f16c6b525c4b
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Death Cab for Cutie
+  track: Riptides
+  album: Riptides
+  played_at_utc: '2026-03-20T14:09:56Z'
+  lastfm_url: https://www.last.fm/music/Death+Cab+for+Cutie/_/Riptides
+  mbid_track: 9147e7fe-8e47-4091-b58b-fc3da51e8164
+  mbid_artist: 0039c7ae-e1a7-4a7d-9b49-0cbc716821a6
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/877767a2a7cc302aa6d506fbd328d4c5.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dave Hause
+  track: Suture Self
+  album: Suture Self
+  played_at_utc: '2026-03-20T14:07:11Z'
+  lastfm_url: https://www.last.fm/music/Dave+Hause/_/Suture+Self
+  mbid_track: fa4a86e9-6459-42f5-ae70-ad3468c4d2ea
+  mbid_artist: feb265ec-e510-4277-9451-914e3c6ceac5
+  mbid_album: f240c927-9df1-4683-84ff-83d467e22338
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aerosmith
+  track: Joined At The Hip - Aerojam
+  album: Aerosmith
+  played_at_utc: '2026-03-20T14:01:30Z'
+  lastfm_url: https://www.last.fm/music/Aerosmith/_/Joined+At+The+Hip+-+Aerojam
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 1ed345f1-cc97-46a0-b6a0-6fa4de5b3067
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b8312163dbe33d694881bae9676b9fbe.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Screamin' Jay Hawkins
+  track: I Put a Spell on You
+  album: At Home With Screamin' Jay Hawkins
+  played_at_utc: '2026-03-20T13:59:39Z'
+  lastfm_url: https://www.last.fm/music/Screamin%27+Jay+Hawkins/_/I+Put+a+Spell+on+You
+  mbid_track: c8e6b0e2-ba98-4b05-ba4b-f7b9dfe897f1
+  mbid_artist: 185af318-55c7-405f-8b00-0fa308e56da9
+  mbid_album: 030f3b78-c69c-4440-bd8d-31baa8d5aa86
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bb70ba6c12cd4259c225c03c0c821a79.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Archive
+  track: Broken Bits
+  album: Glass Minds
+  played_at_utc: '2026-03-18T14:01:32Z'
+  lastfm_url: https://www.last.fm/music/Archive/_/Broken+Bits
+  mbid_track: a4e8dd92-5e6b-4904-92f3-f571445cca9b
+  mbid_artist: dc111aa9-74e3-4e8d-bc9c-3bcfce6e5335
+  mbid_album: 715bbb5d-ffb3-4e36-a6eb-0bea4481b05c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b8d6f23c7afc9c2ec9b1ccd75d1f88c3.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Morrissey
   track: you're right, it's tiME
   album: Make-up is a Lie
