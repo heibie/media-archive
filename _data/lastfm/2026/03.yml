@@ -1,3 +1,99 @@
+- artist: Billie Eilish
+  track: WILDFLOWER
+  album: HIT ME HARD AND SOFT
+  played_at_utc: '2026-03-23T20:42:47Z'
+  lastfm_url: https://www.last.fm/music/Billie+Eilish/_/WILDFLOWER
+  mbid_track: 5afa33bb-83f6-42c6-b789-8bfa34c48b50
+  mbid_artist: f4abc0b5-3f7a-4eff-8f78-ac078dbce533
+  mbid_album: 43869ac5-c515-41a4-8ce1-d4a0c67e30c1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6db576307ee7bdd81056432542b6bab7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Lana Del Rey
+  track: Cinnamon Girl
+  album: Norman Fucking Rockwell!
+  played_at_utc: '2026-03-23T20:37:46Z'
+  lastfm_url: https://www.last.fm/music/Lana+Del+Rey/_/Cinnamon+Girl
+  mbid_track: 111b16ec-fbe7-45b8-9587-64f6cfef8598
+  mbid_artist: b7539c32-53e7-4908-bda3-81449c367da6
+  mbid_album: 08674cb6-f3a6-4898-90da-773e5ef42fc1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ab9ed65c5b337129f6b50ca5894d7319.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sienna Spiro
+  track: Die On This Hill
+  album: Die On This Hill
+  played_at_utc: '2026-03-23T20:34:08Z'
+  lastfm_url: https://www.last.fm/music/Sienna+Spiro/_/Die+On+This+Hill
+  mbid_track: 277e6d7a-1c4c-4d5f-9c19-1da1f359b6c9
+  mbid_artist: ea696191-407a-4bf2-8302-7e05f6c163c5
+  mbid_album: cbba1a1a-8c7d-43be-81c5-0ea8f0b0dfc9
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/baa33cefe09af2192c009d23795a6336.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Tate McRae
+  track: you broke me first
+  album: TOO YOUNG TO BE SAD
+  played_at_utc: '2026-03-23T20:31:17Z'
+  lastfm_url: https://www.last.fm/music/Tate+McRae/_/you+broke+me+first
+  mbid_track: 4737fc8c-1acf-446e-b8c4-b6cd33b9a581
+  mbid_artist: f9133869-f87c-459c-9aa7-2f176cda7e06
+  mbid_album: c018a36b-3f9f-4133-9208-09c93d7d07c4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1377dbe9f8f6da6299fc552e25a19084.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Olivia Rodrigo
+  track: traitor
+  album: SOUR
+  played_at_utc: '2026-03-23T20:27:28Z'
+  lastfm_url: https://www.last.fm/music/Olivia+Rodrigo/_/traitor
+  mbid_track: b0554059-21b3-416e-b62d-99e13608f6bf
+  mbid_artist: 6925db17-f35e-42f3-a4eb-84ee6bf5d4b0
+  mbid_album: 0151befb-0adf-4b0c-a142-4af36c3c3cd0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9da8add22ca31771a440d2a6f7615f6d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Adele
+  track: Easy on Me
+  album: Easy on Me
+  played_at_utc: '2026-03-22T15:31:34Z'
+  lastfm_url: https://www.last.fm/music/Adele/_/Easy+on+Me
+  mbid_track: 327f17da-5416-4ba6-90a4-ff4e4cf068c7
+  mbid_artist: null
+  mbid_album: 294f7b84-6115-4f94-bf86-e7dd1f238807
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/41539845592a25bd5017303a661d110a.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Stevie Wonder
+  track: Happy Birthday
+  album: The Definitive Collection (Deluxe Edition)
+  played_at_utc: '2026-03-22T12:13:24Z'
+  lastfm_url: https://www.last.fm/music/Stevie+Wonder/_/Happy+Birthday
+  mbid_track: 05552bbe-8703-3d58-861b-30dd62a2890f
+  mbid_artist: 1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7aad036892961c53fa054ad863444add.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kevin Morby
+  track: Die Young
+  album: Die Young
+  played_at_utc: '2026-03-21T16:33:58Z'
+  lastfm_url: https://www.last.fm/music/Kevin+Morby/_/Die+Young
+  mbid_track: 1931aafc-71ee-4425-83f9-2dfbba88404b
+  mbid_artist: eac962e1-0295-4e69-a266-4dab2adb4f11
+  mbid_album: d663d7f9-1d3f-4ae9-8c1f-dd9c787d5133
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cc97d108793d965152c26858e3546ead.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: The Orielles
   track: The Woodland Has Returned
   album: Only You Left
