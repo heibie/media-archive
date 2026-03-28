@@ -1,3 +1,99 @@
+- artist: The Lemon Twigs
+  track: I've Got a Broken Heart
+  album: I've Got a Broken Heart
+  played_at_utc: '2026-03-27T07:56:28Z'
+  lastfm_url: https://www.last.fm/music/The+Lemon+Twigs/_/I%27ve+Got+a+Broken+Heart
+  mbid_track: 097508a9-f8ee-49fd-b908-59df7e169543
+  mbid_artist: f32d94e8-8d55-4ee2-9077-53d1c024a03b
+  mbid_album: d15a2929-9f84-4b61-8755-a5b07f3fa436
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ce9abf9556e078eaea9bd46ec137b2d0.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Green Day
+  track: Waiting - Otis Mix
+  album: Warning (25th Anniversary Deluxe Edition)
+  played_at_utc: '2026-03-27T07:53:06Z'
+  lastfm_url: https://www.last.fm/music/Green+Day/_/Waiting+-+Otis+Mix
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e9fc3dec6f96582a2ea18fb386b74693.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Viagra Boys
+  track: Therapy II
+  album: viagr aboys (Japanese Deluxe Edition)
+  played_at_utc: '2026-03-27T07:50:27Z'
+  lastfm_url: https://www.last.fm/music/Viagra+Boys/_/Therapy+II
+  mbid_track: null
+  mbid_artist: 9df0c0ec-619e-447d-a155-23e19d9c84ce
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e13d3770f94ae5232e63f0258dfbc37d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sam Fender
+  track: The Treadmill
+  album: People Watching (Deluxe Edition)
+  played_at_utc: '2026-03-27T07:47:03Z'
+  lastfm_url: https://www.last.fm/music/Sam+Fender/_/The+Treadmill
+  mbid_track: null
+  mbid_artist: 3478a5d1-bd96-4584-aa54-4d6e0a329658
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/555e541083ecf2a580c50191397176ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Wet Leg
+  track: mangetout
+  album: moisturizer
+  played_at_utc: '2026-03-27T07:43:39Z'
+  lastfm_url: https://www.last.fm/music/Wet+Leg/_/mangetout
+  mbid_track: dc1dc582-d8d5-4a6c-84b6-7e5680b8c890
+  mbid_artist: 90744b3e-363a-458e-8da1-e3e392a489c4
+  mbid_album: 9509d2d8-986f-4b67-8b2e-4768fa4cbef7
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7156c05ac1f14050eb2160d8ef9d7cc8.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ecca Vandal
+  track: MOLLY
+  album: MOLLY
+  played_at_utc: '2026-03-27T07:39:06Z'
+  lastfm_url: https://www.last.fm/music/Ecca+Vandal/_/MOLLY
+  mbid_track: 86d6fb7f-5773-45b0-a290-a51ab8497f60
+  mbid_artist: 6b4e962d-3dbc-4bda-82f0-25d35786f076
+  mbid_album: 49b7030c-adfb-429d-bc49-0cef3f6334f8
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/04f00e036779f2cf611a54c9d2398801.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Afghan Whigs
+  track: Fake Like
+  album: Fake Like / Downtown
+  played_at_utc: '2026-03-27T07:34:48Z'
+  lastfm_url: https://www.last.fm/music/The+Afghan+Whigs/_/Fake+Like
+  mbid_track: 682e8458-958f-4888-b9a1-b80c96e6aab7
+  mbid_artist: 2feb192c-2363-46d6-b476-1c88a25cb294
+  mbid_album: b2d36027-338b-45df-91d1-b5a4175a7542
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/91afdc5c8a47742317eacfe2de66addc.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Been Stellar
+  track: Always On My Mind
+  album: Always On My Mind
+  played_at_utc: '2026-03-26T16:16:09Z'
+  lastfm_url: https://www.last.fm/music/Been+Stellar/_/Always+On+My+Mind
+  mbid_track: 4df1aef4-337b-489e-9dfa-861aec028bb7
+  mbid_artist: 446be579-19bf-42ff-b858-f0e47638ffe6
+  mbid_album: 8bc16bb1-b27d-4836-b9cf-932912d0931e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/868422badfc419a9f3163c62125d89f3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: The Beths
   track: Take
   album: Straight Line Was A Lie
