@@ -1,3 +1,63 @@
+- artist: Elvis Presley
+  track: Don't Be Cruel
+  album: Elvis' Golden Records
+  played_at_utc: '2026-04-06T17:19:49Z'
+  lastfm_url: https://www.last.fm/music/Elvis+Presley/_/Don%27t+Be+Cruel
+  mbid_track: adf36b2a-4329-4cdc-b4f4-11c052953ec7
+  mbid_artist: 01809552-4f87-45b0-afff-2c6f0730a3be
+  mbid_album: 16dbe2f4-9982-334a-80c2-bb0384875a65
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9d5e324551a94f600d8c60a90f99cab2.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sam Cooke
+  track: (What A) Wonderful World - Mono
+  album: The Wonderful World of Sam Cooke
+  played_at_utc: '2026-04-06T16:51:36Z'
+  lastfm_url: https://www.last.fm/music/Sam+Cooke/_/(What+A)+Wonderful+World+-+Mono
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 01f86bd4-914c-46ff-8d27-3a2864d0c75a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/33e0a6c3f12cb39bbae4d6a4ee7cc08d.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Max Giesinger
+  track: 80 Millionen
+  album: Der Junge, der rennt (Deluxe Version)
+  played_at_utc: '2026-04-06T16:47:26Z'
+  lastfm_url: https://www.last.fm/music/Max+Giesinger/_/80+Millionen
+  mbid_track: 78795d51-7dec-4095-ab38-61e490f02d59
+  mbid_artist: b6b5e4fd-c455-48c1-b384-d7362ac2e3d2
+  mbid_album: 3d4d8b16-78d9-4283-989e-0afd8e3d583c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b4cf4b2f409430771dfd366d898422dd.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Percy Sledge
+  track: When a Man Loves a Woman - Mono
+  album: When A Man Loves A Woman (Mono)
+  played_at_utc: '2026-04-06T16:42:46Z'
+  lastfm_url: https://www.last.fm/music/Percy+Sledge/_/When+a+Man+Loves+a+Woman+-+Mono
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bfc993001805ad4c28aad442045d9d74.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Scratch
+  track: Mother of God
+  album: Pull Like a Dog
+  played_at_utc: '2026-04-03T18:19:25Z'
+  lastfm_url: https://www.last.fm/music/The+Scratch/_/Mother+of+God
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1b2fbe3dd2d208896deffa82a421a045.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: The Lemon Twigs
   track: I Just Can't Get Over Losing You
   album: I Just Can't Get Over Losing You
