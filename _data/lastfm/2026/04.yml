@@ -1,3 +1,123 @@
+- artist: blink-182
+  track: I Miss You
+  album: blink-182
+  played_at_utc: '2026-04-14T04:12:26Z'
+  lastfm_url: https://www.last.fm/music/blink-182/_/I+Miss+You
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: a661a067-9abc-4372-a8c1-f2dccc449801
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/66f1cec75fe04b7c869712c55fd24528.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Papa Roach
+  track: Last Resort
+  album: Infest
+  played_at_utc: '2026-04-14T04:09:07Z'
+  lastfm_url: https://www.last.fm/music/Papa+Roach/_/Last+Resort
+  mbid_track: null
+  mbid_artist: c5eb9407-caeb-4303-b383-6929aa94021c
+  mbid_album: 03bb5a9e-0fe8-410d-b235-a99fc02be102
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/76d326bffab39dd6f19dbd06bb8042b4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Linkin Park
+  track: What I've Done
+  album: Minutes to Midnight
+  played_at_utc: '2026-04-14T04:04:00Z'
+  lastfm_url: https://www.last.fm/music/Linkin+Park/_/What+I%27ve+Done
+  mbid_track: null
+  mbid_artist: f59c5520-5f46-4d2c-b2c4-822eabf53419
+  mbid_album: 012514b5-dc0f-4418-b67a-c6a8d3af4096
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/185a38ca7368d2c9ad9cb9ea95ae05f4.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: System of a Down
+  track: Chop Suey!
+  album: Toxicity
+  played_at_utc: '2026-04-14T04:00:16Z'
+  lastfm_url: https://www.last.fm/music/System+of+a+Down/_/Chop+Suey!
+  mbid_track: 04ffab9f-1782-4b7f-a8b9-f0799a7f8c2e
+  mbid_artist: cc0b7089-c08d-4c10-b6b0-873582c17fd6
+  mbid_album: 03bfb2be-bb2e-3252-ae04-ed15e2c333c6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/faa79372c53139010902e67938ccf78e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jimmy Eat World
+  track: The Middle
+  album: Bleed American
+  played_at_utc: '2026-04-14T03:57:14Z'
+  lastfm_url: https://www.last.fm/music/Jimmy+Eat+World/_/The+Middle
+  mbid_track: null
+  mbid_artist: bbc5b66b-d037-4f26-aecf-0b129e7f876a
+  mbid_album: 10a4bf38-d84b-4f87-9c9c-d93183b675e4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5f6bed4795106f6a5ace9295accf4493.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Muse
+  track: Uprising
+  album: The Resistance
+  played_at_utc: '2026-04-14T03:52:10Z'
+  lastfm_url: https://www.last.fm/music/Muse/_/Uprising
+  mbid_track: 03869c3c-d55c-4b8f-8ac1-84720e12ef7f
+  mbid_artist: 9c9f1380-2516-4fc9-a3e6-f9f61941d090
+  mbid_album: 0928fb22-a17c-4600-8cd8-f96de0de049b
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/dd4c95317aaa3537dbf0a8dc4d9c7d79.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Red Hot Chili Peppers
+  track: Can't Stop
+  album: By the Way (Deluxe Edition)
+  played_at_utc: '2026-04-14T03:47:02Z'
+  lastfm_url: https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Can%27t+Stop
+  mbid_track: null
+  mbid_artist: 8bfac288-ccc5-448d-9573-c33ea2aa5c30
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7021709e21bbaf5f397f8ca16fa24b61.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Green Day
+  track: Boulevard of Broken Dreams
+  album: 'Greatest Hits: God''s Favorite Band'
+  played_at_utc: '2026-04-14T03:42:30Z'
+  lastfm_url: https://www.last.fm/music/Green+Day/_/Boulevard+of+Broken+Dreams
+  mbid_track: 67f8fb08-cb83-469c-a083-86b98a157a9a
+  mbid_artist: 084308bd-1654-436f-ba03-df6697104e19
+  mbid_album: 2baaf63a-34be-413a-9b04-b285b72eaa9d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ad57a01c5412465723b47664ab80a7b8.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Linkin Park
+  track: Numb
+  album: Meteora
+  played_at_utc: '2026-04-14T03:36:38Z'
+  lastfm_url: https://www.last.fm/music/Linkin+Park/_/Numb
+  mbid_track: 468ba3ac-5255-4c18-970e-59d890765bd9
+  mbid_artist: f59c5520-5f46-4d2c-b2c4-822eabf53419
+  mbid_album: 01e51f7c-4b95-4ae3-a707-181b74b1ebab
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Caught In The Echo
+  album: Caught In The Echo
+  played_at_utc: '2026-04-12T16:20:20Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Caught+In+The+Echo
+  mbid_track: 0877756b-6b18-4da8-84bd-e20371532bff
+  mbid_artist: 67f66c07-6e61-4026-ade5-7e782fad3a5d
+  mbid_album: 02fd3f6b-6c0d-4dc1-9aea-49f3468dca59
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a1c270d02d8ab9f69552e07f186bdd2.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: The Claypool Lennon Delirium
   track: Meat Machines
   album: Meat Machines
