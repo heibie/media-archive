@@ -1,3 +1,75 @@
+- artist: The Strokes
+  track: Going Shopping
+  album: Going Shopping
+  played_at_utc: '2026-04-14T06:41:42Z'
+  lastfm_url: https://www.last.fm/music/The+Strokes/_/Going+Shopping
+  mbid_track: ca036ec4-51b2-42d0-9ba7-2eea9de4eb0a
+  mbid_artist: f181961b-20f7-459e-89de-920ef03c7ed0
+  mbid_album: a5a80a78-a763-4d07-92fa-dbe000aaee93
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/953a4c051e471b0c9e0c5a7d863070c1.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Alex Cameron
+  track: Statue Down
+  album: Statue Down
+  played_at_utc: '2026-04-14T06:41:41Z'
+  lastfm_url: https://www.last.fm/music/Alex+Cameron/_/Statue+Down
+  mbid_track: null
+  mbid_artist: 0eabad49-1814-453a-8555-8a21edfbf0f4
+  mbid_album: 766ee4dd-09ae-41bd-b3a1-62f68bd2a8d2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/badac5f0246a7be67cb980ee4ab06eaa.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Silversun Pickups
+  track: In the Air
+  album: Cover Your Face
+  played_at_utc: '2026-04-14T06:33:34Z'
+  lastfm_url: https://www.last.fm/music/Silversun+Pickups/_/In+the+Air
+  mbid_track: null
+  mbid_artist: b5bd9f88-962e-4730-84a7-795592ba42e8
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/02f356ab931168916ebd417893a4d437.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: U2
+  track: In A Life
+  album: Easter Lily EP
+  played_at_utc: '2026-04-14T06:29:00Z'
+  lastfm_url: https://www.last.fm/music/U2/_/In+A+Life
+  mbid_track: 08c7e197-39b1-4fe0-90fc-9e05599053d1
+  mbid_artist: a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4be90c70368021f1f620c81880c56058.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Social Distortion
+  track: Partners In Crime
+  album: Partners In Crime
+  played_at_utc: '2026-04-14T06:25:09Z'
+  lastfm_url: https://www.last.fm/music/Social+Distortion/_/Partners+In+Crime
+  mbid_track: null
+  mbid_artist: e1e05cce-3922-44e1-8f20-015abe5e309d
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/03d6439560c485900fbd977705e533e9.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Green Day
+  track: Holiday
+  album: Holiday
+  played_at_utc: '2026-04-14T04:16:30Z'
+  lastfm_url: https://www.last.fm/music/Green+Day/_/Holiday
+  mbid_track: 83d6fe89-29ac-406b-939e-2f42a0c084bb
+  mbid_artist: 084308bd-1654-436f-ba03-df6697104e19
+  mbid_album: 6446679a-80d8-4099-b785-896639918400
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ef7112e06157829175ecf3b2f85c52aa.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: blink-182
   track: I Miss You
   album: blink-182
