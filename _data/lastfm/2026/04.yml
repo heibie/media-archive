@@ -1,3 +1,699 @@
+- artist: Get Well Soon
+  track: A Night At The Rififi Bar
+  album: A Night At The Rififi Bar
+  played_at_utc: '2026-04-22T17:07:38Z'
+  lastfm_url: https://www.last.fm/music/Get+Well+Soon/_/A+Night+At+The+Rififi+Bar
+  mbid_track: null
+  mbid_artist: 7bfdd0ec-adc2-455e-bd1f-eba31d64aa3a
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/a873105e3d6a6add0bbeffb0a62ddbbe.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Twilight Sad
+  track: Designed to Lose
+  album: It's The Long Goodbye
+  played_at_utc: '2026-04-22T17:03:51Z'
+  lastfm_url: https://www.last.fm/music/The+Twilight+Sad/_/Designed+to+Lose
+  mbid_track: 8cdc1a6c-1d52-4e30-9a80-5ae20fdae821
+  mbid_artist: d44d63b8-3da4-4f7d-aba1-a05ba8941b44
+  mbid_album: 99d34a38-b578-4f3c-9232-563794fd55d2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/69be081330b4debc849700d0b7b6e4ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Anna Calvi
+  track: God's Lonely Man
+  album: God’s Lonely Man
+  played_at_utc: '2026-04-22T17:01:08Z'
+  lastfm_url: https://www.last.fm/music/Anna+Calvi/_/God%27s+Lonely+Man
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ccaf1dfae1b203346a2a8d8248c2ff91.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Shaking Hand
+  track: Mantras
+  album: Shaking Hand
+  played_at_utc: '2026-04-22T16:54:20Z'
+  lastfm_url: https://www.last.fm/music/Shaking+Hand/_/Mantras
+  mbid_track: null
+  mbid_artist: 060536f6-9bef-4233-898c-57004bc27cdb
+  mbid_album: 0dd1750b-9f26-4a15-baac-6c0006c11ed3
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9a6f5abc1dde733043e5053aa8cf0b2a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Crooked Fingers
+  track: Haunted
+  album: Swet Deth
+  played_at_utc: '2026-04-22T16:51:24Z'
+  lastfm_url: https://www.last.fm/music/Crooked+Fingers/_/Haunted
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 4010e8fb-c596-4106-a5cd-306425675074
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cb6b5452df403bbfd2b8e24836bbfafb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Come In
+  album: Magnificent Fall
+  played_at_utc: '2026-04-22T16:47:40Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Come+In
+  mbid_track: 27c027a7-afee-4ab5-8cb7-34016ccd0885
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: eaf78ab6-dc6e-4268-87db-e03de3814cc6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b41e62eeaef08c23195de43e1c9f7bad.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nation of Language
+  track: Tougher Than the Rest
+  album: Tougher Than the Rest
+  played_at_utc: '2026-04-22T16:42:29Z'
+  lastfm_url: https://www.last.fm/music/Nation+of+Language/_/Tougher+Than+the+Rest
+  mbid_track: 003070b6-0fdf-4cbd-8756-8ae1c2f0a729
+  mbid_artist: 88927646-0c28-4b1b-a69e-cb33c400d650
+  mbid_album: 66688a16-51fa-436a-ac79-767d54e776da
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1fa48c691428ae466a1162b444f10f10.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Twilight Sad
+  track: DEAD FLOWERS
+  album: It's The Long Goodbye
+  played_at_utc: '2026-04-22T16:35:21Z'
+  lastfm_url: https://www.last.fm/music/The+Twilight+Sad/_/DEAD+FLOWERS
+  mbid_track: 9647ae54-c6a6-476e-b21f-47aff2a7ef00
+  mbid_artist: d44d63b8-3da4-4f7d-aba1-a05ba8941b44
+  mbid_album: 99d34a38-b578-4f3c-9232-563794fd55d2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/69be081330b4debc849700d0b7b6e4ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Ratboys
+  track: Know You Then
+  album: Singin’ to an Empty Chair
+  played_at_utc: '2026-04-22T16:32:08Z'
+  lastfm_url: https://www.last.fm/music/Ratboys/_/Know+You+Then
+  mbid_track: cfac8648-8ae8-4c07-9adc-7d7911c6ff76
+  mbid_artist: 423a85de-66ba-4113-abdc-ba2678ee89ba
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/521788a8e9365c45cb2a5a2b1714f96a.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Memorials
+  track: Dropped Down the Well
+  album: All Clouds Bring Not Rain
+  played_at_utc: '2026-04-22T16:27:37Z'
+  lastfm_url: https://www.last.fm/music/Memorials/_/Dropped+Down+the+Well
+  mbid_track: f648676f-b258-4bba-84ac-23a25c491e9f
+  mbid_artist: da08fa56-7311-4008-8592-d25aa4dd23ff
+  mbid_album: d3fd297c-63d1-4c47-b6fa-c69fffba077d
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b9a210d4394c224aa38d3b8f9770dc5e.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Crooked Fingers
+  track: From All Ways
+  album: Swet Deth
+  played_at_utc: '2026-04-22T16:23:20Z'
+  lastfm_url: https://www.last.fm/music/Crooked+Fingers/_/From+All+Ways
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: 4010e8fb-c596-4106-a5cd-306425675074
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/cb6b5452df403bbfd2b8e24836bbfafb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Magnificent Fall
+  album: Magnificent Fall
+  played_at_utc: '2026-04-22T16:18:41Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Magnificent+Fall
+  mbid_track: ba4b0bfd-4922-450b-ac62-6be9b41048c3
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: eaf78ab6-dc6e-4268-87db-e03de3814cc6
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b41e62eeaef08c23195de43e1c9f7bad.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Like This River
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T16:14:16Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Like+This+River
+  mbid_track: 72bd622e-7119-424a-9af6-68243e1014af
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Projectors
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T16:10:06Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Projectors
+  mbid_track: f58cedd1-6ad5-4f91-b9eb-636412468127
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: How the Story Ends
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T16:06:09Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/How+the+Story+Ends
+  mbid_track: e96415e0-0caf-42b6-a07b-4fd500be521e
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Who We Used To Be
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T16:02:29Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Who+We+Used+To+Be
+  mbid_track: 3074d1fc-e29b-43e2-a3e5-6e0d10855163
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Silver Lines
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:59:11Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Silver+Lines
+  mbid_track: cb458016-76c2-4974-8939-f16c6b525c4b
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Snow
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:55:40Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Snow
+  mbid_track: b57dc52e-e7b7-409e-a8b0-cfb1103cfb8f
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: The Turning
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:50:36Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/The+Turning
+  mbid_track: 8f948e2b-a747-467a-89e6-39e8a3023c55
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Red Sun
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:46:28Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Red+Sun
+  mbid_track: 022fbc84-6df2-424d-87c1-954729fbadb0
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Propeller 9
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:43:03Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Propeller+9
+  mbid_track: 00d40f0d-e73a-477d-80e9-5bb879d88d19
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: X-Ray
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:39:18Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/X-Ray
+  mbid_track: 462bac99-1338-4f08-b414-febf873aa408
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: Teeth
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T15:33:03Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/Teeth
+  mbid_track: 7a593893-c24d-4530-8ac0-6389c6020126
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dogstar
+  track: Joy
+  album: Joy
+  played_at_utc: '2026-04-22T13:06:36Z'
+  lastfm_url: https://www.last.fm/music/Dogstar/_/Joy
+  mbid_track: df152c95-440f-4f51-b145-5fcc668586d4
+  mbid_artist: a81ca1db-336e-4fff-84a1-f7106c36766e
+  mbid_album: 46506c3e-a82a-4b5c-a02a-b15dd85fcecc
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6965bad0f4917d51a03e097e54489ec7.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Damian Lewis
+  track: Sweet Chaos
+  album: Sweet Chaos
+  played_at_utc: '2026-04-22T13:02:38Z'
+  lastfm_url: https://www.last.fm/music/Damian+Lewis/_/Sweet+Chaos
+  mbid_track: null
+  mbid_artist: ef22aaa0-159a-4e1d-8512-cf49601c341f
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/015ee0c50f4a0277d3e45ffa2e93dd15.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Dave Hill
+  track: Post Cold War Politics
+  album: Cover Your Face
+  played_at_utc: '2026-04-22T12:47:18Z'
+  lastfm_url: https://www.last.fm/music/Dave+Hill/_/Post+Cold+War+Politics
+  mbid_track: 0733922a-788e-43f6-8184-c981b96b0eaa
+  mbid_artist: 372de02b-da78-4024-b38a-5f982533feca
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/02f356ab931168916ebd417893a4d437.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kurt Vile
+  track: Chance to Bleed
+  album: Chance to Bleed
+  played_at_utc: '2026-04-22T12:42:21Z'
+  lastfm_url: https://www.last.fm/music/Kurt+Vile/_/Chance+to+Bleed
+  mbid_track: c7634d50-e88f-45a8-af6e-62abb8ea7947
+  mbid_artist: e07a111e-4e8a-4651-a849-01ac60551ab2
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/090da5f4a8f3d915eb2ab203871ae09c.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: A
+  track: Shit Summer
+  album: Shit Summer
+  played_at_utc: '2026-04-22T12:37:16Z'
+  lastfm_url: https://www.last.fm/music/A/_/Shit+Summer
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d000b48c9ba2e55e3fd4a4e8fae28e62.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Girl In The Year Above
+  track: Mama, My Heart Is Achin'
+  album: Mama, My Heart Is Achin'
+  played_at_utc: '2026-04-22T12:33:30Z'
+  lastfm_url: https://www.last.fm/music/Girl+In+The+Year+Above/_/Mama,+My+Heart+Is+Achin%27
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/08a788ff81797e083d834f16e431122f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kresse 3
+  track: Kino
+  album: Kino
+  played_at_utc: '2026-04-22T12:27:51Z'
+  lastfm_url: https://www.last.fm/music/Kresse+3/_/Kino
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Deaf Radio
+  track: Idling
+  album: Idling
+  played_at_utc: '2026-04-22T12:23:42Z'
+  lastfm_url: https://www.last.fm/music/Deaf+Radio/_/Idling
+  mbid_track: null
+  mbid_artist: 214237f6-9c62-4b6f-a895-95c1e4382965
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4f90619695bab37f017b08711ee835ba.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Courtney Barnett
+  track: One Thing at a Time
+  album: Creature of Habit
+  played_at_utc: '2026-04-22T12:18:59Z'
+  lastfm_url: https://www.last.fm/music/Courtney+Barnett/_/One+Thing+at+a+Time
+  mbid_track: bc539663-ad76-4a41-92b0-259eaa06032f
+  mbid_artist: 55111838-f001-494a-a1b5-9d818db85810
+  mbid_album: 0a54174c-7a46-43f3-951e-b96bd9fbcb1f
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/da18972e0716a9aa5e7533cb44ad988f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Valter Nilsson
+  track: Gå som det går
+  album: Högsbo Riviera
+  played_at_utc: '2026-04-22T12:14:41Z'
+  lastfm_url: https://www.last.fm/music/Valter+Nilsson/_/G%C3%A5+som+det+g%C3%A5r
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5b7fffd39332476366d09e82958d6870.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Voodoo Jürgens
+  track: Langsam wirst ma fremd
+  album: Gschnas
+  played_at_utc: '2026-04-22T12:10:51Z'
+  lastfm_url: https://www.last.fm/music/Voodoo+J%C3%BCrgens/_/Langsam+wirst+ma+fremd
+  mbid_track: null
+  mbid_artist: e0675fe9-0288-45cd-a7aa-ba5941a8a052
+  mbid_album: f663812f-0d44-454c-a935-d9705911cab4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e8aa32ec8f09995dcc1c14ae490c2b4d.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Richard Ashcroft
+  track: Break the Night With Colour
+  album: Richard Ashcroft Live Vol 1
+  played_at_utc: '2026-04-22T12:05:00Z'
+  lastfm_url: https://www.last.fm/music/Richard+Ashcroft/_/Break+the+Night+With+Colour
+  mbid_track: 8e377be2-5fbe-4706-bb25-494d7fe033c5
+  mbid_artist: 2d1d8985-47bc-4244-8cc3-577584e411f6
+  mbid_album: bf36437b-1af4-4c4b-b586-3a91d386b98c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7313dd789237dc16b6585013961f02bd.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Clockworks
+  track: True Romance
+  album: The Entertainment
+  played_at_utc: '2026-04-22T12:01:59Z'
+  lastfm_url: https://www.last.fm/music/The+Clockworks/_/True+Romance
+  mbid_track: e4026f67-723c-4079-aa44-49cfce1862fc
+  mbid_artist: 51616baa-51db-41a0-8a2f-26a00d02ac0a
+  mbid_album: 0c3e7a53-3509-487a-98fa-bee1cf53d72c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d6797dc17a5a1cc646369286944db955.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jack White
+  track: Derecho Demonico
+  album: G.O.D. And The Broken Ribs / Derecho Demonico
+  played_at_utc: '2026-04-22T11:58:05Z'
+  lastfm_url: https://www.last.fm/music/Jack+White/_/Derecho+Demonico
+  mbid_track: 86b503d1-209c-415b-879a-9420cfd1f8ed
+  mbid_artist: 3ae2fb37-8a23-429d-9920-bac811c4fc22
+  mbid_album: 2d681357-4ea2-4f9c-b2d1-d8ca2e66b5c5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bae6ceb66e5db01a1e3aca16c1e23771.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Kneecap
+  track: FENIAN
+  album: FENIAN
+  played_at_utc: '2026-04-22T11:54:50Z'
+  lastfm_url: https://www.last.fm/music/Kneecap/_/FENIAN
+  mbid_track: 2748ee2a-3df6-4ce3-beb0-1439626a7973
+  mbid_artist: 6ac275dd-eb37-42cf-9a60-6b147320c7be
+  mbid_album: 1ab785c7-afaf-4a16-a367-f15358048c23
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1c2a2f3bee49cc952f5d0b7916e4e509.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angine de poitrine
+  track: Utzp
+  album: Vol.II
+  played_at_utc: '2026-04-22T11:47:59Z'
+  lastfm_url: https://www.last.fm/music/Angine+de+poitrine/_/Utzp
+  mbid_track: 1c579145-85e5-4b38-ad26-228595f8aab1
+  mbid_artist: 5fd29907-c3c5-4b1d-a799-7cf9bbd288fc
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/321a841f0c0fb2f6c3b6252b65514143.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Morcheeba
+  track: Bleeding Out - Brothers Counsell Dub
+  album: Bleeding Out (Brothers Counsell Dub)
+  played_at_utc: '2026-04-22T11:42:59Z'
+  lastfm_url: https://www.last.fm/music/Morcheeba/_/Bleeding+Out+-+Brothers+Counsell+Dub
+  mbid_track: null
+  mbid_artist: 067102ea-9519-4622-9077-57ca4164cfbb
+  mbid_album: 25bbe82a-7054-4224-8b87-6c928bcea0f1
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/1333f80415adcd56ae212dd0278eef20.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Aerosmith
+  track: Livin' on the Edge
+  album: Big Ones
+  played_at_utc: '2026-04-22T11:36:37Z'
+  lastfm_url: https://www.last.fm/music/Aerosmith/_/Livin%27+on+the+Edge
+  mbid_track: null
+  mbid_artist: 3d2b98e5-556f-4451-a3ff-c50ea18d57cb
+  mbid_album: 01fb67c5-22f7-3074-82ad-67ba766f2cdd
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/3b6e8c831b594d5bb7362e7d6e0eb723.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Bon Jovi
+  track: Always
+  album: Cross Road
+  played_at_utc: '2026-04-22T11:30:44Z'
+  lastfm_url: https://www.last.fm/music/Bon+Jovi/_/Always
+  mbid_track: null
+  mbid_artist: 5dcdb5eb-cb72-4e6e-9e63-b7bace604965
+  mbid_album: 2a5ec015-9ae5-46d6-835a-a268bee043b0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ef2fb44324ea1c38ac27823155b1b91e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Pulp
+  track: Cold Call on the Hot Line
+  album: The Man Comes Around
+  played_at_utc: '2026-04-22T11:26:37Z'
+  lastfm_url: https://www.last.fm/music/Pulp/_/Cold+Call+on+the+Hot+Line
+  mbid_track: null
+  mbid_artist: 76b2e842-5e85-4c97-ab62-d5bc315595b5
+  mbid_album: 3a6b1555-cfff-479a-807d-87a802f10d46
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/4aec2dd81a0d6eed03c0fdf0db72a78b.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: This is Lorelei
+  track: A Song That Sings About You - Momma Version
+  album: Box for Buddy, Box for Star (Super Deluxe)
+  played_at_utc: '2026-04-22T11:23:12Z'
+  lastfm_url: https://www.last.fm/music/This+is+Lorelei/_/A+Song+That+Sings+About+You+-+Momma+Version
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/f8cccdd7e33c5d4771bd578df095da4f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angine de poitrine
+  track: Sarniezz
+  album: Vol.II
+  played_at_utc: '2026-04-22T06:26:09Z'
+  lastfm_url: https://www.last.fm/music/Angine+de+poitrine/_/Sarniezz
+  mbid_track: 2456f690-add7-467f-9ca7-4669dd923b54
+  mbid_artist: 5fd29907-c3c5-4b1d-a799-7cf9bbd288fc
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/321a841f0c0fb2f6c3b6252b65514143.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angine de poitrine
+  track: Mata Zyklek
+  album: Vol.II
+  played_at_utc: '2026-04-22T06:19:59Z'
+  lastfm_url: https://www.last.fm/music/Angine+de+poitrine/_/Mata+Zyklek
+  mbid_track: 045d00df-cccd-4963-a811-4621138305aa
+  mbid_artist: 5fd29907-c3c5-4b1d-a799-7cf9bbd288fc
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/321a841f0c0fb2f6c3b6252b65514143.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Angine de poitrine
+  track: Fabienk
+  album: Vol.II
+  played_at_utc: '2026-04-22T06:13:28Z'
+  lastfm_url: https://www.last.fm/music/Angine+de+poitrine/_/Fabienk
+  mbid_track: 2da12ff8-4736-44b2-8cb8-5a4ce1bb669f
+  mbid_artist: 5fd29907-c3c5-4b1d-a799-7cf9bbd288fc
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/321a841f0c0fb2f6c3b6252b65514143.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Schluma
+  track: Starstruck
+  album: Die besten Dinge geschehen wenn du mich falsch verstehst
+  played_at_utc: '2026-04-22T06:11:59Z'
+  lastfm_url: https://www.last.fm/music/Schluma/_/Starstruck
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Schluma
+  track: Die besten Dinge geschehen wenn du mich falsch verstehst
+  album: Die besten Dinge geschehen wenn du mich falsch verstehst
+  played_at_utc: '2026-04-22T06:10:25Z'
+  lastfm_url: https://www.last.fm/music/Schluma/_/Die+besten+Dinge+geschehen+wenn+du+mich+falsch+verstehst
+  mbid_track: null
+  mbid_artist: null
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Asking For A Friend
+  album: Of All People
+  played_at_utc: '2026-04-22T06:06:46Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Asking+For+A+Friend
+  mbid_track: 9e2132de-7dfb-442c-8a6d-25a48b16d0b3
+  mbid_artist: null
+  mbid_album: da48d25a-232e-4f75-a711-b9b383ced868
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6d3eb80637c3d70864250130d94c0531.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Your Favorite Toy
+  album: Of All People
+  played_at_utc: '2026-04-22T06:03:49Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Your+Favorite+Toy
+  mbid_track: e0a84c74-689e-4bf5-8378-ccef57c36868
+  mbid_artist: null
+  mbid_album: da48d25a-232e-4f75-a711-b9b383ced868
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6d3eb80637c3d70864250130d94c0531.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Caught In The Echo
+  album: Of All People
+  played_at_utc: '2026-04-22T05:59:47Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Caught+In+The+Echo
+  mbid_track: 0877756b-6b18-4da8-84bd-e20371532bff
+  mbid_artist: null
+  mbid_album: da48d25a-232e-4f75-a711-b9b383ced868
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6d3eb80637c3d70864250130d94c0531.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Of All People
+  album: Of All People
+  played_at_utc: '2026-04-22T05:57:13Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Of+All+People
+  mbid_track: 4a4cc08c-71a6-473c-a7dd-bb2cd66456e8
+  mbid_artist: null
+  mbid_album: da48d25a-232e-4f75-a711-b9b383ced868
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/6d3eb80637c3d70864250130d94c0531.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Afghan Whigs
+  track: House of I
+  album: House of I
+  played_at_utc: '2026-04-22T04:27:32Z'
+  lastfm_url: https://www.last.fm/music/The+Afghan+Whigs/_/House+of+I
+  mbid_track: 07d27174-e307-4c14-872a-ae9ac6db6a68
+  mbid_artist: 2feb192c-2363-46d6-b476-1c88a25cb294
+  mbid_album: 6f97047e-ab25-4ca7-8b20-ee5099e5890c
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/bd7c0dd4ca952b939aa75329bcff02eb.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Band of Horses
+  track: (Biding Time Is a) Boat to Row
+  album: Everything All The Time (20th Anniversary Edition)
+  played_at_utc: '2026-04-22T04:24:11Z'
+  lastfm_url: https://www.last.fm/music/Band+of+Horses/_/(Biding+Time+Is+a)+Boat+to+Row
+  mbid_track: 0c2c7acc-5153-4ed5-aba1-687bf1deed27
+  mbid_artist: 07b6020a-c539-4d68-aeef-f159f3befc76
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/5e3352f8c4bef09d2067ea0213ac59aa.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Sugar
+  track: House of Dead Memories
+  album: House of Dead Memories
+  played_at_utc: '2026-04-22T04:22:04Z'
+  lastfm_url: https://www.last.fm/music/Sugar/_/House+of+Dead+Memories
+  mbid_track: 866d97ea-83ca-4623-8e16-8fd86ef915dc
+  mbid_artist: null
+  mbid_album: dbb0ba5b-a8db-435d-b18c-86a2ed39cb69
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ad25d90f82e8f23fe8778360100770e3.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Notwist
+  track: X-Ray
+  album: News from Planet Zombie
+  played_at_utc: '2026-04-22T04:18:07Z'
+  lastfm_url: https://www.last.fm/music/The+Notwist/_/X-Ray
+  mbid_track: 462bac99-1338-4f08-b414-febf873aa408
+  mbid_artist: f180cec2-9421-4417-a841-c7372090d13d
+  mbid_album: ad9646dc-1d0e-407c-b8be-1dcce4bcb4b5
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/aeb2ec91cf3a50e907fe08f39a9b023f.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Voxtrot
+  track: Fighting Back
+  album: Dreamers in Exile
+  played_at_utc: '2026-04-22T04:14:06Z'
+  lastfm_url: https://www.last.fm/music/Voxtrot/_/Fighting+Back
+  mbid_track: null
+  mbid_artist: c163f6f1-84c0-48fa-81c5-8129739b6c3c
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/05b35b0c49df0767cf5f5bdf43d0d303.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: PLOSIVS
   track: Metacine
   album: YELL AT CLOUD
