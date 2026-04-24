@@ -1,3 +1,15 @@
+- artist: The Twilight Sad
+  track: GET AWAY FROM IT ALL
+  album: It's The Long Goodbye
+  played_at_utc: '2026-04-23T05:00:15Z'
+  lastfm_url: https://www.last.fm/music/The+Twilight+Sad/_/GET+AWAY+FROM+IT+ALL
+  mbid_track: bae5e85e-6277-4a5b-b0e1-0f15518941dd
+  mbid_artist: d44d63b8-3da4-4f7d-aba1-a05ba8941b44
+  mbid_album: 99d34a38-b578-4f3c-9232-563794fd55d2
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/69be081330b4debc849700d0b7b6e4ff.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Get Well Soon
   track: A Night At The Rififi Bar
   album: A Night At The Rififi Bar
