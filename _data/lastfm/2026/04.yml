@@ -1,3 +1,15 @@
+- artist: Lime Garden
+  track: Cross My Heart
+  album: Maybe Not Tonight
+  played_at_utc: '2026-04-24T20:10:34Z'
+  lastfm_url: https://www.last.fm/music/Lime+Garden/_/Cross+My+Heart
+  mbid_track: 3100c589-ca36-4b28-9034-98649229710d
+  mbid_artist: 47d7fd0d-6598-43a0-b7b3-39bfff0d3ce4
+  mbid_album: 29e40087-209d-4127-9a2d-1c735973304e
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/26c3a3db4ffaee434a8af64254f6c81e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Gardens
   track: Thunderstealer
   album: Thunderstealer
