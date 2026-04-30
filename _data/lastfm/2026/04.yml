@@ -1,3 +1,15 @@
+- artist: Angine de Poitrine
+  track: Utzp
+  album: Vol.II
+  played_at_utc: '2026-04-29T04:29:37Z'
+  lastfm_url: https://www.last.fm/music/Angine+de+Poitrine/_/Utzp
+  mbid_track: 1c579145-85e5-4b38-ad26-228595f8aab1
+  mbid_artist: 5fd29907-c3c5-4b1d-a799-7cf9bbd288fc
+  mbid_album: aa7845c8-79e3-4149-93ac-3968d7951439
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/321a841f0c0fb2f6c3b6252b65514143.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Max&Joy
   track: Alles Liebe
   album: Alles Liebe
