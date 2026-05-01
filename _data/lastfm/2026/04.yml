@@ -1,3 +1,51 @@
+- artist: Beck
+  track: Ride Lonesome
+  album: Ride Lonesome
+  played_at_utc: '2026-04-30T15:26:31Z'
+  lastfm_url: https://www.last.fm/music/Beck/_/Ride+Lonesome
+  mbid_track: 0a25e092-45d8-4b20-816c-3c69832252d0
+  mbid_artist: null
+  mbid_album: 889be3b0-798f-4f6d-9b0c-795dc6d32e15
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/ca634b320a925e775f244aa15ad304dd.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Guided by Voices
+  track: When You're My Clown (Nothing Happens)
+  album: When You're My Clown (Nothing Happens)
+  played_at_utc: '2026-04-30T15:23:04Z'
+  lastfm_url: https://www.last.fm/music/Guided+by+Voices/_/When+You%27re+My+Clown+(Nothing+Happens)
+  mbid_track: null
+  mbid_artist: 6c85f4c3-026c-4c16-9a7c-f546f42ed0fb
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/06d8e6a8a7d190acfe93e038f1cfb2ec.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Foo Fighters
+  track: Window
+  album: Your Favorite Toy
+  played_at_utc: '2026-04-30T15:19:27Z'
+  lastfm_url: https://www.last.fm/music/Foo+Fighters/_/Window
+  mbid_track: 38df31d6-4205-4c73-882a-16a478bb06d0
+  mbid_artist: 67f66c07-6e61-4026-ade5-7e782fad3a5d
+  mbid_album: 23b55196-372b-4299-86fa-a4b4e54a9d98
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/204553b8d027324d0d2c62a72d6e53de.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Truckfighters
+  track: Old Big Eye
+  album: Masterflow
+  played_at_utc: '2026-04-30T15:19:22Z'
+  lastfm_url: https://www.last.fm/music/Truckfighters/_/Old+Big+Eye
+  mbid_track: null
+  mbid_artist: 724e826b-bd80-49ca-8bfe-4e470b0b9aa9
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fbeb234985941fae356b9d64734b9d3b.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Angine de Poitrine
   track: Utzp
   album: Vol.II
