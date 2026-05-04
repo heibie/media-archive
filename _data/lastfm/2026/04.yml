@@ -1,3 +1,15 @@
+- artist: Dave Hause
+  track: The Odds
+  album: The Odds
+  played_at_utc: '2026-04-30T19:11:31Z'
+  lastfm_url: https://www.last.fm/music/Dave+Hause/_/The+Odds
+  mbid_track: 9dd59a67-5d48-4185-9325-e445aa58c617
+  mbid_artist: feb265ec-e510-4277-9451-914e3c6ceac5
+  mbid_album: 9a28da0b-19cd-4227-8f0d-63bcb3bafc32
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/e228e70594aefa60fb2cf340f237af80.png
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Beck
   track: Ride Lonesome
   album: Ride Lonesome
