@@ -1,3 +1,99 @@
+- artist: Radiohead
+  track: Fake Plastic Trees
+  album: The Bends
+  played_at_utc: '2026-05-16T15:41:32Z'
+  lastfm_url: https://www.last.fm/music/Radiohead/_/Fake+Plastic+Trees
+  mbid_track: null
+  mbid_artist: a74b1b7f-71a5-4011-9441-d0b5e4122711
+  mbid_album: 0405cb4c-fc88-3338-b5d6-1fa71a9562e4
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/9ea9931e129bb5efd3606866901855b5.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Smiths
+  track: There Is a Light That Never Goes Out - 2011 Remaster
+  album: The Queen Is Dead
+  played_at_utc: '2026-05-16T15:37:27Z'
+  lastfm_url: https://www.last.fm/music/The+Smiths/_/There+Is+a+Light+That+Never+Goes+Out+-+2011+Remaster
+  mbid_track: 449b6c10-9dae-4b6a-9af7-27a31507393a
+  mbid_artist: 40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27
+  mbid_album: 0fcc367d-af66-49ee-b7b0-8351a91e04c0
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/fac0b27adf403efed8b368d3a236ab61.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Cage the Elephant
+  track: Cigarette Daydreams
+  album: Melophobia
+  played_at_utc: '2026-05-16T15:33:57Z'
+  lastfm_url: https://www.last.fm/music/Cage+the+Elephant/_/Cigarette+Daydreams
+  mbid_track: 4b28d358-2718-4892-9c73-62af20b7ad64
+  mbid_artist: b41b38d4-ef3e-4f37-8c75-cfe9af999696
+  mbid_album: 3e1c43e6-5e93-4298-9b99-eaf07d14fd4a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/d070e505cdab4b27cb39bfe28eb63343.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Jeff Buckley
+  track: Lover, You Should've Come Over
+  album: Grace
+  played_at_utc: '2026-05-16T15:27:12Z'
+  lastfm_url: https://www.last.fm/music/Jeff+Buckley/_/Lover,+You+Should%27ve+Come+Over
+  mbid_track: null
+  mbid_artist: e6e879c0-3d56-4f12-b3c5-3ce459661a8e
+  mbid_album: 1964ad07-cf2b-3508-88d7-fc96e7bb0803
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/b9c826bf4d8da57694c54d7403d5cb18.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Fontaines D.C.
+  track: I Love You
+  album: Skinty Fia
+  played_at_utc: '2026-05-16T15:22:06Z'
+  lastfm_url: https://www.last.fm/music/Fontaines+D.C./_/I+Love+You
+  mbid_track: be9db312-2af0-4770-a56a-81fd382e802a
+  mbid_artist: fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68
+  mbid_album: f304e7c4-f66a-4131-8685-f7edeed5e3ea
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/7384e60ccd4592662d959e2ec5335864.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: The Strokes
+  track: The Adults Are Talking
+  album: The New Abnormal
+  played_at_utc: '2026-05-16T15:16:57Z'
+  lastfm_url: https://www.last.fm/music/The+Strokes/_/The+Adults+Are+Talking
+  mbid_track: 6e667b69-d824-4580-8921-56e2a8ddcaf9
+  mbid_artist: f181961b-20f7-459e-89de-920ef03c7ed0
+  mbid_album: 38057097-d52d-4494-a92d-dd1582f9cc8a
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/576554c542da76c08f0e80c129afcb0e.png
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Mazzy Star
+  track: Fade Into You
+  album: So Tonight That I Might See
+  played_at_utc: '2026-05-16T15:08:33Z'
+  lastfm_url: https://www.last.fm/music/Mazzy+Star/_/Fade+Into+You
+  mbid_track: null
+  mbid_artist: c48d4327-8122-4286-af66-05e1ee6ac4d8
+  mbid_album: 994acea1-22a7-4d4d-b886-a8c230ad6834
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/60615ead3d8383e70e84a526817de4bf.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
+- artist: Nine Inch Nails
+  track: Heresy - Nine Inch Noize Version
+  album: Nine Inch Noize
+  played_at_utc: '2026-05-15T11:51:29Z'
+  lastfm_url: https://www.last.fm/music/Nine+Inch+Nails/_/Heresy+-+Nine+Inch+Noize+Version
+  mbid_track: null
+  mbid_artist: b7ffd2af-418f-4be2-bdd1-22f8b48613da
+  mbid_album: null
+  cover_url: https://lastfm.freetls.fastly.net/i/u/300x300/17c04c392a7eb1a1f99a31f7dd55d526.jpg
+  loved: false
+  duration_sec: null
+  source: lastfm
 - artist: Anastasía
   track: Hon steg på finlandsbåten
   album: Göteborg sjunger Alf
